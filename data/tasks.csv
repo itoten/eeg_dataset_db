@@ -3451,7 +3451,20 @@ wbcic_mi_yang2025,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 weibo2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 won2022_rsvp_p300,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 yi2025_eeg_fnirs_joints,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zenodo_10004793,tms_eeg_blocks_mpfc_ag_sma_active_and_sh,"TMS–EEG blocks (mPFC, AG, SMA; active and sham TMS)",other,,,,,,,,
+zenodo_10026399,face_gender_classification,face-gender classification,cognitive_task;visual_erp,,,,,,,,
+zenodo_10034963,single_pulse_tms_over_m1_in_resting_stat,single-pulse TMS over M1 in resting state,other,,,,,,,,
+zenodo_10054005,background_state_of_quiet_wakefulness_wi,background state of quiet wakefulness with eyes closed,resting_eyes_closed,,,,,,,,
+zenodo_10054005,cognitive_test_for_counting_sound_signal,cognitive test for counting sound signals,auditory_erp;cognitive_task,,,,,,,,
+zenodo_10054049,even_odd_number_of_squares_visual_stimul,even/odd number of squares (visual stimuli),cognitive_task;visual_erp,,,,,,,,
+zenodo_10054049,passive_wakefulness,passive wakefulness,resting_unspecified,,,,,,,,
+zenodo_10168534,eyes_open_eyes_closed,eyes open / eyes closed,resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_10200984,nap,nap,sleep,,,,,,,,
+zenodo_10205701,cue_based_conversation_listening_and_spe,cue-based conversation (listening and speaking),emotion_induction;overt_speech,,,,,,,,
+zenodo_10229050,unattended_oddball_paradigm_mmn,unattended oddball paradigm (MMN),auditory_erp;language,,,,,,,,
 zenodo_10229479,main,,motor_execution,,,,,,,,Paradigm stated by the dataset name
+zenodo_10229479,unilateral_and_bilateral_movement_execut,unilateral and bilateral movement executions (reaching / button press),motor_execution,,,,,,,,
+zenodo_10259995,long_term_monitoring_after_withdrawal_of,long-term monitoring after withdrawal of anti-seizure medication,clinical_routine;long_term_monitoring,,,,,,,,
 zenodo_15454354,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
