@@ -3673,6 +3673,22 @@ zenodo_10696429,temporal_numerosity_adaptation,temporal numerosity adaptation,vi
 zenodo_10728063,pseudoword_reverse_spelling_task_using_a,pseudoword reverse spelling task using a BCI speller,other,,,,,,,,
 zenodo_10797878,imagined_speech,imagined speech,imagined_speech,,,,,,,,
 zenodo_10797878,spoken_speech,spoken speech,overt_speech,,,,,,,,
+zenodo_10803228,auditory_attention_to_one_of_four_talker,auditory attention to one of four talkers,other,,,,,,,,
+zenodo_10828803,errp_elicited_by_tactile_visual_and_visu,"ErrP elicited by Tactile, Visual, and VisuoTactile stimuli",other,,,,,,,,
+zenodo_10828803,relax_r_and_motor_imagery_i_of_walking,Relax (R) and Motor Imagery (I) of walking,motor_imagery,,,,,,,,
+zenodo_10907609,motor_execution_left_hand_right_hand_fee,"motor execution (left hand, right hand, feet, rest)",motor_execution,,,,,,,,
+zenodo_10936368,auditory_and_visual_stimuli_different_an,"auditory and visual stimuli, different animation speeds",other,,,,,,,,
+zenodo_10980116,single_speaker_and_competing_speaker_sel,single-speaker and competing-speaker selective auditory attention,other,,,,,,,,
+zenodo_11058710,competing_talker_listening_in_conditions,"competing-talker listening in conditions MovingVideo, MovingTargetNoise, NoVisuals, StaticVideo",other,,,,,,,,
+zenodo_11072722,t_5_class_burst_c_vep_gabor_based_textures,"5-class burst c-VEP (Gabor-based textures, Ricker-based textures, Plain stimuli)",visual_erp,,,,,,,,
+zenodo_11173744,tms_evoked_potentials,TMS-evoked potentials,other,,,,,,,,
+zenodo_11190208,tactile_only_auditory_only_stimulation_o,tactile only / auditory only stimulation of the hands in uncrossed and crossed posture,other,,,,,,,,
+zenodo_11211876,resting_state_eyes_closed,Resting state eyes closed,resting_eyes_closed,,,,,,,,
+zenodo_11211876,resting_state_eyes_open,resting state eyes open,resting_eyes_open,,,,,,,,
+zenodo_11211876,visual_oddball_task_p300_erps,visual oddball task (P300 ERPs),p300_erp,,,,,,,,
+zenodo_1146090,four_class_ssvep_bci_offline_and_online,"four-class SSVEP BCI, offline and online (Control, Speaking, Thinking, Listening)",ssvep,,,,,,,,
+zenodo_11541113,auditory_spatial_attention_to_one_of_two,auditory spatial attention to one of two speakers at 10 locations,other,,,,,,,,
+zenodo_1158409,auditory_n_back_1_back_2_back_on_continu,auditory n-back (1-back/2-back) on continuous speech in low/high noise,cognitive_task,,,,,,,,
 zenodo_15454354,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name

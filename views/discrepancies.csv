@@ -51,3 +51,7 @@ hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflict
 hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://huggingface.co/datasets/MaRez10/EEG_Pain_Perception,Audit reviewer; scope: downsampled (whether the distributed files are at 250 hz is not stated)
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
+zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
+zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,8196,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: recorded (record text)
+zenodo_1158409,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.1158410,Audit reviewer; scope: distributed
+zenodo_1158409,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7155003/fullTextXML,Audit reviewer; scope: recorded
