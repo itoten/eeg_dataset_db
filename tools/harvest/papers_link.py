@@ -87,7 +87,11 @@ def register(today):
             title = " ".join(html.unescape(m["title"][0]).split())
             note = ("The Zenodo record says it supplements or is described by this paper" if primary else
                     "Listed in the dataset record's ReferencesAndLinks; whether it is the dataset's own paper is not established")
-            R.source(sid, "https://doi.org/" + doi, "paper", "authors" if primary else "third_party", title=title, doi=doi,
+            ex = next((x for x in B.db["sources"][1] if x["doi"].lower() == doi.lower()), None)
+            if ex:  # the DOI is already a source (a paper cited twice, or the record itself): reuse it
+                R.link(ex["source_id"], "paper" if primary and ex["kind"] == "paper" else "other")
+                continue
+            sid = R.source(sid, "https://doi.org/" + doi, "paper", "authors" if primary else "third_party", title=title, doi=doi,
                      identity_basis=note, note="Title read from Crossref")
             R.link(sid, "paper" if primary else "other")
             n += 1
