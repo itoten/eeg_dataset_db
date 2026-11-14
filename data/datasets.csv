@@ -615,6 +615,13 @@ eldbeta,eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for 
 faced,FACED,,,,,2023,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
 gu2024_ssvep_1_60hz,An open dataset for human SSVEPs in the frequency range of 1-60 Hz,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
 he2025_remote_sensing,EEGET-RSOD,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+hf_alexeykashevnik_eegmeditation,EEGMeditation,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,gated_click_through,per_dataset_human,,,,,,,2026-11-14
+hf_lasfk_eeg_fnirs_based_handwriting_trajectory_dataset,EEG-fNIRS-based Handwriting Trajectory Dataset,,scalp_eeg,,,2026,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,gated_click_through,per_dataset_human,,,,,,,2026-11-14
+hf_marez10_eeg_pain_perception,EEG_Pain_Perception,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,gated_click_through,per_dataset_human,,,,,,,2026-11-14
+hf_neurofusion_eeg_restingstate,eeg-restingstate,,scalp_eeg,,,2023,Apache-2.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+hf_synapse_ear_eeg_synapse,Synapse,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+hf_tqxg2022_eeg3d,EEG3D,,scalp_eeg,,,2024,Apache-2.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+hf_yefllower_eegfacesem,EEGFaceSem,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 high_gamma_dataset,High Gamma Dataset,,,,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 hmc_sleep_staging,Haaglanden Medisch Centrum sleep staging database,,psg;scalp_eeg;eog;emg;ecg,,,,CC-BY-4.0,,,,,,,,,,,,15.7,,,,,,direct_download,open,,,,,,,2026-11-14
 hms_harmful_brain_activity,HMS - Harmful Brain Activity Classification,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
