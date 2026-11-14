@@ -46,6 +46,7 @@ chbmit,CHB-MIT Scalp EEG Database,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,22,,,,42.6,,,,
 chbmp_cuban,CHBMP_database,,,,,2020,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
 chen2023_stroop_eeg_fnirs,Open access dataset integrating EEG and fNIRS during Stroop tasks,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 chen2024_deception,An EEG Dataset of Neural Signatures in a Competitive Two-Player Game Encouraging Deceptive Behavior,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+cho2017,EEG datasets for motor imagery brain computer interface,,emg;scalp_eeg,,,2017,,,,,,,,,52,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 choi2024_voice_emotion,EEG Dataset for the Recognition of Different Emotions Naturally Induced in Voice-User Interaction,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 consumer_grade_wearables,CogWear: Can we detect cognitive effort with consumer-grade wearables?,,scalp_eeg,,,,ODbL-1.0,,,,,,,,,,,,2.7,,,,,,direct_download,open,,,,,,,2026-11-14
 cps_dataset_sleep,Comprehensive Polysomnography (CPS) Dataset: A Resource for Sleep-Related Arousal Research,,psg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,,,2026-11-14
@@ -612,8 +613,11 @@ eldbeta,eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for 
 faced,FACED,,,,,2023,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
 gu2024_ssvep_1_60hz,An open dataset for human SSVEPs in the frequency range of 1-60 Hz,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 he2025_remote_sensing,EEGET-RSOD,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+high_gamma_dataset,High Gamma Dataset,,,,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 hmc_sleep_staging,Haaglanden Medisch Centrum sleep staging database,,psg;scalp_eeg;eog;emg;ecg,,,,CC-BY-4.0,,,,,,,,,,,,15.7,,,,,,direct_download,open,,,,,,,2026-11-14
+hms_harmful_brain_activity,HMS - Harmful Brain Activity Classification,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
 i_care,I-CARE: International Cardiac Arrest REsearch consortium Database,,scalp_eeg;ecg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+isruc_sleep,ISRUC-Sleep,,psg,sleep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
 ji2024_stroop_high_altitude,EEG and fNIRS Datasets Based on Stroop Task during Two Weeks of High-Altitude Exposure in New Immigrants,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 jsmf_access,JSMF ACCESS intraoperative derived EEG data set,,scalp_eeg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,,,2026-11-14
 kaya2018,A large electroencephalographic motor imagery dataset for electroencephalographic brain computer interfaces,,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -622,14 +626,19 @@ liu2024_acute_stroke_mi,EEG datasets of stroke patients,,scalp_eeg,,,2023,CC-BY-
 liu2025_stroke_lower_limb_mi,Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 ltrsvp,EEG Signals from an RSVP Task,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,11,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 ma2020_joints_mi,Multi-channel EEG recording during motor imagery of different joints from the same limb,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+modma,MODMA,,scalp_eeg;audio,,,,,,,,,,,,,,,,,,,,,,gated_click_through,per_dataset_human,,,,,,Whether the EULA is approved automatically is not stated in the paper; the site could not be opened from this environment (HTTP 412) [modma_paper].,2026-11-14
 moffa2022_theta_burst,"Dataset supporting the study ""Neuromodulatory effects of theta-burst stimulation of the prefrontal cortex using TMS-EEG""",,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 motion_artifact,Motion Artifact Contaminated fNIRS and EEG Data,,scalp_eeg;fnirs,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+mpi_lemon,Leipzig Mind-Brain-Body Dataset - LEMON,,scalp_eeg,,,,PDDL-1.0,,,,,,,,228,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 mssvepdb,MAMEM SSVEP Database,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,11,,,,5.1,,,,,,direct_download,open,,,,,,,2026-11-14
 multimodal_gait_dataset,"A multimodal gait dataset of brain activity, muscle activity, kinematics and ground forces in young adults",,scalp_eeg;emg,,,,CC-BY-4.0,,,,,,,,59,,,,6.5,,,,,,direct_download,open,,,,,,,2026-11-14
 mumtaz2016_mdd,MDD Patients and Healthy Controls EEG Data (New),,scalp_eeg,,,2016,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+nakanishi2015_ssvep,12JFPM_SSVEP,,scalp_eeg,,,,,,,,,,,,10,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+natview_eeg_fmri,An open-access dataset of naturalistic viewing using simultaneous EEG-fMRI,,fmri;scalp_eeg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,The paper says raw and preprocessed data are openly available to download [natview_paper]. The download instructions (a PDF on the data index) have not been read [natview_indi].,2026-11-14
 nch_sleep,NCH Sleep DataBank: A Large Collection of Real-world Pediatric Sleep Studies with Longitudinal Clinical Data,,psg;scalp_eeg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,,,2026-11-14
 neuro_stress_resilience_hci,Neurophysiological Dataset of Stress Resilience During Human-Computer Interaction,,scalp_eeg;fnirs;eda,,,,ODbL-1.0,,,,,,,,35,,,,19.1,,,,,,direct_download,open,,,,,,,2026-11-14
 ngo2024_als_spelling,An EEG & Eye-Tracking Dataset of ALS Patients & Healthy People during Eye-Tracking-Based Spelling System Usage,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+nmt_scalp_eeg,NMT Scalp EEG Dataset,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,The paper points to https://dll.seecs.nust.edu.pk/downloads/ for its source code and data; that page has not been read [nmt_paper].,2026-11-14
 openbmi,EEG Dataset and OpenBMI Toolbox for Three BCI Paradigms,,emg;scalp_eeg,bci,,2019,,,,,,,,,54,,,,,,,,,,direct_download,open,,,,,motor_imagery;resting_unspecified;ssvep,,2026-11-14
 pei2022_athletes_alertness,A simultaneous EEG and eye-tracking dataset in elite athletes during alertness and concentration tasks,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 psg_ipa,PSG-IPA: A PolySomnoGraphic Inter-scorer Performance Assessment database,,psg;scalp_eeg;eog;emg,,,,CC-BY-4.0,,,,,,,,,,,,2.6,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -646,11 +655,14 @@ seed_vii,SEED-VII,,scalp_eeg,emotion,,,,,,,,,,,20,,,,,,,,,,request_form_or_email
 seed_vla,SEED-VLA,,scalp_eeg,,,,,,,,,,,,20,,,,,,,,,,request_form_or_email,approval,18,300,,DSI-24,,,2026-11-14
 seed_vrw,SEED-VRW,,scalp_eeg,,,,,,,,,,,,14,,,,,,,,,,request_form_or_email,approval,18,300,,DSI-24,,,2026-11-14
 shhpsgdb,Sleep Heart Health Study PSG Database,,psg;scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+shin2017_eeg_nirs,Open access dataset for EEG+NIRS single-trial classification,,fnirs;scalp_eeg,,,,,The download page asks the user to agree with 'the GNU license terms' without naming the license version [shin2017_tub].,,,,,,,29,,,,,,,,,,gated_click_through,per_dataset_human,,,,,,,2026-11-14
+shin2018_eeg_nirs_cognitive,Simultaneous acquisition of EEG and NIRS during cognitive tasks for an open access dataset,,fnirs;scalp_eeg,,,,,,,,,,,,26,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 shu_mi_ma2022,SHU Multi-session Dataset,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 siena_scalp_eeg,Siena Scalp EEG Database,,scalp_eeg,,,,CC-BY-4.0,,,,,,,,14,,,,20.3,,,,,,direct_download,open,,,,,,,2026-11-14
 sleep_edf,Sleep-EDF Database,,scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 sleep_edfx,Sleep-EDF Database Expanded,,psg;scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,8.1,,,,,,direct_download,open,,,,,,,2026-11-14
 slpdb,MIT-BIH Polysomnographic Database,,psg;scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+sosulski2019_auditory_oddball,Electroencephalogram signals recorded from 13 healthy subjects during an auditory oddball paradigm under different stimulus onset asynchrony conditions,,scalp_eeg,,,,,,,,,,,,13,,,,,,,,,,,,,,,,,,2026-11-14
 sparrkulee,"SparrKULee: A Speech-evoked Auditory Response Repository of the KU Leuven, containing EEG of 85 participants",,scalp_eeg,,,2023,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
 stieger2021_smr_bci,Human EEG Dataset for Brain-Computer Interface and Meditation,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 tao2024_driving_mpdb,Driving behaviour multimodal human factors preprocessed dataset,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
