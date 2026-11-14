@@ -52,6 +52,7 @@ def main():
     routes, setups, tasks = by_ds("access_routes"), by_ds("acquisition_setups"), by_ds("tasks")
     groups, pfields, anns = by_ds("participant_groups"), by_ds("participant_fields"), by_ds("annotations")
     issues, rels, aliases, chans = by_ds("issues"), by_ds("relations"), by_ds("aliases"), by_ds("channels")
+    quality = by_ds("quality_info")
     D = []
     for i, d in wide.items():
         v = view[i]
@@ -80,6 +81,7 @@ def main():
             "pf": [[r["field_name"], r["category"], r["description"], r["unit"]] for r in pfields[i]],
             "ann": [[r["item"], r["name"], r["labels"], sidx.get(r["source_id"], -1), r["locator"]] for r in anns[i]],
             "iss": [[r["type"], r["description"], sidx.get(r["source_id"], -1)] for r in issues[i]],
+            "qual": [[r["kind"], r["description"], r["form"], sidx.get(r["source_id"], -1)] for r in quality[i]],
             "rel": [[r["relation"], r["other_dataset_id"], r["note"]] for r in rels[i]],
             "alias": [[r["alias"], r["alias_type"]] for r in aliases[i]],
             "ch": ch,
