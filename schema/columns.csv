@@ -122,7 +122,7 @@ channels,checked_by,enum:checked_by,-,no,Who checked
 channels,note,text,empty,no,Notes
 tasks,dataset_id,slug,-,no,Foreign key to datasets
 tasks,task_id,slug,-,no,ID within the dataset (BIDS task label when there is one)
-tasks,task_name,text,conflicting,yes,Task name as the source writes it
+tasks,task_name,text,empty;conflicting,yes,Task name as the source writes it; empty for a row that records only the paradigm a dataset's name states
 tasks,paradigms,enumlist:paradigm,empty;unknown;conflicting,yes,Kinds of paradigm
 tasks,stimulus_modalities,enumlist:stimulus_modality,empty;unknown;none;conflicting,yes,Kinds of stimuli
 tasks,response_required,bool,empty;unknown;NA;conflicting,yes,"Whether participants respond overtly (button, movement, speech)"

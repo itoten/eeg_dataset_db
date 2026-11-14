@@ -120,6 +120,7 @@ footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-widt
     <input id="q" type="search" autocomplete="off" aria-label="Search">
     <select id="f-repo" aria-label="Repository"></select>
     <select id="f-mod" aria-label="Modality"></select>
+    <select id="f-par" aria-label="Paradigm"></select>
     <select id="f-dom" aria-label="Domain"></select>
     <select id="f-lic" aria-label="License"></select>
     <span class="count" id="count"></span>
@@ -154,12 +155,12 @@ const L = {
     lede: "公開されている EEG データセット(頭皮・耳・睡眠ポリグラフ・頭蓋内)の一覧です。すべての値は、読んだ<b>一次資料</b>と結びついています。このページは資料への案内で、資料の代わりではありません。値を使う前に出典を確かめてください。",
     meta: (n, s, b, c) => `${n} データセット · 出典 ${s} 件 · ${b} 作成(commit ${c})`,
     access_h: "データの入手のしやすさ",
-    search: "名前・ID・機器・課題で検索…", all_repo: "すべてのリポジトリ", all_mod: "すべてのモダリティ", all_dom: "すべての領域", all_lic: "すべてのライセンス",
+    search: "名前・ID・機器・課題で検索…", all_repo: "すべてのリポジトリ", all_mod: "すべてのモダリティ", all_par: "すべての課題(パラダイム)", all_dom: "すべての研究分野", all_lic: "すべてのライセンス",
     count: (a, b) => `${a} / ${b} 件`, more: "さらに表示", close: "閉じる", not_checked: "未確認",
     foot1: "空欄 = まだ確認していない。<span class=\"mono\">unknown</span> = 資料の全文を読んだが書いていない。<span class=\"mono\">conflicting</span> = 資料が食い違う(両方が各データセットの根拠に出ます)。表は横にスクロールできます。",
     foot2: "ライセンスは記載された条件の分類で、法的助言ではありません。このカタログは、データセットを使うべきかどうかを判断しません。",
     groups: { id: "データセット", rec: "規模", setup: "計測条件(チャネル配置)", task: "課題", people: "被験者", qual: "品質情報", rights: "ライセンス・入手" },
-    cols: { name: "名前 / ID", repo: "リポジトリ", mod: "モダリティ", dom: "領域", year: "公開年", subj: "被験者数", sess: "セッション数", rec: "記録数", hours: "時間 (h)", gb: "サイズ (GB)",
+    cols: { name: "名前 / ID", repo: "リポジトリ", mod: "モダリティ", dom: "研究分野", year: "公開年", subj: "被験者数", sess: "セッション数", rec: "記録数", hours: "時間 (h)", gb: "サイズ (GB)",
       nch: "EEG ch 数", mont: "電極配置", fs: "サンプリング (Hz)", dev: "計測機器", tasks: "課題 / パラダイム", age: "年齢・性別", pf: "参加者表の項目", qual: "品質情報", parent: "親データセット",
       lic: "ライセンス", com: "商用利用", tier: "入手" },
     tiers: { open: ["人の作業なし", "直接ダウンロード(URL・API・S3)"], one_time_human: ["サイトごとに1回", "無料アカウント・トークン、またはサイト共通の同意が1回"],
@@ -167,7 +168,7 @@ const L = {
     method: { direct_download: "直接ダウンロード", free_account_required: "無料アカウント・トークン", site_terms_agreement: "サイト共通の同意(1回)", gated_click_through: "データセットごとに同意",
       request_form_or_email: "申請(フォーム・メール)", credentialed_training: "資格審査と研修", signed_agreement: "署名つきの契約", paid_or_membership: "有料・会員", unavailable: "配布なし" },
     sec: { summary: "概要", routes: "データの入手", setup: "計測条件", tasks: "課題", people: "被験者", pf: "配布物の参加者表の項目", ann: "ラベル・アノテーション", qual: "品質情報", iss: "配布物の問題", rel: "関係するデータセット", docs: "資料", ev: "各値の出典" },
-    f: { access: "入手", repo: "リポジトリ", mod: "モダリティ", dom: "領域", subj: "被験者数", sess: "セッション数", rec: "記録数", hours: "時間", gb: "サイズ", nch: "EEG ch 数", fs: "サンプリング", dev: "機器", par: "パラダイム", year: "公開年", bids: "BIDS", lic: "ライセンス", licn: "ライセンスの注記", terms: "利用条件", termsn: "利用条件の注記", checked: "確認した資料", alias: "別名", notes: "メモ", upd: "更新日",
+    f: { access: "入手", repo: "リポジトリ", mod: "モダリティ", dom: "研究分野", subj: "被験者数", sess: "セッション数", rec: "記録数", hours: "時間", gb: "サイズ", nch: "EEG ch 数", fs: "サンプリング", dev: "機器", par: "パラダイム", year: "公開年", bids: "BIDS", lic: "ライセンス", licn: "ライセンスの注記", terms: "利用条件", termsn: "利用条件の注記", checked: "確認した資料", alias: "別名", notes: "メモ", upd: "更新日",
       route: "経路", link: "リンク", steps: "人がすること", meth: "方法", tools: "ツール", tried: "試した結果", nothing: "なし",
       setup: "計測条件", scope: "範囲", other: "その他のチャネル", place: "電極配置", ref: "参照電極", gnd: "接地電極", line: "電源周波数", elec: "電極の種類", hw: "ハードウェアフィルタ", chn: "チャネル名",
       group: "群", cond: "状態", diag: "診断", age: "年齢", sex: "性別", hand: "利き手", prior: "経験", female: "女性", male: "男性", mean: "平均", sd: "SD",
@@ -180,12 +181,12 @@ const L = {
     lede: "Public EEG datasets (scalp, ear, polysomnography, intracranial), each value tied to the <b>primary source</b> it was read from. This page is a guide to those sources, not a substitute for them: check the source before relying on a value.",
     meta: (n, s, b, c) => `${n} datasets · ${s} source documents · built ${b} from commit ${c}`,
     access_h: "How the data can be obtained",
-    search: "Search name, ID, device, task…", all_repo: "All repositories", all_mod: "All modalities", all_dom: "All domains", all_lic: "All licenses",
+    search: "Search name, ID, device, task…", all_repo: "All repositories", all_mod: "All modalities", all_par: "All paradigms", all_dom: "All research domains", all_lic: "All licenses",
     count: (a, b) => `${a} of ${b}`, more: "Show more", close: "Close", not_checked: "not checked",
     foot1: "Empty cell = not checked yet. <span class=\"mono\">unknown</span> = the whole source was read and does not say. <span class=\"mono\">conflicting</span> = sources disagree; both are listed in the dataset's evidence. The table scrolls sideways.",
     foot2: "Licenses are a classification of the stated terms, not legal advice. The catalogue does not judge whether a dataset should be used.",
     groups: { id: "Dataset", rec: "Size", setup: "Recording setup (channel layout)", task: "Tasks", people: "Participants", qual: "Quality", rights: "License and access" },
-    cols: { name: "Name / ID", repo: "Repository", mod: "Modality", dom: "Domain", year: "Year", subj: "Subjects", sess: "Sessions", rec: "Recordings", hours: "Hours", gb: "Size (GB)",
+    cols: { name: "Name / ID", repo: "Repository", mod: "Modality", dom: "Research domain", year: "Year", subj: "Subjects", sess: "Sessions", rec: "Recordings", hours: "Hours", gb: "Size (GB)",
       nch: "EEG ch.", mont: "Placement", fs: "Rate (Hz)", dev: "Device", tasks: "Tasks / paradigms", age: "Age, sex", pf: "Participant variables", qual: "Quality info", parent: "Parent dataset",
       lic: "License", com: "Commercial use", tier: "Access" },
     tiers: { open: ["No human step", "Direct download (URL, API, S3)"], one_time_human: ["One step per site", "A free account, token or one site-wide agreement"],
@@ -226,10 +227,10 @@ D.forEach(d => {
     p += (x ? " L" : "M") + x + " " + y.toFixed(1); }
   svg.innerHTML = `<path d="${p}" fill="none" stroke="var(--trace)" stroke-width="1.4" vector-effect="non-scaling-stroke"/>`; })();
 
-const state = { q: "", tier: null, repo: "", mod: "", dom: "", lic: "", sort: ["subj", -1], shown: 100, open: null };
+const state = { q: "", tier: null, repo: "", mod: "", par: "", dom: "", lic: "", sort: ["subj", -1], shown: 100, open: null };
 const tierCount = {}; D.forEach(d => tierCount[d.tier] = (tierCount[d.tier] || 0) + 1);
 const tally = f => { const c = {}; D.forEach(d => f(d).forEach(v => c[v] = (c[v] || 0) + 1)); return Object.entries(c).sort((a, b) => b[1] - a[1]); };
-const TALLY = { "f-repo": tally(d => [d.repo]), "f-mod": tally(d => semi(d.mod)), "f-dom": tally(d => semi(d.dom)), "f-lic": tally(d => [d.lic || ""]) };
+const TALLY = { "f-repo": tally(d => [d.repo]), "f-mod": tally(d => semi(d.mod)), "f-par": tally(d => semi(d.par)), "f-dom": tally(d => semi(d.dom)), "f-lic": tally(d => [d.lic || ""]) };
 
 const ageSex = g => { if (!g) return ""; const t = T().f; const a = [];
   if (g.age_min && g.age_max) a.push(`${g.age_min}–${g.age_max}`); if (g.age_mean) a.push(`${t.mean} ${g.age_mean}`);
@@ -271,7 +272,7 @@ function applyLang() {
   document.getElementById("q").placeholder = T().search;
   const opts = (id, label) => { const el = document.getElementById(id); const cur = el.value;
     el.innerHTML = `<option value="">${esc(label)}</option>` + TALLY[id].map(([v, n]) => `<option value="${esc(v)}">${esc(v || T().not_checked)} (${n})</option>`).join(""); el.value = cur; };
-  opts("f-repo", T().all_repo); opts("f-mod", T().all_mod); opts("f-dom", T().all_dom); opts("f-lic", T().all_lic);
+  opts("f-repo", T().all_repo); opts("f-mod", T().all_mod); opts("f-par", T().all_par); opts("f-dom", T().all_dom); opts("f-lic", T().all_lic);
   document.getElementById("bar").innerHTML = TIERS.filter(t => tierCount[t[0]]).map(t =>
     `<span style="width:${100 * tierCount[t[0]] / D.length}%;background:${t[1]}" title="${esc(T().tiers[t[0]][0])}: ${tierCount[t[0]]}"></span>`).join("");
   document.getElementById("legend").innerHTML = TIERS.filter(t => tierCount[t[0]]).map(t =>
@@ -290,7 +291,7 @@ document.getElementById("legend").addEventListener("click", e => { const b = e.t
   document.querySelectorAll("#legend button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.t === state.tier)));
   state.shown = 100; render(); });
 const bind = (id, key) => document.getElementById(id).addEventListener("input", e => { state[key] = e.target.value; state.shown = 100; render(); });
-bind("q", "q"); bind("f-repo", "repo"); bind("f-mod", "mod"); bind("f-dom", "dom"); bind("f-lic", "lic");
+bind("q", "q"); bind("f-repo", "repo"); bind("f-mod", "mod"); bind("f-par", "par"); bind("f-dom", "dom"); bind("f-lic", "lic");
 const sortBy = k => { const textual = ["name", "repo", "mod", "dom", "mont", "dev", "parent", "lic", "com"].includes(k);
   state.sort = [k, state.sort[0] === k ? -state.sort[1] : (textual ? 1 : -1)]; render(); };
 document.getElementById("thead").addEventListener("click", e => { const th = e.target.closest("th[data-k]"); if (th) sortBy(th.dataset.k); });
@@ -301,7 +302,7 @@ const hay = d => (d._hay ??= [d.id, d.name, d.full, d.dev, d.mod, d.dom, d.par, 
 function render() {
   const q = state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const list = D.filter(d => (state.tier === null || d.tier === state.tier) && (!state.repo || d.repo === state.repo)
-    && (!state.mod || semi(d.mod).includes(state.mod)) && (!state.dom || semi(d.dom).includes(state.dom))
+    && (!state.mod || semi(d.mod).includes(state.mod)) && (!state.par || semi(d.par).includes(state.par)) && (!state.dom || semi(d.dom).includes(state.dom))
     && (!state.lic || (d.lic || "") === state.lic) && q.every(w => hay(d).includes(w)));
   const [k, dir] = state.sort; const col = COLS.find(c => c.k === k);
   list.sort((a, b) => { const x = col.s(a), y = col.s(b);
