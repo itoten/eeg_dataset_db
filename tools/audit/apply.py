@@ -254,7 +254,7 @@ def main():
             name = " ".join(str(t.get("task_name", "")).split())
             tid = next((k for k, r in tasks.items() if r["task_name"].casefold() == name.casefold()), None)
             if not tid:
-                tid = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")[:40] or "task"
+                tid = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")[:40].strip("_") or "task"
                 tid = tid if tid[0].isalpha() else "t_" + tid
                 while tid in tasks and tasks[tid]["task_name"].casefold() != name.casefold():
                     tid += "_x"
@@ -271,7 +271,7 @@ def main():
             if not check(did, "group", g.get("url"), g.get("quote")):
                 continue
             label = " ".join(str(g.get("group_label") or "all participants").split())
-            gid = re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")[:30] or "all"
+            gid = re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")[:30].strip("_") or "all"
             gid = gid if gid[0].isalpha() else "g_" + gid
             if gid not in groups:
                 groups[gid] = R.child("participant_groups", gid, group_label=label)
