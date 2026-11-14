@@ -1103,7 +1103,6 @@ ds009081,nemar,mirror,https://nemar.org/dataset/on009081,direct_download,none,ne
 ds009081,openneuro,repository,https://openneuro.org/datasets/ds009081/versions/1.0.0,site_terms_agreement,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),aws-s3;openneuro-cli;datalad,,,
 ds009082,openneuro,repository,https://openneuro.org/datasets/ds009082/versions/1.0.1,site_terms_agreement,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),aws-s3;openneuro-cli;datalad,,,
 ds009097,openneuro,repository,https://openneuro.org/datasets/ds009097/versions/1.0.0,site_terms_agreement,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),aws-s3;openneuro-cli;datalad,,,
-dv_10_18710_bfmctv,dataverse,repository,https://doi.org/10.18710/BFMCTV,direct_download,none,dataverse-api,,,
 dv_10_18710_d5io4r,dataverse,repository,https://doi.org/10.18710/D5IO4R,direct_download,none,dataverse-api,,,
 dv_10_18710_e96an9,dataverse,repository,https://doi.org/10.18710/E96AN9,direct_download,none,dataverse-api,,,
 dv_10_18710_eozhm6,dataverse,repository,https://doi.org/10.18710/EOZHM6,direct_download,none,dataverse-api,,,

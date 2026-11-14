@@ -1,4 +1,12 @@
 dataset_id,field,kind,value,source_type,source_ref,note
+dv_10_18710_mwbect,acquisition_setups:main.device_model,conflicting,ActiCHamp,primary,https://dataverse.no/api/access/datafile/290076,Audit reviewer; scope: not given
+dv_10_18710_mwbect,acquisition_setups:main.device_model,conflicting,LiveAmp 32,primary,https://dataverse.no/api/access/datafile/287571,Audit reviewer; scope: not given
+dv_10_18710_mwbect,acquisition_setups:main.reference,conflicting,unipolar reference placed on Cz,primary,https://dataverse.no/api/access/datafile/290076,Audit reviewer; scope: not given
+dv_10_18710_mwbect,acquisition_setups:main.reference,conflicting,"unipolar, placed on FCz",primary,https://dataverse.no/api/access/datafile/287571,Audit reviewer; scope: not given
+dv_10_18710_mwbect,n_subjects_reported,conflicting,67,primary,https://dataverse.no/api/access/datafile/290076,Audit reviewer; scope: not given
+dv_10_18710_mwbect,n_subjects_reported,conflicting,78,primary,https://dataverse.no/api/datasets/:persistentId/?persistentId=doi:10.18710/MWBECT,Audit reviewer; scope: not given
+dv_10_18710_wvq6wn,n_subjects_reported,conflicting,21,primary,https://dataverse.no/api/access/datafile/290074,Audit reviewer; scope: not given
+dv_10_18710_wvq6wn,n_subjects_reported,conflicting,28,primary,https://dataverse.no/api/datasets/:persistentId/?persistentId=doi:10.18710/WVQ6WN,Audit reviewer; scope: not given
 dv_10_7910_dvn_5rm3ot,acquisition_setups:main.device_manufacturer,conflicting,ANT Neuro,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: not given
 dv_10_7910_dvn_5rm3ot,acquisition_setups:main.device_manufacturer,conflicting,g.tec,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: not given
 dv_10_7910_dvn_5rm3ot,acquisition_setups:main.device_model,conflicting,g.Pangolin,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: not given
