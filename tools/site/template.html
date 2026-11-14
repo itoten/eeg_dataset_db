@@ -30,6 +30,9 @@ h1 { font: 650 clamp(26px, 4vw, 38px)/1.15 var(--f-display); margin: 0; text-wra
 .lang button { all: unset; cursor: pointer; font: 500 12px var(--f-body); padding: 5px 10px; color: var(--muted); }
 .lang button[aria-pressed="true"] { background: var(--accent-soft); color: var(--fg); }
 .lang button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.quote { margin: 4px 0 0; padding: 2px 0 2px 14px; border-left: 3px solid var(--trace); max-width: 72ch; }
+.quote p { margin: 0; font: 500 20px/1.4 var(--f-display); }
+.quote footer { font-size: 12px; margin-top: 2px; }
 .lede { margin: 0; max-width: 72ch; color: var(--muted); }
 .lede b { color: var(--fg); font-weight: 600; }
 #trace { width: 100%; height: 44px; display: block; }
@@ -106,6 +109,7 @@ footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-widt
       </div>
     </div>
     <svg id="trace" viewBox="0 0 1000 44" preserveAspectRatio="none" aria-hidden="true"></svg>
+    <blockquote class="quote"><p data-i="quote"></p><footer><a href="https://ja.wikipedia.org/wiki/Trust,_but_verify" target="_blank" rel="noopener" data-i="quote_src"></a></footer></blockquote>
     <p class="lede" data-i="lede" data-html="1"></p>
     <div class="meta" id="meta"></div>
   </header>
@@ -152,6 +156,7 @@ const S = DATA.S, D = DATA.D;
 const L = {
   ja: {
     title: "EEG データセット・カタログ",
+    quote: "「信頼せよ、されど確認せよ」(Trust, but verify)", quote_src: "出典: Wikipedia「Trust, but verify」",
     lede: "公開されている EEG データセット(頭皮・耳・睡眠ポリグラフ・頭蓋内)の一覧です。すべての値は、読んだ<b>一次資料</b>と結びついています。このページは資料への案内で、資料の代わりではありません。値を使う前に出典を確かめてください。",
     meta: (n, s, b, c) => `${n} データセット · 出典 ${s} 件 · ${b} 作成(commit ${c})`,
     access_h: "データの入手のしやすさ",
@@ -178,6 +183,7 @@ const L = {
   },
   en: {
     title: "EEG Dataset Catalogue",
+    quote: "“Trust, but verify.”", quote_src: "Source: Wikipedia (Japanese), “Trust, but verify”",
     lede: "Public EEG datasets (scalp, ear, polysomnography, intracranial), each value tied to the <b>primary source</b> it was read from. This page is a guide to those sources, not a substitute for them: check the source before relying on a value.",
     meta: (n, s, b, c) => `${n} datasets · ${s} source documents · built ${b} from commit ${c}`,
     access_h: "How the data can be obtained",
