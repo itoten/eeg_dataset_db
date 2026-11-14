@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+# Each user's own working space; only its README is tracked.
+local/*
+!local/README.md

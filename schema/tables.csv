@@ -1,0 +1,21 @@
+table,path,key_columns,description
+datasets,data/datasets.csv,dataset_id,One row = one dataset (authoritative). Evidence for values is in evidence.csv
+evidence,data/evidence.csv,evidence_id,"One row = evidence for one value of a column with evidence=yes, in datasets or in a dataset's child rows (acquisition_setups, tasks, participant_groups, access_routes)"
+sources,data/sources.csv,source_id,"One row = one source document (paper, page, license file, release files, BIDS metadata file, catalogue entry)"
+dataset_sources,data/dataset_sources.csv,dataset_id;source_id;role,"The sources that introduce a dataset: its paper, its distribution page, mirrors, catalogue entries"
+aliases,data/aliases.csv,dataset_id;alias,Other names of a dataset
+relations,data/relations.csv,dataset_id;relation;other_dataset_id,"Relations between datasets (subset, version, distinct, suspected identity)"
+providers,data/providers.csv,provider_id,One row = one institution that recorded or distributes data
+access_routes,data/access_routes.csv,dataset_id;route_id,"One row = one way to obtain the data (official page, repository, mirror, loader), with what a person must do on it"
+acquisition_setups,data/acquisition_setups.csv,dataset_id;setup_id,"One row = one recording setup within a dataset (device, electrodes, montage, sampling rate). A dataset with mixed setups has several rows"
+channels,data/channels.csv,dataset_id;setup_id;channel_name,"One row = one channel of a setup, as the source names it"
+tasks,data/tasks.csv,dataset_id;task_id,One row = one experimental task (paradigm) recorded in a dataset. Not a machine-learning benchmark (see benchmarks)
+task_steps,data/task_steps.csv,dataset_id;task_id;step_no,"One row = one step of the sequence of a task (fixation, cue, imagery, rest, ...), in order"
+annotations,data/annotations.csv,dataset_id;item;name,"One row = one label set or annotation of a dataset (event markers, class labels, diagnoses, sleep stages, artifact marks, self-reports, ...)"
+label_counts,data/label_counts.csv,dataset_id;item;name;label;source_id,"Number of units (trials, segments, recordings, subjects) per label of an annotation, as a source states it"
+participant_groups,data/participant_groups.csv,dataset_id;group_id,"One row = one group of participants (patients, controls, all) with the summary values a source gives"
+participant_fields,data/participant_fields.csv,dataset_id;field_name,"One row = one per-participant variable in the release (age, weight, BCI experience, ...), and how many participants have it"
+quality_info,data/quality_info.csv,dataset_id;quality_no,"One row = one kind of quality information the data collectors provide (impedances, bad channel marks, artifact marks, ratings, notes)"
+distributed_versions,data/distributed_versions.csv,dataset_id;version_id,"One row = one form in which the data is distributed (raw, preprocessed, epoched, features), with the processing the provider applied"
+benchmarks,data/benchmarks.csv,dataset_id;benchmark_id,"One row = one machine-learning task that a paper defined on the dataset, with its metric and reported result"
+issues,data/issues.csv,dataset_id;issue_no,One row = one problem of the release as distributed

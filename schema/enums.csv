@@ -1,0 +1,271 @@
+enum,value,description
+checked_by,claude,AI investigation
+checked_by,user,The project maintainer opened the source (recorded through a merged verification pull request)
+checked_by,script,A tool read a machine-readable source
+evidence_status,current,Valid
+evidence_status,superseded,Replaced by a newer row; kept as history
+evidence_status,conflicting,Sources disagree; the cell is conflicting
+modality,scalp_eeg,"EEG on the scalp (any channel count, including consumer devices)"
+modality,ear_eeg,EEG in or around the ear
+modality,ieeg_ecog,Electrocorticography
+modality,ieeg_seeg,Stereo-EEG / depth electrodes
+modality,psg,Polysomnography (EEG among other signals)
+modality,meg,MEG recorded together with EEG
+modality,eog,Electrooculography
+modality,ecg,Electrocardiography
+modality,emg,Electromyography
+modality,eye_tracking,Eye tracking
+modality,fnirs,fNIRS
+modality,fmri,fMRI
+modality,eda,Electrodermal activity
+modality,respiration,Respiration
+modality,video,Video
+modality,audio,Audio
+modality,other_physiological,Other physiological signals
+domain,clinical,Clinical recordings or patients
+domain,epilepsy,Epilepsy and seizures
+domain,sleep,Sleep
+domain,bci,Brain-computer interface
+domain,emotion,Emotion and affect
+domain,cognitive,"Cognitive experiments (attention, memory, language, ...)"
+domain,perception,Sensory perception
+domain,motor,Motor execution or imagery outside BCI
+domain,resting_state,Resting state
+domain,development,"Development, children, ageing"
+domain,psychiatry,Psychiatric conditions
+domain,neurology,Neurological conditions other than epilepsy
+domain,other,Other
+license_spdx,CC0-1.0,
+license_spdx,CC-BY-4.0,
+license_spdx,CC-BY-SA-4.0,
+license_spdx,CC-BY-NC-4.0,
+license_spdx,CC-BY-NC-SA-4.0,
+license_spdx,CC-BY-NC-ND-4.0,
+license_spdx,CC-BY-ND-4.0,
+license_spdx,ODC-By-1.0,
+license_spdx,ODbL-1.0,
+license_spdx,PDDL-1.0,
+license_spdx,MIT,
+license_spdx,Apache-2.0,
+license_spdx,GPL-3.0,
+license_spdx,PhysioNet-Restricted,PhysioNet Restricted Health Data License
+license_spdx,PhysioNet-Credentialed,PhysioNet Credentialed Health Data License
+license_spdx,custom,Terms of the authors' own; see license_note
+license_spdx,none_stated,The sources were read and state no license
+terms_statement,allowed,The terms allow it without conditions beyond the license
+terms_statement,allowed_with_conditions,The terms allow it under stated conditions (see terms_note)
+terms_statement,prohibited,The terms prohibit it
+terms_statement,not_stated,The terms were read and do not address it
+file_format,edf,European Data Format (EDF/EDF+)
+file_format,bdf,BioSemi Data Format
+file_format,brainvision,BrainVision (.vhdr/.eeg/.vmrk)
+file_format,eeglab_set,EEGLAB .set/.fdt
+file_format,fif,MNE/Neuromag .fif
+file_format,gdf,General Data Format
+file_format,cnt,Neuroscan .cnt
+file_format,mat,MATLAB .mat
+file_format,npy_npz,NumPy .npy/.npz
+file_format,csv_txt,Text tables
+file_format,hdf5,"HDF5 (including .h5, .nwb)"
+file_format,pickle,"Python pickle (.pkl, .dat of DEAP)"
+file_format,mef,Multiscale Electrophysiology Format
+file_format,other,Other
+access_method,open_direct,"Download without any human step (URL, API, CLI, S3)"
+access_method,open_with_token,"A free account or API token once per site, then automatic"
+access_method,click_through,"Agreement to terms per dataset, approved automatically"
+access_method,manual_approval,A request (form or e-mail) approved by the provider
+access_method,credentialed,Credentialing or training required (e.g. PhysioNet credentialed)
+access_method,institutional_agreement,A data use agreement signed by an institution
+access_method,paid,Payment or membership
+access_method,not_available,"No way to obtain the data is offered (only 'contact the authors', dead links)"
+access_tier,open,open_direct: obtainable without a human
+access_tier,one_time_human,open_with_token: one human step per site
+access_tier,per_dataset_human,click_through: one human agreement per dataset
+access_tier,approval,"manual_approval, credentialed, institutional_agreement, paid: a provider or a contract decides"
+access_tier,unavailable,not_available
+access_observed,obtained,Data (or a sample file) downloaded
+access_observed,listing_obtained,The file listing was obtained without a human step; no data downloaded
+access_observed,needs_account,Stopped at an account or token
+access_observed,needs_agreement,Stopped at terms to accept
+access_observed,request_sent,A request was sent; waiting
+access_observed,refused,The request was refused
+access_observed,broken,"The route did not work (dead link, error)"
+route_kind,official,The authors' own distribution
+route_kind,repository,"A data repository where the authors deposited the data (OpenNeuro, PhysioNet, Zenodo, OSF, ...)"
+route_kind,mirror,A copy by someone other than the authors
+route_kind,loader,"A library that downloads the data (MOABB, braindecode, torcheeg, ...)"
+yes_no,yes,Stated
+yes_no,no,Stated not
+electrode_type,wet_gel,Gel-based
+electrode_type,saline,Saline / sponge
+electrode_type,dry,Dry
+electrode_type,intracranial,Intracranial electrodes
+electrode_type,mixed,Several kinds
+montage_system,10_20,International 10-20
+montage_system,10_10,10-10 (10% system)
+montage_system,10_05,10-5
+montage_system,egi_hydrocel,EGI Geodesic HydroCel
+montage_system,biosemi_abc,BioSemi ABC layout
+montage_system,easycap_custom,Manufacturer cap layout other than the standard ones
+montage_system,device_fixed,"Fixed positions of a consumer device (Emotiv, Muse, ...)"
+montage_system,ear,Ear-EEG positions
+montage_system,intracranial,Implanted electrodes; positions per patient
+montage_system,custom,Custom positions
+channel_type,eeg,EEG
+channel_type,ieeg,Intracranial EEG
+channel_type,eog,EOG
+channel_type,ecg,ECG
+channel_type,emg,EMG
+channel_type,ref,Reference recorded as a channel
+channel_type,trigger,Trigger / stimulus channel
+channel_type,resp,Respiration
+channel_type,eda,Electrodermal activity
+channel_type,audio,Audio
+channel_type,misc,Other
+paradigm,resting_eyes_open,
+paradigm,resting_eyes_closed,
+paradigm,resting_unspecified,
+paradigm,motor_imagery,
+paradigm,motor_execution,
+paradigm,p300_erp,Oddball / P300 speller
+paradigm,ssvep,
+paradigm,auditory_erp,"Auditory evoked potentials (MMN, ASSR, ...)"
+paradigm,visual_erp,Visual evoked potentials other than P300 and SSVEP
+paradigm,emotion_induction,Stimuli meant to induce emotions
+paradigm,imagined_speech,
+paradigm,overt_speech,
+paradigm,language,Reading or listening to language
+paradigm,cognitive_task,"Working memory, attention, decision tasks"
+paradigm,passive_viewing,Watching films or images without a task
+paradigm,sleep,Overnight or nap sleep
+paradigm,clinical_routine,"Routine clinical EEG (photic stimulation, hyperventilation, ...)"
+paradigm,long_term_monitoring,"Continuous monitoring (ICU, epilepsy monitoring unit)"
+paradigm,anesthesia,
+paradigm,neurofeedback,
+paradigm,other,Other
+stimulus_modality,visual,
+stimulus_modality,auditory,
+stimulus_modality,audiovisual,
+stimulus_modality,tactile,
+stimulus_modality,olfactory,
+stimulus_modality,electrical,Electrical or magnetic stimulation
+stimulus_modality,other,
+step_level,trial,
+step_level,block,
+step_level,run,
+step_level,session,
+annotation_item,event_markers,"Onsets of stimuli, cues or responses"
+annotation_item,class_labels,Trial classes or conditions
+annotation_item,self_report_ratings,"Ratings by participants (valence, arousal, ...)"
+annotation_item,clinical_diagnosis,Diagnosis per subject or recording
+annotation_item,clinical_report,Clinicians' reports
+annotation_item,normal_abnormal,Normal / abnormal judgement of a recording
+annotation_item,seizure_annotations,Seizure onsets and offsets
+annotation_item,event_annotations,"Clinical events (spikes, slowing, ...)"
+annotation_item,sleep_stages,
+annotation_item,artifact_annotations,Marks of artifacts by people or tools
+annotation_item,behavioral_responses,"Responses, reaction times, accuracy"
+annotation_item,questionnaires,Questionnaire scores
+annotation_item,other,Other
+annotation_unit,trial,
+annotation_unit,segment,A time span within a recording
+annotation_unit,epoch_30s,Fixed sleep epochs
+annotation_unit,recording,
+annotation_unit,session,
+annotation_unit,subject,
+annotation_unit,event,A point in time
+annotator,human_expert,Clinicians or trained scorers
+annotator,human_other,Other people
+annotator,participant,The participants themselves
+annotator,stimulus_defined,Given by the experiment design
+annotator,automatic,An algorithm
+annotator,mixed,Several of these
+group_condition,healthy,
+group_condition,patient,
+group_condition,mixed,Patients and healthy participants not separated in the source
+participant_field_category,age,
+participant_field_category,sex_gender,
+participant_field_category,handedness,
+participant_field_category,weight,
+participant_field_category,height,
+participant_field_category,prior_experience,"Experience with BCI, EEG or the task"
+participant_field_category,diagnosis,
+participant_field_category,medication,
+participant_field_category,education,
+participant_field_category,cognitive_score,
+participant_field_category,questionnaire,
+participant_field_category,vision_hearing,
+participant_field_category,ethnicity_language,
+participant_field_category,session_state,"Sleepiness, caffeine, time of day, ..."
+participant_field_category,other,
+field_level,subject,
+field_level,session,
+field_level,recording,
+quality_kind,impedance_values,Measured impedances per channel
+quality_kind,impedance_threshold,A stated impedance limit kept during recording
+quality_kind,bad_channel_marks,Channels marked as bad
+quality_kind,bad_segment_marks,Time spans marked as bad
+quality_kind,artifact_annotations,Artifacts labelled by type
+quality_kind,quality_rating,A quality score or grade per recording or subject
+quality_kind,rejected_trials,Trials excluded by the providers
+quality_kind,recording_notes,Notes written during recording
+quality_kind,signal_check_procedure,A stated procedure for checking signals
+quality_kind,other,
+data_state,raw,As recorded
+data_state,preprocessed,Continuous data after filtering or cleaning
+data_state,epoched,Cut into trials or windows
+data_state,features,Derived features only (no signals)
+benchmark_type,classification,
+benchmark_type,regression,
+benchmark_type,detection,Event detection in continuous data
+benchmark_type,segmentation,Labelling each time step (e.g. sleep staging)
+benchmark_type,retrieval,
+benchmark_type,other,
+issue_type,corrupt_or_unreadable,
+issue_type,duplicate,
+issue_type,missing_or_mismatched_label,
+issue_type,differs_from_documentation,
+issue_type,missing_channels_or_metadata,
+issue_type,unusual_signal,"Flat, clipped or otherwise unusual signals"
+issue_type,other,
+source_kind,paper,Paper or technical report
+source_kind,distribution_page,Page where the data is distributed or described
+source_kind,license_file,License or data use agreement
+source_kind,release_files,"A document inside the release, including BIDS metadata files"
+source_kind,repository_record,"A record in a data repository (OpenNeuro, PhysioNet, Zenodo, OSF)"
+source_kind,catalogue,"A third-party catalogue entry (MOABB, NEMAR, awesome lists)"
+source_kind,mirror,Re-upload by someone other than the authors
+source_kind,survey,Survey or third-party description
+source_kind,count_report,A count of the release made by the DB maintainers' tools
+source_kind,other,Other
+source_publisher,authors,The dataset authors or their organisation
+source_publisher,third_party,Someone else
+source_publisher,db_maintainer,The maintainers of this DB (count reports)
+source_type,primary,Published by the dataset's authors or their organisation
+source_type,secondary,A third party; used when no primary source says it
+source_type,implementation,A count report of the release made by the DB maintainers
+dataset_source_role,paper,
+dataset_source_role,distribution,
+dataset_source_role,mirror,
+dataset_source_role,catalogue,
+dataset_source_role,other,
+alias_type,official_name,
+alias_type,short_name,
+alias_type,former_label,A former dataset_id
+alias_type,catalogue_id,"An ID in a repository or catalogue (OpenNeuro ds number, MOABB class name)"
+alias_type,other_source_name,
+relation_type,version_of,A different version of the other dataset
+relation_type,subset_of,Part of the other dataset
+relation_type,contains,Contains the other dataset
+relation_type,derived_from,"Made from the other dataset with new labels, processing or splits"
+relation_type,distinct_from,"Similar names, different datasets"
+relation_type,possibly_same_as,"Suspected to be the same, not confirmed"
+relation_type,shares_subjects_with,Some participants are the same
+provider_type,hospital,
+provider_type,university,
+provider_type,research_institute,
+provider_type,company,
+provider_type,government,
+provider_type,consortium,
+provider_type,individual,
+provider_type,other,

@@ -1,0 +1,1 @@
+dataset_id,setup_id,description,device_manufacturer,device_model,electrode_type,n_channels_eeg,n_channels_other,other_channel_types,montage_system,reference,ground,sampling_rate_hz,line_freq_hz,hardware_filter,coordinates_available,n_subjects
