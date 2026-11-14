@@ -132,6 +132,12 @@ ENUM_WORDS = {"montage_system": {"10_20": r"10\s*[-–/]\s*20", "10_10": r"10\s*
               "electrode_type": {"dry": r"\bdry\b", "wet_gel": r"\bgel|\bwet\b|paste", "saline": r"saline|sponge", "intracranial": r"intracranial|ECoG|depth|SEEG|subdural"}}
 
 
+# a group's condition is taken only when the quote says it in words
+_H = r"healthy|neurotypical|typically developing|no (?:history|known)|without (?:any )?(?:history|neurolog|psychiatr)"
+_P = r"patient|diagnos|disorder|disease|epilep|syndrome|injur|stroke|tumou?r|lesion|impair|autis|ADHD|schizophren|dementia|alzheimer|parkinson|depress"
+COND_WORDS = {"healthy": _H, "patient": _P, "mixed": rf"(?=.*(?:{_H}|control))(?=.*(?:{_P}))"}
+
+
 def _enums():
     import csv
     out = {}
@@ -323,7 +329,8 @@ def main():
                 if kind != "enum" and not value_ok(kind, val, g["quote"]):
                     rep["rejected"].append({"dataset_id": did, "what": f"group.{fld}", "why": "value not in quote", "value": val})
                     continue
-                if kind == "enum" and val not in ("healthy", "patient", "mixed"):
+                if kind == "enum" and not re.search(COND_WORDS.get(val, r"(?!)"), g["quote"], re.I):
+                    rep["rejected"].append({"dataset_id": did, "what": f"group.{fld}", "why": "condition not stated in quote", "value": val})
                     continue
                 try:
                     R.ev(f"participant_groups:{gid}.{fld}", fmt(kind, val) if kind in ("int", "num") else " ".join(str(val).split()), sid, loc, "claude")
