@@ -9,5 +9,7 @@ figshare_13604078,modalities,conflicting,scalp_eeg,primary,https://figshare.com/
 figshare_13604078,modalities,conflicting,scalp_eeg;ear_eeg;eog;other_physiological,primary,https://api.figshare.com/v2/articles/13604078,Audit reviewer; scope: not given
 figshare_14273687,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://api.figshare.com/v2/articles/14273687,Audit reviewer; scope: distributed
 figshare_14273687,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://arxiv.org/pdf/2106.00613v1,Audit reviewer; scope: recorded (original cao et al. data)
+figshare_33440344,acquisition_setups:main.n_channels_eeg,conflicting,14,secondary,https://api.figshare.com/v2/articles/33440344,Audit reviewer; scope: not given
+figshare_33440344,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://figshare.com/articles/dataset/A_multi-paradigm_EEG_dataset_for_visual_motor_imagery_of_driving_home_automation_and_hand_movement_for_BCI/33440344,
 figshare_9033983,modalities,conflicting,scalp_eeg,primary,https://figshare.com/articles/dataset/EEG_recordings_and_stimuli/9033983,
 figshare_9033983,modalities,conflicting,scalp_eeg;audio,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9355803/fullTextXML,Audit reviewer; scope: not given
