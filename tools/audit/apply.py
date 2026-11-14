@@ -241,7 +241,10 @@ def main():
             loc = " ".join(q.split()[:25])
             cur = have[did].get(fld, "") if fld in DATASET_FIELDS else setup_rows["main"].get(fld, "")
             try:
-                if cur and cur != v and cur not in ("unknown", "NA", "conflicting"):
+                # modalities from the harvest scripts were coarse ("the name says EEG"); a checked, specific statement replaces them
+                if fld == "modalities" and cur and cur != v:
+                    R.ev(key, v, sid, loc, "claude", f"Audit reviewer; replaces a value read from a name or a generic modality field")
+                elif cur and cur != v and cur not in ("unknown", "NA", "conflicting"):
                     R.conflicting(key, v, sid, loc, "claude", f"Audit reviewer; scope: {scope or 'not given'}")
                 else:
                     R.ev(key, v, sid, loc, "claude", f"Audit reviewer; scope: {scope or 'not given'}")
