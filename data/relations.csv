@@ -90,3 +90,40 @@ tuar,subset_of,tueg,tuh_eeg_downloads,TUAR entry: This subset of TUEG
 tuep,subset_of,tueg,tuh_eeg_downloads,TUEP entry: This is a subset of TUEG
 tuev,subset_of,tueg,tuh_eeg_downloads,TUEV entry: This corpus is a subset of TUEG
 tusl,subset_of,tueg,tuh_eeg_downloads,TUSL entry: This is another subset of TUEG
+zenodo_10301898,possibly_same_as,zenodo_8370355,zenodo_10301899,Both print the same name; whether they are the same data is not checked
+zenodo_11010554,possibly_same_as,zenodo_17535641,zenodo_11010555,Both print the same name; whether they are the same data is not checked
+zenodo_1185066,possibly_same_as,zenodo_1237653,zenodo_1185067,Both print the same name; whether they are the same data is not checked
+zenodo_1237653,possibly_same_as,zenodo_1185066,zenodo_1237654,Both print the same name; whether they are the same data is not checked
+zenodo_12734986,possibly_same_as,ds005342,zenodo_12734987,Both print the same name; whether they are the same data is not checked
+zenodo_1295935,possibly_same_as,figshare_2068677,zenodo_1295936,Both print the same name; whether they are the same data is not checked
+zenodo_1295947,possibly_same_as,figshare_3153409,zenodo_1295948,Both print the same name; whether they are the same data is not checked
+zenodo_1295969,possibly_same_as,figshare_3413851,zenodo_1295970,Both print the same name; whether they are the same data is not checked
+zenodo_13997600,possibly_same_as,zenodo_14033505,zenodo_13997601,Both print the same name; whether they are the same data is not checked
+zenodo_13997600,possibly_same_as,zenodo_14049894,zenodo_13997601,Both print the same name; whether they are the same data is not checked
+zenodo_14033505,possibly_same_as,zenodo_13997600,zenodo_14033506,Both print the same name; whether they are the same data is not checked
+zenodo_14033505,possibly_same_as,zenodo_14049894,zenodo_14033506,Both print the same name; whether they are the same data is not checked
+zenodo_14049894,possibly_same_as,zenodo_13997600,zenodo_14696348,Both print the same name; whether they are the same data is not checked
+zenodo_14049894,possibly_same_as,zenodo_14033505,zenodo_14696348,Both print the same name; whether they are the same data is not checked
+zenodo_14568950,possibly_same_as,figshare_8091242,zenodo_14569015,Both print the same name; whether they are the same data is not checked
+zenodo_14568950,possibly_same_as,zenodo_17631682,zenodo_14569015,Both print the same name; whether they are the same data is not checked
+zenodo_14568950,possibly_same_as,zenodo_7221843,zenodo_14569015,Both print the same name; whether they are the same data is not checked
+zenodo_17535641,possibly_same_as,zenodo_11010554,zenodo_17535642,Both print the same name; whether they are the same data is not checked
+zenodo_17631682,possibly_same_as,figshare_8091242,zenodo_17631683,Both print the same name; whether they are the same data is not checked
+zenodo_17631682,possibly_same_as,zenodo_14568950,zenodo_17631683,Both print the same name; whether they are the same data is not checked
+zenodo_17631682,possibly_same_as,zenodo_7221843,zenodo_17631683,Both print the same name; whether they are the same data is not checked
+zenodo_18686052,possibly_same_as,ds007427,zenodo_18686053,Both print the same name; whether they are the same data is not checked
+zenodo_19440996,possibly_same_as,nm000280,zenodo_20848097,Both print the same name; whether they are the same data is not checked
+zenodo_20501466,possibly_same_as,zenodo_22829925,zenodo_20501467,Both print the same name; whether they are the same data is not checked
+zenodo_20933808,possibly_same_as,zenodo_23240773,zenodo_20933809,Both print the same name; whether they are the same data is not checked
+zenodo_22782182,possibly_same_as,zenodo_22892407,zenodo_22782183,Both print the same name; whether they are the same data is not checked
+zenodo_22829925,possibly_same_as,zenodo_20501466,zenodo_22829926,Both print the same name; whether they are the same data is not checked
+zenodo_22892407,possibly_same_as,zenodo_22782182,zenodo_22892408,Both print the same name; whether they are the same data is not checked
+zenodo_23240773,possibly_same_as,zenodo_20933808,zenodo_23240774,Both print the same name; whether they are the same data is not checked
+zenodo_7221843,possibly_same_as,figshare_8091242,zenodo_7221844,Both print the same name; whether they are the same data is not checked
+zenodo_7221843,possibly_same_as,zenodo_14568950,zenodo_7221844,Both print the same name; whether they are the same data is not checked
+zenodo_7221843,possibly_same_as,zenodo_17631682,zenodo_7221844,Both print the same name; whether they are the same data is not checked
+zenodo_8081532,possibly_same_as,zenodo_8087108,zenodo_8081533,Both print the same name; whether they are the same data is not checked
+zenodo_8081569,possibly_same_as,zenodo_8086795,zenodo_8081570,Both print the same name; whether they are the same data is not checked
+zenodo_8086795,possibly_same_as,zenodo_8081569,zenodo_8086796,Both print the same name; whether they are the same data is not checked
+zenodo_8087108,possibly_same_as,zenodo_8081532,zenodo_8087109,Both print the same name; whether they are the same data is not checked
+zenodo_8370355,possibly_same_as,zenodo_10301898,zenodo_8370356,Both print the same name; whether they are the same data is not checked

@@ -1,6 +1,6 @@
 """Register Zenodo records that distribute EEG, from their record metadata.
 
-Usage: python3 tools/harvest/zenodo_register.py IDS_FILE [YYYY-MM-DD]
+Usage: python3 tools/harvest/zenodo_register.py IDS_FILE|all [YYYY-MM-DD]
 
 IDS_FILE is a JSON object whose keys are Zenodo record ids (the values are ignored; a candidate
 list keeps where each id came from). Records are fetched into cache/zenodo/<id>.json. Versions
@@ -32,6 +32,14 @@ LICENSES = {"cc-by-4.0": "CC-BY-4.0", "cc-by-3.0": "CC-BY-3.0", "cc-zero": "CC0-
 ACCESS = {"open": ("direct_download", "none"),
           "restricted": ("request_form_or_email", "Request access through the record's form; the record owners decide")}
 EEG = re.compile(r"[^.]{0,80}\b(EEG|electroencephalogra\w*)\b[^.]{0,80}", re.I)
+# What counts as stating recordings: EEG in the title, or a phrase that says signals were recorded or are provided.
+REC = re.compile(r"\b(EEG|electroencephalogra\w*)\s+(data|datasets?|database|recordings?|signals?|corpus|measurements?|files)\b"
+                 r"|\b(recorded|collected|acquired|measured|recordings? of|data of)\b[^.]{0,60}\b(EEG|electroencephalogra\w*)\b", re.I)
+# Titles and descriptions that point to something other than the recordings themselves (checked by hand later).
+OTHER = re.compile(r"\b(code|scripts?|toolbox|software|pipeline|model weights|checkpoints?|simulat\w+|synthetic|supplementary|figures?|poster|slides|"
+                   r"features?|derivatives?|preprocessed|pre-processed|annotations? only|results of|re-?analysis|replication|used to generate|"
+                   r"fig(?:ure)?s?|accuracy|neural networks?|spiking|systematic analysis|sample files|"
+                   r"mice|mouse|rats?|dogs?|monkeys?|macaques?|rodents?|zebrafish|pigs?|sheep|animals?|in vivo)\b|\b(?:zip|part) \d+ of \d+\b", re.I)
 IEEG = re.compile(r"\b(intracranial|ECoG|electrocorticogra\w*|sEEG|stereo-?EEG|depth electrode)", re.I)
 
 
@@ -57,7 +65,8 @@ def text(s):
 
 
 def main():
-    ids = [k for k in json.loads(Path(sys.argv[1]).read_text()) if k.isdigit() and int(k) >= 10000]
+    arg = sys.argv[1]
+    ids = [p.stem for p in CACHE.glob("*.json") if p.stem.isdigit()] if arg == "all" else [k for k in json.loads(Path(arg).read_text()) if k.isdigit() and int(k) >= 10000]
     today = sys.argv[2] if len(sys.argv) > 2 else datetime.date.today().isoformat()
     CACHE.mkdir(parents=True, exist_ok=True)
     concepts = {}
@@ -69,6 +78,8 @@ def main():
         if c not in concepts or d["metadata"].get("publication_date", "") > concepts[c]["metadata"].get("publication_date", ""):
             concepts[c] = d
     B = Batch(today)
+    have = {d["dataset_id"] for d in B.db["datasets"][1]}
+    concepts = {c: d for c, d in concepts.items() if f"zenodo_{c}" not in have}
     skipped = []
     for c, d in sorted(concepts.items()):
         m = d["metadata"]
@@ -76,12 +87,18 @@ def main():
         if m.get("resource_type", {}).get("type") != "dataset":
             skipped.append((d["id"], "not a dataset record"))
             continue
-        if re.search(r"re-?host|re-?upload|mirror of|copy of", title + " " + desc, re.I):
-            skipped.append((d["id"], "says it is a re-host or copy of data published elsewhere (check by hand)"))
+        if m.get("access_right") not in ("open", "restricted"):
+            skipped.append((d["id"], "not open or restricted"))
             continue
-        hit = EEG.search(title) or EEG.search(desc)
+        if re.search(r"re-?host|re-?upload|mirror of|copy of|converted (?:from|to)|BIDS (?:version|conversion|format) of", title + " " + desc, re.I):
+            skipped.append((d["id"], "says it is a re-host, copy or conversion of data published elsewhere (check by hand)"))
+            continue
+        if OTHER.search(title):
+            skipped.append((d["id"], "title points to code, features or derivatives (check by hand)"))
+            continue
+        hit = EEG.search(title) or (REC.search(desc) and EEG.search(desc))
         if not hit:
-            skipped.append((d["id"], "no EEG in title or description"))
+            skipped.append((d["id"], "no EEG recordings stated in the title or description"))
             continue
         R = B.dataset(f"zenodo_{c}")
         url = f"https://zenodo.org/records/{d['id']}"
@@ -105,9 +122,26 @@ def main():
             R.ev("access_routes:zenodo.human_steps", ACCESS[acc][1], src, f"access_right: {acc}", "script")
             if acc == "open":
                 R.ev("access_routes:zenodo.automation_tool", "zenodo-api", src, "Files listed in the record API with download links", "script")
+    import collections
+    norm = collections.defaultdict(list)
+    for d in B.db["datasets"][1]:
+        norm[re.sub(r"\W", "", d["name"].casefold())].append(d["dataset_id"])
+        norm[re.sub(r"\W", "", d["dataset_id"].casefold())].append(d["dataset_id"])
+    for r in B.db["aliases"][1]:
+        if r["alias_type"] != "catalogue_id":
+            norm[re.sub(r"\W", "", r["alias"].casefold())].append(r["dataset_id"])
+    for ids in norm.values():
+        ids = sorted(set(ids))
+        for a in [i for i in ids if i.startswith("zenodo_")]:
+            for b in ids:
+                if b != a:
+                    R = B.dataset(a)
+                    rid = next((x["source_id"] for x in B.db["dataset_sources"][1] if x["dataset_id"] == a), "")
+                    R.relation("possibly_same_as", b, rid, "Both print the same name; whether they are the same data is not checked")
     B.save()
-    for rid, why in skipped:
-        print("skipped", rid, why)
+    from collections import Counter
+    (ROOT / "cache" / "zenodo_skipped.tsv").write_text("\n".join(f"{rid}\t{why}" for rid, why in skipped) + "\n")
+    print(Counter(w for _, w in skipped))
     print(len(concepts) - len(skipped), "registered,", len(skipped), "skipped")
 
 
