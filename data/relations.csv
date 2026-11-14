@@ -4,6 +4,15 @@ bci2020_track2,subset_of,bci2020,bci2020_osf,Folder Track 2 of the competition p
 bci2020_track3,subset_of,bci2020,bci2020_osf,Folder Track 3 of the competition project
 bci2020_track4,subset_of,bci2020,bci2020_osf,Folder Track 4 of the competition project
 bci2020_track5,subset_of,bci2020,bci2020_osf,Folder Track 5 of the competition project
+ds004362,possibly_same_as,eegmmidb,ds004362_record,Both print the same name; whether they are the same data is not checked
+ds004595,possibly_same_as,ds005907,ds004595_record,Both print the same name; whether they are the same data is not checked
+ds005545,possibly_same_as,ds006234,ds005545_record,Both print the same name; whether they are the same data is not checked
+ds005672,possibly_same_as,ds005697,ds005672_record,Both print the same name; whether they are the same data is not checked
+ds005872,possibly_same_as,ds007338,ds005872_record,Both print the same name; whether they are the same data is not checked
+ds007314,possibly_same_as,ds007315,ds007314_record,Both print the same name; whether they are the same data is not checked
+ds007666,possibly_same_as,ds007667,ds007666_record,Both print the same name; whether they are the same data is not checked
+ds007895,possibly_same_as,ds007949,ds007895_record,Both print the same name; whether they are the same data is not checked
+ds008867,possibly_same_as,ds009033,ds008867_record,Both print the same name; whether they are the same data is not checked
 tuar,subset_of,tueg,tuh_eeg_downloads,TUAR entry: This subset of TUEG
 tuep,subset_of,tueg,tuh_eeg_downloads,TUEP entry: This is a subset of TUEG
 tuev,subset_of,tueg,tuh_eeg_downloads,TUEV entry: This corpus is a subset of TUEG

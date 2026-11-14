@@ -185,7 +185,10 @@ def check_keys(tables, db):
     names += [(r["dataset_id"], r["alias"]) for r in db["aliases"][1] if r["alias_type"] != "catalogue_id"]
     for d, n in names:
         owners.setdefault(norm_name(n), set()).add(d)
+    same = {frozenset((r["dataset_id"], r["other_dataset_id"])) for r in db["relations"][1] if r["relation"] == "possibly_same_as"}
     for n, d in owners.items():
+        if len(d) > 1 and all(frozenset((a, b)) in same for a in d for b in d if a < b):
+            continue  # sources print the same name for both and the DB records that they may be one dataset
         if len(d) > 1:
             err(f"name {n!r} is shared by datasets {sorted(d)}; use relations distinct_from and distinct names")
 

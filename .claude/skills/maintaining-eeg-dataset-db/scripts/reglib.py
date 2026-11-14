@@ -146,7 +146,7 @@ class Reg:
             self._linked(cells["source_id"])
         h, rows = self.db[table]
         r = {c: "" for c in h}
-        r.update({"dataset_id": self.D, **cells})
+        r.update({"dataset_id": self.D, **{k: v.strip() if isinstance(v, str) else v for k, v in cells.items()}})
         no = next((c for c in self.B.tables[table]["keys"] if c.endswith("_no") and c != "step_no"), None)
         if no and not r[no]:
             r[no] = str(max([int(x[no]) for x in rows if x["dataset_id"] == self.D] or [0]) + 1)
@@ -187,6 +187,7 @@ class Reg:
     def ev(self, field, value, source_id, loc="", by="claude", note=""):
         """Add a current evidence row and set the cell. Current rows with another value are superseded."""
         self._linked(source_id)
+        value, loc = value.strip(), loc.strip()
         r, col = self._cell_row(field)
         if any(o["status"] == "conflicting" for o in self._rows(field)):
             raise SystemExit(f"ev: {field} is conflicting; use conflicting()")

@@ -98,7 +98,7 @@ def register(B, c):
     d = c["dataset"]
     ds = d["id"]
     snap = d["latestSnapshot"]
-    tag, desc, summ = snap["tag"], snap["description"], snap["summary"]
+    tag, desc, summ = snap["tag"], snap["description"] or {}, snap["summary"] or {}
     mods = {m.lower() for m in (summ.get("modalities") or []) + (summ.get("secondaryModalities") or [])}
     if not mods & {"eeg", "ieeg"}:
         return False  # MEG-only and other datasets without EEG are out of scope
@@ -265,6 +265,20 @@ def main():
     B = Batch(today)
     files = sorted(p for p in CACHE.glob("ds*.json"))
     n = sum(bool(register(B, json.loads(p.read_text()))) for p in files)
+    # Different accessions whose dataset_description.json prints the same Name
+    # (also against datasets from other sources with the same name)
+    names = {}
+    for d in B.db["datasets"][1]:
+        if d["name"]:
+            names.setdefault(re.sub(r"\W", "", d["name"].casefold()), []).append(d["dataset_id"])
+    names = {k: v for k, v in names.items() if any(re.fullmatch(r"ds\d{6}", x) for x in v)}
+    for name, ids in names.items():
+        for i, a in enumerate(sorted(ids)):
+            for b in sorted(ids)[i + 1:]:
+                if not any(r["dataset_id"] == a and r["other_dataset_id"] == b for r in B.db["relations"][1]):
+                    on = a if re.fullmatch(r"ds\d{6}", a) else b
+                    B.dataset(a).relation("possibly_same_as", b, f"{on}_record",
+                                          "Both print the same name; whether they are the same data is not checked")
     B.save()
     with open(UNMAPPED, "w", encoding="utf-8") as f:
         f.write("dataset\tfield\tvalue\n")
