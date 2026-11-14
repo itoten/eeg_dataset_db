@@ -21,7 +21,7 @@ maintainer の指示(2026-11-14):「実装調査はまだやらず、資料調�
 | Zenodo | 「EEG」などで検索した dataset 型の記録(約 1,500〜2,000) | 一覧を取得し、EEG の記録を配布するものを選ぶ。派生物・結果・コードだけの記録は対象外 | 一覧 1,939 件を取得(`cache/candidates/zenodo.json`)、未選別 |
 | Hugging Face | 「eeg」で 1,000 件以上 | 再アップロードが多い。元のデータセットが分かるものは経路(mirror)と別名にする | 一覧を取得済み、未着手 |
 | figshare・OSF・Kaggle・Harvard Dataverse・Mendeley Data | 未計数 | 検索して候補にする | 未着手 |
-| foundation model 論文の学習・評価データ | 未計数 | 論文の表に出てくるデータセットを候補にする(論文 DB は作らない) | 未着手 |
+| foundation model 論文の学習・評価データ | CBraMod・REVE・SingLEM で 158 件(重複を除く) | 論文の表と参考文献から配布先を開いて登録(`repo_register.py` と手作業)。どの論文が何を使ったかは `local/paper_usage/` | 157 件が DB にある。EPFLP300 は配布ページが開けず未登録。6 件は入手経路が未確認 |
 
 ## 2. 量と順番
 
