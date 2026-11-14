@@ -141,6 +141,7 @@ def _enums():
 
 
 ENUMS = _enums()
+ENUMS.setdefault("quality_kind", set()); ENUMS.setdefault("annotation_item", set())
 ENUM_OF = {"modalities": "modality", "domains": "domain", "license_spdx": "license_spdx", "electrode_type": "electrode_type",
            "montage_system": "montage_system", "condition": "group_condition", "paradigms": "paradigm"}
 
@@ -330,14 +331,17 @@ def main():
                     rep["rejected"].append({"dataset_id": did, "what": f"group.{fld}", "why": str(e)})
         anns = {(a["item"], a["name"]) for a in B.db["annotations"][1] if a["dataset_id"] == did}
         for a in it.get("annotations", []):
-            if (a.get("item"), a.get("name")) in anns or not check(did, "annotation", a.get("url"), a.get("quote")):
+            if (a.get("item"), a.get("name")) in anns or a.get("item") not in ENUMS["annotation_item"] or not check(did, "annotation", a.get("url"), a.get("quote")):
                 continue
             sid = src_for(R, B, a["url"], record_primary)
             R.add_row("annotations", "claude", item=a["item"], name=" ".join(str(a["name"]).split()), labels=";".join(x.strip() for x in str(a.get("labels", "")).split(";") if x.strip()),
                       source_id=sid, locator=" ".join(a["quote"].split()[:25]))
             anns.add((a["item"], a["name"]))
+        quals = {(q["kind"], q["description"]) for q in B.db["quality_info"][1] if q["dataset_id"] == did}
         for qi in it.get("quality", []):
-            if not check(did, "quality", qi.get("url"), qi.get("quote")):
+            if (qi.get("kind"), " ".join(str(qi.get("description", "")).split())[:400]) in quals:
+                continue
+            if qi.get("kind") not in ENUMS["quality_kind"] or not check(did, "quality", qi.get("url"), qi.get("quote")):
                 continue
             sid = src_for(R, B, qi["url"], record_primary)
             R.add_row("quality_info", "claude", kind=qi["kind"], description=" ".join(str(qi.get("description", "")).split())[:400], form="stated in the document",
