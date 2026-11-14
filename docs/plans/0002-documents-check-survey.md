@@ -1,0 +1,41 @@
+# 0002 資料調査(documents check)を一通り終わらせる
+
+状態: 実施中(2026-11-14 開始)
+関連: [discussions/0002](../discussions/0002-align-with-ser-principles.md)(進め方の決定)、[plans/0001](0001-initial-plan.md)
+
+maintainer の指示(2026-11-14):「実装調査はまだやらず、資料調査の段階を一通り終わらせる」。
+実装調査(レシピを作り readme の `## The data` を書く)は、この計画が済んでから。
+
+## 1. 情報源ごとの進め方と状況
+
+| 情報源 | 候補の数 | 進め方 | 状況(2026-11-14) |
+|---|---|---|---|
+| OpenNeuro | 612(EEG・iEEG・MEG で検索)。EEG か iEEG を含むものだけ登録 | API とメタデータ文書から機械的に(`tools/harvest/openneuro_*`) | 取得中 → 登録 |
+| PhysioNet | 38(題名・要旨に EEG・睡眠など) | ページを読んで EEG を配布しているか判断し、API とページから(`physionet_register.py`) | 30 件登録、8 件対象外 |
+| BNCI Horizon 2020 | 32 | 一覧ページから(`bnci_register.py`) | 31 件登録、1 件対象外(fNIRS のみ) |
+| TUH EEG | 7 | 配布ページを読む | 登録済み。ライセンスは申請書(PDF)を未読 |
+| SEED シリーズ | 13 | 各説明ページとライセンス PDF を読む | 12 件登録。SEED-DV は未登録 |
+| Excel の残り | DEAP | 配布ページ | **証明書エラーで開けない**(maintainer のブラウザで確認が要る) |
+| その他の個別 | DREAMER、OpenBMI、BCI Competition 2020 | ページを読む | 登録済み |
+| MOABB のカタログ | 約 200 行(7 つの CSV) | カタログは二次資料。各データセットの元の配布先(Zenodo・figshare・個人サイトなど)を開いて登録 | 未着手 |
+| Zenodo | 「EEG」などで検索した dataset 型の記録(約 1,500〜2,000) | 一覧を取得し、EEG の記録を配布するものを選ぶ。派生物・結果・コードだけの記録は対象外 | 一覧を取得中 |
+| Hugging Face | 「eeg」で 1,000 件以上 | 再アップロードが多い。元のデータセットが分かるものは経路(mirror)と別名にする | 一覧を取得済み、未着手 |
+| figshare・OSF・Kaggle・Harvard Dataverse・Mendeley Data | 未計数 | 検索して候補にする | 未着手 |
+| foundation model 論文の学習・評価データ | 未計数 | 論文の表に出てくるデータセットを候補にする(論文 DB は作らない) | 未着手 |
+
+## 2. 量と順番
+
+Zenodo と Hugging Face の候補が多く(合わせて 2,500 件以上)、1 件ずつページを読む作業になる。
+計画 0001 §4 の方針(入手経路を重視し、自動で取れて学習に使えるものから)に従い、次の順で進める。
+
+1. 機械で読める大きなリポジトリ(OpenNeuro・PhysioNet・BNCI)── 済み/実施中
+2. よく使われるもの: MOABB のカタログと foundation model 論文に出てくるもの(元の配布先が自動取得できるものを先に)
+3. Zenodo の候補(API でライセンスと公開状態が読める。公開・ライセンスつきから)
+4. Hugging Face・Kaggle・その他
+
+## 3. 残っていること(このセッションで終わらないもの)
+
+- 上の表の「未着手」すべて
+- OpenNeuro のデータセットのうち、他の配布先のデータを BIDS に変換したもの(例: PhysioNet のデータの変換)の関係づけ(`relations`)
+- 論文の本文を読まないと分からない値(パラダイムの分類・被験者群の要約値・品質情報・課題の手順)。OpenNeuro はメタデータ文書だけを読んでいる
+- Claude の環境から開けない資料: DEAP の配布ページ(証明書エラー)、GigaDB の利用規約ページ(描画されない)

@@ -7,6 +7,7 @@
 | 番号 | 題 | 状態 |
 |---|---|---|
 | [0001](plans/0001-initial-plan.md) | EEG データセット DB の立ち上げ計画 | 資料調査中 |
+| [0002](plans/0002-documents-check-survey.md) | 資料調査を一通り終わらせる | 実施中 |
 
 ## 議論
 
