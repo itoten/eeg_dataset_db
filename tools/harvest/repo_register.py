@@ -105,12 +105,22 @@ def main():
     entries = json.loads(Path(sys.argv[1]).read_text())
     today = sys.argv[2] if len(sys.argv) > 2 else datetime.date.today().isoformat()
     B = Batch(today)
+    seen_urls, kept = set(), []
+    for e in entries:
+        m = read(e)
+        keys = {k for k in (m["url"], (m.get("doi") or "").lower()) if k}
+        if keys & seen_urls:
+            print("skipped (same URL or DOI as an earlier entry):", e["dataset_id"])
+            continue
+        seen_urls |= keys
+        kept.append(e)
+    entries = kept
     for e in entries:
         m = read(e)
         did, repo = e["dataset_id"], e["repo"]
         R = B.dataset(did)
         kind = repo.split("_")[0]
-        src = R.source(f"{did}_{kind}", m["url"], "repository_record", "authors", title=m["title"], doi=m.get("doi", ""),
+        src = R.source(f"{did}_{kind}", m["url"], "repository_record", e.get("publisher", "authors"), title=m["title"], doi=m.get("doi", ""),
                        identity_basis=e.get("identity", "Repository record cited as the data location by the dataset's paper"),
                        note=f"Read through the {kind} API" + (f"; license is {m['license_from']}" if m.get("license_from") else ""))
         R.link(src, "distribution")
@@ -146,6 +156,22 @@ def main():
             R.ev(f"access_routes:{kind}.access_method", "direct_download", src, "Public record with files (API)", "script")
             R.ev(f"access_routes:{kind}.human_steps", "none", src, "Public record with files (API)", "script")
             R.ev(f"access_routes:{kind}.automation_tool", f"{kind}-api", src, "Files listed in the record API", "script")
+    import collections
+    norm = collections.defaultdict(list)
+    for d in B.db["datasets"][1]:
+        norm[re.sub(r"\W", "", d["name"].casefold())].append(d["dataset_id"])
+        norm[re.sub(r"\W", "", d["dataset_id"].casefold())].append(d["dataset_id"])
+    for r in B.db["aliases"][1]:
+        if r["alias_type"] != "catalogue_id":
+            norm[re.sub(r"\W", "", r["alias"].casefold())].append(r["dataset_id"])
+    mine = {e["dataset_id"] for e in entries}
+    for ids in norm.values():
+        ids = sorted(set(ids))
+        for a in [i for i in ids if i in mine]:
+            for b in ids:
+                if b != a:
+                    kind = next(e["repo"].split("_")[0] for e in entries if e["dataset_id"] == a)
+                    B.dataset(a).relation("possibly_same_as", b, f"{a}_{kind}", "Both print the same name; whether they are the same data is not checked")
     B.save()
     print(len(entries), "entries registered")
 

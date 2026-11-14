@@ -13,6 +13,16 @@ ds007314,possibly_same_as,ds007315,ds007314_record,Both print the same name; whe
 ds007666,possibly_same_as,ds007667,ds007666_record,Both print the same name; whether they are the same data is not checked
 ds007895,possibly_same_as,ds007949,ds007895_record,Both print the same name; whether they are the same data is not checked
 ds008867,possibly_same_as,ds009033,ds008867_record,Both print the same name; whether they are the same data is not checked
+figshare_13123148,possibly_same_as,stieger2021_smr_bci,figshare_13123148_figshare,Both print the same name; whether they are the same data is not checked
+figshare_18470912,possibly_same_as,things_eeg2,figshare_18470912_figshare,Both print the same name; whether they are the same data is not checked
+figshare_21679035,possibly_same_as,liu2024_acute_stroke_mi,figshare_21679035_figshare,Both print the same name; whether they are the same data is not checked
+figshare_24032265,possibly_same_as,chen2023_stroop_eeg_fnirs,figshare_24032265_figshare,Both print the same name; whether they are the same data is not checked
+figshare_24760827,possibly_same_as,chen2024_deception,figshare_24760827_figshare,Both print the same name; whether they are the same data is not checked
+figshare_24803499,possibly_same_as,ji2024_stroop_high_altitude,figshare_24803499_figshare,Both print the same name; whether they are the same data is not checked
+figshare_27130299,possibly_same_as,liu2025_stroke_lower_limb_mi,figshare_27130299_figshare,Both print the same name; whether they are the same data is not checked
+figshare_28069568,possibly_same_as,lin2025_ied,figshare_28069568_figshare,Both print the same name; whether they are the same data is not checked
+figshare_28736903,possibly_same_as,ds007788,figshare_28736903_figshare,Both print the same name; whether they are the same data is not checked
+figshare_6427334,possibly_same_as,cao2019_driving_attention,figshare_6427334_figshare,Both print the same name; whether they are the same data is not checked
 nm000109,possibly_same_as,eegmat,nm000109_nemar,Both print the same name; whether they are the same data is not checked
 nm000110,derived_from,chbmit,nm000110_nemar,NEMAR lists 10.13026/C2K01R as IsVersionOf this record
 nm000110,possibly_same_as,chbmit,nm000110_nemar,Both print the same name; whether they are the same data is not checked
