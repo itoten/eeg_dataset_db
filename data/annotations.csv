@@ -1,1 +1,7 @@
 dataset_id,item,name,labels,scale,unit,annotator,description,source_id,locator,checked_on,checked_by,note
+tuab,normal_abnormal,normal/abnormal,normal;abnormal,,,,,tuh_eeg_downloads,TUAB entry: A corpus of EEGs that have been annotated as normal or abnormal,2026-11-14,claude,
+tuar,artifact_annotations,artifacts,EYEM;CHEW;SHIV;ELPP;MUSC,,,,,tuh_eeg_downloads,"TUAR entry: annotations of 5 different artifacts: (1) eye movement (EYEM), (2) chewing (CHEW)",2026-11-14,claude,
+tuep,seizure_annotations,seizure annotations,,,,,,tuh_eeg_downloads,TUEP entry: This new version of the corpus has seizure annotations,2026-11-14,claude,
+tuev,event_annotations,events,SPSW;GPED;PLED;EYEM;ARTF;BCKG,,,,,tuh_eeg_downloads,TUEV entry: annotations of EEG segments as one of six classes: (1) spike and sharp wave (SPSW),2026-11-14,claude,
+tusl,event_annotations,slowing events,,,,,,tuh_eeg_downloads,TUSL entry: contains annotations of slowing events,2026-11-14,claude,
+tusz,seizure_annotations,seizure events,,,,,,tuh_eeg_downloads,"TUSZ entry: manually annotated data for seizure events (start time, stop, channel and seizure type)",2026-11-14,claude,

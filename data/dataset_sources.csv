@@ -59,4 +59,11 @@ siena_scalp_eeg,siena_scalp_eeg_page,distribution
 sleep_edf,sleep_edf_page,distribution
 sleep_edfx,sleep_edfx_page,distribution
 slpdb,slpdb_page,distribution
+tuab,tuh_eeg_downloads,distribution
+tuar,tuh_eeg_downloads,distribution
+tueg,tuh_eeg_downloads,distribution
+tuep,tuh_eeg_downloads,distribution
+tuev,tuh_eeg_downloads,distribution
+tusl,tuh_eeg_downloads,distribution
+tusz,tuh_eeg_downloads,distribution
 ucddb,ucddb_page,distribution

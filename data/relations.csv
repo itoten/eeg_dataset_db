@@ -1,1 +1,5 @@
 dataset_id,relation,other_dataset_id,source_id,note
+tuar,subset_of,tueg,tuh_eeg_downloads,TUAR entry: This subset of TUEG
+tuep,subset_of,tueg,tuh_eeg_downloads,TUEP entry: This is a subset of TUEG
+tuev,subset_of,tueg,tuh_eeg_downloads,TUEV entry: This corpus is a subset of TUEG
+tusl,subset_of,tueg,tuh_eeg_downloads,TUSL entry: This is another subset of TUEG
