@@ -11,6 +11,12 @@ figshare_14273687,acquisition_setups:main.sampling_rate_hz,conflicting,128,prima
 figshare_14273687,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://arxiv.org/pdf/2106.00613v1,Audit reviewer; scope: recorded (original cao et al. data)
 figshare_24920325,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12274610/,Audit reviewer; scope: recorded
 figshare_24920325,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12274610/,Audit reviewer; scope: preprocessing (clean data)
+figshare_28632599,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/s41597-025-06039-9,Audit reviewer; scope: sub-13 and sub-15
+figshare_28632599,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://www.nature.com/articles/s41597-025-06039-9,Audit reviewer; scope: 21 of 23 subjects
+figshare_28736903,acquisition_setups:main.n_channels_eeg,conflicting,59,primary,https://www.nature.com/articles/s41597-026-07476-w,Audit reviewer; scope: eeg during fmri (s1-s5)
+figshare_28736903,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://www.nature.com/articles/s41597-026-07476-w,Audit reviewer; scope: exoskeleton sessions
+figshare_30133477,license_spdx,conflicting,CC-BY-4.0,secondary,https://figshare.com/articles/dataset/An_EEG_Imagined_Speech_Dataset_for_BCI_Applications_with_Binary_and_Numerical_Stimuli/30133477,
+figshare_30133477,license_spdx,conflicting,CC-BY-NC-SA-4.0,secondary,https://api.figshare.com/v2/articles/30133477,Audit reviewer; scope: not given
 figshare_33440344,acquisition_setups:main.n_channels_eeg,conflicting,14,secondary,https://api.figshare.com/v2/articles/33440344,Audit reviewer; scope: not given
 figshare_33440344,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://figshare.com/articles/dataset/A_multi-paradigm_EEG_dataset_for_visual_motor_imagery_of_driving_home_automation_and_hand_movement_for_BCI/33440344,
 figshare_9033983,modalities,conflicting,scalp_eeg,primary,https://figshare.com/articles/dataset/EEG_recordings_and_stimuli/9033983,
