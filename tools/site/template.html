@@ -25,7 +25,7 @@ body { background: var(--bg); color: var(--fg); font: 14px/1.55 var(--f-body); }
 .wrap { max-width: 1440px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 48px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
 header { display: grid; gap: 8px; padding-block: 8px 4px; background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 100% 20px, 20px 100%; border-bottom: 1px solid var(--line); }
 .top { display: flex; gap: 12px; align-items: start; justify-content: space-between; flex-wrap: wrap; }
-h1 { font: 650 clamp(26px, 4vw, 38px)/1.15 var(--f-display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 { font: 650 clamp(26px, 4vw, 38px)/1.15 var(--f-display); margin: 0; text-wrap: balance; word-break: auto-phrase; letter-spacing: -0.01em; }
 .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 5px; overflow: hidden; background: var(--panel); }
 .lang button { all: unset; cursor: pointer; font: 500 12px var(--f-body); padding: 5px 10px; color: var(--muted); }
 .lang button[aria-pressed="true"] { background: var(--accent-soft); color: var(--fg); }
@@ -95,7 +95,20 @@ a { color: var(--accent); }
 .note { font-size: 12px; color: var(--muted); max-width: 70ch; }
 .warn { color: var(--appr); }
 footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-width: 90ch; }
-@media (max-width: 720px) { dl { grid-template-columns: 1fr; } dt { padding-top: 6px; } td:first-child { width: 180px; min-width: 160px; } }
+.cards { display: none; gap: 8px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; display: grid; gap: 4px; cursor: pointer; min-width: 0; }
+.card .nm { overflow-wrap: anywhere; }
+.card .kv { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 12px; color: var(--muted); }
+.card .kv b { color: var(--fg); font-weight: 500; font-family: var(--f-mono); }
+.more-cards { display: none; }
+@media (max-width: 720px) {
+  dl { grid-template-columns: 1fr; } dt { padding-top: 6px; }
+  .tablebox { display: none; } .cards { display: grid; } .more-cards:not([hidden]) { display: block; }
+  h1 { font-size: 26px; } .quote p { font-size: 17px; }
+  .filters input, .filters select { flex: 1 1 100%; }
+  .count { margin-left: 0; }
+  .legend { gap: 4px 12px; }
+}
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 </style>
 
@@ -130,6 +143,8 @@ footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-widt
     <span class="count" id="count"></span>
   </section>
 
+  <div class="cards" id="cards"></div>
+  <div class="more more-cards" id="more2" hidden><button id="more-b2" type="button" data-i="more"></button></div>
   <div class="tablebox" id="tablebox">
     <table>
       <thead id="thead"></thead>
@@ -319,7 +334,20 @@ function render() {
   document.getElementById("rows").innerHTML = list.slice(0, state.shown).map(d =>
     `<tr tabindex="0" data-id="${esc(d.id)}">${COLS.map(c => `<td class="${c.cls}">${c.v(d)}</td>`).join("")}</tr>`).join("");
   document.getElementById("more").hidden = list.length <= state.shown;
+  document.getElementById("more2").hidden = list.length <= state.shown;
+  const f = T().cols;
+  const kv = (k, v) => v ? `<span>${esc(k)} <b>${esc(v)}</b></span>` : "";
+  document.getElementById("cards").innerHTML = list.slice(0, state.shown).map(d =>
+    `<div class="card" tabindex="0" data-id="${esc(d.id)}"><div class="nm">${esc(d.name || d.id)}</div>
+     <div class="sub mono">${esc(d.id)} · ${esc(d.repo)}</div>
+     <div>${semi(d.mod).map(m => `<span class="tag">${esc(m)}</span>`).join("")}${semi(d.par).map(m => `<span class="tag">${esc(m)}</span>`).join("")}</div>
+     <div class="kv">${kv(f.subj, d.subj)}${kv(f.nch, semi(d.nch).join(", "))}${kv(f.fs, semi(d.fs).join(", "))}${kv(f.gb, d.gb)}${kv(f.lic, d.lic)}</div>
+     <div><span class="pill"><span class="dot" style="background:${TCOL[d.tier] || TCOL[""]}"></span>${esc((T().tiers[d.tier] || T().tiers[""])[0])}</span></div></div>`).join("");
 }
+const cardsEl = document.getElementById("cards");
+cardsEl.addEventListener("click", e => { const c = e.target.closest(".card"); if (c) openD(c.dataset.id); });
+cardsEl.addEventListener("keydown", e => { if (e.key === "Enter") { const c = e.target.closest(".card"); if (c) openD(c.dataset.id); } });
+document.getElementById("more-b2").addEventListener("click", () => { state.shown += 200; render(); });
 const rowsEl = document.getElementById("rows");
 rowsEl.addEventListener("click", e => { const tr = e.target.closest("tr"); if (tr) openD(tr.dataset.id); });
 rowsEl.addEventListener("keydown", e => { if (e.key === "Enter") { const tr = e.target.closest("tr"); if (tr) openD(tr.dataset.id); } });
