@@ -147,6 +147,9 @@ class Reg:
         h, rows = self.db[table]
         r = {c: "" for c in h}
         r.update({"dataset_id": self.D, **cells})
+        no = next((c for c in self.B.tables[table]["keys"] if c.endswith("_no") and c != "step_no"), None)
+        if no and not r[no]:
+            r[no] = str(max([int(x[no]) for x in rows if x["dataset_id"] == self.D] or [0]) + 1)
         if "checked_on" in h:
             r["checked_on"] = r["checked_on"] or self.today
         if "checked_by" in h:
