@@ -10,15 +10,15 @@ maintainer の指示(2026-11-14):「実装調査はまだやらず、資料調�
 
 | 情報源 | 候補の数 | 進め方 | 状況(2026-11-14) |
 |---|---|---|---|
-| OpenNeuro | 612(EEG・iEEG・MEG で検索)。EEG か iEEG を含むものだけ登録 | API とメタデータ文書から機械的に(`tools/harvest/openneuro_*`) | 取得中 → 登録 |
+| OpenNeuro | 612(EEG・iEEG・MEG で検索)。EEG か iEEG を含むものだけ登録 | API とメタデータ文書から機械的に(`tools/harvest/openneuro_*`) | 544 件登録(67 件は EEG・iEEG なし、1 件は削除済み)。同名の 9 組は `possibly_same_as` |
 | PhysioNet | 38(題名・要旨に EEG・睡眠など) | ページを読んで EEG を配布しているか判断し、API とページから(`physionet_register.py`) | 30 件登録、8 件対象外 |
 | BNCI Horizon 2020 | 32 | 一覧ページから(`bnci_register.py`) | 31 件登録、1 件対象外(fNIRS のみ) |
 | TUH EEG | 7 | 配布ページを読む | 登録済み。ライセンスは申請書(PDF)を未読 |
 | SEED シリーズ | 13 | 各説明ページとライセンス PDF を読む | 12 件登録。SEED-DV は未登録 |
 | Excel の残り | DEAP | 配布ページ | **証明書エラーで開けない**(maintainer のブラウザで確認が要る) |
 | その他の個別 | DREAMER、OpenBMI、BCI Competition 2020 | ページを読む | 登録済み |
-| MOABB のカタログ | 約 200 行(7 つの CSV) | カタログは二次資料。各データセットの元の配布先(Zenodo・figshare・個人サイトなど)を開いて登録 | 未着手 |
-| Zenodo | 「EEG」などで検索した dataset 型の記録(約 1,500〜2,000) | 一覧を取得し、EEG の記録を配布するものを選ぶ。派生物・結果・コードだけの記録は対象外 | 一覧を取得中 |
+| MOABB のカタログ | 約 200 行(7 つの CSV) | カタログは二次資料。各データセットの元の配布先(Zenodo・figshare・個人サイトなど)を開いて登録 | Zenodo の 27 件を登録(`zenodo_register.py`)。再アップロードと名乗る 4 件は保留。Zenodo 以外は未着手 |
+| Zenodo | 「EEG」などで検索した dataset 型の記録(約 1,500〜2,000) | 一覧を取得し、EEG の記録を配布するものを選ぶ。派生物・結果・コードだけの記録は対象外 | 一覧 1,939 件を取得(`cache/candidates/zenodo.json`)、未選別 |
 | Hugging Face | 「eeg」で 1,000 件以上 | 再アップロードが多い。元のデータセットが分かるものは経路(mirror)と別名にする | 一覧を取得済み、未着手 |
 | figshare・OSF・Kaggle・Harvard Dataverse・Mendeley Data | 未計数 | 検索して候補にする | 未着手 |
 | foundation model 論文の学習・評価データ | 未計数 | 論文の表に出てくるデータセットを候補にする(論文 DB は作らない) | 未着手 |
