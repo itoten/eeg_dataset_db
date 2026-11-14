@@ -1,6 +1,9 @@
 """Register OpenNeuro EEG/iEEG datasets from the cache written by openneuro_fetch.py.
 
-Usage: python3 tools/harvest/openneuro_register.py [YYYY-MM-DD]
+Usage: python3 tools/harvest/openneuro_register.py [YYYY-MM-DD] [dsXXXXXX ...]
+
+With accession numbers, only those datasets are registered (rows are added, not merged, so
+register each dataset once).
 
 Reads cache/openneuro/*.json (git-ignored). Every value comes from the snapshot record (shown on the
 dataset page) or from a metadata file of the release (dataset_description, participants.json/tsv,
@@ -263,7 +266,8 @@ def register(B, c):
 def main():
     today = sys.argv[1] if len(sys.argv) > 1 else datetime.date.today().isoformat()
     B = Batch(today)
-    files = sorted(p for p in CACHE.glob("ds*.json"))
+    only = set(sys.argv[2:])
+    files = sorted(p for p in CACHE.glob("ds*.json") if not only or p.stem in only)
     n = sum(bool(register(B, json.loads(p.read_text()))) for p in files)
     # Different accessions whose dataset_description.json prints the same Name
     # (also against datasets from other sources with the same name)

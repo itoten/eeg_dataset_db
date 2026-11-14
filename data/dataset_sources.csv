@@ -1145,6 +1145,10 @@ ds005510,ds005510_participants_json,other
 ds005510,ds005510_participants_tsv,other
 ds005510,ds005510_record,distribution
 ds005510,ds005510_sidecar,other
+ds005511,ds005511_participants_json,other
+ds005511,ds005511_participants_tsv,other
+ds005511,ds005511_record,distribution
+ds005511,ds005511_sidecar,other
 ds005512,ds005512_participants_json,other
 ds005512,ds005512_participants_tsv,other
 ds005512,ds005512_record,distribution
