@@ -1626,6 +1626,14 @@ figshare_8091242,passive_erp,passive ERP,p300_erp;visual_erp,,,,,,,,
 figshare_8091242,pitch_imagery,pitch imagery,other;p300_erp,,,,,,,,
 figshare_9033983,listening_to_continuous_narratives_audio,listening to continuous narratives (audiobooks),language,,,,,,,,
 gu2024_ssvep_1_60hz,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
+hf_alexeykashevnik_eegmeditation,external_concentration_task_4,External concentration (Task 4),cognitive_task,,,,,,,,
+hf_alexeykashevnik_eegmeditation,internal_concentration_task_3,Internal concentration (Task 3),cognitive_task,,,,,,,,
+hf_alexeykashevnik_eegmeditation,mind_wandering_task_2,Mind-wandering (Task 2),cognitive_task;resting_eyes_closed,,,,,,,,
+hf_alexeykashevnik_eegmeditation,resting_state_task_1,Resting state (Task 1),resting_eyes_closed;resting_eyes_open,,,,,,,,
+hf_alexeykashevnik_eegmeditation,resting_state_task_5,Resting state (Task 5),resting_eyes_closed;resting_eyes_open,,,,,,,,
+hf_lasfk_eeg_fnirs_based_handwriting_trajectory_dataset,imagined_handwriting_4_class,imagined handwriting (4-class),motor_imagery,,,,,,,,
+hf_neurofusion_eeg_restingstate,eyes_closed,Eyes closed,resting_eyes_closed,,,,,,,,
+hf_yefllower_eegfacesem,rsvp_semantic_target_detection_8_tasks_f,"RSVP semantic target detection (8 tasks: female, male, blond, darkhaired, smiles, nosmile, old, young)",p300_erp;visual_erp,,,,,,,,
 hmc_sleep_staging,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 isruc_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 kaya2018,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
