@@ -1,3 +1,11 @@
 dataset_id,group_id,group_label,condition,diagnosis,n_subjects,age_min,age_max,age_mean,age_sd,n_female,n_male,handedness,prior_experience,other_traits
+seed,all,all participants,,,15,,,23.27,2.37,8,7,,,
+seed_fra,all,all participants,,,8,,,22.5,2.78,3,5,,,
+seed_ger,all,all participants,,,8,,,22.25,1.98,1,7,,,
+seed_mya,all,all participants,,,20,,,28.15,7.90,9,11,,,
+seed_v,all,all participants,,,16,,,,,10,6,,,
+seed_vii,all,all participants,,,20,19,26,22.5,1.80,10,10,,,
+seed_vla,all,all participants,,,20,,,21.6,,12,,All the subjects are right-handed,,
+seed_vrw,all,all participants,,,14,,,20.9,,9,,All the subjects are right-handed,,
 tuep,epilepsy,subjects epilepsy,,epilepsy,100,,,,,,,,,
 tuep,no_epilepsy,subjects without epilepsy,,,100,,,,,,,,,
