@@ -215,6 +215,9 @@ def main():
         for fct in it.get("facts", []):
             fld, val, url, q = fct.get("field"), fct.get("value"), fct.get("url"), fct.get("quote")
             scope = (fct.get("scope") or "").lower()
+            if fld == "year_published":  # reviewers quoted submission or paper years; the release year comes from the record itself
+                rep["rejected"].append({"dataset_id": did, "what": fld, "why": "year_published is taken from repository records only"})
+                continue
             if fld in DATASET_FIELDS:
                 kind, key = DATASET_FIELDS[fld], fld
             elif fld in SETUP_FIELDS:
