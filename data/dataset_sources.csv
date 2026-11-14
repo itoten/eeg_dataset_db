@@ -43,6 +43,7 @@ capslpdb,capslpdb_page,distribution
 chbmit,chbmit_page,distribution
 consumer_grade_wearables,consumer_grade_wearables_page,distribution
 cps_dataset_sleep,cps_dataset_sleep_page,distribution
+dreamer,dreamer_zenodo,distribution
 dreamt,dreamt_page,distribution
 eeg_eye_gaze_data,eeg_eye_gaze_data_page,distribution
 eeg_eye_gaze_for_fls_tasks,eeg_eye_gaze_for_fls_tasks_page,distribution
@@ -59,6 +60,8 @@ mssvepdb,mssvepdb_page,distribution
 multimodal_gait_dataset,multimodal_gait_dataset_page,distribution
 nch_sleep,nch_sleep_page,distribution
 neuro_stress_resilience_hci,neuro_stress_resilience_hci_page,distribution
+openbmi,gigadb_home,other
+openbmi,openbmi_gigadb,distribution
 psg_ipa,psg_ipa_page,distribution
 seed,seed_downloads,distribution
 seed,seed_license,other

@@ -3,6 +3,7 @@ bci2020_track1,class_labels,classes,Left hand;Right hand,,,,,bci2020_osf,Two-cla
 bci2020_track2,sleep_stages,sleep stages,,,,,,bci2020_osf,Five sleep stages from Fpz-Cz channel,2026-11-14,claude,
 bci2020_track3,class_labels,classes,Hello;Help me;Stop;Thank you;Yes,,,,,bci2020_osf,"(e.g., ‘Hello’, ‘Help me’, ‘Stop’, ‘Thank you’, and ‘Yes’)",2026-11-14,claude,The wiki lists the words after 'e.g.'
 bci2020_track4,class_labels,grasping tasks,Cylindrical;Spherical;Lumbrical,,,,,bci2020_osf,"Three grasping tasks from a single-hand (‘Cylindrical’, ‘Spherical’, and ‘Lumbrical’)",2026-11-14,claude,
+dreamer,self_report_ratings,self-assessment,valence;arousal;dominance,,trial,participant,,dreamer_zenodo,"participants' self-assessment of their affective state after each stimuli, in terms of valence, arousal, and dominance",2026-11-14,claude,
 tuab,normal_abnormal,normal/abnormal,normal;abnormal,,,,,tuh_eeg_downloads,TUAB entry: A corpus of EEGs that have been annotated as normal or abnormal,2026-11-14,claude,
 tuar,artifact_annotations,artifacts,EYEM;CHEW;SHIV;ELPP;MUSC,,,,,tuh_eeg_downloads,"TUAR entry: annotations of 5 different artifacts: (1) eye movement (EYEM), (2) chewing (CHEW)",2026-11-14,claude,
 tuep,seizure_annotations,seizure annotations,,,,,,tuh_eeg_downloads,TUEP entry: This new version of the corpus has seizure annotations,2026-11-14,claude,
