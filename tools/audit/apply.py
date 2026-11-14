@@ -123,7 +123,18 @@ def value_ok(kind, value, quote):
         return any(abs(float(n) - x) < 1e-9 for n in numbers_in(quote) if re.fullmatch(r"\d+(?:\.\d+)?", n))
     if kind == "text":
         return alnum(v) in alnum(quote)
-    return True  # enums: the mapping is the reviewer's reading; the quote is checked
+    return True  # other enums: the mapping is the reviewer's reading; the quote is checked
+
+
+# enum values that must be visible in the quote itself (a reviewer's inference is not enough)
+ENUM_WORDS = {"montage_system": {"10_20": r"10\s*[-–/]\s*20", "10_10": r"10\s*[-–/]\s*10|10\s*%", "10_05": r"10\s*[-–/]\s*0?5\b",
+                                 "egi_hydrocel": r"hydro\s*cel", "biosemi_abc": r"\bABC\b", "ear": r"\bear", "intracranial": r"intracranial|ECoG|depth|SEEG|subdural"},
+              "electrode_type": {"dry": r"\bdry\b", "wet_gel": r"\bgel|\bwet\b|paste", "saline": r"saline|sponge", "intracranial": r"intracranial|ECoG|depth|SEEG|subdural"}}
+
+
+def enum_ok(fld, v, quote):
+    pat = ENUM_WORDS.get(fld, {}).get(v)
+    return True if fld not in ENUM_WORDS else bool(pat and re.search(pat, quote, re.I))
 
 
 def fmt(kind, v):
@@ -230,7 +241,7 @@ def main():
                 continue
             if not check(did, fld, url, q):
                 continue
-            if not value_ok(kind, val, q):
+            if not value_ok(kind, val, q) or not enum_ok(fld, str(val).strip(), q):
                 rep["rejected"].append({"dataset_id": did, "what": fld, "why": "value not in quote", "value": val, "quote": q})
                 rep["accepted"].pop()
                 continue
