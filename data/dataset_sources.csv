@@ -41,6 +41,7 @@ bnci_011_2015,bnci_data_sets,distribution
 bnci_012_2015,bnci_data_sets,distribution
 bnci_013_2015,bnci_data_sets,distribution
 brain_wearable_monitoring,brain_wearable_monitoring_page,distribution
+brandl2020_bci_distraction,brandl2020_depositonce,distribution
 cao2019_driving_attention,cao2019_driving_attention_figshare,distribution
 cao2019_driving_attention,cao2019_driving_attention_paper,paper
 capslpdb,capslpdb_page,distribution
@@ -2051,6 +2052,8 @@ openbmi,openbmi_gigadb,distribution
 pei2022_athletes_alertness,pei2022_athletes_alertness_figshare,distribution
 pei2022_athletes_alertness,pei2022_athletes_alertness_paper,paper
 psg_ipa,psg_ipa_page,distribution
+sam40,sam40_figshare,distribution
+sam40,sam40_paper,paper
 seed,seed_downloads,distribution
 seed,seed_license,other
 seed,seed_page,distribution

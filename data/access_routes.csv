@@ -638,6 +638,7 @@ ngo2024_als_spelling,figshare,repository,https://doi.org/10.6084/m9.figshare.c.6
 openbmi,gigadb,repository,https://doi.org/10.5524/100542,direct_download,none,,,,
 pei2022_athletes_alertness,figshare,repository,https://doi.org/10.6084/m9.figshare.c.5740424.v1,direct_download,none,figshare-api,,,
 psg_ipa,physionet,repository,https://physionet.org/content/psg-ipa/1.0.0/,direct_download,none,wget,,,
+sam40,figshare,repository,https://figshare.com/articles/dataset/SAM_40_Dataset_of_40_Subject_EEG_Recordings_to_Monitor_the_Induced-Stress_while_performing_Stroop_Color-Word_Test_Arithmetic_Task_and_Mirror_Image_Recognition_Task/14562090,direct_download,none,figshare-api,,,
 seed,bcmi,official,https://bcmi.sjtu.edu.cn/home/seed/downloads.html,request_form_or_email,"Fill out and sign the license agreement, upload it on the APPLY page, receive a download link and password by e-mail after review",,,,
 seed_fra,bcmi,official,https://bcmi.sjtu.edu.cn/home/seed/downloads.html,request_form_or_email,"Fill out and sign the license agreement, upload it on the APPLY page, receive a download link and password by e-mail after review",,,,
 seed_ger,bcmi,official,https://bcmi.sjtu.edu.cn/home/seed/downloads.html,request_form_or_email,"Fill out and sign the license agreement, upload it on the APPLY page, receive a download link and password by e-mail after review",,,,
