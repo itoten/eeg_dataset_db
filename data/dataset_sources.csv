@@ -1,5 +1,11 @@
 dataset_id,source_id,role
 auditory_eeg,auditory_eeg_page,distribution
+bci2020,bci2020_osf,distribution
+bci2020_track1,bci2020_osf,distribution
+bci2020_track2,bci2020_osf,distribution
+bci2020_track3,bci2020_osf,distribution
+bci2020_track4,bci2020_osf,distribution
+bci2020_track5,bci2020_osf,distribution
 bigp3bci,bigp3bci_page,distribution
 bnci_001_2014,bnci_data_sets,distribution
 bnci_001_2015,bnci_data_sets,distribution

@@ -1,5 +1,11 @@
 dataset_id,route_id,route_kind,url,access_method,human_steps,automation_tool,authorized_by_authors,access_observed,access_observed_on
 auditory_eeg,physionet,repository,https://physionet.org/content/auditory-eeg/1.0.0/,direct_download,none,wget,,,
+bci2020,osf,repository,https://osf.io/pq7vb/,direct_download,none,,,,
+bci2020_track1,osf,repository,https://osf.io/pq7vb/,direct_download,none,,,,
+bci2020_track2,osf,repository,https://osf.io/pq7vb/,direct_download,none,,,,
+bci2020_track3,osf,repository,https://osf.io/pq7vb/,direct_download,none,,,,
+bci2020_track4,osf,repository,https://osf.io/pq7vb/,direct_download,none,,,,
+bci2020_track5,osf,repository,https://osf.io/pq7vb/,direct_download,none,,,,
 bigp3bci,physionet,repository,https://physionet.org/content/bigp3bci/1.0.0/,direct_download,none,wget,,,
 bnci_001_2014,bnci,repository,https://bnci-horizon-2020.eu/database/data-sets,direct_download,none,http,,,
 bnci_001_2015,bnci,repository,https://bnci-horizon-2020.eu/database/data-sets,direct_download,none,http,,,

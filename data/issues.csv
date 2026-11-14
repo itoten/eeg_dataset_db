@@ -1,1 +1,2 @@
 dataset_id,issue_no,type,description,n,source_id,locator,checked_on
+bci2020,1,missing_or_mismatched_label,The organizing committee decided not to open the labels of the test data to the public.,,bci2020_osf,we decided not to open the label for the test dataset to the public,2026-11-14

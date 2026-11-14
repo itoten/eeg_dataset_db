@@ -1,1 +1,6 @@
 dataset_id,task_id,task_name,paradigms,stimulus_modalities,response_required,n_classes,n_trials_per_session,run_duration_s,n_runs_per_session,setup_id,description
+bci2020_track1,main,Few-shot EEG learning,motor_imagery,,,,,,,,
+bci2020_track2,main,Microsleep detection from single-channel EEG,,,,,,,,,
+bci2020_track3,main,Imagined speech classification,imagined_speech,,,,,,,,
+bci2020_track4,main,Upper-limb movements decoding in a single-arm,,,,,,,,,
+bci2020_track5,main,EEG(+Ear-EEG)-based ERP detection during walking,,,,,,,,,

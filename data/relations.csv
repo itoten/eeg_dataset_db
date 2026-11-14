@@ -1,4 +1,9 @@
 dataset_id,relation,other_dataset_id,source_id,note
+bci2020_track1,subset_of,bci2020,bci2020_osf,Folder Track 1 of the competition project
+bci2020_track2,subset_of,bci2020,bci2020_osf,Folder Track 2 of the competition project
+bci2020_track3,subset_of,bci2020,bci2020_osf,Folder Track 3 of the competition project
+bci2020_track4,subset_of,bci2020,bci2020_osf,Folder Track 4 of the competition project
+bci2020_track5,subset_of,bci2020,bci2020_osf,Folder Track 5 of the competition project
 tuar,subset_of,tueg,tuh_eeg_downloads,TUAR entry: This subset of TUEG
 tuep,subset_of,tueg,tuh_eeg_downloads,TUEP entry: This is a subset of TUEG
 tuev,subset_of,tueg,tuh_eeg_downloads,TUEV entry: This corpus is a subset of TUEG
