@@ -605,6 +605,108 @@ ds009033,EEG and hedonic responses to sonic-seasoning soundscapes,,scalp_eeg,,,,
 ds009081,EEG during Balinese dance movements and balance tasks in expert dancers and non-dancers,,scalp_eeg,,,,CC0-1.0,,,,,,true,,38,,,,0.06,,,,,,direct_download,open,16,100,10_20,Contec Medical Systems KT88-1016,resting_unspecified,,2026-11-14
 ds009082,EEG Lie Detection Dataset using Emotiv EPOC+: Instructed-Response and Free-Response Protocols,,scalp_eeg,,,,CC0-1.0,,,,,,true,,54,,,,0.06,,,,,,site_terms_agreement,one_time_human,14,128,,,,,2026-11-14
 ds009097,Resting-state EEG of children with developmental dyslexia before and after 60 sessions of Auto Train Brain neurofeedback and multisensory learning,,scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,0.01,,,,,,site_terms_agreement,one_time_human,14,128,,Emotiv EPOC+ (14-channel),resting_unspecified,,2026-11-14
+dv_10_18710_bfmctv,Documentation of ASTRID,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_d5io4r,MINDMAP,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_e96an9,HSs Italian-German,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_eozhm6,Northern Norwegian,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_ilryhb,Lexical semantics trumps syntax during noun composition in predication and modification contexts: Insights from the N400 and alpha and beta band synchronization,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_k849xh,"Data for ‘Neural and behavioral effects of typicality, denotation and composition in an adjective-noun combination task’",,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_kqia63,EEGCAP,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_lodkef,Data for ‘The interplay of computational complexity and memory load during quantifier verification’,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_m6vt6z,Data for ‘Computational Complexity Explains Neural Differences in Quantifier Verification’,,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_mwbect,CELL,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_wvq6wn,LESS,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_18710_yhj60f,HeLPiNG,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_26165_juelich_data_t1pknz,Data for: Stimulus transformation into motor action: dynamic graph analysis reveals a posterior-to-anterior shift in brain network communication of older subjects,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_34894_0o5xq7,"EEG and Self-Paced Reading of Natural, Dutch Texts (Towards a computational model of reading (TCMR))",,scalp_eeg,,,2026,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_34894_3lymzf,Broadband Alpha Transcranial Alternating Current Stimulation: Exploring a new biologically calibrated brain stimulation protocol,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
+dv_10_34894_5utxxe,Neurocorrelates of mind wandering during a fine motor control task,,scalp_eeg,,,2022,CC-BY-NC-ND-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_34894_5xdg5k,EEG responses to disgust and sadness evoking IAPS images with ERP analysis and SVM classification,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_34894_7elm50,Neural responses with EEG to climate change images,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_34894_9l4iv4,"EEG responses to facial attractiveness, with ERP cluster analysis and MVPA classification",,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_34894_cxenfp,"Cognitive control promotes either honesty or dishonesty, depending on one’s moral default - EEG - JoN",,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_34894_eozlxh,No indications for altered EEG oscillatory activity in patients with chronic post-burn itch compared to healthy controls,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_34894_hxt0at,Developmental changes in ERP responses to spatial frequencies,,scalp_eeg,,,2015,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
+dv_10_34894_idrtmf,Behavioral and EEG responses to social evaluation: A two-generation family study on social anxiety,,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
+dv_10_34894_ievdwh,Can you hear me now? Momentary increase in smartphone usage enhances neural processing of task-irrelevant sound tones,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_34894_jowjf5,Single-trial log transformation is optimal in frequency analysis of resting EEG alpha,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
+dv_10_34894_kmt3vi,Example data for EStiMapp,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_34894_kw3ykn,Phase and power modulations on the amplitude of TMS-induced motor evoked potentials,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
+dv_10_34894_r3qwkh,Calibrating rhythmic stimulation parameters to individual EEG markers: the consistency of individual alpha frequency in practical lab settings.,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
+dv_10_34894_zhodry,Questionnaire and EEG data for the Overview Effect in VR,,scalp_eeg,,,2024,CC-BY-NC-ND-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_48804_3eusts,A Multi-Paradigm EEG Dataset for Multi-Task BCI Applications,,scalp_eeg,,,2026,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
+dv_10_48804_5pbgiy,Eccentricity and Attention EEG Dataset KU Leuven,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_48804_kvorek,Neurage Tracking,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_48804_nv4rgl,Eyes-closed Visual Imagery and Auditory Perception EEG Dataset,,scalp_eeg,,,2026,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_48804_p5q0oj,SeizeIT1,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_7910_dvn_251now,A cross-session motor imagery EEG dataset,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_28432,Ensemble Empirical Mode Decomposition Analysis of EEG Data collected during a Contour Integration Task,,scalp_eeg,,,2014,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_28932,EEG And Pupillometry During Hand Motor Imagery,,scalp_eeg,,,2015,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_2uph3s,Comparison of Bayesian Solvers in EEG Distributed Source Model Using Numerical Settings,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_2x2jsy,More than meets the eye? Differential neural offset encoding of occluded objects. Experiment 1,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_3ddj5p,Neuropolitics - Political Statements,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_3equsc,MI-A dataset of the BCI competition WRCC2024,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_5j1fb5,More than meets the eye? Differential neural offset encoding of occluded objects. Experiment 2,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_5rm3ot,JapanEEG: a 1000-hour EEG–EMG–audio dataset of Japanese speech production,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_7910_dvn_6igehl,Electroencephalography Patterns in Children with First Unprovoked Seizure,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_6sj1mo,T-F data to native- and non-native phonological sequence onsets in nonwords,,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_7rnarb,Adolescents EEG Data,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_87hx2a,Covert naming task EEG data - minimally processed,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_bnnsrg,Public Dataset: ERP Differences in Processing Canonical and Noncanonical Finger-Numeral Configurations,,scalp_eeg,,,2019,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_cpchrx,Overt naming task EEG data - EOG+EMG denoised,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_dkekbh,"General files for ""Robust neurocognitive individual differences in grammatical agreement processing: A latent variable approach""",,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_dknxag,Mobile Brain/Body Imaging dataset of Head-Turning tasks,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_dpdvr9,Shared Components Interfere With Fraction Magnitude Verification,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_eg2kjj,"Data for ""The error-related negativity and error-related temporal binding: Different predictors of task performance?""",,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_elkttr,MI-B dataset of the BCI competition WRCC2024,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_eltsa3,"Emojis, EEG, and Emotion: A Brainwave Dataset on Marketing Communication and Consumer Behavior""",,scalp_eeg,,,2026,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_evnuzs,"Adolescent Sleep Need Waking EEG, Years 1-3",,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_fjd7tq,Data for MS: EEG Theta/Beta Ratio Neurofeedback Training in Healthy Females,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_g8fbhh,MI-C dataset of the BCI competition WRCC2023,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_gdgivg,Longitudinal EEG and ERP biosignatures of MCI,,scalp_eeg,,,2024,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_gh74zg,Cross-Session Motor Imagery EEG dataset,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_gpldmw,Electroencephalograph (EEG) as Evidence of Criminal Responsibility,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_hfnwrx,MI-B dataset of the BCI competition WRCC2023,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_hmpgyn,EEG files - Mu Suppression experiment,,scalp_eeg,,,2015,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_hqzz7y,Not All Directions Are Equal: Prefrontal EEG and Autonomic Correlates of Directionality in Simultaneous Interpreting,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_j0pqiw,Olfactory EEG Datasets,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_j9jfes,MI-A dataset of the BCI competition WRCC2023,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_jfxxki,EEG Scene-Object Associative Memory Task: Cue-Target Delay Manipulation,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_jfzxmb,Integrative EEG/fMRI Evidence for a Multi-scale Network underlying Self-Face and Personal-Object Recognition,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_ji86fq,Covert naming task EEG data - EOG denoised,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_k5edb4,"Raw EEG data for ""Robust neurocognitive individual differences in grammatical agreement processing: A latent variable approach""",,scalp_eeg,,,2019,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_kdh3wa,Bipolar EEG Dataset for Brain–Computer Interfaces,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_kyjnva,Prognostic Value of Early Intermittent Electroencephalography in Patients After Extracorporeal Cardiopulmonary Resuscitation,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_l1tznd,Mental Line,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_m9qfig,Auditory Evoked Potentials Time-Locked to the Second Nonword within Spoken Nonword Pairs,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_menrft,EEG Data for Dual-Task Auditory Oddball Paradigm during VR Sickness Induction,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_mysrmn,Neural computation_EEG,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_mytnmz,Speech EEG recording from single subject for 100 hours,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_7910_dvn_n5em3c,Overt naming task EEG data - minimally processed,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_nelugc,Vibrotactile Stimulation Encoded by Beta and Gamma Bands Varies with Locations on the Upper Limbs,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_nijcqh,Dataset for: A Randomized Controlled Trial of Early Nutritional Intervention in Malnourished Bangladeshi Children: GAMLSS-Derived EEG Power Z-Scores Reveal Partial Neurodevelopmental Recovery,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_7910_dvn_nzcjw1,Evaluation to Adaptation,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_odvelo,Noun-Verb integration,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_p7lmzh,Mobile Brain/Body Imaging dataset of Active Navigation tasks,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_px8pnd,Control McGurk Data,,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_qu4wsd,Adults EEG Data,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_qwpjp5,Overt naming task EEG data - EOG denoised,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_r2dbys,Semantic integration across words,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_skownk,Musicianship EEG Dataset,,scalp_eeg,,,2025,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_slr8cw,Beyond the neural underpinnings of action emulation in expert athletes: an EEG study,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_tg4ukf,EEG/fMRI data recorded during T/A neurofeedback experiment,,scalp_eeg,,,2015,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_tv4jwd,EEG data of young participants performing Stroop task,,scalp_eeg,,,2015,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_u9dffi,Experiential Blink,,scalp_eeg,,,2019,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_v2cwjw,"Muse S EEG data from Mind Monitor APP for The effects of meditation on brainwaves using a commercially available, inexpensive, and easily implemented EEG headband.",,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_vksjim,Children EEG Data,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_vpriy7,Covert naming task EEG data - EOG+EMG denoised,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_vve6qc,Acute Biphasic effects of ayahuasca,,scalp_eeg,,,2015,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_xhanw7,EEG data of modified flanker and mental rotation task,,scalp_eeg,,,2015,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_yd7ppu,EEG dataset for audio-visual fission and fusion illusions,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_ykhxha,Evaluation to Adaptation,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_ztcwpg,Uncanny Valley Effect: Electrophysiological Measures -- EEG data,,scalp_eeg,,,2025,CC-BY-NC-ND-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_ztku9h,Dataset for: Trajectories of nutritional status across early childhood are associated with EEG power,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+dv_10_7910_dvn_zxpj8c,EEG ERP spatial impulsivity go/no-go task,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 eeg_eye_gaze_data,Electroencephalogram and eye-gaze datasets for robot-assisted surgery performance evaluation,,scalp_eeg;eye_tracking,,,,CC-BY-NC-SA-4.0,,,,,,,,25,,,,33.2,,,,,,direct_download,open,,,,,,,2026-11-14
 eeg_eye_gaze_for_fls_tasks,Integration of Electroencephalogram and Eye-Gaze Datasets for Performance Evaluation in Fundamentals of Laparoscopic Surgery (FLS) Tasks,,scalp_eeg;eye_tracking,,,,CC-BY-NC-SA-4.0,,,,,,,,25,,,,7.8,,,,,,direct_download,open,,,,,,,2026-11-14
 eeg_gaba_anesthesia,Electroencephalogram dynamics during unconsciousness mediated by GABAergic-anesthetics,,scalp_eeg,,,,LicenseRef-physionet-contributor-review,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14

@@ -105,9 +105,13 @@ def main():
     entries = json.loads(Path(sys.argv[1]).read_text())
     today = sys.argv[2] if len(sys.argv) > 2 else datetime.date.today().isoformat()
     B = Batch(today)
-    seen_urls, kept = set(), []
+    seen_urls, kept = {s["doi"].lower() for s in B.db["sources"][1] if s["doi"]}, []
     for e in entries:
-        m = read(e)
+        try:
+            m = read(e)
+        except (KeyError, IndexError, TypeError, ValueError) as err:
+            print("skipped (record could not be read):", e["dataset_id"], err)
+            continue
         keys = {k for k in (m["url"], (m.get("doi") or "").lower()) if k}
         if keys & seen_urls:
             print("skipped (same URL or DOI as an earlier entry):", e["dataset_id"])
