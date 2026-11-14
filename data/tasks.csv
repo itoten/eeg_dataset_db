@@ -3652,6 +3652,27 @@ zenodo_10229050,unattended_oddball_paradigm_mmn,unattended oddball paradigm (MMN
 zenodo_10229479,main,,motor_execution,,,,,,,,Paradigm stated by the dataset name
 zenodo_10229479,unilateral_and_bilateral_movement_execut,unilateral and bilateral movement executions (reaching / button press),motor_execution,,,,,,,,
 zenodo_10259995,long_term_monitoring_after_withdrawal_of,long-term monitoring after withdrawal of anti-seizure medication,clinical_routine;long_term_monitoring,,,,,,,,
+zenodo_10260081,diotic_listening_task,diotic listening task,cognitive_task,,,,,,,,
+zenodo_10301898,match_mismatch_task,Match-mismatch task,language,,,,,,,,
+zenodo_10301898,passive_listening_task,Passive listening task,language,,,,,,,,
+zenodo_10363505,playing_emotional_music,playing emotional music,emotion_induction,,,,,,,,
+zenodo_10363505,resting_state_recording,resting state recording,resting_unspecified,,,,,,,,
+zenodo_10363957,blink_eog,blink EOG,other,,,,,,,,
+zenodo_10363957,p300_1_by_1_and_row_column_paradigms_eeg,P300 1-by-1 and row/column paradigms (EEG),p300_erp,,,,,,,,
+zenodo_10423896,closed_eyes_ce,closed eyes (cE),resting_eyes_closed,,,,,,,,
+zenodo_10423896,open_eyes_oe,open eyes (oE),resting_eyes_open,,,,,,,,
+zenodo_10475657,watching_emotion_eliciting_videos,watching emotion-eliciting videos,emotion_induction,,,,,,,,
+zenodo_1050458,flickering_task,flickering task,ssvep,,,,,,,,
+zenodo_1050458,resting_state_with_closed_eyes,resting state with closed eyes,resting_eyes_closed,,,,,,,,
+zenodo_10512413,watching_muted_single_shot_videos_and_mr,watching muted single-shot videos and Mr. Bean clip,passive_viewing,,,,,,,,
+zenodo_10640761,video_eeg_monitoring,video-EEG monitoring,long_term_monitoring,,,,,,,,
+zenodo_1064814,sleep,sleep,sleep,,,,,,,,
+zenodo_1065106,sequential_visual_isometric_pinch_task_s,sequential visual isometric pinch task (SVIPT),motor_execution,,,,,,,,
+zenodo_10695161,motor_imagery,motor imagery,motor_imagery,,,,,,,,
+zenodo_10696429,temporal_numerosity_adaptation,temporal numerosity adaptation,visual_erp,,,,,,,,
+zenodo_10728063,pseudoword_reverse_spelling_task_using_a,pseudoword reverse spelling task using a BCI speller,other,,,,,,,,
+zenodo_10797878,imagined_speech,imagined speech,imagined_speech,,,,,,,,
+zenodo_10797878,spoken_speech,spoken speech,overt_speech,,,,,,,,
 zenodo_15454354,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name

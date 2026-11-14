@@ -90,6 +90,7 @@ tuev,subset_of,tueg,tuh_eeg_downloads,TUEV entry: This corpus is a subset of TUE
 tusl,subset_of,tueg,tuh_eeg_downloads,TUSL entry: This is another subset of TUEG
 zenodo_10259995,derived_from,chbmit,zenodo_10259995_doccaf443,"The record says its data come from the other dataset (audit, quote checked)"
 zenodo_10301898,possibly_same_as,zenodo_8370355,zenodo_10301899,Both print the same name; whether they are the same data is not checked
+zenodo_10640761,derived_from,siena_scalp_eeg,siena_scalp_eeg_page,"The record says its data come from the other dataset (audit, quote checked)"
 zenodo_11010554,possibly_same_as,zenodo_17535641,zenodo_11010555,Both print the same name; whether they are the same data is not checked
 zenodo_1185066,possibly_same_as,zenodo_1237653,zenodo_1185067,Both print the same name; whether they are the same data is not checked
 zenodo_1237653,possibly_same_as,zenodo_1185066,zenodo_1237654,Both print the same name; whether they are the same data is not checked

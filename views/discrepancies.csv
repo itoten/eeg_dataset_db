@@ -49,3 +49,5 @@ figshare_9033983,modalities,conflicting,scalp_eeg,primary,https://figshare.com/a
 figshare_9033983,modalities,conflicting,scalp_eeg;audio,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9355803/fullTextXML,Audit reviewer; scope: not given
 hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://huggingface.co/datasets/MaRez10/EEG_Pain_Perception,Audit reviewer; scope: recorded
 hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://huggingface.co/datasets/MaRez10/EEG_Pain_Perception,Audit reviewer; scope: downsampled (whether the distributed files are at 250 hz is not stated)
+zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
+zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
