@@ -132,7 +132,28 @@ ENUM_WORDS = {"montage_system": {"10_20": r"10\s*[-–/]\s*20", "10_10": r"10\s*
               "electrode_type": {"dry": r"\bdry\b", "wet_gel": r"\bgel|\bwet\b|paste", "saline": r"saline|sponge", "intracranial": r"intracranial|ECoG|depth|SEEG|subdural"}}
 
 
+def _enums():
+    import csv
+    out = {}
+    for r in csv.DictReader(open(ROOT / "schema/enums.csv", encoding="utf-8")):
+        out.setdefault(r["enum"], set()).add(r["value"])
+    return out
+
+
+ENUMS = _enums()
+ENUM_OF = {"modalities": "modality", "domains": "domain", "license_spdx": "license_spdx", "electrode_type": "electrode_type",
+           "montage_system": "montage_system", "condition": "group_condition", "paradigms": "paradigm"}
+
+
+def in_vocab(fld, v):
+    """Every ;-item of an enum value must be in the schema's vocabulary."""
+    e = ENUM_OF.get(fld)
+    return True if not e else all(x in ENUMS[e] for x in str(v).split(";") if x)
+
+
 def enum_ok(fld, v, quote):
+    if not in_vocab(fld, v):
+        return False
     pat = ENUM_WORDS.get(fld, {}).get(v)
     return True if fld not in ENUM_WORDS else bool(pat and re.search(pat, quote, re.I))
 
@@ -280,7 +301,7 @@ def main():
             loc = " ".join(t["quote"].split()[:25])
             if name and not tasks[tid]["task_name"]:
                 R.ev(f"tasks:{tid}.task_name", name, sid, loc, "claude")
-            pars = ";".join(sorted({p for p in t.get("paradigms", []) if p}))
+            pars = ";".join(sorted({p for p in t.get("paradigms", []) if p and p in ENUMS["paradigm"]}))
             if pars and not tasks[tid]["paradigms"]:
                 R.ev(f"tasks:{tid}.paradigms", pars, sid, loc, "claude")
         groups = {g["group_id"]: g for g in B.db["participant_groups"][1] if g["dataset_id"] == did}
