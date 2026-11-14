@@ -4,6 +4,11 @@ bci2020_track2,sleep_stages,sleep stages,,,,,,bci2020_osf,Five sleep stages from
 bci2020_track3,class_labels,classes,Hello;Help me;Stop;Thank you;Yes,,,,,bci2020_osf,"(e.g., ‘Hello’, ‘Help me’, ‘Stop’, ‘Thank you’, and ‘Yes’)",2026-11-14,claude,The wiki lists the words after 'e.g.'
 bci2020_track4,class_labels,grasping tasks,Cylindrical;Spherical;Lumbrical,,,,,bci2020_osf,"Three grasping tasks from a single-hand (‘Cylindrical’, ‘Spherical’, and ‘Lumbrical’)",2026-11-14,claude,
 dreamer,self_report_ratings,self-assessment,valence;arousal;dominance,,trial,participant,,dreamer_zenodo,"participants' self-assessment of their affective state after each stimuli, in terms of valence, arousal, and dominance",2026-11-14,claude,
+figshare_12636731,behavioral_responses,response time files,,,,,,figshare_12636731_doc7f056f,M1aud_migraine.txt -> The response time (in seconds) in the feedback task after auditory stimulation,2026-11-14,claude,
+figshare_12636731,event_markers,epoch labels,1;2;11;22,,,,,figshare_12636731_doc9e05f6,"we have used labels “1” and “2” for pointing to the onset of the 4Hz and 6Hz stimuli respectively, and “11” and “22” for pointing",2026-11-14,claude,
+figshare_14191880,class_labels,five classes,,,,,,figshare_14191880_doc8cb470,"There is a total of five classes in the dataset. These are the EEG signal showing epilepsy, the EEG signal received from the tumor site,",2026-11-14,claude,
+figshare_14273687,class_labels,substate,0 = alert;1 = drowsy,,,,,figshare_14273687_doc0c12a0,0 corresponds to the alert state and 1 correspond to the drowsy state.,2026-11-14,claude,
+figshare_16586957,class_labels,substate,0 = alert;1 = drowsy,,,,,figshare_16586957_doc9ea0ac,0 corresponds to the alert state and 1 correspond to the drowsy state.,2026-11-14,claude,
 tuab,normal_abnormal,normal/abnormal,normal;abnormal,,,,,tuh_eeg_downloads,TUAB entry: A corpus of EEGs that have been annotated as normal or abnormal,2026-11-14,claude,
 tuar,artifact_annotations,artifacts,EYEM;CHEW;SHIV;ELPP;MUSC,,,,,tuh_eeg_downloads,"TUAR entry: annotations of 5 different artifacts: (1) eye movement (EYEM), (2) chewing (CHEW)",2026-11-14,claude,
 tuep,seizure_annotations,seizure annotations,,,,,,tuh_eeg_downloads,TUEP entry: This new version of the corpus has seizure annotations,2026-11-14,claude,

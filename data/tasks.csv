@@ -1506,6 +1506,13 @@ ds009097,rest,rest,resting_unspecified,,,,,,,,"Eyes-closed resting state, approx
 eeg_gaba_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 eeg_power_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 eldbeta,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
+figshare_12636731,resting_state,Resting state,resting_eyes_open,,,,,,,,
+figshare_12636731,ssaep,SSAEP,auditory_erp,,,,,,,,
+figshare_12636731,ssvep,SSVEP,visual_erp,,,,,,,,
+figshare_13604078,event_related_potential_erp,event-related potential (ERP),visual_erp,,,,,,,,
+figshare_13604078,steady_state_visual_evoked_potential_ssv,steady-state visual evoked potential (SSVEP),ssvep,,,,,,,,
+figshare_14273687,sustained_attention_driving_task,sustained-attention driving task,cognitive_task,,,,,,,,
+figshare_14695578,sensorimotor_integration_training_sit,sensorimotor integration training (SIT),auditory_erp;motor_execution,,,,,,,,
 gu2024_ssvep_1_60hz,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 hmc_sleep_staging,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 isruc_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)

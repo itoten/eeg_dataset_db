@@ -715,26 +715,13 @@ eegmat,EEG During Mental Arithmetic Tasks,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,,,
 eegmmidb,EEG Motor Movement/Imagery Dataset,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,3.4,,,,,,direct_download,open,,,,,,,2026-11-14
 eldbeta,eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for the Aging Population,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
 faced,FACED,,,,,2023,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
-figshare_11500485,"Metadata record for: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG during a verbal working memory task",,,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_12236966,EEG 128E example dataset ANT CNT,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_12251765,"Metadata record for: Simultaneous EEG-fMRI during a neurofeedback task, a brain imaging dataset for multimodal data integration",,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_12278444,Metadata record for: Multi-channel EEG recording during motor imagery of different joints from the same limb,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_1242723,Dataset S1 - Enhanced Slow-Wave EEG Activity and Thermoregulatory Impairment following the Inhibition of the Lateral Hypothalamus in the Rat,,scalp_eeg,,,2014,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_12636731,Ultra high-density EEG recording of interictal migraine and controls: sensory and rest,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_13123148,Human EEG Dataset for Brain-Computer Interface and Meditation,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_13148762,Metadata record for: A dataset of EEG and EOG from an auditory EOG-based communication system for patients in locked-in state,,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_13277348,"Metadata record for: The Cuban Human Brain Mapping Project, a young and middle age population-based EEG, MRI, and cognition dataset",,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_13604078,"Mobile BCI dataset of scalp- and ear-EEG with ERP and SSVEP paradigms during standing, walking, and running",,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_14191880,multi-class eeg dataset,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_14197841,"EEG and observation dataset, and consent forms",,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_14273687,EEG driver drowsiness dataset,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,30,,,,,,2026-11-14
-figshare_14611581,"Metadata record for: PSG-Audio, a scored polysomnography dataset with simultaneous audio recordings for sleep apnea studies.",,,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_14695578,EEG dataset for evaluation of a single-session SIT effect in healthy aging,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_14721282,"THINGS-EEG: Human electroencephalography recordings for 22,248 images from 1,854 object concepts",,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_1541151,OpenMIIR - a public domain dataset of EEG recordings for music imagery information retrieval,,scalp_eeg,,,2015,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_16558119,"Metadata record for: Dataset of concurrent EEG, ECG, and behavior with multiple doses of transcranial electrical stimulation",,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_16586957,EEG driver drowsiness dataset (unbalanced),,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,30,,,,,,2026-11-14
-figshare_16783987,Metadata record for: Thinking out loud: an open-access EEG-based BCI dataset for inner speech recognition,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+figshare_12636731,Ultra high-density EEG recording of interictal migraine and controls: sensory and rest,,scalp_eeg,neurology;perception;resting_state,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,128,512,custom,BioSemi ActiveTwo,auditory_erp;resting_eyes_open;visual_erp,,2026-11-14
+figshare_13604078,"Mobile BCI dataset of scalp- and ear-EEG with ERP and SSVEP paradigms during standing, walking, and running",,conflicting,bci,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,500,10_20,,ssvep;visual_erp,,2026-11-14
+figshare_14191880,multi-class eeg dataset,,scalp_eeg,epilepsy,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+figshare_14273687,EEG driver drowsiness dataset,,scalp_eeg,cognitive,,2021,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,30,,,,cognitive_task,,2026-11-14
+figshare_14695578,EEG dataset for evaluation of a single-session SIT effect in healthy aging,,scalp_eeg,cognitive;motor,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,auditory_erp;motor_execution,,2026-11-14
+figshare_16586957,EEG driver drowsiness dataset (unbalanced),,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,30,128,,,,,2026-11-14
 figshare_17029712,"Metadata record for: Human electroencephalography recordings for 1,854 concepts presented in rapid serial visual presentation streams",,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_18470912,A large and rich EEG dataset for modeling human visual object recognition,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_19248827,Utah array recordings from visual cortical area V4 and prefrontal cortex with simultaneous EEG,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -742,7 +729,6 @@ figshare_2068626,A dataset for the test-retest reliability assessment of EEG & E
 figshare_2068677,"MAMEM EEG SSVEP Dataset I (256 channels, 11 subjects, 5 frequencies presented in isolation)",,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,250,,,,,2026-11-14
 figshare_21507567,Individual EEG recordings,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_21644429,EEG Dataset for 'Immediate effects of short-term meditation on sensorimotor rhythm-based brain–computer interface performance',,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_21679035,EEG datasets of stroke patients,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_21741830,Definition of time windows of the EEG signal.,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_21905109,Raw EEG recordings,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_21929871,"EEG dataset for ""Brainwave activities reflecting depressed mood: a pilot study""",,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,128,,,,,2026-11-14
@@ -756,7 +742,6 @@ figshare_23690877,Pinprick-induced gamma-band oscillations are not a useful elec
 figshare_24032265,Open access dataset integrating EEG and fNIRS during Stroop tasks,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,34,,,,,,2026-11-14
 figshare_24465871,Motor and Speech Imagery EEG Dataset,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_24631257,Embodied Communication Game Dataset: dual-EEG and behavioural data from pairs of interacting participants,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_24760827,An EEG Dataset of Neural Signatures in a Competitive Two-Player Game Encouraging Deceptive Behavior,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_24777084,Data Descriptor: EEG and physiological signals dataset from participants during traditional and partially immersive learning experiences in Humanities,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_24803499,EEG and fNIRS Datasets Based on Stroop Task during Two Weeks of High-Altitude Exposure in New Immigrants,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_24867261,Treating pain in sickle cell disease by means of focused ultrasound neuromodulation (EEG recordings),,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -765,10 +750,8 @@ figshare_24906300,YSU-an EEG dataset for studying asynchronous SSVEP-BCI,,scalp_
 figshare_24920325,Phase Speech Acoustic Clean EEG Dataset,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_25360300,"EEG-BCI Dataset for ""Continuous Tracking using Deep Learning-based Decoding for Non-invasive Brain-Computer Interface""",,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_27119376,A finer-grained high altitude EEG dataset for hypoxia levels assessment,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,64,,,,,,2026-11-14
-figshare_27130299,Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_27201003,A longitudinal EEG dataset of event-related potential,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_27301629,An EEG-EMG Dataset from a Standardized Reaching Task for Biomarker Research in Upper Limb Assessment,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_28069568,An EEG dataset for interictal epileptiform discharge with spatial distribution information,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_28089479,"Original EEG, EDA, HRV, HR datasets analyzed using TOPSIS",,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
 figshare_28156016,Longitudinal ALS EEG Dataset for Motor Imagery Studies,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_28389305,OPMMEG-EEG-BCI-Dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -828,7 +811,6 @@ figshare_5537314,Eye Movement Artifact Wet EEG Datasets,,scalp_eeg,,,2018,CC-BY-
 figshare_5537323,Eye Movement Artifact Dry EEG Datasets,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_5537326,Myogenic Artifact Wet EEG Datasets,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_5537338,Myogenic Artifact Dry EEG Datasets,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_6427334,Multi-channel EEG recordings during a sustained-attention driving task (raw dataset),,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,30,,,,,,2026-11-14
 figshare_670498,Distribution of AAC and F1-scores across the participants (n = 7) in various flickering frequencies and peak detection thresholds in terms of standard deviation (SD) of the baseline EEG signal.,,scalp_eeg,,,2013,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_7666055,Multi-channel EEG recordings during a sustained-attention driving task (pre-processed dataset),,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,30,,,,,,2026-11-14
 figshare_7718966,Simulated electroencephalographic signals contaminated with transient pop and drift artifacts,,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -2020,7 +2002,6 @@ zenodo_7947618,BCI_EXPERIMENTS_JEMARO,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,
 zenodo_7948048,"EEG Recordings of Exposure to Unrealistic, Semi-realistic and Realistic Character Faces - A Pilot Study",,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_7951043,EEG and EMG dataset for the detection of errors introduced by an active orthosis device (IJCAI'23 CC6 Competition),,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_795347,Fronto-parietal tDCS in DOC patients,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_796158,DREAMER: A Database for Emotion Recognition through EEG and ECG Signals from Wireless Low-cost Off-the-Shelf Devices,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
 zenodo_7995631,Data from: Decision and response monitoring during working memory are sequentially represented in the human insula,,,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_800210,The EEG and fMRI signatures of neural integration: An investigation of meaningful gestures and corresponding speech,,scalp_eeg,,,2015,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_8013800,Data for: Capturing synchronization with complexity measure of ordinal pattern transition network constructed by Crossplot,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14

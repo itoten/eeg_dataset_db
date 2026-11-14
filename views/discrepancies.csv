@@ -1,1 +1,11 @@
 dataset_id,field,kind,value,source_type,source_ref,note
+figshare_13604078,acquisition_setups:main.device_manufacturer,conflicting,Brain Product GmbH,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: scalp-eeg
+figshare_13604078,acquisition_setups:main.device_manufacturer,conflicting,mBrainTrain,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: ear-eeg
+figshare_13604078,acquisition_setups:main.device_model,conflicting,BrainAmp,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: scalp-eeg
+figshare_13604078,acquisition_setups:main.device_model,conflicting,SMARTING,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: ear-eeg
+figshare_13604078,acquisition_setups:main.n_channels_eeg,conflicting,14,primary,https://api.figshare.com/v2/articles/13604078,Audit reviewer; scope: ear-eeg
+figshare_13604078,acquisition_setups:main.n_channels_eeg,conflicting,32,primary,https://api.figshare.com/v2/articles/13604078,Audit reviewer; scope: scalp-eeg
+figshare_13604078,modalities,conflicting,scalp_eeg,primary,https://figshare.com/articles/dataset/Mobile_BCI_dataset_of_scalp-_and_ear-EEG_with_ERP_and_SSVEP_paradigms_during_standing_walking_and_running/13604078,
+figshare_13604078,modalities,conflicting,scalp_eeg;ear_eeg;eog;other_physiological,primary,https://api.figshare.com/v2/articles/13604078,Audit reviewer; scope: not given
+figshare_14273687,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://api.figshare.com/v2/articles/14273687,Audit reviewer; scope: distributed
+figshare_14273687,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://arxiv.org/pdf/2106.00613v1,Audit reviewer; scope: recorded (original cao et al. data)
