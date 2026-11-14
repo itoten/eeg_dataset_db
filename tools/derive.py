@@ -8,11 +8,12 @@ import csvio
 import db as dbmod
 
 # Ordered from the least to the most human work; the best route is the first one found.
-ACCESS_ORDER = ["open_direct", "open_with_token", "click_through", "manual_approval",
-                "credentialed", "institutional_agreement", "paid", "not_available"]
-TIER = {"open_direct": "open", "open_with_token": "one_time_human", "click_through": "per_dataset_human",
-        "manual_approval": "approval", "credentialed": "approval", "institutional_agreement": "approval",
-        "paid": "approval", "not_available": "unavailable"}
+ACCESS_ORDER = ["direct_download", "free_account_required", "site_terms_agreement", "gated_click_through", "request_form_or_email",
+                "credentialed_training", "signed_agreement", "paid_or_membership", "unavailable"]
+TIER = {"direct_download": "open", "free_account_required": "one_time_human", "site_terms_agreement": "one_time_human",
+        "gated_click_through": "per_dataset_human", "request_form_or_email": "approval",
+        "credentialed_training": "approval", "signed_agreement": "approval",
+        "paid_or_membership": "approval", "unavailable": "unavailable"}
 DERIVED = ["best_access_method", "access_tier", "n_channels_eeg", "sampling_rates_hz",
            "montage_systems", "devices", "paradigms"]
 NOT_VALUES = ("", "unknown", "NA", "none", "conflicting")

@@ -47,7 +47,8 @@ The design follows `ser_dataset_db` (a database of speech emotion recognition da
 | `data/providers.csv` | an institution that recorded or distributes data |
 | `data/access_routes.csv` | one way to obtain the data and what a person must do on it |
 | `data/acquisition_setups.csv` | one recording setup in a dataset (device, electrodes, montage, reference, sampling rate) |
-| `data/channels.csv` | one channel of a setup |
+| `data/channels.csv` | one channel of a setup, named as the source writes it |
+| `data/channel_normalization.csv` | a channel name that differs only in case, or that the dataset's own documentation maps to an electrode |
 | `data/tasks.csv` | one experimental task (paradigm) |
 | `data/task_steps.csv` | one step of a task's sequence (fixation, cue, imagery, rest, ...) |
 | `data/annotations.csv`, `data/label_counts.csv` | a label set or annotation; units per label |
@@ -73,8 +74,9 @@ The design follows `ser_dataset_db` (a database of speech emotion recognition da
 
 - Columns with `evidence=yes` in `schema/columns.csv` need a row in `evidence.csv` for every value. In `datasets` the `field` is the column name; in a child table it is `<table>:<row id>.<column>` (for example `acquisition_setups:main.sampling_rate_hz`).
 - Rows of the other child tables (channels, task steps, annotations, participant fields, quality information, distributed versions, benchmarks) carry their own `source_id`, `locator`, `checked_on` and `checked_by`.
-- **Sources** have a `source_type`: `primary` (published by the dataset's authors or their organisation, including the metadata files of the release such as BIDS `participants.tsv`), `secondary` (a third party: mirror, catalogue, survey), or `implementation` (a count of the release made by the DB maintainers' tools; `kind=count_report`). The locator of a release file names the snapshot and the file (`snapshot 1.0.2; participants.tsv`).
-- `*_reported` columns are what the documentation states; `*_release` columns are what the release contains, from release files, a repository record or a count report. The two may differ; the DB does not choose.
+- **The DB creates no facts of its own.** It does not count, measure or inspect the data. What only obtaining and opening a release shows (counts of the release, problems in it, whether it could be obtained) comes from the `## The data` section of an ESPnet recipe readme.
+- **Sources** have a `source_type`: `primary` (published by the dataset's authors or their organisation, including a repository record of their deposit and the metadata documents inside the release such as BIDS `participants.tsv`), `secondary` (a third party: mirror, catalogue, survey; only when no primary source says it), or `implementation` (the `## The data` section of a recipe readme, cited at a commit on the public fork `itoten/espnet`; written by the recipe author, a practical reference and not a research result). A recipe readme is cited only for what the documentation does not state.
+- `*_reported` columns are what the documentation (including a repository record) states; `*_release` columns and `access_observed` take only `implementation` sources. The two may differ; the DB does not choose.
 - All `current` rows of a field agree; if sources disagree the rows and the cell are `conflicting`. A newer fact marks the older row `superseded`; history is never deleted. There are no `provisional` rows.
 - `checked_by` is `claude` (AI investigation), `script` (a tool read a machine-readable source) or `user` (the maintainer opened the source). `user` is set only through a merged pull request named `verify/...`, and its note names the pull request.
 - Free-text columns (`notes`, `license_note`, `terms_note`, `other_traits`) name a source in every sentence, for example `[tuab_paper]`.
@@ -91,10 +93,22 @@ python3 tools/db.py get|set|add|fmt   # view or edit one row
 
 Run with the system Python 3; no third-party packages. `git config core.hooksPath tools/hooks` makes `tools/validate.py` run before every commit.
 
+## Channel names
+
+Channel names are recorded as the sources write them. Mapping old to new 10-10 names (T3 to T7), taking the electrode out of a referenced name (`EEG FP1-REF`) or interpreting bipolar derivations is a project's decision and belongs in `local/`, as label mappings do in `ser_dataset_db`. `channel_normalization.csv` holds only case differences and mappings that the dataset's own documentation states.
+
+## How datasets are checked
+
+1. **Documents check**: values from primary sources (papers, distribution pages, repository records, metadata documents of the release). `documents_checked` in `views/datasets_wide.csv`.
+2. A recipe is made in ESPnet for datasets that look usable; its readme's `## The data` section reports the whole release as distributed.
+3. **Implementation check**: values from that section. `implementation_checked`.
+
+Harvest scripts for machine-readable repositories are in `tools/harvest/` (their cache is the git-ignored `cache/`); their evidence rows have `checked_by=script`.
+
 ## What counts as one row
 
 - One row per original dataset. Plain re-uploads are not rows; they are access routes (`route_kind=mirror`) and aliases. Datasets whose content differs (subsets such as the TUH sub-corpora, new labels, re-splits) are separate rows linked with `relations`.
-- A repository record (an OpenNeuro accession, a PhysioNet project) is one dataset unless its authors present several datasets in it.
+- A repository record (an OpenNeuro accession, a PhysioNet project) is one dataset unless its authors present several datasets in it. OpenNeuro datasets use the accession as `dataset_id` (`ds003478`); a dataset with a recipe uses the egs3 recipe name.
 
 ## License
 

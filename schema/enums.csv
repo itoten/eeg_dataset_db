@@ -7,6 +7,7 @@ evidence_status,superseded,Replaced by a newer row; kept as history
 evidence_status,conflicting,Sources disagree; the cell is conflicting
 modality,scalp_eeg,"EEG on the scalp (any channel count, including consumer devices)"
 modality,ear_eeg,EEG in or around the ear
+modality,ieeg,"Intracranial EEG, kind not stated"
 modality,ieeg_ecog,Electrocorticography
 modality,ieeg_seeg,Stereo-EEG / depth electrodes
 modality,psg,Polysomnography (EEG among other signals)
@@ -35,23 +36,29 @@ domain,development,"Development, children, ageing"
 domain,psychiatry,Psychiatric conditions
 domain,neurology,Neurological conditions other than epilepsy
 domain,other,Other
-license_spdx,CC0-1.0,
-license_spdx,CC-BY-4.0,
-license_spdx,CC-BY-SA-4.0,
-license_spdx,CC-BY-NC-4.0,
-license_spdx,CC-BY-NC-SA-4.0,
-license_spdx,CC-BY-NC-ND-4.0,
-license_spdx,CC-BY-ND-4.0,
-license_spdx,ODC-By-1.0,
-license_spdx,ODbL-1.0,
-license_spdx,PDDL-1.0,
-license_spdx,MIT,
-license_spdx,Apache-2.0,
-license_spdx,GPL-3.0,
-license_spdx,PhysioNet-Restricted,PhysioNet Restricted Health Data License
-license_spdx,PhysioNet-Credentialed,PhysioNet Credentialed Health Data License
-license_spdx,custom,Terms of the authors' own; see license_note
-license_spdx,none_stated,The sources were read and state no license
+license_spdx,CC0-1.0,CC0 1.0
+license_spdx,CC-BY-3.0,Creative Commons Attribution 3.0
+license_spdx,CC-BY-4.0,Creative Commons Attribution 4.0
+license_spdx,CC-BY-SA-4.0,CC Attribution-ShareAlike 4.0
+license_spdx,CC-BY-NC-3.0,CC Attribution-NonCommercial 3.0
+license_spdx,CC-BY-NC-4.0,CC Attribution-NonCommercial 4.0
+license_spdx,CC-BY-NC-SA-4.0,CC Attribution-NonCommercial-ShareAlike 4.0
+license_spdx,CC-BY-NC-ND-4.0,CC Attribution-NonCommercial-NoDerivatives 4.0
+license_spdx,CC-BY-ND-4.0,CC Attribution-NoDerivatives 4.0
+license_spdx,ODC-By-1.0,Open Data Commons Attribution License 1.0
+license_spdx,ODbL-1.0,Open Database License 1.0
+license_spdx,PDDL-1.0,Open Data Commons Public Domain Dedication and License 1.0
+license_spdx,MIT,MIT
+license_spdx,Apache-2.0,Apache 2.0
+license_spdx,GPL-3.0-only,GPL 3.0
+license_spdx,LicenseRef-physionet-restricted,PhysioNet Restricted Health Data License
+license_spdx,LicenseRef-physionet-credentialed,PhysioNet Credentialed Health Data License
+license_spdx,LicenseRef-physionet-contributor-review,PhysioNet Contributor Review Health Data License
+license_spdx,LicenseRef-custom-research-only,Custom terms limited to academic or research use
+license_spdx,LicenseRef-proprietary-restricted,"Proprietary or restricted (paid, contract, etc.)"
+license_spdx,LicenseRef-citation-request,No license text: the authors only ask for a citation
+license_spdx,LicenseRef-other,Other than the above
+license_spdx,none_stated,No license statement found
 terms_statement,allowed,The terms allow it without conditions beyond the license
 terms_statement,allowed_with_conditions,The terms allow it under stated conditions (see terms_note)
 terms_statement,prohibited,The terms prohibit it
@@ -70,26 +77,30 @@ file_format,hdf5,"HDF5 (including .h5, .nwb)"
 file_format,pickle,"Python pickle (.pkl, .dat of DEAP)"
 file_format,mef,Multiscale Electrophysiology Format
 file_format,other,Other
-access_method,open_direct,"Download without any human step (URL, API, CLI, S3)"
-access_method,open_with_token,"A free account or API token once per site, then automatic"
-access_method,click_through,"Agreement to terms per dataset, approved automatically"
-access_method,manual_approval,A request (form or e-mail) approved by the provider
-access_method,credentialed,Credentialing or training required (e.g. PhysioNet credentialed)
-access_method,institutional_agreement,A data use agreement signed by an institution
-access_method,paid,Payment or membership
-access_method,not_available,"No way to obtain the data is offered (only 'contact the authors', dead links)"
-access_tier,open,open_direct: obtainable without a human
-access_tier,one_time_human,open_with_token: one human step per site
-access_tier,per_dataset_human,click_through: one human agreement per dataset
-access_tier,approval,"manual_approval, credentialed, institutional_agreement, paid: a provider or a contract decides"
-access_tier,unavailable,not_available
-access_observed,obtained,Data (or a sample file) downloaded
-access_observed,listing_obtained,The file listing was obtained without a human step; no data downloaded
-access_observed,needs_account,Stopped at an account or token
-access_observed,needs_agreement,Stopped at terms to accept
-access_observed,request_sent,A request was sent; waiting
-access_observed,refused,The request was refused
-access_observed,broken,"The route did not work (dead link, error)"
+access_method,direct_download,"Downloadable without authentication (URL, API, CLI, S3)"
+access_method,free_account_required,"A free account or API token, once per site, then automatic"
+access_method,site_terms_agreement,"Agreement to terms once per site (not per dataset), without an account"
+access_method,gated_click_through,"Agreement to terms per dataset, approved automatically"
+access_method,request_form_or_email,A request (form or e-mail) approved by the provider
+access_method,credentialed_training,Credentialing with required training (e.g. PhysioNet credentialed access)
+access_method,signed_agreement,A data use agreement signed by the user or an institution
+access_method,paid_or_membership,Payment or membership
+access_method,unavailable,"No way to obtain the data is offered (only 'contact the authors', dead links)"
+access_tier,open,direct_download: obtainable without a human
+access_tier,one_time_human,"free_account_required, site_terms_agreement: one human step per site"
+access_tier,per_dataset_human,gated_click_through: one human agreement per dataset
+access_tier,approval,"request_form_or_email, credentialed_training, signed_agreement, paid_or_membership: a provider or a contract decides"
+access_tier,unavailable,unavailable
+access_observed,obtained,Data obtained
+access_observed,direct_download,Same meaning as access_method direct_download
+access_observed,free_account_required,Same meaning as access_method free_account_required
+access_observed,site_terms_agreement,Same meaning as access_method site_terms_agreement
+access_observed,gated_click_through,Same meaning as access_method gated_click_through
+access_observed,request_form_or_email,Same meaning as access_method request_form_or_email
+access_observed,credentialed_training,Same meaning as access_method credentialed_training
+access_observed,signed_agreement,Same meaning as access_method signed_agreement
+access_observed,paid_or_membership,Same meaning as access_method paid_or_membership
+access_observed,unavailable,Same meaning as access_method unavailable
 route_kind,official,The authors' own distribution
 route_kind,repository,"A data repository where the authors deposited the data (OpenNeuro, PhysioNet, Zenodo, OSF, ...)"
 route_kind,mirror,A copy by someone other than the authors
@@ -236,22 +247,24 @@ source_kind,repository_record,"A record in a data repository (OpenNeuro, PhysioN
 source_kind,catalogue,"A third-party catalogue entry (MOABB, NEMAR, awesome lists)"
 source_kind,mirror,Re-upload by someone other than the authors
 source_kind,survey,Survey or third-party description
-source_kind,count_report,A count of the release made by the DB maintainers' tools
+source_kind,readme,Recipe readme (its ## The data section)
 source_kind,other,Other
 source_publisher,authors,The dataset authors or their organisation
 source_publisher,third_party,Someone else
-source_publisher,db_maintainer,The maintainers of this DB (count reports)
+source_publisher,recipe_author,The author of an ESPnet recipe
 source_type,primary,Published by the dataset's authors or their organisation
 source_type,secondary,A third party; used when no primary source says it
-source_type,implementation,A count report of the release made by the DB maintainers
-dataset_source_role,paper,
-dataset_source_role,distribution,
-dataset_source_role,mirror,
-dataset_source_role,catalogue,
-dataset_source_role,other,
+source_type,implementation,The ## The data section of a recipe readme at a commit on the public fork: what only opening the release shows; written by the recipe author
+dataset_source_role,paper,The dataset paper
+dataset_source_role,distribution,Where the data is distributed
+dataset_source_role,mirror,A mirror
+dataset_source_role,catalogue,A catalogue entry
+dataset_source_role,readme,The recipe readme
+dataset_source_role,other,Other
 alias_type,official_name,
 alias_type,short_name,
 alias_type,former_label,A former dataset_id
+alias_type,recipe_dir,Name of the recipe directory when it differs
 alias_type,catalogue_id,"An ID in a repository or catalogue (OpenNeuro ds number, MOABB class name)"
 alias_type,other_source_name,
 relation_type,version_of,A different version of the other dataset
@@ -261,6 +274,8 @@ relation_type,derived_from,"Made from the other dataset with new labels, process
 relation_type,distinct_from,"Similar names, different datasets"
 relation_type,possibly_same_as,"Suspected to be the same, not confirmed"
 relation_type,shares_subjects_with,Some participants are the same
+channel_normalization_rule,case,Upper or lower case only
+channel_normalization_rule,source_stated,The dataset's own documentation states that the name means this electrode
 provider_type,hospital,
 provider_type,university,
 provider_type,research_institute,

@@ -12,8 +12,8 @@ import csvio
 import db as dbmod
 import derive
 
-EXTRA_COLS = ["documents_checked", "release_checked", "access_observed", "paper_url", "distribution_url",
-              "mirror_url", "catalogue_url", "other_url", "annotation_items", "license_checked_on",
+EXTRA_COLS = ["documents_checked", "implementation_checked", "access_observed", "paper_url", "distribution_url",
+              "mirror_url", "catalogue_url", "readme_url", "other_url", "annotation_items", "license_checked_on",
               "license_checked_by", "oldest_checked_on", "latest_checked_on"]
 DISC_COLS = ["dataset_id", "field", "kind", "value", "source_type", "source_ref", "note"]
 DISC_KEYS = ("dataset_id", "field", "kind", "value", "source_ref")
@@ -41,8 +41,8 @@ def wide(db):
         st = stage.setdefault(e["dataset_id"], set())
         if s.get("source_type") == "primary":
             st.add("documents")
-        if e["field"].endswith("_release"):
-            st.add("release")
+        if s.get("source_type") == "implementation":
+            st.add("implementation")
         dates.setdefault(e["dataset_id"], []).append(e["checked_on"])
         if e["field"] == "license_spdx":
             lic.setdefault(e["dataset_id"], []).append(e)
@@ -61,10 +61,10 @@ def wide(db):
         row = dict(d)
         row.update({
             "documents_checked": "true" if "documents" in stage.get(i, ()) else "false",
-            "release_checked": "true" if "release" in stage.get(i, ()) else "false",
+            "implementation_checked": "true" if "implementation" in stage.get(i, ()) else "false",
             "access_observed": ";".join(sorted(observed.get(i, []))),
             **{f"{role}_url": ";".join(urls.get((i, role), []))
-               for role in ("paper", "distribution", "mirror", "catalogue", "other")},
+               for role in ("paper", "distribution", "mirror", "catalogue", "readme", "other")},
             "annotation_items": ";".join(sorted(items.get(i, ()))),
             "license_checked_on": max((e["checked_on"] for e in le), default=""),
             "license_checked_by": ";".join(sorted({e["checked_by"] for e in le})),

@@ -1,1 +1,1 @@
-provider_id,name,provider_type,country,url,note
+provider_id,name,provider_type,country,url,source_id,locator,checked_on,checked_by,note

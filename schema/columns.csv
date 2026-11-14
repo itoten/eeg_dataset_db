@@ -19,13 +19,13 @@ datasets,n_sessions_reported,int,empty;unknown;conflicting,yes,Number of session
 datasets,n_recordings_reported,int,empty;unknown;conflicting,yes,Number of recordings (files of continuous data) the documentation states
 datasets,hours_reported,float,empty;unknown;conflicting,yes,Total recording time in hours the documentation states
 datasets,size_gb_reported,float,empty;unknown;conflicting,yes,Size of the release in GB the documentation states
-datasets,n_subjects_release,int,empty;unknown;conflicting,yes,Number of subjects in the release as distributed (from the release files or a count of them)
-datasets,n_sessions_release,int,empty;unknown;conflicting,yes,Number of sessions in the release as distributed
-datasets,n_recordings_release,int,empty;unknown;conflicting,yes,Number of recordings in the release as distributed
-datasets,hours_release,float,empty;unknown;conflicting,yes,Total recording time in hours of the release as distributed
-datasets,size_gb_release,float,empty;unknown;conflicting,yes,Size of the release in GB as distributed
+datasets,n_subjects_release,int,empty;unknown;conflicting,yes,"Number of subjects in the whole release as distributed, before any filtering (recipe readme only)"
+datasets,n_sessions_release,int,empty;unknown;conflicting,yes,Number of sessions in the whole release as distributed (recipe readme only)
+datasets,n_recordings_release,int,empty;unknown;conflicting,yes,Number of recordings in the whole release as distributed (recipe readme only)
+datasets,hours_release,float,empty;unknown;conflicting,yes,Total recording time in hours of the whole release as distributed (recipe readme only)
+datasets,size_gb_release,float,empty;unknown;conflicting,yes,Size of the whole release in GB as distributed (recipe readme only)
 datasets,best_access_method,enum:access_method,empty,no,Derived from access_routes: the access method of the route that needs the least human work
-datasets,access_tier,enum:access_tier,empty,no,Derived from best_access_method: open / one_time_human / per_dataset_human / approval / unavailable
+datasets,access_tier,enum:access_tier,empty,no,Derived from best_access_method: how much human work the least demanding route needs
 datasets,n_channels_eeg,list,empty,no,"Derived from acquisition_setups: EEG channel counts (;-separated, ascending)"
 datasets,sampling_rates_hz,list,empty,no,"Derived from acquisition_setups: sampling rates (;-separated, ascending)"
 datasets,montage_systems,list,empty,no,Derived from acquisition_setups
@@ -33,6 +33,11 @@ datasets,devices,list,empty,no,Derived from acquisition_setups: manufacturer and
 datasets,paradigms,list,empty,no,Derived from tasks
 datasets,notes,text,empty,no,Free text. Every sentence has a [source_id] tag
 datasets,last_updated_on,date,empty,no,Date the row was last changed
+channel_normalization,source_name,text,-,no,A channel name as written in a source
+channel_normalization,normalized,text,-,no,The normalised name
+channel_normalization,rule,enum:channel_normalization_rule,-,no,case / source_stated
+channel_normalization,source_id,slug,empty,no,For source_stated: the dataset document that states the mapping
+channel_normalization,note,text,empty,no,Notes
 evidence,evidence_id,text,-,no,<dataset_id>/<field>/<2-digit sequence number>
 evidence,dataset_id,slug,-,no,Foreign key to datasets
 evidence,field,text,-,no,"A datasets column (e.g. license_spdx), or <table>:<row id>.<column> for a child row (e.g. acquisition_setups:main.sampling_rate_hz)"
@@ -48,7 +53,7 @@ sources,url,url,empty,no,URL of the source; empty for a file known only inside a
 sources,doi,text,empty,no,DOI when there is one
 sources,title,text,empty,no,Title as printed on the source
 sources,kind,enum:source_kind,-,no,Kind of document
-sources,publisher,enum:source_publisher,empty,no,authors / third_party / db_maintainer. Empty if not checked
+sources,publisher,enum:source_publisher,empty,no,authors / third_party / recipe_author. Empty if not checked
 sources,source_type,enum:source_type,empty,no,primary / secondary / implementation. Empty if not checked
 sources,describes_version,text,empty,no,The release or snapshot of the dataset this source describes (e.g. OpenNeuro snapshot 1.0.2)
 sources,identity_basis,text,empty,no,Why this source is about this dataset
@@ -57,7 +62,7 @@ sources,archive_url,url,empty,no,A web-archive copy of the source as seen
 sources,note,text,empty,no,Notes on the source
 dataset_sources,dataset_id,slug,-,no,Foreign key to datasets
 dataset_sources,source_id,slug,-,no,Foreign key to sources
-dataset_sources,role,enum:dataset_source_role,-,no,paper / distribution / mirror / catalogue / other
+dataset_sources,role,enum:dataset_source_role,-,no,paper / distribution / mirror / catalogue / readme / other
 aliases,dataset_id,slug,-,no,Foreign key to datasets
 aliases,alias,text,-,no,Alias
 aliases,alias_type,enum:alias_type,-,no,Kind of alias
@@ -73,6 +78,10 @@ providers,name,text,-,no,Name as the institution prints it
 providers,provider_type,enum:provider_type,empty;unknown,no,Kind of institution
 providers,country,text,empty;unknown,no,ISO 3166-1 alpha-2 code
 providers,url,url,empty,no,Home page of the institution
+providers,source_id,slug,-,no,"The source of the name, type and country"
+providers,locator,text,empty,no,Location within the source
+providers,checked_on,date,-,no,Date checked
+providers,checked_by,enum:checked_by,-,no,Who checked
 providers,note,text,empty,no,Notes
 access_routes,dataset_id,slug,-,no,Foreign key to datasets
 access_routes,route_id,slug,-,no,"ID within the dataset (official, openneuro, mirror_kaggle, moabb, ...)"
@@ -82,9 +91,8 @@ access_routes,access_method,enum:access_method,empty;unknown;conflicting,yes,"Wh
 access_routes,human_steps,text,empty;unknown;none;conflicting,yes,"The steps a person must take, in the source's terms (account, form, signature, training, ...)"
 access_routes,automation_tool,list,empty;unknown;none,yes,"Tools the source offers for downloading (openneuro-cli, datalad, aws-s3, wget, api, moabb, ...)"
 access_routes,authorized_by_authors,enum:yes_no,empty;unknown;NA,yes,For a mirror or loader: whether the authors state that it is authorised. NA for the official route
-access_routes,access_observed,enum:access_observed,empty,no,What happened when the route was tried
-access_routes,access_observed_on,date,empty,no,Date the route was tried
-access_routes,observed_note,text,empty,no,"How it was tried (listing, one small file, full download) and what happened"
+access_routes,access_observed,enum:access_observed,empty;conflicting,yes,What happened when the data was actually obtained on this route (from the recipe readme)
+access_routes,access_observed_on,date,empty,no,Date of that attempt
 acquisition_setups,dataset_id,slug,-,no,Foreign key to datasets
 acquisition_setups,setup_id,slug,-,no,"ID within the dataset (main, setup_1, ...)"
 acquisition_setups,description,text,empty,no,Which part of the dataset uses this setup
@@ -106,7 +114,6 @@ channels,dataset_id,slug,-,no,Foreign key to datasets
 channels,setup_id,slug,-,no,Setup in acquisition_setups
 channels,channel_name,text,-,no,Channel name as the source writes it
 channels,channel_type,enum:channel_type,-,no,Kind of channel
-channels,standard_name,text,empty;NA,no,The 10-05 name when the channel is a standard position (spelling normalised only); NA for non-EEG channels
 channels,order,int,empty,no,"Position in the file, from 1"
 channels,source_id,slug,-,no,The source (sources.csv)
 channels,locator,text,empty,no,Location within the source (25 words at most)
@@ -181,7 +188,7 @@ participant_fields,category,enum:participant_field_category,-,no,Kind of variabl
 participant_fields,level,enum:field_level,-,no,subject / session: the unit one value belongs to
 participant_fields,description,text,empty,no,Meaning as the release describes it
 participant_fields,unit,text,empty;NA,no,Unit of the values
-participant_fields,n_with_value,int,empty;unknown,no,Number of subjects (or sessions) with a non-missing value
+participant_fields,n_with_value,int,empty;unknown,no,"Number of subjects (or sessions) with a value, as a source states it (the DB does not count)"
 participant_fields,source_id,slug,-,no,The source (sources.csv)
 participant_fields,locator,text,empty,no,Location within the source (25 words at most)
 participant_fields,checked_on,date,-,no,Date checked

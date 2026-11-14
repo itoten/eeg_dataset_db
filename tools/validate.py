@@ -25,7 +25,6 @@ CHILD_REFS = [("acquisition_setups", "channels", ("setup_id",)),
               ("tasks", "task_steps", ("task_id",)),
               ("annotations", "label_counts", ("item", "name"))]
 NOTE_COLS = {"datasets": ("notes", "license_note", "terms_note"), "participant_groups": ("other_traits",)}
-RELEASE_KINDS = ("release_files", "repository_record", "count_report")
 
 errors = []
 warnings = []
@@ -229,8 +228,8 @@ def check_evidence(tables, cols, db):
             elif not s.get("source_type"):
                 untyped.add(r["source_id"])
             col = r["field"].rsplit(".", 1)[-1]
-            if col.endswith("_release") and s and s["kind"] not in RELEASE_KINDS:
-                err(f"evidence {eid}: *_release fields need a source of kind {'/'.join(RELEASE_KINDS)}")
+            if (col.endswith("_release") or col == "access_observed") and s.get("source_type") not in ("implementation", ""):
+                err(f"evidence {eid}: *_release fields and access_observed need a source of type implementation (a recipe readme)")
             if col.endswith("_reported") and s.get("source_type") == "implementation":
                 err(f"evidence {eid}: *_reported fields cannot use an implementation source")
     for d, field, v in targets:
@@ -310,11 +309,11 @@ def check_sources(tables, db):
             if key in seen:
                 err(f"sources {sid}: same url/DOI and source_type as {seen[key]}")
             seen[key] = sid
-        want = {"primary": "authors", "secondary": "third_party", "implementation": "db_maintainer"}.get(t)
+        want = {"primary": "authors", "secondary": "third_party", "implementation": "recipe_author"}.get(t)
         if t and p != want:
             err(f"sources {sid}: source_type {t} needs publisher {want}, not {p!r}")
-        if (t == "implementation") != (k == "count_report"):
-            err(f"sources {sid}: an implementation source is a count_report and vice versa")
+        if t == "implementation" and k != "readme":
+            err(f"sources {sid}: an implementation source is a readme")
         if k in ("mirror", "catalogue", "survey") and t not in ("secondary", ""):
             err(f"sources {sid}: a {k} is a secondary source")
         if (t == "") != (p == ""):
@@ -322,6 +321,15 @@ def check_sources(tables, db):
     unknown = sum(1 for r in sources.values() if not r["source_type"])
     if unknown:
         warn(f"{unknown} sources have no publisher and source_type yet (origin not checked)")
+    for t in ("providers", "channel_normalization"):
+        for r in db[t][1]:
+            if r["source_id"] and r["source_id"] not in sources:
+                err(f"{t} {r[tables[t]['keys'][0]]}: unknown source_id {r['source_id']}")
+    for r in db["channel_normalization"][1]:
+        if (r["rule"] == "source_stated") != bool(r["source_id"]):
+            err(f"channel_normalization {r['source_name']}: a source_stated row needs source_id, a case row has none")
+        if r["rule"] == "case" and r["source_name"].casefold() != r["normalized"].casefold():
+            err(f"channel_normalization {r['source_name']}: a case row may change only upper and lower case")
     for r in db["dataset_sources"][1]:
         if r["source_id"] not in sources:
             err(f"dataset_sources {r['dataset_id']}/{r['source_id']}: unknown source_id")
