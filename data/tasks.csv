@@ -1503,6 +1503,7 @@ ds009081,rest,rest,resting_unspecified,,,,,,,,
 ds009082,free,free,,,,,,,,,
 ds009082,instructed,instructed,,,,,,,,,
 ds009097,rest,rest,resting_unspecified,,,,,,,,"Eyes-closed resting state, approx. 2 min, recorded with EMOTIV PRO before the first (ses-pre) and after the 60th (ses-post) Auto Train Brain neurofeedback session. [ds009097_sidecar]"
+dv_10_7910_dvn_zxpj8c,go_no_go_task,Go/No-Go task,cognitive_task;visual_erp,,,,,,,,
 eeg_gaba_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 eeg_power_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 eldbeta,main,,ssvep,,,,,,,,Paradigm stated by the dataset name

@@ -1203,7 +1203,6 @@ dv_10_7910_dvn_xhanw7,dataverse,repository,https://doi.org/10.7910/DVN/XHANW7,di
 dv_10_7910_dvn_yd7ppu,dataverse,repository,https://doi.org/10.7910/DVN/YD7PPU,direct_download,none,dataverse-api,,,
 dv_10_7910_dvn_ykhxha,dataverse,repository,https://doi.org/10.7910/DVN/YKHXHA,direct_download,none,dataverse-api,,,
 dv_10_7910_dvn_ztcwpg,dataverse,repository,https://doi.org/10.7910/DVN/ZTCWPG,direct_download,none,dataverse-api,,,
-dv_10_7910_dvn_ztku9h,dataverse,repository,https://doi.org/10.7910/DVN/ZTKU9H,request_form_or_email,"• Boston Children’s Hospital (“BCH”) gives Recipient access to the Data only for the purposes of a clinical research Project; BCH retains ownership of all Data. • Recipient may use the Data only for the Project. Recipient shall use the Data solely for non-commercial purposes and shall not disclose,",,,,
 dv_10_7910_dvn_zxpj8c,dataverse,repository,https://doi.org/10.7910/DVN/ZXPJ8C,direct_download,none,dataverse-api,,,
 eeg_eye_gaze_data,physionet,repository,https://physionet.org/content/eeg-eye-gaze-data/1.0.0/,direct_download,none,wget,,,
 eeg_eye_gaze_for_fls_tasks,physionet,repository,https://physionet.org/content/eeg-eye-gaze-for-fls-tasks/1.0.0/,direct_download,none,wget,,,

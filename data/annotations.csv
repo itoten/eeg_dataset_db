@@ -4,6 +4,8 @@ bci2020_track2,sleep_stages,sleep stages,,,,,,bci2020_osf,Five sleep stages from
 bci2020_track3,class_labels,classes,Hello;Help me;Stop;Thank you;Yes,,,,,bci2020_osf,"(e.g., ‘Hello’, ‘Help me’, ‘Stop’, ‘Thank you’, and ‘Yes’)",2026-11-14,claude,The wiki lists the words after 'e.g.'
 bci2020_track4,class_labels,grasping tasks,Cylindrical;Spherical;Lumbrical,,,,,bci2020_osf,"Three grasping tasks from a single-hand (‘Cylindrical’, ‘Spherical’, and ‘Lumbrical’)",2026-11-14,claude,
 dreamer,self_report_ratings,self-assessment,valence;arousal;dominance,,trial,participant,,dreamer_zenodo,"participants' self-assessment of their affective state after each stimuli, in terms of valence, arousal, and dominance",2026-11-14,claude,
+dv_10_7910_dvn_zxpj8c,behavioral_responses,behavioral files,,,,,,dv_10_7910_dvn_zxpj8c_doc78e0d2,"behavioral files for each subject, and .markers files for EEG data",2026-11-14,claude,
+dv_10_7910_dvn_zxpj8c,event_markers,.markers files,,,,,,dv_10_7910_dvn_zxpj8c_doc78e0d2,"behavioral files for each subject, and .markers files for EEG data",2026-11-14,claude,
 figshare_12636731,behavioral_responses,response time files,,,,,,figshare_12636731_doc7f056f,M1aud_migraine.txt -> The response time (in seconds) in the feedback task after auditory stimulation,2026-11-14,claude,
 figshare_12636731,event_markers,epoch labels,1;2;11;22,,,,,figshare_12636731_doc9e05f6,"we have used labels “1” and “2” for pointing to the onset of the 4Hz and 6Hz stimuli respectively, and “11” and “22” for pointing",2026-11-14,claude,
 figshare_14191880,class_labels,five classes,,,,,,figshare_14191880_doc8cb470,"There is a total of five classes in the dataset. These are the EEG signal showing epilepsy, the EEG signal received from the tumor site,",2026-11-14,claude,
