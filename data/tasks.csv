@@ -18,12 +18,12 @@ capslpdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 cho2017,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 cps_dataset_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 dreamt,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
-ds001785,tactile_detection,tactile detection,,,,,,,,,
+ds001785,tactile_detection,tactile detection,,,,,,,,,detect a perithreshold tactile stimulation (100ms) during a 2 s window. First-order (felt:yes/no) and second-order (confidence). [ds001785_sidecar]
 ds001787,meditation,meditation,,,,,,,,,
 ds001810,attentional_blink,Attentional blink,,,,,,,,,
 ds001849,tmseegrest,tmseegrest,,,,,,,,,
-ds001971,audiocuewalkingstudy,AudioCueWalkingStudy,,,,,,,,,
-ds002034,task_offline,task-offline,,,,,,,,,
+ds001971,audiocuewalkingstudy,AudioCueWalkingStudy,,,,,,,,,"Participants were required to step in time to an auditory tone sequenceand adapt their step length and rate to occasional shifts in tempo of the pacing stimulus (i.e., following shifts to a faster or slower tempo). [ds001971_sidecar]"
+ds002034,task_offline,task-offline,,,,,,,,,Sustain covert visuospatial attention during a 1-5s window to one of two lateral target placeholders while maintaining central fixation. Reaction time was measured with button press as reaction to target appearance at the cued or uncued location (valid/invalid trials). [ds002034_sidecar]
 ds002034,task_offlinecatch,task-offlinecatch,,,,,,,,,
 ds002034,task_onlinereal,task-onlinereal,,,,,,,,,
 ds002034,task_onlinesham,task-onlinesham,,,,,,,,,
@@ -32,7 +32,7 @@ ds002094,tmseeg1,tmseeg1,,,,,,,,,
 ds002094,tmseeg2,tmseeg2,,,,,,,,,
 ds002158,main,main,,,,,,,,,
 ds002158,rest,rest,resting_unspecified,,,,,,,,
-ds002181,baseline,Baseline,,,,,,,,,
+ds002181,baseline,Baseline,,,,,,,,,Subjects were watching computer screen savers. Data were filtered with [1 50] band-pass filter. [ds002181_sidecar]
 ds002218,experiment,Experiment,,,,,,,,,
 ds002336,eegfmrinf,eegfmriNF,,,,,,,,,
 ds002336,eegnf,eegNF,,,,,,,,,
@@ -46,10 +46,10 @@ ds002338,t_1dnf,1dNF,,,,,,,,,
 ds002338,t_1dnf_run_01,1dNF_run-01,,,,,,,,,
 ds002338,t_2dnf,2dNF,,,,,,,,,
 ds002338,t_2dnf_run_02,2dNF_run-02,,,,,,,,,
-ds002578,attention,attention,,,,,,,,,
-ds002680,gonogo,gonogo,,,,,,,,,
-ds002691,internalattention,internalattention,,,,,,,,,
-ds002718,facerecognition,FaceRecognition,,,,,,,,,
+ds002578,attention,attention,,,,,,,,,"Subjects participated in visual ""oddball"" paradigm. Five empty squares were presented constantly with the location to attend to marked by a green outline. Filled white disks appeared briefly inside one of the five empty squares. Participants responded to the target by pressing a mouse button with their right hand when the white disk appeared in the attended location. [ds002578_sidecar]"
+ds002680,gonogo,gonogo,,,,,,,,,"Two alternated tasks were presented to participants: a categorization task and a recognition task. Subjects began each block of image flashing by pressing a button. Subjects were instructed to give a go/no-go response by releasing the button as quickly as possible when a target-image was presented and by keeping their finger(s) on the button for non-target images. In the animal categorization task, subjects were instructed to respond if an animal was present in the picture. In the target-image recognition task, participants memorized a given animal during a learning phase that was assigned as  [ds002680_sidecar]"
+ds002691,internalattention,internalattention,,,,,,,,,"All the experiment is performed eyes closed. Relax periods last for about 9 seconds, are then followed by a period of 6 seconds where the participants is asked to ""get ready"" for the trial, followed by a period of 15 seconds of concentration. This sequence is repeated 20 times for each participant. [ds002691_sidecar]"
+ds002718,facerecognition,FaceRecognition,,,,,,,,,"Subjects viewed stimuli on a screen during six, 7.5 minute runs. The stimuli were photographs of either a famous face (known to most of British or a scrambled face, and appeared for a random duration between 800 and 1,000 ms. Subjects were instructed to fixate centrally throughout the experiment. To ensure attention to each stimulus, participants were asked to press one of two keys with either their left or right index finger (assignment counter-balanced across participants). Their key-press was based on how symmetric they regarded each image: pressing one or the other key depending whether th [ds002718_sidecar]"
 ds002720,run,Run,,,,,,,,,
 ds002721,run,Run,,,,,,,,,
 ds002722,run,Run,,,,,,,,,
@@ -67,20 +67,20 @@ ds002799,rest,rest,resting_unspecified,,,,,,,,
 ds002814,categoryselectivity,categorySelectivity,,,,,,,,,
 ds002814,task_categoryselectivity,task-categorySelectivity,,,,,,,,,
 ds002814,todo_full_task_name_for_categoryselectivity,TODO: full task name for categorySelectivity,,,,,,,,,
-ds002833,picturesnaming,PicturesNaming,,,,,,,,,
-ds002893,auditoryvisualshift,AuditoryVisualShift,,,,,,,,,
-ds003004,imaginedemotion,ImaginedEmotion,,,,,,,,,
+ds002833,picturesnaming,PicturesNaming,,,,,,,,,Subjects were asked to close their eyes for 10 min). [ds002833_sidecar]
+ds002893,auditoryvisualshift,AuditoryVisualShift,,,,,,,,,"For each subject, the experiment begins with one Focus Auditory (FA) block and one Focus Visual (FV) block, followed by 12 Shift (SH) blocks and another 3 FA and FV blocks each, where the order of the FA and FV sequences was randomized across subjects. In the Shift condition, subjects must shift their attention between the visual modality and the auditory modality based on the presentation of \""Look\"" and \""Hear\"" cues. In the Focus condition, subjects are told prior to the start of the block which modality (auditory or visual) to attend to. The stimuli is presented in blocks of 264 for durati [ds002893_sidecar]"
+ds003004,imaginedemotion,ImaginedEmotion,,,,,,,,,"Subjects were seated comfortably with eyes closed in a dimly lit room with air-tube fed ear-bud earphones. Imagination of the emotional states was encouraged and guided by a set of pre-recorded verbal suggestions. Each session began and ended with 2 min of eyes closed silent rest. The task then began with a recorded verbal explanation of the task, followed by approximately 5 min of verbal guided imagery relaxation instructions to promote a relaxed, inwardly-focused state. A series of 15 guided imagery narratives, each describing a different emotion and potential scenario, were then presented,  [ds003004_sidecar]"
 ds003029,ictal,ictal,,,,,,,,,
 ds003039,neurcorryoung,neurCorrYoung,,,,,,,,,
-ds003061,p300,P300,p300_erp,,,,,,,,
-ds003190,cnos,cnos,,,,,,,,,
+ds003061,p300,P300,p300_erp,,,,,,,,"Participants were instructed to close their eyes and respond to oddball sounds. There were 3 types of sounds interspaced by about 1 second each, standard (500 Hz pure sounds lasting 60 ms), oddball (1000 Hz pure sounds lasting 60 ms), or distractor sounds (white noise lasting 60 ms). Participants were instructed to press a keypad on their lap when hearing an oddball and to ignore other types of stimuli. See experimental code for additional details. [ds003061_sidecar]"
+ds003190,cnos,cnos,,,,,,,,,Sujects were exposed to 6 number of flashing symbols (4 up to 9). [ds003190_sidecar]
 ds003194,task_6m_nepo,task 6m nepo,,,,,,,,,
-ds003194,task_pre_nepo,task pre nepo,,,,,,,,,
-ds003195,task_placebo_6m,task placebo 6m,,,,,,,,,
+ds003194,task_pre_nepo,task pre nepo,,,,,,,,,task. [ds003194_sidecar]
+ds003195,task_placebo_6m,task placebo 6m,,,,,,,,,task. [ds003195_sidecar]
 ds003195,task_placebo_pre,task placebo pre,,,,,,,,,
-ds003343,fps,fps,,,,,,,,,
-ds003374,jokeit,jokeit,,,,,,,,,
-ds003421,picturesnaming,PicturesNaming,,,,,,,,,
+ds003343,fps,fps,,,,,,,,,"Subjects were receiving tendon co-vibration on biceps and triceps on the left elbow. Depending on chosen frequencies, participants did or did not experience illusory movement. [ds003343_sidecar]"
+ds003374,jokeit,jokeit,,,,,,,,,"We used a paradigm comprising of a series of dynamic videos, which has been already validated in previous clinical investigations (Schacher et al., 2006). The videos were all silent and consisted of dynamic fearful faces and dynamic neutral landscapes, presented in an alternating order, in a block design. The paradigm included eight blocks of 75 short video clips (2–3 s) of fearful faces (aversive condition) and nine blocks of 72 short video clips (2–3 s) of neutral landscapes (neutral condition). Each block lasted 24 s in total, and contained short video clips without any intermission between. [ds003374_sidecar]"
+ds003421,picturesnaming,PicturesNaming,,,,,,,,,Subjects were asked to close their eyes for 10 min). [ds003421_sidecar]
 ds003458,threearmedbandit,ThreeArmedBandit,,,,,,,,,
 ds003474,probabilisticselection,ProbabilisticSelection,,,,,,,,,
 ds003478,rest,Rest,resting_unspecified,,,,,,,,
@@ -96,27 +96,27 @@ ds003518,simonconflict,SimonConflict,,,,,,,,,
 ds003519,visualworkingmemory,VisualWorkingMemory,,,,,,,,,
 ds003522,threestimauditoryoddball,ThreeStimAuditoryOddball,,,,,,,,,
 ds003523,visualworkingmemory,VisualWorkingMemory,,,,,,,,,
-ds003555,hfo,hfo,,,,,,,,,
+ds003555,hfo,hfo,,,,,,,,,detection of High-Frequency Oscillation (HFO) events on scalp EEG for studying age related changes in case of pediatric patients. [ds003555_sidecar]
 ds003570,auditoryoddballchords,AuditoryOddballChords,,,,,,,,,
 ds003574,face_maze_game,Face-Maze game,,,,,,,,,
 ds003574,game,game,,,,,,,,,
-ds003574,rest,rest,resting_unspecified,,,,,,,,
+ds003574,rest,rest,resting_unspecified,,,,,,,,Subjects rested in the MRI and try to fall asleep. EEG was recorded simultaneously while fMRI data were acquired. MRI and balistocardiogram artefacts were removed. [ds003574_sidecar]
 ds003574,rest_during_sleep_with_simultaneous_eeg,Rest during sleep with simultaneous EEG,resting_unspecified;sleep,,,,,,,,
 ds003602,experiment,Experiment,,,,,,,,,
 ds003620,oddball,Oddball,p300_erp,,,,,,,,
 ds003626,main,,imagined_speech,,,,,,,,Paradigm stated by the dataset name
 ds003638,t_5ccptpstprbp,5CCPTPSTPRBP,,,,,,,,,
 ds003645,faceperception,FacePerception,,,,,,,,,
-ds003655,verbalworkingmemory,VerbalWorkingMemory,,,,,,,,,
+ds003655,verbalworkingmemory,VerbalWorkingMemory,,,,,,,,,"the task used is a modified Sternberg paradigm with temporally distinct encoding and maintenance processing stages. The experiment entailed six different conditions: maintenance in memory of 5, 6 or 7 simultaneously presented letters in the alphabetical (manipulation condition) or forward (retention condition) order. In the retention task the participants had to maintain in memory the original set as it was presented, and in the manipulation task they had to, first, mentally reorganize the letters into the alphabetical order and then maintain the result in memory. After 6.7 s delay, a letter-d [ds003655_sidecar]"
 ds003670,gxtesctt,GXtESCTT,,,,,,,,,
-ds003688,film,film,,,,,,,,,
+ds003688,film,film,,,,,,,,,watching the chill movie alternating speech and music. [ds003688_sidecar]
 ds003688,rest,rest,resting_unspecified,,,,,,,,
 ds003690,gonogo,gonogo,,,,,,,,,
 ds003690,passive,passive,,,,,,,,,
 ds003690,simplert,simpleRT,,,,,,,,,
-ds003702,social_memory_cuing,Social Memory cuing,,,,,,,,,
-ds003708,rest,rest,resting_unspecified,,,,,,,,
-ds003710,appleseed_example,APPLESEED example,,,,,,,,,
+ds003702,social_memory_cuing,Social Memory cuing,,,,,,,,,Subjects see items that they need to remember either cued by a social cue or a non-social cue. [ds003702_sidecar]
+ds003708,rest,rest,resting_unspecified,,,,,,,,patient resting. [ds003708_sidecar]
+ds003710,appleseed_example,APPLESEED example,,,,,,,,,"This task consists of passive viewing of faces and objects, and passive listening to English speech and water sounds. A full description of the task is available at Puglia, M. H., Krol, K. M., Missana, M., Williams, C. L., Lillard, T. S., Morris, J. P., Connelly, J.J., & Grossmann, T. (2020). Epigenetic tuning of brain signal entropy in emergent human social behavior. BMC medicine, 18(1), 1-24. https://doi.org/10.1186/s12916-020-01683-x. [ds003710_sidecar]"
 ds003739,mixed,mixed,,,,,,,,,
 ds003751,emotion,Emotion,,,,,,,,,
 ds003753,probabilisticselection,ProbabilisticSelection,,,,,,,,,
@@ -126,12 +126,12 @@ ds003766,resting,resting,resting_unspecified,,,,,,,,
 ds003766,wordchoice,wordchoice,,,,,,,,,
 ds003768,rest,rest,resting_unspecified,,,,,,,,
 ds003768,sleep,sleep,sleep,,,,,,,,
-ds003774,musiclistening,MusicListening,,,,,,,,,
-ds003775,resteyesc,resteyesc,,,,,,,,,
-ds003800,auditorygammaentrainment,AuditoryGammaEntrainment,,,,,,,,,
+ds003774,musiclistening,MusicListening,,,,,,,,,"The participants sat comfortably in a dark room and were made to wear the 128 channel high density Electroencephalography (EEG) cap. For the music listening session, the participants were again indicated to close their eyes with a single beep, and the song was presented to them on speakers. After listening to the song, a double beep was presented, suggesting them to open their eyes and answer two questions. [ds003774_sidecar]"
+ds003775,resteyesc,resteyesc,,,,,,,,,Resting-state data extracted from an experimental evoked potential paradigm. [ds003775_sidecar]
+ds003800,auditorygammaentrainment,AuditoryGammaEntrainment,,,,,,,,,"Two speakers were placed in front of the participant 50cm apart from each other and directly pointed at the participant's ears at a distance of 50cm. The sound intensity was around -40dB within a fixed range for all participants. Before starting the task, the participant was asked if the volume was loud enough and the sound volume was set at a comfortable level for each participant. The auditory stimulus was a 5kHz carrier tone amplitude modulated with a 40Hz rectangular wave (40Hz On and Off cycles). Since a 40Hz audio signal cannot be easily heard, the 5KHz carrier frequency was used to rend [ds003800_sidecar]"
 ds003800,rest,Rest,resting_unspecified,,,,,,,,
 ds003801,neuraltrackingtogo,NeuralTrackingToGo,,,,,,,,,
-ds003805,multisensorygammaentrainment,MultisensoryGammaEntrainment,,,,,,,,,
+ds003805,multisensorygammaentrainment,MultisensoryGammaEntrainment,,,,,,,,,"The task is composed of three epochs of auditory, visual, and audio-visual stimulations respectively, each lasting for 40sec in one session. [ds003805_sidecar]"
 ds003810,mivsrestrun0,MIvsRestRUN0,,,,,,,,,
 ds003810,mivsrestrun1,MIvsRestRUN1,,,,,,,,,
 ds003810,mivsrestrun2,MIvsRestRUN2,,,,,,,,,
@@ -140,29 +140,29 @@ ds003810,mivsrestrun4,MIvsRestRUN4,,,,,,,,,
 ds003822,probabilisticselection,ProbabilisticSelection,,,,,,,,,
 ds003825,rsvp,rsvp,,,,,,,,,
 ds003838,mixed,mixed,,,,,,,,,
-ds003844,task_acute,task-acute,,,,,,,,,
-ds003846,predictionerror,PredictionError,,,,,,,,,
+ds003844,task_acute,task-acute,,,,,,,,,"Intra-operative recording, patient is under (tempered) anesthesia, not doing a specific task/undergoing mapping. [ds003844_sidecar]"
+ds003846,predictionerror,PredictionError,,,,,,,,,Select an Object in VR by tapping on it with the fingertip of the index finger. [ds003846_sidecar]
 ds003848,task_chocs1,task-CHOCS1,,,,,,,,,
 ds003848,task_rest,task-Rest,resting_unspecified,,,,,,,,
 ds003848,task_slawtrans,task-slawtrans,,,,,,,,,
 ds003848,task_sleep,task-Sleep,sleep,,,,,,,,
 ds003848,task_sleep_2,task-sleep,sleep,,,,,,,,
-ds003848,task_spesclin,task-SPESclin,,,,,,,,,
+ds003848,task_spesclin,task-SPESclin,,,,,,,,,"No task, electrical stimulation is performed. Patient is resting with eyes open/closed. The latter is not always specified. [ds003848_sidecar]"
 ds003876,interictal,interictal,,,,,,,,,
 ds003876,interictalasleep,interictalasleep,,,,,,,,,
 ds003876,interictalawake,interictalawake,,,,,,,,,
-ds003885,movement,movement,,,,,,,,,
-ds003887,movement,movement,,,,,,,,,
-ds003944,rest,Rest,resting_unspecified,,,,,,,,
-ds003947,rest,rest,resting_unspecified,,,,,,,,
+ds003885,movement,movement,,,,,,,,,"Participants were asked to press one of two buttons to indicate whether the object image presented on screen was alive or not. On trials marked 'is_fast', participants viewed rapid RSVP streams of the same images and responded to the fixation spot changing colour. [ds003885_sidecar]"
+ds003887,movement,movement,,,,,,,,,"Participants were asked to press one of two buttons to indicate whether the object image presented on screen was alive or not. On trials marked 'is_fast', participants viewed rapid RSVP streams of the same images and responded to the fixation spot changing colour. [ds003887_sidecar]"
+ds003944,rest,Rest,resting_unspecified,,,,,,,,"In this resting task, participants were asked to let their mind wander while focusing on a fixation point. The fixation point was a plus-sign projected onto a screen in the MEG recording room about 1 meter from the participant. [ds003944_sidecar]"
+ds003947,rest,rest,resting_unspecified,,,,,,,,"In this resting task, participants were asked to let their mind wander while focusing on a fixation point. The fixation point was a plus-sign projected onto a screen in the MEG recording room about 1 meter from the participant. [ds003947_sidecar]"
 ds003969,mixed,mixed,,,,,,,,,
 ds003987,t_5ccptxpstxamphetamine,5CCPTxPSTxAmphetamine,,,,,,,,,
-ds004000,responder,responder,,,,,,,,,
-ds004010,mavis,MAVIS,,,,,,,,,
+ds004000,responder,responder,,,,,,,,,"The task is playing the Ultimatum Game. The game involves two players and the goal is to split a certain sum of money between the players (here, 10CHF). The first player (proposer) offers part of the money to the second player (responder). If responder agrees on the proposed split, both players receive their share of money. If responder refuses the offer, both players get nothing. In this task, the participant is playing as proposer making an offer of money. The player is then provided feedback with a happy or sad face, indicating whether the offer was accepted or not. The responses are comput [ds004000_sidecar]"
+ds004010,mavis,MAVIS,,,,,,,,,Participants were presented with simultaneous auditory and visual amplitude-modulated noise. Noise frequency spectra were white for all trials. Amplitude modulation spectra were designed to exhibit different spectral exponents between 1 and 4. [ds004010_sidecar]
 ds004015,attendedspeakerparadigmceegridattention,AttendedSpeakerParadigmcEEGridAttention,,,,,,,,,
 ds004018,rsvp,rsvp,,,,,,,,,
-ds004019,math_task,Math task,,,,,,,,,
-ds004022,motor_imagery,Motor Imagery,motor_imagery,,,,,,,,
+ds004019,math_task,Math task,,,,,,,,,"Subjects see two operands which were randomized addition and subtraction operation, then they see the three possible answers. All visual stimuli were black and presented centrally on a white background (Arial, 24 points). Each trial began with a blank screen displayed for 100 ms, presentation of arithmetic problems (e.g., 5 + 4) for 300 ms, followed by a blank screen for 1200 ms. Three possible answers were then presented on the screen,(e.g., a) 11 b) 9 c) 7) for 400 ms, with the correct answer to the presented problem always included in the choices. Upon choice presentation, participants were. [ds004019_sidecar]"
+ds004022,motor_imagery,Motor Imagery,motor_imagery,,,,,,,,"The experiment was designed to quantitatively acquire EEG and fNIRS data related to four right-upper limb movements for MI tasks: reaching, grasping, lifting, and twisting. Decoding different tasks of the same limb could increase the degree of freedom in BCI system control compared to typical BCIs based on somatosensory rhythm, which only detects spatially well-separated patterns, such as left and right hands. [ds004022_sidecar]"
 ds004024,ccpas,ccPAS,,,,,,,,,
 ds004024,rest,rest,resting_unspecified,,,,,,,,
 ds004024,rest_2,Rest,resting_unspecified,,,,,,,,
@@ -175,25 +175,25 @@ ds004075,context03,context03,,,,,,,,,
 ds004075,context09,context09,,,,,,,,,
 ds004075,context10,context10,,,,,,,,,
 ds004075,context11,context11,,,,,,,,,
-ds004080,task_spesclin,task-SPESclin,,,,,,,,,
+ds004080,task_spesclin,task-SPESclin,,,,,,,,,"No task, electrical stimulation is performed. Patient is resting with eyes open/closed. The latter is not always specified. [ds004080_sidecar]"
 ds004100,ictal,ictal,,,,,,,,,
 ds004100,interictal,interictal,,,,,,,,,
-ds004105,driverandomsound,DriveRandomSound,,,,,,,,,
-ds004106,guardduty,GuardDuty,,,,,,,,,
+ds004105,driverandomsound,DriveRandomSound,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations (a perpendicular force) by steering back toward the center of the lane. [ds004105_sidecar]
+ds004106,guardduty,GuardDuty,,,,,,,,,"Subjects performed a sustained vigilance task, simulating the role of guard duty for a restricted area. A series of replica ID badges was presented to subjects, each containing eight components or fields that required review for access. These components were: photo, name, date of birth (DOB), date of issue, date of expiration, area access, ID number, bar code and watermark. ID badges were presented along with a photo of the person requesting access. Subjects were required to ensure that the person in the picture requesting access was the same person on the badge, and had access (as specified o [ds004106_sidecar]"
 ds004117,workingmemory,WorkingMemory,,,,,,,,,
-ds004118,drive,Drive,,,,,,,,,
-ds004119,guardduty,GuardDuty,,,,,,,,,
-ds004120,drivewithspeedchange,DriveWithSpeedChange,,,,,,,,,
-ds004121,drivewithtaskaudio,DriveWithTaskAudio,,,,,,,,,
-ds004122,drive,Drive,,,,,,,,,
-ds004123,drivewithcomplexity,DriveWithComplexity,,,,,,,,,
+ds004118,drive,Drive,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations perpendicular to lane by steering back toward the center of the lane. [ds004118_sidecar]
+ds004119,guardduty,GuardDuty,,,,,,,,,"Subjects performed a sustained vigilance task, simulating the role of guard duty for a restricted area. A series of replica ID badges was presented to subjects, each containing eight components or fields that required review for access. These components were: photo, name, date of birth (DOB), date of issue, date of expiration, area access, ID number, bar code and watermark. ID badges were presented along with a photo of the person requesting access. Subjects were required to ensure that the person in the picture requesting access was the same person on the badge, and had access (as specified o [ds004119_sidecar]"
+ds004120,drivewithspeedchange,DriveWithSpeedChange,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations perpendicular to lane by steering back toward the center of the lane. [ds004120_sidecar]
+ds004121,drivewithtaskaudio,DriveWithTaskAudio,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations (a perpendicular force) by steering back toward the center of the lane. Task-related audio (external focus) is played throughout the run. [ds004121_sidecar]
+ds004122,drive,Drive,,,,,,,,,Control simulated vehicle steering only with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations (a perpendicular force) by steering back toward the center of the lane. Cruise control maintains speed. [ds004122_sidecar]
+ds004123,drivewithcomplexity,DriveWithComplexity,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations (a perpendicular force) by steering back toward the center of the lane. Maintain speed according to posted speed signs. Maintain awareness of traffic and pedestrians to avoid collisions. [ds004123_sidecar]
 ds004147,casinos,casinos,,,,,,,,,
-ds004148,eyes_closed,eyes closed,resting_eyes_closed,,,,,,,,
+ds004148,eyes_closed,eyes closed,resting_eyes_closed,,,,,,,,Participants were instructed to close their eyes for five minutes. [ds004148_sidecar]
 ds004148,eyes_open,eyes open,resting_eyes_open,,,,,,,,
 ds004148,mathematic,mathematic,,,,,,,,,
 ds004148,memory,memory,,,,,,,,,
 ds004148,music,music,,,,,,,,,
-ds004151,stop_signal_task,Stop-signal task,,,,,,,,,
+ds004151,stop_signal_task,Stop-signal task,,,,,,,,,"The experimental protocol consisted of three blocks of 120 trials. For 30% of trials, an auditory stop signal was presented (i.e., two hundred and fifty-two trials did not include the auditory stop signal, and 108 included the auditory stop signal). The auditory stop signal was 100 ms (1 kHz) in duration and was matched with the visual stimulus with a variable delay (0–50 ms) that adapted to the participant’s behavioral performance. Each block had the same percentage of the auditory stop signal. Each trial began with a fixation point (+) that was displayed for 2000 ms, followed by the letter X [ds004151_sidecar]"
 ds004152,drumtrainer,drumtrainer,,,,,,,,,
 ds004194,n_a,n/a,,,,,,,,,
 ds004194,prf,prf,,,,,,,,,
@@ -216,25 +216,25 @@ ds004315,pst,PST,,,,,,,,,
 ds004317,pst,PST,,,,,,,,,
 ds004324,rsvp,RSVP,,,,,,,,,
 ds004347,jacobsen,jacobsen,,,,,,,,,
-ds004348,sleep,Sleep,sleep,,,,,,,,
+ds004348,sleep,Sleep,sleep,,,,,,,,At home sleep recording. [ds004348_sidecar]
 ds004350,lg,LG,,,,,,,,,
 ds004350,nb1,NB1,,,,,,,,,
 ds004350,nb2,NB2,,,,,,,,,
 ds004350,nb3,NB3,,,,,,,,,
 ds004350,sart,SART,,,,,,,,,
-ds004356,musicvsspeech,MusicvsSpeech,,,,,,,,,
+ds004356,musicvsspeech,MusicvsSpeech,,,,,,,,,"For the first phase, subjects listened to 10 trials (each 60 seconds long) clicks. For the second phase, subjects listened to 40 trials (each 12 seconds long) each of six genres of music and six types of speech (480 trials in total), while seated in a sound-isolating booth on a chair in front of a monitor. Subjects were encouraged to rest or sleep and did not have to pay attention to the audio. Subjects were asked to stay awake and paying attention to the sounds. [ds004356_sidecar]"
 ds004357,rsvp,rsvp,,,,,,,,,
 ds004362,motion,motion,,,,,,,,,
 ds004367,rdk,rdk,,,,,,,,,
 ds004368,task,task,,,,,,,,,
 ds004369,attendedspeakerparadigm,attendedSpeakerParadigm,,,,,,,,,
-ds004370,task_spesclin,task-SPESclin,,,,,,,,,
+ds004370,task_spesclin,task-SPESclin,,,,,,,,,"No task, electrical stimulation is performed. Patient is resting with eyes open/closed. The latter is not always specified. [ds004370_sidecar]"
 ds004370,task_spesprop,task-SPESprop,,,,,,,,,
-ds004381,seprate,sepRate,,,,,,,,,
-ds004388,alternating,alternating,,,,,,,,,
+ds004381,seprate,sepRate,,,,,,,,,Tibial left stimulation at 2.70 Hz. [ds004381_sidecar]
+ds004388,alternating,alternating,,,,,,,,,Participants were laying on their back. Alternating stimulation of mixed median nerve stimulation at the left wrist and mixed tibial nerve at the left ankle. [ds004388_sidecar]
 ds004388,median,median,,,,,,,,,
 ds004388,tibial,tibial,,,,,,,,,
-ds004389,medianmixed,medianmixed,,,,,,,,,
+ds004389,medianmixed,medianmixed,,,,,,,,,Participants were laying on their back. Mixed median nerve stimulation at the left wrist. [ds004389_sidecar]
 ds004389,mediansensory,mediansensory,,,,,,,,,
 ds004389,tibialmixed,tibialmixed,,,,,,,,,
 ds004389,tibialsensory,tibialsensory,,,,,,,,,
@@ -242,19 +242,19 @@ ds004395,ltpfr,ltpFR,,,,,,,,,
 ds004395,ltpfr2,ltpFR2,,,,,,,,,
 ds004395,vffr,VFFR,,,,,,,,,
 ds004408,listening,listening,,,,,,,,,
-ds004444,smrbmi,smrbmi,,,,,,,,,
-ds004446,smrbmi,smrbmi,,,,,,,,,
-ds004447,smrbmi,smrbmi,,,,,,,,,
-ds004448,smrbmi,smrbmi,,,,,,,,,
+ds004444,smrbmi,smrbmi,,,,,,,,,Here will be filled with a study description. [ds004444_sidecar]
+ds004446,smrbmi,smrbmi,,,,,,,,,Here will be filled with a study description. [ds004446_sidecar]
+ds004447,smrbmi,smrbmi,,,,,,,,,Here will be filled with a study description. [ds004447_sidecar]
+ds004448,smrbmi,smrbmi,,,,,,,,,Here will be filled with a study description. [ds004448_sidecar]
 ds004457,ccep_and_movement_task_with_annotations_downsampled,"ccep and movement task with annotations, downsampled",,,,,,,,,
 ds004457,ccep_task_with_annotations,ccep task with annotations,,,,,,,,,
-ds004460,rotation,Rotation,,,,,,,,,
+ds004460,rotation,Rotation,,,,,,,,,Participants equipped with VR HMD rotated either physically or using a joystick. [ds004460_sidecar]
 ds004473,slowfast,SlowFast,,,,,,,,,
 ds004475,task,task,,,,,,,,,
 ds004477,pes,PES,,,,,,,,,
-ds004502,attexp,attexp,,,,,,,,,
+ds004502,attexp,attexp,,,,,,,,,"Subjects were cued to respond to faces or names depending on the trials. In attention blocks, the blocks indicated the stimulus to select. In expectation blocks, the cues indicated the most probable stimulus. [ds004502_sidecar]"
 ds004504,eyesclosed,eyesclosed,,,,,,,,,
-ds004505,tabletennis,TableTennis,,,,,,,,,
+ds004505,tabletennis,TableTennis,,,,,,,,,"Participants played table tennis with a human and a ball machine in four 15-minute blocks of trials. In a single block, participants played 7.5 minutes with a human player for half of the trials (cooperative or competitive play) and the other 7.5 minutes were played against a ball machine (3 back-to-back 2.5 minute trials that alternated between stationary and moving conditions). Half of the ball machine trials fed the ball to the participant on one bounce (replicating a rally shot), and the other half fed the ball on two bounces (replicating a serve). The order of trials among and within bloc [ds004505_sidecar]"
 ds004511,cc,CC,,,,,,,,,
 ds004511,gg,GG,,,,,,,,,
 ds004511,rest,Rest,resting_unspecified,,,,,,,,
@@ -267,7 +267,7 @@ ds004520,retrocue,Retrocue,,,,,,,,,
 ds004521,postcues,Postcues,,,,,,,,,
 ds004532,pst,PST,,,,,,,,,
 ds004541,anesthesia,anesthesia,anesthesia,,,,,,,,
-ds004551,sleep,sleep,sleep,,,,,,,,
+ds004551,sleep,sleep,sleep,,,,,,,,sleep. [ds004551_sidecar]
 ds004554,picturenaming,picturenaming,,,,,,,,,
 ds004561,agencyrt,agencyRT,,,,,,,,,
 ds004563,touch_decoding,Touch decoding,,,,,,,,,
@@ -282,7 +282,7 @@ ds004572,induction2,induction2,,,,,,,,,
 ds004572,induction3,induction3,,,,,,,,,
 ds004572,induction4,induction4,,,,,,,,,
 ds004574,oddball,Oddball,p300_erp,,,,,,,,
-ds004577,eeg,EEG,,,,,,,,,
+ds004577,eeg,EEG,,,,,,,,,Resting EEG. [ds004577_sidecar]
 ds004579,intervaltiming,IntervalTiming,,,,,,,,,
 ds004580,simon,Simon,,,,,,,,,
 ds004582,ff,FF,,,,,,,,,
@@ -290,45 +290,45 @@ ds004584,rest,Rest,resting_unspecified,,,,,,,,
 ds004587,ig,IG,,,,,,,,,
 ds004588,unnamed,unnamed,,,,,,,,,
 ds004595,threearmedbandit,ThreeArmedBandit,,,,,,,,,
-ds004598,lineartrack,Lineartrack,,,,,,,,,
-ds004602,flanker,flanker,,,,,,,,,
+ds004598,lineartrack,Lineartrack,,,,,,,,,"Subjects were walking back and forth in a linear track, while hippocampal LFP are meassured in the right dorsal hippocampus. [ds004598_sidecar]"
+ds004602,flanker,flanker,,,,,,,,,Participants responded to the direction of a central target arrow in congruent and incongruent arrow arrays. More detailed task information is available at https://osf.io/8cbua/. [ds004602_sidecar]
 ds004602,gonogo,gonogo,,,,,,,,,
 ds004602,stroop,stroop,,,,,,,,,
 ds004603,ctp,CTP,,,,,,,,,
-ds004621,extended_multi_source_interference_task_msit,Extended Multi-Source Interference Task (MSIT+),,,,,,,,,
+ds004621,extended_multi_source_interference_task_msit,Extended Multi-Source Interference Task (MSIT+),,,,,,,,,"Extended MSIT (MSIT+) is a task design to study cognitive control and conflict processing. Standard version was firstly described by Bush et al. in 2006. The extended MSIT contains four conditions: 00 (no interference, non-conflict), S0 (Simon effect), F0 (Flanker effect), and FS (double-conflict, Simon and Flanker effects combined). Three digits are displayed in the center of the screen, including two digits that are always identical and one deviant. Participants are instructed to indicate the deviant digit in each set. In each trial, the stimulus was presented for 900 ms and followed an inte [ds004621_sidecar]"
 ds004621,oddball,Oddball,p300_erp,,,,,,,,
 ds004621,resting_state_protocol_rest,Resting state protocol (REST),resting_unspecified,,,,,,,,
 ds004621,simple_reaction_time_task_srt,Simple reaction time task (SRT),,,,,,,,,
 ds004625,mixed,mixed,,,,,,,,,
 ds004626,dotprobe,DotProbe,,,,,,,,,
 ds004635,resting,resting,resting_unspecified,,,,,,,,
-ds004642,lozhfo,lozHFO,,,,,,,,,
+ds004642,lozhfo,lozHFO,,,,,,,,,Medianus stimulation at 4.70 Hz with low and high impedance ECoG electrodes. [ds004642_sidecar]
 ds004657,drive,Drive,,,,,,,,,
 ds004660,p300,P300,p300_erp,,,,,,,,
 ds004661,nback,nback,,,,,,,,,
-ds004696,cortico_cortical_evoked_potentials_cceps,Cortico-Cortical Evoked Potentials -CCEPs,,,,,,,,,
-ds004703,passivelisten,PassiveListen,,,,,,,,,
+ds004696,cortico_cortical_evoked_potentials_cceps,Cortico-Cortical Evoked Potentials -CCEPs,,,,,,,,,intracranial EEG (iEEG) recordings during single pulse electrical stimulation. [ds004696_sidecar]
+ds004703,passivelisten,PassiveListen,,,,,,,,,Participant passively listens to 30-45s passages of conversational speech and verbally answers a 2AC content question after each passage. 6 blocks with 7 passages per block. [ds004703_sidecar]
 ds004706,niclscourierclosedloop,NiclsCourierClosedLoop,,,,,,,,,
 ds004706,niclscourierreadonly,NiclsCourierReadOnly,,,,,,,,,
 ds004718,lpphk,lppHK,,,,,,,,,
 ds004718,rest,rest,resting_unspecified,,,,,,,,
 ds004745,unnamed,unnamed,,,,,,,,,
-ds004752,verbalwm,verbalWM,,,,,,,,,
-ds004770,game,game,,,,,,,,,
+ds004752,verbalwm,verbalWM,,,,,,,,,"In the task, sets of consonants are presented and have to be memorized. The set size (4, 6, or 8 letters) determines working memory workload. In each trial, presentation of a letter string (encoding period, 2 s) is followed by a delay (maintenance period, 3 s). After the delay, a probe letter is presented. Participants indicate whether the probe was in the letter string or not. [ds004752_sidecar]"
+ds004770,game,game,,,,,,,,,game. [ds004770_sidecar]
 ds004771,py,PY,,,,,,,,,
-ds004774,ccep,CCEP,,,,,,,,,
+ds004774,ccep,CCEP,,,,,,,,,Bipolar corticocortical stimulation. [ds004774_sidecar]
 ds004774,task_spesclin,task-SPESclin,,,,,,,,,
 ds004784,mixed,mixed,,,,,,,,,
 ds004785,unnamed,unnamed,,,,,,,,,
-ds004789,fr1,FR1,,,,,,,,,
-ds004796,msit,msit,,,,,,,,,
+ds004789,fr1,FR1,,,,,,,,,delayed free recall of word lists. [ds004789_sidecar]
+ds004796,msit,msit,,,,,,,,,"MSIT is a task design to study cognitive control and conflict processing. Standard version was firstly described by Bush et al. in 2006. Three digits are displayed in the center of the screen, including two digits that are always identical and one deviant. Participants are instructed to indicate the deviant digit in each set. The task was fully described in the corresponding research paper. [ds004796_sidecar]"
 ds004796,rest,rest,resting_unspecified,,,,,,,,
 ds004796,sternberg,sternberg,,,,,,,,,
-ds004802,rovingoddball,RovingOddball,,,,,,,,,
-ds004809,catfr1,catFR1,,,,,,,,,
+ds004802,rovingoddball,RovingOddball,,,,,,,,,"Roving oddball task with face stimuli with either happy, angry, or neutral facial expression. To keep participants engaged, 10% of trials contained a red fixation cross. Participants were instructed to press the space bar when they noticed the red cross. [ds004802_sidecar]"
+ds004809,catfr1,catFR1,,,,,,,,,delayed free recall of categorized word lists. [ds004809_sidecar]
 ds004816,rsvp,rsvp,,,,,,,,,
 ds004817,rsvp,rsvp,,,,,,,,,
-ds004840,task_musictherapy,task-musicTherapy,,,,,,,,,
+ds004840,task_musictherapy,task-musicTherapy,,,,,,,,,"Music therapy intervention(MTI) consisted of Music - Assisted Relaxation(MAR), a music therapy technique aimed at enhancing relaxation and well - being of patients. [ds004840_sidecar]"
 ds004840,task_postmusictherapy,task-postMusicTherapy,,,,,,,,,
 ds004840,task_premusictherapy,task-preMusicTherapy,,,,,,,,,
 ds004841,driveonmission,DriveOnMission,,,,,,,,,
@@ -342,38 +342,38 @@ ds004852,nback,nback,,,,,,,,,
 ds004853,nback,nback,,,,,,,,,
 ds004854,nback,nback,,,,,,,,,
 ds004855,nback,nback,,,,,,,,,
-ds004859,stroop,stroop,,,,,,,,,
+ds004859,stroop,stroop,,,,,,,,,"101 = Congruent word reading Stimulus Onset, 102 = Congruent word reading Response Onset, 201 = Incongruent word reading Stimulus Onset, 202 = Incongruent word reading Response Onset, 301 = Stroop naming Stimulus Onset, 102 = Stroop naming Response Onset. [ds004859_sidecar]"
 ds004860,harmn400,HarmN400,,,,,,,,,
-ds004865,pyfr,pyFR,,,,,,,,,
+ds004865,pyfr,pyFR,,,,,,,,,delayed free recall of word lists. [ds004865_sidecar]
 ds004883,ffa,ffa,,,,,,,,,
-ds004883,ffb,ffb,,,,,,,,,
+ds004883,ffb,ffb,,,,,,,,,"Participants completed flanker task version B, responding to the direction of a central target stimulus in congruent and incongruent arrays. More detailed task information is available at https://osf.io/qt2zh/. [ds004883_sidecar]"
 ds004883,ffc,ffc,,,,,,,,,
 ds004902,eyesclosed,eyesclosed,,,,,,,,,
 ds004902,eyesopen,eyesopen,,,,,,,,,
 ds004917,probabilisticdecisionmakingtask,$ProbabilisticDecisionMakingTask,,,,,,,,,
 ds004942,spatialmemory,SpatialMemory,,,,,,,,,
-ds004944,acute,acute,,,,,,,,,
+ds004944,acute,acute,,,,,,,,,"Intra-operative recording in 2 situations (SITUATION1A-pre-resection SITUATION2A-post-resection), patient is under (tempered) anesthesia, not doing a specific task/undergoing mapping. [ds004944_sidecar]"
 ds004951,letters,letters,,,,,,,,,
 ds004952,reading,reading,,,,,,,,,
 ds004977,cortico_cortical_evoked_potentials,Cortico Cortical Evoked Potentials,,,,,,,,,
-ds004980,defaulttask,DefaultTask,,,,,,,,,
+ds004980,defaulttask,DefaultTask,,,,,,,,,Participants immersed in 2d Unity rooms controled their walking by four arrow buttons. [ds004980_sidecar]
 ds004993,movietrailers,movietrailers,,,,,,,,,
 ds004993,timit4,timit4,,,,,,,,,
 ds004993,timit5,timit5,,,,,,,,,
-ds005007,namingtask,namingtask,,,,,,,,,
-ds005021,tilt_illusion,tilt-illusion,,,,,,,,,
+ds005007,namingtask,namingtask,,,,,,,,,namingtask. [ds005007_sidecar]
+ds005021,tilt_illusion,tilt-illusion,,,,,,,,,"This task is an orientation judgement relative to vertical, under condition of the tilt illusion. Participants are presented with a surround annular grating of +-30 degrees, which induces a repulsive tilt illusion on a central target grating. The angle of the central grating is titrated to the angle at which it appears vertical (recieves clockwise and counterclockwise oritentation judgements equally often). They then perform judgements on the perceptually-vertical central gratings in the presence of distractors to determine the influence of neural oscillations on the trial-by-trial fluctuation [ds005021_sidecar]"
 ds005028,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
-ds005034,mixed,mixed,,,,,,,,,
+ds005034,mixed,mixed,,,,,,,,,"Match-to-sample verbal working memory taskThree types of tasks were presented: Two types of the task required manipulation with the memory content.In the ""Backward"" task, participants were asked to mentally reverse the order of the letters in memory. For the ""Alphabet"" task, they were required to mentally rearrange the letters in alphabetical order. The ""Forward"" task, on the other hand, simply involved retaining the letter set as presented, without any mental reordering. 4 or 6 letter sets were presented. Thus, there were three levels of the factor TASK and two levels of the factor LOAD. [ds005034_sidecar]"
 ds005048,t_40hzauditoryentrainment,40HzAuditoryEntrainment,,,,,,,,,
-ds005059,pal1,PAL1,,,,,,,,,
+ds005059,pal1,PAL1,,,,,,,,,cued recall of paired associates. [ds005059_sidecar]
 ds005079,mixed,mixed,,,,,,,,,
 ds005087,rsvp,rsvp,,,,,,,,,
-ds005089,competition,Competition,,,,,,,,,
+ds005089,competition,Competition,,,,,,,,,"Subjects were cued to respond to faces or names depending on the trials. In high competition blocks, the target and distractor were presented at the same time. In low competition blocks, the target was presented before the distractor. [ds005089_sidecar]"
 ds005095,sternberg,STERNBERG,,,,,,,,,
-ds005106,fix,fix,,,,,,,,,
+ds005106,fix,fix,,,,,,,,,Participants sat on caregiver lap and viewed stimuli. [ds005106_sidecar]
 ds005113,flankers,Flankers,,,,,,,,,
 ds005114,dpx,DPX,,,,,,,,,
-ds005121,siefert2024,Siefert2024,,,,,,,,,
+ds005121,siefert2024,Siefert2024,,,,,,,,,Subjects performed a category learning task before taking a nap in the lab where TMR was administered. Data is from nap. [ds005121_sidecar]
 ds005127,ecc20160629t2216,ecc20160629T2216,,,,,,,,,
 ds005127,ecc20160630t0740,ecc20160630T0740,,,,,,,,,
 ds005127,ecc20160713t2225,ecc20160713T2225,,,,,,,,,
@@ -739,14 +739,14 @@ ds005127,wpt20170412t2210,wpt20170412T2210,,,,,,,,,
 ds005127,wpt20170412t2214,wpt20170412T2214,,,,,,,,,
 ds005131,deviantdetection,deviantdetection,,,,,,,,,
 ds005131,oneback,oneback,,,,,,,,,
-ds005169,dcs,dcs,,,,,,,,,
-ds005178,sleep,sleep,sleep,,,,,,,,
+ds005169,dcs,dcs,,,,,,,,,Direct cortical stimulation evoking visual effects. [ds005169_sidecar]
+ds005178,sleep,sleep,sleep,,,,,,,,sleep. [ds005178_sidecar]
 ds005185,acti,acti,,,,,,,,,
-ds005185,assr,ASSR,,,,,,,,,
+ds005185,assr,ASSR,,,,,,,,,"Auditory Steady State Response: 40 Hz amplitude modulated noise, with accompanying trigger signal, was played to the subject. By focusing on the 40 Hz SNR in the recorded data, an objective signal quality could be determined. [ds005185_sidecar]"
 ds005185,comfort,comfort,,,,,,,,,
 ds005185,electrodetestlab,electrodeTestLab,,,,,,,,,
 ds005189,searchsuprecfam,SearchSupRecFam,,,,,,,,,
-ds005207,sleep,Sleep,sleep,,,,,,,,
+ds005207,sleep,Sleep,sleep,,,,,,,,"The study participants were asked to stay in bed for 12 hrs between approximately 22:00 and 10:00 hours, during which they were allowed to sleep as much as they wanted ('ad libitum'). [ds005207_sidecar]"
 ds005262,main,,imagined_speech,,,,,,,,Paradigm stated by the dataset name
 ds005273,t_1,1,,,,,,,,,
 ds005274,images,images,,,,,,,,,
@@ -762,35 +762,35 @@ ds005296,sentencesemanticandsyntacticviolations,sentencesemanticandsyntacticviol
 ds005305,resting_state,Resting-State,resting_unspecified,,,,,,,,
 ds005307,pain,pain,,,,,,,,,
 ds005340,peakypitch,peakypitch,,,,,,,,,
-ds005342,sitstand,sitstand,,,,,,,,,
+ds005342,sitstand,sitstand,,,,,,,,,"The temporal sequence task of a trial performed by each participant consisted of four steps. As a first step (fixation), a cross symbol appeared on the TV screen for 4 s during which the participant was asked to avoid any body movement or effort and to stay focused while looking at the symbol. In the second step (action observation), a figure appeared on the TV screen for 3 s, which the participant had to observe and perform one experimental task subsequently in the third step. In the third step (imagining), the participant had to visualize the action indicated by the figure shown in the secon [ds005342_sidecar]"
 ds005343,resting,resting,resting_unspecified,,,,,,,,
-ds005345,multitalker,multitalker,,,,,,,,,
+ds005345,multitalker,multitalker,,,,,,,,,Listening to multitalker narratives for auditory processing research. [ds005345_sidecar]
 ds005345,rest,rest,resting_unspecified,,,,,,,,
 ds005363,objrecog,objrecog,,,,,,,,,
 ds005383,fuzzysemanticrecognition,fuzzysemanticrecognition,,,,,,,,,
-ds005385,restingstate,RestingState,,,,,,,,,
-ds005397,tectonic,tectonic,,,,,,,,,
+ds005385,restingstate,RestingState,,,,,,,,,"participants had to sit still in the laboratory. sequences of 3 minutes were recorded with eyes open closed and eyes closed open, respectively. Both recordings were performed either before (acq-pre) or and after (acq-post) a battery of neurocognitive experiments (duration about 2 hours). Session 1 (first measurement) and session 2 (first follow-up) were performed with a time lag of about 5 years. [ds005385_sidecar]"
+ds005397,tectonic,tectonic,,,,,,,,,Participants viewed images with varied stair architecture (4) with different primed activites in mind (3). [ds005397_sidecar]
 ds005398,sleep,sleep,sleep,,,,,,,,
 ds005403,daf,daf,,,,,,,,,
 ds005406,ftdiss,FTdiss,,,,,,,,,
 ds005408,peakysnr,peakysnr,,,,,,,,,
-ds005410,conditioning,conditioning,,,,,,,,,
-ds005411,repfr1,RepFR1,,,,,,,,,
+ds005410,conditioning,conditioning,,,,,,,,,"The experiment consisted of two phases: acquisition and test. Each trial involved a sequence of three events: a word, followed by a tactile stimulus, and then an auditory stimulus. During acquisition, words from one category (e.g., animals) were followed by a left-hand vibration and a pleasant sound (US-), while words from another category (e.g., clothing) were followed by a right-hand vibration and the same pleasant sound. In the acquisition phase, there were 15 trials of each type. In the test phase, 110 trials replicated the acquisition sequences, and 110 trials presented incorrect word-tac [ds005410_sidecar]"
+ds005411,repfr1,RepFR1,,,,,,,,,free recall of word lists with repeated items. [ds005411_sidecar]
 ds005415,numbers,numbers,,,,,,,,,
-ds005416,watchingtask,WatchingTask,,,,,,,,,
+ds005416,watchingtask,WatchingTask,,,,,,,,,"Each participant was required to complete watching 2 resting scenes and 15 movement scenes. Each movement scene was asked to watch stereoscopic depth movements, with movement speed set at 3.25 m/s. Each resting scene takes about 5 minutes (300s). [ds005416_sidecar]"
 ds005420,oa,oa,,,,,,,,,
 ds005420,oc,oc,,,,,,,,,
 ds005429,learningoddball,LearningOddball,,,,,,,,,
-ds005429,localglobal,LocalGlobal,,,,,,,,,
+ds005429,localglobal,LocalGlobal,,,,,,,,,Stimuli consisted of quintlets that could be standards or deviants on the local/global level depending on block type. [ds005429_sidecar]
 ds005429,optimum1,Optimum1,,,,,,,,,
-ds005448,task_spesclin,task-SPESclin,,,,,,,,,
+ds005448,task_spesclin,task-SPESclin,,,,,,,,,"No task, electrical stimulation is performed. Patient is resting with eyes open/closed. The latter is not always specified. [ds005448_sidecar]"
 ds005473,t_29bybp,29ByBP,,,,,,,,,
 ds005486,rest,rest,resting_unspecified,,,,,,,,
-ds005489,fr2,FR2,,,,,,,,,
-ds005491,catfr2,catFR2,,,,,,,,,
-ds005494,pal2,PAL2,,,,,,,,,
+ds005489,fr2,FR2,,,,,,,,,delayed free recall with open-loop stimulation at encoding. [ds005489_sidecar]
+ds005491,catfr2,catFR2,,,,,,,,,categorized free recall with open-loop stimulation at encoding. [ds005491_sidecar]
+ds005494,pal2,PAL2,,,,,,,,,cued recall of paired associates with open-loop stimulation at encoding or retrieval. [ds005494_sidecar]
 ds005505,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005505,despicableme,DespicableMe,,,,,,,,,
+ds005505,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005505_sidecar]"
 ds005505,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005505,funwithfractals,FunwithFractals,,,,,,,,,
 ds005505,restingstate,RestingState,,,,,,,,,
@@ -800,7 +800,7 @@ ds005505,surroundsupp,surroundSupp,,,,,,,,,
 ds005505,symbolsearch,symbolSearch,,,,,,,,,
 ds005505,thepresent,ThePresent,,,,,,,,,
 ds005506,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005506,despicableme,DespicableMe,,,,,,,,,
+ds005506,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005506_sidecar]"
 ds005506,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005506,funwithfractals,FunwithFractals,,,,,,,,,
 ds005506,restingstate,RestingState,,,,,,,,,
@@ -810,7 +810,7 @@ ds005506,surroundsupp,surroundSupp,,,,,,,,,
 ds005506,symbolsearch,symbolSearch,,,,,,,,,
 ds005506,thepresent,ThePresent,,,,,,,,,
 ds005507,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005507,despicableme,DespicableMe,,,,,,,,,
+ds005507,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005507_sidecar]"
 ds005507,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005507,funwithfractals,FunwithFractals,,,,,,,,,
 ds005507,restingstate,RestingState,,,,,,,,,
@@ -820,7 +820,7 @@ ds005507,surroundsupp,surroundSupp,,,,,,,,,
 ds005507,symbolsearch,symbolSearch,,,,,,,,,
 ds005507,thepresent,ThePresent,,,,,,,,,
 ds005508,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005508,despicableme,DespicableMe,,,,,,,,,
+ds005508,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005508_sidecar]"
 ds005508,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005508,funwithfractals,FunwithFractals,,,,,,,,,
 ds005508,restingstate,RestingState,,,,,,,,,
@@ -830,7 +830,7 @@ ds005508,surroundsupp,surroundSupp,,,,,,,,,
 ds005508,symbolsearch,symbolSearch,,,,,,,,,
 ds005508,thepresent,ThePresent,,,,,,,,,
 ds005509,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005509,despicableme,DespicableMe,,,,,,,,,
+ds005509,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005509_sidecar]"
 ds005509,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005509,funwithfractals,FunwithFractals,,,,,,,,,
 ds005509,restingstate,RestingState,,,,,,,,,
@@ -840,7 +840,7 @@ ds005509,surroundsupp,surroundSupp,,,,,,,,,
 ds005509,symbolsearch,symbolSearch,,,,,,,,,
 ds005509,thepresent,ThePresent,,,,,,,,,
 ds005510,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005510,despicableme,DespicableMe,,,,,,,,,
+ds005510,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005510_sidecar]"
 ds005510,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005510,funwithfractals,FunwithFractals,,,,,,,,,
 ds005510,restingstate,RestingState,,,,,,,,,
@@ -850,7 +850,7 @@ ds005510,surroundsupp,surroundSupp,,,,,,,,,
 ds005510,symbolsearch,symbolSearch,,,,,,,,,
 ds005510,thepresent,ThePresent,,,,,,,,,
 ds005511,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005511,despicableme,DespicableMe,,,,,,,,,
+ds005511,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005511_sidecar]"
 ds005511,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005511,funwithfractals,FunwithFractals,,,,,,,,,
 ds005511,restingstate,RestingState,,,,,,,,,
@@ -860,7 +860,7 @@ ds005511,surroundsupp,surroundSupp,,,,,,,,,
 ds005511,symbolsearch,symbolSearch,,,,,,,,,
 ds005511,thepresent,ThePresent,,,,,,,,,
 ds005512,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005512,despicableme,DespicableMe,,,,,,,,,
+ds005512,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005512_sidecar]"
 ds005512,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005512,funwithfractals,FunwithFractals,,,,,,,,,
 ds005512,restingstate,RestingState,,,,,,,,,
@@ -870,7 +870,7 @@ ds005512,surroundsupp,surroundSupp,,,,,,,,,
 ds005512,symbolsearch,symbolSearch,,,,,,,,,
 ds005512,thepresent,ThePresent,,,,,,,,,
 ds005514,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005514,despicableme,DespicableMe,,,,,,,,,
+ds005514,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005514_sidecar]"
 ds005514,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005514,funwithfractals,FunwithFractals,,,,,,,,,
 ds005514,restingstate,RestingState,,,,,,,,,
@@ -880,7 +880,7 @@ ds005514,surroundsupp,surroundSupp,,,,,,,,,
 ds005514,symbolsearch,symbolSearch,,,,,,,,,
 ds005514,thepresent,ThePresent,,,,,,,,,
 ds005515,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005515,despicableme,DespicableMe,,,,,,,,,
+ds005515,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005515_sidecar]"
 ds005515,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005515,funwithfractals,FunwithFractals,,,,,,,,,
 ds005515,restingstate,RestingState,,,,,,,,,
@@ -888,32 +888,32 @@ ds005515,surroundsupp,surroundSupp,,,,,,,,,
 ds005515,symbolsearch,symbolSearch,,,,,,,,,
 ds005515,thepresent,ThePresent,,,,,,,,,
 ds005516,contrastchangedetection,contrastChangeDetection,,,,,,,,,
-ds005516,despicableme,DespicableMe,,,,,,,,,
+ds005516,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005516_sidecar]"
 ds005516,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005516,funwithfractals,FunwithFractals,,,,,,,,,
 ds005516,restingstate,RestingState,,,,,,,,,
 ds005516,surroundsupp,surroundSupp,,,,,,,,,
 ds005516,symbolsearch,symbolSearch,,,,,,,,,
 ds005516,thepresent,ThePresent,,,,,,,,,
-ds005520,moba_game,MOBA_game,,,,,,,,,
+ds005520,moba_game,MOBA_game,,,,,,,,,Playing MOBA game. [ds005520_sidecar]
 ds005520,resting_eye_closed,resting_eye_closed,,,,,,,,,
 ds005520,resting_eye_open,resting_eye_open,,,,,,,,,
-ds005522,yc1,YC1,,,,,,,,,
-ds005523,yc2,YC2,,,,,,,,,
+ds005522,yc1,YC1,,,,,,,,,spatial navigation memory of object locations. [ds005522_sidecar]
+ds005523,yc2,YC2,,,,,,,,,spatial navigation memory of object locations with open-loop stimulation at encoding. [ds005523_sidecar]
 ds005530,arousal,arousal,,,,,,,,,
 ds005530,sleep,sleep,sleep,,,,,,,,
 ds005540,emotion,emotion,,,,,,,,,
-ds005545,auditory,auditory,,,,,,,,,
-ds005555,sleep,Sleep,sleep,,,,,,,,
-ds005557,fr3,FR3,,,,,,,,,
-ds005558,catfr3,catFR3,,,,,,,,,
+ds005545,auditory,auditory,,,,,,,,,auditory. [ds005545_sidecar]
+ds005555,sleep,Sleep,sleep,,,,,,,,One night of sleep. [ds005555_sidecar]
+ds005557,fr3,FR3,,,,,,,,,free recall with closed-loop stimulation at encoding. [ds005557_sidecar]
+ds005558,catfr3,catFR3,,,,,,,,,categorized free recall with closed-loop stimulation at encoding. [ds005558_sidecar]
 ds005565,semanticcategorization,SemanticCategorization,,,,,,,,,
 ds005571,gnga,GNGA,,,,,,,,,
 ds005571,gngb,GNGB,,,,,,,,,
 ds005571,msit,$MSIT,,,,,,,,,
-ds005574,podcast,podcast,,,,,,,,,
+ds005574,podcast,podcast,,,,,,,,,Passive listening to a 30 minute audio stimulus. [ds005574_sidecar]
 ds005586,passiveviewing,PassiveViewing,,,,,,,,,
-ds005594,alphabetic_decision,Alphabetic Decision,,,,,,,,,
+ds005594,alphabetic_decision,Alphabetic Decision,,,,,,,,,Participants were presented with letters (in font Arial Light) and false-font equivalents (in font BACS2sans). The task was to press the space bar when they observed a false-font character. [ds005594_sidecar]
 ds005620,awake,awake,,,,,,,,,
 ds005620,sed,sed,,,,,,,,,
 ds005620,sed2,sed2,,,,,,,,,
@@ -921,7 +921,7 @@ ds005624,ccdt,CCDT,,,,,,,,,
 ds005628,edzna,Edzna,,,,,,,,,
 ds005642,faceobj,faceobj,,,,,,,,,
 ds005648,task_targets,task-targets,,,,,,,,,
-ds005662,video,video,,,,,,,,,
+ds005662,video,video,,,,,,,,,Participants viewed touch video stimuli while EEG data was recorded. [ds005662_sidecar]
 ds005670,rest,rest,resting_unspecified,,,,,,,,
 ds005672,perceiveimagine,PerceiveImagine,,,,,,,,,
 ds005688,baseline,baseline,,,,,,,,,
@@ -929,10 +929,10 @@ ds005688,trial1,trial1,,,,,,,,,
 ds005688,trial2,trial2,,,,,,,,,
 ds005688,trial3,trial3,,,,,,,,,
 ds005688,trial4,trial4,,,,,,,,,
-ds005691,countingdeviants,countingDeviants,,,,,,,,,
-ds005692,countingdeviants,countingDeviants,,,,,,,,,
+ds005691,countingdeviants,countingDeviants,,,,,,,,,Subjects were silently counting in how many trials in each block of around 5 mins median nerve stimulation did not consist of a single stimulus like in most trials but was rapidly repeated after 80 ms and reporting that number at the end of each block. [ds005691_sidecar]
+ds005692,countingdeviants,countingDeviants,,,,,,,,,Subjects were silently counting in how many trials in each block of around 5 mins median nerve stimulation did not consist of a single stimulus like in most trials but was rapidly repeated after 80 ms and reporting that number at the end of each block. [ds005692_sidecar]
 ds005697,perceiveimagine,PerceiveImagine,,,,,,,,,
-ds005779,resting,resting,resting_unspecified,,,,,,,,
+ds005779,resting,resting,resting_unspecified,,,,,,,,Subjects were seated and resting with their eyes open and their hands and arms relaxed on the chair. [ds005779_sidecar]
 ds005779,testinghigh110rmt,testinghigh110RMT,,,,,,,,,
 ds005779,testinghigh110rmtfile1,testinghigh110RMTfile1,,,,,,,,,
 ds005779,testinghigh110rmtfile2,testinghigh110RMTfile2,,,,,,,,,
@@ -951,8 +951,8 @@ ds005779,trainingblock6,trainingblock6,,,,,,,,,
 ds005795,learning,learning,,,,,,,,,
 ds005795,lernmulti,lernmulti,,,,,,,,,
 ds005795,rest,rest,resting_unspecified,,,,,,,,
-ds005811,imagenet,ImageNet,,,,,,,,,
-ds005815,rest1,rest1,,,,,,,,,
+ds005811,imagenet,ImageNet,,,,,,,,,"watching images from ImageNet, and judge whether the image is animacy or not. [ds005811_sidecar]"
+ds005815,rest1,rest1,,,,,,,,,resting-state recording. [ds005815_sidecar]
 ds005815,rest2,rest2,,,,,,,,,
 ds005815,resting,resting,resting_unspecified,,,,,,,,
 ds005815,task,task,,,,,,,,,
@@ -965,23 +965,23 @@ ds005841,signalscreen,signalscreen,,,,,,,,,
 ds005841,signalvr,signalvr,,,,,,,,,
 ds005857,ltpdelayrepfrreadonly,ltpDelayRepFRReadOnly,,,,,,,,,
 ds005863,active_visual_oddball,Active Visual Oddball,p300_erp,,,,,,,,
-ds005863,flanker,Flanker,,,,,,,,,
+ds005863,flanker,Flanker,,,,,,,,,"Please see Kappenman, E. S., Farrens, J. L., Zhang, W., Stewart, A. X., & Luck, S. J. (2021). ERP CORE: An open resource for human event-related potential research. NeuroImage, 225, 117465. [ds005863_sidecar]"
 ds005863,passive_auditory_oddball,Passive Auditory Oddball,p300_erp,,,,,,,,
 ds005863,simple_visual_search,Simple Visual Search,,,,,,,,,
 ds005866,flankernear,FlankerNEAR,,,,,,,,,
 ds005868,flankersfar,flankersFAR,,,,,,,,,
 ds005872,dots,dots,,,,,,,,,
-ds005873,szmonitoring,szMonitoring,,,,,,,,,
+ds005873,szmonitoring,szMonitoring,,,,,,,,,Subjects were monitored with a Video-EEG and the SensorDot (Byteflies). [ds005873_sidecar]
 ds005876,songfamiliarity,songfamiliarity,,,,,,,,,
 ds005907,threearmedbandit,ThreeArmedBandit,,,,,,,,,
-ds005931,game,game,,,,,,,,,
+ds005931,game,game,,,,,,,,,game. [ds005931_sidecar]
 ds005932,picturewordinterference,PictureWordInterference,,,,,,,,,
-ds005946,picturematching,picturematching,,,,,,,,,
-ds005953,visual,visual,,,,,,,,,
+ds005946,picturematching,picturematching,,,,,,,,,"Subjects were presented with a picture either matching or mismatching with a preceding cue: i) another picture (Physical), ii) an adjective prompting mental imagery (Imagery), iii) a literal description (Literal), iv) a metaphorical description (Metaphorical). [ds005946_sidecar]"
+ds005953,visual,visual,,,,,,,,,visual gratings and noise patterns. [ds005953_sidecar]
 ds005960,instcomp,INSTCOMP,,,,,,,,,
 ds006018,active_visual_oddball,Active Visual Oddball,p300_erp,,,,,,,,
 ds006018,flanker,Flanker,,,,,,,,,
-ds006018,passive_auditory_oddball,Passive Auditory Oddball,p300_erp,,,,,,,,
+ds006018,passive_auditory_oddball,Passive Auditory Oddball,p300_erp,,,,,,,,"Please see Isbell, E., De León, N. E. R., & Richardson, D. M. (2024). Childhood family socioeconomic status is linked to adult brain electrophysiology. PloS One, 19(8), e0307406. [ds006018_sidecar]"
 ds006018,simple_visual_search,Simple Visual Search,,,,,,,,,
 ds006033,innerspeech,innerspeech,,,,,,,,,
 ds006036,photomark,photomark,,,,,,,,,
@@ -1012,45 +1012,45 @@ ds006065,restcontrolpre,restcontrolpre,,,,,,,,,
 ds006065,restpost,restpost,,,,,,,,,
 ds006065,restpre,restpre,,,,,,,,,
 ds006095,mixed,mixed,,,,,,,,,
-ds006104,phonemes,phonemes,,,,,,,,,
+ds006104,phonemes,phonemes,,,,,,,,,Listening to consonant-vowel and vowel-consonant phoneme pairs. [ds006104_sidecar]
 ds006104,single_phoneme,single-phoneme,,,,,,,,,
 ds006104,words,Words,,,,,,,,,
-ds006107,sws,sws,,,,,,,,,
+ds006107,sws,sws,,,,,,,,,slow_wave_sleep. [ds006107_sidecar]
 ds006110,meditation,meditation,,,,,,,,,
 ds006110,movie,movie,,,,,,,,,
 ds006110,music,music,,,,,,,,,
 ds006110,rest,rest,resting_unspecified,,,,,,,,
-ds006110,series,series,,,,,,,,,
-ds006126,b1,B1,,,,,,,,,
+ds006110,series,series,,,,,,,,,"Series of four conditions: movie, rest, meditation, music. [ds006110_sidecar]"
+ds006126,b1,B1,,,,,,,,,Resting state EMG recording. [ds006126_sidecar]
 ds006126,b2,B2,,,,,,,,,
 ds006126,bm,BM,,,,,,,,,
 ds006126,ki,KI,,,,,,,,,
 ds006126,v1,V1,,,,,,,,,
 ds006126,v3,V3,,,,,,,,,
-ds006136,object_working_memory,Object Working Memory,,,,,,,,,
+ds006136,object_working_memory,Object Working Memory,,,,,,,,,Load-3 object working memory task. [ds006136_sidecar]
 ds006142,moviememory,MovieMemory,,,,,,,,,
 ds006159,implicitlearn,implicitlearn,,,,,,,,,
-ds006171,near_threshold_visual_detection_task,Near-threshold visual detection task,,,,,,,,,
+ds006171,near_threshold_visual_detection_task,Near-threshold visual detection task,,,,,,,,,"Participants performed three near-threshold visual detection tasks in the same session: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity). In each trial, a Gabor stimulus was presented at peri-threshold contrast during 50ms, whose orientation was equally likely to be either vertical or horizontal (no stimulus was presented in 10% of trials - cathc trials). Participants were asked about two aspects related to the Gabor. First, a subjective question: Have you seen the Gabor stimulus? Response: yes or no. Then, an objective question in 15% of ran. [ds006171_sidecar]"
 ds006222,pvt,PVT,,,,,,,,,
-ds006233,picture,picture,,,,,,,,,
-ds006234,auditory,auditory,,,,,,,,,
-ds006254,ccep_onasm,CCEP_OnASM,,,,,,,,,
+ds006233,picture,picture,,,,,,,,,picture. [ds006233_sidecar]
+ds006234,auditory,auditory,,,,,,,,,auditory. [ds006234_sidecar]
+ds006254,ccep_onasm,CCEP_OnASM,,,,,,,,,Cortico-Cortical Evoked Potentials via stimulation of intracranial electrodes. [ds006254_sidecar]
 ds006260,smartickdataset,SmartickDataset,,,,,,,,,
 ds006269,rest,rest,resting_unspecified,,,,,,,,
 ds006317,para1,para1,,,,,,,,,
 ds006317,para2,para2,,,,,,,,,
-ds006366,sleep,sleep,sleep,,,,,,,,
+ds006366,sleep,sleep,sleep,,,,,,,,"Continuous EEG recording with manual scoring, that includes both wake and sleep periods(includes both dark and light phases). [ds006366_sidecar]"
 ds006367,delayedmatchtosampletask,DelayedMatchtoSampleTask,,,,,,,,,
 ds006370,delayedmatchtosampletask,DelayedMatchtoSampleTask,,,,,,,,,
 ds006374,calibration,calibration,,,,,,,,,
 ds006374,detection,detection,,,,,,,,,
 ds006374,expsupp,expsupp,,,,,,,,,
 ds006386,artifact,artifact,,,,,,,,,
-ds006392,photicstim,photicstim,,,,,,,,,
+ds006392,photicstim,photicstim,,,,,,,,,Photic stimulation. [ds006392_sidecar]
 ds006394,sib,SiB,,,,,,,,,
 ds006394,sid,SiD,,,,,,,,,
 ds006434,exp1diotic,exp1Diotic,,,,,,,,,
-ds006434,exp2dichotic,exp2Dichotic,,,,,,,,,
+ds006434,exp2dichotic,exp2Dichotic,,,,,,,,,"In each trial, subjects were presented with two audiobooks simultaneously, one read by a male narrator and one read by a female narrator.One story was played in each ear, and subjectswere instructed to attend to either the left orright side and which story they should hear onthat side. [ds006434_sidecar]"
 ds006434,exp3passive,exp3Passive,,,,,,,,,
 ds006437,baseline0,baseline0,,,,,,,,,
 ds006437,baseline1,baseline1,,,,,,,,,
@@ -1060,13 +1060,13 @@ ds006437,hypnotherapy,hypnotherapy,,,,,,,,,
 ds006446,itc,itc,,,,,,,,,
 ds006465,imaginedspeech,imaginedspeech,,,,,,,,,
 ds006466,active,active,,,,,,,,,
-ds006466,actives,activeS,,,,,,,,,
+ds006466,actives,activeS,,,,,,,,,active oddball task w/ shock intervention. [ds006466_sidecar]
 ds006466,passive,passive,,,,,,,,,
 ds006466,passives,passiveS,,,,,,,,,
 ds006466,resting,resting,resting_unspecified,,,,,,,,
 ds006466,restings,restingS,,,,,,,,,
 ds006480,shockya,ShockYA,,,,,,,,,
-ds006519,dcs,dcs,,,,,,,,,
+ds006519,dcs,dcs,,,,,,,,,Direct cortical stimulation evoking negative motor responses. [ds006519_sidecar]
 ds006525,rest,rest,resting_unspecified,,,,,,,,
 ds006525,resting,resting,resting_unspecified,,,,,,,,
 ds006547,visual,visual,,,,,,,,,
@@ -1085,39 +1085,39 @@ ds006647,readpoetry,readpoetry,,,,,,,,,
 ds006648,readpoetry,readpoetry,,,,,,,,,
 ds006695,sleep,sleep,sleep,,,,,,,,
 ds006735,chimericmusic,ChimericMusic,,,,,,,,,
-ds006761,rps,RPS,,,,,,,,,
+ds006761,rps,RPS,,,,,,,,,Pairs of participants played a computerised version of the Rock-Paper-Scissors game. [ds006761_sidecar]
 ds006768,mom,MOM,,,,,,,,,
-ds006801,rest,rest,resting_unspecified,,,,,,,,
-ds006802,categorisation,categorisation,,,,,,,,,
+ds006801,rest,rest,resting_unspecified,,,,,,,,"Resting-state EEG with alternating 2m15s eyes-open (OA) and eyes-closed (OF) blocks, repeated twice, recorded in PRE and POS sessions. Participant sits still; no stimuli or responses. [ds006801_sidecar]"
+ds006802,categorisation,categorisation,,,,,,,,,Pairs of participants engaged in a stimulus categorisation task. There was a pre- and post- test. [ds006802_sidecar]
 ds006803,stemskills,STEMSKILLS,,,,,,,,,
 ds006817,ctp,CTP,,,,,,,,,
-ds006839,control,control,,,,,,,,,
+ds006839,control,control,,,,,,,,,Participants viewed a virtual environment without feedback. [ds006839_sidecar]
 ds006839,negative,negative,,,,,,,,,
 ds006839,positive,positive,,,,,,,,,
 ds006839,resting,resting,resting_unspecified,,,,,,,,
-ds006840,intention_action_congruency,intention-action congruency,,,,,,,,,
-ds006848,rest,rest,resting_unspecified,,,,,,,,
+ds006840,intention_action_congruency,intention-action congruency,,,,,,,,,Ball control with congruent/incongruent visual cue; 1 s pre-movement then execution. [ds006840_sidecar]
+ds006848,rest,rest,resting_unspecified,,,,,,,,"Resting-state recording consisting of four alternating blocks of 60 s with eyes closed and 60 s with eyes open, followed by 3 min 52 s of passive cartoon watching ('The Man Who Was Afraid of Falling', 2011). [ds006848_sidecar]"
 ds006848,verbalwm,verbalwm,,,,,,,,,
-ds006850,urbanappraisal,UrbanAppraisal,,,,,,,,,
+ds006850,urbanappraisal,UrbanAppraisal,,,,,,,,,"Participants were presented with 56 streetview images. Each image was presented nine times in combination with a scale prompt (1000ms) followed by a fixation cross (500ms) before image onset. Image presentation lasted 3000ms, followed by one of the nine scales (SAM (arousal, valence, dominance - 9 point), beauty, hominess, openness, safety, fascination, stress (all 5-point)) until response was given via mouseclick. Image x scale combinations were presented in randomized order. 56 stimuli were split into two experimental blocks with a break in between. Baseline (3min) was recorded at the beginn [ds006850_sidecar]"
 ds006861,emotionprocessingandregulationtask,EmotionProcessingandRegulationtask,,,,,,,,,
 ds006866,emotionprocessingandregulationtask,EmotionProcessingandRegulationtask,,,,,,,,,
 ds006890,listening,listening,,,,,,,,,
 ds006890,pressing,pressing,,,,,,,,,
 ds006890,reaching,reaching,,,,,,,,,
-ds006890,rest,rest,resting_unspecified,,,,,,,,
+ds006890,rest,rest,resting_unspecified,,,,,,,,Resting-state recordings captured spontaneous neural activity while the monkeys were awake and restrained to minimize movement. [ds006890_sidecar]
 ds006890,sep,sep,,,,,,,,,
-ds006897,eegsvr,eegsvr,,,,,,,,,
-ds006910,auditory,auditory,,,,,,,,,
+ds006897,eegsvr,eegsvr,,,,,,,,,Thermal stimulation with visual rhytmic stimulation at different frequencies. [ds006897_sidecar]
+ds006910,auditory,auditory,,,,,,,,,auditory. [ds006910_sidecar]
 ds006910,picture,picture,,,,,,,,,
-ds006914,picture,picture,,,,,,,,,
-ds006921,eyesclosed,EYESCLOSED,,,,,,,,,
+ds006914,picture,picture,,,,,,,,,picture. [ds006914_sidecar]
+ds006921,eyesclosed,EYESCLOSED,,,,,,,,,Resting state with eyes Closed. [ds006921_sidecar]
 ds006921,eyesopen,EYESOPEN,,,,,,,,,
-ds006923,resting_state,Resting State,resting_unspecified,,,,,,,,
-ds006945,baseline,baseline,,,,,,,,,
+ds006923,resting_state,Resting State,resting_unspecified,,,,,,,,"Sequence: 4 min alternating eyes closed/open (COCO: Closed-Open-Closed-Open), 8 min eyes closed (excluded from current dataset). [ds006923_sidecar]"
+ds006945,baseline,baseline,,,,,,,,,"During the baseline condition, participants were instructed to mentally simulate a resting state. [ds006945_sidecar]"
 ds006945,walking1,walking1,,,,,,,,,
 ds006945,walking2,walking2,,,,,,,,,
 ds006963,visuomotordelayedmatchtosamplewithinterference,VisuomotorDelayedMatchToSampleWithInterference,,,,,,,,,
-ds006979,visualworkingmemorytask,visualworkingmemorytask,,,,,,,,,
+ds006979,visualworkingmemorytask,visualworkingmemorytask,,,,,,,,,"Bilateral change-detection task: participants were cued to one hemifield, encoded the colors of 2 or 3 squares (unrepeated or repeated colors, with strong or weak spatial proximity), and after a 1 s retention interval reported whether a single-item probe had changed color. [ds006979_sidecar]"
 ds007006,comptree,compTree,,,,,,,,,
 ds007006,ivan,ivan,,,,,,,,,
 ds007006,medball,medBall,,,,,,,,,
@@ -1125,23 +1125,23 @@ ds007006,postbaseline,postbaseline,,,,,,,,,
 ds007006,prebaseline,prebaseline,,,,,,,,,
 ds007012,categorisation,categorisation,,,,,,,,,
 ds007020,rest,rest,resting_unspecified,,,,,,,,
-ds007028,tono14noconcat,tono14noconcat,,,,,,,,,
+ds007028,tono14noconcat,tono14noconcat,,,,,,,,,tono14no. [ds007028_sidecar]
 ds007052,wordpr,WordPR,,,,,,,,,
 ds007056,visualoddball,VisualOddball,,,,,,,,,
 ds007058,read,read,,,,,,,,,
 ds007069,auditoryoddball,AuditoryOddball,,,,,,,,,
-ds007081,passiveaccessible,PassiveAccessible,,,,,,,,,
+ds007081,passiveaccessible,PassiveAccessible,,,,,,,,,Delayed continuous color report with load expectation manipulation and studied vs unstudied objects. [ds007081_sidecar]
 ds007095,seizure,seizure,,,,,,,,,
 ds007096,faceperception,FacePerception,,,,,,,,,
 ds007114,subemocondeeg1,SUBEMOcondEEG1,,,,,,,,,
 ds007114,unnamed,unnamed,,,,,,,,,
-ds007118,sleep,sleep,sleep,,,,,,,,
-ds007119,sleep,sleep,sleep,,,,,,,,
-ds007120,sleep,sleep,sleep,,,,,,,,
+ds007118,sleep,sleep,sleep,,,,,,,,sleep. [ds007118_sidecar]
+ds007119,sleep,sleep,sleep,,,,,,,,sleep. [ds007119_sidecar]
+ds007120,sleep,sleep,sleep,,,,,,,,sleep. [ds007120_sidecar]
 ds007137,visualsearch,VisualSearch,,,,,,,,,
 ds007139,flanker,Flanker,,,,,,,,,
 ds007162,rcor,rcor,,,,,,,,,
-ds007169,nback,nback,,,,,,,,,
+ds007169,nback,nback,,,,,,,,,N-back task with baseline and 1-4 back levels. [ds007169_sidecar]
 ds007172,emotions,emotions,,,,,,,,,
 ds007172,emotios,emotios,,,,,,,,,
 ds007172,faces,faces,,,,,,,,,
@@ -1151,7 +1151,7 @@ ds007172,words,words,,,,,,,,,
 ds007175,pitch,pitch,,,,,,,,,
 ds007176,ce,CE,,,,,,,,,
 ds007176,oe,OE,,,,,,,,,
-ds007180,exo,exo,,,,,,,,,
+ds007180,exo,exo,,,,,,,,,Exogenous attention task (neutral LAT blocked). [ds007180_sidecar]
 ds007181,rest,Rest,resting_unspecified,,,,,,,,
 ds007181,sleep,sleep,sleep,,,,,,,,
 ds007216,experiencesampling,ExperienceSampling,,,,,,,,,
@@ -1160,21 +1160,21 @@ ds007221,graz,graz,,,,,,,,,
 ds007221,hybrid,hybrid,,,,,,,,,
 ds007221,hybridonline,hybridonline,,,,,,,,,
 ds007221,ssmvepmi,ssmvepmi,,,,,,,,,
-ds007222,treadmill00flow00,treadmill00flow00,,,,,,,,,
+ds007222,treadmill00flow00,treadmill00flow00,,,,,,,,,Treadmillw walking speed and speed of visual flow (00). [ds007222_sidecar]
 ds007222,treadmill04flow00,treadmill04flow00,,,,,,,,,
 ds007222,treadmill08flow00,treadmill08flow00,,,,,,,,,
 ds007222,treadmill12flow00,treadmill12flow00,,,,,,,,,
 ds007222,treadmill16flow00,treadmill16flow00,,,,,,,,,
-ds007262,arithmetic,arithmetic,,,,,,,,,
+ds007262,arithmetic,arithmetic,,,,,,,,,Cognitive Workload 8-level arithmetic task. [ds007262_sidecar]
 ds007314,picturenaming,PictureNaming,,,,,,,,,
 ds007315,picturenaming,PictureNaming,,,,,,,,,
 ds007322,auditoryoddball,auditoryoddball,,,,,,,,,
 ds007327,ballpass,ballpass,,,,,,,,,
 ds007327,dribble,dribble,,,,,,,,,
 ds007327,passing,passing,,,,,,,,,
-ds007338,dots,dots,,,,,,,,,
+ds007338,dots,dots,,,,,,,,,"a series of dots are sequentially presented, each at one of 25 different screen positions. [ds007338_sidecar]"
 ds007347,resting,resting,resting_unspecified,,,,,,,,
-ds007353,action,action,,,,,,,,,
+ds007353,action,action,,,,,,,,,Participants watched videos of actions and responded whether the action was sports with the right or left hand. [ds007353_sidecar]
 ds007353,noise,noise,,,,,,,,,
 ds007358,ec,ec,,,,,,,,,
 ds007358,eo,eo,,,,,,,,,
@@ -1189,10 +1189,10 @@ ds007521,food,food,,,,,,,,,
 ds007526,rest,rest,resting_unspecified,,,,,,,,
 ds007526,walk,walk,,,,,,,,,
 ds007537,phoneuse,phoneuse,,,,,,,,,
-ds007541,face,face,,,,,,,,,
+ds007541,face,face,,,,,,,,,RSVP-based face recognition task for identity authentication. [ds007541_sidecar]
 ds007541,name,name,,,,,,,,,
 ds007541,verification,verification,,,,,,,,,
-ds007554,activemotor,activemotor,,,,,,,,,
+ds007554,activemotor,activemotor,,,,,,,,,Active motor task. [ds007554_sidecar]
 ds007554,full,full,,,,,,,,,
 ds007554,mentalarithmetic,mentalarithmetic,,,,,,,,,
 ds007554,motorimagery,motorimagery,,,,,,,,,
@@ -1203,16 +1203,16 @@ ds007558,group1_post_bids,group1 post bids,,,,,,,,,
 ds007558,group2_post_bids,group2 post bids,,,,,,,,,
 ds007558,rest,rest,resting_unspecified,,,,,,,,
 ds007591,covert,covert,,,,,,,,,
-ds007591,minimallyovert,minimallyovert,,,,,,,,,
+ds007591,minimallyovert,minimallyovert,,,,,,,,,"Speech decoding task (minimally overt). Participants produced one of 5 color words (green, magenta, orange, violet, yellow) in minimally overt speech condition. Each trial consists of 5 repetitions of the same word (1.25 sec per repetition, 6.25 sec total). Session type: calibration. [ds007591_sidecar]"
 ds007591,overt,overt,,,,,,,,,
-ds007605,pvt,pvt,,,,,,,,,
-ds007609,rest,rest,resting_unspecified,,,,,,,,
+ds007605,pvt,pvt,,,,,,,,,"Subjects are supposed to press the spacebar as fast as possible as soon as a counter starts. When the spacebar was pressed, the counter is stopped and shows the reaction time in miliseconds. [ds007605_sidecar]"
+ds007609,rest,rest,resting_unspecified,,,,,,,,"Alternating 1-minute eyes-open and eyes-closed resting blocks (EO-EC-EO-EC), 4 minutes total. Transitions signaled by auditory beep. [ds007609_sidecar]"
 ds007615,ldaep,ldaep,,,,,,,,,
 ds007615,rest,rest,resting_unspecified,,,,,,,,
 ds007629,remind,ReMind,,,,,,,,,
 ds007647,differentdoors,differentdoors,,,,,,,,,
-ds007648,crossmodal,CrossModal,,,,,,,,,
-ds007655,dotcount,dotcount,,,,,,,,,
+ds007648,crossmodal,CrossModal,,,,,,,,,CrossModal target differentiation task; see https://doi.org/10.7554/eLife.106050.3 for detailed task description. [ds007648_sidecar]
+ds007655,dotcount,dotcount,,,,,,,,,Auditory discrimination task requiring participants to report the number of dots in the presented Morse code character. [ds007655_sidecar]
 ds007655,firstlast,firstlast,,,,,,,,,
 ds007666,group2post_bids,group2post bids,,,,,,,,,
 ds007666,grupo_1_post_bids,Grupo 1 Post bids,,,,,,,,,
@@ -1260,14 +1260,14 @@ ds007703,cortico_cortical_evoked_potentials,Cortico Cortical Evoked Potentials,,
 ds007703,cortico_cortical_evoked_potentials_cceps,Cortico-cortical evoked potentials - CCEPs,,,,,,,,,
 ds007703,cortico_cortical_evoked_potentials_cceps_2,"Cortico cortical Evoked Potentials, CCEPs",,,,,,,,,
 ds007703,visual_stimuli_cceps,Visual stimuli + CCEPs,,,,,,,,,
-ds007720,matrixcalibration,MatrixCalibration,,,,,,,,,
+ds007720,matrixcalibration,MatrixCalibration,,,,,,,,,Matrix paradigm calibration task; see README for full protocol details. [ds007720_sidecar]
 ds007720,matrixcopyphrase,MatrixCopyPhrase,,,,,,,,,
 ds007720,rsvpcalibration,RSVPCalibration,,,,,,,,,
 ds007720,rsvpcopyphrase,RSVPCopyPhrase,,,,,,,,,
 ds007721,ac,ac,,,,,,,,,
 ds007721,bc,bc,,,,,,,,,
 ds007753,bccwj_reading,BCCWJ Reading,,,,,,,,,
-ds007788,ses_01_task_stop6min,ses-01-task-stop6min,,,,,,,,,
+ds007788,ses_01_task_stop6min,ses-01-task-stop6min,,,,,,,,,"Recorded on: 2015-04-27 during ""ses-01-task-stop6min"". [ds007788_sidecar]"
 ds007788,ses_01_task_training,ses-01-task-training,,,,,,,,,
 ds007788,ses_01_task_trial01,ses-01-task-trial01,,,,,,,,,
 ds007788,ses_01_task_trial02,ses-01-task-trial02,,,,,,,,,
@@ -1407,11 +1407,11 @@ ds007813,gonogo,gonogo,,,,,,,,,
 ds007822,pddecision,pddecision,,,,,,,,,
 ds007822,pdfeedback,pdfeedback,,,,,,,,,
 ds007822,pdrest,pdrest,,,,,,,,,
-ds007823,covid,COVID,,,,,,,,,
+ds007823,covid,COVID,,,,,,,,,Protocol used for COVID-19 EEG. [ds007823_sidecar]
 ds007827,imageratings,ImageRatings,,,,,,,,,
 ds007827,rovingoddball,RovingOddball,,,,,,,,,
-ds007864,rest_eyes_closed,rest eyes closed,resting_eyes_closed,,,,,,,,
-ds007865,rest_eyes_closed,rest eyes closed,resting_eyes_closed,,,,,,,,
+ds007864,rest_eyes_closed,rest eyes closed,resting_eyes_closed,,,,,,,,Participants rested with eyes closed during EEG recording. [ds007864_sidecar]
+ds007865,rest_eyes_closed,rest eyes closed,resting_eyes_closed,,,,,,,,Participants rested with eyes closed during EEG recording. [ds007865_sidecar]
 ds007895,discrimination,discrimination,,,,,,,,,
 ds007895,streaming,streaming,,,,,,,,,
 ds007949,discrimination,discrimination,,,,,,,,,
@@ -1419,9 +1419,9 @@ ds007949,streaming,streaming,,,,,,,,,
 ds007955,wordassociation,wordassociation,,,,,,,,,
 ds007964,rsvp,rsvp,,,,,,,,,
 ds007968,narrativereward,narrativereward,,,,,,,,,
-ds007987,resting,resting,resting_unspecified,,,,,,,,
+ds007987,resting,resting,resting_unspecified,,,,,,,,Subjects were seated while fixing gace. [ds007987_sidecar]
 ds008003,pitchmatch,PitchMatch,,,,,,,,,
-ds008014,control,control,,,,,,,,,
+ds008014,control,control,,,,,,,,,Control condition with random syllable stream. [ds008014_sidecar]
 ds008014,frequency,frequency,,,,,,,,,
 ds008014,tp,tp,,,,,,,,,
 ds008037,backwardsdigitspan,BackwardsDigitSpan,,,,,,,,,
@@ -1429,7 +1429,7 @@ ds008037,clt,CLT,,,,,,,,,
 ds008037,go_no_go,Go/No-Go,,,,,,,,,
 ds008037,opn,opn,,,,,,,,,
 ds008037,ort,ort,,,,,,,,,
-ds008037,resting_state,Resting state,resting_unspecified,,,,,,,,
+ds008037,resting_state,Resting state,resting_unspecified,,,,,,,,Resting-state EEG recording converted without changing the EEG signal. Participants rested quietly during the recording. [ds008037_sidecar]
 ds008037,smt,smt,,,,,,,,,
 ds008037,stopsignal,StopSignal,,,,,,,,,
 ds008037,symbolsearch,SymbolSearch,,,,,,,,,
@@ -1442,23 +1442,23 @@ ds008065,phases,phases,,,,,,,,,
 ds008081,ssvep,ssvep,ssvep,,,,,,,,
 ds008082,covid,COVID,,,,,,,,,
 ds008083,hierprior,HierPrior,,,,,,,,,
-ds008095,ratings,ratings,,,,,,,,,
+ds008095,ratings,ratings,,,,,,,,,Audio-visual ratings task with fixation and audio-visual stimulus onset events. [ds008095_sidecar]
 ds008095,synch,synch,,,,,,,,,
 ds008095,test,test,,,,,,,,,
 ds008095,uni,uni,,,,,,,,,
-ds008099,foodword,foodword,,,,,,,,,
-ds008104,fnreffortstudy,FNReffortstudy,,,,,,,,,
+ds008099,foodword,foodword,,,,,,,,,"Meat/vegetarian categorization of pizza-topping words ('IS IT MEAT?'). Participants pressed M for meat items and V for vegetarian/cheese items and were instructed to prioritise accuracy over speed. Word ink colour was neutral (black), congruent, or incongruent with category, in randomized blocks. Preceded by an eyes-open/eyes-closed resting baseline. [ds008099_sidecar]"
+ds008104,fnreffortstudy,FNReffortstudy,,,,,,,,,"Participants completed an effort-based reward task in which they first exerted either low or high physical effort by repeatedly pressing a key, then selected one of two doors to obtain monetary feedback (win or loss). Feedback was predetermined and differed across conditions: a non-frustration condition with frequent rewards (80% wins) and a frustration condition with reduced rewards (40% wins, 60% losses), designed to induce frustrative non-reward. The task comprised 160 trials (80 per condition), with equal numbers of low- and high-effort trials. [ds008104_sidecar]"
 ds008115,endotrachealsuction,EndotrachealSuction,,,,,,,,,
 ds008115,other,Other,,,,,,,,,
 ds008115,positioning,Positioning,,,,,,,,,
 ds008161,active,active,,,,,,,,,
 ds008161,motor,motor,,,,,,,,,
 ds008161,passive,passive,,,,,,,,,
-ds008257,video,video,,,,,,,,,
-ds008302,memory,memory,,,,,,,,,
+ds008257,video,video,,,,,,,,,"Each of the 6 participants underwent 8 data collection sessions. During each session, participants were presented with one quartile of the training videos (i.e., 250 out of 1,000 videos), and with all 102 testing videos, each repeated for 3 times. Thus, across all 8 data collection sessions, the 1,000 training videos were repeated 6 times, and the 102 testing videos were repeated 24 times. The videos were presented in random order with the constraint of no consecutive repetition. One session comprised 16 runs, each lasting around 7 minutes and consisting of 66 video presentation trials. Each t [ds008257_sidecar]"
+ds008302,memory,memory,,,,,,,,,"The adaptive digit span task was a modified version of the simple digit span task, designed to estimate verbal working memory capacity more precisely. Because participants completed a simple digit span task during the first visit, their starting span length was defined as their maximum correctly recalled span length minus one digit. In each trial, participants were presented with a sequence of digits to be remembered and recalled. The trial began with an exclamation mark for 0.5 s, followed by a fixation cross (Thaler et al., 2013; 0.8 cm in diameter) for 2 s, and then digits were presented fo [ds008302_sidecar]"
 ds008302,rest,rest,resting_unspecified,,,,,,,,
 ds008302,video,video,,,,,,,,,
-ds008349,audioactive,audioactive,,,,,,,,,
+ds008349,audioactive,audioactive,,,,,,,,,Audio stimulation continous unpleasantness ratings on VAS. [ds008349_sidecar]
 ds008349,audiopassive,audiopassive,,,,,,,,,
 ds008349,chemicalactive,chemicalactive,,,,,,,,,
 ds008349,chemicalpassive,chemicalpassive,,,,,,,,,
@@ -1468,12 +1468,12 @@ ds008349,tasteactive,tasteactive,,,,,,,,,
 ds008349,tastepassive,tastepassive,,,,,,,,,
 ds008349,thermalactive,thermalactive,,,,,,,,,
 ds008349,thermalpassive,thermalpassive,,,,,,,,,
-ds008446,randomcueorder,RandomCueOrder,,,,,,,,,
+ds008446,randomcueorder,RandomCueOrder,,,,,,,,,RandomCueOrder cue presentation paradigm. [ds008446_sidecar]
 ds008446,sequentialcueorder,SequentialCueOrder,,,,,,,,,
-ds008465,comm,comm,,,,,,,,,
+ds008465,comm,comm,,,,,,,,,Imagined and executed vocalization and writing of four Chinese strokes and four English letters. [ds008465_sidecar]
 ds008496,activeai,activeai,,,,,,,,,
 ds008496,passiveai,passiveai,,,,,,,,,
-ds008610,fus,FUS,,,,,,,,,
+ds008610,fus,FUS,,,,,,,,,Focused ultrasound (FUS) neuromodulation: FUS pulses were delivered to target site VPL while extracellular electrophysiology was recorded from VPL thalamus. [ds008610_sidecar]
 ds008610,tactile,Tactile,,,,,,,,,
 ds008701,music,music,,,,,,,,,
 ds008711,unnamed,unnamed,,,,,,,,,
@@ -1483,26 +1483,26 @@ ds008730,tet,tet,,,,,,,,,
 ds008768,rest,rest,resting_unspecified,,,,,,,,
 ds008809,audio,audio,,,,,,,,,
 ds008809,visual,visual,,,,,,,,,
-ds008834,audio,audio,,,,,,,,,
-ds008836,meditation,meditation,,,,,,,,,
+ds008834,audio,audio,,,,,,,,,Eyes-open rest followed by continuous Mandarin speech perception. [ds008834_sidecar]
+ds008836,meditation,meditation,,,,,,,,,"Each of two sessions, spaced at least one week apart, consisted of six blocks performed with eyes closed: resting state without meditation (5 min); pre-up meditation in the participant's standard Vipassana practice (5 min); meditation with a sustained attention passive oddball (SAPO) sequence of tones presented every 1 s, with standard tones (500 Hz, 80%), oddball tones (1000 Hz, 10%) and white-noise distractors (10%), which participants were instructed to ignore (35 min); an active oddball task in which participants pressed a button when they detected oddball tones (5 min); meditation without [ds008836_sidecar]"
 ds008837,vrcollisionhazard,vrCollisionHazard,,,,,,,,,
-ds008851,cuereactivity,cuereactivity,,,,,,,,,
+ds008851,cuereactivity,cuereactivity,,,,,,,,,"Alcohol cue-reactivity paradigm. One 116-second audiovisual sequence per trial: baseline relaxing nature video, alcohol bottle image, happy alcoholic video, sad alcoholic video and a non-alcoholic beverages video (control cue), separated by relaxation blocks (relaxing music with a white screen). Segment onsets are in the events files. [ds008851_sidecar]"
 ds008858,multidirectional_motor_imagery,Multidirectional motor imagery,motor_imagery,,,,,,,,
-ds008859,multidirectional_motor_imagery,Multidirectional motor imagery,motor_imagery,,,,,,,,
-ds008867,soundscape,soundscape,,,,,,,,,
+ds008859,multidirectional_motor_imagery,Multidirectional motor imagery,motor_imagery,,,,,,,,"Participants imagined movements of the right hand, left hand, right leg, and left leg, with break periods without instructed movement imagery. Intentional double blinks separated consecutive blocks. [ds008859_sidecar]"
+ds008867,soundscape,soundscape,,,,,,,,,"Resting calibration (eyes-open, eyes-closed) and brief (~17 s) isolated exposure to two soundscapes (jungle, deconstruct), always in that fixed order; segments concatenated with ~3 s margins, see events.tsv. In addition to the 14 EEG channels the file carries the manufacturer's per-channel contact-quality (CQ_*) and EEG-quality (EQ_*) indices, the two overall indices, CMS/DRL contact quality and sample-rate quality, all at 128 Hz; see channels.tsv. [ds008867_sidecar]"
 ds008875,resting_state,Resting state,resting_unspecified,,,,,,,,
 ds008878,lexdec,lexdec,,,,,,,,,
 ds008892,auditory_attention,auditory attention,,,,,,,,,
-ds008896,rest,rest,resting_unspecified,,,,,,,,
-ds008940,foodcat,foodcat,,,,,,,,,
-ds008968,covert_speech,Covert speech,imagined_speech,,,,,,,,
+ds008896,rest,rest,resting_unspecified,,,,,,,,"Quiet-wakefulness resting-state EEG. Segments containing sleep, photic stimulation, or hyperventilation were excluded. [ds008896_sidecar]"
+ds008940,foodcat,foodcat,,,,,,,,,"Participants viewed prepared-food images one at a time and sorted each into one of two categories, meat or vegetarian, by pressing a key. The same set of 37 images was shown twice. A short eyes-open then eyes-closed resting baseline preceded the task. Response times were recorded. Stimuli were presented and event markers logged by the EmotivLABS web-based experiment platform (EMOTIV Builder). [ds008940_sidecar]"
+ds008968,covert_speech,Covert speech,imagined_speech,,,,,,,,"Participants listened to 20 synthesized sentences while reading them on screen, imagined repeating each sentence without overt movement, and then performed paced imagined syllabification supported by phonetic syllable cues. [ds008968_sidecar]"
 ds008968,overt_speech,Overt speech,,,,,,,,,
 ds009033,soundscape,soundscape,,,,,,,,,
-ds009081,dance,dance,,,,,,,,,
+ds009081,dance,dance,,,,,,,,,"Three Balinese dance movements (ngeed, agem right, agem left), 4 repetitions each in two blocks separated by a 3-min standing rest (descent, hold, ascent paced by an instruction display), followed by a Romberg-type protocol: 30 s standing with eyes open, 15 s rest, 30 s with eyes closed. [ds009081_sidecar]"
 ds009081,rest,rest,resting_unspecified,,,,,,,,
 ds009082,free,free,,,,,,,,,
 ds009082,instructed,instructed,,,,,,,,,
-ds009097,rest,rest,resting_unspecified,,,,,,,,
+ds009097,rest,rest,resting_unspecified,,,,,,,,"Eyes-closed resting state, approx. 2 min, recorded with EMOTIV PRO before the first (ses-pre) and after the 60th (ses-post) Auto Train Brain neurofeedback session. [ds009097_sidecar]"
 eeg_gaba_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 eeg_power_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 eldbeta,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
