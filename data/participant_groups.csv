@@ -1,4 +1,13 @@
 dataset_id,group_id,group_label,condition,diagnosis,n_subjects,age_min,age_max,age_mean,age_sd,n_female,n_male,handedness,prior_experience,other_traits
+dv_10_7910_dvn_5j1fb5,healthy_adult_participants,"healthy, adult participants",healthy,,,,,,,,,,,
+dv_10_7910_dvn_5rm3ot,healthy_native_japanese_speake,healthy native Japanese speakers,healthy,,3,22,44,,,,3,,,
+dv_10_7910_dvn_7rnarb,typically_developing_adolescen,typically developing adolescents,healthy,,26,13,15,13.92,0.63,17,,,,
+dv_10_7910_dvn_87hx2a,covert_naming_participants,covert naming participants,healthy,,25,21,35,26.4,4.3,,10,,,
+dv_10_7910_dvn_bnnsrg,right_index_starters,Right-index starters,,,18,,,,,,,,,
+dv_10_7910_dvn_bnnsrg,right_thumb_starters,Right-thumb starters,,,20,,,,,,,,,
+dv_10_7910_dvn_cpchrx,overt_naming_participants,overt naming participants,healthy,,40,19,32,24.4,2.9,,18,,,
+dv_10_7910_dvn_eltsa3,participants,participants,,,126,18,45,,,,,,,
+dv_10_7910_dvn_gh74zg,neurologically_healthy,neurologically healthy,healthy,,10,22,25,,,3,7,,,
 figshare_12636731,adults_with_migraine,adults with migraine,patient,,17,19,54,27.6,,12,,,,
 figshare_12636731,headache_free_controls,headache-free controls,healthy,,18,19,54,27.9,,,,,,
 figshare_13604078,healthy_individuals,healthy individuals,healthy,,24,,,24.5,2.9,10,14,,,

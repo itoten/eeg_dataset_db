@@ -645,26 +645,21 @@ dv_10_7910_dvn_28932,EEG And Pupillometry During Hand Motor Imagery,,scalp_eeg,,
 dv_10_7910_dvn_2uph3s,Comparison of Bayesian Solvers in EEG Distributed Source Model Using Numerical Settings,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 dv_10_7910_dvn_2x2jsy,More than meets the eye? Differential neural offset encoding of occluded objects. Experiment 1,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 dv_10_7910_dvn_3ddj5p,Neuropolitics - Political Statements,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_3equsc,MI-A dataset of the BCI competition WRCC2024,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_5j1fb5,More than meets the eye? Differential neural offset encoding of occluded objects. Experiment 2,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_5rm3ot,JapanEEG: a 1000-hour EEG–EMG–audio dataset of Japanese speech production,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-dv_10_7910_dvn_6igehl,Electroencephalography Patterns in Children with First Unprovoked Seizure,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_6sj1mo,T-F data to native- and non-native phonological sequence onsets in nonwords,,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_7rnarb,Adolescents EEG Data,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_87hx2a,Covert naming task EEG data - minimally processed,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_bnnsrg,Public Dataset: ERP Differences in Processing Canonical and Noncanonical Finger-Numeral Configurations,,scalp_eeg,,,2019,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_cpchrx,Overt naming task EEG data - EOG+EMG denoised,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_dkekbh,"General files for ""Robust neurocognitive individual differences in grammatical agreement processing: A latent variable approach""",,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_dknxag,Mobile Brain/Body Imaging dataset of Head-Turning tasks,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_dpdvr9,Shared Components Interfere With Fraction Magnitude Verification,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_eg2kjj,"Data for ""The error-related negativity and error-related temporal binding: Different predictors of task performance?""",,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_elkttr,MI-B dataset of the BCI competition WRCC2024,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_eltsa3,"Emojis, EEG, and Emotion: A Brainwave Dataset on Marketing Communication and Consumer Behavior""",,scalp_eeg,,,2026,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_evnuzs,"Adolescent Sleep Need Waking EEG, Years 1-3",,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_fjd7tq,Data for MS: EEG Theta/Beta Ratio Neurofeedback Training in Healthy Females,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_g8fbhh,MI-C dataset of the BCI competition WRCC2023,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_gdgivg,Longitudinal EEG and ERP biosignatures of MCI,,scalp_eeg,,,2024,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-dv_10_7910_dvn_gh74zg,Cross-Session Motor Imagery EEG dataset,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+dv_10_7910_dvn_3equsc,MI-A dataset of the BCI competition WRCC2024,,scalp_eeg,bci;neurology,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-15
+dv_10_7910_dvn_5j1fb5,More than meets the eye? Differential neural offset encoding of occluded objects. Experiment 2,,scalp_eeg,perception;cognitive,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,passive_viewing;visual_erp,,2026-11-15
+dv_10_7910_dvn_5rm3ot,JapanEEG: a 1000-hour EEG–EMG–audio dataset of Japanese speech production,,scalp_eeg;emg;eog;audio,,,2026,,,,,,,,,3,,,1020,,,,,,,request_form_or_email,approval,,,10_10,,imagined_speech;language;overt_speech,,2026-11-15
+dv_10_7910_dvn_7rnarb,Adolescents EEG Data,,scalp_eeg,cognitive;development;emotion,,2026,CC0-1.0,,,,,,,,26,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-15
+dv_10_7910_dvn_87hx2a,Covert naming task EEG data - minimally processed,,scalp_eeg;fmri;ecg,cognitive,,2026,CC-BY-4.0,,,,,,,,25,,,,,,,,,,direct_download,open,256,1000,egi_hydrocel,Magstim EGI,imagined_speech;language,,2026-11-15
+dv_10_7910_dvn_bnnsrg,Public Dataset: ERP Differences in Processing Canonical and Noncanonical Finger-Numeral Configurations,,scalp_eeg,,,2019,CC0-1.0,,,,,,,,38,,,,,,,,,,direct_download,open,32,,10_20,BrainVision ActiChamp,cognitive_task;visual_erp,,2026-11-15
+dv_10_7910_dvn_cpchrx,Overt naming task EEG data - EOG+EMG denoised,,scalp_eeg;fmri;ecg,cognitive,,2026,CC-BY-4.0,,,,,,,,40,,,,,,,,,,direct_download,open,256,1000,egi_hydrocel,Magstim EGI,language;overt_speech,,2026-11-15
+dv_10_7910_dvn_dknxag,Mobile Brain/Body Imaging dataset of Head-Turning tasks,,scalp_eeg,cognitive;motor,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,cognitive_task;motor_execution,,2026-11-15
+dv_10_7910_dvn_dpdvr9,Shared Components Interfere With Fraction Magnitude Verification,,scalp_eeg,cognitive,,2026,CC0-1.0,,,,,,,,24,,,,,,,,,,direct_download,open,,,,,cognitive_task;visual_erp,,2026-11-15
+dv_10_7910_dvn_eg2kjj,"Data for ""The error-related negativity and error-related temporal binding: Different predictors of task performance?""",,scalp_eeg,,,2025,CC0-1.0,,,,,,,,37,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+dv_10_7910_dvn_elkttr,MI-B dataset of the BCI competition WRCC2024,,scalp_eeg,bci;neurology,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-15
+dv_10_7910_dvn_eltsa3,"Emojis, EEG, and Emotion: A Brainwave Dataset on Marketing Communication and Consumer Behavior""",,scalp_eeg,emotion;cognitive,,2026,CC-BY-NC-SA-4.0,,,,,,,,126,,,,,,,,,,direct_download,open,14,,device_fixed,Emotiv EPOC X,emotion_induction;passive_viewing,,2026-11-15
+dv_10_7910_dvn_fjd7tq,Data for MS: EEG Theta/Beta Ratio Neurofeedback Training in Healthy Females,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+dv_10_7910_dvn_g8fbhh,MI-C dataset of the BCI competition WRCC2023,,scalp_eeg,bci;neurology,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-15
+dv_10_7910_dvn_gh74zg,Cross-Session Motor Imagery EEG dataset,,scalp_eeg,bci;motor,,2025,CC0-1.0,,,,,,,,10,,,,,,,,,,direct_download,open,28,,10_20,Neuroscan SynAmps2,motor_imagery,,2026-11-15
 dv_10_7910_dvn_gpldmw,Electroencephalograph (EEG) as Evidence of Criminal Responsibility,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 dv_10_7910_dvn_hfnwrx,MI-B dataset of the BCI competition WRCC2023,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 dv_10_7910_dvn_hmpgyn,EEG files - Mu Suppression experiment,,scalp_eeg,,,2015,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14

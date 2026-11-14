@@ -1,4 +1,16 @@
 dataset_id,field,kind,value,source_type,source_ref,note
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.device_manufacturer,conflicting,ANT Neuro,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: not given
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.device_manufacturer,conflicting,g.tec,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: not given
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.device_model,conflicting,g.Pangolin,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: not given
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.device_model,conflicting,g.SCARABEO,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: not given
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.n_channels_eeg,conflicting,128,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: g.pangolin sessions
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://arxiv.org/pdf/2606.01264,Audit reviewer; scope: g.scarabeo sessions
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.reference,conflicting,CPz,primary,https://dataverse.harvard.edu/api/access/datafile/14427042,Audit reviewer; scope: eego sports
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.reference,conflicting,"an electrode on the mastoid, usually the left one",primary,https://dataverse.harvard.edu/api/access/datafile/14427042,Audit reviewer; scope: g.pangolin and g.scarabeo
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://arxiv.org/pdf/2606.01264,"Audit reviewer; scope: eego sports, recorded"
+dv_10_7910_dvn_5rm3ot,acquisition_setups:main.sampling_rate_hz,conflicting,1200,primary,https://arxiv.org/pdf/2606.01264,"Audit reviewer; scope: g.pangolin, recorded"
+dv_10_7910_dvn_gh74zg,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/GH74ZG,Audit reviewer; scope: recorded
+dv_10_7910_dvn_gh74zg,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/GH74ZG,Audit reviewer; scope: distributed
 figshare_13604078,acquisition_setups:main.device_manufacturer,conflicting,Brain Product GmbH,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: scalp-eeg
 figshare_13604078,acquisition_setups:main.device_manufacturer,conflicting,mBrainTrain,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: ear-eeg
 figshare_13604078,acquisition_setups:main.device_model,conflicting,BrainAmp,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: scalp-eeg
