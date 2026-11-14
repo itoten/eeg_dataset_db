@@ -103,7 +103,8 @@ def register(B, c):
     snap = d["latestSnapshot"]
     tag, desc, summ = snap["tag"], snap["description"] or {}, snap["summary"] or {}
     mods = {m.lower() for m in (summ.get("modalities") or []) + (summ.get("secondaryModalities") or [])}
-    if not mods & {"eeg", "ieeg"}:
+    name_eeg = re.search(r"\b(EEG|iEEG|ECoG|electroenceph\w*)", desc.get("Name") or "", re.I)
+    if not mods & {"eeg", "ieeg"} and not (not mods and name_eeg):
         return False  # MEG-only and other datasets without EEG are out of scope
     R = B.dataset(ds.lower())
     rec_url = f"https://openneuro.org/datasets/{ds}/versions/{tag}"
@@ -135,6 +136,10 @@ def register(B, c):
         if "meg" in mods:
             mapped.append("meg")
         R.ev("modalities", ";".join(sorted(mapped)), rec, "Available Modalities: " + ", ".join(sorted(mods)), BY)
+    elif not mods and name_eeg:  # the record shows no modalities; the Name says EEG
+        kind = "ieeg" if re.match(r"(?i)ieeg|ecog", name_eeg.group(1)) else "scalp_eeg"
+        R.ev("modalities", kind, rec, f"Name: {clean(desc['Name'])[:100]}", BY,
+             "The record lists no modalities; the dataset name states the recording")
     subs = summ.get("subjects") or []
     if subs:
         R.ev("n_subjects_reported", str(len(subs)), rec, f"Participants {len(subs)}", BY)

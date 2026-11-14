@@ -341,6 +341,7 @@ ds003810,ds003810_channels,other
 ds003810,ds003810_participants_json,other
 ds003810,ds003810_record,distribution
 ds003810,ds003810_sidecar,other
+ds003816,ds003816_record,distribution
 ds003822,ds003822_channels,other
 ds003822,ds003822_participants_json,other
 ds003822,ds003822_record,distribution
@@ -1208,6 +1209,7 @@ ds005574,ds005574_sidecar,other
 ds005586,ds005586_participants_json,other
 ds005586,ds005586_record,distribution
 ds005586,ds005586_sidecar,other
+ds005589,ds005589_record,distribution
 ds005594,ds005594_participants_json,other
 ds005594,ds005594_record,distribution
 ds005594,ds005594_sidecar,other
@@ -1479,6 +1481,9 @@ ds006761,ds006761_sidecar,other
 ds006768,ds006768_participants_json,other
 ds006768,ds006768_record,distribution
 ds006768,ds006768_sidecar,other
+ds006777,ds006777_participants_json,other
+ds006777,ds006777_record,distribution
+ds006777,ds006777_sidecar,other
 ds006801,ds006801_participants_json,other
 ds006801,ds006801_record,distribution
 ds006801,ds006801_sidecar,other
@@ -1659,6 +1664,8 @@ ds007322,ds007322_participants_json,other
 ds007322,ds007322_participants_tsv,other
 ds007322,ds007322_record,distribution
 ds007322,ds007322_sidecar,other
+ds007327,ds007327_participants_json,other
+ds007327,ds007327_record,distribution
 ds007338,ds007338_channels,other
 ds007338,ds007338_participants_json,other
 ds007338,ds007338_record,distribution
@@ -1685,6 +1692,11 @@ ds007431,ds007431_channels,other
 ds007431,ds007431_participants_tsv,other
 ds007431,ds007431_record,distribution
 ds007431,ds007431_sidecar,other
+ds007445,ds007445_channels,other
+ds007445,ds007445_participants_json,other
+ds007445,ds007445_participants_tsv,other
+ds007445,ds007445_record,distribution
+ds007445,ds007445_sidecar,other
 ds007454,ds007454_participants_json,other
 ds007454,ds007454_participants_tsv,other
 ds007454,ds007454_record,distribution

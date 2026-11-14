@@ -126,6 +126,7 @@ ds003800,Auditory Gamma Entrainment,,scalp_eeg,,,,CC0-1.0,,,,,,true,,13,,,,0.18,
 ds003801,Neural Tracking to go,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,1.15,,,,,,site_terms_agreement,one_time_human,24,250,,SmartingAmp,,,2026-11-14
 ds003805,Multisensory Gamma Entrainment,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.01,,,,,,site_terms_agreement,one_time_human,19,500,10_20,,,,2026-11-14
 ds003810,Motor Imagery vs Rest - Low-Cost EEG System,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,0.07,,,,,,site_terms_agreement,one_time_human,15,125,,,,,2026-11-14
+ds003816,The Effect of Buddhism Derived Loving Kindness Meditation on Modulating EEG: Long-term and Short-term Effect,,scalp_eeg,,,,CC0-1.0,,,,,,true,,,,,,0,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
 ds003822,EEG: Probabilistic Learning with Affective Feedback: Exp #1,,scalp_eeg,,,,CC0-1.0,,,,,,true,,25,,,,5.82,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
 ds003825,"Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",,scalp_eeg,,,,CC0-1.0,,,,,,true,,50,,,,41.22,,,,,,site_terms_agreement,one_time_human,63,1000,,,,,2026-11-14
 ds003838,"EEG, pupillometry, ECG and photoplethysmography, and behavioral data in the digit span task and rest",,scalp_eeg,,,,CC0-1.0,,,,,,true,,65,,,,100.21,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
@@ -374,6 +375,7 @@ ds005565,"Neural associations between fingerspelling, print, and signs: An ERP p
 ds005571,Expectation of Conflict Stimuli,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,63.29,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
 ds005574,"The ""Podcast"" ECoG dataset",,ieeg,,,,CC0-1.0,,,,,,true,,9,,,,5.64,,,,,,site_terms_agreement,one_time_human,,512,,Natus Neurologics NicoletOne C64,,,2026-11-14
 ds005586,Electroencephalographic responses to the number of objects in partially occluded and uncovered scenes,,scalp_eeg,,,,CC0-1.0,,,,,,true,,23,,,,28.33,,,,,,site_terms_agreement,one_time_human,60,1000,10_20,Brain Products,,,2026-11-14
+ds005589,A multi-subject and multi-session EEG dataset for modelling human visual object recognition,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,0.01,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
 ds005594,Alphabetic Decision Task (Arial Light Font),,scalp_eeg,,,,CC0-1.0,,,,,,true,,16,,,,10.89,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,Brain Products BrainAmp DC,,,2026-11-14
 ds005620,A repeated awakening study exploring the capacity of complexity measures to capture dreaming during propofol sedation,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,77.3,,,,,,site_terms_agreement,one_time_human,65,5000,,Brain Products,,,2026-11-14
 ds005624,Color Change Detection Task,,ieeg,,,,CC0-1.0,,,,,,true,,24,,,,13.75,,,,,,site_terms_agreement,one_time_human,0,512,,Elekta,,,2026-11-14
@@ -453,6 +455,7 @@ ds006695,Validation of Sleep Staging with Forehead EEG Patch,,scalp_eeg,,,,CC0-1
 ds006735,Chimeric music reveals an interaction of pitch and time in electrophysiological signatures of music encoding,,scalp_eeg,,,,CC0-1.0,,,,,,true,,27,,,,175.87,,,,,,site_terms_agreement,one_time_human,34,10000,,Brain Products,,,2026-11-14
 ds006761,Neural decoding of competitive decision-making in Rock-Paper-Scissors,,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,78,,,,,,site_terms_agreement,one_time_human,64,2048,,Biosemi,,,2026-11-14
 ds006768,Multiple Object Monitoring (EEG),,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,6.52,,,,,,site_terms_agreement,one_time_human,64,1000,10_10,Compumedics,,,2026-11-14
+ds006777,SFARI AVSRT EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,,,,,,,,,,,site_terms_agreement,one_time_human,64,512,10_20,Biosemi,,,2026-11-14
 ds006801,Resting-state EEG before and after different study methods,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,1.32,,,,,,site_terms_agreement,one_time_human,31,500,10_20,Brain Products actiCHamp,,,2026-11-14
 ds006802,Collaborative rule learning promotes interbrain information alignment,,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,62.23,,,,,,site_terms_agreement,one_time_human,64,2048,,Biosemi,,,2026-11-14
 ds006803,NeuroTechs Dataset for Stem Skills,,scalp_eeg,,,,CC0-1.0,,,,,,true,,63,,,,1.39,,,,,,site_terms_agreement,one_time_human,8,250,10_20,,,,2026-11-14
@@ -503,6 +506,7 @@ ds007262,Cognitive Workload 8-level arithmetic,,scalp_eeg,,,,CC0-1.0,,,,,,true,,
 ds007314,tACS for Patients with Post-Stroke Anomia,,scalp_eeg,,,,CC0-1.0,,,,,,true,,2,,,,1.09,,,,,,site_terms_agreement,one_time_human,,500,,,,,2026-11-14
 ds007315,tACS for Patients with Post-Stroke Anomia,,scalp_eeg,,,,CC0-1.0,,,,,,true,,2,,,,1.09,,,,,,site_terms_agreement,one_time_human,,500,,,,,2026-11-14
 ds007322,Personalized smartphone notifications bias auditory salience across processing stages,,scalp_eeg,,,,CC0-1.0,,,,,,true,,57,,,,42.51,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,Brain Products,,,2026-11-14
+ds007327,Basketball Motor Imagery EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,35,,,,54.18,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
 ds007338,EEGEyeNet Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.04,,,,,,site_terms_agreement,one_time_human,129,500,,Magstim EGI Net Amps,,,2026-11-14
 ds007347,Sterotactic Focused Ultrasound Mesencephalotomy for the Treatment of Head and Neck Cancer Pain,,scalp_eeg,,,,CC0-1.0,,,,,,true,,5,,,,1.65,,,,,,site_terms_agreement,one_time_human,48,256,,,,,2026-11-14
 ds007353,HAD-MEEG,,meg;scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,180.59,,,,,,site_terms_agreement,one_time_human,62,1000,10_20,"NeuroScan, USA",,,2026-11-14
@@ -510,6 +514,7 @@ ds007358,A subset of large-scale EEG dataset (India + Tanzania),,scalp_eeg,,,,CC
 ds007406,EEG dataset on consumer responses to extreme versus traditional marketing videos,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,0.03,,,,,,site_terms_agreement,one_time_human,14,256,10_10,EMOTIV EPOC X,,,2026-11-14
 ds007427,Comprehensive methodology for sample enrichment in EEG biomarker studies for Alzheimer’s risk classification,,scalp_eeg,,,,CC0-1.0,,,,,,true,,44,,,,3.15,,,,,,site_terms_agreement,one_time_human,,1000,10_20,Neuroscan,,,2026-11-14
 ds007431,Diffuse predictions stabilize and reshape neural code during memory encoding,,scalp_eeg,,,,CC0-1.0,,,,,,true,,47,,,,144.57,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,BrainProducts BrainAmp DC,,,2026-11-14
+ds007445,Thalamocortical ictal iEEG dataset,,ieeg,,,,CC0-1.0,,,,,,true,,,,,,,,,,,,site_terms_agreement,one_time_human,0,2000,,,,,2026-11-14
 ds007454,A common neural mechanism underlies experiences of passage of time,,scalp_eeg,,,,CC0-1.0,,,,,,true,,42,,,,29.63,,,,,,site_terms_agreement,one_time_human,63,1000,10_20,Brain Products,,,2026-11-14
 ds007471,Joint agency EEG dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,8.06,,,,,,site_terms_agreement,one_time_human,,1000,10_20,BrainProducts,,,2026-11-14
 ds007509,1hrPVTdataset_allSubjects,,scalp_eeg,,,,CC0-1.0,,,,,,true,,69,,,,14.83,,,,,,site_terms_agreement,one_time_human,32,512,10_20,BioSemi ActiveTwo,,,2026-11-14
