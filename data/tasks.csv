@@ -1513,6 +1513,7 @@ figshare_13604078,event_related_potential_erp,event-related potential (ERP),visu
 figshare_13604078,steady_state_visual_evoked_potential_ssv,steady-state visual evoked potential (SSVEP),ssvep,,,,,,,,
 figshare_14273687,sustained_attention_driving_task,sustained-attention driving task,cognitive_task,,,,,,,,
 figshare_14695578,sensorimotor_integration_training_sit,sensorimotor integration training (SIT),auditory_erp;motor_execution,,,,,,,,
+figshare_9033983,listening_to_continuous_narratives_audio,listening to continuous narratives (audiobooks),language,,,,,,,,
 gu2024_ssvep_1_60hz,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 hmc_sleep_staging,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 isruc_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)

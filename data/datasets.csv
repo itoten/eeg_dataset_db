@@ -817,7 +817,7 @@ figshare_7718966,Simulated electroencephalographic signals contaminated with tra
 figshare_778776,Prediction of Three-Dimensional Arm Trajectories Based on ECoG Signals Recorded from Human Sensorimotor Cortex,,,,,2013,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_8091242,EEG dataset,,scalp_eeg,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 figshare_887668,Prediction of Hand Trajectory from Electrocorticography Signals in Primary Motor Cortex,,,,,2013,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_9033983,EEG recordings and stimuli,,scalp_eeg,,,2019,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+figshare_9033983,EEG recordings and stimuli,,conflicting,cognitive;perception,,2019,CC0-1.0,,,,,,,,13,,,,,,,,,,direct_download,open,64,125,,BrainProducts actiCHamp,language,,2026-11-14
 gu2024_ssvep_1_60hz,An open dataset for human SSVEPs in the frequency range of 1-60 Hz,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
 he2025_remote_sensing,EEGET-RSOD,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 hf_alexeykashevnik_eegmeditation,EEGMeditation,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,gated_click_through,per_dataset_human,,,,,,,2026-11-14
