@@ -37,8 +37,8 @@ def alnum(s):
 
 
 def flatten(o):
-    if isinstance(o, dict):
-        return " ".join(flatten(v) for v in o.values())
+    if isinstance(o, dict):  # keys too: reviewers quote sidecar lines such as "SamplingFrequency": 512
+        return " ".join(f"{k} {flatten(v)}" for k, v in o.items())
     if isinstance(o, list):
         return " ".join(flatten(v) for v in o)
     return str(o) if o is not None else ""
@@ -89,10 +89,10 @@ def fetch(url):
 
 
 def quote_ok(url, quote):
-    if not url or not quote or len(quote.split()) < 3:
-        return False, "missing or too short"
+    if not url or not quote:
+        return False, "missing"
     q = alnum(quote)
-    if len(q) < 12:
+    if len(q) < 14:
         return False, "too short"
     t = alnum(fetch(url))
     if not t:
