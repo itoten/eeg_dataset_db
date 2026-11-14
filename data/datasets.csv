@@ -1,4 +1,5 @@
 dataset_id,name,full_title,modalities,domains,provider_ids,year_published,license_spdx,license_note,ml_training_terms,commercial_use_terms,derivative_terms,terms_note,is_bids,file_formats,n_subjects_reported,n_sessions_reported,n_recordings_reported,hours_reported,size_gb_reported,n_subjects_release,n_sessions_release,n_recordings_release,hours_release,size_gb_release,best_access_method,access_tier,n_channels_eeg,sampling_rates_hz,montage_systems,devices,paradigms,notes,last_updated_on
+anphy_sleep,ANPHY-Sleep,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 auditory_eeg,Auditory evoked potential EEG-Biometric dataset,,scalp_eeg,,,,LicenseRef-physionet-contributor-review,,,,,,,,20,,,,2.9,,,,,,direct_download,open,,,,,,,2026-11-14
 bci2020,2020 International BCI Competition,,ear_eeg;scalp_eeg,bci,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 bci2020_track1,2020 International BCI Competition Track 1. Few-shot EEG learning,,scalp_eeg,bci,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
@@ -39,10 +40,16 @@ bnci_011_2015,ECoG-based BCI based on cognitive control (011-2015),,ieeg_ecog,,,
 bnci_012_2015,PASS2D - auditory ERP Speller (012-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,12,,,,,,,,,,direct_download,open,63,,,,,,2026-11-14
 bnci_013_2015,Monitoring error-related potentials (013-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,6,,,,,,,,,,direct_download,open,64,,,,,,2026-11-14
 brain_wearable_monitoring,"Regulation of Brain Cognitive States through Auditory, Gustatory, and Olfactory Stimulation with Wearable Monitoring",,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,2.7,,,,,,direct_download,open,,,,,,,2026-11-14
+cao2019_driving_attention,Multi-channel EEG recordings during a sustained-attention driving task (raw dataset),,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 capslpdb,CAP Sleep Database,,scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,40.1,,,,,,direct_download,open,,,,,,,2026-11-14
 chbmit,CHB-MIT Scalp EEG Database,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,22,,,,42.6,,,,,,direct_download,open,,,,,,,2026-11-14
+chbmp_cuban,CHBMP_database,,,,,2020,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
+chen2023_stroop_eeg_fnirs,Open access dataset integrating EEG and fNIRS during Stroop tasks,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+chen2024_deception,An EEG Dataset of Neural Signatures in a Competitive Two-Player Game Encouraging Deceptive Behavior,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+choi2024_voice_emotion,EEG Dataset for the Recognition of Different Emotions Naturally Induced in Voice-User Interaction,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 consumer_grade_wearables,CogWear: Can we detect cognitive effort with consumer-grade wearables?,,scalp_eeg,,,,ODbL-1.0,,,,,,,,,,,,2.7,,,,,,direct_download,open,,,,,,,2026-11-14
 cps_dataset_sleep,Comprehensive Polysomnography (CPS) Dataset: A Resource for Sleep-Related Arousal Research,,psg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,,,2026-11-14
+cuevas_romero2022_tinnitus,Acoustic Therapies for Tinnitus Treatment: An EEG Database,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 dreamer,DREAMER,DREAMER: A Database for Emotion Recognition through EEG and ECG Signals from Wireless Low-cost Off-the-Shelf Devices,ecg;scalp_eeg,emotion,,,,,,,,,,,23,,,,,,,,,,request_form_or_email,approval,,,,Emotiv EPOC,,,2026-11-14
 dreamt,DREAMT: Dataset for Real-time sleep stage EstimAtion using Multisensor wearable Technology,,psg;scalp_eeg;eog;emg;ecg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,,,2026-11-14
 ds001785,Evidence accumulation relates to perceptual consciousness and monitoring,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,24.87,,,,,,site_terms_agreement,one_time_human,63,1024,10_20,ANTNeuro,,,2026-11-14
@@ -601,16 +608,30 @@ eeg_gaba_anesthesia,Electroencephalogram dynamics during unconsciousness mediate
 eeg_power_anesthesia,Multitaper spectra recorded during GABAergic anesthetic unconsciousness,,scalp_eeg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,,,2026-11-14
 eegmat,EEG During Mental Arithmetic Tasks,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 eegmmidb,EEG Motor Movement/Imagery Dataset,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,3.4,,,,,,direct_download,open,,,,,,,2026-11-14
+eldbeta,eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for the Aging Population,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+faced,FACED,,,,,2023,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
+gu2024_ssvep_1_60hz,An open dataset for human SSVEPs in the frequency range of 1-60 Hz,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+he2025_remote_sensing,EEGET-RSOD,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 hmc_sleep_staging,Haaglanden Medisch Centrum sleep staging database,,psg;scalp_eeg;eog;emg;ecg,,,,CC-BY-4.0,,,,,,,,,,,,15.7,,,,,,direct_download,open,,,,,,,2026-11-14
 i_care,I-CARE: International Cardiac Arrest REsearch consortium Database,,scalp_eeg;ecg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+ji2024_stroop_high_altitude,EEG and fNIRS Datasets Based on Stroop Task during Two Weeks of High-Altitude Exposure in New Immigrants,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 jsmf_access,JSMF ACCESS intraoperative derived EEG data set,,scalp_eeg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,,,2026-11-14
+kaya2018,A large electroencephalographic motor imagery dataset for electroencephalographic brain computer interfaces,,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+lin2025_ied,An EEG dataset for interictal epileptiform discharge with spatial distribution information,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+liu2024_acute_stroke_mi,EEG datasets of stroke patients,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+liu2025_stroke_lower_limb_mi,Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 ltrsvp,EEG Signals from an RSVP Task,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,11,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+ma2020_joints_mi,Multi-channel EEG recording during motor imagery of different joints from the same limb,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+moffa2022_theta_burst,"Dataset supporting the study ""Neuromodulatory effects of theta-burst stimulation of the prefrontal cortex using TMS-EEG""",,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 motion_artifact,Motion Artifact Contaminated fNIRS and EEG Data,,scalp_eeg;fnirs,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 mssvepdb,MAMEM SSVEP Database,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,11,,,,5.1,,,,,,direct_download,open,,,,,,,2026-11-14
 multimodal_gait_dataset,"A multimodal gait dataset of brain activity, muscle activity, kinematics and ground forces in young adults",,scalp_eeg;emg,,,,CC-BY-4.0,,,,,,,,59,,,,6.5,,,,,,direct_download,open,,,,,,,2026-11-14
+mumtaz2016_mdd,MDD Patients and Healthy Controls EEG Data (New),,scalp_eeg,,,2016,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 nch_sleep,NCH Sleep DataBank: A Large Collection of Real-world Pediatric Sleep Studies with Longitudinal Clinical Data,,psg;scalp_eeg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,,,2026-11-14
 neuro_stress_resilience_hci,Neurophysiological Dataset of Stress Resilience During Human-Computer Interaction,,scalp_eeg;fnirs;eda,,,,ODbL-1.0,,,,,,,,35,,,,19.1,,,,,,direct_download,open,,,,,,,2026-11-14
+ngo2024_als_spelling,An EEG & Eye-Tracking Dataset of ALS Patients & Healthy People during Eye-Tracking-Based Spelling System Usage,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 openbmi,EEG Dataset and OpenBMI Toolbox for Three BCI Paradigms,,emg;scalp_eeg,bci,,2019,,,,,,,,,54,,,,,,,,,,direct_download,open,,,,,motor_imagery;resting_unspecified;ssvep,,2026-11-14
+pei2022_athletes_alertness,A simultaneous EEG and eye-tracking dataset in elite athletes during alertness and concentration tasks,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 psg_ipa,PSG-IPA: A PolySomnoGraphic Inter-scorer Performance Assessment database,,psg;scalp_eeg;eog;emg,,,,CC-BY-4.0,,,,,,,,,,,,2.6,,,,,,direct_download,open,,,,,,,2026-11-14
 seed,SEED,,scalp_eeg;eye_tracking,emotion,,,LicenseRef-custom-research-only,,allowed_with_conditions,prohibited,,"The agreement allows use only for academic research and lists 'training or proving the efficiency of commercial systems' among the commercial purposes it prohibits [seed_license]. It prohibits distributing the dataset or portions thereof, except small portions to clarify academic publications or presentations [seed_license].",,,15,,,,,,,,,,request_form_or_email,approval,62,1000,,ESI NeuroScan,,,2026-11-14
 seed_fra,SEED-FRA,,scalp_eeg;eye_tracking,emotion,,,LicenseRef-custom-research-only,,allowed_with_conditions,prohibited,,"The agreement allows use only for academic research and lists 'training or proving the efficiency of commercial systems' among the commercial purposes it prohibits [seed_license]. It prohibits distributing the dataset or portions thereof, except small portions to clarify academic publications or presentations [seed_license].",,,8,,,,,,,,,,request_form_or_email,approval,62,1000,,ESI NeuroScan,,,2026-11-14
@@ -625,10 +646,16 @@ seed_vii,SEED-VII,,scalp_eeg,emotion,,,,,,,,,,,20,,,,,,,,,,request_form_or_email
 seed_vla,SEED-VLA,,scalp_eeg,,,,,,,,,,,,20,,,,,,,,,,request_form_or_email,approval,18,300,,DSI-24,,,2026-11-14
 seed_vrw,SEED-VRW,,scalp_eeg,,,,,,,,,,,,14,,,,,,,,,,request_form_or_email,approval,18,300,,DSI-24,,,2026-11-14
 shhpsgdb,Sleep Heart Health Study PSG Database,,psg;scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+shu_mi_ma2022,SHU Multi-session Dataset,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 siena_scalp_eeg,Siena Scalp EEG Database,,scalp_eeg,,,,CC-BY-4.0,,,,,,,,14,,,,20.3,,,,,,direct_download,open,,,,,,,2026-11-14
 sleep_edf,Sleep-EDF Database,,scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 sleep_edfx,Sleep-EDF Database Expanded,,psg;scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,8.1,,,,,,direct_download,open,,,,,,,2026-11-14
 slpdb,MIT-BIH Polysomnographic Database,,psg;scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+sparrkulee,"SparrKULee: A Speech-evoked Auditory Response Repository of the KU Leuven, containing EEG of 85 participants",,scalp_eeg,,,2023,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+stieger2021_smr_bci,Human EEG Dataset for Brain-Computer Interface and Meditation,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+tao2024_driving_mpdb,Driving behaviour multimodal human factors preprocessed dataset,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+tdbrain,Two-Decades Brainclinics Archive for Insights in Neurophysiology (TD-BRAIN),,,,,2021,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
+things_eeg2,A large and rich EEG dataset for modeling human visual object recognition,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 tuab,The TUH Abnormal EEG Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,Most current release on the distribution page: v3.0.1 (rsync path) [tuh_eeg_downloads].,2026-11-14
 tuar,The TUH EEG Artifact Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,Most current release on the distribution page: v3.0.1 (rsync path) [tuh_eeg_downloads].,2026-11-14
 tueg,The TUH EEG Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,26846,,,,,,,,request_form_or_email,approval,,,,,,Most current release on the distribution page: v2.0.2 (rsync path) [tuh_eeg_downloads].,2026-11-14
@@ -637,6 +664,10 @@ tuev,The TUH EEG Events Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request_f
 tusl,The TUH EEG Slowing Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,Most current release on the distribution page: v2.0.1 (rsync path) [tuh_eeg_downloads].,2026-11-14
 tusz,The TUH EEG Seizure Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,Most current release on the distribution page: v2.0.6 (rsync path) [tuh_eeg_downloads].,2026-11-14
 ucddb,St. Vincent's University Hospital / University College Dublin Sleep Apnea Database,,scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,1.3,,,,,,direct_download,open,,,,,,,2026-11-14
+wbcic_mi_yang2025,WBCIC-SHU Motor Imagery Dataset,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+weibo2014,EEG data of simple and compound limb motor imagery,,scalp_eeg,,,2014,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+won2022_rsvp_p300,EEG Dataset for RSVP and P300 Speller Brain-Computer Interfaces,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+yi2025_eeg_fnirs_joints,A multi-modal dataset of electroencephalography and functional near-infrared spectroscopy recordings for motor imagery of multi-types of joints from unilateral upper limb,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_10229479,EEG dataset of unilateral and bilateral movement executions,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_12804783,MOVING: a Multi-MOdal dataset of EEG signals and VIrtual Glove hand trackING,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_14672333,EEG Signal Dataset During Dorsiflexion and Plantar Flexion Movements,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -664,3 +695,5 @@ zenodo_806022,"EEG Motor Imagery Dataset from the PhD Thesis ""Commande robuste 
 zenodo_8086085,Electrophysiological Signals of Embodiment and MI-BCI Training in VR,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_8255617,4-class code-VEP EEG data,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_841763,CNBI EPFL Brain Tweakers Cybathlon BCI race dataset,,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+zhou2016,three-class motor imagery EEG data.zip,,scalp_eeg,,,2016,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+zuco,Zurich Cognitive Language Processing Corpus: A simultaneous EEG and eye-tracking resource for analyzing the human reading process,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
