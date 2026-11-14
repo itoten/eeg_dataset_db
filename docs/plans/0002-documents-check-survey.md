@@ -18,9 +18,9 @@ maintainer の指示(2026-11-14):「実装調査はまだやらず、資料調�
 | Excel の残り | DEAP | 配布ページ | **証明書エラーで開けない**(maintainer のブラウザで確認が要る) |
 | その他の個別 | DREAMER、OpenBMI、BCI Competition 2020 | ページを読む | 登録済み |
 | MOABB のカタログ | 約 200 行(7 つの CSV) | カタログは二次資料。各データセットの元の配布先(Zenodo・figshare・個人サイトなど)を開いて登録 | Zenodo の 27 件を登録(`zenodo_register.py`)。再アップロードと名乗る 4 件は保留。Zenodo 以外は未着手 |
-| Zenodo | 「EEG」などで検索した dataset 型の記録(約 1,500〜2,000) | 一覧を取得し、EEG の記録を配布するものを選ぶ。派生物・結果・コードだけの記録は対象外 | 一覧 1,939 件を取得(`cache/candidates/zenodo.json`)、未選別 |
-| Hugging Face | 「eeg」で 1,000 件以上 | 再アップロードが多い。元のデータセットが分かるものは経路(mirror)と別名にする | 一覧を取得済み、未着手 |
-| figshare・OSF・Kaggle・Harvard Dataverse・Mendeley Data | 未計数 | 検索して候補にする | 未着手 |
+| Zenodo | 「EEG」などで検索した dataset 型の記録(約 1,500〜2,000) | 一覧を取得し、EEG の記録を配布するものを選ぶ。派生物・結果・コードだけの記録は対象外 | 検索結果の全記録を保存し、EEG の記録を述べるもの 809 件を登録(`zenodo_search.py`・`zenodo_register.py`)。残りは名前・説明に EEG の記録が書かれていない等で未登録(理由は `cache/zenodo_skipped.tsv`)。検索語のうち brain-computer interface 以降は途中で止めた |
+| Hugging Face | 「eeg」で 1,000 件以上 | 再アップロードが多い。元のデータセットが分かるものは経路(mirror)と別名にする | EEGDash の 738 件は OpenNeuro・NEMAR へのポインタなので対象外。残りのうちカードが EEG の記録を述べる 7 件を登録(`hf_register.py`) |
+| figshare・OSF・Kaggle・Harvard Dataverse・Mendeley Data | 未計数 | figshare は検索で 4,096 件、題名で絞って 121 件を登録(`repo_register.py`)。NEMAR(nm…)は 314 件を登録(`nemar_register.py`)。OSF・Kaggle・Dryad・Mendeley・Harvard Dataverse の検索は未着手 |
 | foundation model 論文の学習・評価データ | CBraMod・REVE・SingLEM で 158 件(重複を除く) | 論文の表と参考文献から配布先を開いて登録(`repo_register.py` と手作業)。どの論文が何を使ったかは `local/paper_usage/` | 157 件が DB にある。EPFLP300 は配布ページが開けず未登録。6 件は入手経路が未確認 |
 
 ## 2. 量と順番
