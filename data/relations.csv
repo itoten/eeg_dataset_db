@@ -13,6 +13,69 @@ ds007314,possibly_same_as,ds007315,ds007314_record,Both print the same name; whe
 ds007666,possibly_same_as,ds007667,ds007666_record,Both print the same name; whether they are the same data is not checked
 ds007895,possibly_same_as,ds007949,ds007895_record,Both print the same name; whether they are the same data is not checked
 ds008867,possibly_same_as,ds009033,ds008867_record,Both print the same name; whether they are the same data is not checked
+nm000109,possibly_same_as,eegmat,nm000109_nemar,Both print the same name; whether they are the same data is not checked
+nm000110,derived_from,chbmit,nm000110_nemar,NEMAR lists 10.13026/C2K01R as IsVersionOf this record
+nm000110,possibly_same_as,chbmit,nm000110_nemar,Both print the same name; whether they are the same data is not checked
+nm000114,derived_from,mumtaz2016_mdd,nm000114_nemar,NEMAR lists 10.6084/m9.figshare.4244171.v2 as IsVersionOf this record
+nm000115,derived_from,zhou2016,nm000115_nemar,NEMAR lists 10.1371/journal.pone.0162657 as IsDerivedFrom this record
+nm000115,possibly_same_as,zhou2016,nm000115_nemar,Both print the same name; whether they are the same data is not checked
+nm000130,derived_from,eldbeta,nm000130_nemar,NEMAR lists 10.1038/s41597-022-01372-9 as IsDerivedFrom this record
+nm000137,derived_from,kaya2018,nm000137_nemar,NEMAR lists 10.1038/sdata.2018.211 as IsDerivedFrom this record
+nm000146,derived_from,weibo2014,nm000146_nemar,NEMAR lists 10.1371/journal.pone.0114853 as IsDerivedFrom this record
+nm000157,derived_from,bigp3bci,nm000157_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000158,derived_from,liu2024_acute_stroke_mi,nm000158_nemar,NEMAR lists 10.1038/s41597-023-02787-8 as IsDerivedFrom this record
+nm000160,derived_from,yi2025_eeg_fnirs_joints,nm000160_nemar,NEMAR lists 10.1038/s41597-025-05286-0 as IsDerivedFrom this record
+nm000163,derived_from,zenodo_8255617,nm000163_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsVersionOf this record
+nm000167,derived_from,ma2020_joints_mi,nm000167_nemar,NEMAR lists 10.1038/s41597-020-0535-2 as IsDerivedFrom this record
+nm000176,derived_from,bigp3bci,nm000176_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000185,derived_from,sleep_edfx,nm000185_nemar,NEMAR lists 10.13026/C2X676 as IsDerivedFrom this record
+nm000186,derived_from,bigp3bci,nm000186_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000187,derived_from,bigp3bci,nm000187_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000191,derived_from,bigp3bci,nm000191_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000197,derived_from,bigp3bci,nm000197_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000200,derived_from,bigp3bci,nm000200_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000216,derived_from,zenodo_3266929,nm000216_nemar,NEMAR lists 10.5281/zenodo.3266930 as IsDerivedFrom this record
+nm000217,derived_from,zenodo_3266929,nm000217_nemar,NEMAR lists 10.5281/zenodo.3266930 as IsDerivedFrom this record
+nm000218,derived_from,bigp3bci,nm000218_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000238,derived_from,sparrkulee,nm000238_nemar,NEMAR lists 10.48804/K3VSND as IsDerivedFrom this record
+nm000244,derived_from,zenodo_3266222,nm000244_nemar,NEMAR lists 10.5281/zenodo.3266223 as IsDerivedFrom this record
+nm000245,derived_from,cho2017,nm000245_nemar,NEMAR lists 10.5524/100295 as IsDerivedFrom this record
+nm000246,derived_from,wbcic_mi_yang2025,nm000246_nemar,NEMAR lists 10.1038/s41597-025-04826-y as IsDerivedFrom this record
+nm000247,derived_from,bigp3bci,nm000247_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000248,derived_from,bigp3bci,nm000248_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000250,derived_from,zenodo_7516450,nm000250_nemar,NEMAR lists 10.5281/zenodo.8089820 as IsDerivedFrom this record
+nm000254,derived_from,natview_eeg_fmri,nm000254_nemar,NEMAR lists 10.1038/s41597-023-02458-8 as IsDerivedFrom this record
+nm000269,derived_from,bigp3bci,nm000269_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000270,derived_from,liu2025_stroke_lower_limb_mi,nm000270_nemar,NEMAR lists 10.1038/s41597-025-04618-4 as IsDerivedFrom this record
+nm000273,derived_from,openbmi,nm000273_nemar,NEMAR lists 10.5524/100542 as IsDerivedFrom this record
+nm000275,derived_from,cao2019_driving_attention,nm000275_nemar,NEMAR lists 10.6084/m9.figshare.6427334.v5 as IsDerivedFrom this record
+nm000277,derived_from,bigp3bci,nm000277_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000278,derived_from,zuco,nm000278_nemar,NEMAR lists 10.1038/sdata.2018.291 as IsDerivedFrom this record
+nm000292,derived_from,zenodo_8086085,nm000292_nemar,NEMAR lists 10.5281/zenodo.8086086 as IsDerivedFrom this record
+nm000293,derived_from,zenodo_12804783,nm000293_nemar,NEMAR lists 10.5281/zenodo.12804784 as IsDerivedFrom this record
+nm000294,derived_from,zenodo_5882499,nm000294_nemar,NEMAR lists 10.5281/zenodo.5882500 as IsDerivedFrom this record
+nm000301,derived_from,bigp3bci,nm000301_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000302,derived_from,zenodo_14672333,nm000302_nemar,NEMAR lists 10.5281/zenodo.14672334 as IsDerivedFrom this record
+nm000303,derived_from,bigp3bci,nm000303_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000307,derived_from,zenodo_841763,nm000307_nemar,NEMAR lists 10.5281/zenodo.841764 as IsDerivedFrom this record
+nm000308,derived_from,zenodo_18087805,nm000308_nemar,NEMAR lists 10.5281/zenodo.18087806 as IsDerivedFrom this record
+nm000313,derived_from,bigp3bci,nm000313_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000316,derived_from,zenodo_18288104,nm000316_nemar,NEMAR lists 10.5281/zenodo.20421767 as IsDerivedFrom this record
+nm000321,derived_from,bigp3bci,nm000321_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000323,derived_from,openbmi,nm000323_nemar,NEMAR lists 10.5524/100542 as IsDerivedFrom this record
+nm000326,derived_from,bigp3bci,nm000326_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000330,derived_from,zenodo_17561968,nm000330_nemar,NEMAR lists 10.5281/zenodo.20348444 as IsDerivedFrom this record
+nm000336,derived_from,bigp3bci,nm000336_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000338,derived_from,openbmi,nm000338_nemar,NEMAR lists 10.5524/100542 as IsDerivedFrom this record
+nm000339,derived_from,stieger2021_smr_bci,nm000339_nemar,NEMAR lists 10.1038/s41597-021-00883-1 as IsDerivedFrom this record
+nm000340,derived_from,bigp3bci,nm000340_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000342,derived_from,zenodo_8255617,nm000342_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsVersionOf this record
+nm000344,derived_from,zenodo_8255617,nm000344_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsVersionOf this record
+nm000345,derived_from,zenodo_8255617,nm000345_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsDerivedFrom this record
+nm000346,derived_from,zenodo_8255617,nm000346_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsVersionOf this record
+nm000348,derived_from,wbcic_mi_yang2025,nm000348_nemar,NEMAR lists 10.1038/s41597-025-04826-y as IsDerivedFrom this record
+nm000351,derived_from,bigp3bci,nm000351_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000385,derived_from,siena_scalp_eeg,nm000385_nemar,NEMAR lists 10.13026/5d4a-j060 as IsDerivedFrom this record
 tuar,subset_of,tueg,tuh_eeg_downloads,TUAR entry: This subset of TUEG
 tuep,subset_of,tueg,tuh_eeg_downloads,TUEP entry: This is a subset of TUEG
 tuev,subset_of,tueg,tuh_eeg_downloads,TUEV entry: This corpus is a subset of TUEG

@@ -60,6 +60,7 @@ class Batch:
                identity_basis="", archive_url=""):
         """Add a source (or return the existing one with the same id, or the same url and type)."""
         stype = STYPE[publisher]
+        title, doi, note, identity_basis = (" ".join(x.split()) for x in (title, doi, note, identity_basis))
         sh, sr = self.db["sources"]
         for r in sr:
             if r["source_id"] == source_id:
@@ -228,5 +229,8 @@ class Reg:
             ar.append({"dataset_id": self.D, "alias": alias, "alias_type": alias_type, "source_id": source_id, "note": note})
 
     def relation(self, relation, other_dataset_id, source_id="", note=""):
-        self.db["relations"][1].append({"dataset_id": self.D, "relation": relation,
+        rr = self.db["relations"][1]
+        if any(r["dataset_id"] == self.D and r["relation"] == relation and r["other_dataset_id"] == other_dataset_id for r in rr):
+            return
+        rr.append({"dataset_id": self.D, "relation": relation,
                                         "other_dataset_id": other_dataset_id, "source_id": source_id, "note": note})
