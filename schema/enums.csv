@@ -59,6 +59,13 @@ license_spdx,LicenseRef-proprietary-restricted,"Proprietary or restricted (paid,
 license_spdx,LicenseRef-citation-request,No license text: the authors only ask for a citation
 license_spdx,LicenseRef-other,Other than the above
 license_spdx,none_stated,No license statement found
+license_spdx,CC-BY-NC-SA-3.0,CC Attribution-NonCommercial-ShareAlike 3.0
+license_spdx,CC-BY-3.0-US,Creative Commons Attribution 3.0 United States
+license_spdx,CC-BY-ND-2.5,CC Attribution-NoDerivatives 2.5
+license_spdx,CC-BY-1.0,Creative Commons Attribution 1.0
+license_spdx,CDLA-Permissive-2.0,Community Data License Agreement Permissive 2.0
+license_spdx,CDLA-Sharing-1.0,Community Data License Agreement Sharing 1.0
+license_spdx,CERN-OHL-S-2.0,CERN Open Hardware Licence Strongly Reciprocal 2.0
 terms_statement,allowed,The terms allow it without conditions beyond the license
 terms_statement,allowed_with_conditions,The terms allow it under stated conditions (see terms_note)
 terms_statement,prohibited,The terms prohibit it
