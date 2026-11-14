@@ -39,3 +39,10 @@ Zenodo と Hugging Face の候補が多く(合わせて 2,500 件以上)、1 件
 - OpenNeuro のデータセットのうち、他の配布先のデータを BIDS に変換したもの(例: PhysioNet のデータの変換)の関係づけ(`relations`)
 - 論文の本文を読まないと分からない値(パラダイムの分類・被験者群の要約値・品質情報・課題の手順)。OpenNeuro はメタデータ文書だけを読んでいる
 - Claude の環境から開けない資料: DEAP の配布ページ(証明書エラー)、GigaDB の利用規約ページ(描画されない)
+
+## 4. 2026-11-14 夜: 確認の穴を埋める作業(maintainer 指示: 実装調査は取れる情報を取りきるまで入らない)
+
+- 追加した道具: `tools/gaps.py`(空欄の数)、`tools/harvest/text_facts.py`(本文から確実に読める被験者数・サンプリング周波数・EEG チャネル数だけ)、`license_fill.py`、`bids_more.py`(提供機関・課題の説明・品質情報)、`papers_link.py`(論文の出典)、Dataverse の検索と登録。
+- 本文の正規表現による抽出は、最初の版で標本の約 3 分の 1 が誤りだったため、厳しいパターンに直し、装置メーカーは自由文から読まないことにした。
+- まだ空欄が多い: 研究分野・時間・電極配置・機器(Zenodo・figshare・Dataverse・Hugging Face はほぼ全件)、パラダイム、被験者群、課題の手順。これらは論文や README の全文を読まないと確実に埋められない。`python3 tools/gaps.py` で数字を見る。
+- 未着手の情報源: OSF・Kaggle・Dryad・Mendeley Data の検索、Zenodo の検索語(brain-computer interface 以降)。
