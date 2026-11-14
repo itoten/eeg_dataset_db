@@ -1,0 +1,283 @@
+<title>EEG Dataset Catalogue</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap">
+<style>
+/* Layout: chart-recorder paper. Header with a live trace, an access strip, filters, a dense list, a detail drawer. */
+:root {
+  --bg: #f5f7f4; --panel: #ffffff; --fg: #18211d; --muted: #5b6862; --line: #dde4df; --grid: #e9eee9;
+  --accent: #1d5b86; --accent-soft: #e3edf5; --trace: #a33a46;
+  --open: #2d7a4f; --once: #a87412; --perds: #c25a1c; --appr: #a8323e; --unk: #8a948f;
+  --f-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121815; --panel: #19211d; --fg: #e3e9e5; --muted: #9aa8a1; --line: #2b3631; --grid: #1d2622;
+  --accent: #7fb5dc; --accent-soft: #1d2d3a; --trace: #e07a85;
+  --open: #6cc08f; --once: #e0b04e; --perds: #ec8f52; --appr: #ee7f88; --unk: #8f9a95; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121815; --panel: #19211d; --fg: #e3e9e5; --muted: #9aa8a1; --line: #2b3631; --grid: #1d2622;
+  --accent: #7fb5dc; --accent-soft: #1d2d3a; --trace: #e07a85;
+  --open: #6cc08f; --once: #e0b04e; --perds: #ec8f52; --appr: #ee7f88; --unk: #8f9a95; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 14px/1.5 var(--f-body); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 48px; display: grid; gap: 20px; }
+header { display: grid; gap: 8px; padding-block: 8px 4px; background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 100% 20px, 20px 100%; border-bottom: 1px solid var(--line); }
+h1 { font: 650 clamp(26px, 4vw, 38px)/1.1 var(--f-display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+.lede { margin: 0; max-width: 68ch; color: var(--muted); }
+.lede b { color: var(--fg); font-weight: 600; }
+#trace { width: 100%; height: 44px; display: block; }
+.meta { font: 12px var(--f-mono); color: var(--muted); }
+.strip { display: grid; gap: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; }
+.strip h2, .panel h2 { font: 600 12px var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0; }
+.bar { display: flex; height: 14px; border-radius: 3px; overflow: hidden; background: var(--grid); }
+.bar span { display: block; height: 100%; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.legend button { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; padding: 2px 4px; border-radius: 4px; }
+.legend button:focus-visible, .chip:focus-visible, tr:focus-visible, .x:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.legend button[aria-pressed="true"] { background: var(--accent-soft); }
+.legend .n { font: 500 13px var(--f-mono); font-variant-numeric: tabular-nums; }
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filters input, .filters select { font: 14px var(--f-body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 7px 10px; min-width: 0; }
+.filters input { flex: 1 1 260px; }
+.filters select { flex: 0 1 auto; max-width: 100%; }
+.count { font: 13px var(--f-mono); color: var(--muted); margin-left: auto; }
+.tablebox { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 11px var(--f-body); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); position: sticky; top: 0; background: var(--panel); white-space: nowrap; cursor: pointer; user-select: none; }
+th[aria-sort="ascending"]::after { content: " ↑"; } th[aria-sort="descending"]::after { content: " ↓"; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--accent-soft); }
+td.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+td.id { font-family: var(--f-mono); color: var(--muted); white-space: nowrap; }
+.nm { font-weight: 500; }
+.sub { color: var(--muted); font-size: 12px; }
+.pill { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; white-space: nowrap; }
+.tag { display: inline-block; font: 11px var(--f-mono); padding: 1px 6px; border: 1px solid var(--line); border-radius: 3px; margin: 1px 3px 1px 0; color: var(--muted); }
+.more { text-align: center; padding: 10px; }
+.more button, .x { font: 500 13px var(--f-body); color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 5px; padding: 6px 14px; cursor: pointer; }
+/* drawer */
+.scrim { position: fixed; inset: 0; background: rgb(0 0 0 / 0.25); z-index: 20; }
+aside { position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100%); background: var(--bg); border-left: 1px solid var(--line); z-index: 21; overflow-y: auto;
+  padding: calc(18px + env(safe-area-inset-top, 0px)) max(18px, env(safe-area-inset-right, 0px)) calc(32px + env(safe-area-inset-bottom, 0px)) 18px; display: grid; gap: 16px; align-content: start; }
+aside h3 { font: 650 22px/1.2 var(--f-display); margin: 0; text-wrap: balance; }
+.dhead { display: flex; gap: 12px; align-items: start; justify-content: space-between; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; display: grid; gap: 8px; min-width: 0; }
+dl { display: grid; grid-template-columns: minmax(110px, max-content) 1fr; gap: 4px 14px; margin: 0; }
+dt { color: var(--muted); font-size: 12px; padding-top: 1px; }
+dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.mono { font-family: var(--f-mono); font-size: 12px; }
+.ev { font-size: 12px; border-collapse: collapse; width: 100%; }
+.ev td { padding: 5px 6px; border-bottom: 1px solid var(--line); }
+.ev td:first-child { font-family: var(--f-mono); color: var(--muted); white-space: nowrap; }
+a { color: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip { font: 11px var(--f-mono); background: var(--accent-soft); border-radius: 3px; padding: 1px 6px; }
+.note { font-size: 12px; color: var(--muted); max-width: 70ch; }
+.warn { color: var(--appr); }
+footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-width: 80ch; }
+@media (max-width: 720px) { .hide-sm { display: none; } dl { grid-template-columns: 1fr; } dt { padding-top: 6px; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>EEG Dataset Catalogue</h1>
+    <svg id="trace" viewBox="0 0 1000 44" preserveAspectRatio="none" aria-hidden="true"></svg>
+    <p class="lede">Public EEG datasets (scalp, ear, polysomnography, intracranial), each value tied to the <b>primary source</b> it was read from. This page is a guide to those sources, not a substitute for them: check the source before relying on a value.</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <section class="strip" aria-labelledby="acc-h">
+    <h2 id="acc-h">How the data can be obtained</h2>
+    <div class="bar" id="bar"></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="filters" aria-label="Filters">
+    <label class="hide-sm" for="q" style="position:absolute;left:-9999px">Search</label>
+    <input id="q" type="search" placeholder="Search name, ID, device, task…" autocomplete="off">
+    <select id="f-repo" aria-label="Repository"></select>
+    <select id="f-mod" aria-label="Modality"></select>
+    <select id="f-lic" aria-label="License"></select>
+    <span class="count" id="count"></span>
+  </section>
+
+  <div class="tablebox">
+    <table>
+      <thead><tr>
+        <th data-k="name">Dataset</th>
+        <th data-k="repo" class="hide-sm">Repository</th>
+        <th data-k="subj" class="num">Subjects</th>
+        <th data-k="nch" class="hide-sm">EEG ch.</th>
+        <th data-k="fs" class="hide-sm">Rate (Hz)</th>
+        <th data-k="lic" class="hide-sm">License</th>
+        <th data-k="tier">Access</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="more" id="more" hidden><button id="more-b" type="button">Show more</button></div>
+  </div>
+
+  <footer>
+    <div>Empty cell = not checked yet. <span class="mono">unknown</span> = the whole source was read and does not say. <span class="mono">conflicting</span> = sources disagree; both are listed in the dataset's evidence.</div>
+    <div>Licenses are a classification of the stated terms, not legal advice. The catalogue does not judge whether a dataset should be used.</div>
+  </footer>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside id="drawer" hidden aria-modal="true" role="dialog" aria-labelledby="d-title"></aside>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(() => {
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const S = DATA.S, D = DATA.D;
+const TIERS = [
+  ["open", "No human step", "var(--open)", "Direct download (URL, API, S3)"],
+  ["one_time_human", "One step per site", "var(--once)", "A free account, token or one site-wide agreement"],
+  ["per_dataset_human", "Agreement per dataset", "var(--perds)", "Accept terms for each dataset"],
+  ["approval", "Provider approval", "var(--appr)", "Request, credentialing or a signed agreement"],
+  ["unavailable", "Not offered", "var(--unk)", "No way to obtain is offered"],
+  ["", "Not checked", "var(--unk)", "Access not recorded yet"],
+];
+const TIER = Object.fromEntries(TIERS.map(t => [t[0], t]));
+const METHOD = { direct_download: "Direct download", free_account_required: "Free account or token", site_terms_agreement: "One site-wide agreement",
+  gated_click_through: "Accept terms per dataset", request_form_or_email: "Request (form or e-mail)", credentialed_training: "Credentialing with training",
+  signed_agreement: "Signed agreement", paid_or_membership: "Paid or membership", unavailable: "Not offered" };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const semi = s => (s || "").split(";").filter(Boolean);
+const num = s => { const v = parseFloat(s); return isNaN(v) ? null : v; };
+
+// header trace: a deterministic alpha-like rhythm
+(() => { const svg = document.getElementById("trace"); let p = "", x = 0;
+  for (; x <= 1000; x += 2) { const t = x / 1000 * 12; const y = 22 + 8 * Math.sin(t * 6.2) * Math.sin(t * 0.7 + 1) + 3 * Math.sin(t * 23 + 0.4) + 2 * Math.sin(t * 41);
+    p += (x ? " L" : "M") + x + " " + y.toFixed(1); }
+  svg.innerHTML = `<path d="${p}" fill="none" stroke="var(--trace)" stroke-width="1.4" vector-effect="non-scaling-stroke"/>`; })();
+
+document.getElementById("meta").textContent = `${D.length} datasets · ${S.length} source documents · built ${DATA.meta.built} from commit ${DATA.meta.commit}`;
+
+// access strip
+const state = { q: "", tier: null, repo: "", mod: "", lic: "", sort: ["subj", -1], shown: 100 };
+const tierCount = {}; D.forEach(d => tierCount[d.tier] = (tierCount[d.tier] || 0) + 1);
+document.getElementById("bar").innerHTML = TIERS.filter(t => tierCount[t[0]]).map(t =>
+  `<span style="width:${100 * tierCount[t[0]] / D.length}%;background:${t[2]}" title="${esc(t[1])}: ${tierCount[t[0]]}"></span>`).join("");
+const legend = document.getElementById("legend");
+legend.innerHTML = TIERS.filter(t => tierCount[t[0]]).map(t =>
+  `<button type="button" data-t="${t[0]}" aria-pressed="false" title="${esc(t[3])}"><span class="dot" style="background:${t[2]}"></span>${esc(t[1])} <span class="n">${tierCount[t[0]]}</span></button>`).join("");
+legend.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
+  state.tier = state.tier === b.dataset.t ? null : b.dataset.t;
+  legend.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.t === state.tier)));
+  state.shown = 100; render(); });
+
+// filters
+const opts = (id, label, values) => { const el = document.getElementById(id);
+  el.innerHTML = `<option value="">${label}</option>` + values.map(([v, n]) => `<option value="${esc(v)}">${esc(v)} (${n})</option>`).join(""); };
+const tally = f => { const c = {}; D.forEach(d => f(d).forEach(v => c[v] = (c[v] || 0) + 1)); return Object.entries(c).sort((a, b) => b[1] - a[1]); };
+opts("f-repo", "All repositories", tally(d => [d.repo]));
+opts("f-mod", "All modalities", tally(d => semi(d.mod)));
+opts("f-lic", "All licenses", tally(d => [d.lic || "not checked"]));
+const bind = (id, key) => document.getElementById(id).addEventListener("input", e => { state[key] = e.target.value; state.shown = 100; render(); });
+bind("q", "q"); bind("f-repo", "repo"); bind("f-mod", "mod"); bind("f-lic", "lic");
+
+document.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.k; state.sort = [k, state.sort[0] === k ? -state.sort[1] : (k === "name" || k === "repo" || k === "lic" ? 1 : -1)]; render(); }));
+document.getElementById("more-b").addEventListener("click", () => { state.shown += 200; render(); });
+
+const hay = d => (d.hay ??= [d.id, d.name, d.full, d.dev, d.mod, d.dom, d.par, d.repo, d.tasks.map(t => t[1]).join(" "), d.alias.map(a => a[0]).join(" ")].join(" ").toLowerCase());
+function filtered() {
+  const q = state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  return D.filter(d => (state.tier === null || d.tier === state.tier) && (!state.repo || d.repo === state.repo)
+    && (!state.mod || semi(d.mod).includes(state.mod)) && (!state.lic || (d.lic || "not checked") === state.lic)
+    && q.every(w => hay(d).includes(w)));
+}
+const sortVal = (d, k) => k === "subj" ? num(d.subj) : k === "nch" ? num(semi(d.nch).pop()) : k === "fs" ? num(semi(d.fs).pop()) :
+  k === "tier" ? TIERS.findIndex(t => t[0] === d.tier) : (d[k] || "").toLowerCase();
+function render() {
+  const [k, dir] = state.sort;
+  const list = filtered().sort((a, b) => { const x = sortVal(a, k), y = sortVal(b, k);
+    if (x === null && y === null) return 0; if (x === null) return 1; if (y === null) return -1; return x < y ? -dir : x > y ? dir : 0; });
+  document.querySelectorAll("th[data-k]").forEach(th => th.setAttribute("aria-sort", th.dataset.k === k ? (dir > 0 ? "ascending" : "descending") : "none"));
+  document.getElementById("count").textContent = `${list.length} of ${D.length}`;
+  document.getElementById("rows").innerHTML = list.slice(0, state.shown).map(d => { const t = TIER[d.tier] || TIER[""];
+    return `<tr tabindex="0" data-id="${esc(d.id)}">
+      <td><div class="nm">${esc(d.name || d.id)}</div><div class="sub"><span class="mono">${esc(d.id)}</span>${semi(d.mod).map(m => ` <span class="tag">${esc(m)}</span>`).join("")}</div></td>
+      <td class="hide-sm">${esc(d.repo)}</td>
+      <td class="num">${esc(d.subj)}</td>
+      <td class="num hide-sm">${esc(semi(d.nch).join(", "))}</td>
+      <td class="num hide-sm">${esc(semi(d.fs).join(", "))}</td>
+      <td class="hide-sm mono">${esc(d.lic)}</td>
+      <td><span class="pill"><span class="dot" style="background:${t[2]}"></span>${esc(t[1])}</span></td></tr>`; }).join("");
+  document.getElementById("more").hidden = list.length <= state.shown;
+}
+const rowsEl = document.getElementById("rows");
+rowsEl.addEventListener("click", e => { const tr = e.target.closest("tr"); if (tr) openD(tr.dataset.id); });
+rowsEl.addEventListener("keydown", e => { if (e.key === "Enter") { const tr = e.target.closest("tr"); if (tr) openD(tr.dataset.id); } });
+
+// drawer
+const drawer = document.getElementById("drawer"), scrim = document.getElementById("scrim");
+const srcLink = i => { if (i < 0 || !S[i]) return ""; const [id, url, title, kind, type] = S[i];
+  const label = esc(title || id);
+  return (url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${label}</a>` : label) + ` <span class="sub">${esc(kind)}${type ? " · " + esc(type) : ""}</span>`; };
+const FIELD = { name: "Name", full_title: "Full title", modalities: "Modalities", domains: "Domains", license_spdx: "License", is_bids: "BIDS",
+  year_published: "Year", n_subjects_reported: "Subjects (documentation)", n_sessions_reported: "Sessions (documentation)",
+  n_recordings_reported: "Recordings (documentation)", hours_reported: "Hours (documentation)", size_gb_reported: "Size, GB (documentation)",
+  ml_training_terms: "ML training terms", commercial_use_terms: "Commercial use terms", derivative_terms: "Derivative terms" };
+const fieldLabel = f => { if (FIELD[f]) return FIELD[f]; const m = f.match(/^(\w+):([^.]+)\.(\w+)$/); return m ? `${m[1].replace(/_/g, " ")} › ${m[2]} › ${m[3].replace(/_/g, " ")}` : f; };
+const row = (k, v) => v ? `<dt>${esc(k)}</dt><dd>${v}</dd>` : "";
+function openD(id) {
+  const d = D.find(x => x.id === id); if (!d) return;
+  const t = TIER[d.tier] || TIER[""];
+  const terms = ["ML training", "Commercial use", "Derivatives"].map((n, i) => d.terms[i] ? `${n}: <span class="mono">${esc(d.terms[i])}</span>` : "").filter(Boolean).join(" · ");
+  const sec = (title, body) => body ? `<section class="panel"><h2>${esc(title)}</h2>${body}</section>` : "";
+  const routes = d.routes.map(r => `<dl>${row("Route", `<span class="mono">${esc(r[0])}</span> (${esc(r[1])})`)}${row("Link", r[2] ? `<a href="${esc(r[2])}" target="_blank" rel="noopener">${esc(r[2])}</a>` : "")}
+    ${row("What a person does", esc(r[4] === "none" ? "Nothing" : r[4]))}${row("Method", esc(METHOD[r[3]] || r[3]))}${row("Tools", esc(semi(r[5]).join(", ")))}${row("Tried", esc(r[6]))}</dl>`).join("");
+  const setups = d.setups.map(s => `<dl>${row("Setup", `<span class="mono">${esc(s.setup_id)}</span>`)}${row("Scope", esc(s.description))}
+    ${row("Device", esc([s.device_manufacturer, s.device_model].filter(Boolean).join(" ")))}${row("EEG channels", esc(s.n_channels_eeg))}
+    ${row("Other channels", esc([s.n_channels_other, s.other_channel_types].filter(Boolean).join(" · ")))}${row("Placement", esc(s.montage_system))}
+    ${row("Reference", esc(s.reference))}${row("Ground", esc(s.ground))}${row("Sampling rate", s.sampling_rate_hz ? esc(s.sampling_rate_hz) + " Hz" : "")}
+    ${row("Line frequency", s.line_freq_hz ? esc(s.line_freq_hz) + " Hz" : "")}${row("Electrodes", esc(s.electrode_type))}${row("Hardware filter", esc(s.hardware_filter))}
+    ${row("Channel names", d.ch[s.setup_id] ? `<div class="chips">${d.ch[s.setup_id].map(c => `<span class="chip" title="${esc(c[1])}">${esc(c[0])}</span>`).join("")}</div><div class="note">As written in the source file; not mapped to standard names.</div>` : "")}</dl>`).join("");
+  const groups = d.groups.map(g => `<dl>${row("Group", esc(g.group_label))}${row("Subjects", esc(g.n_subjects))}${row("Condition", esc(g.condition))}${row("Diagnosis", esc(g.diagnosis))}
+    ${row("Age", esc([g.age_min && g.age_max ? `${g.age_min}–${g.age_max}` : "", g.age_mean ? `mean ${g.age_mean}` : "", g.age_sd ? `SD ${g.age_sd}` : ""].filter(Boolean).join(", ")))}
+    ${row("Sex", esc([g.n_female ? `${g.n_female} female` : "", g.n_male ? `${g.n_male} male` : ""].filter(Boolean).join(", ")))}${row("Handedness", esc(g.handedness))}${row("Prior experience", esc(g.prior_experience))}</dl>`).join("");
+  const pf = d.pf.length ? `<div class="tablebox"><table class="ev"><tbody>${d.pf.map(p => `<tr><td>${esc(p[0])}</td><td>${esc(p[1])}</td><td>${esc(p[2])}${p[3] ? ` <span class="sub">(${esc(p[3])})</span>` : ""}</td></tr>`).join("")}</tbody></table></div><div class="note">Variables in the release's participant table. Values are not copied here.</div>` : "";
+  const tasks = d.tasks.map(x => `<div><span class="mono">${esc(x[0])}</span> · ${esc(x[1])}${x[2] ? ` <span class="tag">${esc(x[2])}</span>` : ""}</div>`).join("");
+  const ann = d.ann.map(a => `<div><b>${esc(a[1])}</b> <span class="tag">${esc(a[0])}</span>${a[2] ? ` — ${esc(semi(a[2]).join(", "))}` : ""}</div>`).join("");
+  const iss = d.iss.map(x => `<div><span class="tag">${esc(x[0])}</span> ${esc(x[1])}</div>`).join("");
+  const rel = d.rel.map(r => `<div>${esc(r[0].replace(/_/g, " "))} <a href="#${esc(r[1])}" data-open="${esc(r[1])}">${esc((D.find(x => x.id === r[1]) || {}).name || r[1])}</a>${r[2] ? `<div class="note">${esc(r[2])}</div>` : ""}</div>`).join("");
+  const ev = d.ev.length ? `<div class="tablebox"><table class="ev"><tbody>${d.ev.map(e => `<tr><td>${esc(fieldLabel(e[0]))}</td><td>${esc(e[1])}${e[6] === "conflicting" ? ' <span class="warn">(conflicting)</span>' : ""}<div class="sub">${srcLink(e[2])}${e[3] ? " — “" + esc(e[3]) + "”" : ""}</div><div class="sub">checked ${esc(e[4])} by ${esc(e[5] === "claude" ? "AI" : e[5] === "script" ? "script" : "the maintainer")}</div></td></tr>`).join("")}</tbody></table></div>` : "";
+  const docs = d.links.map(l => `<div><span class="tag">${esc(l[0])}</span> ${srcLink(l[1])}</div>`).join("");
+  drawer.innerHTML = `<div class="dhead"><div><div class="sub mono">${esc(d.id)}</div><h3 id="d-title">${esc(d.name || d.id)}</h3>${d.full && d.full !== d.name ? `<div class="sub">${esc(d.full)}</div>` : ""}</div><button class="x" type="button" id="close">Close</button></div>
+    ${sec("Summary", `<dl>${row("Access", `<span class="pill"><span class="dot" style="background:${t[2]}"></span>${esc(t[1])}</span>${d.best ? ` <span class="sub">${esc(METHOD[d.best] || d.best)}</span>` : ""}`)}
+      ${row("Repository", esc(d.repo))}${row("Modalities", esc(semi(d.mod).join(", ")))}${row("Domains", esc(semi(d.dom).join(", ")))}${row("Subjects", esc(d.subj))}
+      ${row("Sessions", esc(d.sess))}${row("Recordings", esc(d.rec))}${row("Hours", esc(d.hours))}${row("Size", d.gb ? esc(d.gb) + " GB" : "")}
+      ${row("EEG channels", esc(semi(d.nch).join(", ")))}${row("Sampling rate", d.fs ? esc(semi(d.fs).join(", ")) + " Hz" : "")}${row("Device", esc(semi(d.dev).join("; ")))}
+      ${row("Paradigms", esc(semi(d.par).join(", ")))}${row("Year", esc(d.year))}${row("BIDS", esc(d.bids))}
+      ${row("License", `<span class="mono">${esc(d.lic)}</span>`)}${row("License note", esc(d.licn))}${row("Terms", terms)}${row("Terms note", esc(d.termsn))}
+      ${row("Checked against", [d.doc ? "primary sources" : "", d.impl ? "a recipe readme" : ""].filter(Boolean).join(", ") || "")}
+      ${row("Other names", esc(d.alias.map(a => a[0]).join(", ")))}${row("Notes", esc(d.notes))}${row("Updated", esc(d.upd))}</dl>`)}
+    ${sec("Getting the data", routes)}
+    ${sec("Recording setup", setups)}
+    ${sec("Tasks", tasks)}
+    ${sec("Participants", groups)}
+    ${sec("Participant variables in the release", pf)}
+    ${sec("Labels and annotations", ann)}
+    ${sec("Problems in the release", iss)}
+    ${sec("Related datasets", rel)}
+    ${sec("Documents", docs)}
+    ${sec("Where each value comes from", ev)}`;
+  drawer.hidden = false; scrim.hidden = false; drawer.scrollTop = 0;
+  document.getElementById("close").focus();
+}
+function closeD() { drawer.hidden = true; scrim.hidden = true; }
+drawer.addEventListener("click", e => { if (e.target.id === "close") closeD(); const a = e.target.closest("[data-open]"); if (a) { e.preventDefault(); openD(a.dataset.open); } });
+scrim.addEventListener("click", closeD);
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !drawer.hidden) closeD(); });
+
+render();
+const h = decodeURIComponent(location.hash.slice(1)); if (h && D.some(d => d.id === h)) openD(h);
+})();
+</script>
