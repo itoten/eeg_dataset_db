@@ -1,5 +1,5 @@
 dataset_id,name,full_title,modalities,domains,provider_ids,year_published,license_spdx,license_note,ml_training_terms,commercial_use_terms,derivative_terms,terms_note,is_bids,file_formats,n_subjects_reported,n_sessions_reported,n_recordings_reported,hours_reported,size_gb_reported,n_subjects_release,n_sessions_release,n_recordings_release,hours_release,size_gb_release,best_access_method,access_tier,n_channels_eeg,sampling_rates_hz,montage_systems,devices,paradigms,notes,last_updated_on
-anphy_sleep,ANPHY-Sleep,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,sleep,,2026-11-14
+anphy_sleep,ANPHY-Sleep,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 auditory_eeg,Auditory evoked potential EEG-Biometric dataset,,scalp_eeg,,,,LicenseRef-physionet-contributor-review,,,,,,,,20,,,,2.9,,,,,,direct_download,open,,,,,,,2026-11-14
 bci2020,2020 International BCI Competition,,ear_eeg;scalp_eeg,bci,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 bci2020_track1,2020 International BCI Competition Track 1. Few-shot EEG learning,,scalp_eeg,bci,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
@@ -42,7 +42,7 @@ bnci_013_2015,Monitoring error-related potentials (013-2015),,scalp_eeg,,,,CC-BY
 brain_wearable_monitoring,"Regulation of Brain Cognitive States through Auditory, Gustatory, and Olfactory Stimulation with Wearable Monitoring",,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,2.7,,,,,,direct_download,open,,,,,,,2026-11-14
 brandl2020_bci_distraction,BCI under distraction: Motor imagery in a pseudo realistic environment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,motor_imagery,,2026-11-14
 cao2019_driving_attention,Multi-channel EEG recordings during a sustained-attention driving task (raw dataset),,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-capslpdb,CAP Sleep Database,,scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,40.1,,,,,,direct_download,open,,,,,sleep,,2026-11-14
+capslpdb,CAP Sleep Database,,scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,40.1,,,,,,direct_download,open,,,,,,,2026-11-14
 chbmit,CHB-MIT Scalp EEG Database,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,22,,,,42.6,,,,,,direct_download,open,,,,,,,2026-11-14
 chbmp_cuban,CHBMP_database,,,,,2020,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
 chen2023_stroop_eeg_fnirs,Open access dataset integrating EEG and fNIRS during Stroop tasks,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -50,10 +50,10 @@ chen2024_deception,An EEG Dataset of Neural Signatures in a Competitive Two-Play
 cho2017,EEG datasets for motor imagery brain computer interface,,emg;scalp_eeg,,,2017,,,,,,,,,52,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
 choi2024_voice_emotion,EEG Dataset for the Recognition of Different Emotions Naturally Induced in Voice-User Interaction,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 consumer_grade_wearables,CogWear: Can we detect cognitive effort with consumer-grade wearables?,,scalp_eeg,,,,ODbL-1.0,,,,,,,,,,,,2.7,,,,,,direct_download,open,,,,,,,2026-11-14
-cps_dataset_sleep,Comprehensive Polysomnography (CPS) Dataset: A Resource for Sleep-Related Arousal Research,,psg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,sleep,,2026-11-14
+cps_dataset_sleep,Comprehensive Polysomnography (CPS) Dataset: A Resource for Sleep-Related Arousal Research,,psg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,,,2026-11-14
 cuevas_romero2022_tinnitus,Acoustic Therapies for Tinnitus Treatment: An EEG Database,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 dreamer,DREAMER,DREAMER: A Database for Emotion Recognition through EEG and ECG Signals from Wireless Low-cost Off-the-Shelf Devices,ecg;scalp_eeg,emotion,,,,,,,,,,,23,,,,,,,,,,request_form_or_email,approval,,,,Emotiv EPOC,,,2026-11-14
-dreamt,DREAMT: Dataset for Real-time sleep stage EstimAtion using Multisensor wearable Technology,,psg;scalp_eeg;eog;emg;ecg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,sleep,,2026-11-14
+dreamt,DREAMT: Dataset for Real-time sleep stage EstimAtion using Multisensor wearable Technology,,psg;scalp_eeg;eog;emg;ecg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,,,2026-11-14
 ds001785,Evidence accumulation relates to perceptual consciousness and monitoring,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,24.87,,,,,,site_terms_agreement,one_time_human,63,1024,10_20,ANTNeuro,,,2026-11-14
 ds001787,EEG meditation study,,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,5.69,,,,,,site_terms_agreement,one_time_human,64,256,,BIOSEMI ActiveTwo,,,2026-11-14
 ds001810,"EEG study of the attentional blink; before, during, and after transcranial Direct Current Stimulation (tDCS)",,scalp_eeg,,,,CC0-1.0,,,,,,true,,47,,,,45.74,,,,,,site_terms_agreement,one_time_human,64,512,10_20,Biosemi ActiveTwo,,,2026-11-14
@@ -66,7 +66,7 @@ ds002181,CRYPTO and PROVIDE EEG Baseline Data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,2
 ds002218,Auditory and Visual Rhythm Omission EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,1.95,,,,,,site_terms_agreement,one_time_human,0,256,,,,,2026-11-14
 ds002336,A multi-modal human neuroimaging dataset for data integration: simultaneous EEG and fMRI acquisition during a motor imagery neurofeedback task: XP1,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,16.81,,,,,,site_terms_agreement,one_time_human,,5000,,,,,2026-11-14
 ds002338,A multi-modal human neuroimaging dataset for data integration: simultaneous EEG and fMRI acquisition during a motor imagery neurofeedback task: XP2,,scalp_eeg,,,,CC0-1.0,,,,,,true,,17,,,,24.24,,,,,,site_terms_agreement,one_time_human,,5000,,,,,2026-11-14
-ds002578,Visual Oddball Task (256 channels),,scalp_eeg,,,,CC0-1.0,,,,,,true,,2,,,,1.33,,,,,,site_terms_agreement,one_time_human,256,256,,ActiveTwo,p300_erp,,2026-11-14
+ds002578,Visual Oddball Task (256 channels),,scalp_eeg,,,,CC0-1.0,,,,,,true,,2,,,,1.33,,,,,,site_terms_agreement,one_time_human,256,256,,ActiveTwo,,,2026-11-14
 ds002680,Go-nogo categorization and detection task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,14,,,,9.22,,,,,,site_terms_agreement,one_time_human,0,1000,,Neuroscan Synamps 1 (model 5083),,,2026-11-14
 ds002691,Internal attention study,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,0.76,,,,,,site_terms_agreement,one_time_human,32,250,,EGI Net Amps 300,,,2026-11-14
 ds002718,Face processing EEG dataset for EEGLAB,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,4.31,,,,,,site_terms_agreement,one_time_human,70,250,10_10,,,,2026-11-14
@@ -87,7 +87,7 @@ ds003029,Epilepsy-iEEG-Multicenter-Dataset,,ieeg,,,,CC0-1.0,,,,,,true,,35,,,,10.
 ds003039,free walking study,,scalp_eeg,,,,CC0-1.0,,,,,,true,,19,,,,7.82,,,,,,site_terms_agreement,one_time_human,64,500,,LiveAmp,,,2026-11-14
 ds003061,EEG data from an auditory oddball task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,13,,,,2.26,,,,,,site_terms_agreement,one_time_human,64,256,,BIOSEMI Biosemi Active 2,p300_erp,,2026-11-14
 ds003078,PROBE iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,6,,,,10.95,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
-ds003190,Assesment of the visual stimuli properties in P300 paradigm,,scalp_eeg,,,,CC0-1.0,,,,,,true,,19,,,,1.01,,,,,,site_terms_agreement,one_time_human,0,256,,,p300_erp,,2026-11-14
+ds003190,Assesment of the visual stimuli properties in P300 paradigm,,scalp_eeg,,,,CC0-1.0,,,,,,true,,19,,,,1.01,,,,,,site_terms_agreement,one_time_human,0,256,,,,,2026-11-14
 ds003194,Neuroepo multisession,,scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,0.18,,,,,,site_terms_agreement,one_time_human,19,200,10_10,,,,2026-11-14
 ds003195,Placebo Neuroepo multisession,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,0.12,,,,,,site_terms_agreement,one_time_human,19,200,10_10,,,,2026-11-14
 ds003343,Disentangling the percepts of illusory movement and sensory stimulation during tendon vibration in the EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,0.65,,,,,,site_terms_agreement,one_time_human,16,500,10_10,g.tec g.Nautilus,,,2026-11-14
@@ -99,7 +99,7 @@ ds003458,EEG: Three armed bandit gambling task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,
 ds003474,EEG: Probabilistic Selection and Depression,,scalp_eeg,,,,CC0-1.0,,,,,,true,,122,,,,16.64,,,,,,site_terms_agreement,one_time_human,64,500,,Neuroscan Synamps2,,,2026-11-14
 ds003478,EEG: Depression rest,,scalp_eeg,,,,CC0-1.0,,,,,,true,,122,,,,10.65,,,,,,site_terms_agreement,one_time_human,64,500,,Neuroscan Synamps2,resting_unspecified,,2026-11-14
 ds003490,EEG: 3-Stim Auditory Oddball and Rest in Parkinson's,,scalp_eeg,,,,CC0-1.0,,,,,,true,,50,,,,5.85,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,resting_unspecified,,2026-11-14
-ds003498,interictal iEEG during slow-wave sleep with HFO markings,,ieeg,,,,CC0-1.0,,,,,,true,,20,,,,44.73,,,,,,site_terms_agreement,one_time_human,0,2000,,Neuralynx,sleep,,2026-11-14
+ds003498,interictal iEEG during slow-wave sleep with HFO markings,,ieeg,,,,CC0-1.0,,,,,,true,,20,,,,44.73,,,,,,site_terms_agreement,one_time_human,0,2000,,Neuralynx,,,2026-11-14
 ds003505,VEPCON: Source imaging of high-density visual evoked potentials with multi-scale brain parcellations and connectomes,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,28.97,,,,,,site_terms_agreement,one_time_human,128,2048,,Biosemi ActiveTwo,,,2026-11-14
 ds003506,EEG: Reinforcement Learning in Parkinson's,,scalp_eeg,,,,CC0-1.0,,,,,,true,,56,,,,16.2,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
 ds003509,EEG: Simon Conflict in Parkinson's,,scalp_eeg,,,,CC0-1.0,,,,,,true,,56,,,,22.34,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
@@ -107,7 +107,7 @@ ds003516,EEG: Attended Speaker Paradigm (Own Name in Ignored Stream),,scalp_eeg,
 ds003517,EEG: Continuous gameplay of an 8-bit style video game,,scalp_eeg,,,,CC0-1.0,,,,,,true,,17,,,,5.83,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
 ds003518,EEG: Simon Conflict w/ Reinforcement + Cabergoline Challenge,,scalp_eeg,,,,CC0-1.0,,,,,,true,,110,,,,39.51,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
 ds003519,EEG: Visual Working Memory + Cabergoline Challenge,,scalp_eeg,,,,CC0-1.0,,,,,,true,,27,,,,8.96,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
-ds003522,EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI,,scalp_eeg,,,,CC0-1.0,,,,,,true,,96,,,,25.36,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,p300_erp;resting_unspecified,,2026-11-14
+ds003522,EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI,,scalp_eeg,,,,CC0-1.0,,,,,,true,,96,,,,25.36,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
 ds003523,EEG: Visual Working Memory in Acute TBI,,scalp_eeg,,,,CC0-1.0,,,,,,true,,91,,,,37.54,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
 ds003555,Dataset of EEG recordings of pediatric patients with epilepsy based on the 10-20 system,,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,15.07,,,,,,site_terms_agreement,one_time_human,,1024,10_20,Micromed,,,2026-11-14
 ds003570,EEG: Improvisation and Musical Structures,,scalp_eeg,,,,CC0-1.0,,,,,,true,,40,,,,47.62,,,,,,site_terms_agreement,one_time_human,64,2048,,Biosemi - ActiveTwo,,,2026-11-14
@@ -130,7 +130,7 @@ ds003753,EEG: Probabilistic Learning with Affective Feedback: Exp #2,,scalp_eeg,
 ds003766,A resource for assessing dynamic binary choices in the adult brain using EEG and mouse-tracking,,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,71.31,,,,,,site_terms_agreement,one_time_human,129,1000,,Electrical Geodesic Incorporated NetAmps 400,resting_unspecified,,2026-11-14
 ds003768,Simultaneous EEG and fMRI signals during sleep from humans,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,86.56,,,,,,site_terms_agreement,one_time_human,30,250,,,resting_unspecified;sleep,,2026-11-14
 ds003774,Music Listening- Genre EEG dataset (MUSIN-G),,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,10.12,,,,,,site_terms_agreement,one_time_human,129,250,,MagstimEG NetAmps 400,,,2026-11-14
-ds003775,SRM Resting-state EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,111,,,,4.49,,,,,,site_terms_agreement,one_time_human,64,1024,10_10,BioSemi,resting_unspecified,,2026-11-14
+ds003775,SRM Resting-state EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,111,,,,4.49,,,,,,site_terms_agreement,one_time_human,64,1024,10_10,BioSemi,,,2026-11-14
 ds003800,Auditory Gamma Entrainment,,scalp_eeg,,,,CC0-1.0,,,,,,true,,13,,,,0.18,,,,,,site_terms_agreement,one_time_human,19,250,10_20,,resting_unspecified,,2026-11-14
 ds003801,Neural Tracking to go,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,1.15,,,,,,site_terms_agreement,one_time_human,24,250,,SmartingAmp,,,2026-11-14
 ds003805,Multisensory Gamma Entrainment,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.01,,,,,,site_terms_agreement,one_time_human,19,500,10_20,,,,2026-11-14
@@ -138,7 +138,7 @@ ds003810,Motor Imagery vs Rest - Low-Cost EEG System,,scalp_eeg,,,,CC0-1.0,,,,,,
 ds003816,The Effect of Buddhism Derived Loving Kindness Meditation on Modulating EEG: Long-term and Short-term Effect,,scalp_eeg,,,,CC0-1.0,,,,,,true,,,,,,0,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
 ds003822,EEG: Probabilistic Learning with Affective Feedback: Exp #1,,scalp_eeg,,,,CC0-1.0,,,,,,true,,25,,,,5.82,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Vision ActiChamp,,,2026-11-14
 ds003825,"Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",,scalp_eeg,,,,CC0-1.0,,,,,,true,,50,,,,41.22,,,,,,site_terms_agreement,one_time_human,63,1000,,,,,2026-11-14
-ds003838,"EEG, pupillometry, ECG and photoplethysmography, and behavioral data in the digit span task and rest",,scalp_eeg,,,,CC0-1.0,,,,,,true,,65,,,,100.21,,,,,,site_terms_agreement,one_time_human,,,,,resting_unspecified,,2026-11-14
+ds003838,"EEG, pupillometry, ECG and photoplethysmography, and behavioral data in the digit span task and rest",,scalp_eeg,,,,CC0-1.0,,,,,,true,,65,,,,100.21,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
 ds003844,Dataset Clinical Epilepsy iEEG to BIDS -RESPect_intraoperative_iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,6,,,,2.6,,,,,,site_terms_agreement,one_time_human,0,2048,,Micromed SD64,,,2026-11-14
 ds003846,Prediction Error,,scalp_eeg,,,,CC0-1.0,,,,,,true,,19,,,,9.76,,,,,,site_terms_agreement,one_time_human,63,500,10_10,Brain Products BrainAmp DC,,,2026-11-14
 ds003848,Dataset Clinical Epilepsy iEEG to BIDS - RESPect_longterm_iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,6,,,,64.98,,,,,,site_terms_agreement,one_time_human,0,2048,,Micromed LTM128 Express,resting_unspecified;sleep,,2026-11-14
@@ -235,7 +235,7 @@ ds004561,Illusion of Agency over Electrically-Actuated Movements,,scalp_eeg,,,,C
 ds004563,Vicarious touch: overlapping neural patterns between seeing and feeling touch,,scalp_eeg,,,,CC0-1.0,,,,,,true,,40,,,,100.89,,,,,,site_terms_agreement,one_time_human,64,2048,,BIOSEMI ActiveTwo,,,2026-11-14
 ds004572,The effects of sham hypnosis techniques,,scalp_eeg,,,,CC0-1.0,,,,,,true,,52,,,,43.56,,,,,,site_terms_agreement,one_time_human,58,1000,10_20,Elekta,,,2026-11-14
 ds004574,Cross-modal Oddball Task.,,scalp_eeg,,,,CC0-1.0,,,,,,true,,146,,,,13.48,,,,,,site_terms_agreement,one_time_human,63,500,,Brain Vision,p300_erp,,2026-11-14
-ds004577,Dataset containing resting EEG for a sample of 103 normal infants in the first year of life,,scalp_eeg,,,,CC0-1.0,,,,,,true,,103,,,,0.64,,,,,,site_terms_agreement,one_time_human,21,200,10_10,,resting_unspecified,,2026-11-14
+ds004577,Dataset containing resting EEG for a sample of 103 normal infants in the first year of life,,scalp_eeg,,,,CC0-1.0,,,,,,true,,103,,,,0.64,,,,,,site_terms_agreement,one_time_human,21,200,10_10,,,,2026-11-14
 ds004579,Interval Timing Task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,139,,,,24.12,,,,,,site_terms_agreement,one_time_human,63,500,,Brain Vision,,,2026-11-14
 ds004580,Simon-conflict Task.,,scalp_eeg,,,,CC0-1.0,,,,,,true,,147,,,,15.84,,,,,,site_terms_agreement,one_time_human,63,500,,Brain Vision,,,2026-11-14
 ds004582,FakeFaceEmo_data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,73,,,,294.22,,,,,,site_terms_agreement,one_time_human,59,10000,10_20,BrainProducts,,,2026-11-14
@@ -259,7 +259,7 @@ ds004696,HAPwave_bids,,ieeg,,,,CC0-1.0,,,,,,true,,8,,,,14.17,,,,,,site_terms_agr
 ds004703,sEEG Passive listening to natural speech,,ieeg,,,,CC0-1.0,,,,,,true,,10,,,,12.37,,,,,,site_terms_agreement,one_time_human,0,1024,,Natus Quantum,,,2026-11-14
 ds004706,Spatial memory and non-invasive closed-loop stimulus timing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,1328.2,,,,,,site_terms_agreement,one_time_human,128,2048,,BioSemi,,,2026-11-14
 ds004718,Le Petit Prince Hong Kong: Naturalistic fMRI and EEG dataset from older Cantonese speakers,,scalp_eeg,,,,CC0-1.0,,,,,,true,,52,,,,37.03,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,,resting_unspecified,,2026-11-14
-ds004745,8-Channel SSVEP EEG Dataset with Artifact Trials,,scalp_eeg,,,,CC0-1.0,,,,,,true,,6,,,,0.24,,,,,,site_terms_agreement,one_time_human,8,1000,10_20,,ssvep,,2026-11-14
+ds004745,8-Channel SSVEP EEG Dataset with Artifact Trials,,scalp_eeg,,,,CC0-1.0,,,,,,true,,6,,,,0.24,,,,,,site_terms_agreement,one_time_human,8,1000,10_20,,,,2026-11-14
 ds004752,"Dataset of intracranial EEG, scalp EEG and beamforming sources from epilepsy patients performing a verbal working memory task",,ieeg;scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,10.23,,,,,,site_terms_agreement,one_time_human,19,200,,Neuralynx Inc. Neuralynx ATLAS,,,2026-11-14
 ds004770,iEEG on children during gameplay,,ieeg,,,,CC0-1.0,,,,,,true,,10,,,,8.69,,,,,,site_terms_agreement,one_time_human,,1000,,a/a,,,2026-11-14
 ds004771,EEG/ERP data from a Python Reading Task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,61,,,,1.36,,,,,,site_terms_agreement,one_time_human,34,256,,,,,2026-11-14
@@ -337,12 +337,12 @@ ds005296,Assessing sensitivity to semantic and syntactic information in deaf rea
 ds005305,EEG Resting-state Microstates Correlates of Executive Functions,,scalp_eeg,,,,CC0-1.0,,,,,,true,,165,,,,6.38,,,,,,site_terms_agreement,one_time_human,64,512,10_20,BIOSEMI Active-2,resting_unspecified,,2026-11-14
 ds005307,Laser-evoked potentials in the human spinal cord and cortex,,scalp_eeg,,,,CC0-1.0,,,,,,true,,7,,,,18.08,,,,,,site_terms_agreement,one_time_human,72,10000,,Brain Products,,,2026-11-14
 ds005340,Fundamental frequency predominantly drives talker differences in auditory brainstem responses to continuous speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,9.47,,,,,,site_terms_agreement,one_time_human,2,10000,10_20,Brain Products actiCHamp with EP-PreAmp,,,2026-11-14
-ds005342,EEG data offline and online during motor imagery for standing and sitting,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,2.03,,,,,,site_terms_agreement,one_time_human,17,250,10_20,g.tec g.Nautilus PRO,motor_imagery,,2026-11-14
+ds005342,EEG data offline and online during motor imagery for standing and sitting,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,2.03,,,,,,site_terms_agreement,one_time_human,17,250,10_20,g.tec g.Nautilus PRO,,,2026-11-14
 ds005343,Gaffrey Lab Infant Microstates and Attention,,scalp_eeg,,,,CC0-1.0,,,,,,true,,43,,,,22.7,,,,,,site_terms_agreement,one_time_human,129,1000,,EGI Magstim,resting_unspecified,,2026-11-14
 ds005345,Le Petit Prince (LPP) Multi-talker: Naturalistic 7T fMRI and EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,26,,,,162.54,,,,,,site_terms_agreement,one_time_human,64,500,10_20,Brain Products BrainAmp DC,resting_unspecified,,2026-11-14
 ds005363,Object recognition in healthy aging (ORHA) - EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,43,,,,17.71,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,Brain Products,,,2026-11-14
 ds005383,"TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,0.35,,,,,,site_terms_agreement,one_time_human,30,200,10_20,,,,2026-11-14
-ds005385,Resting-state EEG data before and after cognitive activity across the adult lifespan and a 5-year follow-up,,scalp_eeg,,,,CC0-1.0,,,,,,true,,608,,,,74.07,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,BrainProducts BrainAmp DC,resting_unspecified,,2026-11-14
+ds005385,Resting-state EEG data before and after cognitive activity across the adult lifespan and a 5-year follow-up,,scalp_eeg,,,,CC0-1.0,,,,,,true,,608,,,,74.07,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,BrainProducts BrainAmp DC,,,2026-11-14
 ds005397,Affordances of stairs,,scalp_eeg,,,,CC0-1.0,,,,,,true,,26,,,,11.99,,,,,,site_terms_agreement,one_time_human,64,500,,,,,2026-11-14
 ds005398,"Open iEEG Dataset (Pediatric iEEG, Wayne State University and UCLA)",,ieeg,,,,CC0-1.0,,,,,,true,,185,,,,102.19,,,,,,site_terms_agreement,one_time_human,0,1000,,,sleep,,2026-11-14
 ds005403,Delayed Auditory Feedback EEG/EGG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,118.45,,,,,,site_terms_agreement,one_time_human,62,10000,10_20,BrainProducts,,,2026-11-14
@@ -417,7 +417,7 @@ ds005946,ERC_CoG PROMENADE - WP2 - MetaImagery (Metaphor and Mental Imagery),,sc
 ds005953,iEEG_visual,,ieeg,,,,CC0-1.0,,,,,,true,,2,,,,0.56,,,,,,site_terms_agreement,one_time_human,0,3051.76,,Tucker Davis Technologies,,,2026-11-14
 ds005960,General Info: inst-comp-eeg,,scalp_eeg,,,,CC0-1.0,,,,,,true,,41,,,,57.69,,,,,,site_terms_agreement,one_time_human,61,1000,,BrainVision,,,2026-11-14
 ds006018,Cognitive Electrophysiology in Socioeconomic Context in Adulthood: An EEG dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,127,,,,10.59,,,,,,site_terms_agreement,one_time_human,27,500,10_20,Brain Products Brain Products actiCHamp Plus,p300_erp,,2026-11-14
-ds006033,Synchronous EEG and fMRI dataset on inner speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,3,,,,15.32,,,,,,site_terms_agreement,one_time_human,,,,,imagined_speech,,2026-11-14
+ds006033,Synchronous EEG and fMRI dataset on inner speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,3,,,,15.32,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
 ds006036,"A complementary dataset of open-eyes EEG recordings in a photo-stimulation setting from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects",,scalp_eeg,,,,CC0-1.0,,,,,,true,,88,,,,1.02,,,,,,site_terms_agreement,one_time_human,,500,10_20,,,,2026-11-14
 ds006040,Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI,,scalp_eeg,,,,CC0-1.0,,,,,,true,,28,,,,172.5,,,,,,site_terms_agreement,one_time_human,63,5000,,,,,2026-11-14
 ds006065,TSS_iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,7,,,,9.63,,,,,,site_terms_agreement,one_time_human,43,500,,,,,2026-11-14
@@ -448,9 +448,9 @@ ds006394,Electrophysiological markers of surprise-induced failures of visual and
 ds006434,The auditory brainstem response to natural speech is not affected by selective attention,,scalp_eeg,,,,CC0-1.0,,,,,,true,,66,,,,103.05,,,,,,site_terms_agreement,one_time_human,32,500,10_20,Brain Products actiChamp EP preamps,,,2026-11-14
 ds006437,LIGHT Hypnotherapy,,scalp_eeg,,,,CC0-1.0,,,,,,true,,9,,,,4.31,,,,,,site_terms_agreement,one_time_human,64,256,10_20,BioSemi ActiveTwo Mk2,,,2026-11-14
 ds006446,Cueing the future to reduce temporal discounting,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,16.1,,,,,,site_terms_agreement,one_time_human,64,2048,10_20,Biosemi ActiveTwo,,,2026-11-14
-ds006465,"3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,8.17,,,,,,site_terms_agreement,one_time_human,32,500,10_20,,imagined_speech,,2026-11-14
+ds006465,"3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,8.17,,,,,,site_terms_agreement,one_time_human,32,500,10_20,,,,2026-11-14
 ds006466,HeartBEAM: Older Adult Resting State and Auditory Oddball Task EEG Data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,66,,,,117.47,,,,,,site_terms_agreement,one_time_human,65,1000,,EGI Magstim,resting_unspecified,,2026-11-14
-ds006480,Young Adult Resting State and Auditory Oddball Task EEG Data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,68,,,,64.06,,,,,,site_terms_agreement,one_time_human,65,1000,,,p300_erp;resting_unspecified,,2026-11-14
+ds006480,Young Adult Resting State and Auditory Oddball Task EEG Data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,68,,,,64.06,,,,,,site_terms_agreement,one_time_human,65,1000,,,,,2026-11-14
 ds006519,Dataset of intracranial EEG during cortical stimulations evoking negative motor responses,,ieeg,,,,CC0-1.0,,,,,,true,,21,,,,1.04,,,,,,site_terms_agreement,one_time_human,0,4096,,Nicolet Wireless64,,,2026-11-14
 ds006525,Resting EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,3,,,,,,site_terms_agreement,one_time_human,128,250,,,resting_unspecified,,2026-11-14
 ds006547,Visual EEG Study (BrainVision → BIDS),,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,17.62,,,,,,site_terms_agreement,one_time_human,64,500,,Brain Products,,,2026-11-14
@@ -489,9 +489,9 @@ ds007012,FOODEEG: An open dataset of human electroencephalographic and behaviour
 ds007020,EEG Mortality Dataset in Parkinson's Disease,,scalp_eeg,,,,CC0-1.0,,,,,,true,,94,,,,1.74,,,,,,site_terms_agreement,one_time_human,63,500,10_20,Brain Products,resting_unspecified,,2026-11-14
 ds007028,Auditory Cortex Macaque Monkey DISC Data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,3,,,,13.86,,,,,,site_terms_agreement,one_time_human,,20000,,Brainstorm,,,2026-11-14
 ds007052,PURSUE N400 Word Processing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,288,,,,8.98,,,,,,site_terms_agreement,one_time_human,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
-ds007056,PURSUE P300 Visual Oddball,,scalp_eeg,,,,CC0-1.0,,,,,,true,,286,,,,7.84,,,,,,site_terms_agreement,one_time_human,29,500,10_20,Brain Vision actiCHamp,p300_erp,,2026-11-14
+ds007056,PURSUE P300 Visual Oddball,,scalp_eeg,,,,CC0-1.0,,,,,,true,,286,,,,7.84,,,,,,site_terms_agreement,one_time_human,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
 ds007058,Read EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,6.28,,,,,,site_terms_agreement,one_time_human,63,200,10_20,Elekta,,,2026-11-14
-ds007069,PURSUE MMN Auditory Oddball,,scalp_eeg,,,,CC0-1.0,,,,,,true,,281,,,,12.42,,,,,,site_terms_agreement,one_time_human,29,500,10_20,Brain Vision actiCHamp,p300_erp,,2026-11-14
+ds007069,PURSUE MMN Auditory Oddball,,scalp_eeg,,,,CC0-1.0,,,,,,true,,281,,,,12.42,,,,,,site_terms_agreement,one_time_human,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
 ds007081,"Passive but accessible: Studied information is not actively stored in working memory, yet attended regardless of anticipated load",,scalp_eeg,,,,CC0-1.0,,,,,,true,,41,,,,11.3,,,,,,site_terms_agreement,one_time_human,,1000,,Brain Products actiCHamp,,,2026-11-14
 ds007095,RNS_Epilepsy-iBIDS,,ieeg,,,,CC0-1.0,,,,,,true,,8,,,,0.49,,,,,,site_terms_agreement,one_time_human,2,200,,NUEHILL BCM210A,,,2026-11-14
 ds007096,PURSUE N170 Face Perception,,scalp_eeg,,,,CC0-1.0,,,,,,true,,292,,,,11.64,,,,,,site_terms_agreement,one_time_human,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
@@ -606,8 +606,8 @@ ds009082,EEG Lie Detection Dataset using Emotiv EPOC+: Instructed-Response and F
 ds009097,Resting-state EEG of children with developmental dyslexia before and after 60 sessions of Auto Train Brain neurofeedback and multisensory learning,,scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,0.01,,,,,,site_terms_agreement,one_time_human,14,128,,Emotiv EPOC+ (14-channel),resting_unspecified,,2026-11-14
 eeg_eye_gaze_data,Electroencephalogram and eye-gaze datasets for robot-assisted surgery performance evaluation,,scalp_eeg;eye_tracking,,,,CC-BY-NC-SA-4.0,,,,,,,,25,,,,33.2,,,,,,direct_download,open,,,,,,,2026-11-14
 eeg_eye_gaze_for_fls_tasks,Integration of Electroencephalogram and Eye-Gaze Datasets for Performance Evaluation in Fundamentals of Laparoscopic Surgery (FLS) Tasks,,scalp_eeg;eye_tracking,,,,CC-BY-NC-SA-4.0,,,,,,,,25,,,,7.8,,,,,,direct_download,open,,,,,,,2026-11-14
-eeg_gaba_anesthesia,Electroencephalogram dynamics during unconsciousness mediated by GABAergic-anesthetics,,scalp_eeg,,,,LicenseRef-physionet-contributor-review,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,anesthesia,,2026-11-14
-eeg_power_anesthesia,Multitaper spectra recorded during GABAergic anesthetic unconsciousness,,scalp_eeg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,anesthesia,,2026-11-14
+eeg_gaba_anesthesia,Electroencephalogram dynamics during unconsciousness mediated by GABAergic-anesthetics,,scalp_eeg,,,,LicenseRef-physionet-contributor-review,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+eeg_power_anesthesia,Multitaper spectra recorded during GABAergic anesthetic unconsciousness,,scalp_eeg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,,,2026-11-14
 eegmat,EEG During Mental Arithmetic Tasks,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 eegmmidb,EEG Motor Movement/Imagery Dataset,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,3.4,,,,,,direct_download,open,,,,,,,2026-11-14
 eldbeta,eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for the Aging Population,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
@@ -615,10 +615,10 @@ faced,FACED,,,,,2023,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,
 gu2024_ssvep_1_60hz,An open dataset for human SSVEPs in the frequency range of 1-60 Hz,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
 he2025_remote_sensing,EEGET-RSOD,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 high_gamma_dataset,High Gamma Dataset,,,,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-hmc_sleep_staging,Haaglanden Medisch Centrum sleep staging database,,psg;scalp_eeg;eog;emg;ecg,,,,CC-BY-4.0,,,,,,,,,,,,15.7,,,,,,direct_download,open,,,,,sleep,,2026-11-14
+hmc_sleep_staging,Haaglanden Medisch Centrum sleep staging database,,psg;scalp_eeg;eog;emg;ecg,,,,CC-BY-4.0,,,,,,,,,,,,15.7,,,,,,direct_download,open,,,,,,,2026-11-14
 hms_harmful_brain_activity,HMS - Harmful Brain Activity Classification,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
 i_care,I-CARE: International Cardiac Arrest REsearch consortium Database,,scalp_eeg;ecg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-isruc_sleep,ISRUC-Sleep,,psg,sleep,,,,,,,,,,,,,,,,,,,,,,,,,,,sleep,,2026-11-14
+isruc_sleep,ISRUC-Sleep,,psg,sleep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
 ji2024_stroop_high_altitude,EEG and fNIRS Datasets Based on Stroop Task during Two Weeks of High-Altitude Exposure in New Immigrants,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 jsmf_access,JSMF ACCESS intraoperative derived EEG data set,,scalp_eeg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,,,2026-11-14
 kaya2018,A large electroencephalographic motor imagery dataset for electroencephalographic brain computer interfaces,,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
@@ -636,13 +636,13 @@ multimodal_gait_dataset,"A multimodal gait dataset of brain activity, muscle act
 mumtaz2016_mdd,MDD Patients and Healthy Controls EEG Data (New),,scalp_eeg,,,2016,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 nakanishi2015_ssvep,12JFPM_SSVEP,,scalp_eeg,,,,,,,,,,,,10,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 natview_eeg_fmri,An open-access dataset of naturalistic viewing using simultaneous EEG-fMRI,,fmri;scalp_eeg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,The paper says raw and preprocessed data are openly available to download [natview_paper]. The download instructions (a PDF on the data index) have not been read [natview_indi].,2026-11-14
-nch_sleep,NCH Sleep DataBank: A Large Collection of Real-world Pediatric Sleep Studies with Longitudinal Clinical Data,,psg;scalp_eeg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,sleep,,2026-11-14
+nch_sleep,NCH Sleep DataBank: A Large Collection of Real-world Pediatric Sleep Studies with Longitudinal Clinical Data,,psg;scalp_eeg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,,,2026-11-14
 neuro_stress_resilience_hci,Neurophysiological Dataset of Stress Resilience During Human-Computer Interaction,,scalp_eeg;fnirs;eda,,,,ODbL-1.0,,,,,,,,35,,,,19.1,,,,,,direct_download,open,,,,,,,2026-11-14
 ngo2024_als_spelling,An EEG & Eye-Tracking Dataset of ALS Patients & Healthy People during Eye-Tracking-Based Spelling System Usage,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 nmt_scalp_eeg,NMT Scalp EEG Dataset,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,The paper points to https://dll.seecs.nust.edu.pk/downloads/ for its source code and data; that page has not been read [nmt_paper].,2026-11-14
 openbmi,EEG Dataset and OpenBMI Toolbox for Three BCI Paradigms,,emg;scalp_eeg,bci,,2019,,,,,,,,,54,,,,,,,,,,direct_download,open,,,,,motor_imagery;resting_unspecified;ssvep,,2026-11-14
 pei2022_athletes_alertness,A simultaneous EEG and eye-tracking dataset in elite athletes during alertness and concentration tasks,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-psg_ipa,PSG-IPA: A PolySomnoGraphic Inter-scorer Performance Assessment database,,psg;scalp_eeg;eog;emg,,,,CC-BY-4.0,,,,,,,,,,,,2.6,,,,,,direct_download,open,,,,,sleep,,2026-11-14
+psg_ipa,PSG-IPA: A PolySomnoGraphic Inter-scorer Performance Assessment database,,psg;scalp_eeg;eog;emg,,,,CC-BY-4.0,,,,,,,,,,,,2.6,,,,,,direct_download,open,,,,,,,2026-11-14
 sam40,"SAM 40: Dataset of 40 Subject EEG Recordings to Monitor the Induced-Stress while performing Stroop Color-Word Test, Arithmetic Task, and Mirror Image Recognition Task",,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,"figshare also holds item 14560530 with the same title, published four days earlier [sam40_figshare].",2026-11-14
 seed,SEED,,scalp_eeg;eye_tracking,emotion,,,LicenseRef-custom-research-only,,allowed_with_conditions,prohibited,,"The agreement allows use only for academic research and lists 'training or proving the efficiency of commercial systems' among the commercial purposes it prohibits [seed_license]. It prohibits distributing the dataset or portions thereof, except small portions to clarify academic publications or presentations [seed_license].",,,15,,,,,,,,,,request_form_or_email,approval,62,1000,,ESI NeuroScan,,,2026-11-14
 seed_fra,SEED-FRA,,scalp_eeg;eye_tracking,emotion,,,LicenseRef-custom-research-only,,allowed_with_conditions,prohibited,,"The agreement allows use only for academic research and lists 'training or proving the efficiency of commercial systems' among the commercial purposes it prohibits [seed_license]. It prohibits distributing the dataset or portions thereof, except small portions to clarify academic publications or presentations [seed_license].",,,8,,,,,,,,,,request_form_or_email,approval,62,1000,,ESI NeuroScan,,,2026-11-14
@@ -656,14 +656,14 @@ seed_vig,SEED-VIG,,scalp_eeg;eog;eye_tracking,,,,LicenseRef-custom-research-only
 seed_vii,SEED-VII,,scalp_eeg,emotion,,,,,,,,,,,20,,,,,,,,,,request_form_or_email,approval,62,1000,,,,,2026-11-14
 seed_vla,SEED-VLA,,scalp_eeg,,,,,,,,,,,,20,,,,,,,,,,request_form_or_email,approval,18,300,,DSI-24,,,2026-11-14
 seed_vrw,SEED-VRW,,scalp_eeg,,,,,,,,,,,,14,,,,,,,,,,request_form_or_email,approval,18,300,,DSI-24,,,2026-11-14
-shhpsgdb,Sleep Heart Health Study PSG Database,,psg;scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,sleep,,2026-11-14
+shhpsgdb,Sleep Heart Health Study PSG Database,,psg;scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 shin2017_eeg_nirs,Open access dataset for EEG+NIRS single-trial classification,,fnirs;scalp_eeg,,,,,The download page asks the user to agree with 'the GNU license terms' without naming the license version [shin2017_tub].,,,,,,,29,,,,,,,,,,gated_click_through,per_dataset_human,,,,,,,2026-11-14
 shin2018_eeg_nirs_cognitive,Simultaneous acquisition of EEG and NIRS during cognitive tasks for an open access dataset,,fnirs;scalp_eeg,,,,,,,,,,,,26,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 shu_mi_ma2022,SHU Multi-session Dataset,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 siena_scalp_eeg,Siena Scalp EEG Database,,scalp_eeg,,,,CC-BY-4.0,,,,,,,,14,,,,20.3,,,,,,direct_download,open,,,,,,,2026-11-14
-sleep_edf,Sleep-EDF Database,,scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,sleep,,2026-11-14
-sleep_edfx,Sleep-EDF Database Expanded,,psg;scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,8.1,,,,,,direct_download,open,,,,,sleep,,2026-11-14
-slpdb,MIT-BIH Polysomnographic Database,,psg;scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,sleep,,2026-11-14
+sleep_edf,Sleep-EDF Database,,scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+sleep_edfx,Sleep-EDF Database Expanded,,psg;scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,8.1,,,,,,direct_download,open,,,,,,,2026-11-14
+slpdb,MIT-BIH Polysomnographic Database,,psg;scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 sosulski2019_auditory_oddball,Electroencephalogram signals recorded from 13 healthy subjects during an auditory oddball paradigm under different stimulus onset asynchrony conditions,,scalp_eeg,,,,,,,,,,,,13,,,,,,,,,,,,,,,,p300_erp,,2026-11-14
 sparrkulee,"SparrKULee: A Speech-evoked Auditory Response Repository of the KU Leuven, containing EEG of 85 participants",,scalp_eeg,,,2023,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
 stieger2021_smr_bci,Human EEG Dataset for Brain-Computer Interface and Meditation,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
@@ -677,7 +677,7 @@ tuep,The TUH EEG Epilepsy Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request
 tuev,The TUH EEG Events Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,Most current release on the distribution page: v2.0.1 (rsync path) [tuh_eeg_downloads].,2026-11-14
 tusl,The TUH EEG Slowing Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,Most current release on the distribution page: v2.0.1 (rsync path) [tuh_eeg_downloads].,2026-11-14
 tusz,The TUH EEG Seizure Corpus,,scalp_eeg,clinical,,,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,Most current release on the distribution page: v2.0.6 (rsync path) [tuh_eeg_downloads].,2026-11-14
-ucddb,St. Vincent's University Hospital / University College Dublin Sleep Apnea Database,,scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,1.3,,,,,,direct_download,open,,,,,sleep,,2026-11-14
+ucddb,St. Vincent's University Hospital / University College Dublin Sleep Apnea Database,,scalp_eeg;eog;emg;ecg,,,,ODC-By-1.0,,,,,,,,,,,,1.3,,,,,,direct_download,open,,,,,,,2026-11-14
 wbcic_mi_yang2025,WBCIC-SHU Motor Imagery Dataset,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
 weibo2014,EEG data of simple and compound limb motor imagery,,scalp_eeg,,,2014,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
 won2022_rsvp_p300,EEG Dataset for RSVP and P300 Speller Brain-Computer Interfaces,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,p300_erp,,2026-11-14

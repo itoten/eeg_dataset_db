@@ -2,9 +2,9 @@
 
 Usage: python3 tools/harvest/paradigms_from_names.py [YYYY-MM-DD]
 
-For each task row without paradigms, its task name is matched against the phrases below; a
-dataset with one task row (or none) whose name matches gets the paradigm on that row (a row
-"main" without a task name is created when there is none). Evidence cites the source of the name
+For each task row without paradigms, its task name is matched against the phrases below. A
+dataset with no task rows gets a row "main" without a task name when its name states a task in a
+phrase that cannot be just the study's topic (NAME_RULES: not "sleep", "rest", "anesthesia"). Evidence cites the source of the name
 or task name, with the matched words as the locator. Only explicit phrases count: an
 abbreviation such as "MI" alone, or a task name like "task1", gives nothing.
 """
@@ -34,9 +34,13 @@ RULES = [
 ]
 
 
-def match(text):
+NAME_RULES = [r for r in RULES if r[0] not in ("sleep", "anesthesia", "neurofeedback", "emotion_induction")]
+NAME_RULES = [(p, r"\bresting[- ]state\b") if p == "resting_unspecified" else (p, x) for p, x in NAME_RULES]
+
+
+def match(text, rules=RULES):
     hits = []
-    for par, pat in RULES:
+    for par, pat in rules:
         m = re.search(pat, text or "", re.I)
         if m:
             hits.append((par, m.group(0)))
@@ -74,16 +78,15 @@ def main():
                      "Task name: " + "; ".join(h[1] for h in hits), "script")
                 n += 1
                 done = True
-        if done or len(rows) > 1:
+        if rows:
             continue
         src = ev.get((did, "name"))
-        hits = match(d["name"]) if src else []
+        hits = match(d["name"], NAME_RULES) if src else []
         if not hits:
             continue
         R = B.dataset(did)
-        tid = rows[0]["task_id"] if rows else "main"
-        if not rows:
-            R.child("tasks", "main", description="Paradigm stated by the dataset name")
+        tid = "main"
+        R.child("tasks", "main", description="Paradigm stated by the dataset name")
         R.ev(f"tasks:{tid}.paradigms", ";".join(sorted({h[0] for h in hits})), src["source_id"],
              "Dataset name: " + "; ".join(h[1] for h in hits), "script")
         n += 1

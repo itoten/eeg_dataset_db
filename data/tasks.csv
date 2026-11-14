@@ -1,5 +1,5 @@
 dataset_id,task_id,task_name,paradigms,stimulus_modalities,response_required,n_classes,n_trials_per_session,run_duration_s,n_runs_per_session,setup_id,description
-anphy_sleep,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+anphy_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 bci2020_track1,main,Few-shot EEG learning,motor_imagery,,,,,,,,
 bci2020_track2,main,Microsleep detection from single-channel EEG,,,,,,,,,
 bci2020_track3,main,Imagined speech classification,imagined_speech,,,,,,,,
@@ -14,10 +14,10 @@ bnci_004_2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 bnci_005_2014,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 bnci_008_2014,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 brandl2020_bci_distraction,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
-capslpdb,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+capslpdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 cho2017,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
-cps_dataset_sleep,main,,sleep,,,,,,,,Paradigm stated by the dataset name
-dreamt,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+cps_dataset_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+dreamt,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 ds001785,tactile_detection,tactile detection,,,,,,,,,
 ds001787,meditation,meditation,,,,,,,,,
 ds001810,attentional_blink,Attentional blink,,,,,,,,,
@@ -46,7 +46,7 @@ ds002338,t_1dnf,1dNF,,,,,,,,,
 ds002338,t_1dnf_run_01,1dNF_run-01,,,,,,,,,
 ds002338,t_2dnf,2dNF,,,,,,,,,
 ds002338,t_2dnf_run_02,2dNF_run-02,,,,,,,,,
-ds002578,attention,attention,p300_erp,,,,,,,,
+ds002578,attention,attention,,,,,,,,,
 ds002680,gonogo,gonogo,,,,,,,,,
 ds002691,internalattention,internalattention,,,,,,,,,
 ds002718,facerecognition,FaceRecognition,,,,,,,,,
@@ -73,7 +73,7 @@ ds003004,imaginedemotion,ImaginedEmotion,,,,,,,,,
 ds003029,ictal,ictal,,,,,,,,,
 ds003039,neurcorryoung,neurCorrYoung,,,,,,,,,
 ds003061,p300,P300,p300_erp,,,,,,,,
-ds003190,cnos,cnos,p300_erp,,,,,,,,
+ds003190,cnos,cnos,,,,,,,,,
 ds003194,task_6m_nepo,task 6m nepo,,,,,,,,,
 ds003194,task_pre_nepo,task pre nepo,,,,,,,,,
 ds003195,task_placebo_6m,task placebo 6m,,,,,,,,,
@@ -85,7 +85,7 @@ ds003458,threearmedbandit,ThreeArmedBandit,,,,,,,,,
 ds003474,probabilisticselection,ProbabilisticSelection,,,,,,,,,
 ds003478,rest,Rest,resting_unspecified,,,,,,,,
 ds003490,rest,Rest,resting_unspecified,,,,,,,,
-ds003498,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+ds003498,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 ds003505,faces,faces,,,,,,,,,
 ds003505,motion,motion,,,,,,,,,
 ds003506,reinforcementlearning,ReinforcementLearning,,,,,,,,,
@@ -94,7 +94,7 @@ ds003516,attendedspeakerparadigmownname,AttendedSpeakerParadigmOwnName,,,,,,,,,
 ds003517,continuousvideogameplay,ContinuousVideoGamePlay,,,,,,,,,
 ds003518,simonconflict,SimonConflict,,,,,,,,,
 ds003519,visualworkingmemory,VisualWorkingMemory,,,,,,,,,
-ds003522,threestimauditoryoddball,ThreeStimAuditoryOddball,p300_erp;resting_unspecified,,,,,,,,
+ds003522,threestimauditoryoddball,ThreeStimAuditoryOddball,,,,,,,,,
 ds003523,visualworkingmemory,VisualWorkingMemory,,,,,,,,,
 ds003555,hfo,hfo,,,,,,,,,
 ds003570,auditoryoddballchords,AuditoryOddballChords,,,,,,,,,
@@ -127,7 +127,7 @@ ds003766,wordchoice,wordchoice,,,,,,,,,
 ds003768,rest,rest,resting_unspecified,,,,,,,,
 ds003768,sleep,sleep,sleep,,,,,,,,
 ds003774,musiclistening,MusicListening,,,,,,,,,
-ds003775,resteyesc,resteyesc,resting_unspecified,,,,,,,,
+ds003775,resteyesc,resteyesc,,,,,,,,,
 ds003800,auditorygammaentrainment,AuditoryGammaEntrainment,,,,,,,,,
 ds003800,rest,Rest,resting_unspecified,,,,,,,,
 ds003801,neuraltrackingtogo,NeuralTrackingToGo,,,,,,,,,
@@ -139,7 +139,7 @@ ds003810,mivsrestrun3,MIvsRestRUN3,,,,,,,,,
 ds003810,mivsrestrun4,MIvsRestRUN4,,,,,,,,,
 ds003822,probabilisticselection,ProbabilisticSelection,,,,,,,,,
 ds003825,rsvp,rsvp,,,,,,,,,
-ds003838,mixed,mixed,resting_unspecified,,,,,,,,
+ds003838,mixed,mixed,,,,,,,,,
 ds003844,task_acute,task-acute,,,,,,,,,
 ds003846,predictionerror,PredictionError,,,,,,,,,
 ds003848,task_chocs1,task-CHOCS1,,,,,,,,,
@@ -282,7 +282,7 @@ ds004572,induction2,induction2,,,,,,,,,
 ds004572,induction3,induction3,,,,,,,,,
 ds004572,induction4,induction4,,,,,,,,,
 ds004574,oddball,Oddball,p300_erp,,,,,,,,
-ds004577,eeg,EEG,resting_unspecified,,,,,,,,
+ds004577,eeg,EEG,,,,,,,,,
 ds004579,intervaltiming,IntervalTiming,,,,,,,,,
 ds004580,simon,Simon,,,,,,,,,
 ds004582,ff,FF,,,,,,,,,
@@ -312,7 +312,7 @@ ds004706,niclscourierclosedloop,NiclsCourierClosedLoop,,,,,,,,,
 ds004706,niclscourierreadonly,NiclsCourierReadOnly,,,,,,,,,
 ds004718,lpphk,lppHK,,,,,,,,,
 ds004718,rest,rest,resting_unspecified,,,,,,,,
-ds004745,unnamed,unnamed,ssvep,,,,,,,,
+ds004745,unnamed,unnamed,,,,,,,,,
 ds004752,verbalwm,verbalWM,,,,,,,,,
 ds004770,game,game,,,,,,,,,
 ds004771,py,PY,,,,,,,,,
@@ -762,13 +762,13 @@ ds005296,sentencesemanticandsyntacticviolations,sentencesemanticandsyntacticviol
 ds005305,resting_state,Resting-State,resting_unspecified,,,,,,,,
 ds005307,pain,pain,,,,,,,,,
 ds005340,peakypitch,peakypitch,,,,,,,,,
-ds005342,sitstand,sitstand,motor_imagery,,,,,,,,
+ds005342,sitstand,sitstand,,,,,,,,,
 ds005343,resting,resting,resting_unspecified,,,,,,,,
 ds005345,multitalker,multitalker,,,,,,,,,
 ds005345,rest,rest,resting_unspecified,,,,,,,,
 ds005363,objrecog,objrecog,,,,,,,,,
 ds005383,fuzzysemanticrecognition,fuzzysemanticrecognition,,,,,,,,,
-ds005385,restingstate,RestingState,resting_unspecified,,,,,,,,
+ds005385,restingstate,RestingState,,,,,,,,,
 ds005397,tectonic,tectonic,,,,,,,,,
 ds005398,sleep,sleep,sleep,,,,,,,,
 ds005403,daf,daf,,,,,,,,,
@@ -983,7 +983,7 @@ ds006018,active_visual_oddball,Active Visual Oddball,p300_erp,,,,,,,,
 ds006018,flanker,Flanker,,,,,,,,,
 ds006018,passive_auditory_oddball,Passive Auditory Oddball,p300_erp,,,,,,,,
 ds006018,simple_visual_search,Simple Visual Search,,,,,,,,,
-ds006033,innerspeech,innerspeech,imagined_speech,,,,,,,,
+ds006033,innerspeech,innerspeech,,,,,,,,,
 ds006036,photomark,photomark,,,,,,,,,
 ds006040,cb,CB,,,,,,,,,
 ds006040,cboff,CBOFF,,,,,,,,,
@@ -1058,14 +1058,14 @@ ds006437,baseline4,baseline4,,,,,,,,,
 ds006437,baseline8,baseline8,,,,,,,,,
 ds006437,hypnotherapy,hypnotherapy,,,,,,,,,
 ds006446,itc,itc,,,,,,,,,
-ds006465,imaginedspeech,imaginedspeech,imagined_speech,,,,,,,,
+ds006465,imaginedspeech,imaginedspeech,,,,,,,,,
 ds006466,active,active,,,,,,,,,
 ds006466,actives,activeS,,,,,,,,,
 ds006466,passive,passive,,,,,,,,,
 ds006466,passives,passiveS,,,,,,,,,
 ds006466,resting,resting,resting_unspecified,,,,,,,,
 ds006466,restings,restingS,,,,,,,,,
-ds006480,shockya,ShockYA,p300_erp;resting_unspecified,,,,,,,,
+ds006480,shockya,ShockYA,,,,,,,,,
 ds006519,dcs,dcs,,,,,,,,,
 ds006525,rest,rest,resting_unspecified,,,,,,,,
 ds006525,resting,resting,resting_unspecified,,,,,,,,
@@ -1127,9 +1127,9 @@ ds007012,categorisation,categorisation,,,,,,,,,
 ds007020,rest,rest,resting_unspecified,,,,,,,,
 ds007028,tono14noconcat,tono14noconcat,,,,,,,,,
 ds007052,wordpr,WordPR,,,,,,,,,
-ds007056,visualoddball,VisualOddball,p300_erp,,,,,,,,
+ds007056,visualoddball,VisualOddball,,,,,,,,,
 ds007058,read,read,,,,,,,,,
-ds007069,auditoryoddball,AuditoryOddball,p300_erp,,,,,,,,
+ds007069,auditoryoddball,AuditoryOddball,,,,,,,,,
 ds007081,passiveaccessible,PassiveAccessible,,,,,,,,,
 ds007095,seizure,seizure,,,,,,,,,
 ds007096,faceperception,FacePerception,,,,,,,,,
@@ -1503,31 +1503,31 @@ ds009081,rest,rest,resting_unspecified,,,,,,,,
 ds009082,free,free,,,,,,,,,
 ds009082,instructed,instructed,,,,,,,,,
 ds009097,rest,rest,resting_unspecified,,,,,,,,
-eeg_gaba_anesthesia,main,,anesthesia,,,,,,,,Paradigm stated by the dataset name
-eeg_power_anesthesia,main,,anesthesia,,,,,,,,Paradigm stated by the dataset name
+eeg_gaba_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+eeg_power_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 eldbeta,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 gu2024_ssvep_1_60hz,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
-hmc_sleep_staging,main,,sleep,,,,,,,,Paradigm stated by the dataset name
-isruc_sleep,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+hmc_sleep_staging,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+isruc_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 kaya2018,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 liu2025_stroke_lower_limb_mi,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 ma2020_joints_mi,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 mssvepdb,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
-nch_sleep,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+nch_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 openbmi,erp,event-related potential (ERP),,,,,,,,,
 openbmi,mi,motor-imagery (MI),motor_imagery,,,,,,,,
 openbmi,rest,resting state,resting_unspecified,,,,,,,,
 openbmi,ssvep,steady-state visually evoked potential (SSVEP),ssvep,,,,,,,,
-psg_ipa,main,,sleep,,,,,,,,Paradigm stated by the dataset name
-shhpsgdb,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+psg_ipa,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+shhpsgdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 shin2018_eeg_nirs_cognitive,dsr,discrimination/selection response task (DSR),,,,,,,,,
 shin2018_eeg_nirs_cognitive,nback,"n-back (0-, 2- and 3-back)",,,,,,,,,
 shin2018_eeg_nirs_cognitive,wg,word generation (WG),,,,,,,,,
-sleep_edf,main,,sleep,,,,,,,,Paradigm stated by the dataset name
-sleep_edfx,main,,sleep,,,,,,,,Paradigm stated by the dataset name
-slpdb,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+sleep_edf,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+sleep_edfx,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+slpdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 sosulski2019_auditory_oddball,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
-ucddb,main,,sleep,,,,,,,,Paradigm stated by the dataset name
+ucddb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 wbcic_mi_yang2025,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 weibo2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 won2022_rsvp_p300,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name

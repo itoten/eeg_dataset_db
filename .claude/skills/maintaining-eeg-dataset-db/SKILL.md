@@ -56,5 +56,7 @@ Evidence fields of child rows are `<table>:<row id>.<column>`, e.g.
 ## Finish
 
 `python3 tools/views.py`, `python3 tools/validate.py`, then commit one dataset, family or harvest
-per commit, staging files by name. Commit messages in English: what was uncertain, what the
+per commit, staging files by name. After the last commit of a session that changed `data/`, rebuild
+the shared page (`python3 tools/site/build.py`) and publish `cache/site/index.html` to its existing
+artifact link (https://claude.ai/artifact/E1aT4miDuEZVVG7j6ns57V); the page does not update itself. Commit messages in English: what was uncertain, what the
 evidence was, what was left out and why. Never bypass the hook.
