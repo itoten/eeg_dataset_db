@@ -103,7 +103,7 @@ def register(B, c):
     snap = d["latestSnapshot"]
     tag, desc, summ = snap["tag"], snap["description"] or {}, snap["summary"] or {}
     mods = {m.lower() for m in (summ.get("modalities") or []) + (summ.get("secondaryModalities") or [])}
-    name_eeg = re.search(r"\b(EEG|iEEG|ECoG|electroenceph\w*)", desc.get("Name") or "", re.I)
+    name_eeg = re.search(r"(?<![A-Za-z])(EEG|iEEG|ECoG|electroenceph\w*)", desc.get("Name") or "", re.I)
     if not mods & {"eeg", "ieeg"} and not (not mods and name_eeg):
         return False  # MEG-only and other datasets without EEG are out of scope
     R = B.dataset(ds.lower())

@@ -416,6 +416,7 @@ ds006735,main,As stated in the sidecar of one recording (sub-001/eeg/sub-001_tas
 ds006761,main,As stated in the sidecar of one recording (sub-01/eeg/sub-01_task-RPS_eeg.json); other recordings not read,Biosemi,,,64,,,,CMS,DRL,2048,50,,,
 ds006768,main,As stated in the root-level sidecar task-MOM_eeg.json,Compumedics,,,64,,,10_10,M1,AFz,1000,50,,,
 ds006777,main,As stated in the sidecar of one recording (sub-10025/eeg/sub-10025_task-AVSRT_run-01_eeg.json); other recordings not read,Biosemi,,,64,,,10_20,,,512,60,,,
+ds006780,main,As stated in the sidecar of one recording (sub-10003/eeg/sub-10003_task-FAST_run-01_eeg.json); other recordings not read,Biosemi,,,64,,,10_20,,,512,60,,,
 ds006801,main,As stated in the sidecar of one recording (sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.json); other recordings not read,Brain Products,actiCHamp,,31,,,10_20,Fz,Gnd,500,60,,,
 ds006802,main,As stated in the root-level sidecar task-categorisation_eeg.json,Biosemi,,,64,,,,CMS,DRL,2048,50,,,
 ds006803,main,As stated in the sidecar of one recording (sub-01c/ses-1/eeg/sub-01c_ses-1_task-STEMSKILLS_eeg.json); other recordings not read,,,,8,,,10_20,Mastoid,,250,60,,,

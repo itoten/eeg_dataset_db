@@ -465,6 +465,7 @@ ds006735,Chimeric music reveals an interaction of pitch and time in electrophysi
 ds006761,Neural decoding of competitive decision-making in Rock-Paper-Scissors,,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,78,,,,,,site_terms_agreement,one_time_human,64,2048,,Biosemi,,,2026-11-14
 ds006768,Multiple Object Monitoring (EEG),,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,6.52,,,,,,site_terms_agreement,one_time_human,64,1000,10_10,Compumedics,,,2026-11-14
 ds006777,SFARI AVSRT EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,,,,,,,,,,,site_terms_agreement,one_time_human,64,512,10_20,Biosemi,,,2026-11-14
+ds006780,SFARI_EEG multi-paradigm dataset (BIDS),,scalp_eeg,,,,CC0-1.0,,,,,,true,,,,,,,,,,,,site_terms_agreement,one_time_human,64,512,10_20,Biosemi,,,2026-11-14
 ds006801,Resting-state EEG before and after different study methods,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,1.32,,,,,,site_terms_agreement,one_time_human,31,500,10_20,Brain Products actiCHamp,resting_unspecified,,2026-11-14
 ds006802,Collaborative rule learning promotes interbrain information alignment,,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,62.23,,,,,,site_terms_agreement,one_time_human,64,2048,,Biosemi,,,2026-11-14
 ds006803,NeuroTechs Dataset for Stem Skills,,scalp_eeg,,,,CC0-1.0,,,,,,true,,63,,,,1.39,,,,,,site_terms_agreement,one_time_human,8,250,10_20,,,,2026-11-14
