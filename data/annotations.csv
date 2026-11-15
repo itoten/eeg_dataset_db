@@ -76,6 +76,7 @@ figshare_24631257,questionnaires,ASQ/NCS/CFI questionnaire data,,,,,,figshare_24
 figshare_24803499,behavioral_responses,behavioural performance data,,,,,,figshare_24803499_doccdb6a4,"comprises raw recordings of EEG, prefrontal cortex oxygenation (fNIRS data), and behavioural performance data",2026-11-14,claude,
 figshare_25360300,event_markers,TrialStart/TrialEnd events,TrialStart;TrialEnd,,,,,figshare_25360300_doc801a3f,"There are two types of events: TrialStart and TrialEnd, corresponding to the start and end of each trial.",2026-11-14,claude,
 figshare_27119376,event_markers,oxygen saturation level annotations,,,,,,figshare_27119376_docdd12af,The EEG data was promptly annotated with oxygen saturation levels using the eegoTM software acquisition system.,2026-11-14,claude,
+figshare_27201003,event_markers,trigger channel (58th row),1;2;4;9,,,,,figshare_27201003_doc1cb82c,"""4"":Sequence Start",2026-11-15,claude,
 figshare_28156016,class_labels,struct fields,L;R;Re,,,,,figshare_28156016_doc7720e4,Each struct contains three fields:,2026-11-14,claude,
 figshare_28452131,event_markers,TrialStart/TrialEnd,TrialStart;TrialEnd,,,,,figshare_28452131_docda0e5a,Two types of events: TrialStart and TrialEnd,2026-11-14,claude,
 figshare_28632599,event_markers,trial start/end and movement onset,,,,,,figshare_28632599_doc716148,"The start and end times of each trial were identified based on the TRIG channel, and the movement onset time was determined by the X,",2026-11-14,claude,
