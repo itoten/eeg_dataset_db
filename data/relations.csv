@@ -13,6 +13,8 @@ ds007314,possibly_same_as,ds007315,ds007314_record,Both print the same name; whe
 ds007666,possibly_same_as,ds007667,ds007666_record,Both print the same name; whether they are the same data is not checked
 ds007895,possibly_same_as,ds007949,ds007895_record,Both print the same name; whether they are the same data is not checked
 ds008867,possibly_same_as,ds009033,ds008867_record,Both print the same name; whether they are the same data is not checked
+dv_10_7910_dvn_nzcjw1,possibly_same_as,dv_10_7910_dvn_ykhxha,dv_10_7910_dvn_nzcjw1_dataverse,Both print the same name; whether they are the same data is not checked
+dv_10_7910_dvn_ykhxha,possibly_same_as,dv_10_7910_dvn_nzcjw1,dv_10_7910_dvn_ykhxha_dataverse,Both print the same name; whether they are the same data is not checked
 figshare_14273687,derived_from,cao2019_driving_attention,figshare_14273687_doc0c12a0,"The record says its data come from the other dataset (audit, quote checked)"
 figshare_16586957,derived_from,cao2019_driving_attention,figshare_14273687_paper_a,"The record says its data come from the other dataset (audit, quote checked)"
 figshare_18470912,possibly_same_as,things_eeg2,figshare_18470912_figshare,Both print the same name; whether they are the same data is not checked
