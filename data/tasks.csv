@@ -3966,6 +3966,20 @@ zenodo_21957788,viewing_still_ads_functional_emotional_m,"viewing still ads (fun
 zenodo_22003613,sentence_level_imagined_speech_arabic,sentence-level imagined speech (Arabic),imagined_speech,,,,,,,,
 zenodo_22110518,motorimagery,motorimagery,motor_imagery,,,,,,,,
 zenodo_22110518,restpre_restpost,restpre / restpost,resting_eyes_open,,,,,,,,
+zenodo_22112509,interacting_with_objects_mustard_basebal,"interacting with objects (mustard, baseball, meatcan)",other,,,,,,,,
+zenodo_22124589,movement_execution_arm_movement_hand_mov,"movement execution (Arm Movement, Hand Movement, Arm and Hand Movement, Rest)",motor_execution,,,,,,,,
+zenodo_22131007,resting_state_segments_and_an_oddball_ta,resting-state segments and an oddball task,p300_erp;resting_unspecified,,,,,,,,
+zenodo_22131007,visuospatial_2_back_working_memory_task,visuospatial 2-back working-memory task,cognitive_task,,,,,,,,
+zenodo_22172516,naturalistic_sleep_recording_at_home,naturalistic sleep recording at home,sleep,,,,,,,,
+zenodo_2222267,execute_or_attempt_hand_arm_movements_pr,"execute or attempt hand/arm movements (pronation, supination, palmar grasp, lateral grasp, hand open)",other,,,,,,,,
+zenodo_22227355,free_viewing_of_three_second_naturalisti,free viewing of three-second naturalistic audiovisual clips,passive_viewing,,,,,,,,
+zenodo_22553918,simon_task,Simon task,cognitive_task,,,,,,,,
+zenodo_22553918,stroop_color_and_word_test,Stroop color and word test,cognitive_task,,,,,,,,
+zenodo_22557159,passive_auditory_rhythmic_2_5_hz_stimula,passive auditory rhythmic (2.5 Hz) stimulation and resting state,auditory_erp;resting_unspecified,,,,,,,,
+zenodo_22642959,postural_balance_assessment_after_cognit,postural balance assessment after cognitive and muscular fatigue,other,,,,,,,,
+zenodo_22652419,working_memory_updating,working memory updating,cognitive_task,,,,,,,,
+zenodo_22660210,temporal_discrimination_task,temporal discrimination task,cognitive_task,,,,,,,,
+zenodo_22705593,walking_with_environmental_demands_unity,walking with environmental demands (Unity trials),other,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name

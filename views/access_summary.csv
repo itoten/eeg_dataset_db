@@ -1,9 +1,9 @@
 access_tier,access_method,n_datasets,n_subjects_reported,hours_reported,n_datasets_without_subjects,n_datasets_without_hours
-open,direct_download,1692,49259,33301.6,612,1382
+open,direct_download,1690,49381,33301.6,605,1380
 one_time_human,free_account_required,3,0,0,3,3
 one_time_human,site_terms_agreement,52,2574,0,4,52
 per_dataset_human,gated_click_through,5,62,0,3,5
-approval,request_form_or_email,153,6171,6304,110,151
+approval,request_form_or_email,152,6359,6304,108,150
 approval,credentialed_training,2,0,0,2,2
 approval,signed_agreement,3,0,0,3,3
 ,,13,461,0,5,13

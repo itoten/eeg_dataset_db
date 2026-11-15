@@ -127,3 +127,5 @@ zenodo_19333248,acquisition_setups:main.n_channels_eeg,conflicting,18,primary,ht
 zenodo_19333248,acquisition_setups:main.n_channels_eeg,conflicting,19,primary,https://zenodo.org/records/19333249,Audit reviewer; scope: original recordings; distributed data has 18 derived bipolar channels
 zenodo_21709854,domains,conflicting,psychiatry,primary,https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.30.711922,Audit reviewer; scope: not given
 zenodo_21709854,domains,conflicting,resting_state,primary,https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.30.711922,Audit reviewer; scope: not given
+zenodo_22227355,acquisition_setups:main.n_channels_eeg,conflicting,61,secondary,https://api.datacite.org/dois/10.5281/zenodo.22227356,Audit reviewer; scope: retained set: 61 scalp + 2 mastoid + 1 eog
+zenodo_22227355,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://zenodo.org/records/22227356,

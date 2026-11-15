@@ -310,3 +310,7 @@ zenodo_21852594,event_annotations,gait events,LHS;RHS;LTO;RTO,,,,,zenodo_2185259
 zenodo_21967992,seizure_annotations,seizure time,seizure;clinically confirmed,,,,,zenodo_21967992_doc15c913,"seizure 17:27:11, clinicaly confirmed 17:27:14",2026-11-15,claude,
 zenodo_22100489,behavioral_responses,behavioral datasets,,,,,,zenodo_22100489_docaa8345,the EEG and behavioral datasets (.mat files),2026-11-15,claude,
 zenodo_22110518,event_markers,BIDS events,,,,,,zenodo_22110518_doc80ddc2,BIDS-formatted event annotations,2026-11-15,claude,
+zenodo_22124589,event_markers,events,movement onset,,,,,zenodo_22124589_doc6097e5,where ones indicate the occurrence of movement onsets,2026-11-15,claude,
+zenodo_2222267,class_labels,movement class cue,pronation;supination;palmar grasp;lateral grasp;hand open,,,,,zenodo_2222267_doc187c94,"corresponded to one of 5 classes: pronation, supination, palmar grasp, lateral grasp or hand open",2026-11-15,claude,
+zenodo_22227355,class_labels,event categories,barking;diving;drumming;frying;giggling;howling;inflating;mowing;pouring;raining;sanding;shredding;sneezing;tapping;vacuuming;whistling,,,,,zenodo_22227355_doc366c3f,"960 unique videos from 16 event categories: barking, diving, drumming, frying, giggling, howling, inflating, mowing, pouring, raining, sanding, shredding, sneezing, tapping, vacuuming, and whistling",2026-11-15,claude,
+zenodo_22227355,event_markers,_events.tsv,event timing and labels,,,,,zenodo_22227355_doc366c3f,Event timing and labels are provided in _events.tsv and _events.json,2026-11-15,claude,
