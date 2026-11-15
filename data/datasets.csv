@@ -1786,26 +1786,25 @@ zenodo_7221843,EEG Dataset,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_d
 zenodo_7253437,Auditory Attention Detection Dataset Nanjing University,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,other,,2026-11-15
 zenodo_7258867,"EEG p-adic quantum potential accurately identifies depression, schizophrenia and cognitive decline",,scalp_eeg,psychiatry;neurology;clinical,,2022,CC0-1.0,,,,,,,,230,,,,,,,,,,direct_download,open,19,500,10_20,Nihon Kohden,resting_eyes_closed;resting_eyes_open,,2026-11-15
 zenodo_7277150,c-VEP-based BCI for PIN pad task on a T9 layout,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,32,,10_20,BrainProduct LiveAmp,other,,2026-11-15
-zenodo_7315009,"Dataset from ""Power Spectral Density-Based Resting-State EEG Classification of First-Episode Psychosis""",,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7332683,OASIS EEG Dataset: Decoding the Neural Signatures of Valence and Arousal From Portable EEG Headset,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_7378489,EEG and eyetracking response to static and moving stimuli,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7383048,A Multimodal Dataset for Mixed Emotion Recognition,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_7397907,EEGEMO: a Wearable EEG Dataset for Online Emotion Classification,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_7446008,Dataset Single-subject EEG measurement of interhemispheric transfer-time for the in-vivo estimation of axonal morphology,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7446347,EEG data of continuous listening of music and speech,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7495535,Dataset of the visual EEG oddball paradigm with young and older age group,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,32,,,,,,2026-11-14
-zenodo_7496794,EEG (128 ch) on presentation of cardinal and oblique grids,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7516450,A large EEG database with users' profile information for motor imagery Brain-Computer Interface research,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
-zenodo_7542457,Machine Learning approach to Classification of Resting-State EEG Microstates in stroke survivors,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_7542473,Resting-state electroencephalogram microstate and balance correlates,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_7544912,Audio-tactile syllables EEG Dataset,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7620807,Effectiveness of electroconvulsive therapy in Lance-Adams syndrome,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7634234,Cortical oscillations and interareal synchronization as a preparatory activity for postural response,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7650678,DataSet-Neural signatures of linguistic predictions and listener's attention to speaker's communication intention,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7664068,Physiological Signals During Motor Imagery Brain-Computer Interface Training Using Virtual Reality and Haptics,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
-zenodo_7667390,Social knowledge and irony understanding,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7758424,SSVEP database elicited by four visual stimuli types,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7760604,Baseline EEG in the first year of life: insights into the development of autism spectrum disorder and language impairments,,scalp_eeg,,,2023,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+zenodo_7315009,"Dataset from ""Power Spectral Density-Based Resting-State EEG Classification of First-Episode Psychosis""",,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,72,,,,,,,,,,direct_download,open,60,1000,10_10,,resting_unspecified,,2026-11-15
+zenodo_7332683,OASIS EEG Dataset: Decoding the Neural Signatures of Valence and Arousal From Portable EEG Headset,,scalp_eeg,emotion,,2022,,,,,,,,,15,,,,,,,,,,request_form_or_email,approval,14,128,10_20,EMOTIV Epoc X,emotion_induction,,2026-11-15
+zenodo_7378489,EEG and eyetracking response to static and moving stimuli,,scalp_eeg,perception,,2022,CC0-1.0,,,,,,,,12,,,,,,,,,,direct_download,open,,,,,other,,2026-11-15
+zenodo_7383048,A Multimodal Dataset for Mixed Emotion Recognition,,scalp_eeg;eda;other_physiological;video,emotion,,2023,,,,,,,,,73,,,,,,,,,,request_form_or_email,approval,21,300,,WearableSensing Inc. DSI-24,emotion_induction,,2026-11-15
+zenodo_7397907,EEGEMO: a Wearable EEG Dataset for Online Emotion Classification,,scalp_eeg,emotion,,2022,,,,,,,,,15,,,,,,,,,,request_form_or_email,approval,,256,,,emotion_induction,,2026-11-15
+zenodo_7446008,Dataset Single-subject EEG measurement of interhemispheric transfer-time for the in-vivo estimation of axonal morphology,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,128,1024,,,visual_erp,,2026-11-15
+zenodo_7446347,EEG data of continuous listening of music and speech,,scalp_eeg;audio,perception,,2022,,,,,,,,,18,,,,,,,,,,direct_download,open,64,,,g.HIamp-Research,other,,2026-11-15
+zenodo_7495535,Dataset of the visual EEG oddball paradigm with young and older age group,,scalp_eeg,cognitive;perception,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,32,,10_20,,p300_erp,,2026-11-15
+zenodo_7496794,EEG (128 ch) on presentation of cardinal and oblique grids,,scalp_eeg,perception,,2022,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,128,,,,resting_eyes_closed;visual_erp,,2026-11-15
+zenodo_7516450,A large EEG database with users' profile information for motor imagery Brain-Computer Interface research,,scalp_eeg;emg;eog,bci,,2023,CC-BY-4.0,,,,,,,,87,,,,,,,,,,direct_download,open,27,512,,g.tec g.USBAmp,motor_imagery,,2026-11-15
+zenodo_7542457,Machine Learning approach to Classification of Resting-State EEG Microstates in stroke survivors,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,resting_unspecified,,2026-11-15
+zenodo_7542473,Resting-state electroencephalogram microstate and balance correlates,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-15
+zenodo_7544912,Audio-tactile syllables EEG Dataset,,scalp_eeg,perception,,2023,CC-BY-4.0,,,,,,,,16,,,,,,,,,,direct_download,open,63,1000,,,other,,2026-11-15
+zenodo_7620807,Effectiveness of electroconvulsive therapy in Lance-Adams syndrome,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_7634234,Cortical oscillations and interareal synchronization as a preparatory activity for postural response,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,other,,2026-11-15
+zenodo_7650678,DataSet-Neural signatures of linguistic predictions and listener's attention to speaker's communication intention,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,language,,2026-11-15
+zenodo_7664068,Physiological Signals During Motor Imagery Brain-Computer Interface Training Using Virtual Reality and Haptics,,scalp_eeg;ecg;respiration;other_physiological,bci;motor,,2022,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,32,500,,Brain Products GmbH LiveAmp,motor_execution;motor_imagery,,2026-11-15
+zenodo_7667390,Social knowledge and irony understanding,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,22,,,,,,,,,,direct_download,open,,,,,language,,2026-11-15
+zenodo_7758424,SSVEP database elicited by four visual stimuli types,,scalp_eeg,bci;perception,,2023,CC-BY-4.0,,,,,,,,27,,,,,,,,,,direct_download,open,8,256,10_20,g.tec medical engineering GmbH g.USBamp,ssvep,,2026-11-15
 zenodo_7770330,EEG data for octave enlargement experiments,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
 zenodo_784093,Single-flicker online SSVEP BCI datset,,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
 zenodo_7876018,Data from: Nonlinear decoding models enable music reconstruction from human auditory cortex activity,,,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14

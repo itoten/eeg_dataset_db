@@ -4182,8 +4182,27 @@ zenodo_7189460,famous_unfamiliar_and_scrambled_face_sym,"famous, unfamiliar and 
 zenodo_7253437,competing_speaker_auditory_attention_att,competing-speaker auditory attention (attended direction),other,,,,,,,,
 zenodo_7258867,routine_resting_eeg,routine resting EEG,resting_eyes_closed;resting_eyes_open,,,,,,,,
 zenodo_7277150,c_vep_bci_t9_pin_pad_layout_11_targets,"c-VEP BCI, T9 PIN-pad layout (11 targets)",other,,,,,,,,
+zenodo_7315009,control_resting_task_1,Control Resting Task 1,resting_unspecified,,,,,,,,
+zenodo_7332683,oasis_image_viewing_with_valence_arousal,OASIS image viewing with valence/arousal rating,emotion_induction,,,,,,,,
+zenodo_7378489,static_flashed_and_moving_black_disk_sti,static (flashed) and moving black disk stimuli,other,,,,,,,,
+zenodo_7383048,watching_mixed_and_non_mixed_emotion_vid,watching mixed and non-mixed emotion video clips,emotion_induction,,,,,,,,
+zenodo_7397907,watching_16_short_emotional_videos,watching 16 short emotional videos,emotion_induction,,,,,,,,
+zenodo_7446008,left_right_visual_field_stimulation,left/right visual field stimulation,visual_erp,,,,,,,,
+zenodo_7446347,continuous_listening_to_speech_and_music,continuous listening to speech and music (5 stimulus types),other,,,,,,,,
+zenodo_7495535,visual_oddball,visual oddball,p300_erp,,,,,,,,
+zenodo_7496794,background_eeg_at_rest_eyes_closed,"background EEG at rest, eyes closed",resting_eyes_closed,,,,,,,,
+zenodo_7496794,cardinal_vs_oblique_grid_discrimination,cardinal vs oblique grid discrimination,visual_erp,,,,,,,,
 zenodo_7516450,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zenodo_7516450,right_and_left_hand_motor_imagery_with_o,right and left hand motor imagery with online BCI feedback,motor_imagery,,,,,,,,
+zenodo_7542457,resting_state,resting state,resting_unspecified,,,,,,,,
+zenodo_7544912,syllable_discrimination_with_tactile_pul,syllable discrimination with tactile pulses,other,,,,,,,,
+zenodo_7634234,postural_response_perturbation_vs_no_per,"postural response, perturbation vs no perturbation",other,,,,,,,,
+zenodo_7650678,sentence_comprehension_linguistic_predic,"sentence comprehension (linguistic predictions, prosodic emphasis)",language,,,,,,,,
 zenodo_7664068,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zenodo_7664068,motor_execution_me,Motor Execution (ME),motor_execution,,,,,,,,
+zenodo_7664068,motor_imagery_of_bimanual_rowing_mi_mimo,"motor imagery of bimanual rowing (MI, MIMO, MIMOHP, MIMOVR, MIMOVRHP)",motor_imagery,,,,,,,,
+zenodo_7667390,reading_stories_irony_understanding_iron,"reading stories, irony understanding (ironic/literal; speaker occupation stereotype)",language,,,,,,,,
+zenodo_7758424,ssvep_5_target_selection_with_four_stimu,SSVEP 5-target selection with four stimulus types,ssvep,,,,,,,,
 zenodo_784093,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_7893846,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_806022,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
