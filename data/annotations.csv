@@ -293,3 +293,8 @@ zenodo_20163071,class_labels,Experimental condition labels,stress;relaxation;whi
 zenodo_20526421,self_report_ratings,subj_rating.csv,,,,,,zenodo_21643064,participants were asked to rate five different aspects of the conversations,2026-11-15,claude,
 zenodo_20557224,self_report_ratings,ratings,familiarity;urgency;liking,,,,,zenodo_20557225,"subjective ratings of sound familiarity, urgency, and liking",2026-11-15,claude,
 zenodo_20729503,class_labels,condition,NV;V0;V2;V4;V0–AV2;V0–AV4,,,,,zenodo_20729504,"condition (tbl.labels; NV = 0, V0 = 1, V2 = 2, V4 = 3, V0–AV2 = 4, V0–AV4 = 5)",2026-11-15,claude,
+zenodo_20757250,clinical_report,de-identified clinical EEG report,,,,,,zenodo_20757250_doce18079,"Clinical reports are provided for all 4,500 recordings.",2026-11-15,claude,
+zenodo_20757250,event_annotations,event annotations,Spike and Wave;Sharp Wave;Polyspike;Delta Slow Wave;Theta Wave;Delta and Theta;Triphasic Wave;Burst Suppression;Low Voltage;Artifacts,,,,,zenodo_20757250_doce18079,"expert verified event annotations containing event onset, offset, normalized event label, and associated scalp channels",2026-11-15,claude,
+zenodo_20757250,normal_abnormal,normal or abnormal interpretation,normal;abnormal,,,,,zenodo_20757250_doce18079,linked to a neurologist verified normal or abnormal interpretation,2026-11-15,claude,
+zenodo_20789302,event_markers,In-Game Behavioural Events,Information Object;Information NPC;Quiz;Decision;Tutorial,,,,,zenodo_20789302_doc3a60e3,In-game event timelines (.json),2026-11-15,claude,
+zenodo_20789302,questionnaires,self-report,PANAS;PXI;perceived mental effort,,,,,zenodo_20789302_doc3a60e3,"Player experience (PXI, German version (Graf, 2022))",2026-11-15,claude,

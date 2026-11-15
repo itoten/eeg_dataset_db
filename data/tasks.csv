@@ -3939,6 +3939,11 @@ zenodo_20557224,instruction_free_dichotic_listening,instruction-free dichotic li
 zenodo_20560842,real_vs_fake_news_reading_under_negative,real vs fake news reading under negative vs neutral mood,language,,,,,,,,
 zenodo_20727885,binary_motor_imagery,Binary Motor Imagery,motor_imagery,,,,,,,,
 zenodo_20729503,sequential_metacontrast_paradigm_sqm,Sequential Metacontrast Paradigm (SQM),visual_erp,,,,,,,,
+zenodo_20757250,routine_clinical_eeg,routine clinical EEG,clinical_routine,,,,,,,,
+zenodo_20789302,serious_game_island_voices_about_climate,serious game Island Voices about climate change,cognitive_task,,,,,,,,
+zenodo_21156617,t_40_hz_amplitude_modulated_auditory_stimu,"40 Hz amplitude-modulated auditory stimuli (pure tone, cicada song, cat's purr, brownian noise, silence)",auditory_erp,,,,,,,,
+zenodo_21204030,immersive_vr_task_for_intent_decoding,immersive VR task for intent decoding,other,,,,,,,,
+zenodo_21301952,veca_eeg_cognitive_battery_vr_mem8_10_vr,"VECA-EEG cognitive battery (vr_mem8-10, vr_att, vr_abs, vr_calc4-6, vr_exec, vr_recall)",cognitive_task,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
