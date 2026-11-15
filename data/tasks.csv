@@ -3986,6 +3986,12 @@ zenodo_22932789,rapid_serial_presentation_of_999_artwork,rapid serial presentati
 zenodo_22949771,clinicaleeg_restingstate,clinicalEEG_restingState,resting_unspecified,,,,,,,,
 zenodo_22974623,heard_speech_and_imagined_speech,heard speech and imagined speech,imagined_speech;language,,,,,,,,
 zenodo_23080151,partial_report_task,partial report task,cognitive_task,,,,,,,,
+zenodo_23093817,left_hand_and_right_hand_raising_motor_i,left-hand and right-hand raising motor imagery,motor_imagery,,,,,,,,
+zenodo_23123735,experiment_1_hand_motion_observation_aft,Experiment 1: hand motion observation after intention statement,visual_erp,,,,,,,,
+zenodo_23335155,right_hand_grip_force_task_under_three_v,right-hand grip force task under three visual feedback conditions,motor_execution,,,,,,,,
+zenodo_23458776,computerised_tasks_n_back_stroop_visual,"computerised tasks (n-back, Stroop, visual counting or shape comparison, flanker)",cognitive_task,,,,,,,,
+zenodo_23464851,eyes_open_eo_resting_baseline,Eyes Open (EO) resting baseline,resting_eyes_open,,,,,,,,
+zenodo_23464851,sternberg_working_memory_task_low_and_hi,Sternberg Working Memory Task (low and high workload),cognitive_task,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name

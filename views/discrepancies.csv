@@ -129,3 +129,5 @@ zenodo_21709854,domains,conflicting,psychiatry,primary,https://api.biorxiv.org/d
 zenodo_21709854,domains,conflicting,resting_state,primary,https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.30.711922,Audit reviewer; scope: not given
 zenodo_22227355,acquisition_setups:main.n_channels_eeg,conflicting,61,secondary,https://api.datacite.org/dois/10.5281/zenodo.22227356,Audit reviewer; scope: retained set: 61 scalp + 2 mastoid + 1 eog
 zenodo_22227355,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://zenodo.org/records/22227356,
+zenodo_23464851,acquisition_setups:main.sampling_rate_hz,conflicting,1024,secondary,https://zenodo.org/records/23464852,Audit reviewer; scope: distributed (downsampled)
+zenodo_23464851,acquisition_setups:main.sampling_rate_hz,conflicting,2500,secondary,https://zenodo.org/records/23464852,Audit reviewer; scope: recorded
