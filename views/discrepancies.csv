@@ -847,6 +847,13 @@ nm000352,n_subjects_reported,conflicting,24,secondary,https://nemar.org/dataset/
 nm000352,n_subjects_reported,conflicting,34,secondary,https://purl.stanford.edu/zk881ps0522,Audit reviewer; scope: whole library
 nm000354,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12891490/fullTextXML,Audit reviewer; scope: recorded
 nm000354,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://api.nemar.org/datasets/nm000354,Audit reviewer; scope: distributed epochs
+nm000372,acquisition_setups:main.n_channels_eeg,conflicting,128,secondary,https://api.nemar.org/datasets/nm000372,Audit reviewer; scope: not given
+nm000372,acquisition_setups:main.n_channels_eeg,conflicting,148,secondary,https://nemar.org/dataset/nm000372,
+nm000376,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.nemar.org/datasets/nm000376,Audit reviewer; scope: original recordings
+nm000376,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://api.nemar.org/datasets/nm000376,Audit reviewer; scope: distributed epochs
+nm000380,n_subjects_reported,conflicting,17,secondary,https://api.nemar.org/datasets/nm000380,Audit reviewer; scope: this dataset
+nm000380,n_subjects_reported,conflicting,17,secondary,https://nemar.org/dataset/nm000380,
+nm000380,n_subjects_reported,conflicting,25,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.cub.2018.10.026%22&format=json&resultType=core,Audit reviewer; scope: paper cohort; the dataset has 17
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
