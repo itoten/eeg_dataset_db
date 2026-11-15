@@ -93,3 +93,5 @@ zenodo_1507642,acquisition_setups:main.reference,conflicting,AFz as common hardw
 zenodo_1507642,acquisition_setups:main.reference,conflicting,FCz,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6335318/fullTextXML,Audit reviewer; scope: simultaneous eeg-fmri session
 zenodo_15086710,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.datacite.org/dois/10.5281/zenodo.15086711,Audit reviewer; scope: recorded
 zenodo_15086710,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.15086711,Audit reviewer; scope: distributed (preprocessed epochs)
+zenodo_15454354,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://api.datacite.org/dois/10.5281/zenodo.15454355,Audit reviewer; scope: healthy participants
+zenodo_15454354,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://api.datacite.org/dois/10.5281/zenodo.15454355,Audit reviewer; scope: sci and subgroup participants

@@ -3794,7 +3794,19 @@ zenodo_15211828,face_to_face_still_face_procedure,Face-to-Face Still-Face Proced
 zenodo_15241625,action_prediction_under_perceptual_ambig,action prediction under perceptual ambiguity; shape prediction control task,cognitive_task,,,,,,,,
 zenodo_15241858,alpha_band_eeg_neurofeedback_15_sessions,alpha-band EEG neurofeedback (15 sessions) with squat performance testing,neurofeedback,,,,,,,,
 zenodo_15241990,t_15_session_alpha_neurofeedback_training,15-session alpha neurofeedback training,neurofeedback,,,,,,,,
+zenodo_15280724,relaxed_sitting_with_eyes_open_before_an,"relaxed sitting with eyes open, before and after partial sleep deprivation",resting_eyes_open,,,,,,,,
+zenodo_15332757,resting_state_eyes_closed,resting state eyes closed,resting_eyes_closed,,,,,,,,
+zenodo_15332757,resting_state_eyes_open,resting state eyes open,resting_eyes_open,,,,,,,,
+zenodo_15341473,auditory_roving_oddball_task,auditory roving oddball task,auditory_erp,,,,,,,,
+zenodo_15365518,visuomotor_task_before_and_after_real_or,visuomotor task before and after real or sham tACS,motor_execution,,,,,,,,
+zenodo_15382396,resting_state_eyes_closed,resting-state eyes closed,resting_eyes_closed,,,,,,,,
+zenodo_15382396,resting_state_eyes_open,resting-state eyes open,resting_eyes_open,,,,,,,,
+zenodo_15387447,joint_simon_task_jst_in_dyads,joint Simon task (JST) in dyads,cognitive_task;visual_erp,,,,,,,,
+zenodo_15399489,rest_and_motor_imagery_of_upper_limb_mov,rest and motor imagery of upper-limb movement,motor_imagery,,,,,,,,
+zenodo_15437727,cardio_audio_synchronisation_task_cas,Cardio Audio Synchronisation task (CAS),auditory_erp,,,,,,,,
+zenodo_15454354,kinesthetic_mi_with_bar_feedback_interfa,Kinesthetic MI with bar feedback interface (left/right hand),motor_imagery,,,,,,,,
 zenodo_15454354,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zenodo_15454354,t_2_minute_resting_state_eeg_pre_post_stim,2-minute resting state EEG pre/post stimulation,resting_unspecified,,,,,,,,
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name

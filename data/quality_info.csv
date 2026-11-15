@@ -276,3 +276,4 @@ zenodo_14876711,1,recording_notes,two participants excluded from EEG analysis fo
 zenodo_1494163,1,signal_check_procedure,preliminary recording of visible signals such as eye blinks,stated in the document,zenodo_1494163_doc19c6c4,"the integrity of the recording pipeline was checked by performing preliminary tests, consisting in recording visible signals such as eye blinks",2026-11-15,claude,
 zenodo_14986232,1,impedance_threshold,below 50 kΩ,stated in the document,zenodo_14986232_doc2dc17a,the interelectrode impedance was kept below 50 kΩ,2026-11-15,claude,
 zenodo_1507642,1,impedance_threshold,below 10 kOhm,stated in the document,zenodo_1507642_doc68524f,impedances for all electrodes were kept below 10 kΩ,2026-11-15,claude,
+zenodo_15387447,1,impedance_threshold,impedances below 10 kOhm,stated in the document,zenodo_15387447_doc0b31f1,Electrodes’ impedances were adjusted to values below 10 kΩ.,2026-11-15,claude,
