@@ -423,21 +423,19 @@ ds006126,TDCS Modulation of Visual Cortex in Motor Imagery,,scalp_eeg,,national_
 ds006136,OWM-Dataset,,ieeg,epilepsy;cognitive,,,CC0-1.0,,,,,,true,,13,,,,0.28,,,,,,direct_download,open,0,1000,,,cognitive_task,,2026-11-16
 ds006142,Essex EEG Movie Memory dataset,,scalp_eeg,,university_of_essex,,CC0-1.0,,,,,,true,,27,,,,24.28,,,,,,direct_download,open,64,2048,10_20,ActiveTwo,cognitive_task;passive_viewing,,2026-11-16
 ds006159,Implicit Learning EEG (BioSemi),,scalp_eeg,,,,CC0-1.0,,,,,,true,,61,,,,14.35,,,,,,direct_download,open,72,1024,,Biosemi,cognitive_task,,2026-11-16
-ds006171,"EEG data during three near-threshold visual detection tasks: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity)",,scalp_eeg,,universidad_aut_noma_de_madrid,,CC0-1.0,,,,,,true,,36,,,,67.83,,,,,,direct_download,open,128,1024,10_20,Biosemi Biosemi ActiveTwo,,,2026-11-14
-ds006222,MultisensoryFlickerHealthyYoungAdults_AllSubjectsRawData,,scalp_eeg,,georgia_institute_of_technology,,CC0-1.0,,,,,,true,,69,,,,14.74,,,,,,direct_download,open,32,512,10_20,BioSemi ActiveTwo,,,2026-11-14
-ds006233,Picture naming,,ieeg,,,,CC0-1.0,,,,,,true,,108,,,,17.3,,,,,,direct_download,open,,1000,,,,,2026-11-14
-ds006234,Auditory naming,,ieeg,,,,CC0-1.0,,,,,,true,,119,,,,43.93,,,,,,site_terms_agreement,one_time_human,,1000,,,,,2026-11-14
-ds006253,MetaRDK,,ieeg,,,,CC0-1.0,,,,,,true,,21,,,,0,,,,,,direct_download,open,,,,,,,2026-11-14
-ds006254,IEEG CCEP Recording,,ieeg,,university_of_alabama_at_birmingham_hospital,,CC0-1.0,,,,,,true,,30,,,,156.74,,,,,,site_terms_agreement,one_time_human,208,2048,,NATUS Inc,,,2026-11-14
-ds006260,Dataset of psychophysiological data from children with learning difficulties who strengthen reading and math skills through assistive technology,,scalp_eeg,,tecnol_gico_de_monterrey,,CC0-1.0,,,,,,true,,76,,,,2.71,,,,,,direct_download,open,32,256,10_20,USBAMP RESEARCH,,,2026-11-14
-ds006269,Tethered EEG Recordings in Syngap1 rats,,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,106.67,,,,,,direct_download,open,32,1000,,OpenEphys,resting_unspecified,,2026-11-14
-ds006317,Chisco-2.0,,scalp_eeg,,,,CC0-1.0,,,,,,true,,2,,,,52.92,,,,,,direct_download,open,124,1000,,,,,2026-11-14
-ds006366,Mouse Sleep Staging Validation dataset (MSSV),,scalp_eeg,,,,CC0-1.0,,,,,,true,,92,,,,6.08,,,,,,direct_download,open,,128,,,sleep,,2026-11-14
-ds006367,Memory Reactivation Levels Remain Unaffected by Anticipated Interference,,scalp_eeg,,sabanci_university,,CC0-1.0,,,,,,true,,52,,,,27.76,,,,,,direct_download,open,28,1000,,,,,2026-11-14
-ds006370,Memory Reactivation Levels Remain Unaffected by Anticipated Interference Experiment 2 Dataset,,scalp_eeg,,sabanci_university,,CC0-1.0,,,,,,true,,56,,,,40.08,,,,,,direct_download,open,28,1000,,,,,2026-11-14
-ds006374,Expectation effects on repetition suppression in nociception,,scalp_eeg,,,,CC0-1.0,,,,,,true,,36,,,,31.12,,,,,,direct_download,open,32,2000,10_20,BrainProducts,,,2026-11-14
-ds006386,PhysioMotion_Artifact,,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,22.97,,,,,,direct_download,open,59,1000,10_20,,,,2026-11-14
-ds006392,HED schema library for SCORE annotations example,,ieeg,,mayo_clinic,,CC0-1.0,,,,,,true,,1,,,,0.03,,,,,,direct_download,open,166,512,,Natus,,,2026-11-14
+ds006171,"EEG data during three near-threshold visual detection tasks: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity)",,scalp_eeg,,universidad_aut_noma_de_madrid,,CC0-1.0,,,,,,true,,36,,,,67.83,,,,,,direct_download,open,128,1024,10_20,Biosemi Biosemi ActiveTwo,cognitive_task,,2026-11-16
+ds006222,MultisensoryFlickerHealthyYoungAdults_AllSubjectsRawData,,scalp_eeg,,georgia_institute_of_technology,,CC0-1.0,,,,,,true,,69,,,,14.74,,,,,,direct_download,open,32,512,10_20,BioSemi ActiveTwo,cognitive_task,,2026-11-16
+ds006233,Picture naming,,ieeg,,,,CC0-1.0,,,,,,true,,108,,,,17.3,,,,,,direct_download,open,,1000,,,language,,2026-11-16
+ds006234,Auditory naming,,ieeg,,,,CC0-1.0,,,,,,true,,119,,,,43.93,,,,,,site_terms_agreement,one_time_human,,1000,,,language,,2026-11-16
+ds006253,MetaRDK,,ieeg,,,,CC0-1.0,,,,,,true,,21,,,,0,,,,,,direct_download,open,,512,,,cognitive_task,,2026-11-16
+ds006254,IEEG CCEP Recording,,ieeg_seeg,,university_of_alabama_at_birmingham_hospital,,CC0-1.0,,,,,,true,,30,,,,156.74,,,,,,site_terms_agreement,one_time_human,208,2048,,NATUS Inc,other,,2026-11-16
+ds006260,Dataset of psychophysiological data from children with learning difficulties who strengthen reading and math skills through assistive technology,,scalp_eeg,,tecnol_gico_de_monterrey,,CC0-1.0,,,,,,true,,76,,,,2.71,,,,,,direct_download,open,32,256,10_20,USBAMP RESEARCH,cognitive_task;resting_unspecified,,2026-11-16
+ds006317,Chisco-2.0,,scalp_eeg,,,,CC0-1.0,,,,,,true,,2,,,,52.92,,,,,,direct_download,open,124,1000,,,imagined_speech,,2026-11-16
+ds006367,Memory Reactivation Levels Remain Unaffected by Anticipated Interference,,scalp_eeg,,sabanci_university,,CC0-1.0,,,,,,true,,52,,,,27.76,,,,,,direct_download,open,28,1000,,,cognitive_task,,2026-11-16
+ds006370,Memory Reactivation Levels Remain Unaffected by Anticipated Interference Experiment 2 Dataset,,scalp_eeg,,sabanci_university,,CC0-1.0,,,,,,true,,56,,,,40.08,,,,,,direct_download,open,28,1000,,,cognitive_task,,2026-11-16
+ds006374,Expectation effects on repetition suppression in nociception,,scalp_eeg,,,,CC0-1.0,,,,,,true,,36,,,,31.12,,,,,,direct_download,open,32,2000,10_20,BrainProducts,,,2026-11-16
+ds006386,PhysioMotion_Artifact,,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,22.97,,,,,,direct_download,open,59,1000,10_20,,,,2026-11-16
+ds006392,HED schema library for SCORE annotations example,,ieeg,,mayo_clinic,,CC0-1.0,,,,,,true,,1,,,,0.03,,,,,,direct_download,open,166,512,,Natus,other,,2026-11-16
 ds006394,Electrophysiological markers of surprise-induced failures of visual and auditory awareness,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,0.52,,,,,,direct_download,open,16,125,,,,,2026-11-14
 ds006434,The auditory brainstem response to natural speech is not affected by selective attention,,scalp_eeg,,,,CC0-1.0,,,,,,true,,66,,,,103.05,,,,,,direct_download,open,32,500,10_20,Brain Products actiChamp EP preamps,,,2026-11-14
 ds006437,LIGHT Hypnotherapy,,scalp_eeg,,university_of_california_san_diego,,CC0-1.0,,,,,,true,,9,,,,4.31,,,,,,direct_download,open,64,256,10_20,BioSemi ActiveTwo Mk2,,,2026-11-14

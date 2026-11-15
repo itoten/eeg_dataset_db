@@ -1310,23 +1310,26 @@ ds006136,object_working_memory,Object Working Memory,,,,,,,,,Load-3 object worki
 ds006142,movie_clip_memory_recognition,movie clip memory recognition,cognitive_task;passive_viewing,,,,,,,,
 ds006142,moviememory,MovieMemory,,,,,,,,,
 ds006159,implicitlearn,implicitlearn,cognitive_task,,,,,,,,
-ds006171,near_threshold_visual_detection_task,Near-threshold visual detection task,,,,,,,,,"Participants performed three near-threshold visual detection tasks in the same session: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity). In each trial, a Gabor stimulus was presented at peri-threshold contrast during 50ms, whose orientation was equally likely to be either vertical or horizontal (no stimulus was presented in 10% of trials - cathc trials). Participants were asked about two aspects related to the Gabor. First, a subjective question: Have you seen the Gabor stimulus? Response: yes or no. Then, an objective question in 15% of ran. [ds006171_sidecar]"
-ds006222,pvt,PVT,,,,,,,,,
+ds006171,near_threshold_visual_detection_task,Near-threshold visual detection task,cognitive_task,,,,,,,,"Participants performed three near-threshold visual detection tasks in the same session: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity). In each trial, a Gabor stimulus was presented at peri-threshold contrast during 50ms, whose orientation was equally likely to be either vertical or horizontal (no stimulus was presented in 10% of trials - cathc trials). Participants were asked about two aspects related to the Gabor. First, a subjective question: Have you seen the Gabor stimulus? Response: yes or no. Then, an objective question in 15% of ran. [ds006171_sidecar]"
+ds006222,pvt,PVT,cognitive_task,,,,,,,,
 ds006233,picture,picture,,,,,,,,,picture. [ds006233_sidecar]
+ds006233,picture_naming,picture naming,language,,,,,,,,
 ds006234,auditory,auditory,,,,,,,,,auditory. [ds006234_sidecar]
-ds006254,ccep_onasm,CCEP_OnASM,,,,,,,,,Cortico-Cortical Evoked Potentials via stimulation of intracranial electrodes. [ds006254_sidecar]
+ds006234,auditory_naming,auditory naming,language,,,,,,,,
+ds006253,metardk,MetaRDK,cognitive_task,,,,,,,,
+ds006254,ccep_onasm,CCEP_OnASM,other,,,,,,,,Cortico-Cortical Evoked Potentials via stimulation of intracranial electrodes. [ds006254_sidecar]
+ds006260,resting_state_and_reading_or_math_activi,resting state and reading or math activities,cognitive_task;resting_unspecified,,,,,,,,
 ds006260,smartickdataset,SmartickDataset,,,,,,,,,
-ds006269,rest,rest,resting_unspecified,,,,,,,,
 ds006317,para1,para1,,,,,,,,,
+ds006317,para1_imagined_speech,para1 (imagined speech),imagined_speech,,,,,,,,
 ds006317,para2,para2,,,,,,,,,
-ds006366,sleep,sleep,sleep,,,,,,,,"Continuous EEG recording with manual scoring, that includes both wake and sleep periods(includes both dark and light phases). [ds006366_sidecar]"
-ds006367,delayedmatchtosampletask,DelayedMatchtoSampleTask,,,,,,,,,
-ds006370,delayedmatchtosampletask,DelayedMatchtoSampleTask,,,,,,,,,
+ds006367,delayedmatchtosampletask,DelayedMatchtoSampleTask,cognitive_task,,,,,,,,
+ds006370,delayedmatchtosampletask,DelayedMatchtoSampleTask,cognitive_task,,,,,,,,
 ds006374,calibration,calibration,,,,,,,,,
 ds006374,detection,detection,,,,,,,,,
 ds006374,expsupp,expsupp,,,,,,,,,
 ds006386,artifact,artifact,,,,,,,,,
-ds006392,photicstim,photicstim,,,,,,,,,Photic stimulation. [ds006392_sidecar]
+ds006392,photicstim,photicstim,other,,,,,,,,Photic stimulation. [ds006392_sidecar]
 ds006394,sib,SiB,,,,,,,,,
 ds006394,sid,SiD,,,,,,,,,
 ds006434,exp1diotic,exp1Diotic,,,,,,,,,

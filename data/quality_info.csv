@@ -190,6 +190,7 @@ ds006136,1,rejected_trials,Only trials kept after artifact rejection are include
 ds006142,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds006142_channels,header row,2026-11-14,script,
 ds006233,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds006233_channels,header row,2026-11-14,script,
 ds006234,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds006234_channels,header row,2026-11-14,script,
+ds006253,1,rejected_trials,trials and iEEG channels with high epilepsy-related artifact removed,stated in the document,ds006253_doc55af80,The data provided were screened in order to remove trials and iEEG channels with high epilepsy-related artifact.,2026-11-16,claude,
 ds006367,1,recording_notes,No notes,sidecar field SubjectArtefactDescription,ds006367_sidecar,SubjectArtefactDescription,2026-11-14,script,
 ds006370,1,recording_notes,No notes,sidecar field SubjectArtefactDescription,ds006370_sidecar,SubjectArtefactDescription,2026-11-14,script,
 ds006465,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds006465_channels,header row,2026-11-14,script,
