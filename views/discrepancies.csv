@@ -137,3 +137,17 @@ zenodo_23665649,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primar
 zenodo_23665649,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://zenodo.org/records/23665650,Audit reviewer; scope: prepared windows as distributed
 zenodo_23665773,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://zenodo.org/records/23665774,Audit reviewer; scope: original recording
 zenodo_23665773,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://zenodo.org/records/23665774,Audit reviewer; scope: prepared windows (as distributed)
+zenodo_23954544,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://zenodo.org/records/23954545,Audit reviewer; scope: released files; original 500 hz
+zenodo_23954544,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://zenodo.org/records/23954545,Audit reviewer; scope: original recording
+zenodo_24043593,acquisition_setups:main.device_model,conflicting,Muse 2,primary,https://zenodo.org/records/24043594,Audit reviewer; scope: puebla site
+zenodo_24043593,acquisition_setups:main.device_model,conflicting,Ultracortex Mark IV,primary,https://zenodo.org/records/24043594,Audit reviewer; scope: madrid site
+zenodo_24043593,acquisition_setups:main.n_channels_eeg,conflicting,4,primary,https://zenodo.org/records/24043594,Audit reviewer; scope: puebla site
+zenodo_24043593,acquisition_setups:main.n_channels_eeg,conflicting,8,primary,https://zenodo.org/records/24043594,Audit reviewer; scope: madrid site
+zenodo_24043593,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://zenodo.org/records/24043594,Audit reviewer; scope: madrid site
+zenodo_24043593,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://zenodo.org/records/24043594,Audit reviewer; scope: puebla site
+zenodo_24046851,acquisition_setups:main.device_model,conflicting,Muse 2,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: puebla site
+zenodo_24046851,acquisition_setups:main.device_model,conflicting,Ultracortex Mark IV,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: madrid site
+zenodo_24046851,acquisition_setups:main.n_channels_eeg,conflicting,4,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: puebla site
+zenodo_24046851,acquisition_setups:main.n_channels_eeg,conflicting,8,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: madrid site
+zenodo_24046851,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: madrid site
+zenodo_24046851,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: puebla site

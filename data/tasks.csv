@@ -4006,7 +4006,20 @@ zenodo_23665649,left_hand_versus_right_hand_motor_imager,left hand versus right 
 zenodo_23665773,competitive_decision_making_rock_paper_s,competitive decision-making Rock-Paper-Scissors,cognitive_task,,,,,,,,
 zenodo_23764503,visual_working_memory_with_different_loa,visual working memory with different loads,cognitive_task,,,,,,,,
 zenodo_23787196,five_target_visual_p300_bci_offline_trai,"five-target visual P300 BCI, offline training and online runs",p300_erp,,,,,,,,
+zenodo_23855267,picture_word_stroop_pws_task,Picture-Word Stroop (PWS) task,cognitive_task;language,,,,,,,,
+zenodo_23858573,virtual_stick_balancing_task,virtual stick-balancing task,other,,,,,,,,
+zenodo_23919809,auditory_beep_pairs_with_button_press,auditory beep pairs with button press,auditory_erp,,,,,,,,
+zenodo_23919809,incremental_cycling_exercise_to_volition,Incremental cycling exercise to volitional exhaustion,other,,,,,,,,
+zenodo_23919809,rs0_eyes_closed_resting_state,RS0 eyes-closed resting state,resting_eyes_closed,,,,,,,,
+zenodo_23919809,rs1_eyes_open_resting_state,RS1 eyes-open resting state,resting_eyes_open,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
+zenodo_2392978,ssvep_with_leds_at_13_17_21_hz_plus_reje,"SSVEP with LEDs at 13, 17, 21 Hz plus reject class",ssvep,,,,,,,,
+zenodo_23954544,instructional_video_learning,instructional-video learning,passive_viewing,,,,,,,,
+zenodo_24043593,self_paced_ask_and_take_hand_gestures,self-paced Ask and Take hand gestures,motor_execution,,,,,,,,
+zenodo_24046851,video_guided_neutral_ask_take_gestures,video-guided Neutral/Ask/Take gestures,motor_execution,,,,,,,,
+zenodo_24081948,character_imagery_task,character imagery task,other,,,,,,,,
+zenodo_24132366,eyes_open_eo_protocol,eyes-open (EO) protocol,resting_eyes_open,,,,,,,,
+zenodo_24141043,story_listening_after_trust_building_gam,story listening after trust-building game,language,,,,,,,,
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3267301,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
