@@ -526,21 +526,21 @@ ds007537,"A multimodal dataset of EEG, eye-tracking, and physiological signals d
 ds007541,ds007541,,scalp_eeg,cognitive,beijing_university_of_posts_and_telecommunications,,,,,,,,true,,32,,,,1.12,,,,,,site_terms_agreement,one_time_human,8,1000,10_20,TiTan,visual_erp,,2026-11-16
 ds007554,Multimodal dataset from the CMx7-MM Experiment,,scalp_eeg;fnirs;ecg;emg,cognitive;motor,euromov_digital_health_in_motion_imt_ales_montpell,,CC0-1.0,,,,,,true,,30,,,,4.21,,,,,,direct_download,open,32,250.0009023984434,10_20,g.tec g.nautilus,cognitive_task;motor_execution;motor_imagery,,2026-11-16
 ds007558,EEG Pre/Post Intervention Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,67,,,,0.67,,,,,,direct_download,open,19,200,10_10,,resting_unspecified,,2026-11-16
-ds007591,Delineating neural contributions to EEG-based speech decoding,,scalp_eeg,,araya_inc,,CC0-1.0,,,,,,true,,9,,,,12.84,,,,,,direct_download,open,128,256,,g.tec medical engineering GmbH Pangolin,,,2026-11-14
-ds007605,EPOC,,scalp_eeg,,university_hospital_schleswig_holstein_kiel_campus,,CC0-1.0,,,,,,true,,97,,,,21.65,,,,,,direct_download,open,128,1000,,,,,2026-11-14
-ds007609,Resting-State EEG and Trait Anxiety,,scalp_eeg,,university_of_alberta,,CC0-1.0,,,,,,true,,51,,,,7.01,,,,,,direct_download,open,256,500,,"Magstim EGI (Electrical Geodesics Inc.), Welcony Net Amps 300",resting_unspecified,,2026-11-14
-ds007615,LDAEP and resting-state EEG in healthy women,,scalp_eeg,,university_of_oslo,,CC0-1.0,,,,,,true,,69,,,,34.65,,,,,,direct_download,open,64,2048,10_10,BioSemi,resting_unspecified,,2026-11-14
-ds007629,ROAMM,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.22,,,,,,direct_download,open,64,256,,BioSemi ActiveTwo,,,2026-11-14
-ds007647,Different Doors,,scalp_eeg,,macewan_university,,CC0-1.0,,,,,,true,,40,,,,3.34,,,,,,direct_download,open,32,1000,,actiCHamp,,,2026-11-14
-ds007648,CrossModal Study,,scalp_eeg,,birmingham_university,,CC0-1.0,,,,,,true,,22,,,,7.03,,,,,,direct_download,open,63,500,,,,,2026-11-14
-ds007655,MorseEEG-ATP,,scalp_eeg,,information_engineering_university,,CC0-1.0,,,,,,true,,32,,,,10.18,,,,,,direct_download,open,62,600,,g.tec medical engineering GmbH g.HIamp,,,2026-11-14
-ds007666,Grupos Pre and Post bids,,scalp_eeg,,,,CC0-1.0,,,,,,true,,55,,,,0.61,,,,,,direct_download,open,19,200,10_10,,,,2026-11-14
-ds007667,Grupos Pre and Post bids,,scalp_eeg,,,,CC0-1.0,,,,,,true,,55,,,,0.61,,,,,,direct_download,open,19,200,10_10,,,,2026-11-14
-ds007688,The Temporal Sequence of Party Leader Incongruence,,scalp_eeg,,,,CC0-1.0,,,,,,true,,44,,,,2.83,,,,,,direct_download,open,65,250,,,,,2026-11-14
-ds007703,Single pulse electrical stimulation in white matter modulates iEEG visual responses in human early visual cortex,,ieeg,,,,CC0-1.0,,,,,,true,,2,,,,11.45,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-14
-ds007720,BCI-FIT: A customization protocol for communication brain-computer interface systems.,,scalp_eeg,,oregon_health_and_science_university,,CC0-1.0,,,,,,true,,5,,,,2.17,,,,,,direct_download,open,7,300,10_20,Brain Products DSI-Flex,,,2026-11-14
-ds007721,Bone conducted responses using the parallel auditory brainstem response (pABR) paradigm,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,22.01,,,,,,site_terms_agreement,one_time_human,3,10000,,Brain Products actiCHamp Plus with EP-PreAmp,,,2026-11-14
-ds007753,BCCWJ-EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,41,,,,21.75,,,,,,direct_download,open,64,1000,,Brain Products,,,2026-11-14
+ds007591,Delineating neural contributions to EEG-based speech decoding,,scalp_eeg;eog;emg,,araya_inc,,CC0-1.0,,,,,,true,,9,,,,12.84,,,,,,direct_download,open,128,256,,g.tec medical engineering GmbH Pangolin,overt_speech,,2026-11-16
+ds007605,EPOC,,scalp_eeg;eog,,university_hospital_schleswig_holstein_kiel_campus,,CC0-1.0,,,,,,true,,conflicting,,,,21.65,,,,,,direct_download,open,128,1000,,Brain Products actiCHamp Plus,,,2026-11-16
+ds007609,Resting-State EEG and Trait Anxiety,,scalp_eeg,,university_of_alberta,,CC0-1.0,,,,,,true,,51,,,,7.01,,,,,,direct_download,open,256,500,egi_hydrocel,"Magstim EGI (Electrical Geodesics Inc.), Welcony Net Amps 300",resting_unspecified,,2026-11-16
+ds007615,LDAEP and resting-state EEG in healthy women,,scalp_eeg;eog,,university_of_oslo,,CC0-1.0,,,,,,true,,69,,,,34.65,,,,,,direct_download,open,64,2048,10_10,BioSemi ActiveTwo,auditory_erp;resting_eyes_closed;resting_eyes_open;resting_unspecified,,2026-11-16
+ds007629,ROAMM,,scalp_eeg;eye_tracking,,,,CC0-1.0,,,,,,true,,conflicting,,,,0.22,,,,,,direct_download,open,64,256,,BioSemi ActiveTwo,,,2026-11-16
+ds007647,Different Doors,,scalp_eeg,,macewan_university,,CC0-1.0,,,,,,true,,40,,,,3.34,,,,,,direct_download,open,32,1000,,actiCHamp,,,2026-11-16
+ds007648,CrossModal Study,,scalp_eeg;eog,,birmingham_university,,CC0-1.0,,,,,,true,,22,,,,7.03,,,,,,direct_download,open,63,500,10_10,ANTneuro EEGosports,,,2026-11-16
+ds007655,MorseEEG-ATP,,scalp_eeg,,information_engineering_university,,CC0-1.0,,,,,,true,,32,,,,10.18,,,,,,direct_download,open,62,600,,g.tec medical engineering GmbH g.HIamp,,,2026-11-16
+ds007666,Grupos Pre and Post bids,,scalp_eeg,,,,CC0-1.0,,,,,,true,,55,,,,0.61,,,,,,direct_download,open,19,200,10_10,,,,2026-11-16
+ds007667,Grupos Pre and Post bids,,scalp_eeg,,,,CC0-1.0,,,,,,true,,55,,,,0.61,,,,,,direct_download,open,19,200,10_10,,,,2026-11-16
+ds007688,The Temporal Sequence of Party Leader Incongruence,,scalp_eeg;eog;ecg,,,,CC0-1.0,,,,,,true,,44,,,,2.83,,,,,,direct_download,open,65,250,10_20,BioSemi ActiveTwo,,,2026-11-16
+ds007703,Single pulse electrical stimulation in white matter modulates iEEG visual responses in human early visual cortex,,ieeg,,,,CC0-1.0,,,,,,true,,2,,,,11.45,,,,,,site_terms_agreement,one_time_human,,,,,,,2026-11-16
+ds007720,BCI-FIT: A customization protocol for communication brain-computer interface systems.,,scalp_eeg,bci,oregon_health_and_science_university,,CC0-1.0,,,,,,true,,5,,,,2.17,,,,,,direct_download,open,7,300,10_20,DSI-Flex,,,2026-11-16
+ds007721,Bone conducted responses using the parallel auditory brainstem response (pABR) paradigm,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,22.01,,,,,,site_terms_agreement,one_time_human,3,10000,,Brain Products actiCHamp Plus with EP-PreAmp,,,2026-11-16
+ds007753,BCCWJ-EEG,,scalp_eeg;eog,,,,CC0-1.0,,,,,,true,,41,,,,21.75,,,,,,direct_download,open,64,1000,,Brain Products BrainAmp,,,2026-11-16
 ds007788,Dataset: EEG-Controlled Exoskeleton for Walking and Standing - A Longitudinal Study of Healthy Individuals,,scalp_eeg,,,,CC0-1.0,,,,,,true,,7,,,,3.62,,,,,,direct_download,open,60,100,10_20,MOVE System,,,2026-11-14
 ds007801,OpenNeuro EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,80,,,,3.55,,,,,,site_terms_agreement,one_time_human,103,256,,,,,2026-11-14
 ds007813,EEG Practice Set,,scalp_eeg,,,,CC0-1.0,,,,,,true,,4,,,,0.47,,,,,,direct_download,open,,500,10_20,Brain Products,,,2026-11-14

@@ -1529,11 +1529,14 @@ ds007558,rest,rest,resting_unspecified,,,,,,,,
 ds007591,covert,covert,,,,,,,,,
 ds007591,minimallyovert,minimallyovert,,,,,,,,,"Speech decoding task (minimally overt). Participants produced one of 5 color words (green, magenta, orange, violet, yellow) in minimally overt speech condition. Each trial consists of 5 repetitions of the same word (1.25 sec per repetition, 6.25 sec total). Session type: calibration. [ds007591_sidecar]"
 ds007591,overt,overt,,,,,,,,,
+ds007591,speech_production_overt_minimally_overt,"speech production: overt, minimally overt, covert",overt_speech,,,,,,,,
 ds007605,pvt,pvt,,,,,,,,,"Subjects are supposed to press the spacebar as fast as possible as soon as a counter starts. When the spacebar was pressed, the counter is stopped and shows the reaction time in miliseconds. [ds007605_sidecar]"
 ds007609,rest,rest,resting_unspecified,,,,,,,,"Alternating 1-minute eyes-open and eyes-closed resting blocks (EO-EC-EO-EC), 4 minutes total. Transitions signaled by auditory beep. [ds007609_sidecar]"
-ds007615,ldaep,ldaep,,,,,,,,,
+ds007615,ldaep,ldaep,auditory_erp,,,,,,,,
 ds007615,rest,rest,resting_unspecified,,,,,,,,
+ds007615,rest_task_rest_acq_ec_acq_eo,"rest (task-rest, acq-ec / acq-eo)",resting_eyes_closed;resting_eyes_open,,,,,,,,
 ds007629,remind,ReMind,,,,,,,,,
+ds007629,remind_naturalistic_reading,ReMind (naturalistic reading),,,,,,,,,
 ds007647,differentdoors,differentdoors,,,,,,,,,
 ds007648,crossmodal,CrossModal,,,,,,,,,CrossModal target differentiation task; see https://doi.org/10.7554/eLife.106050.3 for detailed task description. [ds007648_sidecar]
 ds007655,dotcount,dotcount,,,,,,,,,Auditory discrimination task requiring participants to report the number of dots in the presented Morse code character. [ds007655_sidecar]
@@ -1578,17 +1581,22 @@ ds007667,t_010,010,,,,,,,,,
 ds007667,t_011,011,,,,,,,,,
 ds007667,t_020,020,,,,,,,,,
 ds007667,t_022,022,,,,,,,,,
+ds007688,just_faces,Just Faces,,,,,,,,,
 ds007688,justfaces,JustFaces,,,,,,,,,
+ds007688,statements_faces,Statements & Faces,,,,,,,,,
 ds007688,statementsfaces,StatementsFaces,,,,,,,,,
 ds007703,cortico_cortical_evoked_potentials,Cortico Cortical Evoked Potentials,,,,,,,,,
 ds007703,cortico_cortical_evoked_potentials_cceps,Cortico-cortical evoked potentials - CCEPs,,,,,,,,,
 ds007703,cortico_cortical_evoked_potentials_cceps_2,"Cortico cortical Evoked Potentials, CCEPs",,,,,,,,,
+ds007703,spes_only_and_spes_visual,SPES-only and SPES+Visual,,,,,,,,,
 ds007703,visual_stimuli_cceps,Visual stimuli + CCEPs,,,,,,,,,
+ds007720,matrix_rsvp_calibration_and_copy_phrase,Matrix / RSVP calibration and copy phrase,,,,,,,,,
 ds007720,matrixcalibration,MatrixCalibration,,,,,,,,,Matrix paradigm calibration task; see README for full protocol details. [ds007720_sidecar]
 ds007720,matrixcopyphrase,MatrixCopyPhrase,,,,,,,,,
 ds007720,rsvpcalibration,RSVPCalibration,,,,,,,,,
 ds007720,rsvpcopyphrase,RSVPCopyPhrase,,,,,,,,,
 ds007721,ac,ac,,,,,,,,,
+ds007721,ac_bc_air_and_bone_conducted_pabr,ac / bc (air- and bone-conducted pABR),,,,,,,,,
 ds007721,bc,bc,,,,,,,,,
 ds007753,bccwj_reading,BCCWJ Reading,,,,,,,,,
 ds007788,ses_01_task_stop6min,ses-01-task-stop6min,,,,,,,,,"Recorded on: 2015-04-27 during ""ses-01-task-stop6min"". [ds007788_sidecar]"

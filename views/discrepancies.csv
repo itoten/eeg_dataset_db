@@ -457,6 +457,18 @@ ds007537,n_subjects_reported,conflicting,23,secondary,https://s3.amazonaws.com/o
 ds007537,n_subjects_reported,conflicting,30,secondary,https://openneuro.org/datasets/ds007537/versions/2.0.2,
 ds007541,acquisition_setups:main.device_manufacturer,conflicting,INFO Instruments,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13505431/,Audit reviewer; scope: not given
 ds007541,acquisition_setups:main.device_manufacturer,conflicting,WINFUEA / INFO Instruments,primary,https://s3.amazonaws.com/openneuro.org/ds007541/sub-32/ses-02/eeg/sub-32_ses-02_task-face_run-05_eeg.json?versionId=U213DCcTjs3_a7o2vgn0rhRO1V0_oKFc,
+ds007605,acquisition_setups:main.reference,conflicting,REF,primary,https://s3.amazonaws.com/openneuro.org/ds007605/sub-AB39AE/eeg/sub-AB39AE_task-pvt_eeg.json?versionId=Q0huR_bil0CMmytTnhV3f7sxK0u9ZhZv,
+ds007605,acquisition_setups:main.reference,conflicting,nose,secondary,https://openneuro.org/datasets/ds007605,Audit reviewer; scope: not given
+ds007605,n_subjects_reported,conflicting,97,secondary,https://openneuro.org/datasets/ds007605/versions/1.0.2,
+ds007605,n_subjects_reported,conflicting,98,secondary,https://openneuro.org/datasets/ds007605,Audit reviewer; scope: not given
+ds007629,n_subjects_reported,conflicting,1,primary,https://openneuro.org/datasets/ds007629/versions/1.3.0,
+ds007629,n_subjects_reported,conflicting,44,secondary,https://s3.amazonaws.com/openneuro.org/ds007629/README,Audit reviewer; scope: whole roamm dataset (the bids part holds one participant)
+ds007688,acquisition_setups:main.reference,conflicting,placed on Cz,primary,https://s3.amazonaws.com/openneuro.org/ds007688/sub-P43/eeg/sub-P43_task-JustFaces_eeg.json?versionId=_Xuj8XZ3fA_ipI1rA6buR7_mmCtVPkqV,
+ds007688,acquisition_setups:main.reference,conflicting,recorded with CMS/DRL; re-referenced to average reference during preprocessing,secondary,https://s3.amazonaws.com/openneuro.org/ds007688/README,Audit reviewer; scope: not given
+ds007720,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,primary,https://s3.amazonaws.com/openneuro.org/ds007720/sub-P1/ses-1/eeg/sub-P1_ses-1_task-MatrixCalibration_run-1_eeg.json?versionId=sytN1fvkszkeofbR4ZXqGIMbFjv3hfyv,
+ds007720,acquisition_setups:main.device_manufacturer,conflicting,Wearable Sensing,secondary,https://s3.amazonaws.com/openneuro.org/ds007720/README,Audit reviewer; scope: not given
+ds007720,acquisition_setups:main.reference,conflicting,"Averaged linked-ear reference: (A1 + A2) / 2, with active common-mode follower",primary,https://s3.amazonaws.com/openneuro.org/ds007720/sub-P1/ses-1/eeg/sub-P1_ses-1_task-MatrixCalibration_run-1_eeg.json?versionId=sytN1fvkszkeofbR4ZXqGIMbFjv3hfyv,
+ds007720,acquisition_setups:main.reference,conflicting,averaged linked-ear reference ((A1 + A2) / 2) and an active common-mode follower,secondary,https://s3.amazonaws.com/openneuro.org/ds007720/README,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
