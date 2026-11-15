@@ -220,23 +220,37 @@ ds003876,interictalawake,interictalawake,,,,,,,,,
 ds003885,classification,classification,visual_erp,,,,,,,,
 ds003885,movement,movement,,,,,,,,,"Participants were asked to press one of two buttons to indicate whether the object image presented on screen was alive or not. On trials marked 'is_fast', participants viewed rapid RSVP streams of the same images and responded to the fixation spot changing colour. [ds003885_sidecar]"
 ds003885,passive_viewing,passive viewing,passive_viewing,,,,,,,,
+ds003887,classification_and_passive_viewing,classification and passive viewing,passive_viewing;visual_erp,,,,,,,,
 ds003887,movement,movement,,,,,,,,,"Participants were asked to press one of two buttons to indicate whether the object image presented on screen was alive or not. On trials marked 'is_fast', participants viewed rapid RSVP streams of the same images and responded to the fixation spot changing colour. [ds003887_sidecar]"
 ds003944,rest,Rest,resting_unspecified,,,,,,,,"In this resting task, participants were asked to let their mind wander while focusing on a fixation point. The fixation point was a plus-sign projected onto a screen in the MEG recording room about 1 meter from the participant. [ds003944_sidecar]"
 ds003947,rest,rest,resting_unspecified,,,,,,,,"In this resting task, participants were asked to let their mind wander while focusing on a fixation point. The fixation point was a plus-sign projected onto a screen in the MEG recording room about 1 meter from the participant. [ds003947_sidecar]"
+ds003969,meditation_and_instructed_mind_wandering,meditation and instructed mind-wandering (thinking) blocks,other,,,,,,,,
 ds003969,mixed,mixed,,,,,,,,,
+ds003987,t_5ccpt_and_probabilistic_learning_plt_und,5CCPT and Probabilistic Learning (PLT) under amphetamine,cognitive_task,,,,,,,,
 ds003987,t_5ccptxpstxamphetamine,5CCPTxPSTxAmphetamine,,,,,,,,,
 ds004000,responder,responder,,,,,,,,,"The task is playing the Ultimatum Game. The game involves two players and the goal is to split a certain sum of money between the players (here, 10CHF). The first player (proposer) offers part of the money to the second player (responder). If responder agrees on the proposed split, both players receive their share of money. If responder refuses the offer, both players get nothing. In this task, the participant is playing as proposer making an offer of money. The player is then provided feedback with a happy or sad face, indicating whether the offer was accepted or not. The responses are comput [ds004000_sidecar]"
+ds004000,ultimatum_game_proposer_and_responder,Ultimatum Game (proposer and responder),cognitive_task,,,,,,,,
 ds004010,mavis,MAVIS,,,,,,,,,Participants were presented with simultaneous auditory and visual amplitude-modulated noise. Noise frequency spectra were white for all trials. Amplitude modulation spectra were designed to exhibit different spectral exponents between 1 and 4. [ds004010_sidecar]
+ds004010,mavis_multisensory_detection,MAVIS multisensory detection,cognitive_task,,,,,,,,
 ds004015,attendedspeakerparadigmceegridattention,AttendedSpeakerParadigmcEEGridAttention,,,,,,,,,
-ds004018,rsvp,rsvp,,,,,,,,,
+ds004015,two_competing_speaker_paradigm,two-competing speaker paradigm,auditory_erp,,,,,,,,
+ds004017,b_d_forced_choice_discrimination_before,b/d forced-choice discrimination (before and after) and visual search (intervention),cognitive_task,,,,,,,,
+ds004018,rsvp,rsvp,visual_erp,,,,,,,,
+ds004019,delayed_verification_math_task,delayed-verification math task,cognitive_task,,,,,,,,
 ds004019,math_task,Math task,,,,,,,,,"Subjects see two operands which were randomized addition and subtraction operation, then they see the three possible answers. All visual stimuli were black and presented centrally on a white background (Arial, 24 points). Each trial began with a blank screen displayed for 100 ms, presentation of arithmetic problems (e.g., 5 + 4) for 300 ms, followed by a blank screen for 1200 ms. Three possible answers were then presented on the screen,(e.g., a) 11 b) 9 c) 7) for 400 ms, with the correct answer to the presented problem always included in the choices. Upon choice presentation, participants were. [ds004019_sidecar]"
 ds004022,motor_imagery,Motor Imagery,motor_imagery,,,,,,,,"The experiment was designed to quantitatively acquire EEG and fNIRS data related to four right-upper limb movements for MI tasks: reaching, grasping, lifting, and twisting. Decoding different tasks of the same limb could increase the degree of freedom in BCI system control compared to typical BCIs based on somatosensory rhythm, which only detects spatially well-separated patterns, such as left and right hands. [ds004022_sidecar]"
 ds004024,ccpas,ccPAS,,,,,,,,,
+ds004024,ccpas_sptms_tms_eeg,ccPAS / spTMS TMS-EEG,other,,,,,,,,
 ds004024,rest,rest,resting_unspecified,,,,,,,,
 ds004024,rest_2,Rest,resting_unspecified,,,,,,,,
+ds004024,resting_state_eeg,resting-state EEG,resting_eyes_open,,,,,,,,
 ds004024,sptms,spTMS,,,,,,,,,
+ds004033,eyes_open_eyes_closed,Eyes open / Eyes closed,resting_eyes_closed;resting_eyes_open,,,,,,,,
 ds004033,mixed,mixed,,,,,,,,,
+ds004033,oddball_task_standing_walking_alone_walk,Oddball task: Standing / Walking alone / Walking together,auditory_erp,,,,,,,,
+ds004033,walking_together_natural_control_synchro,Walking together: Natural / Control / Synchronize,other,,,,,,,,
 ds004040,trance,trance,,,,,,,,,
+ds004040,trance_channeling_and_resting_state_bloc,trance channeling and resting state blocks,other;resting_unspecified,,,,,,,,
 ds004043,temporal_expectation,Temporal expectation,,,,,,,,,
 ds004067,sociopolitical_judgment_task,Sociopolitical Judgment Task,,,,,,,,,
 ds004075,context03,context03,,,,,,,,,

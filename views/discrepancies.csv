@@ -125,6 +125,26 @@ ds003838,n_subjects_reported,conflicting,65,primary,https://openneuro.org/datase
 ds003838,n_subjects_reported,conflicting,86,secondary,https://s3.amazonaws.com/openneuro.org/ds003838/README,Audit reviewer; scope: not given
 ds003846,acquisition_setups:main.ground,conflicting,AFz,secondary,https://s3.amazonaws.com/openneuro.org/ds003846/README,Audit reviewer; scope: not given
 ds003846,acquisition_setups:main.ground,conflicting,Fpz,primary,https://s3.amazonaws.com/openneuro.org/ds003846/sub-02/ses-EMS/eeg/sub-02_ses-EMS_task-PredictionError_eeg.json?versionId=kEHdlsVstsb1tY0BeCk_GW782mUtmsfq,
+ds003887,acquisition_setups:main.device_model,conflicting,ActiCHamp,secondary,https://s3.amazonaws.com/openneuro.org/ds003887/task-movement_eeg.json,Audit reviewer; scope: not given
+ds003887,acquisition_setups:main.device_model,conflicting,BrainVision ActiCHamp,primary,https://s3.amazonaws.com/openneuro.org/ds003887/task-movement_eeg.json?versionId=VkCufLAu1S3z4d.Vxe5h4BCGHi2IqqMr,
+ds003969,acquisition_setups:main.device_manufacturer,conflicting,BIOSEMI,primary,https://openneuro.org/crn/datasets/ds003969/objects/ed100cd354bc3ebb911fb876816f3067da170fdf?filename=sub-001_task-med1breath_eeg.json,
+ds003969,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0170647,Audit reviewer; scope: not given
+ds003969,acquisition_setups:main.device_model,conflicting,Active-Two,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0170647,Audit reviewer; scope: not given
+ds003969,acquisition_setups:main.device_model,conflicting,Biosemi Active 2,primary,https://openneuro.org/crn/datasets/ds003969/objects/ed100cd354bc3ebb911fb876816f3067da170fdf?filename=sub-001_task-med1breath_eeg.json,
+ds003987,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://s3.amazonaws.com/openneuro.org/ds003987/README,Audit reviewer; scope: distributed .set files; originals were .bdf
+ds003987,acquisition_setups:main.sampling_rate_hz,conflicting,500.0930232558139,primary,https://openneuro.org/crn/datasets/ds003987/objects/d0974347fd6079169612db824e5127a84846f5d2?filename=sub-001_ses-01_task-5CCPTxPSTxAmphetamine_eeg.json,
+ds004015,acquisition_setups:main.device_model,conflicting,BrainAmp,primary,https://s3.amazonaws.com/openneuro.org/ds004015/sub-001/eeg/sub-001_task-AttendedSpeakerParadigmcEEGridAttention_eeg.json?versionId=8gxzOCqGJkKwuLaJz9AqSmagHLVDcSnN,
+ds004015,acquisition_setups:main.device_model,conflicting,SMARTING,primary,https://www.frontiersin.org/articles/10.3389/fnins.2022.869426/full,Audit reviewer; scope: not given
+ds004019,acquisition_setups:main.device_manufacturer,conflicting,Geodesic EEG system,primary,https://openneuro.org/crn/datasets/ds004019/objects/2beee0a130ee207bbb5d4709b107bec47753c0f2?filename=sub-01_task-math_eeg.json,
+ds004019,acquisition_setups:main.device_manufacturer,conflicting,Magstim EGI,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8960456/,Audit reviewer; scope: not given
+ds004019,acquisition_setups:main.device_model,conflicting,Geodesic Net Amps 300,secondary,https://s3.amazonaws.com/openneuro.org/ds004019/README,Audit reviewer; scope: not given
+ds004019,acquisition_setups:main.device_model,conflicting,"Geodesic Net Amps 300, Netstation 4.5.2 software",primary,https://openneuro.org/crn/datasets/ds004019/objects/2beee0a130ee207bbb5d4709b107bec47753c0f2?filename=sub-01_task-math_eeg.json,
+ds004019,acquisition_setups:main.n_channels_eeg,conflicting,128,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8960456/,Audit reviewer; scope: not given
+ds004019,acquisition_setups:main.n_channels_eeg,conflicting,129,primary,https://openneuro.org/crn/datasets/ds004019/objects/2beee0a130ee207bbb5d4709b107bec47753c0f2?filename=sub-01_task-math_eeg.json,
+ds004040,acquisition_setups:main.device_model,conflicting,ActiveTwo,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6384530/,Audit reviewer; scope: not given
+ds004040,acquisition_setups:main.device_model,conflicting,Biosemi,primary,https://openneuro.org/crn/datasets/ds004040/objects/788e894a3ef11b7eb6868dadeba54074d46a1d7b?filename=sub-001_ses-01_task-trance_eeg.json,
+ds004040,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6384530/,Audit reviewer; scope: recorded
+ds004040,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://openneuro.org/crn/datasets/ds004040/objects/788e894a3ef11b7eb6868dadeba54074d46a1d7b?filename=sub-001_ses-01_task-trance_eeg.json,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004574/sub-001/eeg/sub-001_task-Oddball_eeg.json?versionId=Ab5RNBhpIMDrjXkMhMZPSZheoa46Lhq0,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004574/README,Audit reviewer; scope: not given
 ds004579,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004579/sub-001/eeg/sub-001_task-IntervalTiming_eeg.json?versionId=t2OsC3KDFjAMAm9gy0G.5ImsoyjGIs9B,
