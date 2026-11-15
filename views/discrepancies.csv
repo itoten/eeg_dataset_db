@@ -97,3 +97,9 @@ zenodo_15454354,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,
 zenodo_15454354,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://api.datacite.org/dois/10.5281/zenodo.15454355,Audit reviewer; scope: sci and subgroup participants
 zenodo_16536440,acquisition_setups:main.n_channels_eeg,conflicting,19,secondary,https://api.datacite.org/dois/10.5281/zenodo.16536441,Audit reviewer; scope: around-the-ear eeg
 zenodo_16536440,acquisition_setups:main.n_channels_eeg,conflicting,29,secondary,https://api.datacite.org/dois/10.5281/zenodo.16536441,Audit reviewer; scope: scalp eeg
+zenodo_17314288,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://api.datacite.org/dois/10.5281/zenodo.23592484,Audit reviewer; scope: recording (protocol section)
+zenodo_17314288,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,secondary,https://api.datacite.org/dois/10.5281/zenodo.23592484,Audit reviewer; scope: mne-bids generated summary
+zenodo_17314288,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.datacite.org/dois/10.5281/zenodo.23592484,Audit reviewer; scope: recorded
+zenodo_17314288,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://api.datacite.org/dois/10.5281/zenodo.23592484,Audit reviewer; scope: distributed
+zenodo_17413335,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://www.nature.com/articles/s41597-026-07244-w,Audit reviewer; scope: preprocessed (mat)
+zenodo_17413335,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://www.nature.com/articles/s41597-026-07244-w,Audit reviewer; scope: raw (cnt)
