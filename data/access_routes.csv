@@ -101,8 +101,6 @@ ds002778,nemar,mirror,https://nemar.org/dataset/on002778,direct_download,none,ne
 ds002778,openneuro,repository,https://openneuro.org/datasets/ds002778/versions/1.0.5,site_terms_agreement,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),aws-s3;openneuro-cli;datalad,,,
 ds002791,nemar,mirror,https://nemar.org/dataset/on002791,direct_download,none,nemar-cli;datalad;git-annex;wget,,,
 ds002791,openneuro,repository,https://openneuro.org/datasets/ds002791/versions/1.0.0,site_terms_agreement,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),aws-s3;openneuro-cli;datalad,,,
-ds002799,nemar,mirror,https://nemar.org/dataset/on002799,direct_download,none,nemar-cli;datalad;git-annex;wget,,,
-ds002799,openneuro,repository,https://openneuro.org/datasets/ds002799/versions/1.0.4,site_terms_agreement,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),aws-s3;openneuro-cli;datalad,,,
 ds002814,nemar,mirror,https://nemar.org/dataset/on002814,direct_download,none,nemar-cli;datalad;git-annex;wget,,,
 ds002814,openneuro,repository,https://openneuro.org/datasets/ds002814/versions/1.3.0,site_terms_agreement,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),aws-s3;openneuro-cli;datalad,,,
 ds002833,nemar,mirror,https://nemar.org/dataset/on002833,direct_download,none,nemar-cli;datalad;git-annex;wget,,,

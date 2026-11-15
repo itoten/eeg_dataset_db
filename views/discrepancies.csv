@@ -1,4 +1,31 @@
 dataset_id,field,kind,value,source_type,source_ref,note
+ds002718,acquisition_setups:main.sampling_rate_hz,conflicting,1100,primary,https://www.nature.com/articles/sdata20151,Audit reviewer; scope: original recording
+ds002718,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://openneuro.org/crn/datasets/ds002718/objects/44343931f540fef6864153513bf3ee8d8cd8ca33?filename=sub-002_task-FaceRecognition_eeg.json,
+ds002718,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://s3.amazonaws.com/openneuro.org/ds002718/README,Audit reviewer; scope: distributed (resampled)
+ds002718,n_subjects_reported,conflicting,18,primary,https://openneuro.org/datasets/ds002718/versions/1.1.0,
+ds002718,n_subjects_reported,conflicting,19,primary,https://www.nature.com/articles/sdata20151,Audit reviewer; scope: original wakeman & henson dataset; this repackaged record does not state a count
+ds002720,n_subjects_reported,conflicting,18,primary,https://openneuro.org/datasets/ds002720/versions/1.0.1,
+ds002720,n_subjects_reported,conflicting,19,secondary,https://s3.amazonaws.com/openneuro.org/ds002720/README,Audit reviewer; scope: not given
+ds002724,n_subjects_reported,conflicting,10,primary,https://openneuro.org/datasets/ds002724/versions/1.0.1,
+ds002724,n_subjects_reported,conflicting,17,secondary,https://s3.amazonaws.com/openneuro.org/ds002724/README,Audit reviewer; scope: not given
+ds002725,acquisition_setups:main.n_channels_eeg,conflicting,30,primary,https://openneuro.org/crn/datasets/ds002725/objects/cb6c2e7134186ab447c26578f7b1704911fda326?filename=sub-01_task-classicalMusic_eeg.json,
+ds002725,acquisition_setups:main.n_channels_eeg,conflicting,31,primary,https://www.nature.com/articles/s41597-020-0507-6,Audit reviewer; scope: not given
+ds002725,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://openneuro.org/crn/datasets/ds002725/objects/cb6c2e7134186ab447c26578f7b1704911fda326?filename=sub-01_task-classicalMusic_eeg.json,
+ds002725,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://www.nature.com/articles/s41597-020-0507-6,Audit reviewer; scope: not given
+ds002778,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://www.eneuro.org/content/6/3/ENEURO.0151-19.2019,Audit reviewer; scope: not given
+ds002778,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,primary,https://openneuro.org/crn/datasets/ds002778/objects/9756671a81b4bc529e1899dd0b7dd85aa0fc4780?filename=sub-hc1_ses-hc_task-rest_eeg.json,
+ds002778,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://www.eneuro.org/content/6/3/ENEURO.0151-19.2019,Audit reviewer; scope: not given
+ds002778,acquisition_setups:main.n_channels_eeg,conflicting,40,primary,https://openneuro.org/crn/datasets/ds002778/objects/9756671a81b4bc529e1899dd0b7dd85aa0fc4780?filename=sub-hc1_ses-hc_task-rest_eeg.json,
+ds002893,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,primary,https://s3.amazonaws.com/openneuro.org/ds002893/sub-001/eeg/sub-001_task-AuditoryVisualShift_run-01_eeg.json?versionId=tp7jKjWhwEZArm29Gp9VNgcLk5rB7XjI,
+ds002893,acquisition_setups:main.device_manufacturer,conflicting,SA Instrumentation,secondary,https://s3.amazonaws.com/openneuro.org/ds002893/README,Audit reviewer; scope: not given
+ds002893,acquisition_setups:main.reference,conflicting,average of the left- and right-mastoid,primary,https://s3.amazonaws.com/openneuro.org/ds002893/sub-001/eeg/sub-001_task-AuditoryVisualShift_run-01_eeg.json?versionId=tp7jKjWhwEZArm29Gp9VNgcLk5rB7XjI,
+ds002893,acquisition_setups:main.reference,conflicting,right mastoid,secondary,https://s3.amazonaws.com/openneuro.org/ds002893/README,Audit reviewer; scope: not given
+ds003004,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,primary,https://openneuro.org/crn/datasets/ds003004/objects/70630b2ed41dab42d33cb71dc819963d7a7188ef?filename=sub-01_task-ImaginedEmotion_eeg.json,
+ds003004,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,primary,https://www.frontiersin.org/articles/10.3389/neuro.09.061.2009/full,Audit reviewer; scope: not given
+ds003004,acquisition_setups:main.n_channels_eeg,conflicting,224,primary,https://openneuro.org/crn/datasets/ds003004/objects/70630b2ed41dab42d33cb71dc819963d7a7188ef?filename=sub-01_task-ImaginedEmotion_eeg.json,
+ds003004,acquisition_setups:main.n_channels_eeg,conflicting,250,primary,https://www.frontiersin.org/articles/10.3389/neuro.09.061.2009/full,Audit reviewer; scope: as recorded; distributed count may differ (bad channels removed)
+ds003004,n_subjects_reported,conflicting,32,primary,https://www.frontiersin.org/articles/10.3389/neuro.09.061.2009/full,Audit reviewer; scope: paper; readme says subject 22 (a repeat subject) was removed from the dataset
+ds003004,n_subjects_reported,conflicting,34,primary,https://openneuro.org/datasets/ds003004/versions/1.1.1,
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given

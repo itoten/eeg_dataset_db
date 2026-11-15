@@ -69,21 +69,20 @@ ds002338,A multi-modal human neuroimaging dataset for data integration: simultan
 ds002578,Visual Oddball Task (256 channels),,scalp_eeg,,university_of_california_san_diego,,CC0-1.0,,,,,,true,,2,,,,1.33,,,,,,direct_download,open,256,256,,ActiveTwo,,,2026-11-14
 ds002680,Go-nogo categorization and detection task,,scalp_eeg,,paul_sabatier_universite,,CC0-1.0,,,,,,true,,14,,,,9.22,,,,,,direct_download,open,0,1000,,Neuroscan Synamps 1 (model 5083),,,2026-11-14
 ds002691,Internal attention study,,scalp_eeg,,institute_of_noetic_sciences,,CC0-1.0,,,,,,true,,20,,,,0.76,,,,,,direct_download,open,32,250,,EGI Net Amps 300,,,2026-11-14
-ds002718,Face processing EEG dataset for EEGLAB,,scalp_eeg,,mrc_cognition_brain_sciences_unit,,CC0-1.0,,,,,,true,,18,,,,4.31,,,,,,direct_download,open,70,250,10_10,,,,2026-11-14
-ds002720,A dataset recorded during development of a tempo-based brain-computer music interface,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,2.39,,,,,,direct_download,open,19,1000,,,,,2026-11-14
-ds002721,An EEG dataset recorded during affective music listening,,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,3.35,,,,,,direct_download,open,19,1000,,,,,2026-11-14
-ds002722,A dataset recorded during development of an affective brain-computer music interface: calibration session,,scalp_eeg,,,,CC0-1.0,,,,,,true,,19,,,,6.1,,,,,,direct_download,open,32,1000,,,,,2026-11-14
-ds002723,A dataset recorded during development of an affective brain-computer music interface: testing session,,scalp_eeg,,,,CC0-1.0,,,,,,true,,8,,,,2.6,,,,,,direct_download,open,32,1000,,,,,2026-11-14
-ds002724,A dataset recorded during development of an affective brain-computer music interface: training sessions,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,8.52,,,,,,direct_download,open,32,1000,,,,,2026-11-14
-ds002725,A dataset recording joint EEG-fMRI during affective music listening,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,15.32,,,,,,direct_download,open,30,1000,,,,,2026-11-14
-ds002778,UC San Diego Resting State EEG Data from Patients with Parkinson's Disease,,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,0.53,,,,,,direct_download,open,40,512,,Biosemi,resting_unspecified,,2026-11-14
-ds002791,DataSet1,,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,23,,,,47.09,,,,,,direct_download,open,256,1000,,,,,2026-11-14
-ds002799,Human es-fMRI Resource: Concurrent deep-brain stimulation and whole-brain functional MRI,,ieeg,,,,CC0-1.0,,,,,,true,,26,,,,18.57,,,,,,direct_download,open,,,,,resting_unspecified,,2026-11-14
-ds002814,A Multimodal Neuroimaging Dataset to Study Spatiotemporal Dynamics of Visual Processing in Humans,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,27.73,,,,,,direct_download,open,,,,,,,2026-11-14
-ds002833,DataSet2,,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,20,,,,39.77,,,,,,direct_download,open,257,1000,,,,,2026-11-14
-ds002893,Auditory-Visual Shift Study,,scalp_eeg,,institute_for_neural_computation,,CC0-1.0,,,,,,true,,49,,,,7.7,,,,,,direct_download,open,33,250,10_20,BioSemi,,,2026-11-14
-ds003004,Imagined Emotion Study,,scalp_eeg,,institute_for_neural_computation,,CC0-1.0,,,,,,true,,34,,,,36.05,,,,,,direct_download,open,224,256,10_20,BioSemi,,,2026-11-14
-ds003029,Epilepsy-iEEG-Multicenter-Dataset,,ieeg,,,,CC0-1.0,,,,,,true,,35,,,,10.32,,,,,,direct_download,open,0,1000,,,,,2026-11-14
+ds002718,Face processing EEG dataset for EEGLAB,,scalp_eeg;eog;ecg,,mrc_cognition_brain_sciences_unit,,CC0-1.0,,,,,,true,,conflicting,,,,4.31,,,,,,direct_download,open,70,,10_10,Elekta Neuromag Vectorview 306,,,2026-11-15
+ds002720,A dataset recorded during development of a tempo-based brain-computer music interface,,scalp_eeg,,,,CC0-1.0,,,,,,true,,conflicting,,,,2.39,,,,,,direct_download,open,19,1000,10_20,BrainProducts BrainAmp,motor_imagery,,2026-11-15
+ds002721,An EEG dataset recorded during affective music listening,,scalp_eeg,emotion,,,CC0-1.0,,,,,,true,,31,,,,3.35,,,,,,direct_download,open,19,1000,10_20,,emotion_induction;resting_unspecified,,2026-11-15
+ds002722,A dataset recorded during development of an affective brain-computer music interface: calibration session,,scalp_eeg;eda;ecg,emotion,,,CC0-1.0,,,,,,true,,19,,,,6.1,,,,,,direct_download,open,32,1000,,,emotion_induction,,2026-11-15
+ds002723,A dataset recorded during development of an affective brain-computer music interface: testing session,,scalp_eeg,,,,CC0-1.0,,,,,,true,,8,,,,2.6,,,,,,direct_download,open,32,1000,,,emotion_induction,,2026-11-15
+ds002724,A dataset recorded during development of an affective brain-computer music interface: training sessions,,scalp_eeg;eda;ecg,,,,CC0-1.0,,,,,,true,,conflicting,,,,8.52,,,,,,direct_download,open,32,1000,,,emotion_induction,,2026-11-15
+ds002725,A dataset recording joint EEG-fMRI during affective music listening,,scalp_eeg;fmri,emotion,,,CC0-1.0,,,,,,true,,21,,,,15.32,,,,,,direct_download,open,,,10_20,BrainAmp MR,emotion_induction,,2026-11-15
+ds002778,UC San Diego Resting State EEG Data from Patients with Parkinson's Disease,,scalp_eeg,neurology,,,CC0-1.0,,,,,,true,,31,,,,0.53,,,,,,direct_download,open,,512,,ActiveTwo,resting_unspecified,,2026-11-15
+ds002791,DataSet1,,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,23,,,,47.09,,,,,,direct_download,open,256,1000,,EGI,,,2026-11-15
+ds002814,A Multimodal Neuroimaging Dataset to Study Spatiotemporal Dynamics of Visual Processing in Humans,,scalp_eeg;fmri;eog,,,,CC0-1.0,,,,,,true,,21,,,,27.73,,,,,,direct_download,open,64,1100,10_10,g.HIamp,,,2026-11-15
+ds002833,DataSet2,,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,20,,,,39.77,,,,,,direct_download,open,257,1000,,EGI,,,2026-11-15
+ds002893,Auditory-Visual Shift Study,,scalp_eeg;eog,,institute_for_neural_computation,,CC0-1.0,,,,,,true,,49,,,,7.7,,,,,,direct_download,open,33,250,10_20,,auditory_erp;visual_erp,,2026-11-15
+ds003004,Imagined Emotion Study,,scalp_eeg;ecg,emotion,institute_for_neural_computation,,CC0-1.0,,,,,,true,,conflicting,,,,36.05,,,,,,direct_download,open,,256,10_20,,emotion_induction,,2026-11-15
+ds003029,Epilepsy-iEEG-Multicenter-Dataset,,ieeg_ecog;ieeg_seeg,epilepsy,,,CC0-1.0,,,,,,true,,35,,,,10.32,,,,,,direct_download,open,0,1000,,,,,2026-11-15
 ds003039,free walking study,,scalp_eeg,,university_of_oldenburg,,CC0-1.0,,,,,,true,,19,,,,7.82,,,,,,direct_download,open,64,500,,LiveAmp,,,2026-11-14
 ds003061,EEG data from an auditory oddball task,,scalp_eeg,,paul_sabatier_universite,,CC0-1.0,,,,,,true,,13,,,,2.26,,,,,,direct_download,open,64,256,,BIOSEMI Biosemi Active 2,p300_erp,,2026-11-14
 ds003078,PROBE iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,6,,,,10.95,,,,,,direct_download,open,,,,,,,2026-11-14
