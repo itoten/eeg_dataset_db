@@ -62,8 +62,11 @@ nm000244,derived_from,zenodo_3266222,nm000244_nemar,NEMAR lists 10.5281/zenodo.3
 nm000245,derived_from,cho2017,nm000245_nemar,NEMAR lists 10.5524/100295 as IsDerivedFrom this record
 nm000246,derived_from,wbcic_mi_yang2025,nm000246_nemar,NEMAR lists 10.1038/s41597-025-04826-y as IsDerivedFrom this record
 nm000247,derived_from,bigp3bci,nm000247_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000247,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000248,derived_from,bigp3bci,nm000248_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000248,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000250,derived_from,zenodo_7516450,nm000250_nemar,NEMAR lists 10.5281/zenodo.8089820 as IsDerivedFrom this record
+nm000251,derived_from,zenodo_14049894,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000254,derived_from,natview_eeg_fmri,nm000254_nemar,NEMAR lists 10.1038/s41597-023-02458-8 as IsDerivedFrom this record
 nm000269,derived_from,bigp3bci,nm000269_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000270,derived_from,liu2025_stroke_lower_limb_mi,nm000270_nemar,NEMAR lists 10.1038/s41597-025-04618-4 as IsDerivedFrom this record

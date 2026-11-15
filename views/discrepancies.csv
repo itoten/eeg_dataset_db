@@ -679,6 +679,24 @@ nm000208,n_subjects_reported,conflicting,15,secondary,https://api.nemar.org/data
 nm000217,n_subjects_reported,conflicting,44,secondary,https://api.nemar.org/datasets/nm000217,Audit reviewer; scope: not given
 nm000217,n_subjects_reported,conflicting,44,secondary,https://nemar.org/dataset/nm000217,
 nm000217,n_subjects_reported,conflicting,50,secondary,https://api.nemar.org/datasets/nm000217,Audit reviewer; scope: not given
+nm000240,acquisition_setups:main.montage_system,conflicting,10_05,primary,https://nemar.org/dataset/nm000240,
+nm000240,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10667696/fullTextXML,Audit reviewer; scope: not given
+nm000242,acquisition_setups:main.reference,conflicting,CPz,primary,https://nemar.org/dataset/nm000242,
+nm000242,acquisition_setups:main.reference,conflicting,Cpz,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12886826/fullTextXML,Audit reviewer; scope: not given
+nm000244,n_subjects_reported,conflicting,64,primary,https://nemar.org/dataset/nm000244,
+nm000244,n_subjects_reported,conflicting,71,secondary,https://api.datacite.org/dois/10.5281/zenodo.3266223,Audit reviewer; scope: not given
+nm000246,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://nemar.org/dataset/nm000246,
+nm000246,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11930978/fullTextXML,Audit reviewer; scope: not given
+nm000246,n_subjects_reported,conflicting,51,primary,https://nemar.org/dataset/nm000246,
+nm000246,n_subjects_reported,conflicting,62,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11930978/fullTextXML,Audit reviewer; scope: paper: whole study
+nm000249,acquisition_setups:main.reference,conflicting,car,primary,https://nemar.org/dataset/nm000249,
+nm000249,acquisition_setups:main.reference,conflicting,common-average referencing,primary,https://api.nemar.org/datasets/nm000249,Audit reviewer; scope: distributed (preprocessed) data
+nm000249,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://api.nemar.org/datasets/nm000249,Audit reviewer; scope: recorded
+nm000249,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://nemar.org/dataset/nm000249,
+nm000250,acquisition_setups:main.n_channels_eeg,conflicting,27,primary,https://nemar.org/dataset/nm000250,
+nm000250,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10480224/fullTextXML,Audit reviewer; scope: not given
+nm000252,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://nemar.org/dataset/nm000252,
+nm000252,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://api.nemar.org/datasets/nm000252,Audit reviewer; scope: not given
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
