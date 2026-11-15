@@ -493,18 +493,18 @@ ds004852,nback,nback,,,,,,,,,
 ds004853,nback,nback,,,,,,,,,
 ds004854,nback,nback,,,,,,,,,
 ds004855,nback,nback,,,,,,,,,
-ds004859,stroop,stroop,,,,,,,,,"101 = Congruent word reading Stimulus Onset, 102 = Congruent word reading Response Onset, 201 = Incongruent word reading Stimulus Onset, 202 = Incongruent word reading Response Onset, 301 = Stroop naming Stimulus Onset, 102 = Stroop naming Response Onset. [ds004859_sidecar]"
+ds004859,stroop,stroop,cognitive_task,,,,,,,,"101 = Congruent word reading Stimulus Onset, 102 = Congruent word reading Response Onset, 201 = Incongruent word reading Stimulus Onset, 202 = Incongruent word reading Response Onset, 301 = Stroop naming Stimulus Onset, 102 = Stroop naming Response Onset. [ds004859_sidecar]"
 ds004860,harmn400,HarmN400,,,,,,,,,
-ds004865,pyfr,pyFR,,,,,,,,,delayed free recall of word lists. [ds004865_sidecar]
+ds004865,pyfr,pyFR,cognitive_task,,,,,,,,delayed free recall of word lists. [ds004865_sidecar]
 ds004883,ffa,ffa,,,,,,,,,
-ds004883,ffb,ffb,,,,,,,,,"Participants completed flanker task version B, responding to the direction of a central target stimulus in congruent and incongruent arrays. More detailed task information is available at https://osf.io/qt2zh/. [ds004883_sidecar]"
+ds004883,ffb,ffb,cognitive_task,,,,,,,,"Participants completed flanker task version B, responding to the direction of a central target stimulus in congruent and incongruent arrays. More detailed task information is available at https://osf.io/qt2zh/. [ds004883_sidecar]"
 ds004883,ffc,ffc,,,,,,,,,
-ds004902,eyesclosed,eyesclosed,,,,,,,,,
-ds004902,eyesopen,eyesopen,,,,,,,,,
+ds004902,eyesclosed,eyesclosed,resting_eyes_closed,,,,,,,,
+ds004902,eyesopen,eyesopen,resting_eyes_open,,,,,,,,
 ds004917,probabilisticdecisionmakingtask,$ProbabilisticDecisionMakingTask,,,,,,,,,
-ds004942,spatialmemory,SpatialMemory,,,,,,,,,
-ds004944,acute,acute,,,,,,,,,"Intra-operative recording in 2 situations (SITUATION1A-pre-resection SITUATION2A-post-resection), patient is under (tempered) anesthesia, not doing a specific task/undergoing mapping. [ds004944_sidecar]"
-ds004951,letters,letters,,,,,,,,,
+ds004942,spatialmemory,SpatialMemory,cognitive_task,,,,,,,,
+ds004944,acute,acute,anesthesia,,,,,,,,"Intra-operative recording in 2 situations (SITUATION1A-pre-resection SITUATION2A-post-resection), patient is under (tempered) anesthesia, not doing a specific task/undergoing mapping. [ds004944_sidecar]"
+ds004951,letters,letters,other,,,,,,,,
 ds004952,reading,reading,,,,,,,,,
 ds004977,cortico_cortical_evoked_potentials,Cortico Cortical Evoked Potentials,,,,,,,,,
 ds004980,defaulttask,DefaultTask,,,,,,,,,Participants immersed in 2d Unity rooms controled their walking by four arrow buttons. [ds004980_sidecar]

@@ -273,21 +273,21 @@ ds004842,TX15,,scalp_eeg,,,,CC0-1.0,,,,,,true,,14,,,,5.21,,,,,,direct_download,o
 ds004843,T16,,scalp_eeg,,,,CC0-1.0,,,,,,true,,14,,,,7.66,,,,,,direct_download,open,64,256,,,,,2026-11-15
 ds004844,T22,,scalp_eeg,,,,CC0-1.0,,,,,,true,,17,,,,22.33,,,,,,direct_download,open,64,1024,,,cognitive_task,,2026-11-15
 ds004849,STRONG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-15
-ds004850,ODE,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-14
-ds004851,HID,,scalp_eeg,,army_research_laboratory,,CC0-1.0,,,,,,true,,66,,,,55.93,,,,,,direct_download,open,,2048,,,,,2026-11-14
-ds004852,InsurgentCivilian,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-14
-ds004853,TX17,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-14
-ds004854,TX18,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-14
-ds004855,FT,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-14
-ds004859,iEEG on children during Stroop task,,ieeg,,,,CC0-1.0,,,,,,true,,7,,,,2.27,,,,,,direct_download,open,,1000,,,,,2026-11-14
-ds004860,Investigating the cognitive conflict triggered by moral judgment of accidental harm : an event-related potentials study,,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,3.79,,,,,,direct_download,open,32,512,,,,,2026-11-14
-ds004865,"pyFR: Delayed Free Recall of Word Lists, Preliminary Cognitive Electrophysiology Study",,ieeg,,,,CC0-1.0,,,,,,true,,49,,,,97.79,,,,,,direct_download,open,0,400,,,,,2026-11-14
-ds004883,Registered Report of ERN During Three Versions of a Flanker Task,,scalp_eeg,,university_of_south_florida_usf_or_brigham_young_u,,CC0-1.0,,,,,,true,,172,,,,126.67,,,,,,direct_download,open,129,500,,"Electrical Geodesics, Inc.",,,2026-11-14
-ds004902,A Resting-state EEG Dataset for Sleep Deprivation,,scalp_eeg,,southwest_university,,CC0-1.0,,,,,,true,,71,,,,8.29,,,,,,direct_download,open,61,500,10_20,,,,2026-11-14
-ds004917,Probability Decision-making Task with ambiguity,,scalp_eeg,,,,CC0-1.0,,,,,,true,,53,,,,37.45,,,,,,direct_download,open,,,,,,,2026-11-14
-ds004942,SpatialMemory,,scalp_eeg,,college_of_william_mary,,CC0-1.0,,,,,,true,,62,,,,25.05,,,,,,direct_download,open,65,1000,10_20,Sensorium Inc. DBPA-1,,,2026-11-14
-ds004944,Dataset of BCI2000-compatible intraoperative ECoG with neuromorphic encoding,,ieeg,,neurochirurgie_universit_tsspital_z_rich,,CC0-1.0,,,,,,true,,22,,,,0.44,,,,,,site_terms_agreement,one_time_human,0,2000,,Natus Medical Inc. Nicolet Nicolet CSeries amplifier,,,2026-11-14
-ds004951,Braille letters - EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,11,,,,22,,,,,,direct_download,open,63,1000,10_20,Brain Products,,,2026-11-14
+ds004850,ODE,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-15
+ds004851,HID,,scalp_eeg,,army_research_laboratory,,CC0-1.0,,,,,,true,,66,,,,55.93,,,,,,direct_download,open,,2048,,,,,2026-11-15
+ds004852,InsurgentCivilian,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-15
+ds004853,TX17,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-15
+ds004854,TX18,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-15
+ds004855,FT,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-15
+ds004859,iEEG on children during Stroop task,,ieeg,,,,CC0-1.0,,,,,,true,,7,,,,2.27,,,,,,direct_download,open,,1000,,,cognitive_task,,2026-11-15
+ds004860,Investigating the cognitive conflict triggered by moral judgment of accidental harm : an event-related potentials study,,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,3.79,,,,,,direct_download,open,32,512,,,,,2026-11-15
+ds004865,"pyFR: Delayed Free Recall of Word Lists, Preliminary Cognitive Electrophysiology Study",,ieeg,,,,CC0-1.0,,,,,,true,,49,,,,97.79,,,,,,direct_download,open,0,400,,,cognitive_task,,2026-11-15
+ds004883,Registered Report of ERN During Three Versions of a Flanker Task,,scalp_eeg,,university_of_south_florida_usf_or_brigham_young_u,,CC0-1.0,,,,,,true,,172,,,,126.67,,,,,,direct_download,open,129,500,,"Electrical Geodesics, Inc.",cognitive_task,,2026-11-15
+ds004902,A Resting-state EEG Dataset for Sleep Deprivation,,scalp_eeg,sleep;resting_state,southwest_university,,CC0-1.0,,,,,,true,,71,,,,8.29,,,,,,direct_download,open,61,500,10_20,Brain Products GmbH,resting_eyes_closed;resting_eyes_open,,2026-11-15
+ds004917,Probability Decision-making Task with ambiguity,,scalp_eeg,,,,CC0-1.0,,,,,,true,,53,,,,37.45,,,,,,direct_download,open,64,5000,,BrainProducts BrainAmp 64 DC,,,2026-11-15
+ds004942,SpatialMemory,,scalp_eeg,cognitive,college_of_william_mary,,CC0-1.0,,,,,,true,,62,,,,25.05,,,,,,direct_download,open,65,1000,10_20,Sensorium Inc. DBPA-1,cognitive_task,,2026-11-15
+ds004944,Dataset of BCI2000-compatible intraoperative ECoG with neuromorphic encoding,,ieeg_ecog,epilepsy;clinical,neurochirurgie_universit_tsspital_z_rich,,CC0-1.0,,,,,,true,,22,,,,0.44,,,,,,site_terms_agreement,one_time_human,0,2000,,Natus Medical Inc. Nicolet Nicolet CSeries amplifier,anesthesia,,2026-11-15
+ds004951,Braille letters - EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,11,,,,22,,,,,,direct_download,open,63,1000,10_20,Brain Products,other,,2026-11-15
 ds004952,ChineseEEG: A Chinese Linguistic Corpora EEG Dataset for Semantic Alignment and Neural Decoding,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,207.12,,,,,,direct_download,open,128,1000,,Brain Products,,,2026-11-14
 ds004977,CARLA: Adjusted common average referencing for cortico-cortical evoked potential data,,ieeg,,,,CC0-1.0,,,,,,true,,4,,,,1.49,,,,,,direct_download,open,,4800,,g.Tec g.HIamp,,,2026-11-14
 ds004980,EEG data set for a architectural affordances task,,scalp_eeg,,technische_universitaet_zu_berlin,,CC0-1.0,,,,,,true,,17,,,,15.82,,,,,,direct_download,open,64,499.9914553,,,,,2026-11-14
