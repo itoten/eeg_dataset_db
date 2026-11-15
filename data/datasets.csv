@@ -1587,26 +1587,23 @@ zenodo_23441153,German plural EEG,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,d
 zenodo_23458776,"SYNAPSE: cognitive performance, EEG, wrist physiology, facial thermography and indoor environment under warm and cool LED lighting and urban soundscapes",,scalp_eeg;other_physiological,cognitive;other,,2026,CC-BY-4.0,,,,,,,,10,,,,,,,,,,request_form_or_email,approval,4,256,,Muse S,cognitive_task,,2026-11-15
 zenodo_23464851,EEG-ECG Dataset for Sternberg Working Memory Task under Low and High Cognitive Load,,scalp_eeg;ecg;eog,cognitive,,2026,CC-BY-4.0,,,,,,,,47,,,,,,,,,,direct_download,open,,,10_10,Brain Products actiCHamp Plus,cognitive_task;resting_eyes_open,,2026-11-15
 zenodo_23478161,Disentangling stimulus-driven and goal-dependent contributions to the N170's sensitivity to the eye region : Study 2 - EEG and behavioral datasets,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
-zenodo_2348891,EEG Alpha Waves dataset,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23489641,Sleep Scoring App: example EEG/EMG/NE recording and behavior video,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23531370,COVID19 resting-state EEG classification dataset,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23560951,EEG Cognitive Load Data,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23573703,Concurrent bedside-camera and forehead-EEG recordings of REM sleep,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23589424,"AISKI: A multi-site, bilingual EEG dataset for auditory attention decoding",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_23598819,Distinguishing evidence accumulation from choice confidence in neural signatures of perceptual decision making,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23636975,Electrophysiological Evidence for Different Conflict Types in the Stroop Task,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23637329,Pre-registration: configuration search and locked test for EEG-to-language-model word retrieval on ZuCo 2.0,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23649817,AISKI speech stimuli: AI-generated Korean and English two-talker speech for auditory attention decoding,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_23656374,Raw EEG Data for Object Recognition Across Contrast Levels,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23660964,EEG Dataset for Artifact Removal and Hybrid Filtering During Lower-Limb Exoskeleton-Assisted Walking,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,28,250,,,,,2026-11-14
-zenodo_23665137,EEGMAT rest vs arithmetic EEG classification dataset,,scalp_eeg,,,2026,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23665509,AlexMI right hand vs feet motor imagery EEG classification dataset,,scalp_eeg,,,2026,CC-BY-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23665649,Weibo2014 left hand vs right hand motor imagery EEG classification dataset,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23665773,"Rock, Paper, Scissors EEG classification dataset",,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23670432,When component analysis finds nothing: within-subject paired decoding of service success and failure from EEG,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23679730,CCRR: Selective error correction through calibrated fusion and routing for cross-session motor-imagery EEG decoding — source data and original implementation,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23764503,Load decoding across WM states,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_23787196,P300-BCI EEG dataset: sitting vs. supine posture,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,8,,,,,,2026-11-14
+zenodo_2348891,EEG Alpha Waves dataset,,scalp_eeg,resting_state,,2018,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,16,,,,resting_eyes_closed;resting_eyes_open,,2026-11-15
+zenodo_23489641,Sleep Scoring App: example EEG/EMG/NE recording and behavior video,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_23531370,COVID19 resting-state EEG classification dataset,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,19,200,,,resting_eyes_closed,,2026-11-15
+zenodo_23560951,EEG Cognitive Load Data,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,30,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_23573703,Concurrent bedside-camera and forehead-EEG recordings of REM sleep,,scalp_eeg,sleep,,2026,CC-BY-4.0,,,,,,,,1,,,,,,,,,,direct_download,open,2,500,,CGX Patch,sleep,,2026-11-15
+zenodo_23589424,"AISKI: A multi-site, bilingual EEG dataset for auditory attention decoding",,scalp_eeg,perception,,2026,CC-BY-4.0,,,,,,,,20,,,36.25,,,,,,,request_form_or_email,approval,,128,,BioSemi ActiveTwo,other,,2026-11-15
+zenodo_23598819,Distinguishing evidence accumulation from choice confidence in neural signatures of perceptual decision making,,scalp_eeg;eye_tracking,cognitive;perception,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-15
+zenodo_23636975,Electrophysiological Evidence for Different Conflict Types in the Stroop Task,,scalp_eeg,cognitive,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-15
+zenodo_23656374,Raw EEG Data for Object Recognition Across Contrast Levels,,scalp_eeg,perception,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,30,,,,cognitive_task,,2026-11-15
+zenodo_23660964,EEG Dataset for Artifact Removal and Hybrid Filtering During Lower-Limb Exoskeleton-Assisted Walking,,scalp_eeg;eog;other_physiological,bci;motor,,2026,CC-BY-4.0,,,,,,,,6,,,,,,,,,,request_form_or_email,approval,28,250,10_20,Brain Products LiveAmp,motor_imagery,,2026-11-15
+zenodo_23665137,EEGMAT rest vs arithmetic EEG classification dataset,,scalp_eeg,,,2026,ODC-By-1.0,,,,,,,,36,,,,,,,,,,direct_download,open,19,500,,,cognitive_task;resting_unspecified,,2026-11-15
+zenodo_23665509,AlexMI right hand vs feet motor imagery EEG classification dataset,,scalp_eeg,,,2026,CC-BY-SA-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,16,512,,,motor_imagery,,2026-11-15
+zenodo_23665649,Weibo2014 left hand vs right hand motor imagery EEG classification dataset,,scalp_eeg,,,2026,CC0-1.0,,,,,,,,10,,,,,,,,,,direct_download,open,,,10_20,Neuroscan SynAmps2,motor_imagery,,2026-11-15
+zenodo_23665773,"Rock, Paper, Scissors EEG classification dataset",,scalp_eeg,,,2026,CC0-1.0,,,,,,,,62,,,,,,,,,,direct_download,open,64,,,,cognitive_task,,2026-11-15
+zenodo_23670432,When component analysis finds nothing: within-subject paired decoding of service success and failure from EEG,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_23764503,Load decoding across WM states,,scalp_eeg,cognitive,,2026,CC-BY-4.0,,,,,,,,33,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-15
+zenodo_23787196,P300-BCI EEG dataset: sitting vs. supine posture,,scalp_eeg,bci,,2026,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,8,256,10_20,g.tec g.USBamp,p300_erp,,2026-11-15
 zenodo_23855267,"Graded Minds: ERP Evidence for Continuous, Multidimensional Conceptual Processing in Picture–Word Stroop and Semantic Decision Tasks",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_23858573,Post-intervention high-beta synchronization tracks stable-manifold alignment during stick-balancing learning,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_23878796,"Evidence for claims in manuscript: Foundation Models for EEG: Progress, Challenges, and Opportunities for Clinical Neurophysiology",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14

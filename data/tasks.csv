@@ -3992,6 +3992,20 @@ zenodo_23335155,right_hand_grip_force_task_under_three_v,right-hand grip force t
 zenodo_23458776,computerised_tasks_n_back_stroop_visual,"computerised tasks (n-back, Stroop, visual counting or shape comparison, flanker)",cognitive_task,,,,,,,,
 zenodo_23464851,eyes_open_eo_resting_baseline,Eyes Open (EO) resting baseline,resting_eyes_open,,,,,,,,
 zenodo_23464851,sternberg_working_memory_task_low_and_hi,Sternberg Working Memory Task (low and high workload),cognitive_task,,,,,,,,
+zenodo_2348891,resting_state_eyes_open_closed_protocol,resting-state eyes open/closed protocol,resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_23531370,eyes_closed_baseline_windows,eyes-closed baseline windows,resting_eyes_closed,,,,,,,,
+zenodo_23573703,natural_home_sleep,natural home sleep,sleep,,,,,,,,
+zenodo_23589424,two_talker_auditory_attention_diotic,two-talker auditory attention (diotic),other,,,,,,,,
+zenodo_23598819,perceptual_decision_making_task_with_pre,perceptual decision-making task with predictive cues,cognitive_task,,,,,,,,
+zenodo_23636975,stroop_task_two_experiments,Stroop task (two experiments),cognitive_task,,,,,,,,
+zenodo_23656374,animal_versus_non_animal_visual_categori,animal versus non-animal visual categorization at 4 contrast levels,cognitive_task,,,,,,,,
+zenodo_23660964,motor_imagery_and_relaxation_static_and,"motor imagery and relaxation, static and exoskeleton-assisted walking",motor_imagery,,,,,,,,
+zenodo_23665137,rest_versus_serial_subtraction_mental_ar,rest versus serial subtraction mental arithmetic,cognitive_task;resting_unspecified,,,,,,,,
+zenodo_23665509,imagined_right_hand_versus_both_feet_mov,imagined right hand versus both feet movement,motor_imagery,,,,,,,,
+zenodo_23665649,left_hand_versus_right_hand_motor_imager,left hand versus right hand motor imagery,motor_imagery,,,,,,,,
+zenodo_23665773,competitive_decision_making_rock_paper_s,competitive decision-making Rock-Paper-Scissors,cognitive_task,,,,,,,,
+zenodo_23764503,visual_working_memory_with_different_loa,visual working memory with different loads,cognitive_task,,,,,,,,
+zenodo_23787196,five_target_visual_p300_bci_offline_trai,"five-target visual P300 BCI, offline training and online runs",p300_erp,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name

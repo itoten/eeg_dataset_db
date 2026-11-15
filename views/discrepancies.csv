@@ -131,3 +131,9 @@ zenodo_22227355,acquisition_setups:main.n_channels_eeg,conflicting,61,secondary,
 zenodo_22227355,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://zenodo.org/records/22227356,
 zenodo_23464851,acquisition_setups:main.sampling_rate_hz,conflicting,1024,secondary,https://zenodo.org/records/23464852,Audit reviewer; scope: distributed (downsampled)
 zenodo_23464851,acquisition_setups:main.sampling_rate_hz,conflicting,2500,secondary,https://zenodo.org/records/23464852,Audit reviewer; scope: recorded
+zenodo_23665649,acquisition_setups:main.n_channels_eeg,conflicting,60,secondary,https://zenodo.org/records/23665650,Audit reviewer; scope: prepared windows as distributed
+zenodo_23665649,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0114853,"Audit reviewer; scope: recorded, per the paper"
+zenodo_23665649,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0114853,"Audit reviewer; scope: recorded, per the paper"
+zenodo_23665649,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://zenodo.org/records/23665650,Audit reviewer; scope: prepared windows as distributed
+zenodo_23665773,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://zenodo.org/records/23665774,Audit reviewer; scope: original recording
+zenodo_23665773,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://zenodo.org/records/23665774,Audit reviewer; scope: prepared windows (as distributed)
