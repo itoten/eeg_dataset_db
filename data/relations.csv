@@ -57,6 +57,9 @@ nm000216,derived_from,zenodo_3266929,nm000216_nemar,NEMAR lists 10.5281/zenodo.3
 nm000217,derived_from,zenodo_3266929,nm000217_nemar,NEMAR lists 10.5281/zenodo.3266930 as IsDerivedFrom this record
 nm000218,derived_from,bigp3bci,nm000218_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000218,subset_of,bigp3bci,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
+nm000227,subset_of,nm000136,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
+nm000233,derived_from,nm000184,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
+nm000235,subset_of,nm000136,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
 nm000238,derived_from,sparrkulee,nm000238_nemar,NEMAR lists 10.48804/K3VSND as IsDerivedFrom this record
 nm000244,derived_from,zenodo_3266222,nm000244_nemar,NEMAR lists 10.5281/zenodo.3266223 as IsDerivedFrom this record
 nm000245,derived_from,cho2017,nm000245_nemar,NEMAR lists 10.5524/100295 as IsDerivedFrom this record
