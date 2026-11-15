@@ -4020,8 +4020,25 @@ zenodo_24046851,video_guided_neutral_ask_take_gestures,video-guided Neutral/Ask/
 zenodo_24081948,character_imagery_task,character imagery task,other,,,,,,,,
 zenodo_24132366,eyes_open_eo_protocol,eyes-open (EO) protocol,resting_eyes_open,,,,,,,,
 zenodo_24141043,story_listening_after_trust_building_gam,story listening after trust-building game,language,,,,,,,,
+zenodo_2566579,overnight_sleep,overnight sleep,sleep,,,,,,,,
+zenodo_2589673,ambiguous_and_unambiguous_stimuli_bistab,ambiguous and unambiguous stimuli (bistable image) observation,visual_erp,,,,,,,,
+zenodo_2594666,tones_in_noise_maskers_aep_measurement,"tones in noise maskers, AEP measurement",auditory_erp,,,,,,,,
+zenodo_2605204,visual_p300_on_pc_and_vr,visual P300 on PC and VR,p300_erp,,,,,,,,
+zenodo_2617084,listening_to_music_with_and_without_pass,listening to music with and without passive HMD,other,,,,,,,,
+zenodo_2649006,brain_invaders,Brain Invaders,p300_erp,,,,,,,,
+zenodo_2652863,speech_abr_to_40_ms_da_quiet_and_noise_a,"speech-ABR to 40 ms [da], quiet and noise, aided and unaided",auditory_erp,,,,,,,,
+zenodo_2654551,upper_alpha_neurofeedback_vs_sham_feedba,upper alpha neurofeedback vs sham feedback,neurofeedback,,,,,,,,
+zenodo_2654874,speech_abr_to_40_ms_da,speech-ABR to 40 ms [da],auditory_erp,,,,,,,,
+zenodo_2657355,iaf_eyes_closed_recording,IAF eyes-closed recording,resting_eyes_closed,,,,,,,,
+zenodo_2657355,mcs_and_bcs_visual_stimulation_paradigms,MCS and BCS visual stimulation paradigms,other,,,,,,,,
+zenodo_3237322,affective_go_no_go_task,affective go/no-go task,cognitive_task,,,,,,,,
+zenodo_3257757,baseline_eyes_open_and_eyes_closed,baseline eyes open and eyes closed,resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_3257757,continuous_temporal_expectancy_task_ctet,Continuous Temporal Expectancy Task (CTET),cognitive_task,,,,,,,,
+zenodo_3266222,brain_invaders,Brain Invaders,p300_erp,,,,,,,,
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+zenodo_3266929,brain_invaders,Brain Invaders,p300_erp,,,,,,,,
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+zenodo_3267301,brain_invaders,Brain Invaders,p300_erp,,,,,,,,
 zenodo_3267301,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3267307,brain_invaders_multi_user_p300_bci_coope,"Brain Invaders multi-user P300 BCI (Cooperation 1-Target, Cooperation 2-Targets, Competition 1-Target, Competition 2-Targets)",p300_erp,,,,,,,,
 zenodo_3267307,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
