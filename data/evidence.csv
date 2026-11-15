@@ -19232,263 +19232,482 @@ nm000124/year_published/01,nm000124,year_published,2026,nm000124_nemar,first_pub
 nm000125/access_routes:nemar.access_method/01,nm000125,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000125/access_routes:nemar.automation_tool/01,nm000125,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000125/access_routes:nemar.human_steps/01,nm000125,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
-nm000125/acquisition_setups:main.line_freq_hz/01,nm000125,acquisition_setups:main.line_freq_hz,50,nm000125_nemar,power_line_frequency,2026-11-14,script,current,
+nm000125/acquisition_setups:main.device_manufacturer/01,nm000125,acquisition_setups:main.device_manufacturer,Brain Product GmbH,nm000125_doc4a2a4b,using BrainAmp (Brain Product GmbH),2026-11-16,claude,current,Audit reviewer; scope: scalp-eeg
+nm000125/acquisition_setups:main.device_model/01,nm000125,acquisition_setups:main.device_model,BrainAmp,nm000125_doc4a2a4b,using BrainAmp (Brain Product GmbH),2026-11-16,claude,current,Audit reviewer; scope: scalp-eeg
+nm000125/acquisition_setups:main.line_freq_hz/01,nm000125,acquisition_setups:main.line_freq_hz,50,nm000125_nemar,power_line_frequency,2026-11-14,script,conflicting,
+nm000125/acquisition_setups:main.line_freq_hz/02,nm000125,acquisition_setups:main.line_freq_hz,60,nm000125_doc0a0f61,- **Line frequency**: 60.0 Hz,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
+nm000125/acquisition_setups:main.n_channels_eeg/01,nm000125,acquisition_setups:main.n_channels_eeg,32,nm000125_doc4a2a4b,We obtained signals from the scalp with 32 EEG Ag/AgCl electrodes,2026-11-16,claude,current,Audit reviewer; scope: scalp-eeg only (record readme says eeg=73)
 nm000125/acquisition_setups:main.reference/01,nm000125,acquisition_setups:main.reference,FCz,nm000125_nemar,eeg_reference,2026-11-14,script,current,
-nm000125/acquisition_setups:main.sampling_rate_hz/01,nm000125,acquisition_setups:main.sampling_rate_hz,100,nm000125_nemar,sampling_frequency,2026-11-14,script,current,
+nm000125/acquisition_setups:main.sampling_rate_hz/01,nm000125,acquisition_setups:main.sampling_rate_hz,100,nm000125_nemar,sampling_frequency,2026-11-14,script,conflicting,
+nm000125/acquisition_setups:main.sampling_rate_hz/02,nm000125,acquisition_setups:main.sampling_rate_hz,500,nm000125_doc4a2a4b,The sampling rate of the scalp-EEG and EOG was 500 Hz,2026-11-16,claude,conflicting,Audit reviewer; scope: recorded scalp-eeg and eog
 nm000125/hours_reported/01,nm000125,hours_reported,13.34,nm000125_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000125/is_bids/01,nm000125,is_bids,true,nm000125_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000125/license_spdx/01,nm000125,license_spdx,CC-BY-4.0,nm000125_nemar,License: CC BY 4.0,2026-11-14,script,current,
-nm000125/modalities/01,nm000125,modalities,scalp_eeg,nm000125_nemar,recording modalities: eeg,2026-11-14,script,current,
+nm000125/modalities/01,nm000125,modalities,scalp_eeg,nm000125_nemar,recording modalities: eeg,2026-11-14,script,superseded,superseded by nm000125/modalities/02
+nm000125/modalities/02,nm000125,modalities,scalp_eeg;ear_eeg;eog,nm000125_doc4a2a4b,"The data were collected from 32-channel scalp-EEG, 14-channel ear-EEG, 4-channel electrooculography",2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000125/n_recordings_reported/01,nm000125,n_recordings_reported,85,nm000125_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
-nm000125/n_subjects_reported/01,nm000125,n_subjects_reported,23,nm000125_nemar,subject_count,2026-11-14,script,current,
+nm000125/n_subjects_reported/01,nm000125,n_subjects_reported,23,nm000125_nemar,subject_count,2026-11-14,script,conflicting,
+nm000125/n_subjects_reported/02,nm000125,n_subjects_reported,24,nm000125_doc4a2a4b,Twenty-four healthy individuals,2026-11-16,claude,conflicting,Audit reviewer; scope: whole mobile bci dataset (paper)
 nm000125/name/01,nm000125,name,Lee2021 – SSVEP paradigm of the Mobile BCI dataset,nm000125_nemar,Record name,2026-11-14,script,current,
+nm000125/participant_groups:participants.age_max/01,nm000125,participant_groups:participants.age_max,32,nm000125_doc0a0f61,"- **Number of subjects**: 23 - **Health status**: healthy - **Age**: mean=24.5, std=2.9, min=19, max=32 - **Gender distribution**: male=13, female=10",2026-11-16,claude,current,
+nm000125/participant_groups:participants.age_mean/01,nm000125,participant_groups:participants.age_mean,24.5,nm000125_doc0a0f61,"- **Number of subjects**: 23 - **Health status**: healthy - **Age**: mean=24.5, std=2.9, min=19, max=32 - **Gender distribution**: male=13, female=10",2026-11-16,claude,current,
+nm000125/participant_groups:participants.age_min/01,nm000125,participant_groups:participants.age_min,19,nm000125_doc0a0f61,"- **Number of subjects**: 23 - **Health status**: healthy - **Age**: mean=24.5, std=2.9, min=19, max=32 - **Gender distribution**: male=13, female=10",2026-11-16,claude,current,
+nm000125/participant_groups:participants.age_sd/01,nm000125,participant_groups:participants.age_sd,2.9,nm000125_doc0a0f61,"- **Number of subjects**: 23 - **Health status**: healthy - **Age**: mean=24.5, std=2.9, min=19, max=32 - **Gender distribution**: male=13, female=10",2026-11-16,claude,current,
+nm000125/participant_groups:participants.condition/01,nm000125,participant_groups:participants.condition,healthy,nm000125_doc0a0f61,"- **Number of subjects**: 23 - **Health status**: healthy - **Age**: mean=24.5, std=2.9, min=19, max=32 - **Gender distribution**: male=13, female=10",2026-11-16,claude,current,
+nm000125/participant_groups:participants.n_female/01,nm000125,participant_groups:participants.n_female,10,nm000125_doc0a0f61,"- **Number of subjects**: 23 - **Health status**: healthy - **Age**: mean=24.5, std=2.9, min=19, max=32 - **Gender distribution**: male=13, female=10",2026-11-16,claude,current,
+nm000125/participant_groups:participants.n_male/01,nm000125,participant_groups:participants.n_male,13,nm000125_doc0a0f61,"- **Number of subjects**: 23 - **Health status**: healthy - **Age**: mean=24.5, std=2.9, min=19, max=32 - **Gender distribution**: male=13, female=10",2026-11-16,claude,current,
+nm000125/participant_groups:participants.n_subjects/01,nm000125,participant_groups:participants.n_subjects,23,nm000125_doc0a0f61,"- **Number of subjects**: 23 - **Health status**: healthy - **Age**: mean=24.5, std=2.9, min=19, max=32 - **Gender distribution**: male=13, female=10",2026-11-16,claude,current,
 nm000125/size_gb_reported/01,nm000125,size_gb_reported,3.55,nm000125_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000125/tasks:ssvep.paradigms/01,nm000125,tasks:ssvep.paradigms,ssvep,nm000125_doc0a0f61,"Participants viewed visual flickers at three frequencies (5.45, 8.57, and 12 Hz) while standing, walking, and running on a treadmill.",2026-11-16,claude,current,
 nm000125/tasks:ssvep.task_name/01,nm000125,tasks:ssvep.task_name,SSVEP,nm000125_nemar,tasks,2026-11-14,script,current,
 nm000125/tasks:ssvep_2.task_name/01,nm000125,tasks:ssvep_2.task_name,ssvep,nm000125_nemar,tasks,2026-11-14,script,current,
 nm000125/year_published/01,nm000125,year_published,2026,nm000125_nemar,first_published_at,2026-11-14,script,current,
 nm000126/access_routes:nemar.access_method/01,nm000126,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000126/access_routes:nemar.automation_tool/01,nm000126,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000126/access_routes:nemar.human_steps/01,nm000126,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000126/acquisition_setups:main.device_manufacturer/01,nm000126,acquisition_setups:main.device_manufacturer,"Neuroscan, Inc.",nm000126_doc6c508b,"- **Hardware**: Synamps2 EEG system (Neuroscan, Inc.)",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000126/acquisition_setups:main.device_model/01,nm000126,acquisition_setups:main.device_model,Synamps2,nm000126_doc6c508b,"- **Hardware**: Synamps2 EEG system (Neuroscan, Inc.)",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000126/acquisition_setups:main.hardware_filter/01,nm000126,acquisition_setups:main.hardware_filter,0.15-200 Hz passband,nm000126_doc6c508b,with a 0.15-200 Hz passband and a 50 Hz notch filter,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000126/acquisition_setups:main.line_freq_hz/01,nm000126,acquisition_setups:main.line_freq_hz,50,nm000126_nemar,power_line_frequency,2026-11-14,script,current,
+nm000126/acquisition_setups:main.line_freq_hz/02,nm000126,acquisition_setups:main.line_freq_hz,50,nm000126_doc6c508b,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000126/acquisition_setups:main.montage_system/01,nm000126,acquisition_setups:main.montage_system,10_10,nm000126_nemar,electrode_system: 10-10,2026-11-14,script,current,
 nm000126/acquisition_setups:main.n_channels_eeg/01,nm000126,acquisition_setups:main.n_channels_eeg,64,nm000126_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000126/acquisition_setups:main.n_channels_eeg/02,nm000126,acquisition_setups:main.n_channels_eeg,64,nm000126_doc6c508b,- **Number of channels**: 64,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000126/acquisition_setups:main.reference/01,nm000126,acquisition_setups:main.reference,Cz,nm000126_nemar,eeg_reference,2026-11-14,script,current,
-nm000126/acquisition_setups:main.sampling_rate_hz/01,nm000126,acquisition_setups:main.sampling_rate_hz,250,nm000126_nemar,sampling_frequency,2026-11-14,script,current,
+nm000126/acquisition_setups:main.sampling_rate_hz/01,nm000126,acquisition_setups:main.sampling_rate_hz,250,nm000126_nemar,sampling_frequency,2026-11-14,script,conflicting,
+nm000126/acquisition_setups:main.sampling_rate_hz/02,nm000126,acquisition_setups:main.sampling_rate_hz,1000,nm000126_doc6c508b,EEG was recorded with a Synamps2 system (Neuroscan) at 1000 Hz,2026-11-16,claude,conflicting,Audit reviewer; scope: recorded
 nm000126/hours_reported/01,nm000126,hours_reported,14.51,nm000126_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000126/is_bids/01,nm000126,is_bids,true,nm000126_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000126/license_spdx/01,nm000126,license_spdx,CC-BY-4.0,nm000126_nemar,License: CC-BY-4.0,2026-11-14,script,current,
 nm000126/modalities/01,nm000126,modalities,scalp_eeg,nm000126_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000126/n_recordings_reported/01,nm000126,n_recordings_reported,34,nm000126_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000126/n_subjects_reported/01,nm000126,n_subjects_reported,34,nm000126_nemar,subject_count,2026-11-14,script,current,
+nm000126/n_subjects_reported/02,nm000126,n_subjects_reported,34,nm000126_doc6c508b,64-channel EEG from 34 healthy participants (35 in the original publication),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000126/name/01,nm000126,name,Wang2016 – SSVEP Wang 2016 dataset,nm000126_nemar,Record name,2026-11-14,script,current,
+nm000126/participant_groups:participants.age_max/01,nm000126,participant_groups:participants.age_max,34,nm000126_doc6c508b,"- **Number of subjects**: 34 - **Health status**: healthy - **Age**: mean=22.0, min=17, max=34",2026-11-16,claude,current,
+nm000126/participant_groups:participants.age_mean/01,nm000126,participant_groups:participants.age_mean,22,nm000126_doc6c508b,"- **Number of subjects**: 34 - **Health status**: healthy - **Age**: mean=22.0, min=17, max=34",2026-11-16,claude,current,
+nm000126/participant_groups:participants.age_min/01,nm000126,participant_groups:participants.age_min,17,nm000126_doc6c508b,"- **Number of subjects**: 34 - **Health status**: healthy - **Age**: mean=22.0, min=17, max=34",2026-11-16,claude,current,
+nm000126/participant_groups:participants.condition/01,nm000126,participant_groups:participants.condition,healthy,nm000126_doc6c508b,"- **Number of subjects**: 34 - **Health status**: healthy - **Age**: mean=22.0, min=17, max=34",2026-11-16,claude,current,
+nm000126/participant_groups:participants.n_subjects/01,nm000126,participant_groups:participants.n_subjects,34,nm000126_doc6c508b,"- **Number of subjects**: 34 - **Health status**: healthy - **Age**: mean=22.0, min=17, max=34",2026-11-16,claude,current,
 nm000126/size_gb_reported/01,nm000126,size_gb_reported,6.48,nm000126_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000126/tasks:ssvep.task_name/01,nm000126,tasks:ssvep.task_name,ssvep,nm000126_nemar,tasks,2026-11-14,script,current,
+nm000126/tasks:ssvep_speller.paradigms/01,nm000126,tasks:ssvep_speller.paradigms,ssvep,nm000126_doc6c508b,who gazed at 40 flickering characters in a speller,2026-11-16,claude,current,
+nm000126/tasks:ssvep_speller.task_name/01,nm000126,tasks:ssvep_speller.task_name,SSVEP speller,nm000126_doc6c508b,who gazed at 40 flickering characters in a speller,2026-11-16,claude,current,
 nm000126/year_published/01,nm000126,year_published,2026,nm000126_nemar,first_published_at,2026-11-14,script,current,
 nm000127/access_routes:nemar.access_method/01,nm000127,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000127/access_routes:nemar.automation_tool/01,nm000127,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000127/access_routes:nemar.human_steps/01,nm000127,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
-nm000127/acquisition_setups:main.line_freq_hz/01,nm000127,acquisition_setups:main.line_freq_hz,50,nm000127_nemar,power_line_frequency,2026-11-14,script,current,
+nm000127/acquisition_setups:main.device_manufacturer/01,nm000127,acquisition_setups:main.device_manufacturer,BioSemi,nm000127_doc49faec,"The BioSemi ActiveTwo system (BSM, BioSemi, Amsterdam, Netherlands) served as the EEG amplifier.",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000127/acquisition_setups:main.device_model/01,nm000127,acquisition_setups:main.device_model,ActiveTwo,nm000127_doc49faec,"The BioSemi ActiveTwo system (BSM, BioSemi, Amsterdam, Netherlands) served as the EEG amplifier.",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000127/acquisition_setups:main.line_freq_hz/01,nm000127,acquisition_setups:main.line_freq_hz,50,nm000127_nemar,power_line_frequency,2026-11-14,script,conflicting,
+nm000127/acquisition_setups:main.line_freq_hz/02,nm000127,acquisition_setups:main.line_freq_hz,60,nm000127_doc0d8e76,- **Line frequency**: 60.0 Hz,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 nm000127/acquisition_setups:main.montage_system/01,nm000127,acquisition_setups:main.montage_system,10_10,nm000127_nemar,electrode_system: 10-10,2026-11-14,script,current,
 nm000127/acquisition_setups:main.n_channels_eeg/01,nm000127,acquisition_setups:main.n_channels_eeg,31,nm000127_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000127/acquisition_setups:main.n_channels_eeg/02,nm000127,acquisition_setups:main.n_channels_eeg,31,nm000127_doc49faec,with EEG data recorded from 31 central-to-occipital channels,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000127/acquisition_setups:main.reference/01,nm000127,acquisition_setups:main.reference,CMS/DRL,nm000127_nemar,eeg_reference,2026-11-14,script,current,
 nm000127/acquisition_setups:main.sampling_rate_hz/01,nm000127,acquisition_setups:main.sampling_rate_hz,1024,nm000127_nemar,sampling_frequency,2026-11-14,script,current,
+nm000127/acquisition_setups:main.sampling_rate_hz/02,nm000127,acquisition_setups:main.sampling_rate_hz,1024,nm000127_doc49faec,EEG signals were recorded at a sampling rate of 1024 Hz using 31 Ag-AgCl wet electrodes,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000127/hours_reported/01,nm000127,hours_reported,18.93,nm000127_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000127/is_bids/01,nm000127,is_bids,true,nm000127_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000127/license_spdx/01,nm000127,license_spdx,CC-BY-4.0,nm000127_nemar,License: CC BY 4.0,2026-11-14,script,current,
 nm000127/modalities/01,nm000127,modalities,scalp_eeg,nm000127_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000127/n_recordings_reported/01,nm000127,n_recordings_reported,240,nm000127_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000127/n_subjects_reported/01,nm000127,n_subjects_reported,40,nm000127_nemar,subject_count,2026-11-14,script,current,
+nm000127/n_subjects_reported/02,nm000127,n_subjects_reported,40,nm000127_doc49faec,We present a comprehensive 40-class SSVEP speller dataset acquired from 40 participants,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000127/name/01,nm000127,name,Kim2025 – 40-class beta-range SSVEP speller dataset,nm000127_nemar,Record name,2026-11-14,script,current,
+nm000127/participant_groups:participants.age_max/01,nm000127,participant_groups:participants.age_max,35,nm000127_doc49faec,"A total of 40 subjects (25 males/15 females, with a mean age of 22.8 ± 3.34 years, ranging from 20 to 35 years)",2026-11-16,claude,current,
+nm000127/participant_groups:participants.age_mean/01,nm000127,participant_groups:participants.age_mean,22.8,nm000127_doc49faec,"A total of 40 subjects (25 males/15 females, with a mean age of 22.8 ± 3.34 years, ranging from 20 to 35 years)",2026-11-16,claude,current,
+nm000127/participant_groups:participants.age_min/01,nm000127,participant_groups:participants.age_min,20,nm000127_doc49faec,"A total of 40 subjects (25 males/15 females, with a mean age of 22.8 ± 3.34 years, ranging from 20 to 35 years)",2026-11-16,claude,current,
+nm000127/participant_groups:participants.age_sd/01,nm000127,participant_groups:participants.age_sd,3.34,nm000127_doc49faec,"A total of 40 subjects (25 males/15 females, with a mean age of 22.8 ± 3.34 years, ranging from 20 to 35 years)",2026-11-16,claude,current,
+nm000127/participant_groups:participants.n_female/01,nm000127,participant_groups:participants.n_female,15,nm000127_doc49faec,"A total of 40 subjects (25 males/15 females, with a mean age of 22.8 ± 3.34 years, ranging from 20 to 35 years)",2026-11-16,claude,current,
+nm000127/participant_groups:participants.n_male/01,nm000127,participant_groups:participants.n_male,25,nm000127_doc49faec,"A total of 40 subjects (25 males/15 females, with a mean age of 22.8 ± 3.34 years, ranging from 20 to 35 years)",2026-11-16,claude,current,
+nm000127/participant_groups:participants.n_subjects/01,nm000127,participant_groups:participants.n_subjects,40,nm000127_doc49faec,"A total of 40 subjects (25 males/15 females, with a mean age of 22.8 ± 3.34 years, ranging from 20 to 35 years)",2026-11-16,claude,current,
 nm000127/size_gb_reported/01,nm000127,size_gb_reported,16.53,nm000127_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000127/tasks:resting_state.paradigms/01,nm000127,tasks:resting_state.paradigms,resting_eyes_closed;resting_eyes_open,nm000127_doc49faec,pre- and post-experiment resting-state recordings under both eyes-open and eyes-closed,2026-11-16,claude,current,
+nm000127/tasks:resting_state.task_name/01,nm000127,tasks:resting_state.task_name,resting state,nm000127_doc49faec,pre- and post-experiment resting-state recordings under both eyes-open and eyes-closed,2026-11-16,claude,current,
 nm000127/tasks:ssvep.task_name/01,nm000127,tasks:ssvep.task_name,ssvep,nm000127_nemar,tasks,2026-11-14,script,current,
+nm000127/tasks:ssvep_speller.paradigms/01,nm000127,tasks:ssvep_speller.paradigms,ssvep,nm000127_doc49faec,We present a comprehensive 40-class SSVEP speller dataset acquired from 40 participants,2026-11-16,claude,current,
+nm000127/tasks:ssvep_speller.task_name/01,nm000127,tasks:ssvep_speller.task_name,SSVEP speller,nm000127_doc49faec,We present a comprehensive 40-class SSVEP speller dataset acquired from 40 participants,2026-11-16,claude,current,
 nm000127/year_published/01,nm000127,year_published,2026,nm000127_nemar,first_published_at,2026-11-14,script,current,
 nm000128/access_routes:nemar.access_method/01,nm000128,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000128/access_routes:nemar.automation_tool/01,nm000128,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000128/access_routes:nemar.human_steps/01,nm000128,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000128/acquisition_setups:main.device_manufacturer/01,nm000128,acquisition_setups:main.device_manufacturer,Neuracle,nm000128_doc6a8294,- **Hardware**: NeuSenW (Neuracle),2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000128/acquisition_setups:main.device_model/01,nm000128,acquisition_setups:main.device_model,NeuSenW,nm000128_doc6a8294,- **Hardware**: NeuSenW (Neuracle),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000128/acquisition_setups:main.line_freq_hz/01,nm000128,acquisition_setups:main.line_freq_hz,50,nm000128_nemar,power_line_frequency,2026-11-14,script,current,
+nm000128/acquisition_setups:main.line_freq_hz/02,nm000128,acquisition_setups:main.line_freq_hz,50,nm000128_doc6a8294,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000128/acquisition_setups:main.montage_system/01,nm000128,acquisition_setups:main.montage_system,10_10,nm000128_nemar,electrode_system: 10-10,2026-11-14,script,current,
 nm000128/acquisition_setups:main.n_channels_eeg/01,nm000128,acquisition_setups:main.n_channels_eeg,8,nm000128_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000128/acquisition_setups:main.n_channels_eeg/02,nm000128,acquisition_setups:main.n_channels_eeg,8,nm000128_doc6a8294,An 8-channel EEG dataset from 59 healthy adolescents (aged 10-16),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000128/acquisition_setups:main.reference/01,nm000128,acquisition_setups:main.reference,Fp1,nm000128_nemar,eeg_reference,2026-11-14,script,current,
-nm000128/acquisition_setups:main.sampling_rate_hz/01,nm000128,acquisition_setups:main.sampling_rate_hz,250,nm000128_nemar,sampling_frequency,2026-11-14,script,current,
+nm000128/acquisition_setups:main.sampling_rate_hz/01,nm000128,acquisition_setups:main.sampling_rate_hz,250,nm000128_nemar,sampling_frequency,2026-11-14,script,conflicting,
+nm000128/acquisition_setups:main.sampling_rate_hz/02,nm000128,acquisition_setups:main.sampling_rate_hz,1000,nm000128_doc6a8294,EEG was recorded at 1000 Hz with a NeuSenW (Neuracle) amplifier using 8 semi-dry pre-gelled electrodes,2026-11-16,claude,conflicting,Audit reviewer; scope: recorded
 nm000128/hours_reported/01,nm000128,hours_reported,14.16,nm000128_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000128/is_bids/01,nm000128,is_bids,true,nm000128_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000128/license_spdx/01,nm000128,license_spdx,CC-BY-NC-4.0,nm000128_nemar,License: CC BY-NC 4.0,2026-11-14,script,current,
 nm000128/modalities/01,nm000128,modalities,scalp_eeg,nm000128_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000128/n_recordings_reported/01,nm000128,n_recordings_reported,59,nm000128_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000128/n_subjects_reported/01,nm000128,n_subjects_reported,59,nm000128_nemar,subject_count,2026-11-14,script,current,
+nm000128/n_subjects_reported/02,nm000128,n_subjects_reported,59,nm000128_doc6a8294,An 8-channel EEG dataset from 59 healthy adolescents (aged 10-16),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000128/name/01,nm000128,name,Dong2023 – 59-subject 40-class SSVEP dataset,nm000128_nemar,Record name,2026-11-14,script,current,
+nm000128/participant_groups:participants.age_max/01,nm000128,participant_groups:participants.age_max,16,nm000128_doc6a8294,59 healthy adolescents (aged 10-16),2026-11-16,claude,current,
+nm000128/participant_groups:participants.age_min/01,nm000128,participant_groups:participants.age_min,10,nm000128_doc6a8294,59 healthy adolescents (aged 10-16),2026-11-16,claude,current,
+nm000128/participant_groups:participants.condition/01,nm000128,participant_groups:participants.condition,healthy,nm000128_doc6a8294,59 healthy adolescents (aged 10-16),2026-11-16,claude,current,
+nm000128/participant_groups:participants.n_subjects/01,nm000128,participant_groups:participants.n_subjects,59,nm000128_doc6a8294,59 healthy adolescents (aged 10-16),2026-11-16,claude,current,
 nm000128/size_gb_reported/01,nm000128,size_gb_reported,1.04,nm000128_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000128/tasks:ssvep.task_name/01,nm000128,tasks:ssvep.task_name,ssvep,nm000128_nemar,tasks,2026-11-14,script,current,
+nm000128/tasks:t_40_target_ssvep_bci.paradigms/01,nm000128,tasks:t_40_target_ssvep_bci.paradigms,ssvep,nm000128_doc6a8294,who performed a 40-target SSVEP-based brain-computer interface task,2026-11-16,claude,current,
+nm000128/tasks:t_40_target_ssvep_bci.task_name/01,nm000128,tasks:t_40_target_ssvep_bci.task_name,40-target SSVEP BCI,nm000128_doc6a8294,who performed a 40-target SSVEP-based brain-computer interface task,2026-11-16,claude,current,
 nm000128/year_published/01,nm000128,year_published,2026,nm000128_nemar,first_published_at,2026-11-14,script,current,
 nm000129/access_routes:nemar.access_method/01,nm000129,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000129/access_routes:nemar.automation_tool/01,nm000129,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000129/access_routes:nemar.human_steps/01,nm000129,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000129/acquisition_setups:main.device_manufacturer/01,nm000129,acquisition_setups:main.device_manufacturer,Neuroscan Inc.,nm000129_docd183c0,The 64-channel EEG data were recorded by SynAmps2 (Neuroscan Inc.),2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000129/acquisition_setups:main.device_model/01,nm000129,acquisition_setups:main.device_model,SynAmps2,nm000129_docd183c0,The 64-channel EEG data were recorded by SynAmps2 (Neuroscan Inc.),2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000129/acquisition_setups:main.hardware_filter/01,nm000129,acquisition_setups:main.hardware_filter,0.15–200 Hz,nm000129_docd183c0,the pass-band of the hardware filter was 0.15–200 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000129/acquisition_setups:main.line_freq_hz/01,nm000129,acquisition_setups:main.line_freq_hz,50,nm000129_nemar,power_line_frequency,2026-11-14,script,current,
+nm000129/acquisition_setups:main.line_freq_hz/02,nm000129,acquisition_setups:main.line_freq_hz,50,nm000129_docd00945,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000129/acquisition_setups:main.montage_system/01,nm000129,acquisition_setups:main.montage_system,10_10,nm000129_nemar,electrode_system: 10-10,2026-11-14,script,current,
+nm000129/acquisition_setups:main.montage_system/02,nm000129,acquisition_setups:main.montage_system,10_10,nm000129_docd183c0,according to the international 10-10 system,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000129/acquisition_setups:main.n_channels_eeg/01,nm000129,acquisition_setups:main.n_channels_eeg,64,nm000129_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000129/acquisition_setups:main.n_channels_eeg/02,nm000129,acquisition_setups:main.n_channels_eeg,64,nm000129_docd183c0,The 64-channel EEG data were recorded by SynAmps2 (Neuroscan Inc.),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000129/acquisition_setups:main.reference/01,nm000129,acquisition_setups:main.reference,Cz,nm000129_nemar,eeg_reference,2026-11-14,script,current,
-nm000129/acquisition_setups:main.sampling_rate_hz/01,nm000129,acquisition_setups:main.sampling_rate_hz,250,nm000129_nemar,sampling_frequency,2026-11-14,script,current,
+nm000129/acquisition_setups:main.reference/02,nm000129,acquisition_setups:main.reference,Cz,nm000129_docd183c0,The vertex electrode Cz was used as a reference.,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000129/acquisition_setups:main.sampling_rate_hz/01,nm000129,acquisition_setups:main.sampling_rate_hz,250,nm000129_nemar,sampling_frequency,2026-11-14,script,conflicting,
+nm000129/acquisition_setups:main.sampling_rate_hz/02,nm000129,acquisition_setups:main.sampling_rate_hz,1000,nm000129_docd183c0,"The sampling rate was set 1,000 Hz",2026-11-16,claude,conflicting,Audit reviewer; scope: recorded
 nm000129/hours_reported/01,nm000129,hours_reported,13.02,nm000129_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000129/is_bids/01,nm000129,is_bids,true,nm000129_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000129/license_spdx/01,nm000129,license_spdx,LicenseRef-custom-research-only,nm000129_nemar,License: Non-commercial research use,2026-11-14,script,current,
 nm000129/modalities/01,nm000129,modalities,scalp_eeg,nm000129_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000129/n_recordings_reported/01,nm000129,n_recordings_reported,70,nm000129_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000129/n_subjects_reported/01,nm000129,n_subjects_reported,70,nm000129_nemar,subject_count,2026-11-14,script,current,
+nm000129/n_subjects_reported/02,nm000129,n_subjects_reported,70,nm000129_docd183c0,The BETA database is composed of 64-channel Electroencephalogram (EEG) data of 70 subjects performing a 40-target cued-spelling task.,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000129/name/01,nm000129,name,Liu2020 – BETA SSVEP benchmark dataset,nm000129_nemar,Record name,2026-11-14,script,current,
+nm000129/participant_groups:participants.age_max/01,nm000129,participant_groups:participants.age_max,64,nm000129_docd183c0,"Seventy healthy volunteers (42 males and 28 females) with an average age of 25.14 ± 7.97 (mean ± standard deviation, ranging from 9 to 64",2026-11-16,claude,current,
+nm000129/participant_groups:participants.age_mean/01,nm000129,participant_groups:participants.age_mean,25.14,nm000129_docd183c0,"Seventy healthy volunteers (42 males and 28 females) with an average age of 25.14 ± 7.97 (mean ± standard deviation, ranging from 9 to 64",2026-11-16,claude,current,
+nm000129/participant_groups:participants.age_min/01,nm000129,participant_groups:participants.age_min,9,nm000129_docd183c0,"Seventy healthy volunteers (42 males and 28 females) with an average age of 25.14 ± 7.97 (mean ± standard deviation, ranging from 9 to 64",2026-11-16,claude,current,
+nm000129/participant_groups:participants.age_sd/01,nm000129,participant_groups:participants.age_sd,7.97,nm000129_docd183c0,"Seventy healthy volunteers (42 males and 28 females) with an average age of 25.14 ± 7.97 (mean ± standard deviation, ranging from 9 to 64",2026-11-16,claude,current,
+nm000129/participant_groups:participants.condition/01,nm000129,participant_groups:participants.condition,healthy,nm000129_docd183c0,"Seventy healthy volunteers (42 males and 28 females) with an average age of 25.14 ± 7.97 (mean ± standard deviation, ranging from 9 to 64",2026-11-16,claude,current,
+nm000129/participant_groups:participants.n_female/01,nm000129,participant_groups:participants.n_female,28,nm000129_docd183c0,"Seventy healthy volunteers (42 males and 28 females) with an average age of 25.14 ± 7.97 (mean ± standard deviation, ranging from 9 to 64",2026-11-16,claude,current,
+nm000129/participant_groups:participants.n_male/01,nm000129,participant_groups:participants.n_male,42,nm000129_docd183c0,"Seventy healthy volunteers (42 males and 28 females) with an average age of 25.14 ± 7.97 (mean ± standard deviation, ranging from 9 to 64",2026-11-16,claude,current,
+nm000129/participant_groups:participants.n_subjects/01,nm000129,participant_groups:participants.n_subjects,70,nm000129_docd183c0,"Seventy healthy volunteers (42 males and 28 females) with an average age of 25.14 ± 7.97 (mean ± standard deviation, ranging from 9 to 64",2026-11-16,claude,current,
 nm000129/size_gb_reported/01,nm000129,size_gb_reported,7.72,nm000129_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000129/tasks:cued_spelling_ssvep.paradigms/01,nm000129,tasks:cued_spelling_ssvep.paradigms,ssvep,nm000129_docd183c0,70 subjects performing a 40-target cued-spelling task,2026-11-16,claude,current,
+nm000129/tasks:cued_spelling_ssvep.task_name/01,nm000129,tasks:cued_spelling_ssvep.task_name,cued-spelling SSVEP,nm000129_docd183c0,70 subjects performing a 40-target cued-spelling task,2026-11-16,claude,current,
 nm000129/tasks:ssvep.task_name/01,nm000129,tasks:ssvep.task_name,ssvep,nm000129_nemar,tasks,2026-11-14,script,current,
 nm000129/year_published/01,nm000129,year_published,2026,nm000129_nemar,first_published_at,2026-11-14,script,current,
 nm000130/access_routes:nemar.access_method/01,nm000130,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000130/access_routes:nemar.automation_tool/01,nm000130,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000130/access_routes:nemar.human_steps/01,nm000130,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000130/acquisition_setups:main.device_manufacturer/01,nm000130,acquisition_setups:main.device_manufacturer,Neuroscan Inc.,nm000130_doc4daca2,"The data were acquired using SynAmps2 (Neuroscan Inc., Charlotte, USA) at a sampling rate of 1000 Hz.",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000130/acquisition_setups:main.device_model/01,nm000130,acquisition_setups:main.device_model,SynAmps2,nm000130_doc4daca2,"The data were acquired using SynAmps2 (Neuroscan Inc., Charlotte, USA) at a sampling rate of 1000 Hz.",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000130/acquisition_setups:main.line_freq_hz/01,nm000130,acquisition_setups:main.line_freq_hz,50,nm000130_nemar,power_line_frequency,2026-11-14,script,current,
-nm000130/acquisition_setups:main.montage_system/01,nm000130,acquisition_setups:main.montage_system,10_10,nm000130_nemar,electrode_system: 10-10,2026-11-14,script,current,
+nm000130/acquisition_setups:main.line_freq_hz/02,nm000130,acquisition_setups:main.line_freq_hz,50,nm000130_doc24a29b,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000130/acquisition_setups:main.montage_system/01,nm000130,acquisition_setups:main.montage_system,10_10,nm000130_nemar,electrode_system: 10-10,2026-11-14,script,conflicting,
+nm000130/acquisition_setups:main.montage_system/02,nm000130,acquisition_setups:main.montage_system,10_20,nm000130_doc4daca2,The montage was aligned according to the international 10-20 system,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 nm000130/acquisition_setups:main.n_channels_eeg/01,nm000130,acquisition_setups:main.n_channels_eeg,64,nm000130_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000130/acquisition_setups:main.n_channels_eeg/02,nm000130,acquisition_setups:main.n_channels_eeg,64,nm000130_doc4daca2,This study recorded 64-channel EEG data during the SSVEP-BCI task.,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000130/acquisition_setups:main.reference/01,nm000130,acquisition_setups:main.reference,Cz,nm000130_nemar,eeg_reference,2026-11-14,script,current,
 nm000130/acquisition_setups:main.sampling_rate_hz/01,nm000130,acquisition_setups:main.sampling_rate_hz,1000,nm000130_nemar,sampling_frequency,2026-11-14,script,current,
+nm000130/acquisition_setups:main.sampling_rate_hz/02,nm000130,acquisition_setups:main.sampling_rate_hz,1000,nm000130_doc4daca2,"The data were acquired using SynAmps2 (Neuroscan Inc., Charlotte, USA) at a sampling rate of 1000 Hz.",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000130/hours_reported/01,nm000130,hours_reported,20.18,nm000130_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000130/is_bids/01,nm000130,is_bids,true,nm000130_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000130/license_spdx/01,nm000130,license_spdx,CC-BY-4.0,nm000130_nemar,License: CC BY 4.0,2026-11-14,script,current,
 nm000130/modalities/01,nm000130,modalities,scalp_eeg,nm000130_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000130/n_recordings_reported/01,nm000130,n_recordings_reported,700,nm000130_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000130/n_subjects_reported/01,nm000130,n_subjects_reported,100,nm000130_nemar,subject_count,2026-11-14,script,current,
+nm000130/n_subjects_reported/02,nm000130,n_subjects_reported,100,nm000130_doc4daca2,This proposed database contained the data records of EEG from 100 participants,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000130/name/01,nm000130,name,Liu2022 – eldBETA SSVEP benchmark dataset for elderly population,nm000130_nemar,Record name,2026-11-14,script,current,
+nm000130/participant_groups:participants.age_max/01,nm000130,participant_groups:participants.age_max,81,nm000130_doc4daca2,One hundred participants (33 males and 67 females) took part in this study. The age of the participants ranged from 52 to 81 with an,2026-11-16,claude,current,
+nm000130/participant_groups:participants.age_min/01,nm000130,participant_groups:participants.age_min,52,nm000130_doc4daca2,One hundred participants (33 males and 67 females) took part in this study. The age of the participants ranged from 52 to 81 with an,2026-11-16,claude,current,
+nm000130/participant_groups:participants.n_female/01,nm000130,participant_groups:participants.n_female,67,nm000130_doc4daca2,One hundred participants (33 males and 67 females) took part in this study. The age of the participants ranged from 52 to 81 with an,2026-11-16,claude,current,
+nm000130/participant_groups:participants.n_male/01,nm000130,participant_groups:participants.n_male,33,nm000130_doc4daca2,One hundred participants (33 males and 67 females) took part in this study. The age of the participants ranged from 52 to 81 with an,2026-11-16,claude,current,
+nm000130/participant_groups:participants.n_subjects/01,nm000130,participant_groups:participants.n_subjects,100,nm000130_doc4daca2,One hundred participants (33 males and 67 females) took part in this study. The age of the participants ranged from 52 to 81 with an,2026-11-16,claude,current,
 nm000130/size_gb_reported/01,nm000130,size_gb_reported,34.77,nm000130_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000130/tasks:ssvep.task_name/01,nm000130,tasks:ssvep.task_name,ssvep,nm000130_nemar,tasks,2026-11-14,script,current,
+nm000130/tasks:t_9_target_ssvep_speller.paradigms/01,nm000130,tasks:t_9_target_ssvep_speller.paradigms,ssvep,nm000130_doc24a29b,performing a 9-target SSVEP-based brain-computer interface speller task,2026-11-16,claude,current,
+nm000130/tasks:t_9_target_ssvep_speller.task_name/01,nm000130,tasks:t_9_target_ssvep_speller.task_name,9-target SSVEP speller,nm000130_doc24a29b,performing a 9-target SSVEP-based brain-computer interface speller task,2026-11-16,claude,current,
 nm000130/year_published/01,nm000130,year_published,2026,nm000130_nemar,first_published_at,2026-11-14,script,current,
 nm000131/access_routes:nemar.access_method/01,nm000131,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000131/access_routes:nemar.automation_tool/01,nm000131,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000131/access_routes:nemar.human_steps/01,nm000131,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000131/acquisition_setups:main.device_manufacturer/01,nm000131,acquisition_setups:main.device_manufacturer,ANT Neuro,nm000131_doc8ae1dc,- **Hardware**: eego mylab (ANT Neuro),2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000131/acquisition_setups:main.device_model/01,nm000131,acquisition_setups:main.device_model,eego mylab,nm000131_doc8ae1dc,- **Hardware**: eego mylab (ANT Neuro),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000131/acquisition_setups:main.line_freq_hz/01,nm000131,acquisition_setups:main.line_freq_hz,50,nm000131_nemar,power_line_frequency,2026-11-14,script,current,
+nm000131/acquisition_setups:main.line_freq_hz/02,nm000131,acquisition_setups:main.line_freq_hz,50,nm000131_doc8ae1dc,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000131/acquisition_setups:main.montage_system/01,nm000131,acquisition_setups:main.montage_system,10_10,nm000131_nemar,electrode_system: 10-10,2026-11-14,script,current,
 nm000131/acquisition_setups:main.n_channels_eeg/01,nm000131,acquisition_setups:main.n_channels_eeg,31,nm000131_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000131/acquisition_setups:main.n_channels_eeg/02,nm000131,acquisition_setups:main.n_channels_eeg,31,nm000131_doc8ae1dc,- **Number of channels**: 31,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000131/acquisition_setups:main.sampling_rate_hz/01,nm000131,acquisition_setups:main.sampling_rate_hz,1000,nm000131_nemar,sampling_frequency,2026-11-14,script,current,
+nm000131/acquisition_setups:main.sampling_rate_hz/02,nm000131,acquisition_setups:main.sampling_rate_hz,1000,nm000131_doc8ae1dc,EEG was recorded at 1000 Hz with a 32-channel ANT Neuro eego mylab amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000131/hours_reported/01,nm000131,hours_reported,6.16,nm000131_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000131/is_bids/01,nm000131,is_bids,true,nm000131_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000131/license_spdx/01,nm000131,license_spdx,CC-BY-4.0,nm000131_nemar,License: CC BY 4.0,2026-11-14,script,current,
 nm000131/modalities/01,nm000131,modalities,scalp_eeg,nm000131_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000131/n_recordings_reported/01,nm000131,n_recordings_reported,22,nm000131_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000131/n_subjects_reported/01,nm000131,n_subjects_reported,8,nm000131_nemar,subject_count,2026-11-14,script,current,
+nm000131/n_subjects_reported/02,nm000131,n_subjects_reported,8,nm000131_doc8ae1dc,32-channel EEG recordings from 8 healthy participants,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000131/name/01,nm000131,name,Wang2021 – Combined SSVEP dataset with single stimulus location for two inputs,nm000131_nemar,Record name,2026-11-14,script,current,
+nm000131/participant_groups:participants.condition/01,nm000131,participant_groups:participants.condition,healthy,nm000131_doc8ae1dc,32-channel EEG recordings from 8 healthy participants,2026-11-16,claude,current,
+nm000131/participant_groups:participants.n_subjects/01,nm000131,participant_groups:participants.n_subjects,8,nm000131_doc8ae1dc,32-channel EEG recordings from 8 healthy participants,2026-11-16,claude,current,
 nm000131/size_gb_reported/01,nm000131,size_gb_reported,5.3,nm000131_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000131/tasks:combined_ssvep_covert_attention.paradigms/01,nm000131,tasks:combined_ssvep_covert_attention.paradigms,ssvep,nm000131_doc8ae1dc,performing a combined steady-state visual evoked potential (SSVEP) brain-computer interface task,2026-11-16,claude,current,
+nm000131/tasks:combined_ssvep_covert_attention.task_name/01,nm000131,tasks:combined_ssvep_covert_attention.task_name,combined SSVEP covert attention,nm000131_doc8ae1dc,performing a combined steady-state visual evoked potential (SSVEP) brain-computer interface task,2026-11-16,claude,current,
 nm000131/tasks:ssvep.task_name/01,nm000131,tasks:ssvep.task_name,ssvep,nm000131_nemar,tasks,2026-11-14,script,current,
 nm000131/year_published/01,nm000131,year_published,2026,nm000131_nemar,first_published_at,2026-11-14,script,current,
 nm000132/access_routes:nemar.access_method/01,nm000132,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000132/access_routes:nemar.automation_tool/01,nm000132,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000132/access_routes:nemar.human_steps/01,nm000132,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000132/acquisition_setups:main.device_manufacturer/01,nm000132,acquisition_setups:main.device_manufacturer,Biosemi B.V.,nm000132_doc342f5e,"The continuous EEG was recorded using a Biosemi ActiveTwo recording system with active electrodes (Biosemi B.V., Amsterdam, the Netherlands).",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000132/acquisition_setups:main.device_model/01,nm000132,acquisition_setups:main.device_model,ActiveTwo,nm000132_doc342f5e,"The continuous EEG was recorded using a Biosemi ActiveTwo recording system with active electrodes (Biosemi B.V., Amsterdam, the Netherlands).",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000132/acquisition_setups:main.line_freq_hz/01,nm000132,acquisition_setups:main.line_freq_hz,60,nm000132_nemar,power_line_frequency,2026-11-14,script,current,
-nm000132/acquisition_setups:main.montage_system/01,nm000132,acquisition_setups:main.montage_system,10_10,nm000132_nemar,electrode_system: 10-10,2026-11-14,script,current,
-nm000132/acquisition_setups:main.n_channels_eeg/01,nm000132,acquisition_setups:main.n_channels_eeg,33,nm000132_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000132/acquisition_setups:main.montage_system/01,nm000132,acquisition_setups:main.montage_system,10_10,nm000132_nemar,electrode_system: 10-10,2026-11-14,script,conflicting,
+nm000132/acquisition_setups:main.montage_system/02,nm000132,acquisition_setups:main.montage_system,10_20,nm000132_doc342f5e,placed according to the International 10/20 System,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
+nm000132/acquisition_setups:main.n_channels_eeg/01,nm000132,acquisition_setups:main.n_channels_eeg,33,nm000132_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,conflicting,
+nm000132/acquisition_setups:main.n_channels_eeg/02,nm000132,acquisition_setups:main.n_channels_eeg,30,nm000132_doc342f5e,We recorded from 30 scalp electrodes,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 nm000132/acquisition_setups:main.reference/01,nm000132,acquisition_setups:main.reference,CMS,nm000132_nemar,eeg_reference,2026-11-14,script,current,
 nm000132/acquisition_setups:main.sampling_rate_hz/01,nm000132,acquisition_setups:main.sampling_rate_hz,1024,nm000132_nemar,sampling_frequency,2026-11-14,script,current,
+nm000132/acquisition_setups:main.sampling_rate_hz/02,nm000132,acquisition_setups:main.sampling_rate_hz,1024,nm000132_doc342f5e,digitized at 1024 Hz with 24 bits of resolution,2026-11-16,claude,current,Audit reviewer; scope: recorded; paper analyses downsampled to 256 hz
 nm000132/hours_reported/01,nm000132,hours_reported,37.75,nm000132_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000132/is_bids/01,nm000132,is_bids,true,nm000132_nemar,bids_version 1.10.1,2026-11-14,script,current,
 nm000132/license_spdx/01,nm000132,license_spdx,CC-BY-4.0,nm000132_nemar,License: CC-BY-4.0,2026-11-14,script,current,
 nm000132/modalities/01,nm000132,modalities,scalp_eeg,nm000132_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000132/n_recordings_reported/01,nm000132,n_recordings_reported,240,nm000132_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000132/n_subjects_reported/01,nm000132,n_subjects_reported,40,nm000132_nemar,subject_count,2026-11-14,script,current,
+nm000132/n_subjects_reported/02,nm000132,n_subjects_reported,40,nm000132_doc4640ad,an open resource of raw EEG recordings from 40 neurotypical adults,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000132/name/01,nm000132,name,ERP CORE,nm000132_nemar,Record name,2026-11-14,script,current,
+nm000132/participant_groups:participants.age_max/01,nm000132,participant_groups:participants.age_max,30,nm000132_doc342f5e,"We tested 40 participants (25 female, 15 male; Mean years of age = 21.5, SD = 2.87, Range 18-30; 38 right handed)",2026-11-16,claude,current,
+nm000132/participant_groups:participants.age_mean/01,nm000132,participant_groups:participants.age_mean,21.5,nm000132_doc342f5e,"We tested 40 participants (25 female, 15 male; Mean years of age = 21.5, SD = 2.87, Range 18-30; 38 right handed)",2026-11-16,claude,current,
+nm000132/participant_groups:participants.age_min/01,nm000132,participant_groups:participants.age_min,18,nm000132_doc342f5e,"We tested 40 participants (25 female, 15 male; Mean years of age = 21.5, SD = 2.87, Range 18-30; 38 right handed)",2026-11-16,claude,current,
+nm000132/participant_groups:participants.age_sd/01,nm000132,participant_groups:participants.age_sd,2.87,nm000132_doc342f5e,"We tested 40 participants (25 female, 15 male; Mean years of age = 21.5, SD = 2.87, Range 18-30; 38 right handed)",2026-11-16,claude,current,
+nm000132/participant_groups:participants.handedness/01,nm000132,participant_groups:participants.handedness,38 right handed,nm000132_doc342f5e,"We tested 40 participants (25 female, 15 male; Mean years of age = 21.5, SD = 2.87, Range 18-30; 38 right handed)",2026-11-16,claude,current,
+nm000132/participant_groups:participants.n_female/01,nm000132,participant_groups:participants.n_female,25,nm000132_doc342f5e,"We tested 40 participants (25 female, 15 male; Mean years of age = 21.5, SD = 2.87, Range 18-30; 38 right handed)",2026-11-16,claude,current,
+nm000132/participant_groups:participants.n_male/01,nm000132,participant_groups:participants.n_male,15,nm000132_doc342f5e,"We tested 40 participants (25 female, 15 male; Mean years of age = 21.5, SD = 2.87, Range 18-30; 38 right handed)",2026-11-16,claude,current,
+nm000132/participant_groups:participants.n_subjects/01,nm000132,participant_groups:participants.n_subjects,40,nm000132_doc342f5e,"We tested 40 participants (25 female, 15 male; Mean years of age = 21.5, SD = 2.87, Range 18-30; 38 right handed)",2026-11-16,claude,current,
 nm000132/size_gb_reported/01,nm000132,size_gb_reported,17.52,nm000132_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000132/tasks:flankers.paradigms/01,nm000132,tasks:flankers.paradigms,cognitive_task,nm000132_doc4640ad,The lateralized readiness potential (LRP) and the error-related negativity (ERN) were elicited using a variant of the Eriksen flanker task,2026-11-16,claude,current,
 nm000132/tasks:flankers.task_name/01,nm000132,tasks:flankers.task_name,flankers,nm000132_nemar,tasks,2026-11-14,script,current,
+nm000132/tasks:mmn.paradigms/01,nm000132,tasks:mmn.paradigms,auditory_erp,nm000132_doc4640ad,The MMN was elicited using a passive auditory oddball task modeled on,2026-11-16,claude,current,
 nm000132/tasks:mmn.task_name/01,nm000132,tasks:mmn.task_name,MMN,nm000132_nemar,tasks,2026-11-14,script,current,
+nm000132/tasks:n170.paradigms/01,nm000132,tasks:n170.paradigms,visual_erp,nm000132_doc4640ad,The N170 was elicited in a face perception task modified from,2026-11-16,claude,current,
 nm000132/tasks:n170.task_name/01,nm000132,tasks:n170.task_name,N170,nm000132_nemar,tasks,2026-11-14,script,current,
+nm000132/tasks:n2pc.paradigms/01,nm000132,tasks:n2pc.paradigms,visual_erp,nm000132_doc4640ad,The N2pc was elicited using a simple visual search task based on,2026-11-16,claude,current,
 nm000132/tasks:n2pc.task_name/01,nm000132,tasks:n2pc.task_name,N2pc,nm000132_nemar,tasks,2026-11-14,script,current,
+nm000132/tasks:n400.paradigms/01,nm000132,tasks:n400.paradigms,language,nm000132_doc4640ad,The N400 was elicited using a word pair judgment task adapted from,2026-11-16,claude,current,
 nm000132/tasks:n400.task_name/01,nm000132,tasks:n400.task_name,N400,nm000132_nemar,tasks,2026-11-14,script,current,
+nm000132/tasks:p3.paradigms/01,nm000132,tasks:p3.paradigms,p300_erp,nm000132_doc342f5e,The P3 was elicited in an active visual oddball task adapted from Luck et al.,2026-11-16,claude,current,
 nm000132/tasks:p3.task_name/01,nm000132,tasks:p3.task_name,P3,nm000132_nemar,tasks,2026-11-14,script,current,
 nm000132/year_published/01,nm000132,year_published,2026,nm000132_nemar,first_published_at,2026-11-14,script,current,
 nm000133/access_routes:nemar.access_method/01,nm000133,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000133/access_routes:nemar.automation_tool/01,nm000133,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000133/access_routes:nemar.human_steps/01,nm000133,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000133/acquisition_setups:main.device_manufacturer/01,nm000133,acquisition_setups:main.device_manufacturer,BioSemi,nm000133_doc0fc495,We recorded data using a 64-electrode BioSemi ActiveTwo,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000133/acquisition_setups:main.device_model/01,nm000133,acquisition_setups:main.device_model,ActiveTwo,nm000133_doc0fc495,We recorded data using a 64-electrode BioSemi ActiveTwo,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000133/acquisition_setups:main.line_freq_hz/01,nm000133,acquisition_setups:main.line_freq_hz,60,nm000133_nemar,power_line_frequency,2026-11-14,script,current,
+nm000133/acquisition_setups:main.montage_system/01,nm000133,acquisition_setups:main.montage_system,10_20,nm000133_doccd8f3f,- **Montage:** International 10-20 system,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000133/acquisition_setups:main.n_channels_eeg/01,nm000133,acquisition_setups:main.n_channels_eeg,64,nm000133_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000133/acquisition_setups:main.n_channels_eeg/02,nm000133,acquisition_setups:main.n_channels_eeg,64,nm000133_doccd8f3f,"BioSemi ActiveTwo, 64 Ag/AgCl sintered electrodes",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000133/acquisition_setups:main.reference/01,nm000133,acquisition_setups:main.reference,CMS/DRL,nm000133_nemar,eeg_reference,2026-11-14,script,current,
+nm000133/acquisition_setups:main.reference/02,nm000133,acquisition_setups:main.reference,CMS/DRL,nm000133_doccd8f3f,- **Reference:** CMS/DRL (BioSemi default),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000133/acquisition_setups:main.sampling_rate_hz/01,nm000133,acquisition_setups:main.sampling_rate_hz,512,nm000133_nemar,sampling_frequency,2026-11-14,script,current,
+nm000133/acquisition_setups:main.sampling_rate_hz/02,nm000133,acquisition_setups:main.sampling_rate_hz,512,nm000133_doc0fc495,digitized at a rate of 512 Hz with 24-bit A/D conversion,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000133/hours_reported/01,nm000133,hours_reported,12.48,nm000133_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000133/is_bids/01,nm000133,is_bids,true,nm000133_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000133/license_spdx/01,nm000133,license_spdx,CC-BY-NC-ND-4.0,nm000133_nemar,License: CC-BY-NC-ND-4.0,2026-11-14,script,current,
 nm000133/modalities/01,nm000133,modalities,scalp_eeg,nm000133_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000133/n_recordings_reported/01,nm000133,n_recordings_reported,13,nm000133_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000133/n_subjects_reported/01,nm000133,n_subjects_reported,8,nm000133_nemar,subject_count,2026-11-14,script,current,
+nm000133/n_subjects_reported/02,nm000133,n_subjects_reported,8,nm000133_doccd8f3f,Eight healthy right-handed adults,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000133/name/01,nm000133,name,Alljoined1,nm000133_nemar,Record name,2026-11-14,script,current,
+nm000133/participant_groups:participants.age_mean/01,nm000133,participant_groups:participants.age_mean,22,nm000133_doccd8f3f,"Eight healthy right-handed adults (6 male, 2 female; mean age 22 +/- 0.64 years",2026-11-16,claude,current,
+nm000133/participant_groups:participants.age_sd/01,nm000133,participant_groups:participants.age_sd,0.64,nm000133_doccd8f3f,"Eight healthy right-handed adults (6 male, 2 female; mean age 22 +/- 0.64 years",2026-11-16,claude,current,
+nm000133/participant_groups:participants.condition/01,nm000133,participant_groups:participants.condition,healthy,nm000133_doccd8f3f,"Eight healthy right-handed adults (6 male, 2 female; mean age 22 +/- 0.64 years",2026-11-16,claude,current,
+nm000133/participant_groups:participants.handedness/01,nm000133,participant_groups:participants.handedness,right,nm000133_doccd8f3f,"Eight healthy right-handed adults (6 male, 2 female; mean age 22 +/- 0.64 years",2026-11-16,claude,current,
+nm000133/participant_groups:participants.n_female/01,nm000133,participant_groups:participants.n_female,2,nm000133_doccd8f3f,"Eight healthy right-handed adults (6 male, 2 female; mean age 22 +/- 0.64 years",2026-11-16,claude,current,
+nm000133/participant_groups:participants.n_male/01,nm000133,participant_groups:participants.n_male,6,nm000133_doccd8f3f,"Eight healthy right-handed adults (6 male, 2 female; mean age 22 +/- 0.64 years",2026-11-16,claude,current,
+nm000133/participant_groups:participants.n_subjects/01,nm000133,participant_groups:participants.n_subjects,8,nm000133_doccd8f3f,"Eight healthy right-handed adults (6 male, 2 female; mean age 22 +/- 0.64 years",2026-11-16,claude,current,
 nm000133/size_gb_reported/01,nm000133,size_gb_reported,8.04,nm000133_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000133/tasks:images.task_name/01,nm000133,tasks:images.task_name,images,nm000133_nemar,tasks,2026-11-14,script,current,
+nm000133/tasks:rsvp_natural_images_with_oddball_detecti.paradigms/01,nm000133,tasks:rsvp_natural_images_with_oddball_detecti.paradigms,other,nm000133_doccd8f3f,Participants viewed natural images in a rapid serial visual presentation (RSVP) paradigm with an oddball detection task.,2026-11-16,claude,current,
+nm000133/tasks:rsvp_natural_images_with_oddball_detecti.task_name/01,nm000133,tasks:rsvp_natural_images_with_oddball_detecti.task_name,RSVP natural images with oddball detection,nm000133_doccd8f3f,Participants viewed natural images in a rapid serial visual presentation (RSVP) paradigm with an oddball detection task.,2026-11-16,claude,current,
 nm000133/year_published/01,nm000133,year_published,2026,nm000133_nemar,first_published_at,2026-11-14,script,current,
 nm000134/access_routes:nemar.access_method/01,nm000134,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000134/access_routes:nemar.automation_tool/01,nm000134,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000134/access_routes:nemar.human_steps/01,nm000134,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000134/acquisition_setups:main.device_manufacturer/01,nm000134,acquisition_setups:main.device_manufacturer,EMOTIV,nm000134_docbdca40,"**Equipment:** EMOTIV FLEX2, 32-channel sintered Ag/AgCl gel-based electrodes",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000134/acquisition_setups:main.device_model/01,nm000134,acquisition_setups:main.device_model,FLEX2,nm000134_docbdca40,"**Equipment:** EMOTIV FLEX2, 32-channel sintered Ag/AgCl gel-based electrodes",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000134/acquisition_setups:main.electrode_type/01,nm000134,acquisition_setups:main.electrode_type,wet_gel,nm000134_docbdca40,"**Equipment:** EMOTIV FLEX2, 32-channel sintered Ag/AgCl gel-based electrodes",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000134/acquisition_setups:main.montage_system/01,nm000134,acquisition_setups:main.montage_system,10_10,nm000134_nemar,electrode_system: 10-10,2026-11-14,script,current,
 nm000134/acquisition_setups:main.n_channels_eeg/01,nm000134,acquisition_setups:main.n_channels_eeg,32,nm000134_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000134/acquisition_setups:main.n_channels_eeg/02,nm000134,acquisition_setups:main.n_channels_eeg,32,nm000134_docbdca40,Only the 32 EEG channels are retained,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000134/acquisition_setups:main.sampling_rate_hz/01,nm000134,acquisition_setups:main.sampling_rate_hz,256,nm000134_nemar,sampling_frequency,2026-11-14,script,current,
+nm000134/acquisition_setups:main.sampling_rate_hz/02,nm000134,acquisition_setups:main.sampling_rate_hz,256,nm000134_docbdca40,**Sampling rate:** 256 Hz (resampled to 250 Hz in published analyses),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000134/hours_reported/01,nm000134,hours_reported,129.5,nm000134_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000134/is_bids/01,nm000134,is_bids,true,nm000134_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000134/license_spdx/01,nm000134,license_spdx,CC-BY-NC-ND-4.0,nm000134_nemar,License: CC-BY-NC-ND-4.0,2026-11-14,script,current,
 nm000134/modalities/01,nm000134,modalities,scalp_eeg,nm000134_nemar,recording modalities: eeg,2026-11-14,script,current,
+nm000134/modalities/02,nm000134,modalities,scalp_eeg,nm000134_docbdca40,Only the 32 EEG channels are retained,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000134/n_recordings_reported/01,nm000134,n_recordings_reported,1525,nm000134_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000134/n_subjects_reported/01,nm000134,n_subjects_reported,20,nm000134_nemar,subject_count,2026-11-14,script,current,
+nm000134/n_subjects_reported/02,nm000134,n_subjects_reported,20,nm000134_docbdca40,"Twenty healthy adult participants (ages 23-63; 15 male, 5 female)",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000134/name/01,nm000134,name,Alljoined-1.6M,nm000134_nemar,Record name,2026-11-14,script,current,
+nm000134/participant_groups:participants.age_max/01,nm000134,participant_groups:participants.age_max,63,nm000134_docbdca40,"Twenty healthy adult participants (ages 23-63; 15 male, 5 female)",2026-11-16,claude,current,
+nm000134/participant_groups:participants.age_min/01,nm000134,participant_groups:participants.age_min,23,nm000134_docbdca40,"Twenty healthy adult participants (ages 23-63; 15 male, 5 female)",2026-11-16,claude,current,
+nm000134/participant_groups:participants.condition/01,nm000134,participant_groups:participants.condition,healthy,nm000134_docbdca40,"Twenty healthy adult participants (ages 23-63; 15 male, 5 female)",2026-11-16,claude,current,
+nm000134/participant_groups:participants.n_female/01,nm000134,participant_groups:participants.n_female,5,nm000134_docbdca40,"Twenty healthy adult participants (ages 23-63; 15 male, 5 female)",2026-11-16,claude,current,
+nm000134/participant_groups:participants.n_male/01,nm000134,participant_groups:participants.n_male,15,nm000134_docbdca40,"Twenty healthy adult participants (ages 23-63; 15 male, 5 female)",2026-11-16,claude,current,
+nm000134/participant_groups:participants.n_subjects/01,nm000134,participant_groups:participants.n_subjects,20,nm000134_docbdca40,"Twenty healthy adult participants (ages 23-63; 15 male, 5 female)",2026-11-16,claude,current,
 nm000134/size_gb_reported/01,nm000134,size_gb_reported,8.78,nm000134_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000134/tasks:images.task_name/01,nm000134,tasks:images.task_name,images,nm000134_nemar,tasks,2026-11-14,script,current,
+nm000134/tasks:rsvp_with_oddball_detection.paradigms/01,nm000134,tasks:rsvp_with_oddball_detection.paradigms,other,nm000134_docbdca40,Rapid Serial Visual Presentation (RSVP) with orthogonal oddball detection.,2026-11-16,claude,current,
+nm000134/tasks:rsvp_with_oddball_detection.task_name/01,nm000134,tasks:rsvp_with_oddball_detection.task_name,RSVP with oddball detection,nm000134_docbdca40,Rapid Serial Visual Presentation (RSVP) with orthogonal oddball detection.,2026-11-16,claude,current,
 nm000134/year_published/01,nm000134,year_published,2026,nm000134_nemar,first_published_at,2026-11-14,script,current,
 nm000135/access_routes:nemar.access_method/01,nm000135,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000135/access_routes:nemar.automation_tool/01,nm000135,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000135/access_routes:nemar.human_steps/01,nm000135,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000135/acquisition_setups:main.device_manufacturer/01,nm000135,acquisition_setups:main.device_manufacturer,g.tec,nm000135_doc22be58,"Three bipolar EEG channels (C3, Cz, C4) and three EOG channels were recorded at 250 Hz with g.tec amplifiers",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000135/acquisition_setups:main.ground/01,nm000135,acquisition_setups:main.ground,Fz,nm000135_doc22be58,The ground was at Fz and the reference at the left mastoid.,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000135/acquisition_setups:main.hardware_filter/01,nm000135,acquisition_setups:main.hardware_filter,0.5-100 Hz bandpass and a 50 Hz notch filter,nm000135_doc22be58,using a 0.5-100 Hz bandpass and a 50 Hz notch filter,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000135/acquisition_setups:main.line_freq_hz/01,nm000135,acquisition_setups:main.line_freq_hz,50,nm000135_nemar,power_line_frequency,2026-11-14,script,current,
+nm000135/acquisition_setups:main.line_freq_hz/02,nm000135,acquisition_setups:main.line_freq_hz,50,nm000135_doc22be58,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000135/acquisition_setups:main.montage_system/01,nm000135,acquisition_setups:main.montage_system,10_20,nm000135_nemar,electrode_system: 10-20,2026-11-14,script,current,
 nm000135/acquisition_setups:main.n_channels_eeg/01,nm000135,acquisition_setups:main.n_channels_eeg,3,nm000135_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000135/acquisition_setups:main.n_channels_eeg/02,nm000135,acquisition_setups:main.n_channels_eeg,3,nm000135_doc22be58,"Three bipolar EEG channels (C3, Cz, C4) were recorded at 250 Hz",2026-11-16,claude,current,Audit reviewer; scope: distributed
 nm000135/acquisition_setups:main.reference/01,nm000135,acquisition_setups:main.reference,left mastoid,nm000135_nemar,eeg_reference,2026-11-14,script,current,
+nm000135/acquisition_setups:main.reference/02,nm000135,acquisition_setups:main.reference,left mastoid,nm000135_doc22be58,The ground was at Fz and the reference at the left mastoid.,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000135/acquisition_setups:main.sampling_rate_hz/01,nm000135,acquisition_setups:main.sampling_rate_hz,250,nm000135_nemar,sampling_frequency,2026-11-14,script,current,
+nm000135/acquisition_setups:main.sampling_rate_hz/02,nm000135,acquisition_setups:main.sampling_rate_hz,250,nm000135_doc22be58,"Three bipolar EEG channels (C3, Cz, C4) and three EOG channels were recorded at 250 Hz with g.tec amplifiers",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000135/hours_reported/01,nm000135,hours_reported,26.28,nm000135_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000135/is_bids/01,nm000135,is_bids,true,nm000135_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000135/license_spdx/01,nm000135,license_spdx,CC-BY-ND-4.0,nm000135_nemar,License: CC-BY-ND-4.0,2026-11-14,script,current,
 nm000135/modalities/01,nm000135,modalities,scalp_eeg,nm000135_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000135/n_recordings_reported/01,nm000135,n_recordings_reported,45,nm000135_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000135/n_subjects_reported/01,nm000135,n_subjects_reported,9,nm000135_nemar,subject_count,2026-11-14,script,current,
+nm000135/n_subjects_reported/02,nm000135,n_subjects_reported,9,nm000135_doc22be58,"EEG recordings from 9 healthy, BCI-naive participants",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000135/name/01,nm000135,name,BNCI 2014-004 Motor Imagery dataset,nm000135_nemar,Record name,2026-11-14,script,current,
+nm000135/participant_groups:participants.age_mean/01,nm000135,participant_groups:participants.age_mean,24.7,nm000135_doc22be58,"- **Number of subjects**: 9 - **Health status**: healthy - **Age**: mean=24.7, std=3.3 - **Handedness**: right",2026-11-16,claude,current,
+nm000135/participant_groups:participants.age_sd/01,nm000135,participant_groups:participants.age_sd,3.3,nm000135_doc22be58,"- **Number of subjects**: 9 - **Health status**: healthy - **Age**: mean=24.7, std=3.3 - **Handedness**: right",2026-11-16,claude,current,
+nm000135/participant_groups:participants.condition/01,nm000135,participant_groups:participants.condition,healthy,nm000135_doc22be58,"- **Number of subjects**: 9 - **Health status**: healthy - **Age**: mean=24.7, std=3.3 - **Handedness**: right",2026-11-16,claude,current,
+nm000135/participant_groups:participants.handedness/01,nm000135,participant_groups:participants.handedness,right,nm000135_doc22be58,"- **Number of subjects**: 9 - **Health status**: healthy - **Age**: mean=24.7, std=3.3 - **Handedness**: right",2026-11-16,claude,current,
+nm000135/participant_groups:participants.n_subjects/01,nm000135,participant_groups:participants.n_subjects,9,nm000135_doc22be58,"- **Number of subjects**: 9 - **Health status**: healthy - **Age**: mean=24.7, std=3.3 - **Handedness**: right",2026-11-16,claude,current,
 nm000135/size_gb_reported/01,nm000135,size_gb_reported,0.65,nm000135_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000135/tasks:imagery.task_name/01,nm000135,tasks:imagery.task_name,imagery,nm000135_nemar,tasks,2026-11-14,script,current,
+nm000135/tasks:two_class_motor_imagery.paradigms/01,nm000135,tasks:two_class_motor_imagery.paradigms,motor_imagery,nm000135_doc22be58,performing two-class motor imagery (left vs. right hand),2026-11-16,claude,current,
+nm000135/tasks:two_class_motor_imagery.task_name/01,nm000135,tasks:two_class_motor_imagery.task_name,two-class motor imagery,nm000135_doc22be58,performing two-class motor imagery (left vs. right hand),2026-11-16,claude,current,
 nm000135/year_published/01,nm000135,year_published,2026,nm000135_nemar,first_published_at,2026-11-14,script,current,
 nm000136/access_routes:nemar.access_method/01,nm000136,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000136/access_routes:nemar.automation_tool/01,nm000136,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000136/access_routes:nemar.human_steps/01,nm000136,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000136/acquisition_setups:main.device_manufacturer/01,nm000136,acquisition_setups:main.device_manufacturer,Neuroscan,nm000136_docc56f06,"Hardware: Neuroscan Quik-Cap 65-ch, SynAmps2",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000136/acquisition_setups:main.device_model/01,nm000136,acquisition_setups:main.device_model,SynAmps2,nm000136_docc56f06,"Hardware: Neuroscan Quik-Cap 65-ch, SynAmps2",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000136/acquisition_setups:main.ground/01,nm000136,acquisition_setups:main.ground,forehead,nm000136_docaa121d,while the ground electrode is positioned on the forehead,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000136/acquisition_setups:main.line_freq_hz/01,nm000136,acquisition_setups:main.line_freq_hz,50,nm000136_nemar,power_line_frequency,2026-11-14,script,current,
+nm000136/acquisition_setups:main.line_freq_hz/02,nm000136,acquisition_setups:main.line_freq_hz,50,nm000136_docc56f06,Line frequency: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000136/acquisition_setups:main.montage_system/01,nm000136,acquisition_setups:main.montage_system,10_10,nm000136_nemar,electrode_system: 10-10,2026-11-14,script,current,
-nm000136/acquisition_setups:main.n_channels_eeg/01,nm000136,acquisition_setups:main.n_channels_eeg,65,nm000136_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000136/acquisition_setups:main.n_channels_eeg/01,nm000136,acquisition_setups:main.n_channels_eeg,65,nm000136_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,conflicting,
+nm000136/acquisition_setups:main.n_channels_eeg/02,nm000136,acquisition_setups:main.n_channels_eeg,62,nm000136_docaa121d,with 62 EEG electrodes positioned accordingly,2026-11-16,claude,conflicting,Audit reviewer; scope: paper
 nm000136/acquisition_setups:main.reference/01,nm000136,acquisition_setups:main.reference,right mastoid (M1),nm000136_nemar,eeg_reference,2026-11-14,script,current,
+nm000136/acquisition_setups:main.reference/02,nm000136,acquisition_setups:main.reference,right mastoid (M1),nm000136_docaa121d,The reference electrode is situated on the right mastoid (M1),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000136/acquisition_setups:main.sampling_rate_hz/01,nm000136,acquisition_setups:main.sampling_rate_hz,1000,nm000136_nemar,sampling_frequency,2026-11-14,script,current,
+nm000136/acquisition_setups:main.sampling_rate_hz/02,nm000136,acquisition_setups:main.sampling_rate_hz,1000,nm000136_docaa121d,the protocol globally records the continuous signals at a 1000 Hz sampling frequency,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000136/hours_reported/01,nm000136,hours_reported,11.22,nm000136_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000136/is_bids/01,nm000136,is_bids,true,nm000136_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000136/license_spdx/01,nm000136,license_spdx,CC0-1.0,nm000136_nemar,License: CC0,2026-11-14,script,current,
 nm000136/modalities/01,nm000136,modalities,scalp_eeg,nm000136_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000136/n_recordings_reported/01,nm000136,n_recordings_reported,63,nm000136_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000136/n_subjects_reported/01,nm000136,n_subjects_reported,31,nm000136_nemar,subject_count,2026-11-14,script,current,
+nm000136/n_subjects_reported/02,nm000136,n_subjects_reported,31,nm000136_docc56f06,64-channel EEG recorded at 1000 Hz from 31 healthy participants,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000136/name/01,nm000136,name,"Guttmann-Flury et al. 2025 (P300) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",nm000136_nemar,Record name,2026-11-14,script,current,
+nm000136/participant_groups:participants.age_mean/01,nm000136,participant_groups:participants.age_mean,29,nm000136_docaa121d,"enrolled 31 healthy volunteers (11 women, 20 men; mean age 29 ± 7)",2026-11-16,claude,current,
+nm000136/participant_groups:participants.age_sd/01,nm000136,participant_groups:participants.age_sd,7,nm000136_docaa121d,"enrolled 31 healthy volunteers (11 women, 20 men; mean age 29 ± 7)",2026-11-16,claude,current,
+nm000136/participant_groups:participants.condition/01,nm000136,participant_groups:participants.condition,healthy,nm000136_docaa121d,"enrolled 31 healthy volunteers (11 women, 20 men; mean age 29 ± 7)",2026-11-16,claude,current,
+nm000136/participant_groups:participants.n_female/01,nm000136,participant_groups:participants.n_female,11,nm000136_docaa121d,"enrolled 31 healthy volunteers (11 women, 20 men; mean age 29 ± 7)",2026-11-16,claude,current,
+nm000136/participant_groups:participants.n_male/01,nm000136,participant_groups:participants.n_male,20,nm000136_docaa121d,"enrolled 31 healthy volunteers (11 women, 20 men; mean age 29 ± 7)",2026-11-16,claude,current,
+nm000136/participant_groups:participants.n_subjects/01,nm000136,participant_groups:participants.n_subjects,31,nm000136_docaa121d,"enrolled 31 healthy volunteers (11 women, 20 men; mean age 29 ± 7)",2026-11-16,claude,current,
 nm000136/size_gb_reported/01,nm000136,size_gb_reported,40.75,nm000136_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000136/tasks:p300.task_name/01,nm000136,tasks:p300.task_name,p300,nm000136_nemar,tasks,2026-11-14,script,current,
+nm000136/tasks:p300_speller.paradigms/01,nm000136,tasks:p300_speller.paradigms,p300_erp,nm000136_docc56f06,performing a row/column P300 speller task with 4L and 5L grid sizes,2026-11-16,claude,current,
+nm000136/tasks:p300_speller.task_name/01,nm000136,tasks:p300_speller.task_name,P300 speller,nm000136_docc56f06,performing a row/column P300 speller task with 4L and 5L grid sizes,2026-11-16,claude,current,
 nm000136/year_published/01,nm000136,year_published,2026,nm000136_nemar,first_published_at,2026-11-14,script,current,
 nm000137/access_routes:nemar.access_method/01,nm000137,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000137/access_routes:nemar.automation_tool/01,nm000137,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000137/access_routes:nemar.human_steps/01,nm000137,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000137/acquisition_setups:main.device_manufacturer/01,nm000137,acquisition_setups:main.device_manufacturer,Nihon Kohden,nm000137_doc4758de,"EEG data were acquired using an EEG-1200 JE-921A EEG system (Nihon Kohden, Japan).",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000137/acquisition_setups:main.device_model/01,nm000137,acquisition_setups:main.device_model,EEG-1200 JE-921A,nm000137_doc4758de,"EEG data were acquired using an EEG-1200 JE-921A EEG system (Nihon Kohden, Japan).",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000137/acquisition_setups:main.ground/01,nm000137,acquisition_setups:main.ground,"A1, A2 (earlobes)",nm000137_doc5e660f,"- **Ground**: A1, A2 (earlobes)",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000137/acquisition_setups:main.line_freq_hz/01,nm000137,acquisition_setups:main.line_freq_hz,50,nm000137_nemar,power_line_frequency,2026-11-14,script,current,
+nm000137/acquisition_setups:main.line_freq_hz/02,nm000137,acquisition_setups:main.line_freq_hz,50,nm000137_doc5e660f,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000137/acquisition_setups:main.montage_system/01,nm000137,acquisition_setups:main.montage_system,10_20,nm000137_nemar,electrode_system: 10-20,2026-11-14,script,current,
+nm000137/acquisition_setups:main.montage_system/02,nm000137,acquisition_setups:main.montage_system,10_20,nm000137_doc5e660f,EEG was recorded from 19 scalp channels (10-20 system),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000137/acquisition_setups:main.n_channels_eeg/01,nm000137,acquisition_setups:main.n_channels_eeg,19,nm000137_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000137/acquisition_setups:main.n_channels_eeg/02,nm000137,acquisition_setups:main.n_channels_eeg,19,nm000137_doc5e660f,EEG was recorded from 19 scalp channels (10-20 system) with a Nihon Kohden EEG-1200 at 200 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000137/acquisition_setups:main.reference/01,nm000137,acquisition_setups:main.reference,System 0V (0.55*(C3+C4)),nm000137_nemar,eeg_reference,2026-11-14,script,current,
+nm000137/acquisition_setups:main.reference/02,nm000137,acquisition_setups:main.reference,System 0V (0.55*(C3+C4)),nm000137_doc5e660f,- **Reference**: System 0V (0.55*(C3+C4)),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000137/acquisition_setups:main.sampling_rate_hz/01,nm000137,acquisition_setups:main.sampling_rate_hz,200,nm000137_nemar,sampling_frequency,2026-11-14,script,current,
-nm000137/hours_reported/01,nm000137,hours_reported,15.7,nm000137_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
+nm000137/acquisition_setups:main.sampling_rate_hz/02,nm000137,acquisition_setups:main.sampling_rate_hz,200,nm000137_doc4758de,The EEG signal was recorded at sampling rate of 200 Hz unless otherwise indicated in the data file.,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000137/hours_reported/01,nm000137,hours_reported,15.7,nm000137_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,conflicting,
+nm000137/hours_reported/02,nm000137,hours_reported,60,nm000137_doc4758de,The dataset contains 60 hours of EEG BCI recordings across 75 recording sessions of 13 participants,2026-11-16,claude,conflicting,Audit reviewer; scope: whole kaya dataset (paper)
 nm000137/is_bids/01,nm000137,is_bids,true,nm000137_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000137/license_spdx/01,nm000137,license_spdx,CC-BY-4.0,nm000137_nemar,License: CC-BY-4.0,2026-11-14,script,current,
 nm000137/modalities/01,nm000137,modalities,scalp_eeg,nm000137_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000137/n_recordings_reported/01,nm000137,n_recordings_reported,17,nm000137_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
-nm000137/n_subjects_reported/01,nm000137,n_subjects_reported,7,nm000137_nemar,subject_count,2026-11-14,script,current,
+nm000137/n_subjects_reported/01,nm000137,n_subjects_reported,7,nm000137_nemar,subject_count,2026-11-14,script,conflicting,
+nm000137/n_subjects_reported/02,nm000137,n_subjects_reported,13,nm000137_doc4758de,The dataset contains 60 hours of EEG BCI recordings across 75 recording sessions of 13 participants,2026-11-16,claude,conflicting,Audit reviewer; scope: whole kaya dataset (paper)
 nm000137/name/01,nm000137,name,"Classical motor imagery dataset with left hand, right hand, and rest",nm000137_nemar,Record name,2026-11-14,script,current,
+nm000137/participant_groups:participants.age_max/01,nm000137,participant_groups:participants.age_max,35,nm000137_doc5e660f,"- **Number of subjects**: 7 - **Health status**: healthy - **Age**: min=20, max=35 - **Gender distribution**: male=5, female=2",2026-11-16,claude,current,
+nm000137/participant_groups:participants.age_min/01,nm000137,participant_groups:participants.age_min,20,nm000137_doc5e660f,"- **Number of subjects**: 7 - **Health status**: healthy - **Age**: min=20, max=35 - **Gender distribution**: male=5, female=2",2026-11-16,claude,current,
+nm000137/participant_groups:participants.condition/01,nm000137,participant_groups:participants.condition,healthy,nm000137_doc5e660f,"- **Number of subjects**: 7 - **Health status**: healthy - **Age**: min=20, max=35 - **Gender distribution**: male=5, female=2",2026-11-16,claude,current,
+nm000137/participant_groups:participants.n_female/01,nm000137,participant_groups:participants.n_female,2,nm000137_doc5e660f,"- **Number of subjects**: 7 - **Health status**: healthy - **Age**: min=20, max=35 - **Gender distribution**: male=5, female=2",2026-11-16,claude,current,
+nm000137/participant_groups:participants.n_male/01,nm000137,participant_groups:participants.n_male,5,nm000137_doc5e660f,"- **Number of subjects**: 7 - **Health status**: healthy - **Age**: min=20, max=35 - **Gender distribution**: male=5, female=2",2026-11-16,claude,current,
+nm000137/participant_groups:participants.n_subjects/01,nm000137,participant_groups:participants.n_subjects,7,nm000137_doc5e660f,"- **Number of subjects**: 7 - **Health status**: healthy - **Age**: min=20, max=35 - **Gender distribution**: male=5, female=2",2026-11-16,claude,current,
 nm000137/size_gb_reported/01,nm000137,size_gb_reported,1.2,nm000137_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000137/tasks:cla_classical_motor_imagery.paradigms/01,nm000137,tasks:cla_classical_motor_imagery.paradigms,motor_imagery,nm000137_doc5e660f,"performing classical motor imagery of the left hand, right hand, and passive rest",2026-11-16,claude,current,
+nm000137/tasks:cla_classical_motor_imagery.task_name/01,nm000137,tasks:cla_classical_motor_imagery.task_name,CLA classical motor imagery,nm000137_doc5e660f,"performing classical motor imagery of the left hand, right hand, and passive rest",2026-11-16,claude,current,
 nm000137/tasks:imagery.task_name/01,nm000137,tasks:imagery.task_name,imagery,nm000137_nemar,tasks,2026-11-14,script,current,
 nm000137/year_published/01,nm000137,year_published,2026,nm000137_nemar,first_published_at,2026-11-14,script,current,
 nm000138/access_routes:nemar.access_method/01,nm000138,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000138/access_routes:nemar.automation_tool/01,nm000138,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000138/access_routes:nemar.human_steps/01,nm000138,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000138/acquisition_setups:main.device_manufacturer/01,nm000138,acquisition_setups:main.device_manufacturer,g.tec,nm000138_doc6450dc,with a g.tec g.USBamp EEG amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000138/acquisition_setups:main.device_model/01,nm000138,acquisition_setups:main.device_model,g.USBamp,nm000138_doc6450dc,with a g.tec g.USBamp EEG amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000138/acquisition_setups:main.line_freq_hz/01,nm000138,acquisition_setups:main.line_freq_hz,50,nm000138_nemar,power_line_frequency,2026-11-14,script,current,
+nm000138/acquisition_setups:main.line_freq_hz/02,nm000138,acquisition_setups:main.line_freq_hz,50,nm000138_doc93b707,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000138/acquisition_setups:main.montage_system/01,nm000138,acquisition_setups:main.montage_system,10_20,nm000138_nemar,electrode_system: 10-20,2026-11-14,script,current,
 nm000138/acquisition_setups:main.n_channels_eeg/01,nm000138,acquisition_setups:main.n_channels_eeg,16,nm000138_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000138/acquisition_setups:main.n_channels_eeg/02,nm000138,acquisition_setups:main.n_channels_eeg,16,nm000138_doc6450dc,Data have been recorded at 512Hz with 16 wet electrodes,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000138/acquisition_setups:main.reference/01,nm000138,acquisition_setups:main.reference,earlobe,nm000138_nemar,eeg_reference,2026-11-14,script,current,
+nm000138/acquisition_setups:main.reference/02,nm000138,acquisition_setups:main.reference,earlobe,nm000138_doc93b707,referenced to the earlobe,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000138/acquisition_setups:main.sampling_rate_hz/01,nm000138,acquisition_setups:main.sampling_rate_hz,512,nm000138_nemar,sampling_frequency,2026-11-14,script,current,
+nm000138/acquisition_setups:main.sampling_rate_hz/02,nm000138,acquisition_setups:main.sampling_rate_hz,512,nm000138_doc6450dc,Data have been recorded at 512Hz with 16 wet electrodes,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000138/hours_reported/01,nm000138,hours_reported,1.1,nm000138_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000138/is_bids/01,nm000138,is_bids,true,nm000138_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000138/license_spdx/01,nm000138,license_spdx,CC-BY-SA-4.0,nm000138_nemar,License: CC-BY-SA-4.0,2026-11-14,script,current,
 nm000138/modalities/01,nm000138,modalities,scalp_eeg,nm000138_nemar,recording modalities: eeg,2026-11-14,script,current,
 nm000138/n_recordings_reported/01,nm000138,n_recordings_reported,8,nm000138_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000138/n_subjects_reported/01,nm000138,n_subjects_reported,8,nm000138_nemar,subject_count,2026-11-14,script,current,
+nm000138/n_subjects_reported/02,nm000138,n_subjects_reported,8,nm000138_doc6450dc,This Dataset contains EEG recordings from 8 subjects,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000138/name/01,nm000138,name,Alex Motor Imagery dataset,nm000138_nemar,Record name,2026-11-14,script,current,
+nm000138/participant_groups:participants.condition/01,nm000138,participant_groups:participants.condition,healthy,nm000138_doc93b707,EEG recordings from 8 healthy participants,2026-11-16,claude,current,
+nm000138/participant_groups:participants.n_subjects/01,nm000138,participant_groups:participants.n_subjects,8,nm000138_doc93b707,EEG recordings from 8 healthy participants,2026-11-16,claude,current,
 nm000138/size_gb_reported/01,nm000138,size_gb_reported,0.23,nm000138_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000138/tasks:imagery.task_name/01,nm000138,tasks:imagery.task_name,imagery,nm000138_nemar,tasks,2026-11-14,script,current,
+nm000138/tasks:motor_imagery.paradigms/01,nm000138,tasks:motor_imagery.paradigms,motor_imagery,nm000138_doc6450dc,"performing 2 task of motor imagination (right hand, feet or rest)",2026-11-16,claude,current,
+nm000138/tasks:motor_imagery.task_name/01,nm000138,tasks:motor_imagery.task_name,motor imagery,nm000138_doc6450dc,"performing 2 task of motor imagination (right hand, feet or rest)",2026-11-16,claude,current,
 nm000138/year_published/01,nm000138,year_published,2026,nm000138_nemar,first_published_at,2026-11-14,script,current,
 nm000139/access_routes:nemar.access_method/01,nm000139,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000139/access_routes:nemar.automation_tool/01,nm000139,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000139/access_routes:nemar.human_steps/01,nm000139,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000139/acquisition_setups:main.ground/01,nm000139,acquisition_setups:main.ground,right mastoid,nm000139_doc823efd,All signals were recorded monopolarly with the left mastoid serving as reference and the right mastoid as ground.,2026-11-16,claude,current,Audit reviewer; scope: data set 2a
+nm000139/acquisition_setups:main.hardware_filter/01,nm000139,acquisition_setups:main.hardware_filter,bandpass filtered between 0.5 and 100 Hz,nm000139_doc823efd,The signals were sampled with 250 Hz and bandpass filtered between 0.5 and 100 Hz.,2026-11-16,claude,current,Audit reviewer; scope: data set 2a
 nm000139/acquisition_setups:main.line_freq_hz/01,nm000139,acquisition_setups:main.line_freq_hz,50,nm000139_nemar,power_line_frequency,2026-11-14,script,current,
+nm000139/acquisition_setups:main.line_freq_hz/02,nm000139,acquisition_setups:main.line_freq_hz,50,nm000139_docb76033,- **Line frequency**: 50.0 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000139/acquisition_setups:main.montage_system/01,nm000139,acquisition_setups:main.montage_system,10_10,nm000139_nemar,electrode_system: 10-10,2026-11-14,script,current,
 nm000139/acquisition_setups:main.n_channels_eeg/01,nm000139,acquisition_setups:main.n_channels_eeg,22,nm000139_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000139/acquisition_setups:main.n_channels_eeg/02,nm000139,acquisition_setups:main.n_channels_eeg,22,nm000139_doc823efd,2a Graz 22 EEG 4-Class motor imagery,2026-11-16,claude,current,Audit reviewer; scope: data set 2a
 nm000139/acquisition_setups:main.reference/01,nm000139,acquisition_setups:main.reference,left mastoid,nm000139_nemar,eeg_reference,2026-11-14,script,current,
+nm000139/acquisition_setups:main.reference/02,nm000139,acquisition_setups:main.reference,left mastoid,nm000139_doc823efd,All signals were recorded monopolarly with the left mastoid serving as reference and the right mastoid as ground.,2026-11-16,claude,current,Audit reviewer; scope: data set 2a
 nm000139/acquisition_setups:main.sampling_rate_hz/01,nm000139,acquisition_setups:main.sampling_rate_hz,250,nm000139_nemar,sampling_frequency,2026-11-14,script,current,
+nm000139/acquisition_setups:main.sampling_rate_hz/02,nm000139,acquisition_setups:main.sampling_rate_hz,250,nm000139_doc823efd,The signals were sampled with 250 Hz and bandpass filtered between 0.5 and 100 Hz.,2026-11-16,claude,current,Audit reviewer; scope: data set 2a
 nm000139/hours_reported/01,nm000139,hours_reported,11.61,nm000139_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000139/is_bids/01,nm000139,is_bids,true,nm000139_nemar,bids_version 1.9.0,2026-11-14,script,current,
 nm000139/license_spdx/01,nm000139,license_spdx,CC-BY-ND-4.0,nm000139_nemar,License: CC-BY-ND-4.0,2026-11-14,script,current,
@@ -19496,7 +19715,10 @@ nm000139/modalities/01,nm000139,modalities,scalp_eeg,nm000139_nemar,recording mo
 nm000139/n_recordings_reported/01,nm000139,n_recordings_reported,108,nm000139_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000139/n_subjects_reported/01,nm000139,n_subjects_reported,9,nm000139_nemar,subject_count,2026-11-14,script,current,
 nm000139/name/01,nm000139,name,BNCI 2014-001 Motor Imagery dataset,nm000139_nemar,Record name,2026-11-14,script,current,
+nm000139/participant_groups:participants.n_subjects/01,nm000139,participant_groups:participants.n_subjects,9,nm000139_doc823efd,This data set comprises electroencephalographic (EEG) data from 9 subjects.,2026-11-16,claude,current,
 nm000139/size_gb_reported/01,nm000139,size_gb_reported,1.38,nm000139_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000139/tasks:cue_based_four_class_motor_imagery.paradigms/01,nm000139,tasks:cue_based_four_class_motor_imagery.paradigms,motor_imagery,nm000139_doc823efd,"The cue-based BCI paradigm consisted of four different motor imagery tasks, namely the imagination of movement of the left hand (class 1), right hand (class",2026-11-16,claude,current,
+nm000139/tasks:cue_based_four_class_motor_imagery.task_name/01,nm000139,tasks:cue_based_four_class_motor_imagery.task_name,cue-based four-class motor imagery,nm000139_doc823efd,"The cue-based BCI paradigm consisted of four different motor imagery tasks, namely the imagination of movement of the left hand (class 1), right hand (class",2026-11-16,claude,current,
 nm000139/tasks:imagery.task_name/01,nm000139,tasks:imagery.task_name,imagery,nm000139_nemar,tasks,2026-11-14,script,current,
 nm000139/year_published/01,nm000139,year_published,2026,nm000139_nemar,first_published_at,2026-11-14,script,current,
 nm000140/access_routes:nemar.access_method/01,nm000140,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,

@@ -28,6 +28,7 @@ nm000110,possibly_same_as,chbmit,nm000110_nemar,Both print the same name; whethe
 nm000114,derived_from,mumtaz2016_mdd,nm000114_nemar,NEMAR lists 10.6084/m9.figshare.4244171.v2 as IsVersionOf this record
 nm000115,derived_from,zhou2016,nm000115_nemar,NEMAR lists 10.1371/journal.pone.0162657 as IsDerivedFrom this record
 nm000115,possibly_same_as,zhou2016,nm000115_nemar,Both print the same name; whether they are the same data is not checked
+nm000125,subset_of,figshare_13604078,figshare_13604078_paper_a,"The record says it is part of the other dataset (audit, quote checked)"
 nm000130,derived_from,eldbeta,nm000130_nemar,NEMAR lists 10.1038/s41597-022-01372-9 as IsDerivedFrom this record
 nm000137,derived_from,kaya2018,nm000137_nemar,NEMAR lists 10.1038/sdata.2018.211 as IsDerivedFrom this record
 nm000146,derived_from,weibo2014,nm000146_nemar,NEMAR lists 10.1371/journal.pone.0114853 as IsDerivedFrom this record

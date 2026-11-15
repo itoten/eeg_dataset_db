@@ -600,6 +600,32 @@ nm000122,acquisition_setups:main.montage_system,conflicting,10_10,secondary,http
 nm000122,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178385,Audit reviewer; scope: not given
 nm000122,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.nemar.org/datasets/nm000122,Audit reviewer; scope: session 0 (training)
 nm000122,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://nemar.org/dataset/nm000122,
+nm000125,acquisition_setups:main.line_freq_hz,conflicting,50,primary,https://nemar.org/dataset/nm000125,
+nm000125,acquisition_setups:main.line_freq_hz,conflicting,60,primary,https://api.nemar.org/datasets/nm000125,Audit reviewer; scope: not given
+nm000125,acquisition_setups:main.sampling_rate_hz,conflicting,100,primary,https://nemar.org/dataset/nm000125,
+nm000125,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://www.nature.com/articles/s41597-021-01094-4,Audit reviewer; scope: recorded scalp-eeg and eog
+nm000125,n_subjects_reported,conflicting,23,primary,https://nemar.org/dataset/nm000125,
+nm000125,n_subjects_reported,conflicting,24,primary,https://www.nature.com/articles/s41597-021-01094-4,Audit reviewer; scope: whole mobile bci dataset (paper)
+nm000126,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://api.nemar.org/datasets/nm000126,Audit reviewer; scope: recorded
+nm000126,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://nemar.org/dataset/nm000126,
+nm000127,acquisition_setups:main.line_freq_hz,conflicting,50,primary,https://nemar.org/dataset/nm000127,
+nm000127,acquisition_setups:main.line_freq_hz,conflicting,60,primary,https://api.nemar.org/datasets/nm000127,Audit reviewer; scope: not given
+nm000128,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000128,Audit reviewer; scope: recorded
+nm000128,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://nemar.org/dataset/nm000128,
+nm000129,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.frontiersin.org/articles/10.3389/fnins.2020.00627/full,Audit reviewer; scope: recorded
+nm000129,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://nemar.org/dataset/nm000129,
+nm000130,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://nemar.org/dataset/nm000130,
+nm000130,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://www.nature.com/articles/s41597-022-01372-9,Audit reviewer; scope: not given
+nm000132,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://nemar.org/dataset/nm000132,
+nm000132,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC7909723/,Audit reviewer; scope: not given
+nm000132,acquisition_setups:main.n_channels_eeg,conflicting,30,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC7909723/,Audit reviewer; scope: not given
+nm000132,acquisition_setups:main.n_channels_eeg,conflicting,33,primary,https://nemar.org/dataset/nm000132,
+nm000136,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://www.nature.com/articles/s41597-025-04861-9,Audit reviewer; scope: paper
+nm000136,acquisition_setups:main.n_channels_eeg,conflicting,65,primary,https://nemar.org/dataset/nm000136,
+nm000137,hours_reported,conflicting,15.7,primary,https://nemar.org/dataset/nm000137,
+nm000137,hours_reported,conflicting,60,primary,https://www.nature.com/articles/sdata2018211,Audit reviewer; scope: whole kaya dataset (paper)
+nm000137,n_subjects_reported,conflicting,13,primary,https://www.nature.com/articles/sdata2018211,Audit reviewer; scope: whole kaya dataset (paper)
+nm000137,n_subjects_reported,conflicting,7,primary,https://nemar.org/dataset/nm000137,
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
