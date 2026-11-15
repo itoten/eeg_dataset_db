@@ -4204,6 +4204,11 @@ zenodo_7664068,motor_imagery_of_bimanual_rowing_mi_mimo,"motor imagery of bimanu
 zenodo_7667390,reading_stories_irony_understanding_iron,"reading stories, irony understanding (ironic/literal; speaker occupation stereotype)",language,,,,,,,,
 zenodo_7758424,ssvep_5_target_selection_with_four_stimu,SSVEP 5-target selection with four stimulus types,ssvep,,,,,,,,
 zenodo_784093,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
+zenodo_784093,single_flicker_online_ssvep_bci_training,single-flicker online SSVEP BCI (training and online sessions),ssvep,,,,,,,,
+zenodo_7876018,passive_listening_to_a_pink_floyd_song,passive listening to a Pink Floyd song,passive_viewing,,,,,,,,
+zenodo_7885589,audiovisual_localization_task_cocktail_p,audiovisual localization task (cocktail-party),auditory_erp;visual_erp,,,,,,,,
 zenodo_7893846,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zenodo_7893846,motor_imagery,motor imagery,motor_imagery,,,,,,,,
+zenodo_7951043,orthosis_assisted_elbow_flexion_extensio,orthosis-assisted elbow flexion/extension with introduced errors,motor_execution;other,,,,,,,,
 zenodo_806022,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zhou2016,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name

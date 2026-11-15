@@ -1805,25 +1805,24 @@ zenodo_7650678,DataSet-Neural signatures of linguistic predictions and listener'
 zenodo_7664068,Physiological Signals During Motor Imagery Brain-Computer Interface Training Using Virtual Reality and Haptics,,scalp_eeg;ecg;respiration;other_physiological,bci;motor,,2022,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,32,500,,Brain Products GmbH LiveAmp,motor_execution;motor_imagery,,2026-11-15
 zenodo_7667390,Social knowledge and irony understanding,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,22,,,,,,,,,,direct_download,open,,,,,language,,2026-11-15
 zenodo_7758424,SSVEP database elicited by four visual stimuli types,,scalp_eeg,bci;perception,,2023,CC-BY-4.0,,,,,,,,27,,,,,,,,,,direct_download,open,8,256,10_20,g.tec medical engineering GmbH g.USBamp,ssvep,,2026-11-15
-zenodo_7770330,EEG data for octave enlargement experiments,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_784093,Single-flicker online SSVEP BCI datset,,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
-zenodo_7876018,Data from: Nonlinear decoding models enable music reconstruction from human auditory cortex activity,,,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7885589,"Cross-modal interactions at the audiovisual cocktail-party revealed by behavior, ERPs, and neural oscillations",,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_7891963,Distinct frequencies balance segregation with interaction between different memory types within a prefrontal circuit,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,62,,,,,,2026-11-14
-zenodo_7893846,EEG motor imagery,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
-zenodo_789798,"Raw data of 'He, Y., Gebhardt, H., Steines, M., Sammer, G., Kircher, T., Nagels, A., & Straube, B. (2015). The EEG and fMRI signatures of neural integration: An investigation of meaningful gestures and corresponding speech. Neuropsychologia, 72, 27-42.'",,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7913115,EEG signature of grouping strategies in numerosity perception,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7940925,Telethon EEG project,,scalp_eeg,,,2023,LicenseRef-other,The record's license field begins 'other-open' [zenodo_7940926].,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7947618,BCI_EXPERIMENTS_JEMARO,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7948048,"EEG Recordings of Exposure to Unrealistic, Semi-realistic and Realistic Character Faces - A Pilot Study",,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_7951043,EEG and EMG dataset for the detection of errors introduced by an active orthosis device (IJCAI'23 CC6 Competition),,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_795347,Fronto-parietal tDCS in DOC patients,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_7995631,Data from: Decision and response monitoring during working memory are sequentially represented in the human insula,,,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_800210,The EEG and fMRI signatures of neural integration: An investigation of meaningful gestures and corresponding speech,,scalp_eeg,,,2015,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8013800,Data for: Capturing synchronization with complexity measure of ordinal pattern transition network constructed by Crossplot,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_801425,HD EEG resting state versus hypnosis state during recall of positive autobiographical events,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_802168,HD EEG in patients with disorders of consciousness,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_8032878,"Experimental study dataset: ""Enhancing Touch Sensibility with Sensory Electrical Stimulation and Sensory Retraining""",,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+zenodo_7770330,EEG data for octave enlargement experiments,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-15
+zenodo_784093,Single-flicker online SSVEP BCI datset,,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,12,,,,,,,,,,direct_download,open,32,,10_20,BioSemi ActiveTwo,ssvep,,2026-11-15
+zenodo_7876018,Data from: Nonlinear decoding models enable music reconstruction from human auditory cortex activity,,ieeg_ecog,,,2023,CC-BY-4.0,,,,,,,,29,,,,,,,,,,direct_download,open,,,,g.tec g.USBamp,passive_viewing,,2026-11-15
+zenodo_7885589,"Cross-modal interactions at the audiovisual cocktail-party revealed by behavior, ERPs, and neural oscillations",,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,64,1000,,Bittium NeurOne Tesla,auditory_erp;visual_erp,,2026-11-15
+zenodo_7891963,Distinct frequencies balance segregation with interaction between different memory types within a prefrontal circuit,,scalp_eeg;emg;eog,,,2023,CC-BY-4.0,,,,,,,,45,,,,,,,,,,direct_download,open,62,5000,,Brain Products BrainAmp,,,2026-11-15
+zenodo_7893846,EEG motor imagery,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-15
+zenodo_789798,"Raw data of 'He, Y., Gebhardt, H., Steines, M., Sammer, G., Kircher, T., Nagels, A., & Straube, B. (2015). The EEG and fMRI signatures of neural integration: An investigation of meaningful gestures and corresponding speech. Neuropsychologia, 72, 27-42.'",,scalp_eeg;fmri,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_7940925,Telethon EEG project,,scalp_eeg,,,2023,LicenseRef-other,The record's license field begins 'other-open' [zenodo_7940926].,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_7947618,BCI_EXPERIMENTS_JEMARO,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,4,,,,,,2026-11-15
+zenodo_7948048,"EEG Recordings of Exposure to Unrealistic, Semi-realistic and Realistic Character Faces - A Pilot Study",,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_7951043,EEG and EMG dataset for the detection of errors introduced by an active orthosis device (IJCAI'23 CC6 Competition),,scalp_eeg;emg,,,2023,CC-BY-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,64,,,Brain Products LiveAmp64,motor_execution;other,,2026-11-15
+zenodo_795347,Fronto-parietal tDCS in DOC patients,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,8,500,,Starstim8,,,2026-11-15
+zenodo_7995631,Data from: Decision and response monitoring during working memory are sequentially represented in the human insula,,ieeg_seeg,,,2023,CC-BY-4.0,,,,,,,,12,,,,,,,,,,direct_download,open,,200,,,,,2026-11-15
+zenodo_800210,The EEG and fMRI signatures of neural integration: An investigation of meaningful gestures and corresponding speech,,scalp_eeg,,,2015,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_8013800,Data for: Capturing synchronization with complexity measure of ordinal pattern transition network constructed by Crossplot,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_801425,HD EEG resting state versus hypnosis state during recall of positive autobiographical events,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-15
+zenodo_802168,HD EEG in patients with disorders of consciousness,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-15
+zenodo_8032878,"Experimental study dataset: ""Enhancing Touch Sensibility with Sensory Electrical Stimulation and Sensory Retraining""",,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,26,,,,,,,,,,direct_download,open,64,1200,,g.tec g.HIAMP,,,2026-11-15
 zenodo_8058005,Memory related processing is the primary driver of human hippocampal theta oscillations,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_806022,"EEG Motor Imagery Dataset from the PhD Thesis ""Commande robuste d'un effecteur par une interface cerveau machine EEG asynchrone""",,scalp_eeg,,,2012,CC-BY-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
 zenodo_806134,Rest EEG recordings in brain-injured patients,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14

@@ -189,3 +189,9 @@ zenodo_7446347,acquisition_setups:main.sampling_rate_hz,conflicting,2400,primary
 zenodo_7446347,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://zenodo.org/records/7500806,Audit reviewer; scope: distributed preprocessed data
 zenodo_7495535,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9965040/,Audit reviewer; scope: preprocessed data used in the paper
 zenodo_7495535,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9965040/,Audit reviewer; scope: recorded
+zenodo_784093,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178385,Audit reviewer; scope: recorded rate (training and online)
+zenodo_784093,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://zenodo.org/records/580485,Audit reviewer; scope: online-session .mat files as distributed
+zenodo_7876018,acquisition_setups:main.sampling_rate_hz,conflicting,100,primary,https://zenodo.org/records/7876019,Audit reviewer; scope: distributed hfa
+zenodo_7876018,acquisition_setups:main.sampling_rate_hz,conflicting,1200,primary,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002176,Audit reviewer; scope: recorded
+zenodo_7951043,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10839100/,Audit reviewer; scope: emg
+zenodo_7951043,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10839100/,Audit reviewer; scope: eeg
