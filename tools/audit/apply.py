@@ -238,7 +238,8 @@ def main():
                               "evidence": ve, "evidence_checked": vok, "copy_of": cp, "copy_checked": cok, "notes": it.get("notes", "")})
         rb = it.get("record_by_dataset_authors") or {}
         record_primary = False
-        if rb.get("answer") == "yes" and rb.get("url"):
+        # a NEMAR record is a third party's conversion even when it lists the original authors as creators
+        if rb.get("answer") == "yes" and rb.get("url") and "nemar.org" not in urllib.parse.urlparse(rb["url"]).netloc:
             # a creator list: every surname-like word (3+ letters) must be on the record page
             words = [w for w in re.findall(r"[A-Za-z\u00C0-\u024F'-]{3,}", rb.get("quote", "")) if w.lower() not in ("and", "the")]
             page = alnum(fetch(rb["url"]))
