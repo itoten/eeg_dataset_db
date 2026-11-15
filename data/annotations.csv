@@ -57,6 +57,7 @@ ds004865,event_markers,behavioral events,,,,,,ds004865_doc741262,This dataset co
 ds004902,questionnaires,sleepiness and mood scales,,,,,,ds004902_doc647a7c,The dataset also provides information on participants' sleepiness and mood states.,2026-11-15,claude,
 ds004944,event_annotations,epileptiform patterns detected with the offline approach,,,,,,ds004944_docda0b15,The annotations of the epileptiform patterns detected with the offline approach are provided at,2026-11-15,claude,
 ds004951,event_markers,trigger codes,,,,,,ds004951_doc9c5aee,"The events files contain the onsets, durations, trial types and values for all trials in the corresponding run.",2026-11-15,claude,
+ds004952,event_markers,Markers,EYES;EYEE;CALS;CALE;BEGN;STOP;CHxx;ROWS;ROWE;PRES;PREE,,,,,ds004952_docf30cce,we marked the EEG data with triggers.,2026-11-15,claude,
 dv_10_18710_d5io4r,behavioral_responses,flanker and AX-CPT behavioural data,,,,,,dv_10_18710_d5io4r_docb247b2,".tsv : Tab separated values file, contain behavioral data",2026-11-15,claude,
 dv_10_18710_d5io4r,event_markers,Stimulus designations (contained in .vmrk files),1 - left congruent;2 - right congruent;3 - left incongruent;4 - right incongruent;5 - left neutral;6 - right neutral;201 - correct response;200 - incorrect response,,,,,dv_10_18710_d5io4r_docb247b2,Stimulus designations (contained in .vmrk files),2026-11-15,claude,
 dv_10_18710_d5io4r,questionnaires,"CRS, IPAQ, LHQ, SFFQ, SNI",,,,,,dv_10_18710_d5io4r_docb247b2,"tasks: restingstateClosedEye, Flanker, CRS, IPAQ, LHQ, SFFQ, SNI",2026-11-15,claude,

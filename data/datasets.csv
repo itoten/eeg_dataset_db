@@ -288,21 +288,21 @@ ds004917,Probability Decision-making Task with ambiguity,,scalp_eeg,,,,CC0-1.0,,
 ds004942,SpatialMemory,,scalp_eeg,cognitive,college_of_william_mary,,CC0-1.0,,,,,,true,,62,,,,25.05,,,,,,direct_download,open,65,1000,10_20,Sensorium Inc. DBPA-1,cognitive_task,,2026-11-15
 ds004944,Dataset of BCI2000-compatible intraoperative ECoG with neuromorphic encoding,,ieeg_ecog,epilepsy;clinical,neurochirurgie_universit_tsspital_z_rich,,CC0-1.0,,,,,,true,,22,,,,0.44,,,,,,site_terms_agreement,one_time_human,0,2000,,Natus Medical Inc. Nicolet Nicolet CSeries amplifier,anesthesia,,2026-11-15
 ds004951,Braille letters - EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,11,,,,22,,,,,,direct_download,open,63,1000,10_20,Brain Products,other,,2026-11-15
-ds004952,ChineseEEG: A Chinese Linguistic Corpora EEG Dataset for Semantic Alignment and Neural Decoding,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,207.12,,,,,,direct_download,open,128,1000,,Brain Products,,,2026-11-14
-ds004977,CARLA: Adjusted common average referencing for cortico-cortical evoked potential data,,ieeg,,,,CC0-1.0,,,,,,true,,4,,,,1.49,,,,,,direct_download,open,,4800,,g.Tec g.HIamp,,,2026-11-14
-ds004980,EEG data set for a architectural affordances task,,scalp_eeg,,technische_universitaet_zu_berlin,,CC0-1.0,,,,,,true,,17,,,,15.82,,,,,,direct_download,open,64,499.9914553,,,,,2026-11-14
-ds004993,"WIRED ICM Sample Dataset - Workshop on Intracranial Recordings in Humans, Epilepsy, DBS",,ieeg,,,,CC0-1.0,,,,,,true,,3,,,,0.3,,,,,,direct_download,open,0,512,,,,,2026-11-14
-ds004995,The Time-Course of Food Representation in the Human Brain,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,27.6,,,,,,direct_download,open,,,,,,,2026-11-14
-ds005007,Auditory naming task with questions that begin or end with a wh-interrogative,,ieeg,,,,CC0-1.0,,,,,,true,,40,,,,8.29,,,,,,direct_download,open,,1000,,a/a,,,2026-11-14
-ds005021,Tilt Illusion by Phase,,scalp_eeg,,queensland_brain_institute_the_university_of_queen,,CC0-1.0,,,,,,true,,36,,,,47.5,,,,,,direct_download,open,64,1024,10_10,Biosemi ActiveTwo,,,2026-11-14
-ds005028,Comparing P300 Flashing paradigms in online typing with language models,,scalp_eeg,,,,CC0-1.0,,,,,,true,,11,,,,0.41,,,,,,direct_download,open,,,,,p300_erp,,2026-11-14
-ds005034,The effect of theta tACS on working memory,,scalp_eeg,,ural_federal_university,,CC0-1.0,,,,,,true,,25,,,,61.36,,,,,,direct_download,open,129,1000,,EGI,,,2026-11-14
-ds005048,40Hz Auditory Entrainment,,scalp_eeg,,ziaeian_hospital,,CC0-1.0,,,,,,true,,35,,,,0.35,,,,,,direct_download,open,,250,10_20,,,,2026-11-14
-ds005059,Paired Associates Learning: Memory for Word Pairs in Cued Recall,,ieeg,,,,CC0-1.0,,,,,,true,,72,,,,167.3,,,,,,direct_download,open,0,500,,,,,2026-11-14
-ds005079,The Effects of Directed Therapeutic Intent on Live and Damaged Cells,,scalp_eeg,,md_anderson_cancer_research_center,,CC0-1.0,,,,,,true,,1,,,,1.68,,,,,,direct_download,open,64,500,,ActiChamp Plus 64 System,,,2026-11-14
-ds005083,Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy,,ieeg,,,,CC0-1.0,,,,,,true,,60,,,,0,,,,,,direct_download,open,,,,,,,2026-11-14
-ds005087,rapid-hemifield-object-eeg,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,12.24,,,,,,direct_download,open,63,1000,,,,,2026-11-14
-ds005089,Proactive selective attention across competition contexts,,scalp_eeg,,university_of_granada_cimcyc,,CC0-1.0,,,,,,true,,36,,,,68.01,,,,,,direct_download,open,63,1000,,,,,2026-11-14
+ds004952,ChineseEEG: A Chinese Linguistic Corpora EEG Dataset for Semantic Alignment and Neural Decoding,,scalp_eeg;eye_tracking,,,,CC0-1.0,,,,,,true,,10,,,,207.12,,,,,,direct_download,open,128,,,,language,,2026-11-15
+ds004977,CARLA: Adjusted common average referencing for cortico-cortical evoked potential data,,ieeg_seeg,epilepsy,,,CC0-1.0,,,,,,true,,4,,,,1.49,,,,,,direct_download,open,,4800,,,other,,2026-11-15
+ds004980,EEG data set for a architectural affordances task,,scalp_eeg,,technische_universitaet_zu_berlin,,CC0-1.0,,,,,,true,,17,,,,15.82,,,,,,direct_download,open,64,,,,other,,2026-11-15
+ds004993,"WIRED ICM Sample Dataset - Workshop on Intracranial Recordings in Humans, Epilepsy, DBS",,ieeg,epilepsy,,,CC0-1.0,,,,,,true,,3,,,,0.3,,,,,,direct_download,open,0,512,,,language;other,,2026-11-15
+ds004995,The Time-Course of Food Representation in the Human Brain,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,27.6,,,,,,direct_download,open,,,,,,,2026-11-15
+ds005007,Auditory naming task with questions that begin or end with a wh-interrogative,,ieeg,,,,CC0-1.0,,,,,,true,,40,,,,8.29,,,,,,direct_download,open,,1000,,a/a,language,,2026-11-15
+ds005021,Tilt Illusion by Phase,,scalp_eeg;eog,,queensland_brain_institute_the_university_of_queen,,CC0-1.0,,,,,,true,,36,,,,47.5,,,,,,direct_download,open,64,1024,10_10,Biosemi ActiveTwo,other,,2026-11-15
+ds005028,Comparing P300 Flashing paradigms in online typing with language models,,scalp_eeg,bci,,,CC0-1.0,,,,,,true,,11,,,,0.41,,,,,,direct_download,open,,,,,p300_erp,,2026-11-15
+ds005034,The effect of theta tACS on working memory,,scalp_eeg,,ural_federal_university,,CC0-1.0,,,,,,true,,25,,,,61.36,,,,,,direct_download,open,129,1000,,EGI EGI,cognitive_task;resting_eyes_closed;resting_eyes_open,,2026-11-15
+ds005048,40Hz Auditory Entrainment,,scalp_eeg,clinical;neurology,ziaeian_hospital,,CC0-1.0,,,,,,true,,35,,,,0.35,,,,,,direct_download,open,19,250,10_20,,other,,2026-11-15
+ds005059,Paired Associates Learning: Memory for Word Pairs in Cued Recall,,ieeg,cognitive,,,CC0-1.0,,,,,,true,,72,,,,167.3,,,,,,direct_download,open,0,500,,,cognitive_task,,2026-11-15
+ds005079,The Effects of Directed Therapeutic Intent on Live and Damaged Cells,,scalp_eeg;ecg,,md_anderson_cancer_research_center,,CC0-1.0,,,,,,true,,1,,,,1.68,,,,,,direct_download,open,64,500,,ActiChamp Plus 64 System,other,,2026-11-15
+ds005083,Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy,,ieeg,,,,CC0-1.0,,,,,,true,,60,,,,0,,,,,,direct_download,open,,,,,,,2026-11-15
+ds005087,rapid-hemifield-object-eeg,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,12.24,,,,,,direct_download,open,,1000,,BrainProducts ActiChamp,visual_erp,,2026-11-15
+ds005089,Proactive selective attention across competition contexts,,scalp_eeg,,university_of_granada_cimcyc,,CC0-1.0,,,,,,true,,36,,,,68.01,,,,,,direct_download,open,63,1000,,,cognitive_task,,2026-11-15
 ds005095,STERNBERG DIFFICULT,,scalp_eeg,,,,CC0-1.0,,,,,,true,,48,,,,14.28,,,,,,direct_download,open,63,1000,10_20,Brain Products,,,2026-11-14
 ds005106,200 Objects Infants EEG,,scalp_eeg,,western_sydney_university,,CC0-1.0,,,,,,true,,42,,,,1.24,,,,,,direct_download,open,32,500,10_20,Brainvision R-net,,,2026-11-14
 ds005113,EEG: Flankers with varying luminance,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,21,,,,2.75,,,,,,site_terms_agreement,one_time_human,128,250,,EGI,,,2026-11-14

@@ -506,20 +506,32 @@ ds004942,spatialmemory,SpatialMemory,cognitive_task,,,,,,,,
 ds004944,acute,acute,anesthesia,,,,,,,,"Intra-operative recording in 2 situations (SITUATION1A-pre-resection SITUATION2A-post-resection), patient is under (tempered) anesthesia, not doing a specific task/undergoing mapping. [ds004944_sidecar]"
 ds004951,letters,letters,other,,,,,,,,
 ds004952,reading,reading,,,,,,,,,
+ds004952,silent_reading_of_chinese_novels,silent reading of Chinese novels,language,,,,,,,,
 ds004977,cortico_cortical_evoked_potentials,Cortico Cortical Evoked Potentials,,,,,,,,,
-ds004980,defaulttask,DefaultTask,,,,,,,,,Participants immersed in 2d Unity rooms controled their walking by four arrow buttons. [ds004980_sidecar]
-ds004993,movietrailers,movietrailers,,,,,,,,,
+ds004977,single_pulse_electrical_stimulation_ccep,single pulse electrical stimulation (CCEP),other,,,,,,,,
+ds004980,defaulttask,DefaultTask,other,,,,,,,,Participants immersed in 2d Unity rooms controled their walking by four arrow buttons. [ds004980_sidecar]
+ds004993,movietrailers,movietrailers,other,,,,,,,,
 ds004993,timit4,timit4,,,,,,,,,
+ds004993,timit4_timit5,timit4 / timit5,language,,,,,,,,
 ds004993,timit5,timit5,,,,,,,,,
-ds005007,namingtask,namingtask,,,,,,,,,namingtask. [ds005007_sidecar]
+ds005007,namingtask,namingtask,language,,,,,,,,namingtask. [ds005007_sidecar]
 ds005021,tilt_illusion,tilt-illusion,,,,,,,,,"This task is an orientation judgement relative to vertical, under condition of the tilt illusion. Participants are presented with a surround annular grating of +-30 degrees, which induces a repulsive tilt illusion on a central target grating. The angle of the central grating is titrated to the angle at which it appears vertical (recieves clockwise and counterclockwise oritentation judgements equally often). They then perform judgements on the perceptually-vertical central gratings in the presence of distractors to determine the influence of neural oscillations on the trial-by-trial fluctuation [ds005021_sidecar]"
+ds005021,tilt_illusion_orientation_judgement,tilt illusion orientation judgement,other,,,,,,,,
 ds005028,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+ds005028,p300_speller_online_typing,P300 speller online typing,p300_erp,,,,,,,,
 ds005034,mixed,mixed,,,,,,,,,"Match-to-sample verbal working memory taskThree types of tasks were presented: Two types of the task required manipulation with the memory content.In the ""Backward"" task, participants were asked to mentally reverse the order of the letters in memory. For the ""Alphabet"" task, they were required to mentally rearrange the letters in alphabetical order. The ""Forward"" task, on the other hand, simply involved retaining the letter set as presented, without any mental reordering. 4 or 6 letter sets were presented. Thus, there were three levels of the factor TASK and two levels of the factor LOAD. [ds005034_sidecar]"
+ds005034,resting_state,resting state,resting_eyes_closed;resting_eyes_open,,,,,,,,
+ds005034,working_memory_tasks_after_verum_sham_ta,working memory tasks after verum/sham tACS,cognitive_task,,,,,,,,
+ds005048,t_40_hz_auditory_entrainment,40 Hz auditory entrainment,other,,,,,,,,
 ds005048,t_40hzauditoryentrainment,40HzAuditoryEntrainment,,,,,,,,,
+ds005059,paired_associates_learning_cued_recall,paired associates learning / cued recall,cognitive_task,,,,,,,,
 ds005059,pal1,PAL1,,,,,,,,,cued recall of paired associates. [ds005059_sidecar]
+ds005079,directed_therapeutic_intent_on_cells,directed therapeutic intent on cells,other,,,,,,,,
 ds005079,mixed,mixed,,,,,,,,,
+ds005087,rapid_hemifield_object_presentation,rapid hemifield object presentation,visual_erp,,,,,,,,
 ds005087,rsvp,rsvp,,,,,,,,,
 ds005089,competition,Competition,,,,,,,,,"Subjects were cued to respond to faces or names depending on the trials. In high competition blocks, the target and distractor were presented at the same time. In low competition blocks, the target was presented before the distractor. [ds005089_sidecar]"
+ds005089,competition_cue_target_selective_attenti,competition (cue-target selective attention),cognitive_task,,,,,,,,
 ds005095,sternberg,STERNBERG,,,,,,,,,
 ds005106,fix,fix,,,,,,,,,Participants sat on caregiver lap and viewed stimuli. [ds005106_sidecar]
 ds005113,flankers,Flankers,,,,,,,,,
