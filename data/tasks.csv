@@ -148,25 +148,37 @@ ds003574,sleep_session_with_eeg_in_mri,sleep session with EEG in MRI,sleep,,,,,,
 ds003602,experiment,Experiment,,,,,,,,,
 ds003620,auditory_oddball_in_lab_field_and_campus,"auditory oddball in lab, field and campus (count/ignore)",p300_erp,,,,,,,,
 ds003620,oddball,Oddball,p300_erp,,,,,,,,
+ds003626,inner_speech_pronounced_speech_visualize,"Inner Speech, Pronounced Speech, Visualized Condition",imagined_speech;other;overt_speech,,,,,,,,
 ds003626,main,,imagined_speech,,,,,,,,Paradigm stated by the dataset name
+ds003638,five_choice_continuous_performance_task,five-choice continuous performance task,cognitive_task,,,,,,,,
+ds003638,probabilistic_learning_task,probabilistic learning task,cognitive_task,,,,,,,,
+ds003638,progressive_ratio_breakpoint_task,progressive ratio breakpoint task,cognitive_task,,,,,,,,
 ds003638,t_5ccptpstprbp,5CCPTPSTPRBP,,,,,,,,,
-ds003645,faceperception,FacePerception,,,,,,,,,
-ds003655,verbalworkingmemory,VerbalWorkingMemory,,,,,,,,,"the task used is a modified Sternberg paradigm with temporally distinct encoding and maintenance processing stages. The experiment entailed six different conditions: maintenance in memory of 5, 6 or 7 simultaneously presented letters in the alphabetical (manipulation condition) or forward (retention condition) order. In the retention task the participants had to maintain in memory the original set as it was presented, and in the manipulation task they had to, first, mentally reorganize the letters into the alphabetical order and then maintain the result in memory. After 6.7 s delay, a letter-d [ds003655_sidecar]"
+ds003645,faceperception,FacePerception,cognitive_task,,,,,,,,
+ds003655,verbalworkingmemory,VerbalWorkingMemory,cognitive_task,,,,,,,,"the task used is a modified Sternberg paradigm with temporally distinct encoding and maintenance processing stages. The experiment entailed six different conditions: maintenance in memory of 5, 6 or 7 simultaneously presented letters in the alphabetical (manipulation condition) or forward (retention condition) order. In the retention task the participants had to maintain in memory the original set as it was presented, and in the manipulation task they had to, first, mentally reorganize the letters into the alphabetical order and then maintain the result in memory. After 6.7 s delay, a letter-d [ds003655_sidecar]"
 ds003670,gxtesctt,GXtESCTT,,,,,,,,,
-ds003688,film,film,,,,,,,,,watching the chill movie alternating speech and music. [ds003688_sidecar]
+ds003670,gxtesctt_compensatory_tracking_task_with,GXtESCTT (compensatory tracking task with tES),cognitive_task,,,,,,,,
+ds003688,film,film,passive_viewing,,,,,,,,watching the chill movie alternating speech and music. [ds003688_sidecar]
 ds003688,rest,rest,resting_unspecified,,,,,,,,
+ds003690,cued_go_no_go_task,cued go/no-go task,cognitive_task,,,,,,,,
+ds003690,cued_simple_reaction_time_task,cued simple reaction time task,cognitive_task,,,,,,,,
 ds003690,gonogo,gonogo,,,,,,,,,
 ds003690,passive,passive,,,,,,,,,
+ds003690,passive_task,passive task,other,,,,,,,,
 ds003690,simplert,simpleRT,,,,,,,,,
-ds003702,social_memory_cuing,Social Memory cuing,,,,,,,,,Subjects see items that they need to remember either cued by a social cue or a non-social cue. [ds003702_sidecar]
+ds003702,social_memory_cuing,Social Memory cuing,cognitive_task,,,,,,,,Subjects see items that they need to remember either cued by a social cue or a non-social cue. [ds003702_sidecar]
 ds003708,rest,rest,resting_unspecified,,,,,,,,patient resting. [ds003708_sidecar]
-ds003710,appleseed_example,APPLESEED example,,,,,,,,,"This task consists of passive viewing of faces and objects, and passive listening to English speech and water sounds. A full description of the task is available at Puglia, M. H., Krol, K. M., Missana, M., Williams, C. L., Lillard, T. S., Morris, J. P., Connelly, J.J., & Grossmann, T. (2020). Epigenetic tuning of brain signal entropy in emergent human social behavior. BMC medicine, 18(1), 1-24. https://doi.org/10.1186/s12916-020-01683-x. [ds003710_sidecar]"
+ds003708,single_pulse_electrical_stimulation_ccep,single pulse electrical stimulation (ccep),other;resting_unspecified,,,,,,,,
+ds003710,appleseed_example,APPLESEED example,other;passive_viewing,,,,,,,,"This task consists of passive viewing of faces and objects, and passive listening to English speech and water sounds. A full description of the task is available at Puglia, M. H., Krol, K. M., Missana, M., Williams, C. L., Lillard, T. S., Morris, J. P., Connelly, J.J., & Grossmann, T. (2020). Epigenetic tuning of brain signal entropy in emergent human social behavior. BMC medicine, 18(1), 1-24. https://doi.org/10.1186/s12916-020-01683-x. [ds003710_sidecar]"
 ds003739,mixed,mixed,,,,,,,,,
-ds003751,emotion,Emotion,,,,,,,,,
-ds003753,probabilisticselection,ProbabilisticSelection,,,,,,,,,
+ds003739,perturbed_beam_walking_standing,perturbed beam-walking / standing,other,,,,,,,,
+ds003751,emotion,Emotion,emotion_induction,,,,,,,,
+ds003753,probabilisticselection,ProbabilisticSelection,cognitive_task,,,,,,,,
+ds003766,binary_choice_tasks_food_preference_sema,"binary choice tasks (food preference, semantic judgments)",cognitive_task,,,,,,,,
 ds003766,foodchoice,foodchoice,,,,,,,,,
 ds003766,imagechoice,imagechoice,,,,,,,,,
 ds003766,resting,resting,resting_unspecified,,,,,,,,
+ds003766,resting_state,resting state,resting_unspecified,,,,,,,,
 ds003766,wordchoice,wordchoice,,,,,,,,,
 ds003768,rest,rest,resting_unspecified,,,,,,,,
 ds003768,sleep,sleep,sleep,,,,,,,,

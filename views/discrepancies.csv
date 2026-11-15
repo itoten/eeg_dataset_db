@@ -81,6 +81,37 @@ ds003620,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,
 ds003620,acquisition_setups:main.device_manufacturer,conflicting,Brain Vision,primary,https://s3.amazonaws.com/openneuro.org/ds003620/sub-01/eeg/sub-01_task-oddball_eeg.json?versionId=vwBccn25vuDJwFQqOU8cAzjtbigsUVBN,
 ds003620,acquisition_setups:main.device_model,conflicting,LiveAmp,primary,https://s3.amazonaws.com/openneuro.org/ds003620/sub-01/eeg/sub-01_task-oddball_eeg.json?versionId=vwBccn25vuDJwFQqOU8cAzjtbigsUVBN,
 ds003620,acquisition_setups:main.device_model,conflicting,LiveAmp 32,primary,https://www.nature.com/articles/s41598-021-01772-8,Audit reviewer; scope: not given
+ds003638,acquisition_setups:main.device_manufacturer,conflicting,BIOSEMI,primary,https://s3.amazonaws.com/openneuro.org/ds003638/sub-001/eeg/sub-001_task-5CCPTPSTPRBP_eeg.json?versionId=2t9T5UfIfdo4tDurMnkAo7MH8ppOVaaS,
+ds003638,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,primary,https://www.nature.com/articles/s41398-021-01562-w,Audit reviewer; scope: not given
+ds003638,acquisition_setups:main.device_model,conflicting,Active Two,primary,https://www.nature.com/articles/s41398-021-01562-w,Audit reviewer; scope: not given
+ds003638,acquisition_setups:main.device_model,conflicting,BioSemi,primary,https://s3.amazonaws.com/openneuro.org/ds003638/sub-001/eeg/sub-001_task-5CCPTPSTPRBP_eeg.json?versionId=2t9T5UfIfdo4tDurMnkAo7MH8ppOVaaS,
+ds003638,acquisition_setups:main.reference,conflicting,CMS/DRL,primary,https://s3.amazonaws.com/openneuro.org/ds003638/sub-001/eeg/sub-001_task-5CCPTPSTPRBP_eeg.json?versionId=2t9T5UfIfdo4tDurMnkAo7MH8ppOVaaS,
+ds003638,acquisition_setups:main.reference,conflicting,system's internal loop (CMS/DRL electrodes),primary,https://www.nature.com/articles/s41398-021-01562-w,Audit reviewer; scope: not given
+ds003645,acquisition_setups:main.reference,conflicting,common,primary,https://s3.amazonaws.com/openneuro.org/ds003645/task-FacePerception_eeg.json?versionId=DlCwsm_FLXYxCrOHDK3JhUjciiEf6phW,
+ds003645,acquisition_setups:main.reference,conflicting,nose,primary,https://www.nature.com/articles/sdata20151,Audit reviewer; scope: not given
+ds003645,n_subjects_reported,conflicting,18,secondary,https://s3.amazonaws.com/openneuro.org/ds003645/README,Audit reviewer; scope: not given
+ds003645,n_subjects_reported,conflicting,19,primary,https://openneuro.org/datasets/ds003645/versions/2.1.0,
+ds003645,n_subjects_reported,conflicting,19,primary,https://www.nature.com/articles/sdata20151,Audit reviewer; scope: not given
+ds003655,acquisition_setups:main.device_model,conflicting,Mitsar,primary,https://openneuro.org/crn/datasets/ds003655/objects/1479b08df5ce5e959878c1c1152dac27b7b2b896?filename=sub-001_task-VerbalWorkingMemory_eeg.json,
+ds003655,acquisition_setups:main.device_model,conflicting,Mitsar-EEG-202,primary,https://www.nature.com/articles/s41598-020-72940-5,Audit reviewer; scope: not given
+ds003655,acquisition_setups:main.reference,conflicting,averaged earlobes,primary,https://www.nature.com/articles/s41598-020-72940-5,Audit reviewer; scope: not given
+ds003655,acquisition_setups:main.reference,conflicting,linked earlobes,primary,https://openneuro.org/crn/datasets/ds003655/objects/1479b08df5ce5e959878c1c1152dac27b7b2b896?filename=sub-001_task-VerbalWorkingMemory_eeg.json,
+ds003670,acquisition_setups:main.device_model,conflicting,"ANT Neuro-eego Wavegaurd Cap, eego Amplifier, 32 EEG chans + 3 external(ECG/EOG/RESP), Ref Input Range: 150-1000 mV pp",primary,https://openneuro.org/crn/datasets/ds003670/objects/ee9cfdaec8d14547e5cc6a57f43c428dc92969a9?filename=sub-001_ses-01_task-GXtESCTT_eeg.json,
+ds003670,acquisition_setups:main.device_model,conflicting,eego sport,primary,https://www.nature.com/articles/s41597-021-01046-y,Audit reviewer; scope: not given
+ds003688,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://s3.amazonaws.com/openneuro.org/ds003688/sub-01/ses-iemu/ieeg/sub-01_ses-iemu_task-film_acq-clinical_run-1_ieeg.json?versionId=bjWMngJwA0w21eXq9qBML2egVvRWKVtB,
+ds003688,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://www.nature.com/articles/s41597-022-01173-0,Audit reviewer; scope: 38 patients
+ds003690,acquisition_setups:main.reference,conflicting,between the electrodes CPz and Cz,secondary,https://s3.amazonaws.com/openneuro.org/ds003690/README,Audit reviewer; scope: not given
+ds003690,acquisition_setups:main.reference,conflicting,between_Cz_and_CPz,primary,https://openneuro.org/crn/datasets/ds003690/objects/698e58b70b09cb257f5dcb5f8ace16850a45f030?filename=sub-AB10_task-gonogo_run-1_eeg.json,
+ds003739,acquisition_setups:main.device_model,conflicting,Active II,secondary,https://www.eneuro.org/content/5/4/ENEURO.0207-18.2018.full,Audit reviewer; scope: not given
+ds003739,acquisition_setups:main.device_model,conflicting,Biosemi Active II,primary,https://openneuro.org/crn/datasets/ds003739/objects/e566112c85990c684e35530d1f130ca3f91d2b08?filename=sub-001_ses-01_task-pullstand_eeg.json,
+ds003739,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://openneuro.org/crn/datasets/ds003739/objects/e566112c85990c684e35530d1f130ca3f91d2b08?filename=sub-001_ses-01_task-pullstand_eeg.json,
+ds003739,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://www.eneuro.org/content/5/4/ENEURO.0207-18.2018.full,Audit reviewer; scope: recorded
+ds003766,acquisition_setups:main.device_manufacturer,conflicting,Electrical Geodesic Incorporated,primary,https://s3.amazonaws.com/openneuro.org/ds003766/sub-01/eeg/sub-01_task-foodchoice_eeg.json?versionId=tTFxTj_b90Az3x2MSPR7KeUUN5Cvhn5W,
+ds003766,acquisition_setups:main.device_manufacturer,conflicting,Electrical Geodesics Inc,secondary,https://s3.amazonaws.com/openneuro.org/ds003766/README,Audit reviewer; scope: not given
+ds003766,acquisition_setups:main.n_channels_eeg,conflicting,128,primary,https://www.nature.com/articles/s41597-022-01538-5,Audit reviewer; scope: not given
+ds003766,acquisition_setups:main.n_channels_eeg,conflicting,129,primary,https://s3.amazonaws.com/openneuro.org/ds003766/sub-01/eeg/sub-01_task-foodchoice_eeg.json?versionId=tTFxTj_b90Az3x2MSPR7KeUUN5Cvhn5W,
+ds003768,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://s3.amazonaws.com/openneuro.org/ds003768/task-rest_eeg.json?versionId=G.q20FDyqF6238K5a0iDo07iBaPO_pjo,
+ds003768,acquisition_setups:main.sampling_rate_hz,conflicting,5000,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9772091/fullTextXML,Audit reviewer; scope: raw recording in paper
 ds003775,acquisition_setups:main.reference,conflicting,average,primary,https://s3.amazonaws.com/openneuro.org/ds003775/derivatives/cleaned_data/sub-111/ses-t1/eeg/sub-111_ses-t1_task-resteyesc_desc-cleaned_eeg.json?versionId=WluPZFbZgGVpEL2oR.0BIseWsusKr3ZP,
 ds003775,acquisition_setups:main.reference,conflicting,average reference,secondary,https://s3.amazonaws.com/openneuro.org/ds003775/README,Audit reviewer; scope: distributed raw files
 ds003800,acquisition_setups:main.reference,conflicting,average,primary,https://openneuro.org/crn/datasets/ds003800/objects/026d422fdf45ea0cb31e997687622da0f039a031?filename=sub-001_task-AuditoryGammaEntrainment_eeg.json,
