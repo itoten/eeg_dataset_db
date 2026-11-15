@@ -108,13 +108,19 @@ nm000316,derived_from,zenodo_18288104,nm000316_nemar,NEMAR lists 10.5281/zenodo.
 nm000316,subset_of,zenodo_18288104,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
 nm000321,derived_from,bigp3bci,nm000321_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000321,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
+nm000322,derived_from,figshare_27301629,figshare_27301629_doc4fe2b7,"The record says its data come from the other dataset (audit, quote checked)"
 nm000323,derived_from,openbmi,nm000323_nemar,NEMAR lists 10.5524/100542 as IsDerivedFrom this record
+nm000323,subset_of,openbmi,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
 nm000326,derived_from,bigp3bci,nm000326_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000326,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000330,derived_from,zenodo_17561968,nm000330_nemar,NEMAR lists 10.5281/zenodo.20348444 as IsDerivedFrom this record
 nm000336,derived_from,bigp3bci,nm000336_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000336,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000338,derived_from,openbmi,nm000338_nemar,NEMAR lists 10.5524/100542 as IsDerivedFrom this record
+nm000338,subset_of,openbmi,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
 nm000339,derived_from,stieger2021_smr_bci,nm000339_nemar,NEMAR lists 10.1038/s41597-021-00883-1 as IsDerivedFrom this record
 nm000340,derived_from,bigp3bci,nm000340_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000340,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000342,derived_from,zenodo_8255617,nm000342_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsVersionOf this record
 nm000344,derived_from,zenodo_8255617,nm000344_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsVersionOf this record
 nm000345,derived_from,zenodo_8255617,nm000345_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsDerivedFrom this record
