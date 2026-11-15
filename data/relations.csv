@@ -72,10 +72,15 @@ nm000250,derived_from,zenodo_7516450,nm000250_nemar,NEMAR lists 10.5281/zenodo.8
 nm000251,derived_from,zenodo_14049894,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000254,derived_from,natview_eeg_fmri,nm000254_nemar,NEMAR lists 10.1038/s41597-023-02458-8 as IsDerivedFrom this record
 nm000269,derived_from,bigp3bci,nm000269_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000269,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000270,derived_from,liu2025_stroke_lower_limb_mi,nm000270_nemar,NEMAR lists 10.1038/s41597-025-04618-4 as IsDerivedFrom this record
+nm000271,derived_from,figshare_28831730,figshare_28831730_docf9e065,"The record says its data come from the other dataset (audit, quote checked)"
+nm000272,derived_from,zenodo_17225965,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000273,derived_from,openbmi,nm000273_nemar,NEMAR lists 10.5524/100542 as IsDerivedFrom this record
+nm000273,subset_of,openbmi,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
 nm000275,derived_from,cao2019_driving_attention,nm000275_nemar,NEMAR lists 10.6084/m9.figshare.6427334.v5 as IsDerivedFrom this record
 nm000277,derived_from,bigp3bci,nm000277_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000277,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000278,derived_from,zuco,nm000278_nemar,NEMAR lists 10.1038/sdata.2018.291 as IsDerivedFrom this record
 nm000292,derived_from,zenodo_8086085,nm000292_nemar,NEMAR lists 10.5281/zenodo.8086086 as IsDerivedFrom this record
 nm000293,derived_from,zenodo_12804783,nm000293_nemar,NEMAR lists 10.5281/zenodo.12804784 as IsDerivedFrom this record

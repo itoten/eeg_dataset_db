@@ -737,6 +737,37 @@ nm000250,acquisition_setups:main.n_channels_eeg,conflicting,27,secondary,https:/
 nm000250,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10480224/fullTextXML,Audit reviewer; scope: not given
 nm000252,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000252,
 nm000252,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000252,Audit reviewer; scope: not given
+nm000269,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000269,
+nm000269,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000269,Audit reviewer; scope: not given
+nm000270,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000270,
+nm000270,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://www.nature.com/articles/s41597-025-04618-4,Audit reviewer; scope: not given
+nm000270,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://nemar.org/dataset/nm000270,
+nm000270,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/s41597-025-04618-4,Audit reviewer; scope: raw recording
+nm000270,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://www.nature.com/articles/s41597-025-04618-4,Audit reviewer; scope: preprocessed files
+nm000271,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000271,
+nm000271,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://www.nature.com/articles/s41597-025-06147-6,Audit reviewer; scope: not given
+nm000271,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://nemar.org/dataset/nm000271,
+nm000271,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/s41597-025-06147-6,Audit reviewer; scope: raw recording
+nm000271,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://www.nature.com/articles/s41597-025-06147-6,Audit reviewer; scope: preprocessed data
+nm000272,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000272,
+nm000272,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://arxiv.org/pdf/2510.10169,Audit reviewer; scope: not given
+nm000272,acquisition_setups:main.reference,conflicting,"reference/ground electrodes placed on the mastoids (M1, M2)",primary,https://arxiv.org/pdf/2510.10169,Audit reviewer; scope: not given
+nm000272,acquisition_setups:main.reference,conflicting,right mastoid,secondary,https://nemar.org/dataset/nm000272,
+nm000273,acquisition_setups:main.montage_system,conflicting,10_05,secondary,https://nemar.org/dataset/nm000273,
+nm000273,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6501944/,Audit reviewer; scope: not given
+nm000275,acquisition_setups:main.n_channels_eeg,conflicting,32,primary,https://www.nature.com/articles/s41597-019-0027-4,Audit reviewer; scope: not given
+nm000275,acquisition_setups:main.n_channels_eeg,conflicting,33,secondary,https://nemar.org/dataset/nm000275,
+nm000276,acquisition_setups:main.sampling_rate_hz,conflicting,1024,secondary,https://api.nemar.org/datasets/nm000276,Audit reviewer; scope: per subject; 512 hz or 1024 hz
+nm000276,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://api.nemar.org/datasets/nm000276,Audit reviewer; scope: per subject; 512 hz or 1024 hz
+nm000278,acquisition_setups:main.reference,conflicting,Cz,primary,https://www.nature.com/articles/sdata2018291,Audit reviewer; scope: not given
+nm000278,acquisition_setups:main.reference,conflicting,Cz (vertex),secondary,https://nemar.org/dataset/nm000278,
+nm000279,acquisition_setups:main.reference,conflicting,Cz (vertex),secondary,https://nemar.org/dataset/nm000279,
+nm000279,acquisition_setups:main.reference,conflicting,electrode Cz,primary,https://arxiv.org/pdf/1912.00903,Audit reviewer; scope: not given
+nm000284,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.nemar.org/datasets/nm000284,Audit reviewer; scope: eeg of sub-009 ses-05 run-1 only
+nm000284,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://api.nemar.org/datasets/nm000284,"Audit reviewer; scope: eeg, most recordings"
+nm000284,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://nemar.org/dataset/nm000284,
+nm000290,acquisition_setups:main.reference,conflicting,M1 (mastoid),secondary,https://api.nemar.org/datasets/nm000290,Audit reviewer; scope: not given
+nm000290,acquisition_setups:main.reference,conflicting,Mastoïd M1,secondary,https://nemar.org/dataset/nm000290,
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
