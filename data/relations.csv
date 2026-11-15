@@ -86,12 +86,19 @@ nm000275,derived_from,cao2019_driving_attention,nm000275_nemar,NEMAR lists 10.60
 nm000277,derived_from,bigp3bci,nm000277_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000277,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000278,derived_from,zuco,nm000278_nemar,NEMAR lists 10.1038/sdata.2018.291 as IsDerivedFrom this record
+nm000291,derived_from,dv_10_7910_dvn_251now,dv_10_7910_dvn_251now_doc08ab94,"The record says its data come from the other dataset (audit, quote checked)"
 nm000292,derived_from,zenodo_8086085,nm000292_nemar,NEMAR lists 10.5281/zenodo.8086086 as IsDerivedFrom this record
 nm000293,derived_from,zenodo_12804783,nm000293_nemar,NEMAR lists 10.5281/zenodo.12804784 as IsDerivedFrom this record
 nm000294,derived_from,zenodo_5882499,nm000294_nemar,NEMAR lists 10.5281/zenodo.5882500 as IsDerivedFrom this record
+nm000297,derived_from,dv_10_7910_dvn_j9jfes,dv_10_7910_dvn_j9jfes_doc2e33f0,"The record says its data come from the other dataset (audit, quote checked)"
+nm000298,derived_from,dv_10_7910_dvn_hfnwrx,dv_10_7910_dvn_hfnwrx_doc09b0b4,"The record says its data come from the other dataset (audit, quote checked)"
+nm000299,derived_from,dv_10_7910_dvn_g8fbhh,dv_10_7910_dvn_g8fbhh_docbd0004,"The record says its data come from the other dataset (audit, quote checked)"
+nm000300,derived_from,dv_10_7910_dvn_gh74zg,dv_10_7910_dvn_gh74zg_doc55b36b,"The record says its data come from the other dataset (audit, quote checked)"
 nm000301,derived_from,bigp3bci,nm000301_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000301,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000302,derived_from,zenodo_14672333,nm000302_nemar,NEMAR lists 10.5281/zenodo.14672334 as IsDerivedFrom this record
 nm000303,derived_from,bigp3bci,nm000303_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000303,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000307,derived_from,zenodo_841763,nm000307_nemar,NEMAR lists 10.5281/zenodo.841764 as IsDerivedFrom this record
 nm000308,derived_from,zenodo_18087805,nm000308_nemar,NEMAR lists 10.5281/zenodo.18087806 as IsDerivedFrom this record
 nm000310,subset_of,nm000136,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"

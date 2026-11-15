@@ -794,6 +794,25 @@ nm000284,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,http
 nm000284,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://nemar.org/dataset/nm000284,
 nm000290,acquisition_setups:main.reference,conflicting,M1 (mastoid),secondary,https://api.nemar.org/datasets/nm000290,Audit reviewer; scope: not given
 nm000290,acquisition_setups:main.reference,conflicting,Mastoïd M1,secondary,https://nemar.org/dataset/nm000290,
+nm000291,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000291,
+nm000291,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/251NOW,Audit reviewer; scope: not given
+nm000295,acquisition_setups:main.n_channels_eeg,conflicting,16,secondary,https://api.nemar.org/datasets/nm000295,Audit reviewer; scope: one cohort (per nemar documentation line)
+nm000295,acquisition_setups:main.n_channels_eeg,conflicting,9,secondary,https://api.nemar.org/datasets/nm000295,Audit reviewer; scope: not given
+nm000295,acquisition_setups:main.n_channels_eeg,conflicting,9,secondary,https://nemar.org/dataset/nm000295,
+nm000295,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000295,Audit reviewer; scope: 9-channel cohort (per nemar documentation line)
+nm000295,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://api.nemar.org/datasets/nm000295,Audit reviewer; scope: not given
+nm000295,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://nemar.org/dataset/nm000295,
+nm000296,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000296,
+nm000296,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC11388714/,Audit reviewer; scope: not given
+nm000300,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000300,
+nm000300,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/GH74ZG,Audit reviewer; scope: not given
+nm000300,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/GH74ZG,Audit reviewer; scope: as recorded
+nm000300,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/GH74ZG,Audit reviewer; scope: distributed data
+nm000300,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://nemar.org/dataset/nm000300,
+nm000301,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000301,
+nm000301,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000301,Audit reviewer; scope: not given
+nm000303,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000303,
+nm000303,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000303,Audit reviewer; scope: not given
 nm000310,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://api.nemar.org/datasets/nm000310,Audit reviewer; scope: not given
 nm000310,acquisition_setups:main.n_channels_eeg,conflicting,65,secondary,https://nemar.org/dataset/nm000310,
 nm000310,n_subjects_reported,conflicting,11,secondary,https://nemar.org/dataset/nm000310,
