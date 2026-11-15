@@ -67,6 +67,11 @@ def fetch(url):
         r = subprocess.run(["curl", "-sL", "-m", "90", "-o", str(raw), "-w", "%{http_code} %{content_type}", url], capture_output=True, text=True)
         info = r.stdout
     data = raw.read_bytes() if raw.exists() else b""
+    m = re.match(r"https?://zenodo\.org/(?:api/)?records?/(\d+)", url)
+    zc = ROOT / "cache" / "zenodo" / f"{m.group(1)}.json" if m else None
+    if not info.startswith("2") and zc and zc.exists():
+        # zenodo.org refuses this network at times; use the copy of the same API record fetched at registration
+        data, info = zc.read_bytes(), "200 application/json"
     text = ""
     if data[:5] == b"%PDF-" or "pdf" in info:
         text = subprocess.run(["pdftotext", "-q", str(raw), "-"], capture_output=True, text=True).stdout
