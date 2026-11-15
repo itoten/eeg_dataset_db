@@ -127,7 +127,11 @@ def value_ok(kind, value, quote):
             x = float(v)
         except ValueError:
             return False
-        return any(abs(float(n) - x) < 1e-9 for n in numbers_in(quote) if re.fullmatch(r"\d+(?:\.\d+)?", n))
+        if not any(abs(float(n) - x) < 1e-9 for n in numbers_in(quote) if re.fullmatch(r"\d+(?:\.\d+)?", n)):
+            return False
+        # a bound ("over 22 hours", "≥ 1000 Hz") is not the value itself
+        num = re.escape(v[:-2] if v.endswith(".0") else v)
+        return not re.search(r"(?:[≥≤><~≈]|\b(?:over|about|approximately|approx\.?|around|nearly|almost|more than|less than|up to|at least|at most)\s*)\s*" + num + r"(?![\d.])", quote.replace(",", ""), re.I)
     if kind == "text":
         return alnum(v) in alnum(quote)
     return True  # other enums: the mapping is the reviewer's reading; the quote is checked
