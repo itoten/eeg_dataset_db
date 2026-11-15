@@ -436,21 +436,21 @@ ds006370,Memory Reactivation Levels Remain Unaffected by Anticipated Interferenc
 ds006374,Expectation effects on repetition suppression in nociception,,scalp_eeg,,,,CC0-1.0,,,,,,true,,36,,,,31.12,,,,,,direct_download,open,32,2000,10_20,BrainProducts,,,2026-11-16
 ds006386,PhysioMotion_Artifact,,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,22.97,,,,,,direct_download,open,59,1000,10_20,,,,2026-11-16
 ds006392,HED schema library for SCORE annotations example,,ieeg,,mayo_clinic,,CC0-1.0,,,,,,true,,1,,,,0.03,,,,,,direct_download,open,166,512,,Natus,other,,2026-11-16
-ds006394,Electrophysiological markers of surprise-induced failures of visual and auditory awareness,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,0.52,,,,,,direct_download,open,16,125,,,,,2026-11-14
-ds006434,The auditory brainstem response to natural speech is not affected by selective attention,,scalp_eeg,,,,CC0-1.0,,,,,,true,,66,,,,103.05,,,,,,direct_download,open,32,500,10_20,Brain Products actiChamp EP preamps,,,2026-11-14
-ds006437,LIGHT Hypnotherapy,,scalp_eeg,,university_of_california_san_diego,,CC0-1.0,,,,,,true,,9,,,,4.31,,,,,,direct_download,open,64,256,10_20,BioSemi ActiveTwo Mk2,,,2026-11-14
-ds006446,Cueing the future to reduce temporal discounting,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,16.1,,,,,,direct_download,open,64,2048,10_20,Biosemi ActiveTwo,,,2026-11-14
-ds006465,"3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,8.17,,,,,,direct_download,open,32,500,10_20,,,,2026-11-14
-ds006466,HeartBEAM: Older Adult Resting State and Auditory Oddball Task EEG Data,,scalp_eeg,,university_of_southern_california,,CC0-1.0,,,,,,true,,66,,,,117.47,,,,,,direct_download,open,65,1000,,EGI Magstim,resting_unspecified,,2026-11-14
-ds006480,Young Adult Resting State and Auditory Oddball Task EEG Data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,68,,,,64.06,,,,,,direct_download,open,65,1000,,,,,2026-11-14
-ds006519,Dataset of intracranial EEG during cortical stimulations evoking negative motor responses,,ieeg,,university_emergency_hopital_bucharest,,CC0-1.0,,,,,,true,,21,,,,1.04,,,,,,direct_download,open,0,4096,,Nicolet Wireless64,,,2026-11-14
-ds006525,Resting EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,3,,,,,,direct_download,open,128,250,,,resting_unspecified,,2026-11-14
-ds006547,Visual EEG Study (BrainVision → BIDS),,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,17.62,,,,,,direct_download,open,64,500,,Brain Products,,,2026-11-14
-ds006554,Social Observation EEG raw data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,47,,,,12.12,,,,,,direct_download,open,62,500,,,,,2026-11-14
-ds006563,Dimension-based attention modulates early visual processing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,12,,,,5.63,,,,,,direct_download,open,63,500,,,,,2026-11-14
-ds006576,The role of REM sleep in neural differentiation of memories in the hippocampus,,scalp_eeg,,,,CC0-1.0,,,,,,true,,69,,,,649.84,,,,,,direct_download,open,,,,,resting_unspecified,,2026-11-14
-ds006593,cBCI Matrix Multimodal Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,0.43,,,,,,direct_download,open,19,300,10_20,Brain Products,,,2026-11-14
-ds006647,Poetry Assessment EEG Dataset 2,,scalp_eeg,,,,CC0-1.0,,,,,,true,,4,,,,4.29,,,,,,direct_download,open,64,512,10_20,BioSemi ActiveTwo,,,2026-11-14
+ds006394,Electrophysiological markers of surprise-induced failures of visual and auditory awareness,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,0.52,,,,,,direct_download,open,16,125,,,,,2026-11-16
+ds006434,The auditory brainstem response to natural speech is not affected by selective attention,,scalp_eeg,,,,CC0-1.0,,,,,,true,,66,,,,103.05,,,,,,direct_download,open,32,,10_20,Brain Products actiChamp EP preamps,other,,2026-11-16
+ds006437,LIGHT Hypnotherapy,,scalp_eeg;ecg,,university_of_california_san_diego,,CC0-1.0,,,,,,true,,9,,,,4.31,,,,,,direct_download,open,64,256,10_20,BioSemi ActiveTwo Mk2,other;resting_unspecified,,2026-11-16
+ds006446,Cueing the future to reduce temporal discounting,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,16.1,,,,,,direct_download,open,64,2048,10_20,Biosemi ActiveTwo,,,2026-11-16
+ds006465,"3M-CPSEED：An EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,8.17,,,,,,direct_download,open,32,500,10_20,,imagined_speech;other;overt_speech,,2026-11-16
+ds006466,HeartBEAM: Older Adult Resting State and Auditory Oddball Task EEG Data,,scalp_eeg,,university_of_southern_california,,CC0-1.0,,,,,,true,,66,,,,117.47,,,,,,direct_download,open,65,1000,,"Electrical Geodesics, Inc. EGI Magstim",auditory_erp;resting_eyes_closed;resting_eyes_open;resting_unspecified,,2026-11-16
+ds006480,Young Adult Resting State and Auditory Oddball Task EEG Data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,68,,,,64.06,,,,,,direct_download,open,65,1000,,"Electrical Geodesics, Inc.",auditory_erp;resting_eyes_closed;resting_eyes_open,,2026-11-16
+ds006519,Dataset of intracranial EEG during cortical stimulations evoking negative motor responses,,ieeg;ieeg_seeg,epilepsy,university_emergency_hopital_bucharest,,CC0-1.0,,,,,,true,,21,,,,1.04,,,,,,direct_download,open,,4096,,Nicolet Wireless64,other,,2026-11-16
+ds006525,Resting EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,3,,,,,,direct_download,open,128,,,Electrical Geodesics Inc. Amps 300,resting_unspecified,,2026-11-16
+ds006547,Visual EEG Study (BrainVision → BIDS),,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,17.62,,,,,,direct_download,open,64,500,,Brain Products,,,2026-11-16
+ds006554,Social Observation EEG raw data,,scalp_eeg;eog,,,,CC0-1.0,,,,,,true,,47,,,,12.12,,,,,,direct_download,open,62,500,,,,,2026-11-16
+ds006563,Dimension-based attention modulates early visual processing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,12,,,,5.63,,,,,,direct_download,open,63,500,,,,,2026-11-16
+ds006576,The role of REM sleep in neural differentiation of memories in the hippocampus,,psg;eog;ecg;emg,sleep,,,CC0-1.0,,,,,,true,,69,,,,649.84,,,,,,direct_download,open,64,512,,Biosemi Active Two,resting_unspecified,,2026-11-16
+ds006593,cBCI Matrix Multimodal Dataset,,scalp_eeg;eye_tracking,,,,CC0-1.0,,,,,,true,,21,,,,0.43,,,,,,direct_download,open,19,300,10_20,Brain Products,other,,2026-11-16
+ds006647,Poetry Assessment EEG Dataset 2,,scalp_eeg,,,,CC0-1.0,,,,,,true,,4,,,,4.29,,,,,,direct_download,open,64,512,10_20,BioSemi ActiveTwo,language;resting_unspecified,,2026-11-16
 ds006648,Poetry Assessment EEG Dataset 1,,scalp_eeg,,,,CC0-1.0,,,,,,true,,47,,,,45.4,,,,,,direct_download,open,64,512,10_20,BioSemi ActiveTwo,,,2026-11-14
 ds006695,Validation of Sleep Staging with Forehead EEG Patch,,scalp_eeg,,,,CC0-1.0,,,,,,true,,19,,,,9.36,,,,,,direct_download,open,3,500,,,sleep,,2026-11-14
 ds006735,Chimeric music reveals an interaction of pitch and time in electrophysiological signatures of music encoding,,scalp_eeg,,,,CC0-1.0,,,,,,true,,27,,,,175.87,,,,,,direct_download,open,34,10000,,Brain Products,,,2026-11-14

@@ -388,6 +388,23 @@ ds006110,n_subjects_reported,conflicting,62,secondary,https://s3.amazonaws.com/o
 ds006110,n_subjects_reported,conflicting,65,secondary,https://openneuro.org/datasets/ds006110/versions/1.2.2,
 ds006142,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://s3.amazonaws.com/openneuro.org/ds006142/README,Audit reviewer; scope: not given
 ds006142,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,primary,https://s3.amazonaws.com/openneuro.org/ds006142/sub-027/eeg/sub-027_task-MovieMemory_eeg.json?versionId=HYWFTpHqi1BHHc7gf9TIu2Fd9xz4NJJe,
+ds006434,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://s3.amazonaws.com/openneuro.org/ds006434/README,"Audit reviewer; scope: readme, experiment 1 (as stated there)"
+ds006434,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://s3.amazonaws.com/openneuro.org/ds006434/sub-dichotic02/eeg/sub-dichotic02_task-exp2DichoticCortex_eeg.json,Audit reviewer; scope: distributed cortical file of exp2dichotic (sub-dichotic02)
+ds006434,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://s3.amazonaws.com/openneuro.org/ds006434/sub-dichotic02/eeg/sub-dichotic02_task-exp2DichoticCortex_eeg.json?versionId=BF3u4n_RBNaYg8THoFXGOcRgOAxY2QOQ,
+ds006465,acquisition_setups:main.device_manufacturer,conflicting,NE,primary,https://www.nature.com/articles/s41597-025-06346-1,Audit reviewer; scope: sub 1-15
+ds006465,acquisition_setups:main.device_manufacturer,conflicting,Neuracle,primary,https://www.nature.com/articles/s41597-025-06346-1,Audit reviewer; scope: sub 16-20
+ds006465,acquisition_setups:main.device_model,conflicting,Enobio,primary,https://www.nature.com/articles/s41597-025-06346-1,Audit reviewer; scope: sub 1-15
+ds006465,acquisition_setups:main.device_model,conflicting,NeuSen H,primary,https://www.nature.com/articles/s41597-025-06346-1,Audit reviewer; scope: sub 16-20
+ds006466,acquisition_setups:main.reference,conflicting,Cz,primary,https://www.biorxiv.org/content/10.1101/2025.10.02.680040v1.full,Audit reviewer; scope: not given
+ds006466,acquisition_setups:main.reference,conflicting,E65,primary,https://s3.amazonaws.com/openneuro.org/ds006466/task-activeS_eeg.json?versionId=Y5DktJgeHLC8JedQcVzNtFVKTBhkiUHj,
+ds006519,acquisition_setups:main.n_channels_eeg,conflicting,0,primary,https://s3.amazonaws.com/openneuro.org/ds006519/sub-01/ses-01/ieeg/sub-01_ses-01_task-dcs_ieeg.json?versionId=sgMww3BI.MuGdYctgkqq510Ra4htM0JL,
+ds006519,acquisition_setups:main.n_channels_eeg,conflicting,31,secondary,https://s3.amazonaws.com/openneuro.org/ds006519/sub-01/ses-01/ieeg/sub-01_ses-01_task-dcs_ieeg.json,Audit reviewer; scope: ieeg.json of sub-01 ses-01 task-dcs
+ds006525,acquisition_setups:main.reference,conflicting,IEF,primary,https://s3.amazonaws.com/openneuro.org/ds006525/sub-059/eeg/sub-059_task-resting_eeg.json?versionId=hGoouHMRMAFFy647Lcs6xJEqs4MbtiFV,
+ds006525,acquisition_setups:main.reference,conflicting,average of all electrodes,secondary,https://s3.amazonaws.com/openneuro.org/ds006525/README,Audit reviewer; scope: distributed data after preprocessing
+ds006525,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://s3.amazonaws.com/openneuro.org/ds006525/README,Audit reviewer; scope: as recorded
+ds006525,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://s3.amazonaws.com/openneuro.org/ds006525/sub-059/eeg/sub-059_task-resting_eeg.json?versionId=hGoouHMRMAFFy647Lcs6xJEqs4MbtiFV,
+ds006563,acquisition_setups:main.reference,conflicting,Cz,secondary,https://s3.amazonaws.com/openneuro.org/ds006563/README,Audit reviewer; scope: as quoted in readme from the 2010 paper
+ds006563,acquisition_setups:main.reference,conflicting,"TP9,TP10",primary,https://s3.amazonaws.com/openneuro.org/ds006563/sub-S1/eeg/sub-S1_task-DimensionDiscrimination_eeg.json?versionId=cpyhzwzBZ.vvN3weZzq0ROCNx4rZSUzw,
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
