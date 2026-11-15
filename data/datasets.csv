@@ -318,21 +318,21 @@ ds005189,Search Superiority Recollection Familiarity,,scalp_eeg;eye_tracking,cog
 ds005207,Surrey cEEGrid sleep data set,,ear_eeg;psg,sleep,university_of_oxford,,CC0-1.0,,,,,,true,,20,,,,28.52,,,,,,direct_download,open,6,128,10_20,,sleep,,2026-11-15
 ds005262,ArEEG: Arabic Inner Speech EEG dataset,,scalp_eeg,bci,,,CC0-1.0,,,,,,true,,12,,,,0.67,,,,,,direct_download,open,,,,,imagined_speech,,2026-11-15
 ds005273,Neural representation of consciously seen and unseen information,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,44.42,,,,,,direct_download,open,63,1000,,Brain Products,,,2026-11-15
-ds005274,UV_EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,0.07,,,,,,direct_download,open,6,500,10_20,,,,2026-11-14
-ds005280,223 By BP,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,223,,,,42.38,,,,,,direct_download,open,64,1000,,Brain Products,,,2026-11-14
-ds005284,26 By Biosemi,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,26,,,,1.66,,,,,,direct_download,open,64,1024,,"BIOSEMI Biosemi,62 Ag/AgCl scalp electrodes",,,2026-11-14
-ds005285,29 By ANT,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,29,,,,11.83,,,,,,direct_download,open,32,1000,,"ANT Neuro, the Netherlands, 32 Ag/AgCl scalp electrodes",,,2026-11-14
-ds005286,30 By ANT,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,30,,,,9.35,,,,,,direct_download,open,32,1000,,"ANT Neuro, the Netherlands,32 Ag/AgCl scalp electrodes",,,2026-11-14
-ds005289,39 By BP,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,39,,,,7.11,,,,,,direct_download,open,64,1000,,"Brain Products GmbH,64 Ag-AgCl scalp electrodes",,,2026-11-14
-ds005291,65 By ANT,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,65,,,,20.46,,,,,,direct_download,open,32,1000,,"ANT Neuro, the Netherlands,32 Ag/AgCl scalp electrodes",,,2026-11-14
-ds005292,142 by Biosemi,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,142,,,,50.85,,,,,,direct_download,open,64,1024,,"BIOSEMI Biosemi,62 Ag/AgCl scalp electrodes",,,2026-11-14
-ds005293,95 By BP,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,95,,,,98.88,,,,,,direct_download,open,63,1000,,"Brain Products ERP,64 Ag-AgCl",,,2026-11-14
-ds005296,Assessing sensitivity to semantic and syntactic information in deaf readers: An ERP study,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,62,,,,8.53,,,,,,direct_download,open,,500,,Neuroscan-Compumedics SynAmpsRT,,,2026-11-14
-ds005305,EEG Resting-state Microstates Correlates of Executive Functions,,scalp_eeg,,isae_supaero,,CC0-1.0,,,,,,true,,165,,,,6.38,,,,,,direct_download,open,64,512,10_20,BIOSEMI Active-2,resting_unspecified,,2026-11-14
-ds005307,Laser-evoked potentials in the human spinal cord and cortex,,scalp_eeg,,,,CC0-1.0,,,,,,true,,7,,,,18.08,,,,,,direct_download,open,72,10000,,Brain Products,,,2026-11-14
-ds005340,Fundamental frequency predominantly drives talker differences in auditory brainstem responses to continuous speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,9.47,,,,,,direct_download,open,2,10000,10_20,Brain Products actiCHamp with EP-PreAmp,,,2026-11-14
-ds005342,EEG data offline and online during motor imagery for standing and sitting,,scalp_eeg,,universidad_antonio_nari_o,,CC0-1.0,,,,,,true,,32,,,,2.03,,,,,,direct_download,open,17,250,10_20,g.tec g.Nautilus PRO,,,2026-11-14
-ds005343,Gaffrey Lab Infant Microstates and Attention,,scalp_eeg,,duke_university,,CC0-1.0,,,,,,true,,43,,,,22.7,,,,,,direct_download,open,129,1000,,EGI Magstim,resting_unspecified,,2026-11-14
+ds005274,UV_EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,0.07,,,,,,direct_download,open,6,500,10_20,,,,2026-11-15
+ds005280,223 By BP,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,223,,,,42.38,,,,,,direct_download,open,64,1000,,Brain Products Brain Products,other,,2026-11-15
+ds005284,26 By Biosemi,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,conflicting,,,,1.66,,,,,,direct_download,open,,1024,10_20,BIOSEMI,other,,2026-11-15
+ds005285,29 By ANT,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,conflicting,,,,11.83,,,,,,direct_download,open,32,1000,10_20,"ANT Neuro ANT Neuro, the Netherlands, 32 Ag/AgCl scalp electrodes",other,,2026-11-15
+ds005286,30 By ANT,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,30,,,,9.35,,,,,,direct_download,open,32,1000,,"ANT Neuro ANT Neuro, the Netherlands,32 Ag/AgCl scalp electrodes",other,,2026-11-15
+ds005289,39 By BP,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,39,,,,7.11,,,,,,direct_download,open,64,1000,,"Brain Products GmbH Brain Products GmbH,64 Ag-AgCl scalp electrodes",other,,2026-11-15
+ds005291,65 By ANT,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,65,,,,20.46,,,,,,direct_download,open,32,1000,,"ANT Neuro ANT Neuro, the Netherlands,32 Ag/AgCl scalp electrodes",other,,2026-11-15
+ds005292,142 by Biosemi,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,142,,,,50.85,,,,,,direct_download,open,64,1024,,"BIOSEMI Biosemi,62 Ag/AgCl scalp electrodes",other,,2026-11-15
+ds005293,95 By BP,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,95,,,,98.88,,,,,,direct_download,open,63,1000,,"Brain Products Brain Products ERP,64 Ag-AgCl",other,,2026-11-15
+ds005296,Assessing sensitivity to semantic and syntactic information in deaf readers: An ERP study,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,62,,,,8.53,,,,,,direct_download,open,29,500,,Neuroscan-Compumedics SynAmpsRT,language;visual_erp,,2026-11-15
+ds005305,EEG Resting-state Microstates Correlates of Executive Functions,,scalp_eeg,cognitive;resting_state,isae_supaero,,CC0-1.0,,,,,,true,,165,,,,6.38,,,,,,direct_download,open,64,512,10_20,BIOSEMI Active-2,resting_unspecified,,2026-11-15
+ds005307,Laser-evoked potentials in the human spinal cord and cortex,,scalp_eeg,,,,CC0-1.0,,,,,,true,,7,,,,18.08,,,,,,direct_download,open,72,10000,,Brain Products,,,2026-11-15
+ds005340,Fundamental frequency predominantly drives talker differences in auditory brainstem responses to continuous speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,9.47,,,,,,direct_download,open,2,10000,10_20,Brain Products actiCHamp with EP-PreAmp,auditory_erp,,2026-11-15
+ds005342,EEG data offline and online during motor imagery for standing and sitting,,scalp_eeg,,universidad_antonio_nari_o,,CC0-1.0,,,,,,true,,32,,,,2.03,,,,,,direct_download,open,17,250,10_20,g.tec g.Nautilus PRO,motor_imagery,,2026-11-15
+ds005343,Gaffrey Lab Infant Microstates and Attention,,scalp_eeg,,duke_university,,CC0-1.0,,,,,,true,,43,,,,22.7,,,,,,direct_download,open,,1000,,,resting_unspecified,,2026-11-15
 ds005345,Le Petit Prince (LPP) Multi-talker: Naturalistic 7T fMRI and EEG Dataset,,scalp_eeg,,shanghai_ninth_people_s_hospital,,CC0-1.0,,,,,,true,,26,,,,162.54,,,,,,direct_download,open,64,500,10_20,Brain Products BrainAmp DC,resting_unspecified,,2026-11-14
 ds005363,Object recognition in healthy aging (ORHA) - EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,43,,,,17.71,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,Brain Products,,,2026-11-14
 ds005383,"TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,0.35,,,,,,direct_download,open,30,200,10_20,,,,2026-11-14

@@ -68,6 +68,8 @@ ds005178,event_markers,triggers,,,,,,ds005178_doc927650,There are no events.tsv 
 ds005185,questionnaires,comfort questionnaire,,,,,,ds005185_doca72b87,the subject answered a short questionnaire regarding the quality of the night’s sleep,2026-11-15,claude,
 ds005185,sleep_stages,scoring event file,,,,,,ds005185_doca72b87,Each PSG night has an additional 'scoring' event file,2026-11-15,claude,
 ds005189,behavioral_responses,Encode_beh / Test_beh,,,,,,ds005189_doc88fc3c,Behavioral data is split into encoding (Encode_beh) and memory testing (Test_beh).,2026-11-15,claude,
+ds005296,event_markers,event codes,,,,,,ds005296_docd9e842,Continuous EEG was recorded along with event codes synchronized to each word in the RSVP sentences.,2026-11-15,claude,
+ds005342,event_markers,marker numbers,200;201;202;203;1;2;3;4;101;102;103;104,,,,,ds005342_docc8ebfd,"Marker numbers 200, 201, 202, and 203, indicated the beginning and end of the four steps of the sequence in a trial",2026-11-15,claude,
 dv_10_18710_d5io4r,behavioral_responses,flanker and AX-CPT behavioural data,,,,,,dv_10_18710_d5io4r_docb247b2,".tsv : Tab separated values file, contain behavioral data",2026-11-15,claude,
 dv_10_18710_d5io4r,event_markers,Stimulus designations (contained in .vmrk files),1 - left congruent;2 - right congruent;3 - left incongruent;4 - right incongruent;5 - left neutral;6 - right neutral;201 - correct response;200 - incorrect response,,,,,dv_10_18710_d5io4r_docb247b2,Stimulus designations (contained in .vmrk files),2026-11-15,claude,
 dv_10_18710_d5io4r,questionnaires,"CRS, IPAQ, LHQ, SFFQ, SNI",,,,,,dv_10_18710_d5io4r_docb247b2,"tasks: restingstateClosedEye, Flanker, CRS, IPAQ, LHQ, SFFQ, SNI",2026-11-15,claude,
