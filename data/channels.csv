@@ -9370,22 +9370,6 @@ ds004595,main,T7,misc,9,ds004595_channels,row 9,2026-11-14,script,type in the fi
 ds004595,main,T8,misc,26,ds004595_channels,row 26,2026-11-14,script,type in the file: n/a
 ds004595,main,TP7,misc,43,ds004595_channels,row 43,2026-11-14,script,type in the file: n/a
 ds004595,main,TP8,misc,55,ds004595_channels,row 55,2026-11-14,script,type in the file: n/a
-ds004598,main,E_E1,eeg,1,ds004598_channels,row 1,2026-11-14,script,
-ds004598,main,E_E10,eeg,10,ds004598_channels,row 10,2026-11-14,script,
-ds004598,main,E_E11,emg,11,ds004598_channels,row 11,2026-11-14,script,
-ds004598,main,E_E12,eeg,12,ds004598_channels,row 12,2026-11-14,script,
-ds004598,main,E_E13,eeg,13,ds004598_channels,row 13,2026-11-14,script,
-ds004598,main,E_E14,eeg,14,ds004598_channels,row 14,2026-11-14,script,
-ds004598,main,E_E15,eeg,15,ds004598_channels,row 15,2026-11-14,script,
-ds004598,main,E_E16,eeg,16,ds004598_channels,row 16,2026-11-14,script,
-ds004598,main,E_E2,eeg,2,ds004598_channels,row 2,2026-11-14,script,
-ds004598,main,E_E3,eeg,3,ds004598_channels,row 3,2026-11-14,script,
-ds004598,main,E_E4,eeg,4,ds004598_channels,row 4,2026-11-14,script,
-ds004598,main,E_E5,emg,5,ds004598_channels,row 5,2026-11-14,script,
-ds004598,main,E_E6,eeg,6,ds004598_channels,row 6,2026-11-14,script,
-ds004598,main,E_E7,eeg,7,ds004598_channels,row 7,2026-11-14,script,
-ds004598,main,E_E8,eeg,8,ds004598_channels,row 8,2026-11-14,script,
-ds004598,main,E_E9,eeg,9,ds004598_channels,row 9,2026-11-14,script,
 ds004602,main,E1,eeg,1,ds004602_channels,row 1,2026-11-14,script,
 ds004602,main,E10,eeg,10,ds004602_channels,row 10,2026-11-14,script,
 ds004602,main,E100,eeg,100,ds004602_channels,row 100,2026-11-14,script,

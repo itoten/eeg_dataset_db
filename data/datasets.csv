@@ -232,21 +232,20 @@ ds004554,Forced Picture Naming Task,,scalp_eeg,,corstim,,CC0-1.0,,,,,,true,,16,,
 ds004561,Illusion of Agency over Electrically-Actuated Movements,,scalp_eeg,,,,CC0-1.0,,,,,,true,,23,,,,97.67,,,,,,direct_download,open,62,10000,10_20,BrainProducts,,,2026-11-14
 ds004563,Vicarious touch: overlapping neural patterns between seeing and feeling touch,,scalp_eeg,,macquarie_university,,CC0-1.0,,,,,,true,,40,,,,100.89,,,,,,direct_download,open,64,2048,,BIOSEMI ActiveTwo,,,2026-11-14
 ds004572,The effects of sham hypnosis techniques,,scalp_eeg,,,,CC0-1.0,,,,,,true,,52,,,,43.56,,,,,,direct_download,open,58,1000,10_20,Elekta,,,2026-11-14
-ds004574,Cross-modal Oddball Task.,,scalp_eeg,,i_169_newton_road,,CC0-1.0,,,,,,true,,146,,,,13.48,,,,,,direct_download,open,63,500,,Brain Vision,p300_erp,,2026-11-14
-ds004577,Dataset containing resting EEG for a sample of 103 normal infants in the first year of life,,scalp_eeg,,,,CC0-1.0,,,,,,true,,103,,,,0.64,,,,,,direct_download,open,21,200,10_10,,,,2026-11-14
-ds004579,Interval Timing Task,,scalp_eeg,,i_169_newton_road,,CC0-1.0,,,,,,true,,139,,,,24.12,,,,,,direct_download,open,63,500,,Brain Vision,,,2026-11-14
-ds004580,Simon-conflict Task.,,scalp_eeg,,i_169_newton_road,,CC0-1.0,,,,,,true,,147,,,,15.84,,,,,,direct_download,open,63,500,,Brain Vision,,,2026-11-14
-ds004582,FakeFaceEmo_data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,73,,,,294.22,,,,,,site_terms_agreement,one_time_human,59,10000,10_20,BrainProducts,,,2026-11-14
-ds004584,Rest eyes open,,scalp_eeg,,i_169_newton_road,,CC0-1.0,,,,,,true,,149,,,,2.87,,,,,,direct_download,open,63,500,,Brain Vision,resting_unspecified,,2026-11-14
-ds004587,IllusionGameEEG_data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,103,,,,219.34,,,,,,direct_download,open,59,10000,10_20,BrainProducts,,,2026-11-14
-ds004588,Neuma,,scalp_eeg,,,,CC0-1.0,,,,,,true,,42,,,,0.52,,,,,,direct_download,open,24,300,,,,,2026-11-14
-ds004595,EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,53,,,,7.81,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,,,2026-11-14
-ds004598,LFP during linear track in 6-month old TgF344-AD rats,,scalp_eeg,,,,CC0-1.0,,,,,,true,,9,,,,9.94,,,,,,direct_download,open,,10000,,a/a,,,2026-11-14
-ds004602,Registered Replication Report of ERN/Pe Psychometrics,,scalp_eeg,,university_of_south_florida_usf_or_brigham_young_u,,CC0-1.0,,,,,,true,,182,,,,76.38,,,,,,direct_download,open,129,500,,"Electrical Geodesics, Inc.",,,2026-11-14
-ds004603,Visual Attribute-Specific Contextual Trajectory Paradigm,,scalp_eeg,,school_of_psychology_and_counselling_queensland_un,,CC0-1.0,,,,,,true,,37,,,,27.37,,,,,,direct_download,open,64,1024,10_20,BrainProducts,,,2026-11-14
-ds004621,The Nencki-Symfonia EEG/ERP dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,42,,,,77.38,,,,,,direct_download,open,,1000,,Brain Products GmbH actiCHamp,p300_erp;resting_unspecified,,2026-11-14
-ds004624,Intracranial recordings using BCI2000 and the CorTec BrainInterchange,,ieeg,,,,CC0-1.0,,,,,,true,,3,,,,19.31,,,,,,direct_download,open,,1000,,,,,2026-11-14
-ds004625,Mind in Motion Young Adults Walking Over Uneven Terrain,,scalp_eeg,,university_of_florida,,CC0-1.0,,,,,,true,,32,,,,62.46,,,,,,direct_download,open,120,500,,Brain Vision,,,2026-11-14
+ds004574,Cross-modal Oddball Task.,,scalp_eeg,,i_169_newton_road,,CC0-1.0,,,,,,true,,146,,,,13.48,,,,,,direct_download,open,,500,,Brain Vision,p300_erp,,2026-11-15
+ds004577,Dataset containing resting EEG for a sample of 103 normal infants in the first year of life,,scalp_eeg,,,,CC0-1.0,,,,,,true,,103,,,,0.64,,,,,,direct_download,open,21,200,10_10,,resting_unspecified,,2026-11-15
+ds004579,Interval Timing Task,,scalp_eeg,,i_169_newton_road,,CC0-1.0,,,,,,true,,139,,,,24.12,,,,,,direct_download,open,,500,,Brain Vision,cognitive_task,,2026-11-15
+ds004580,Simon-conflict Task.,,scalp_eeg,,i_169_newton_road,,CC0-1.0,,,,,,true,,conflicting,,,,15.84,,,,,,direct_download,open,,500,,Brain Vision,cognitive_task,,2026-11-15
+ds004582,FakeFaceEmo_data,,scalp_eeg;eog;ecg;respiration,,,,CC0-1.0,,,,,,true,,73,,,,294.22,,,,,,site_terms_agreement,one_time_human,59,10000,10_20,,emotion_induction,,2026-11-15
+ds004584,Rest eyes open,,scalp_eeg,,i_169_newton_road,,CC0-1.0,,,,,,true,,149,,,,2.87,,,,,,direct_download,open,,500,,Brain Vision,resting_eyes_open;resting_unspecified,,2026-11-15
+ds004587,IllusionGameEEG_data,,scalp_eeg;ecg;respiration,,,,CC0-1.0,,,,,,true,,103,,,,219.34,,,,,,direct_download,open,59,10000,10_20,BrainProducts,cognitive_task;resting_eyes_closed,,2026-11-15
+ds004588,Neuma,,scalp_eeg;eye_tracking,,,,CC0-1.0,,,,,,true,,42,,,,0.52,,,,,,direct_download,open,24,300,,,other,,2026-11-15
+ds004595,EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,53,,,,7.81,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,cognitive_task,,2026-11-15
+ds004602,Registered Replication Report of ERN/Pe Psychometrics,,scalp_eeg,,university_of_south_florida_usf_or_brigham_young_u,,CC0-1.0,,,,,,true,,182,,,,76.38,,,,,,direct_download,open,129,500,,"Electrical Geodesics, Inc.",,,2026-11-15
+ds004603,Visual Attribute-Specific Contextual Trajectory Paradigm,,scalp_eeg,,school_of_psychology_and_counselling_queensland_un,,CC0-1.0,,,,,,true,,37,,,,27.37,,,,,,direct_download,open,64,1024,10_20,BrainProducts,visual_erp,,2026-11-15
+ds004621,The Nencki-Symfonia EEG/ERP dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,42,,,,77.38,,,,,,direct_download,open,,1000,,Brain Products GmbH actiCHamp,cognitive_task;p300_erp;resting_unspecified,,2026-11-15
+ds004624,Intracranial recordings using BCI2000 and the CorTec BrainInterchange,,ieeg,,,,CC0-1.0,,,,,,true,,3,,,,19.31,,,,,,direct_download,open,,1000,,,,,2026-11-15
+ds004625,Mind in Motion Young Adults Walking Over Uneven Terrain,,scalp_eeg;emg,,university_of_florida,,CC0-1.0,,,,,,true,,32,,,,62.46,,,,,,direct_download,open,120,500,,Brain Vision,motor_execution,,2026-11-15
 ds004626,Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modelling and event-related potentials.,,scalp_eeg,,institute_of_psychology_polish_academy_of_sciences,,CC0-1.0,,,,,,true,,52,,,,19.87,,,,,,direct_download,open,68,1000,10_20,Neuroscan SynAmps RT,,,2026-11-14
 ds004635,Gaffrey Lab Infant Microstates Reliability,,scalp_eeg,,duke_university,,CC0-1.0,,,,,,true,,48,,,,26.05,,,,,,direct_download,open,129,1000,,"Electrical Geodesics, Inc. (EGI)",resting_unspecified,,2026-11-14
 ds004642,Intraoperative recordings of medianus stimulation with low and high impedance ECoG,,ieeg,,department_of_neurosurgery_university_hospital_zur,,CC0-1.0,,,,,,true,,10,,,,1.2,,,,,,direct_download,open,0,20000,,Inomed Medizintechnik GmbH Inomed ISIS System,,,2026-11-14

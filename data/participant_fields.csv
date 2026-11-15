@@ -1144,7 +1144,6 @@ ds004595,GROUP,other,subject,GROUP of the participant,,,ds004595_participants_js
 ds004595,Original_ID,other,subject,participant identifier from recording,,,ds004595_participants_json,participants.json key Original_ID,2026-11-14,script,
 ds004595,age,age,subject,age of the participant,,,ds004595_participants_json,participants.json key age,2026-11-14,script,
 ds004595,sex,sex_gender,subject,sex of the participant,,,ds004595_participants_json,participants.json key sex,2026-11-14,script,
-ds004598,genotype,other,subject,,,,ds004598_participants_tsv,participants.tsv header genotype,2026-11-14,script,
 ds004602,Original_ID,other,subject,Original study participant identifier.,,,ds004602_participants_json,participants.json key Original_ID,2026-11-14,script,
 ds004602,age,age,subject,Age of the participant.,years,,ds004602_participants_json,participants.json key age,2026-11-14,script,
 ds004602,ethnicity,other,subject,"Self-reported Hispanic, Latino, or Spanish origin.",,,ds004602_participants_json,participants.json key ethnicity,2026-11-14,script,
