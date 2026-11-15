@@ -3908,6 +3908,13 @@ zenodo_20089289,videos_containing_relevant_irrelevant_an,"videos containing rele
 zenodo_20145134,resting_state,resting-state,resting_unspecified,,,,,,,,
 zenodo_20163071,stress_relaxation_and_white_noise_audito,"stress, relaxation and white noise auditory stimulation",other,,,,,,,,
 zenodo_20184538,before_during_and_after_dolphin_assisted,"before, during, and after Dolphin-Assisted Therapy sessions",other,,,,,,,,
+zenodo_20391696,resting_state_eeg_eyes_open_and_eyes_clo,"resting-state EEG, eyes open and eyes closed",resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_20442637,competing_listening_auditory_attention_d,competing listening auditory attention decoding with neurofeedback,neurofeedback,,,,,,,,
+zenodo_20526421,group_conversations_consensus_free_speec,"group conversations (consensus, free speech, conflict)",language,,,,,,,,
+zenodo_20557224,instruction_free_dichotic_listening,instruction-free dichotic listening,auditory_erp,,,,,,,,
+zenodo_20560842,real_vs_fake_news_reading_under_negative,real vs fake news reading under negative vs neutral mood,language,,,,,,,,
+zenodo_20727885,binary_motor_imagery,Binary Motor Imagery,motor_imagery,,,,,,,,
+zenodo_20729503,sequential_metacontrast_paradigm_sqm,Sequential Metacontrast Paradigm (SQM),visual_erp,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name

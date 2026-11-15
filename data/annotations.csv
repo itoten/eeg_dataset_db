@@ -274,3 +274,6 @@ zenodo_18087805,class_labels,mapping.yaml,,,,,,zenodo_18087806,mapping.yaml - de
 zenodo_18147495,seizure_annotations,After / Before / During folders,post-ictal;pre-ictal;ictal,,,,,zenodo_18147496,"Before (pre-ictal signals from 43 patients, named b_00.csv to b_42.csv), and During (ictal signals from 43 patients, named d_00.csv to d_42.csv)",2026-11-15,claude,
 zenodo_18396885,class_labels,affective condition,positive;neutral;negative,,,,,zenodo_18396886,"three affective conditions: positive, neutral, and negative",2026-11-15,claude,
 zenodo_20163071,class_labels,Experimental condition labels,stress;relaxation;white noise,,,,,zenodo_20163072,"Experimental condition labels (stress, relaxation, white noise).",2026-11-15,claude,
+zenodo_20526421,self_report_ratings,subj_rating.csv,,,,,,zenodo_21643064,participants were asked to rate five different aspects of the conversations,2026-11-15,claude,
+zenodo_20557224,self_report_ratings,ratings,familiarity;urgency;liking,,,,,zenodo_20557225,"subjective ratings of sound familiarity, urgency, and liking",2026-11-15,claude,
+zenodo_20729503,class_labels,condition,NV;V0;V2;V4;V0–AV2;V0–AV4,,,,,zenodo_20729504,"condition (tbl.labels; NV = 0, V0 = 1, V2 = 2, V4 = 3, V0–AV2 = 4, V0–AV4 = 5)",2026-11-15,claude,

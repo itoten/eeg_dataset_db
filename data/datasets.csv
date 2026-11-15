@@ -1509,23 +1509,16 @@ zenodo_20243838,External attentional focus modulates alpha-band oscillations dur
 zenodo_20301344,Behavioral_EEG_N22_Neurodynamics_of _an_aesthetic_experience,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
 zenodo_20320164,Affective Affordances of AI-Enabled Digital Imagery: Self-Report and EEG Evidence for Perceived Healing in Young Adults,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_20328098,SENSE-42: A multimodal human-computer interaction dataset for neurocognitive user state evaluation,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_20342725,"Anonymized Quantitative Dataset for ""From Esports to the Classroom: Testing Cognitive and Educational Transfer Using EEG and Mixed Methods""",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20350996,REM EEG Slowing J Anderson Masterfile,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_20391696,"Data for ""Bright light exposure reduces negative affect and modulates EEG activity in sleep-deprived and well-rested adolescents""",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_20442637,"KUL-AAD-NFB: Dataset of Auditory Attention Decoding with Neurofeedback, KU Leuven",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,64,,,,,,2026-11-14
-zenodo_20501466,EEG Data,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20526421,EEG hyperscanning data of 13 groups of three people engaging in different types of conversations,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,32,,,,,,2026-11-14
-zenodo_20557224,SAAD-EEG: A High-Density EEG Dataset for Stimulus-Driven Auditory Attention,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,128,,,,,,2026-11-14
-zenodo_20557832,IGT Task EEG Raw Dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20560842,Raw EEG and GSR Data (BrainVision Recorder),,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20569765,EEG and GSR Grand Averages and Trial Retention Data,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20599236,"EEG Motor Imagery — Processed Segment Data (BCI2000, 109 Subjects)",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20677188,NeuroRAG: An Explainable EEG-Based Stress Detection System Using Retrieval-Augmented Generation,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20698296,"Heterogeneous Multi-source EEG Benchmarks for Affective versus Cognitive Remediation: Pairwise Decoding, Probabilistic Fusion, and Rigorous Group Evaluation",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20723592,"Dataset for Study: """"Mind Over Muscle"": Neural and Biomechanical Signatures of Expertise in Early Stone Tool Use""",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20727885,A Harmonized Multi-Dataset EEG Benchmark for Cross-Hardware Generalization,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20729503,Sequential neural dynamics underlie unconscious integration and conscious perception of visual stimuli,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_20744725,CHEPMD,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+zenodo_20391696,"Data for ""Bright light exposure reduces negative affect and modulates EEG activity in sleep-deprived and well-rested adolescents""",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,55,,,,,,,,,,request_form_or_email,approval,21,1000,,M&I,resting_eyes_closed;resting_eyes_open,,2026-11-15
+zenodo_20442637,"KUL-AAD-NFB: Dataset of Auditory Attention Decoding with Neurofeedback, KU Leuven",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,19,,,,,,,,,,direct_download,open,64,1024,,BioSemi ActiveTwo,neurofeedback,,2026-11-15
+zenodo_20501466,EEG Data,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_20526421,EEG hyperscanning data of 13 groups of three people engaging in different types of conversations,,scalp_eeg;audio,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,32,100,,,language,,2026-11-15
+zenodo_20557224,SAAD-EEG: A High-Density EEG Dataset for Stimulus-Driven Auditory Attention,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,23,,,,,,,,,,direct_download,open,128,250,10_10,,auditory_erp,,2026-11-15
+zenodo_20557832,IGT Task EEG Raw Dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_20560842,Raw EEG and GSR Data (BrainVision Recorder),,scalp_eeg;eda,,,2026,CC-BY-4.0,,,,,,,,43,,,,,,,,,,direct_download,open,,,,,language,,2026-11-15
+zenodo_20599236,"EEG Motor Imagery — Processed Segment Data (BCI2000, 109 Subjects)",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_20727885,A Harmonized Multi-Dataset EEG Benchmark for Cross-Hardware Generalization,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,20,100,,,motor_imagery,,2026-11-15
+zenodo_20729503,Sequential neural dynamics underlie unconscious integration and conscious perception of visual stimuli,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,18,,,,,,,,,,direct_download,open,,,,,visual_erp,,2026-11-15
 zenodo_20757250,NMT-4K-EEG: A Curated Clinical EEG Dataset for Normal and Abnormal EEG Detection,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,200,,,,,2026-11-14
 zenodo_20782153,Reading the Mind at Play: EEG Insights into Player Engagement with Affective AI,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_20789302,Multimodal Dataset of a Serious Game about Climate Change,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
