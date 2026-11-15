@@ -321,6 +321,23 @@ ds005416,acquisition_setups:main.n_channels_eeg,conflicting,24,secondary,https:/
 ds005416,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://s3.amazonaws.com/openneuro.org/ds005416/sub-s01/eeg/sub-s01_task-WatchingTask_eeg.json?versionId=mNxPhBqCI7GmT0n1Sx2Fiqb7GjxIwi8C,
 ds005448,acquisition_setups:main.reference,conflicting,extracranial reference electrode on the scalp vertex or mastoid,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12489785/,Audit reviewer; scope: not given
 ds005448,acquisition_setups:main.reference,conflicting,probably mastoid,primary,https://s3.amazonaws.com/openneuro.org/ds005448/sub-STREEF01/ses-1/ieeg/sub-STREEF01_ses-1_task-SPESclin_run-021250_ieeg.json?versionId=owwED4W6q53EUb1dLuz6MKoSiOZ4LvS4,
+ds005520,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12223101/,Audit reviewer; scope: not given
+ds005520,acquisition_setups:main.n_channels_eeg,conflicting,67,primary,https://s3.amazonaws.com/openneuro.org/ds005520/sub-01/eeg/sub-01_task-MOBAgame_eeg.json?versionId=4L.ry.PcwoxV0GWF2qFbdFV9YCxDH.B7,
+ds005530,acquisition_setups:main.n_channels_eeg,conflicting,10,primary,https://s3.amazonaws.com/openneuro.org/ds005530/sub-01122021301/eeg/sub-01122021301_task-sleep_run-01_eeg.json?versionId=afNWoTd1YK749yXQSU70nEb1v02f.708,
+ds005530,acquisition_setups:main.n_channels_eeg,conflicting,6,secondary,https://s3.amazonaws.com/openneuro.org/ds005530/README,Audit reviewer; scope: not given
+ds005555,n_subjects_reported,conflicting,100,secondary,https://s3.amazonaws.com/openneuro.org/ds005555/README,Audit reviewer; scope: not given
+ds005555,n_subjects_reported,conflicting,128,secondary,https://openneuro.org/datasets/ds005555/versions/1.1.3,
+ds005565,acquisition_setups:main.reference,conflicting,Left Mastoid,primary,https://s3.amazonaws.com/openneuro.org/ds005565/sub-1/eeg/sub-1_task-SemanticCategorization_eeg.json?versionId=a6hiJ6H4KVE3iBu7cDlrTE3b2n_Ylilb,
+ds005565,acquisition_setups:main.reference,conflicting,left mastoid,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12273589/,Audit reviewer; scope: not given
+ds005571,n_subjects_reported,conflicting,24,primary,https://www.nature.com/articles/s41467-024-54244-8,Audit reviewer; scope: eeg-tms experiment only; the dataset also holds fmri participants and its total is not stated in the record
+ds005571,n_subjects_reported,conflicting,29,secondary,https://openneuro.org/datasets/ds005571/versions/1.0.1,
+ds005574,acquisition_setups:main.reference,conflicting,Two-contact subdural strip facing toward the skull,primary,https://s3.amazonaws.com/openneuro.org/ds005574/sub-09/ieeg/sub-09_task-podcast_ieeg.json?versionId=aa6zpfmFiAXBA3BZCAC5QE4rLtpR8S2.,
+ds005574,acquisition_setups:main.reference,conflicting,two-contact subdural strip facing toward the skull near the craniotomy site,primary,https://www.nature.com/articles/s41597-025-05462-2,Audit reviewer; scope: not given
+ds005574,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://www.nature.com/articles/s41597-025-05462-2,Audit reviewer; scope: neuroworks quantum recordings
+ds005574,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://s3.amazonaws.com/openneuro.org/ds005574/sub-09/ieeg/sub-09_task-podcast_ieeg.json?versionId=aa6zpfmFiAXBA3BZCAC5QE4rLtpR8S2.,
+ds005574,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://www.nature.com/articles/s41597-025-05462-2,"Audit reviewer; scope: nicoletone c64 recordings; the other amplifier (neuroworks quantum) was recorded at 2,048 hz; raw data above 512 hz was downsampled to 512 hz in preprocessing"
+ds005586,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://s3.amazonaws.com/openneuro.org/ds005586/sub-001/eeg/sub-001_task-PassiveViewing_eeg.json?versionId=JICUzTNB34JxiwgOYLnDTsuQZ0lAVgWp,
+ds005586,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC7617299/,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given

@@ -1121,12 +1121,18 @@ ds005514,surroundsupp,surroundSupp,,,,,,,,,
 ds005514,symbol_search,Symbol Search,cognitive_task,,,,,,,,
 ds005514,symbolsearch,symbolSearch,,,,,,,,,
 ds005514,thepresent,ThePresent,,,,,,,,,
+ds005515,contrast_change_detection,Contrast Change Detection,cognitive_task,,,,,,,,
 ds005515,contrastchangedetection,contrastChangeDetection,,,,,,,,,
 ds005515,despicableme,DespicableMe,,,,,,,,,"Participants viewed 4 short, age-appropriate video clips taken from television and movies. (Prior to this task, parents were given the opportunity to review the full list of clips and exclude any video clips they deemed unsuitable for their children; no parents had any objections to the clips.). VideoDescription: Rating: Rated PG for rude humor and mild action, Description: In this animation, a new adoptive father reads his three children a bedtime story., Rationale: This clip is included to probe for attachment formation related issues., Link: https://youtu.be/HNXxJIhVALI, Length: 2:51. [ds005515_sidecar]"
 ds005515,diaryofawimpykid,DiaryOfAWimpyKid,,,,,,,,,
 ds005515,funwithfractals,FunwithFractals,,,,,,,,,
+ds005515,movie_watching,Movie Watching,passive_viewing,,,,,,,,
+ds005515,resting_state,Resting State,resting_unspecified,,,,,,,,
 ds005515,restingstate,RestingState,,,,,,,,,
+ds005515,sequence_learning,Sequence Learning,cognitive_task,,,,,,,,
+ds005515,surround_suppression,Surround Suppression,passive_viewing,,,,,,,,
 ds005515,surroundsupp,surroundSupp,,,,,,,,,
+ds005515,symbol_search,Symbol Search,cognitive_task,,,,,,,,
 ds005515,symbolsearch,symbolSearch,,,,,,,,,
 ds005515,thepresent,ThePresent,,,,,,,,,
 ds005516,contrastchangedetection,contrastChangeDetection,,,,,,,,,
@@ -1138,23 +1144,36 @@ ds005516,surroundsupp,surroundSupp,,,,,,,,,
 ds005516,symbolsearch,symbolSearch,,,,,,,,,
 ds005516,thepresent,ThePresent,,,,,,,,,
 ds005520,moba_game,MOBA_game,,,,,,,,,Playing MOBA game. [ds005520_sidecar]
+ds005520,moba_game_x,MOBA game,other,,,,,,,,
 ds005520,resting_eye_closed,resting_eye_closed,,,,,,,,,
 ds005520,resting_eye_open,resting_eye_open,,,,,,,,,
+ds005520,resting_eyes_closed_eyes_open,"resting (eyes closed, eyes open)",resting_eyes_closed;resting_eyes_open,,,,,,,,
+ds005522,spatial_navigation_memory_task,spatial navigation memory task,cognitive_task,,,,,,,,
 ds005522,yc1,YC1,,,,,,,,,spatial navigation memory of object locations. [ds005522_sidecar]
+ds005523,spatial_navigation_memory_task_with_open,spatial navigation memory task with open-loop stimulation at encoding,cognitive_task,,,,,,,,
 ds005523,yc2,YC2,,,,,,,,,spatial navigation memory of object locations with open-loop stimulation at encoding. [ds005523_sidecar]
 ds005530,arousal,arousal,,,,,,,,,
+ds005530,overnight_sleep_with_tmr,overnight sleep with TMR,sleep,,,,,,,,
 ds005530,sleep,sleep,sleep,,,,,,,,
 ds005540,emotion,emotion,,,,,,,,,
+ds005540,imagery_induced_emotion_context,imagery-induced emotion context,emotion_induction,,,,,,,,
+ds005540,resting_state_sessions,resting-state sessions,resting_eyes_closed;resting_eyes_open,,,,,,,,
+ds005540,video_induced_emotion_context,video-induced emotion context,emotion_induction;passive_viewing,,,,,,,,
 ds005545,auditory,auditory,,,,,,,,,auditory. [ds005545_sidecar]
+ds005545,auditory_naming,auditory naming,language,,,,,,,,
 ds005555,sleep,Sleep,sleep,,,,,,,,One night of sleep. [ds005555_sidecar]
+ds005557,delayed_free_recall_with_closed_loop_sti,delayed free recall with closed-loop stimulation at encoding,cognitive_task,,,,,,,,
 ds005557,fr3,FR3,,,,,,,,,free recall with closed-loop stimulation at encoding. [ds005557_sidecar]
+ds005558,categorized_free_recall_with_closed_loop,categorized free recall with closed-loop stimulation at encoding,cognitive_task,,,,,,,,
 ds005558,catfr3,catFR3,,,,,,,,,categorized free recall with closed-loop stimulation at encoding. [ds005558_sidecar]
+ds005565,go_no_go_semantic_categorization_semanti,Go/No-Go semantic categorization (SemanticCategorization),language;visual_erp,,,,,,,,
 ds005565,semanticcategorization,SemanticCategorization,,,,,,,,,
 ds005571,gnga,GNGA,,,,,,,,,
 ds005571,gngb,GNGB,,,,,,,,,
+ds005571,go_nogo_task_with_tms_theta_no_theta_sha,Go-Nogo task with TMS (theta/no-theta/sham),cognitive_task,,,,,,,,
 ds005571,msit,$MSIT,,,,,,,,,
-ds005574,podcast,podcast,,,,,,,,,Passive listening to a 30 minute audio stimulus. [ds005574_sidecar]
-ds005586,passiveviewing,PassiveViewing,,,,,,,,,
+ds005574,podcast,podcast,language,,,,,,,,Passive listening to a 30 minute audio stimulus. [ds005574_sidecar]
+ds005586,passiveviewing,PassiveViewing,passive_viewing;visual_erp,,,,,,,,
 ds005594,alphabetic_decision,Alphabetic Decision,,,,,,,,,Participants were presented with letters (in font Arial Light) and false-font equivalents (in font BACS2sans). The task was to press the space bar when they observed a false-font character. [ds005594_sidecar]
 ds005620,awake,awake,,,,,,,,,
 ds005620,sed,sed,,,,,,,,,
