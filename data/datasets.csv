@@ -201,21 +201,21 @@ ds004368,Meta-rdk: Preprocessed EEG data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,39,,,,
 ds004369,Blink-Pause-Relation (Competing Speaker Paradigm),,scalp_eeg,,university_of_oldenburg,,CC0-1.0,,,,,,true,,41,,,,2.03,,,,,,direct_download,open,4,500,,BrainAmp,auditory_erp,,2026-11-15
 ds004370,PRIOS,,ieeg;ieeg_ecog,,university_medical_center_utrecht_division_brain_c,,CC0-1.0,,,,,,true,,7,,,,27.55,,,,,,direct_download,open,0,2048,,Micromed LTM64 Express,clinical_routine,,2026-11-15
 ds004381,Intraoperative EEG dataset during medianus-tibialis stimulation with 8 different rates,,scalp_eeg,,department_of_neurosurgery_university_hospital_zur,,CC0-1.0,,,,,,true,,18,,,,7.73,,,,,,direct_download,open,4,20000,,Inomed Medizintechnik GmbH Inomed ISIS System,other,,2026-11-15
-ds004388,Somatosensory evoked potentials in the human spinal cord to mixed nerve stimulation,,scalp_eeg,,max_planck_institute_for_human_cognitive_and_brain,,CC0-1.0,,,,,,true,,40,,,,682.54,,,,,,direct_download,open,67,10000,10_10,Bittum NeurOne,,,2026-11-14
-ds004389,Somatosensory evoked potentials in the human spinal cord to mixed and sensory nerve stimulation,,scalp_eeg,,max_planck_institute_for_human_cognitive_and_brain,,CC0-1.0,,,,,,true,,26,,,,376.5,,,,,,direct_download,open,42,10000,10_10,Bittum NeurOne,,,2026-11-14
-ds004395,Penn Electrophysiology of Encoding and Retrieval Study (PEERS),,scalp_eeg,,,,CC0-1.0,,,,,,true,,364,,,,8925.16,,,,,,direct_download,open,125,500,,EGI,,,2026-11-14
-ds004408,EEG responses to continuous naturalistic speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,19,,,,18.7,,,,,,direct_download,open,128,512,,Brain Products,,,2026-11-14
-ds004444,The BMI-HDEEG dataset 1,,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,48.62,,,,,,direct_download,open,128,1000,10_10,Magstim EGI GES400,,,2026-11-14
-ds004446,The BMI-HDEEG dataset 2,,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,29.23,,,,,,direct_download,open,128,1000,10_10,Magstim EGI GES400,,,2026-11-14
-ds004447,The BMI-HDEEG dataset 3,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,20.73,,,,,,direct_download,open,128,1000,10_10,Magstim EGI GES400,,,2026-11-14
-ds004448,The BMI-HDEEG dataset 4,,scalp_eeg,,,,CC0-1.0,,,,,,true,,56,,,,38.17,,,,,,direct_download,open,128,1000,10_10,Magstim EGI GES400,,,2026-11-14
-ds004457,Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex,,ieeg,,,,CC0-1.0,,,,,,true,,5,,,,10.9,,,,,,direct_download,open,21,2048,,,,,2026-11-14
-ds004460,EEG and motion capture data set for a full-body/joystick rotation task,,scalp_eeg,,technische_universitaet_zu_berlin,,CC0-1.0,,,,,,true,,20,,,,59.07,,,,,,direct_download,open,160,1000,,,,,2026-11-14
-ds004473,sEEG Forced Two-Choice Task,,ieeg,,,,CC0-1.0,,,,,,true,,8,,,,6.3,,,,,,direct_download,open,0,999.4121105232217,,,,,2026-11-14
-ds004475,Mobile EEG split-belt walking study,,scalp_eeg,,university_of_florida,,CC0-1.0,,,,,,true,,30,,,,48.54,,,,,,direct_download,open,122,512,10_20,Biosemi Active Two,,,2026-11-14
-ds004477,PES - Pandemic Emergency Scenario,,scalp_eeg,,,,CC0-1.0,,,,,,true,,9,,,,22.34,,,,,,direct_download,open,79,2048,,Biosemi,,,2026-11-14
-ds004502,Anticipatory differences between Attention and Expectation,,scalp_eeg,,university_of_granada_cimcyc,,CC0-1.0,,,,,,true,,48,,,,59.44,,,,,,direct_download,open,65,500,,,,,2026-11-14
-ds004504,"A dataset of EEG recordings from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects",,scalp_eeg,,university_of_ioannina,,CC0-1.0,,,,,,true,,88,,,,2.64,,,,,,direct_download,open,19,500,10_20,,,,2026-11-14
+ds004388,Somatosensory evoked potentials in the human spinal cord to mixed nerve stimulation,,scalp_eeg;emg;ecg;respiration,,max_planck_institute_for_human_cognitive_and_brain,,CC0-1.0,,,,,,true,,40,,,,682.54,,,,,,direct_download,open,67,10000,10_10,Bittum NeurOne,other;resting_eyes_open,,2026-11-15
+ds004389,Somatosensory evoked potentials in the human spinal cord to mixed and sensory nerve stimulation,,scalp_eeg;emg;ecg;respiration,,max_planck_institute_for_human_cognitive_and_brain,,CC0-1.0,,,,,,true,,26,,,,376.5,,,,,,direct_download,open,42,10000,10_10,Bittum NeurOne,other;resting_eyes_open,,2026-11-15
+ds004395,Penn Electrophysiology of Encoding and Retrieval Study (PEERS),,scalp_eeg,,,,CC0-1.0,,,,,,true,,364,,,,8925.16,,,,,,direct_download,open,125,500,,BioSemi ActiveTwo,cognitive_task,,2026-11-15
+ds004408,EEG responses to continuous naturalistic speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,19,,,,18.7,,,,,,direct_download,open,128,512,,ActiveTwo,language,,2026-11-15
+ds004444,The BMI-HDEEG dataset 1,,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,48.62,,,,,,direct_download,open,128,1000,10_10,,motor_imagery;neurofeedback,,2026-11-15
+ds004446,The BMI-HDEEG dataset 2,,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,29.23,,,,,,direct_download,open,128,1000,10_10,,motor_imagery;neurofeedback,,2026-11-15
+ds004447,The BMI-HDEEG dataset 3,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,20.73,,,,,,direct_download,open,128,1000,10_10,,motor_imagery;neurofeedback,,2026-11-15
+ds004448,The BMI-HDEEG dataset 4,,scalp_eeg,,,,CC0-1.0,,,,,,true,,56,,,,38.17,,,,,,direct_download,open,128,1000,10_10,,motor_imagery;neurofeedback,,2026-11-15
+ds004457,Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex,,ieeg,,,,CC0-1.0,,,,,,true,,5,,,,10.9,,,,,,direct_download,open,21,2048,,,other,,2026-11-15
+ds004460,EEG and motion capture data set for a full-body/joystick rotation task,,scalp_eeg,,technische_universitaet_zu_berlin,,CC0-1.0,,,,,,true,,20,,,,59.07,,,,,,direct_download,open,,1000,,Brain Products BrainAmp Move System,cognitive_task,,2026-11-15
+ds004473,sEEG Forced Two-Choice Task,,ieeg_seeg,epilepsy,,,CC0-1.0,,,,,,true,,8,,,,6.3,,,,,,direct_download,open,0,999.4121105232217,,,motor_execution,,2026-11-15
+ds004475,Mobile EEG split-belt walking study,,scalp_eeg;emg,,university_of_florida,,CC0-1.0,,,,,,true,,30,,,,48.54,,,,,,direct_download,open,122,512,10_20,Biosemi,other,,2026-11-15
+ds004477,PES - Pandemic Emergency Scenario,,scalp_eeg;ecg;eog,,,,CC0-1.0,,,,,,true,,9,,,,22.34,,,,,,direct_download,open,,2048,10_20,Biosemi ActiveTwo,cognitive_task,,2026-11-15
+ds004502,Anticipatory differences between Attention and Expectation,,scalp_eeg,,university_of_granada_cimcyc,,CC0-1.0,,,,,,true,,48,,,,59.44,,,,,,direct_download,open,65,500,,,cognitive_task,,2026-11-15
+ds004504,"A dataset of EEG recordings from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects",,scalp_eeg,clinical;neurology,university_of_ioannina,,CC0-1.0,,,,,,true,,88,,,,2.64,,,,,,direct_download,open,19,500,10_20,Nihon Kohden EEG 2100,resting_eyes_closed,,2026-11-15
 ds004505,Real World Table Tennis,,scalp_eeg,,university_of_florida,,CC0-1.0,,,,,,true,,25,,,,34.57,,,,,,direct_download,open,120,250,10_20,BrainVision LiveAmp 64,,,2026-11-14
 ds004511,Deception_data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,45,,,,202.28,,,,,,direct_download,open,139,3000,,,resting_unspecified,,2026-11-14
 ds004514,Simultaneous EEG and fNIRS recordings for semantic decoding of imagined animals and tools,,scalp_eeg,,university_of_essex,,CC0-1.0,,,,,,true,,12,,,,24.15,,,,,,direct_download,open,64,2048,10_20,Biosemi ActiveTwo,,,2026-11-14

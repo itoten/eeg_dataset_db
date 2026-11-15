@@ -331,26 +331,40 @@ ds004370,task_spesprop,task-SPESprop,,,,,,,,,
 ds004381,seprate,sepRate,other,,,,,,,,Tibial left stimulation at 2.70 Hz. [ds004381_sidecar]
 ds004388,alternating,alternating,,,,,,,,,Participants were laying on their back. Alternating stimulation of mixed median nerve stimulation at the left wrist and mixed tibial nerve at the left ankle. [ds004388_sidecar]
 ds004388,median,median,,,,,,,,,
+ds004388,mixed_median_tibial_nerve_stimulation,mixed median/tibial nerve stimulation,other,,,,,,,,
+ds004388,resting_state_with_eyes_open,resting state with eyes open,resting_eyes_open,,,,,,,,
 ds004388,tibial,tibial,,,,,,,,,
 ds004389,medianmixed,medianmixed,,,,,,,,,Participants were laying on their back. Mixed median nerve stimulation at the left wrist. [ds004389_sidecar]
 ds004389,mediansensory,mediansensory,,,,,,,,,
+ds004389,mixed_median_tibial_nerve_stimulation,mixed median/tibial nerve stimulation,other,,,,,,,,
+ds004389,resting_state_with_eyes_open,resting state with eyes open,resting_eyes_open,,,,,,,,
 ds004389,tibialmixed,tibialmixed,,,,,,,,,
 ds004389,tibialsensory,tibialsensory,,,,,,,,,
 ds004395,ltpfr,ltpFR,,,,,,,,,
 ds004395,ltpfr2,ltpFR2,,,,,,,,,
+ds004395,ltpfr_ltpfr2_vffr_memory_encoding_and_re,ltpFR / ltpFR2 / VFFR (memory encoding and retrieval),cognitive_task,,,,,,,,
 ds004395,vffr,VFFR,,,,,,,,,
-ds004408,listening,listening,,,,,,,,,
+ds004408,listening,listening,language,,,,,,,,
+ds004444,smr_based_bci_neurofeedback_motor_imager,SMR-based BCI neurofeedback (motor imagery of right hand),motor_imagery;neurofeedback,,,,,,,,
 ds004444,smrbmi,smrbmi,,,,,,,,,Here will be filled with a study description. [ds004444_sidecar]
+ds004446,smr_based_bci_neurofeedback_motor_imager,SMR-based BCI neurofeedback (motor imagery of right hand),motor_imagery;neurofeedback,,,,,,,,
 ds004446,smrbmi,smrbmi,,,,,,,,,Here will be filled with a study description. [ds004446_sidecar]
+ds004447,smr_based_bci_neurofeedback_motor_imager,SMR-based BCI neurofeedback (motor imagery of right hand),motor_imagery;neurofeedback,,,,,,,,
 ds004447,smrbmi,smrbmi,,,,,,,,,Here will be filled with a study description. [ds004447_sidecar]
+ds004448,smr_based_bci_neurofeedback_motor_imager,SMR-based BCI neurofeedback (motor imagery of right hand),motor_imagery;neurofeedback,,,,,,,,
 ds004448,smrbmi,smrbmi,,,,,,,,,Here will be filled with a study description. [ds004448_sidecar]
 ds004457,ccep_and_movement_task_with_annotations_downsampled,"ccep and movement task with annotations, downsampled",,,,,,,,,
+ds004457,ccep_single_pulse_electrical_stimulation,ccep (single pulse electrical stimulation),other,,,,,,,,
 ds004457,ccep_task_with_annotations,ccep task with annotations,,,,,,,,,
 ds004460,rotation,Rotation,,,,,,,,,Participants equipped with VR HMD rotated either physically or using a joystick. [ds004460_sidecar]
+ds004460,rotation_physr_joyr,Rotation (physR / joyR),cognitive_task,,,,,,,,
 ds004473,slowfast,SlowFast,,,,,,,,,
+ds004473,slowfast_forced_two_choice_reaction_time,SlowFast forced two-choice reaction time task,motor_execution,,,,,,,,
+ds004475,split_belt_walking,split-belt walking,other,,,,,,,,
 ds004475,task,task,,,,,,,,,
-ds004477,pes,PES,,,,,,,,,
-ds004502,attexp,attexp,,,,,,,,,"Subjects were cued to respond to faces or names depending on the trials. In attention blocks, the blocks indicated the stimulus to select. In expectation blocks, the cues indicated the most probable stimulus. [ds004502_sidecar]"
+ds004477,pes,PES,cognitive_task,,,,,,,,
+ds004502,attexp,attexp,cognitive_task,,,,,,,,"Subjects were cued to respond to faces or names depending on the trials. In attention blocks, the blocks indicated the stimulus to select. In expectation blocks, the cues indicated the most probable stimulus. [ds004502_sidecar]"
+ds004504,eyes_closed_resting_state,eyes closed resting state,resting_eyes_closed,,,,,,,,
 ds004504,eyesclosed,eyesclosed,,,,,,,,,
 ds004505,tabletennis,TableTennis,,,,,,,,,"Participants played table tennis with a human and a ball machine in four 15-minute blocks of trials. In a single block, participants played 7.5 minutes with a human player for half of the trials (cooperative or competitive play) and the other 7.5 minutes were played against a ball machine (3 back-to-back 2.5 minute trials that alternated between stationary and moving conditions). Half of the ball machine trials fed the ball to the participant on one bounce (replicating a rally shot), and the other half fed the ball on two bounces (replicating a serve). The order of trials among and within bloc [ds004505_sidecar]"
 ds004511,cc,CC,,,,,,,,,

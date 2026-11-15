@@ -194,6 +194,46 @@ ds004356,acquisition_setups:main.reference,conflicting,ABR reference placed on F
 ds004356,acquisition_setups:main.reference,conflicting,The average of the two electrodes TP9 and TP10 was used as the reference.,primary,https://www.nature.com/articles/s41598-023-50438-0,Audit reviewer; scope: cortical channels
 ds004357,acquisition_setups:main.reference,conflicting,Cz,primary,https://s3.amazonaws.com/openneuro.org/ds004357/task-rsvp_eeg.json?versionId=Txv9znDhaRpiN3brBgoamndUAyUqKDaE,
 ds004357,acquisition_setups:main.reference,conflicting,FCz,primary,https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011760,Audit reviewer; scope: not given
+ds004388,acquisition_setups:main.reference,conflicting,"EEG: RM (right mastoid); ESG: TH6 (over 6th thoracic vertebra); ECG: ECGN (below right clavicle), ENG: (1) left Erb's Point: EPN (ref placed over right Erb's point), (2) Biceps: BicepsN (approx. 3 cm",primary,https://s3.amazonaws.com/openneuro.org/ds004388/sub-001/eeg/sub-001_task-alternating_run-10_eeg.json?versionId=fw83SJcjIYwIkyWRTtLnWVj9rY0ZWKNl,
+ds004388,acquisition_setups:main.reference,conflicting,"the EEG reference (right mastoid, RM, channel name: Fz)",secondary,https://s3.amazonaws.com/openneuro.org/ds004388/README,Audit reviewer; scope: not given
+ds004389,acquisition_setups:main.reference,conflicting,"EEG: RM (right mastoid); ESG: TH6 (over 6th thoracic vertebra); ECG: ECGN (below right clavicle), ENG: (1) left Erb's Point: EPN (ref placed over right Erb's point), (2) Biceps: BicepsN (approx. 3 cm",primary,https://s3.amazonaws.com/openneuro.org/ds004389/sub-001/eeg/sub-001_task-medianmixed_run-02_eeg.json?versionId=MvRNUob4yJkHIeEO1wSPjE4ns9LMeFLX,
+ds004389,acquisition_setups:main.reference,conflicting,"the EEG reference (right mastoid, RM, channel name: Fz)",secondary,https://s3.amazonaws.com/openneuro.org/ds004389/README,Audit reviewer; scope: not given
+ds004395,acquisition_setups:main.device_manufacturer,conflicting,EGI,primary,https://s3.amazonaws.com/openneuro.org/ds004395/sub-LTP085/ses-7/eeg/sub-LTP085_ses-7_task-ltpFR_eeg.json?versionId=7EjB8CQAH2eyKHEPtmDa8UY52QHOjTbt,
+ds004395,acquisition_setups:main.device_manufacturer,conflicting,"Electrical Geodesics, Inc.; EGI",secondary,https://s3.amazonaws.com/openneuro.org/ds004395/README,Audit reviewer; scope: part of the data (gsn recordings)
+ds004408,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://s3.amazonaws.com/openneuro.org/ds004408/README,Audit reviewer; scope: not given
+ds004408,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,primary,https://s3.amazonaws.com/openneuro.org/ds004408/sub-001/eeg/sub-001_task-listening_run-01_eeg.json?versionId=dOf3Z9Jnp6JIi_wuZlIF1xeU4kfM.utc,
+ds004444,acquisition_setups:main.device_manufacturer,conflicting,EGI,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004444,acquisition_setups:main.device_manufacturer,conflicting,Magstim EGI,primary,https://s3.amazonaws.com/openneuro.org/ds004444/task-smrbmi_eeg.json?versionId=ebLndBHFuJ__6Fd9Bm0YeYulFK_0uNP7,
+ds004444,acquisition_setups:main.device_model,conflicting,GES 400,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004444,acquisition_setups:main.device_model,conflicting,GES400,primary,https://s3.amazonaws.com/openneuro.org/ds004444/task-smrbmi_eeg.json?versionId=ebLndBHFuJ__6Fd9Bm0YeYulFK_0uNP7,
+ds004444,acquisition_setups:main.ground,conflicting,CPz,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004444,acquisition_setups:main.ground,conflicting,placed on FCz,primary,https://s3.amazonaws.com/openneuro.org/ds004444/task-smrbmi_eeg.json?versionId=ebLndBHFuJ__6Fd9Bm0YeYulFK_0uNP7,
+ds004446,acquisition_setups:main.device_manufacturer,conflicting,EGI,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004446,acquisition_setups:main.device_manufacturer,conflicting,Magstim EGI,primary,https://s3.amazonaws.com/openneuro.org/ds004446/task-smrbmi_eeg.json?versionId=4d1KaM1Ief799NGUj8FlRSC69DptDxEc,
+ds004446,acquisition_setups:main.device_model,conflicting,GES 400,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004446,acquisition_setups:main.device_model,conflicting,GES400,primary,https://s3.amazonaws.com/openneuro.org/ds004446/task-smrbmi_eeg.json?versionId=4d1KaM1Ief799NGUj8FlRSC69DptDxEc,
+ds004446,acquisition_setups:main.ground,conflicting,CPz,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004446,acquisition_setups:main.ground,conflicting,placed on FCz,primary,https://s3.amazonaws.com/openneuro.org/ds004446/task-smrbmi_eeg.json?versionId=4d1KaM1Ief799NGUj8FlRSC69DptDxEc,
+ds004447,acquisition_setups:main.device_manufacturer,conflicting,EGI,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004447,acquisition_setups:main.device_manufacturer,conflicting,Magstim EGI,primary,https://s3.amazonaws.com/openneuro.org/ds004447/task-smrbmi_eeg.json?versionId=L4u9VR0pV_XBqgqP_kQRy8_PU2pYghkS,
+ds004447,acquisition_setups:main.device_model,conflicting,GES 400,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004447,acquisition_setups:main.device_model,conflicting,GES400,primary,https://s3.amazonaws.com/openneuro.org/ds004447/task-smrbmi_eeg.json?versionId=L4u9VR0pV_XBqgqP_kQRy8_PU2pYghkS,
+ds004447,acquisition_setups:main.ground,conflicting,CPz,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004447,acquisition_setups:main.ground,conflicting,placed on FCz,primary,https://s3.amazonaws.com/openneuro.org/ds004447/task-smrbmi_eeg.json?versionId=L4u9VR0pV_XBqgqP_kQRy8_PU2pYghkS,
+ds004448,acquisition_setups:main.device_manufacturer,conflicting,EGI,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004448,acquisition_setups:main.device_manufacturer,conflicting,Magstim EGI,primary,https://s3.amazonaws.com/openneuro.org/ds004448/task-smrbmi_eeg.json?versionId=.0JwO10mWFgj9bE9ZFFz5yPBN5nyZ_iO,
+ds004448,acquisition_setups:main.device_model,conflicting,GES 400,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004448,acquisition_setups:main.device_model,conflicting,GES400,primary,https://s3.amazonaws.com/openneuro.org/ds004448/task-smrbmi_eeg.json?versionId=.0JwO10mWFgj9bE9ZFFz5yPBN5nyZ_iO,
+ds004448,acquisition_setups:main.ground,conflicting,CPz,primary,https://www.nature.com/articles/s41597-023-02260-6,Audit reviewer; scope: all four datasets
+ds004448,acquisition_setups:main.ground,conflicting,placed on FCz,primary,https://s3.amazonaws.com/openneuro.org/ds004448/task-smrbmi_eeg.json?versionId=.0JwO10mWFgj9bE9ZFFz5yPBN5nyZ_iO,
+ds004460,acquisition_setups:main.n_channels_eeg,conflicting,129,secondary,https://s3.amazonaws.com/openneuro.org/ds004460/README,Audit reviewer; scope: scalp electrodes only; 157 recorded in total
+ds004460,acquisition_setups:main.n_channels_eeg,conflicting,160,primary,https://s3.amazonaws.com/openneuro.org/ds004460/sub-01/ses-body/eeg/sub-01_ses-body_task-Rotation_eeg.json?versionId=fAG5ZWIMSjKmTala0Uln2g2v_IZg9rTS,
+ds004460,acquisition_setups:main.reference,conflicting,REF,primary,https://s3.amazonaws.com/openneuro.org/ds004460/sub-01/ses-body/eeg/sub-01_ses-body_task-Rotation_eeg.json?versionId=fAG5ZWIMSjKmTala0Uln2g2v_IZg9rTS,
+ds004460,acquisition_setups:main.reference,conflicting,electrode located closest to the standard position FCz,secondary,https://s3.amazonaws.com/openneuro.org/ds004460/README,Audit reviewer; scope: not given
+ds004475,acquisition_setups:main.device_model,conflicting,Active Two,primary,https://s3.amazonaws.com/openneuro.org/ds004475/sub-S18/eeg/sub-S18_task-task_eeg.json?versionId=duKhoLlkIfUvZSv.cYAitVyd_f8un4qA,
+ds004475,acquisition_setups:main.device_model,conflicting,ActiveTwo,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10528133/,Audit reviewer; scope: not given
+ds004477,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004477/README,Audit reviewer; scope: not given
+ds004477,acquisition_setups:main.n_channels_eeg,conflicting,79,primary,https://s3.amazonaws.com/openneuro.org/ds004477/sub-001/eeg/sub-001_task-PES_eeg.json?versionId=VXmlmz8VC.MXtehn3XHrzWa2Ze1U06VM,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004574/sub-001/eeg/sub-001_task-Oddball_eeg.json?versionId=Ab5RNBhpIMDrjXkMhMZPSZheoa46Lhq0,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004574/README,Audit reviewer; scope: not given
 ds004579,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004579/sub-001/eeg/sub-001_task-IntervalTiming_eeg.json?versionId=t2OsC3KDFjAMAm9gy0G.5ImsoyjGIs9B,
