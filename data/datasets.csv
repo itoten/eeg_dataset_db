@@ -408,21 +408,21 @@ ds005907,EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers a
 ds005931,Visuomotor_task,,ieeg,epilepsy,,,CC0-1.0,,,,,,true,,conflicting,,,,0.8,,,,,,direct_download,open,,1000,,,cognitive_task,,2026-11-16
 ds005932,PWIe,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,29,,,,2.28,,,,,,direct_download,open,,500,,Neuroscan-Compumedics SynAmpsRT,language;overt_speech,,2026-11-16
 ds005946,ERC_CoG PROMENADE - WP2 - MetaImagery (Metaphor and Mental Imagery),,scalp_eeg,,university_school_for_advanced_studies_iuss,,CC0-1.0,,,,,,true,,39,,,,14.83,,,,,,direct_download,open,58,1000,10_20,actiCHamp Plus,cognitive_task,,2026-11-16
-ds005953,iEEG_visual,,ieeg,,stanford_hospital_and_clinics,,CC0-1.0,,,,,,true,,2,,,,0.56,,,,,,direct_download,open,0,3051.76,,Tucker Davis Technologies,,,2026-11-14
-ds005960,General Info: inst-comp-eeg,,scalp_eeg,,university_of_granada,,CC0-1.0,,,,,,true,,41,,,,57.69,,,,,,direct_download,open,61,1000,,BrainVision,,,2026-11-14
-ds006018,Cognitive Electrophysiology in Socioeconomic Context in Adulthood: An EEG dataset,,scalp_eeg,,university_of_california_merced,,CC0-1.0,,,,,,true,,127,,,,10.59,,,,,,direct_download,open,27,500,10_20,Brain Products Brain Products actiCHamp Plus,p300_erp,,2026-11-14
-ds006033,Synchronous EEG and fMRI dataset on inner speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,3,,,,15.32,,,,,,direct_download,open,,,,,,,2026-11-14
-ds006036,"A complementary dataset of open-eyes EEG recordings in a photo-stimulation setting from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects",,scalp_eeg,,,,CC0-1.0,,,,,,true,,88,,,,1.02,,,,,,direct_download,open,,500,10_20,,,,2026-11-14
-ds006040,Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI,,scalp_eeg,,institute_for_basic_science_ibs_sungkyunkwan_unive,,CC0-1.0,,,,,,true,,28,,,,172.5,,,,,,direct_download,open,63,5000,,,,,2026-11-14
-ds006065,TSS_iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,7,,,,9.63,,,,,,direct_download,open,43,500,,,,,2026-11-14
-ds006095,Mind in Motion Older Adults Walking Over Uneven Terrain,,scalp_eeg,,university_of_florida,,CC0-1.0,,,,,,true,,71,,,,129.84,,,,,,direct_download,open,,500,,,,,2026-11-14
-ds006104,EEG dataset for speech decoding,,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,42.96,,,,,,direct_download,open,,2000,10_20,eego mylab system,,,2026-11-14
-ds006107,iEEG_Neural_spatial_volatility,,ieeg,,,,CC0-1.0,,,,,,true,,166,,,,11.9,,,,,,direct_download,open,,1000,,,,,2026-11-14
-ds006110,PsiConnect,,scalp_eeg,,monash_biomedical_imaging,,CC0-1.0,,,,,,true,,65,,,,232.93,,,,,,direct_download,open,64,500,10_10,,resting_unspecified,,2026-11-14
-ds006126,TDCS Modulation of Visual Cortex in Motor Imagery,,scalp_eeg,,national_research_university_higher_school_of_econ,,CC0-1.0,,,,,,true,,5,,,,1.08,,,,,,direct_download,open,3,5000,,Brain Products BrainVision ExG AUX Amp,,,2026-11-14
-ds006136,OWM-Dataset,,ieeg,,,,CC0-1.0,,,,,,true,,13,,,,0.28,,,,,,direct_download,open,0,1000,,,,,2026-11-14
-ds006142,Essex EEG Movie Memory dataset,,scalp_eeg,,university_of_essex,,CC0-1.0,,,,,,true,,27,,,,24.28,,,,,,direct_download,open,64,2048,10_20,Biosemi ActiveTwo,,,2026-11-14
-ds006159,Implicit Learning EEG (BioSemi),,scalp_eeg,,,,CC0-1.0,,,,,,true,,61,,,,14.35,,,,,,direct_download,open,72,1024,,Biosemi,,,2026-11-14
+ds005953,iEEG_visual,,ieeg_ecog,,stanford_hospital_and_clinics,,CC0-1.0,,,,,,true,,2,,,,0.56,,,,,,direct_download,open,,3051.76,,Tucker Davis Technologies,passive_viewing,,2026-11-16
+ds005960,General Info: inst-comp-eeg,,scalp_eeg,,university_of_granada,,CC0-1.0,,,,,,true,,41,,,,57.69,,,,,,direct_download,open,61,1000,,BrainVision BrainVision,cognitive_task,,2026-11-16
+ds006018,Cognitive Electrophysiology in Socioeconomic Context in Adulthood: An EEG dataset,,scalp_eeg,,university_of_california_merced,,CC0-1.0,,,,,,true,,127,,,,10.59,,,,,,direct_download,open,27,500,10_20,Brain Products,p300_erp,,2026-11-16
+ds006033,Synchronous EEG and fMRI dataset on inner speech,,scalp_eeg;fmri;ecg,bci;cognitive,,,CC0-1.0,,,,,,true,,3,,,,15.32,,,,,,direct_download,open,64,5000,10_20,BrainProducts BrainCap MR,imagined_speech,,2026-11-16
+ds006036,"A complementary dataset of open-eyes EEG recordings in a photo-stimulation setting from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects",,scalp_eeg,neurology;clinical,,,CC0-1.0,,,,,,true,,88,,,,1.02,,,,,,direct_download,open,19,500,10_20,Nihon Kohden EEG 2100,other,,2026-11-16
+ds006040,Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI,,scalp_eeg;fmri,,institute_for_basic_science_ibs_sungkyunkwan_unive,,CC0-1.0,,,,,,true,,28,,,,172.5,,,,,,direct_download,open,63,5000,,,cognitive_task;resting_eyes_closed;resting_eyes_open,,2026-11-16
+ds006065,TSS_iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,7,,,,9.63,,,,,,direct_download,open,43,500,,,other,,2026-11-16
+ds006095,Mind in Motion Older Adults Walking Over Uneven Terrain,,scalp_eeg;emg,,university_of_florida,,CC0-1.0,,,,,,true,,71,,,,129.84,,,,,,direct_download,open,,500,,,motor_execution;resting_unspecified,,2026-11-16
+ds006104,EEG dataset for speech decoding,,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,42.96,,,,,,direct_download,open,64,2000,10_20,eego mylab system,auditory_erp;language,,2026-11-16
+ds006107,iEEG_Neural_spatial_volatility,,ieeg,,,,CC0-1.0,,,,,,true,,166,,,,11.9,,,,,,direct_download,open,,1000,,,,,2026-11-16
+ds006110,PsiConnect,,scalp_eeg;fmri,,monash_biomedical_imaging,,CC0-1.0,,,,,,true,,conflicting,,,,232.93,,,,,,direct_download,open,64,500,10_10,Brain Products BrainAmp MR Plus,passive_viewing;resting_eyes_closed;resting_unspecified,,2026-11-16
+ds006126,TDCS Modulation of Visual Cortex in Motor Imagery,,scalp_eeg,,national_research_university_higher_school_of_econ,,CC0-1.0,,,,,,true,,5,,,,1.08,,,,,,direct_download,open,3,5000,,Brain Products BrainVision ExG AUX Amp,,,2026-11-16
+ds006136,OWM-Dataset,,ieeg,epilepsy;cognitive,,,CC0-1.0,,,,,,true,,13,,,,0.28,,,,,,direct_download,open,0,1000,,,cognitive_task,,2026-11-16
+ds006142,Essex EEG Movie Memory dataset,,scalp_eeg,,university_of_essex,,CC0-1.0,,,,,,true,,27,,,,24.28,,,,,,direct_download,open,64,2048,10_20,ActiveTwo,cognitive_task;passive_viewing,,2026-11-16
+ds006159,Implicit Learning EEG (BioSemi),,scalp_eeg,,,,CC0-1.0,,,,,,true,,61,,,,14.35,,,,,,direct_download,open,72,1024,,Biosemi,cognitive_task,,2026-11-16
 ds006171,"EEG data during three near-threshold visual detection tasks: a no-cue task, a noninformative cue task (50% validity), and an informative cue task (100% validity)",,scalp_eeg,,universidad_aut_noma_de_madrid,,CC0-1.0,,,,,,true,,36,,,,67.83,,,,,,direct_download,open,128,1024,10_20,Biosemi Biosemi ActiveTwo,,,2026-11-14
 ds006222,MultisensoryFlickerHealthyYoungAdults_AllSubjectsRawData,,scalp_eeg,,georgia_institute_of_technology,,CC0-1.0,,,,,,true,,69,,,,14.74,,,,,,direct_download,open,32,512,10_20,BioSemi ActiveTwo,,,2026-11-14
 ds006233,Picture naming,,ieeg,,,,CC0-1.0,,,,,,true,,108,,,,17.3,,,,,,direct_download,open,,1000,,,,,2026-11-14

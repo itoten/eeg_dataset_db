@@ -374,6 +374,20 @@ ds005946,acquisition_setups:main.device_manufacturer,conflicting,2023 Brain Prod
 ds005946,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,secondary,https://s3.amazonaws.com/openneuro.org/ds005946/sub-f5e9a30d8f989b7e/eeg/sub-f5e9a30d8f989b7e_task-picturematching_eeg.json,"Audit reviewer; scope: sidecar, value as written"
 ds005946,acquisition_setups:main.reference,conflicting,average activity of the two mastoids (TP9 and TP10),secondary,https://s3.amazonaws.com/openneuro.org/ds005946/README,Audit reviewer; scope: offline
 ds005946,acquisition_setups:main.reference,conflicting,online reference: FCz; offline reference: average mastoids,primary,https://s3.amazonaws.com/openneuro.org/ds005946/sub-f5e9a30d8f989b7e/eeg/sub-f5e9a30d8f989b7e_task-picturematching_eeg.json?versionId=1opp6Y0xN6f5KQN26ieR0NZRpIOvqnII,
+ds005953,acquisition_setups:main.n_channels_eeg,conflicting,0,primary,https://s3.amazonaws.com/openneuro.org/ds005953/sub-01/ses-01/ieeg/sub-01_ses-01_task-visual_run-01_ieeg.json?versionId=zFsx5QRYbzUft7r3XSblvTf3FH2s0C6z,
+ds005953,acquisition_setups:main.n_channels_eeg,conflicting,118,secondary,https://s3.amazonaws.com/openneuro.org/ds005953/sub-01/ses-01/ieeg/sub-01_ses-01_task-visual_run-01_ieeg.json,Audit reviewer; scope: sub-01 visual run-01 file
+ds005960,acquisition_setups:main.reference,conflicting,FCz,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12019113/,Audit reviewer; scope: online reference; two of the 64 electrodes were eog
+ds005960,acquisition_setups:main.reference,conflicting,common,primary,https://s3.amazonaws.com/openneuro.org/ds005960/sub-01/eeg/sub-01_task-INSTCOMP_eeg.json?versionId=3EPJ168HPqzDfPBBb8noNL192GaWoxPA,
+ds006018,acquisition_setups:main.device_model,conflicting,Brain Products actiCHamp Plus,primary,https://s3.amazonaws.com/openneuro.org/ds006018/sub-001/eeg/sub-001_task-auditoryoddball_eeg.json?versionId=bSFyllPsZwAZCopYoEVl73twR2a4ivQh,
+ds006018,acquisition_setups:main.device_model,conflicting,actiCHamp Plus,secondary,https://s3.amazonaws.com/openneuro.org/ds006018/README.md,Audit reviewer; scope: not given
+ds006018,acquisition_setups:main.ground,conflicting,FPz,secondary,https://s3.amazonaws.com/openneuro.org/ds006018/README.md,Audit reviewer; scope: not given
+ds006018,acquisition_setups:main.ground,conflicting,single electrode placed on Fpz,primary,https://s3.amazonaws.com/openneuro.org/ds006018/sub-001/eeg/sub-001_task-auditoryoddball_eeg.json?versionId=bSFyllPsZwAZCopYoEVl73twR2a4ivQh,
+ds006110,acquisition_setups:main.reference,conflicting,FCz,primary,https://doi.org/10.1038/s41597-026-07312-1,Audit reviewer; scope: not given
+ds006110,acquisition_setups:main.reference,conflicting,single electrode placed on FCz,primary,https://s3.amazonaws.com/openneuro.org/ds006110/task-series_eeg.json?versionId=bNyKuBSgoyPxzoHQXfgcNcMBNkl0ThqZ,
+ds006110,n_subjects_reported,conflicting,62,secondary,https://s3.amazonaws.com/openneuro.org/ds006110/README,Audit reviewer; scope: whole dataset
+ds006110,n_subjects_reported,conflicting,65,secondary,https://openneuro.org/datasets/ds006110/versions/1.2.2,
+ds006142,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://s3.amazonaws.com/openneuro.org/ds006142/README,Audit reviewer; scope: not given
+ds006142,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,primary,https://s3.amazonaws.com/openneuro.org/ds006142/sub-027/eeg/sub-027_task-MovieMemory_eeg.json?versionId=HYWFTpHqi1BHHc7gf9TIu2Fd9xz4NJJe,
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given

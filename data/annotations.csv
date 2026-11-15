@@ -124,6 +124,8 @@ ds005863,questionnaires,SES indicators and symptoms checklist,,,,,,ds005863_doc3
 ds005873,seizure_annotations,_events.tsv,,,,,,ds005873_doc6d64c8,The ‘_events.tsv’ files gather the annotations of each recording,2026-11-16,claude,
 ds005876,behavioral_responses,familiarity responses and song-title choice,,,,,,ds005876_docfc3a7b,"Participants were then asked to identify the song, if possible (title, artist, or lyrics).",2026-11-16,claude,
 ds005931,event_markers,finger-tapping trial timing,101,,,,,ds005931_doc9986f7,We also provide the information on the timing of the finger tapping on ieeg/edf file by specifying the start and end sample of each trial.,2026-11-16,claude,
+ds006033,event_markers,events.tsv,,,,,,ds006033_doc223fdf,- Event markers: `events.tsv`,2026-11-16,claude,
+ds006142,behavioral_responses,recognition/remembering answers and mouse-click time annotations,,,,,,ds006142_doc9638d0,capture (via a mouse click) time annotations,2026-11-16,claude,
 dv_10_18710_d5io4r,behavioral_responses,flanker and AX-CPT behavioural data,,,,,,dv_10_18710_d5io4r_docb247b2,".tsv : Tab separated values file, contain behavioral data",2026-11-15,claude,
 dv_10_18710_d5io4r,event_markers,Stimulus designations (contained in .vmrk files),1 - left congruent;2 - right congruent;3 - left incongruent;4 - right incongruent;5 - left neutral;6 - right neutral;201 - correct response;200 - incorrect response,,,,,dv_10_18710_d5io4r_docb247b2,Stimulus designations (contained in .vmrk files),2026-11-15,claude,
 dv_10_18710_d5io4r,questionnaires,"CRS, IPAQ, LHQ, SFFQ, SNI",,,,,,dv_10_18710_d5io4r_docb247b2,"tasks: restingstateClosedEye, Flanker, CRS, IPAQ, LHQ, SFFQ, SNI",2026-11-15,claude,
