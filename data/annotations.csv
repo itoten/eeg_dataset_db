@@ -92,6 +92,7 @@ figshare_29528219,class_labels,task condition,0: No Workload (Resting State);1: 
 figshare_29664056,questionnaires,pre/post-experiment questionnaires and interviews,,,,,,figshare_29664056_doc4ed65c,along with pre/post-experiment questionnaires and semi-structured interviews from all participants.,2026-11-14,claude,
 figshare_29666735,event_markers,events.tsv,,,,,,figshare_29666735_doc03abaf,"For more information, you can also consult the events.tsv and events.json files.",2026-11-14,claude,
 figshare_29859185,event_annotations,burst suppression classification,heterogeneous bursts;identical bursts,,,,,figshare_29859185_docef4397,Two EEG experts identif ied and classified BS patterns in these recordings [2].,2026-11-14,claude,
+figshare_30003127,class_labels,workload level,No Workload;Low Workload;Moderate Workload;High Workload,,,,,figshare_30003127_doc2e441c,Hierarchical classification:,2026-11-15,claude,
 figshare_30162868,event_markers,edftype codes,1: Experiment Start;2: Task Start;3: Task Performing Beep;4: Task End;5: Experiment End,,,,,figshare_30162868_doc0b807b,Event type identifier (values 1-5):,2026-11-14,claude,
 figshare_30162868,questionnaires,System Usability Scale-based survey,,,,,,figshare_30162868_doc72d62c,the survey was based on the System Usability Scale (SUS)11.,2026-11-14,claude,
 figshare_30227503,event_markers,events.tsv,circle;square;pentagram;dog;fish;bird;cup;chair;watch;scissors,,,,,figshare_30227503_doc0bec11,Event markers (.tsv files) include:,2026-11-14,claude,
