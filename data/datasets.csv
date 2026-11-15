@@ -481,21 +481,21 @@ ds007006,VR-Compassion Cultivation Training,,scalp_eeg,,university_of_california
 ds007012,FOODEEG: An open dataset of human electroencephalographic and behavioural responses to food images,,scalp_eeg,,the_university_of_melbourne,,CC0-1.0,,,,,,true,,117,,,,29.44,,,,,,direct_download,open,64,512,10_20,Biosemi Biosemi Active 2,,,2026-11-14
 ds007020,EEG Mortality Dataset in Parkinson's Disease,,scalp_eeg,,,,CC0-1.0,,,,,,true,,94,,,,1.74,,,,,,direct_download,open,63,500,10_20,Brain Products,resting_unspecified,,2026-11-14
 ds007028,Auditory Cortex Macaque Monkey DISC Data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,3,,,,13.86,,,,,,direct_download,open,,20000,,Brainstorm,,,2026-11-14
-ds007052,PURSUE N400 Word Processing,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon,,CC0-1.0,,,,,,true,,288,,,,8.98,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
-ds007056,PURSUE P300 Visual Oddball,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon_135,,CC0-1.0,,,,,,true,,286,,,,7.84,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
-ds007058,Read EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,6.28,,,,,,direct_download,open,63,200,10_20,Elekta,,,2026-11-14
-ds007069,PURSUE MMN Auditory Oddball,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon,,CC0-1.0,,,,,,true,,281,,,,12.42,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
-ds007081,"Passive but accessible: Studied information is not actively stored in working memory, yet attended regardless of anticipated load",,scalp_eeg,,sabanci_university,,CC0-1.0,,,,,,true,,41,,,,11.3,,,,,,direct_download,open,,1000,,Brain Products actiCHamp,,,2026-11-14
-ds007095,RNS_Epilepsy-iBIDS,,ieeg,,the_second_affiliated_hospital_zhejiang_university,,CC0-1.0,,,,,,true,,8,,,,0.49,,,,,,direct_download,open,2,200,,NUEHILL BCM210A,,,2026-11-14
-ds007096,PURSUE N170 Face Perception,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon_137,,CC0-1.0,,,,,,true,,292,,,,11.64,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
-ds007114,SUBEMOcondEEG1,,scalp_eeg,,brainlab_university_of_barcelona,,CC0-1.0,,,,,,true,,28,,,,18.61,,,,,,direct_download,open,68,500,10_20,Neuroscan SynAmps RT,,,2026-11-14
-ds007118,iEEG_comprehensive_HFA_model_part1,,ieeg,,,,CC0-1.0,,,,,,true,,65,,,,33.82,,,,,,direct_download,open,,1000,,,sleep,,2026-11-14
-ds007119,iEEG_comprehensive_HFA_model_part3,,ieeg,,,,CC0-1.0,,,,,,true,,103,,,,32.58,,,,,,direct_download,open,,1000,,,sleep,,2026-11-14
-ds007120,iEEG_comprehensive_HFA_model_part2,,ieeg,,,,CC0-1.0,,,,,,true,,65,,,,33.01,,,,,,direct_download,open,,1000,,,sleep,,2026-11-14
-ds007137,PURSUE N2pc Visual Search,,scalp_eeg,,,,CC0-1.0,,,,,,true,,294,,,,12.24,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
-ds007139,PURSUE LRP/ERN Flanker,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon_139,,CC0-1.0,,,,,,true,,292,,,,14.53,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-14
-ds007162,Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG),,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,60.85,,,,,,direct_download,open,63,1000,10_20,Brain Products,,,2026-11-14
-ds007169,"Multimodal Cognitive Workload n-back Task, 4 Difficulties",,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,0.41,,,,,,direct_download,open,19,250,10_20,io:bio io:bio mobile EEG system,,,2026-11-14
+ds007052,PURSUE N400 Word Processing,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon,,CC0-1.0,,,,,,true,,288,,,,8.98,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-16
+ds007056,PURSUE P300 Visual Oddball,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon_135,,CC0-1.0,,,,,,true,,286,,,,7.84,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-16
+ds007058,Read EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,6.28,,,,,,direct_download,open,63,200,10_20,Elekta,language,,2026-11-16
+ds007069,PURSUE MMN Auditory Oddball,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon,,CC0-1.0,,,,,,true,,281,,,,12.42,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-16
+ds007081,"Passive but accessible: Studied information is not actively stored in working memory, yet attended regardless of anticipated load",,scalp_eeg,,sabanci_university,,CC0-1.0,,,,,,true,,41,,,,11.3,,,,,,direct_download,open,,1000,,Brain Products actiCHamp,cognitive_task,,2026-11-16
+ds007095,RNS_Epilepsy-iBIDS,,ieeg,,the_second_affiliated_hospital_zhejiang_university,,CC0-1.0,,,,,,true,,8,,,,0.49,,,,,,direct_download,open,2,200,,NUEHILL BCM210A,,,2026-11-16
+ds007096,PURSUE N170 Face Perception,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon_137,,CC0-1.0,,,,,,true,,292,,,,11.64,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-16
+ds007114,SUBEMOcondEEG1,,scalp_eeg,,brainlab_university_of_barcelona,,CC0-1.0,,,,,,true,,28,,,,18.61,,,,,,direct_download,open,68,500,10_20,Neuroscan SynAmps RT,emotion_induction,,2026-11-16
+ds007118,iEEG_comprehensive_HFA_model_part1,,ieeg,,,,CC0-1.0,,,,,,true,,65,,,,33.82,,,,,,direct_download,open,,1000,,,sleep,,2026-11-16
+ds007119,iEEG_comprehensive_HFA_model_part3,,ieeg,,,,CC0-1.0,,,,,,true,,103,,,,32.58,,,,,,direct_download,open,,1000,,,sleep,,2026-11-16
+ds007120,iEEG_comprehensive_HFA_model_part2,,ieeg,,,,CC0-1.0,,,,,,true,,65,,,,33.01,,,,,,direct_download,open,,1000,,,sleep,,2026-11-16
+ds007137,PURSUE N2pc Visual Search,,scalp_eeg,,,,CC0-1.0,,,,,,true,,294,,,,12.24,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-16
+ds007139,PURSUE LRP/ERN Flanker,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon_139,,CC0-1.0,,,,,,true,,292,,,,14.53,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-16
+ds007162,Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG),,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,60.85,,,,,,direct_download,open,63,1000,10_20,Brain Products actiCHamp,passive_viewing,,2026-11-16
+ds007169,"Multimodal Cognitive Workload n-back Task, 4 Difficulties",,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,0.41,,,,,,direct_download,open,19,250,10_20,io:bio io:bio mobile EEG system,cognitive_task,,2026-11-16
 ds007172,EEG-Asymmetries Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,100,,,,11.04,,,,,,direct_download,open,32,500,10_20,Brain Products,resting_unspecified,,2026-11-14
 ds007175,FFR-active-listening,,scalp_eeg,,,,CC0-1.0,,,,,,true,,41,,,,200.43,,,,,,direct_download,open,64,5000,,BrainProducts,,,2026-11-14
 ds007176,Longitudinal EEG Test-Retest Reliability in Healthy Individuals,,scalp_eeg,,,,CC0-1.0,,,,,,true,,45,,,,21.06,,,,,,direct_download,open,,1000,10_20,Neuroscan,,,2026-11-14

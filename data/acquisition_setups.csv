@@ -462,7 +462,7 @@ ds007119,main,As stated in the sidecar of one recording (sub-131/ses-01/ieeg/sub
 ds007120,main,As stated in the sidecar of one recording (sub-066/ses-01/ieeg/sub-066_ses-01_task-sleep_acq-A_run-01_ieeg.json); other recordings not read,,,,,,,,,,1000,60,,,
 ds007137,main,As stated in the sidecar of one recording (sub-1001/eeg/sub-1001_task-VisualSearch_eeg.json); other recordings not read,Brain Vision,actiCHamp,,29,,,10_20,common,AFz,500,60,"{""FilterDescription"": {""Description"": ""none""}}",,
 ds007139,main,As stated in the sidecar of one recording (sub-1001/eeg/sub-1001_task-Flanker_eeg.json); other recordings not read,Brain Vision,actiCHamp,,29,,,10_20,common,AFz,500,60,"{""FilterDescription"": {""Description"": ""none""}}",,
-ds007162,main,As stated in the sidecar of one recording (sub-01/ses-01/eeg/sub-01_ses-01_task-rcor_run-1_eeg.json); other recordings not read,Brain Products,,,63,,,10_20,,,1000,,,,
+ds007162,main,As stated in the sidecar of one recording (sub-01/ses-01/eeg/sub-01_ses-01_task-rcor_run-1_eeg.json); other recordings not read,Brain Products,actiCHamp,,63,,,10_20,Fz,,1000,,,,
 ds007169,main,As stated in the root-level sidecar task-nback_eeg.json,io:bio,io:bio mobile EEG system,,19,,,10_20,linked ears (Ag/AgCl),,250,50,"{""Low-pass filter"": {""Half amplitude cutoff (Hz)"": 125}, ""Notch filter"": {""Center frequency (Hz)"": 50}}",,
 ds007172,main,As stated in the sidecar of one recording (sub-001/eeg/sub-001_task-emotions_eeg.json); other recordings not read,Brain Products,,,32,,,10_20,,,500,,,,
 ds007175,main,As stated in the sidecar of one recording (sub-10/eeg/sub-10_task-pitch_run-1_eeg.json); other recordings not read,BrainProducts,,,64,,,,,,5000,60,,,

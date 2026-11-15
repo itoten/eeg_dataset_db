@@ -1427,20 +1427,20 @@ ds007020,rest,rest,resting_unspecified,,,,,,,,
 ds007028,tono14noconcat,tono14noconcat,,,,,,,,,tono14no. [ds007028_sidecar]
 ds007052,wordpr,WordPR,,,,,,,,,
 ds007056,visualoddball,VisualOddball,,,,,,,,,
-ds007058,read,read,,,,,,,,,
+ds007058,read,read,language,,,,,,,,
 ds007069,auditoryoddball,AuditoryOddball,,,,,,,,,
-ds007081,passiveaccessible,PassiveAccessible,,,,,,,,,Delayed continuous color report with load expectation manipulation and studied vs unstudied objects. [ds007081_sidecar]
+ds007081,passiveaccessible,PassiveAccessible,cognitive_task,,,,,,,,Delayed continuous color report with load expectation manipulation and studied vs unstudied objects. [ds007081_sidecar]
 ds007095,seizure,seizure,,,,,,,,,
 ds007096,faceperception,FacePerception,,,,,,,,,
-ds007114,subemocondeeg1,SUBEMOcondEEG1,,,,,,,,,
+ds007114,subemocondeeg1,SUBEMOcondEEG1,emotion_induction,,,,,,,,
 ds007114,unnamed,unnamed,,,,,,,,,
 ds007118,sleep,sleep,sleep,,,,,,,,sleep. [ds007118_sidecar]
 ds007119,sleep,sleep,sleep,,,,,,,,sleep. [ds007119_sidecar]
 ds007120,sleep,sleep,sleep,,,,,,,,sleep. [ds007120_sidecar]
 ds007137,visualsearch,VisualSearch,,,,,,,,,
 ds007139,flanker,Flanker,,,,,,,,,
-ds007162,rcor,rcor,,,,,,,,,
-ds007169,nback,nback,,,,,,,,,N-back task with baseline and 1-4 back levels. [ds007169_sidecar]
+ds007162,rcor,rcor,passive_viewing,,,,,,,,
+ds007169,nback,nback,cognitive_task,,,,,,,,N-back task with baseline and 1-4 back levels. [ds007169_sidecar]
 ds007172,emotions,emotions,,,,,,,,,
 ds007172,emotios,emotios,,,,,,,,,
 ds007172,faces,faces,,,,,,,,,
