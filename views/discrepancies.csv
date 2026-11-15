@@ -737,6 +737,32 @@ nm000250,acquisition_setups:main.n_channels_eeg,conflicting,27,secondary,https:/
 nm000250,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10480224/fullTextXML,Audit reviewer; scope: not given
 nm000252,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000252,
 nm000252,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000252,Audit reviewer; scope: not given
+nm000255,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://nemar.org/dataset/nm000255,
+nm000255,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13284221/,Audit reviewer; scope: as acquired
+nm000256,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://nemar.org/dataset/nm000256,
+nm000256,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13284221/,Audit reviewer; scope: as acquired
+nm000259,n_subjects_reported,conflicting,10,secondary,https://nemar.org/dataset/nm000259,
+nm000259,n_subjects_reported,conflicting,25,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391014/,"Audit reviewer; scope: whole study in the paper; 15 did a preliminary study, the remaining 10 the inverting/famous faces comparison"
+nm000260,acquisition_setups:main.n_channels_eeg,conflicting,16,primary,https://arxiv.org/pdf/1905.05182,Audit reviewer; scope: not given
+nm000260,acquisition_setups:main.n_channels_eeg,conflicting,17,secondary,https://nemar.org/dataset/nm000260,
+nm000260,n_subjects_reported,conflicting,23,secondary,https://nemar.org/dataset/nm000260,
+nm000260,n_subjects_reported,conflicting,25,primary,https://arxiv.org/pdf/1905.05182,Audit reviewer; scope: not given
+nm000261,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000261,
+nm000261,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000261,Audit reviewer; scope: not given
+nm000264,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000264,
+nm000264,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://arxiv.org/pdf/1904.09111,Audit reviewer; scope: not given
+nm000265,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11978869/,Audit reviewer; scope: not given
+nm000265,acquisition_setups:main.n_channels_eeg,conflicting,65,secondary,https://nemar.org/dataset/nm000265,
+nm000266,acquisition_setups:main.n_channels_eeg,conflicting,31,primary,https://arxiv.org/pdf/2109.06011,Audit reviewer; scope: not given
+nm000266,acquisition_setups:main.n_channels_eeg,conflicting,37,secondary,https://nemar.org/dataset/nm000266,
+nm000267,acquisition_setups:main.n_channels_eeg,conflicting,30,secondary,https://api.nemar.org/datasets/nm000267,Audit reviewer; scope: not given
+nm000267,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://nemar.org/dataset/nm000267,
+nm000267,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000267,Audit reviewer; scope: as recorded
+nm000267,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://nemar.org/dataset/nm000267,
+nm000268,acquisition_setups:main.n_channels_eeg,conflicting,30,secondary,https://api.nemar.org/datasets/nm000268,Audit reviewer; scope: not given
+nm000268,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://nemar.org/dataset/nm000268,
+nm000268,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000268,Audit reviewer; scope: as recorded
+nm000268,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://nemar.org/dataset/nm000268,
 nm000269,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000269,
 nm000269,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000269,Audit reviewer; scope: not given
 nm000270,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000270,
