@@ -3885,7 +3885,24 @@ zenodo_17573472,image_viewing_four_categories,image viewing (four categories),pa
 zenodo_17639962,selective_auditory_attention_to_duet_mus,selective auditory attention to duet music instruments,other,,,,,,,,
 zenodo_17699259,atari_2600_game_play_sessions,Atari 2600 game play sessions,other,,,,,,,,
 zenodo_17773124,emotion_eliciting_video_viewing_in_vr,emotion-eliciting video viewing in VR,emotion_induction,,,,,,,,
+zenodo_17927766,selective_auditory_attention_experiment,selective auditory attention experiment (single-speaker and competing-speaker audiobooks),other,,,,,,,,
+zenodo_17949130,mute_playing_task,mute playing task,motor_execution,,,,,,,,
+zenodo_17949130,passive_listening_task,passive listening task,other,,,,,,,,
+zenodo_17949130,variable_map_playing_task,Variable Map Playing task,other,,,,,,,,
+zenodo_17952230,selective_auditory_attention_experiment,selective auditory attention experiment (single-speaker and competing-speaker audiobooks),other,,,,,,,,
+zenodo_17952843,selective_auditory_attention_experiment,selective auditory attention experiment (single-speaker and competing-speaker audiobooks),other,,,,,,,,
+zenodo_17955369,t_5_minute_ec_and_eo_resting_state_eeg_ses,5-minute EC and EO resting state EEG sessions,resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_18029535,eyes_open_and_eyes_closed_resting_state,eyes-open and eyes-closed resting state,resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_18032056,errp_static_and_motion_conditions_with_e,ErrP static and motion conditions with exoskeleton (relax / motor imagery),motor_imagery;other,,,,,,,,
+zenodo_18087805,arrow_cue_paradigm_left_hand_mi_right_ha,"arrow cue paradigm (left-hand MI, right-hand MI, rest)",motor_imagery,,,,,,,,
+zenodo_18186379,pure_tones_during_notch_noise_first_stim,pure tones during notch noise (first stimulus),other,,,,,,,,
+zenodo_18288104,gross_and_fine_motor_imagery,gross and fine motor imagery,motor_imagery,,,,,,,,
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zenodo_18300923,face_to_face_still_face_ffsf_procedure,Face-to-Face Still-Face (FFSF) procedure,other,,,,,,,,
+zenodo_18326079,natural_scene_videos_with_sudden_vs_grad,natural scene videos with sudden vs gradual scene onsets,passive_viewing,,,,,,,,
+zenodo_18383498,meditation_eeg,Meditation EEG,resting_unspecified,,,,,,,,
+zenodo_18383498,rsvp_eeg_with_music_background_pre_test,RSVP EEG with music background (pre-test),cognitive_task,,,,,,,,
+zenodo_18396885,passive_viewing_of_emotion_eliciting_vid,passive viewing of emotion-eliciting video clips,emotion_induction;passive_viewing,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name

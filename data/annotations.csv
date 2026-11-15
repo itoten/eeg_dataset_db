@@ -268,3 +268,8 @@ zenodo_17504089,event_markers,.amrk focus periods,S2X;S3X,,,,,zenodo_17504089_do
 zenodo_17573472,class_labels,image category,animals;food;office supplies;vehicles,,,,,zenodo_17573472_doc71d764,"120 images across four categories (animals, food, office supplies, vehicles)",2026-11-15,claude,
 zenodo_17699259,self_report_ratings,PXI survey,,,,,,zenodo_17699259_doc96cd9b,Channels: 10 (Constructs related to the PXI survey),2026-11-15,claude,
 zenodo_17773124,self_report_ratings,self-assessment ratings,,,,,,zenodo_17773124_doc2e75c5,"The dataset comprises 1.85GB of raw data and 238 video-aligned physiological segments, and comprehensive self-assessment ratings.",2026-11-15,claude,
+zenodo_17955369,questionnaires,BDI and MOCA,,,,,,zenodo_17955370,All applicants also attended BDI and MOCA tests.,2026-11-15,claude,
+zenodo_18032056,event_markers,task_EEG / event_EEG,,,,,,zenodo_18032057,task_EEG: Vector that associates a task to each signal sample.,2026-11-15,claude,
+zenodo_18087805,class_labels,mapping.yaml,,,,,,zenodo_18087806,mapping.yaml - describes the mapping from the marker (given cue) to the class (performed action).,2026-11-15,claude,
+zenodo_18147495,seizure_annotations,After / Before / During folders,post-ictal;pre-ictal;ictal,,,,,zenodo_18147496,"Before (pre-ictal signals from 43 patients, named b_00.csv to b_42.csv), and During (ictal signals from 43 patients, named d_00.csv to d_42.csv)",2026-11-15,claude,
+zenodo_18396885,class_labels,affective condition,positive;neutral;negative,,,,,zenodo_18396886,"three affective conditions: positive, neutral, and negative",2026-11-15,claude,
