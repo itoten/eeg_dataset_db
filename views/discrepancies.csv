@@ -155,3 +155,5 @@ zenodo_3377910,acquisition_setups:main.sampling_rate_hz,conflicting,8192,primary
 zenodo_3377910,acquisition_setups:main.sampling_rate_hz,conflicting,8196,primary,https://zenodo.org/records/21415059,"Audit reviewer; scope: recorded, as written in the record's first paragraph"
 zenodo_3875158,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8600362/,Audit reviewer; scope: recorded
 zenodo_3875158,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://zenodo.org/records/3875159,Audit reviewer; scope: distributed
+zenodo_4245090,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7682856/,Audit reviewer; scope: paper methods; the abstract/record say 62-channel (incl. 2 eog)
+zenodo_4245090,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://zenodo.org/records/4245091,
