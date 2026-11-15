@@ -1371,23 +1371,33 @@ ds006593,matrixcalibration,MatrixCalibration,,,,,,,,,
 ds006593,matrixcalibration_copy_spelling,MatrixCalibration; copy spelling,other,,,,,,,,
 ds006647,readpoetry,readpoetry,language,,,,,,,,
 ds006647,resting_state,resting state,resting_unspecified,,,,,,,,
-ds006648,readpoetry,readpoetry,,,,,,,,,
+ds006648,readpoetry,readpoetry,language,,,,,,,,
+ds006648,resting_state_embedded_in_raw_files,resting state (embedded in raw files),resting_unspecified,,,,,,,,
 ds006695,sleep,sleep,sleep,,,,,,,,
-ds006735,chimericmusic,ChimericMusic,,,,,,,,,
-ds006761,rps,RPS,,,,,,,,,Pairs of participants played a computerised version of the Rock-Paper-Scissors game. [ds006761_sidecar]
+ds006735,chimericmusic,ChimericMusic,auditory_erp,,,,,,,,
+ds006761,rps,RPS,cognitive_task,,,,,,,,Pairs of participants played a computerised version of the Rock-Paper-Scissors game. [ds006761_sidecar]
 ds006768,mom,MOM,,,,,,,,,
+ds006777,avsrt,AVSRT,cognitive_task,,,,,,,,
+ds006780,avsrt_run,AVSRT_run,cognitive_task,,,,,,,,
+ds006780,beep_flash_run,Beep-Flash_run,cognitive_task,,,,,,,,
+ds006780,fast_run,FAST_run,other,,,,,,,,
+ds006780,ic_run,IC_run,other,,,,,,,,
+ds006780,motor_run,Motor_run,other,,,,,,,,
+ds006780,restingstate_run,Restingstate_run,resting_unspecified,,,,,,,,
 ds006801,rest,rest,resting_unspecified,,,,,,,,"Resting-state EEG with alternating 2m15s eyes-open (OA) and eyes-closed (OF) blocks, repeated twice, recorded in PRE and POS sessions. Participant sits still; no stimuli or responses. [ds006801_sidecar]"
-ds006802,categorisation,categorisation,,,,,,,,,Pairs of participants engaged in a stimulus categorisation task. There was a pre- and post- test. [ds006802_sidecar]
-ds006803,stemskills,STEMSKILLS,,,,,,,,,
+ds006802,categorisation,categorisation,cognitive_task,,,,,,,,Pairs of participants engaged in a stimulus categorisation task. There was a pre- and post- test. [ds006802_sidecar]
+ds006803,stemskills,STEMSKILLS,cognitive_task,,,,,,,,
 ds006817,ctp,CTP,,,,,,,,,
 ds006839,control,control,,,,,,,,,Participants viewed a virtual environment without feedback. [ds006839_sidecar]
 ds006839,negative,negative,,,,,,,,,
 ds006839,positive,positive,,,,,,,,,
 ds006839,resting,resting,resting_unspecified,,,,,,,,
-ds006840,intention_action_congruency,intention-action congruency,,,,,,,,,Ball control with congruent/incongruent visual cue; 1 s pre-movement then execution. [ds006840_sidecar]
+ds006839,sham_neurofeedback_positive_negative_con,"sham neurofeedback (positive, negative, control)",neurofeedback,,,,,,,,
+ds006840,intention_action_congruency,intention-action congruency,motor_execution,,,,,,,,Ball control with congruent/incongruent visual cue; 1 s pre-movement then execution. [ds006840_sidecar]
 ds006848,rest,rest,resting_unspecified,,,,,,,,"Resting-state recording consisting of four alternating blocks of 60 s with eyes closed and 60 s with eyes open, followed by 3 min 52 s of passive cartoon watching ('The Man Who Was Afraid of Falling', 2011). [ds006848_sidecar]"
-ds006848,verbalwm,verbalwm,,,,,,,,,
-ds006850,urbanappraisal,UrbanAppraisal,,,,,,,,,"Participants were presented with 56 streetview images. Each image was presented nine times in combination with a scale prompt (1000ms) followed by a fixation cross (500ms) before image onset. Image presentation lasted 3000ms, followed by one of the nine scales (SAM (arousal, valence, dominance - 9 point), beauty, hominess, openness, safety, fascination, stress (all 5-point)) until response was given via mouseclick. Image x scale combinations were presented in randomized order. 56 stimuli were split into two experimental blocks with a break in between. Baseline (3min) was recorded at the beginn [ds006850_sidecar]"
+ds006848,verbalwm,verbalwm,cognitive_task,,,,,,,,
+ds006850,baseline,baseline,resting_eyes_open,,,,,,,,
+ds006850,urbanappraisal,UrbanAppraisal,visual_erp,,,,,,,,"Participants were presented with 56 streetview images. Each image was presented nine times in combination with a scale prompt (1000ms) followed by a fixation cross (500ms) before image onset. Image presentation lasted 3000ms, followed by one of the nine scales (SAM (arousal, valence, dominance - 9 point), beauty, hominess, openness, safety, fascination, stress (all 5-point)) until response was given via mouseclick. Image x scale combinations were presented in randomized order. 56 stimuli were split into two experimental blocks with a break in between. Baseline (3min) was recorded at the beginn [ds006850_sidecar]"
 ds006861,emotionprocessingandregulationtask,EmotionProcessingandRegulationtask,,,,,,,,,
 ds006866,emotionprocessingandregulationtask,EmotionProcessingandRegulationtask,,,,,,,,,
 ds006890,listening,listening,,,,,,,,,
