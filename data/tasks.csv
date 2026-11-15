@@ -3852,7 +3852,20 @@ zenodo_17107937,action_effect_task,action-effect task,cognitive_task,,,,,,,,
 zenodo_17138538,t_15_minute_segment_around_the_onset_of_n2,15-minute segment around the onset of N2 sleep,sleep,,,,,,,,
 zenodo_17149386,self_initiated_auditory_attention_switch,self-initiated auditory attention switching in unspatialized mixed speech,cognitive_task,,,,,,,,
 zenodo_17209361,memory_guided_visual_search_task,memory-guided visual search task,cognitive_task,,,,,,,,
+zenodo_17435553,statistical_learning_task,statistical learning task,language,,,,,,,,
+zenodo_17457948,iboe_initial_baseline_open_eyes,IBOE – Initial Baseline (Open Eyes),resting_eyes_open,,,,,,,,
+zenodo_17457948,software_testing_task_blocks_bl01_bl04,software testing task blocks (BL01–BL04),cognitive_task,,,,,,,,
+zenodo_17471747,cooperative_and_competitive_table_tennis,cooperative and competitive table tennis,motor_execution,,,,,,,,
+zenodo_17504089,ssvep_led_focusing,SSVEP LED focusing,ssvep,,,,,,,,
+zenodo_17527064,auditory_statistical_learning_task,auditory statistical learning task,other,,,,,,,,
+zenodo_17527064,baseline_resting_state_silent_video,baseline (resting-state) silent video,passive_viewing,,,,,,,,
+zenodo_17535641,t_11,11种生物声音刺激,other,,,,,,,,
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zenodo_17561968,sit_to_stand_and_stand_to_sit_transition,sit-to-stand and stand-to-sit transitions (ME and MI),motor_execution;motor_imagery,,,,,,,,
+zenodo_17573472,image_viewing_four_categories,image viewing (four categories),passive_viewing;visual_erp,,,,,,,,
+zenodo_17639962,selective_auditory_attention_to_duet_mus,selective auditory attention to duet music instruments,other,,,,,,,,
+zenodo_17699259,atari_2600_game_play_sessions,Atari 2600 game play sessions,other,,,,,,,,
+zenodo_17773124,emotion_eliciting_video_viewing_in_vr,emotion-eliciting video viewing in VR,emotion_induction,,,,,,,,
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
