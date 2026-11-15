@@ -32,6 +32,10 @@ def main():
     remove, rel = {}, []
     for d in dec:
         part = d["reason"] == "part_of_larger"
+        title_only = re.sub(r"\W", "", str(d["evidence"].get("quote", "")).lower()) in re.sub(r"\W", "", str(d.get("name", "")).lower())
+        if d["verdict"] == "remove" and d["evidence_checked"] and not part and title_only:
+            print(f"kept {d['dataset_id']}: the evidence is only the title")
+            continue
         if d["verdict"] == "remove" and d["evidence_checked"] and not part:
             if d["reason"] == "duplicate_record" and not d.get("copy_checked"):
                 print(f"kept {d['dataset_id']}: duplicate_record is not stated by the record itself")
