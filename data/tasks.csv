@@ -3843,6 +3843,15 @@ zenodo_16777947,ssvep_offline_experiment,SSVEP offline experiment,ssvep,,,,,,,,
 zenodo_16778664,sequential_three_operand_arithmetic_task,sequential three-operand arithmetic task,cognitive_task,,,,,,,,
 zenodo_16788547,ec_resting_state,EC resting state,resting_eyes_closed,,,,,,,,
 zenodo_16788547,eo_resting_state,EO resting state,resting_eyes_open,,,,,,,,
+zenodo_16970319,t_5_min_pre_and_post_stimulation_epochs_du,5 min pre- and post-stimulation epochs during first and last active iTBS sessions,other,,,,,,,,
+zenodo_17019687,no_light_constant_light_and_60_hz_light,"no light, constant light and 60 Hz light stimulation",other,,,,,,,,
+zenodo_17035881,auditory_spatial_discrimination_with_vis,auditory spatial discrimination with visual or auditory cues,cognitive_task,,,,,,,,
+zenodo_17099891,doors_task,Doors Task,cognitive_task,,,,,,,,
+zenodo_17106014,select_from_perception_select_from_worki,select from perception / select from working memory,cognitive_task,,,,,,,,
+zenodo_17107937,action_effect_task,action-effect task,cognitive_task,,,,,,,,
+zenodo_17138538,t_15_minute_segment_around_the_onset_of_n2,15-minute segment around the onset of N2 sleep,sleep,,,,,,,,
+zenodo_17149386,self_initiated_auditory_attention_switch,self-initiated auditory attention switching in unspatialized mixed speech,cognitive_task,,,,,,,,
+zenodo_17209361,memory_guided_visual_search_task,memory-guided visual search task,cognitive_task,,,,,,,,
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
