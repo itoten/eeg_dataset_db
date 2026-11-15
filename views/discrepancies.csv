@@ -73,3 +73,11 @@ zenodo_14749213,acquisition_setups:main.sampling_rate_hz,conflicting,2048,second
 zenodo_14749213,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10921575/fullTextXML,Audit reviewer; scope: exported
 zenodo_14794875,n_subjects_reported,conflicting,72,secondary,https://api.datacite.org/dois/10.5281/zenodo.19408373,Audit reviewer; scope: not given
 zenodo_14794875,n_subjects_reported,conflicting,73,primary,https://arxiv.org/pdf/2504.18969,Audit reviewer; scope: not given
+zenodo_1507642,acquisition_setups:main.device_model,conflicting,BrainAmp MR,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6335318/fullTextXML,Audit reviewer; scope: simultaneous eeg-fmri session
+zenodo_1507642,acquisition_setups:main.device_model,conflicting,asalab,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6335318/fullTextXML,Audit reviewer; scope: separate eeg session
+zenodo_1507642,acquisition_setups:main.hardware_filter,conflicting,0.016–250 Hz hardware bandpass filtering,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6335318/fullTextXML,Audit reviewer; scope: simultaneous eeg-fmri session
+zenodo_1507642,acquisition_setups:main.hardware_filter,conflicting,No hardware bandpass filtering was applied.,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6335318/fullTextXML,Audit reviewer; scope: separate eeg session
+zenodo_1507642,acquisition_setups:main.reference,conflicting,AFz as common hardware reference,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6335318/fullTextXML,Audit reviewer; scope: separate eeg session (stored with linked mastoids)
+zenodo_1507642,acquisition_setups:main.reference,conflicting,FCz,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6335318/fullTextXML,Audit reviewer; scope: simultaneous eeg-fmri session
+zenodo_15086710,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.datacite.org/dois/10.5281/zenodo.15086711,Audit reviewer; scope: recorded
+zenodo_15086710,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.15086711,Audit reviewer; scope: distributed (preprocessed epochs)

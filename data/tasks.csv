@@ -3757,6 +3757,21 @@ zenodo_14794875,facial_emotion_recognition_fer_task,Facial Emotion Recognition (
 zenodo_14799297,colored_holographic_stimuli,colored holographic stimuli,passive_viewing,,,,,,,,
 zenodo_14864611,viewing_images_uncanny_valley_study,viewing images (Uncanny Valley study),passive_viewing,,,,,,,,
 zenodo_14876711,handover_joint_and_solo_object_placing_a,"handover, joint and solo object-placing actions near a robot",motor_execution,,,,,,,,
+zenodo_1490921,meditation_with_concentration_mind_wande,meditation with concentration / mind wandering probes,other,,,,,,,,
+zenodo_1494163,brain_invaders_visual_p300_bci_adaptive,Brain Invaders visual P300 BCI (Adaptive and Non-Adaptive runs),p300_erp,,,,,,,,
+zenodo_14967040,auditory_chirp_stimulus_task,auditory chirp stimulus task,other,,,,,,,,
+zenodo_14986232,sentence_reading_with_acceptability_judg,sentence reading with acceptability judgement,language,,,,,,,,
+zenodo_15005452,auditory_attention_detection_audio_visua,auditory attention detection (audio-visual and audio-only sessions),other,,,,,,,,
+zenodo_15010967,heart_evoked_potential_task_interoceptio,Heart Evoked Potential task (interoception / exteroception),other,,,,,,,,
+zenodo_1507642,covert_attention_task,covert attention task,cognitive_task,,,,,,,,
+zenodo_1507642,rest_inside_and_outside_the_scanner,rest inside and outside the scanner,resting_unspecified,,,,,,,,
+zenodo_15086710,music_listening_and_recall,music listening and recall,other,,,,,,,,
+zenodo_15209757,hyperventilation_and_intermittent_photic,hyperventilation and intermittent photic stimulation,clinical_routine,,,,,,,,
+zenodo_15209757,polygraphic_eeg_with_wakefulness_and_day,polygraphic EEG with wakefulness and daytime sleep,clinical_routine;sleep,,,,,,,,
+zenodo_15211828,face_to_face_still_face_procedure,Face-to-Face Still-Face Procedure,other,,,,,,,,
+zenodo_15241625,action_prediction_under_perceptual_ambig,action prediction under perceptual ambiguity; shape prediction control task,cognitive_task,,,,,,,,
+zenodo_15241858,alpha_band_eeg_neurofeedback_15_sessions,alpha-band EEG neurofeedback (15 sessions) with squat performance testing,neurofeedback,,,,,,,,
+zenodo_15241990,t_15_session_alpha_neurofeedback_training,15-session alpha neurofeedback training,neurofeedback,,,,,,,,
 zenodo_15454354,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
