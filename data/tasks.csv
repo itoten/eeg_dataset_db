@@ -532,11 +532,11 @@ ds005087,rapid_hemifield_object_presentation,rapid hemifield object presentation
 ds005087,rsvp,rsvp,,,,,,,,,
 ds005089,competition,Competition,,,,,,,,,"Subjects were cued to respond to faces or names depending on the trials. In high competition blocks, the target and distractor were presented at the same time. In low competition blocks, the target was presented before the distractor. [ds005089_sidecar]"
 ds005089,competition_cue_target_selective_attenti,competition (cue-target selective attention),cognitive_task,,,,,,,,
-ds005095,sternberg,STERNBERG,,,,,,,,,
-ds005106,fix,fix,,,,,,,,,Participants sat on caregiver lap and viewed stimuli. [ds005106_sidecar]
-ds005113,flankers,Flankers,,,,,,,,,
-ds005114,dpx,DPX,,,,,,,,,
-ds005121,siefert2024,Siefert2024,,,,,,,,,Subjects performed a category learning task before taking a nap in the lab where TMR was administered. Data is from nap. [ds005121_sidecar]
+ds005095,sternberg,STERNBERG,cognitive_task,,,,,,,,
+ds005106,fix,fix,passive_viewing,,,,,,,,Participants sat on caregiver lap and viewed stimuli. [ds005106_sidecar]
+ds005113,flankers,Flankers,cognitive_task,,,,,,,,
+ds005114,dpx,DPX,cognitive_task,,,,,,,,
+ds005121,siefert2024,Siefert2024,sleep,,,,,,,,Subjects performed a category learning task before taking a nap in the lab where TMR was administered. Data is from nap. [ds005121_sidecar]
 ds005127,ecc20160629t2216,ecc20160629T2216,,,,,,,,,
 ds005127,ecc20160630t0740,ecc20160630T0740,,,,,,,,,
 ds005127,ecc20160713t2225,ecc20160713T2225,,,,,,,,,
@@ -587,6 +587,7 @@ ds005127,motion20170208t2050,motion20170208T2050,,,,,,,,,
 ds005127,motion20170222t2121,motion20170222T2121,,,,,,,,,
 ds005127,motion20170308t2221,motion20170308T2221,,,,,,,,,
 ds005127,motion20170412t2220,motion20170412T2220,,,,,,,,,
+ds005127,overnight_sleep_with_arousals,overnight sleep with arousals,sleep,,,,,,,,
 ds005127,rest20160518t2312,rest20160518T2312,,,,,,,,,
 ds005127,rest20160519t0706,rest20160519T0706,,,,,,,,,
 ds005127,rest20160629t2232,rest20160629T2232,,,,,,,,,
@@ -900,16 +901,21 @@ ds005127,wpt20170411t2242,wpt20170411T2242,,,,,,,,,
 ds005127,wpt20170411t2246,wpt20170411T2246,,,,,,,,,
 ds005127,wpt20170412t2210,wpt20170412T2210,,,,,,,,,
 ds005127,wpt20170412t2214,wpt20170412T2214,,,,,,,,,
-ds005131,deviantdetection,deviantdetection,,,,,,,,,
+ds005131,deviantdetection,deviantdetection,auditory_erp,,,,,,,,
+ds005131,one_back_experiment_ii,One-Back (Experiment II),auditory_erp,,,,,,,,
 ds005131,oneback,oneback,,,,,,,,,
-ds005169,dcs,dcs,,,,,,,,,Direct cortical stimulation evoking visual effects. [ds005169_sidecar]
+ds005169,dcs,dcs,other,,,,,,,,Direct cortical stimulation evoking visual effects. [ds005169_sidecar]
+ds005170,imagine,imagine,imagined_speech,,,,,,,,
 ds005178,sleep,sleep,sleep,,,,,,,,sleep. [ds005178_sidecar]
+ds005178,video,video,other,,,,,,,,
 ds005185,acti,acti,,,,,,,,,
-ds005185,assr,ASSR,,,,,,,,,"Auditory Steady State Response: 40 Hz amplitude modulated noise, with accompanying trigger signal, was played to the subject. By focusing on the 40 Hz SNR in the recorded data, an objective signal quality could be determined. [ds005185_sidecar]"
+ds005185,assr,ASSR,auditory_erp,,,,,,,,"Auditory Steady State Response: 40 Hz amplitude modulated noise, with accompanying trigger signal, was played to the subject. By focusing on the 40 Hz SNR in the recorded data, an objective signal quality could be determined. [ds005185_sidecar]"
 ds005185,comfort,comfort,,,,,,,,,
 ds005185,electrodetestlab,electrodeTestLab,,,,,,,,,
-ds005189,searchsuprecfam,SearchSupRecFam,,,,,,,,,
+ds005185,sleep_psg_ear_eeg_nights,sleep (PSG + ear-EEG nights),sleep,,,,,,,,
+ds005189,searchsuprecfam,SearchSupRecFam,cognitive_task,,,,,,,,
 ds005207,sleep,Sleep,sleep,,,,,,,,"The study participants were asked to stay in bed for 12 hrs between approximately 22:00 and 10:00 hours, during which they were allowed to sleep as much as they wanted ('ad libitum'). [ds005207_sidecar]"
+ds005262,inner_speech,inner speech,imagined_speech,,,,,,,,
 ds005262,main,,imagined_speech,,,,,,,,Paradigm stated by the dataset name
 ds005273,t_1,1,,,,,,,,,
 ds005274,images,images,,,,,,,,,

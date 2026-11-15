@@ -303,21 +303,21 @@ ds005079,The Effects of Directed Therapeutic Intent on Live and Damaged Cells,,s
 ds005083,Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy,,ieeg,,,,CC0-1.0,,,,,,true,,60,,,,0,,,,,,direct_download,open,,,,,,,2026-11-15
 ds005087,rapid-hemifield-object-eeg,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,12.24,,,,,,direct_download,open,,1000,,BrainProducts ActiChamp,visual_erp,,2026-11-15
 ds005089,Proactive selective attention across competition contexts,,scalp_eeg,,university_of_granada_cimcyc,,CC0-1.0,,,,,,true,,36,,,,68.01,,,,,,direct_download,open,63,1000,,,cognitive_task,,2026-11-15
-ds005095,STERNBERG DIFFICULT,,scalp_eeg,,,,CC0-1.0,,,,,,true,,48,,,,14.28,,,,,,direct_download,open,63,1000,10_20,Brain Products,,,2026-11-14
-ds005106,200 Objects Infants EEG,,scalp_eeg,,western_sydney_university,,CC0-1.0,,,,,,true,,42,,,,1.24,,,,,,direct_download,open,32,500,10_20,Brainvision R-net,,,2026-11-14
-ds005113,EEG: Flankers with varying luminance,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,21,,,,2.75,,,,,,site_terms_agreement,one_time_human,128,250,,EGI,,,2026-11-14
-ds005114,EEG: DPX Cog Ctl Task in Acute Mild TBI,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,91,,,,55.88,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,,,2026-11-14
-ds005121,Siefert2024,,scalp_eeg,,university_of_pennsylvania,,CC0-1.0,,,,,,true,,34,,,,9.04,,,,,,direct_download,open,58,512,,,,,2026-11-14
-ds005127,AMRI 16-N-0031 sleep1,,scalp_eeg,,,,CC0-1.0,,,,,,true,,16,,,,457.81,,,,,,direct_download,open,,,,,,,2026-11-14
-ds005131,Evoked responses to elevated sounds,,scalp_eeg,,,,CC0-1.0,,,,,,true,,58,,,,22.35,,,,,,direct_download,open,64,500,,Brain Products,,,2026-11-14
-ds005169,Dataset of intracranial EEG during cortical stimulation evoking visual effects,,ieeg,,university_emergency_hopital_bucharest,,CC0-1.0,,,,,,true,,20,,,,4.03,,,,,,direct_download,open,0,4096,,Nicolet Wireless64,,,2026-11-14
-ds005170,Chisco,,scalp_eeg,,,,CC0-1.0,,,,,,true,,5,,,,90.73,,,,,,direct_download,open,,,,,,,2026-11-14
-ds005178,Ear-EEG Sleep Monitoring 2023 (EESM23),,scalp_eeg,,aarhus_university,,CC0-1.0,,,,,,true,,10,,,,25.74,,,,,,direct_download,open,,250,10_20,,sleep,,2026-11-14
-ds005185,Ear-EEG Sleep Monitoring 2019 (EESM19),,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,267.6,,,,,,direct_download,open,8,500,,,,,2026-11-14
-ds005189,Search Superiority Recollection Familiarity,,scalp_eeg,,scene_grammar_lab_goethe_university_frankfurt,,CC0-1.0,,,,,,true,,30,,,,16.72,,,,,,direct_download,open,61,1000,,Brain Products actiCHamp,,,2026-11-14
-ds005207,Surrey cEEGrid sleep data set,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,20,,,,28.52,,,,,,direct_download,open,6,128,10_20,,sleep,,2026-11-14
-ds005262,ArEEG: Arabic Inner Speech EEG dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,12,,,,0.67,,,,,,direct_download,open,,,,,imagined_speech,,2026-11-14
-ds005273,Neural representation of consciously seen and unseen information,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,44.42,,,,,,direct_download,open,63,1000,,Brain Products,,,2026-11-14
+ds005095,STERNBERG DIFFICULT,,scalp_eeg,cognitive,,,CC0-1.0,,,,,,true,,48,,,,14.28,,,,,,direct_download,open,63,1000,10_20,Brain Products,cognitive_task,,2026-11-15
+ds005106,200 Objects Infants EEG,,scalp_eeg,development;perception,western_sydney_university,,CC0-1.0,,,,,,true,,42,,,,1.24,,,,,,direct_download,open,32,500,10_20,Brainvision R-net,passive_viewing,,2026-11-15
+ds005113,EEG: Flankers with varying luminance,,scalp_eeg,cognitive,university_of_new_mexico,,CC0-1.0,,,,,,true,,21,,,,2.75,,,,,,site_terms_agreement,one_time_human,128,250,,EGI,cognitive_task,,2026-11-15
+ds005114,EEG: DPX Cog Ctl Task in Acute Mild TBI,,scalp_eeg,neurology;cognitive,university_of_new_mexico,,CC0-1.0,,,,,,true,,91,,,,55.88,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,cognitive_task,,2026-11-15
+ds005121,Siefert2024,,scalp_eeg,sleep;cognitive,university_of_pennsylvania,,CC0-1.0,,,,,,true,,34,,,,9.04,,,,,,direct_download,open,58,512,,Standard 64Ch actiCAP slim,sleep,,2026-11-15
+ds005127,AMRI 16-N-0031 sleep1,,scalp_eeg;fmri,sleep,,,CC0-1.0,,,,,,true,,16,,,,457.81,,,,,,direct_download,open,,,,,sleep,,2026-11-15
+ds005131,Evoked responses to elevated sounds,,scalp_eeg,perception,,,CC0-1.0,,,,,,true,,58,,,,22.35,,,,,,direct_download,open,64,500,,Brain Products,auditory_erp,,2026-11-15
+ds005169,Dataset of intracranial EEG during cortical stimulation evoking visual effects,,ieeg_seeg,epilepsy,university_emergency_hopital_bucharest,,CC0-1.0,,,,,,true,,conflicting,,,,4.03,,,,,,direct_download,open,0,4096,,Nicolet Wireless64,other,,2026-11-15
+ds005170,Chisco,,scalp_eeg,bci;cognitive,,,CC0-1.0,,,,,,true,,5,,,,90.73,,,,,,direct_download,open,,,,,imagined_speech,,2026-11-15
+ds005178,Ear-EEG Sleep Monitoring 2023 (EESM23),,ear_eeg;psg,sleep,aarhus_university,,CC0-1.0,,,,,,true,,10,,,,25.74,,,,,,direct_download,open,,250,10_20,,other;sleep,,2026-11-15
+ds005185,Ear-EEG Sleep Monitoring 2019 (EESM19),,ear_eeg;scalp_eeg;eog;emg,sleep,,,CC0-1.0,,,,,,true,,20,,,,267.6,,,,,,direct_download,open,8,500,,,auditory_erp;sleep,,2026-11-15
+ds005189,Search Superiority Recollection Familiarity,,scalp_eeg;eye_tracking,cognitive,scene_grammar_lab_goethe_university_frankfurt,,CC0-1.0,,,,,,true,,30,,,,16.72,,,,,,direct_download,open,61,1000,,Brain Products actiCHamp,cognitive_task,,2026-11-15
+ds005207,Surrey cEEGrid sleep data set,,ear_eeg;psg,sleep,university_of_oxford,,CC0-1.0,,,,,,true,,20,,,,28.52,,,,,,direct_download,open,6,128,10_20,,sleep,,2026-11-15
+ds005262,ArEEG: Arabic Inner Speech EEG dataset,,scalp_eeg,bci,,,CC0-1.0,,,,,,true,,12,,,,0.67,,,,,,direct_download,open,,,,,imagined_speech,,2026-11-15
+ds005273,Neural representation of consciously seen and unseen information,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,44.42,,,,,,direct_download,open,63,1000,,Brain Products,,,2026-11-15
 ds005274,UV_EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,0.07,,,,,,direct_download,open,6,500,10_20,,,,2026-11-14
 ds005280,223 By BP,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,223,,,,42.38,,,,,,direct_download,open,64,1000,,Brain Products,,,2026-11-14
 ds005284,26 By Biosemi,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,26,,,,1.66,,,,,,direct_download,open,64,1024,,"BIOSEMI Biosemi,62 Ag/AgCl scalp electrodes",,,2026-11-14

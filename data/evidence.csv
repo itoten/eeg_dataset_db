@@ -6846,18 +6846,25 @@ ds005095/access_routes:openneuro.access_method/01,ds005095,access_routes:openneu
 ds005095/access_routes:openneuro.automation_tool/01,ds005095,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005095_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005095/access_routes:openneuro.human_steps/01,ds005095,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005095_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005095/acquisition_setups:main.device_manufacturer/01,ds005095,acquisition_setups:main.device_manufacturer,Brain Products,ds005095_sidecar,Manufacturer,2026-11-14,script,current,
+ds005095/acquisition_setups:main.device_manufacturer/02,ds005095,acquisition_setups:main.device_manufacturer,Brain Products,ds005095_doc093d11,"""Manufacturer"": ""Brain Products""",2026-11-15,claude,current,Audit reviewer; scope: sub-04 ses-01 sidecar
 ds005095/acquisition_setups:main.ground/01,ds005095,acquisition_setups:main.ground,FPz,ds005095_sidecar,EEGGround,2026-11-14,script,current,
 ds005095/acquisition_setups:main.line_freq_hz/01,ds005095,acquisition_setups:main.line_freq_hz,50,ds005095_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005095/acquisition_setups:main.line_freq_hz/02,ds005095,acquisition_setups:main.line_freq_hz,50,ds005095_doc093d11,"""PowerLineFrequency"": 50.0",2026-11-15,claude,current,Audit reviewer; scope: sub-04 ses-01 sidecar
 ds005095/acquisition_setups:main.montage_system/01,ds005095,acquisition_setups:main.montage_system,10_20,ds005095_sidecar,EEGPlacementScheme: based on the extended 10/20 system,2026-11-14,script,current,
 ds005095/acquisition_setups:main.n_channels_eeg/01,ds005095,acquisition_setups:main.n_channels_eeg,63,ds005095_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005095/acquisition_setups:main.n_channels_eeg/02,ds005095,acquisition_setups:main.n_channels_eeg,63,ds005095_doc093d11,"""EEGChannelCount"": 63",2026-11-15,claude,current,Audit reviewer; scope: sub-04 ses-01 sidecar
 ds005095/acquisition_setups:main.reference/01,ds005095,acquisition_setups:main.reference,FCz,ds005095_sidecar,EEGReference,2026-11-14,script,current,
+ds005095/acquisition_setups:main.reference/02,ds005095,acquisition_setups:main.reference,FCz,ds005095_doc093d11,"""EEGReference"": ""FCz""",2026-11-15,claude,current,Audit reviewer; scope: sub-04 ses-01 sidecar
 ds005095/acquisition_setups:main.sampling_rate_hz/01,ds005095,acquisition_setups:main.sampling_rate_hz,1000,ds005095_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005095/acquisition_setups:main.sampling_rate_hz/02,ds005095,acquisition_setups:main.sampling_rate_hz,1000,ds005095_doc093d11,"""SamplingFrequency"": 1000.0",2026-11-15,claude,current,Audit reviewer; scope: sub-04 ses-01 sidecar
+ds005095/domains/01,ds005095,domains,cognitive,ds005095_docb43add,Participants completed a version of the Sternberg task,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005095/is_bids/01,ds005095,is_bids,true,ds005095_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005095/license_spdx/01,ds005095,license_spdx,CC0-1.0,ds005095_record,License: CC0,2026-11-14,script,current,
 ds005095/modalities/01,ds005095,modalities,scalp_eeg,ds005095_record,Available Modalities: eeg,2026-11-14,script,current,
 ds005095/n_subjects_reported/01,ds005095,n_subjects_reported,48,ds005095_record,Participants 48,2026-11-14,script,current,
 ds005095/name/01,ds005095,name,STERNBERG DIFFICULT,ds005095_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005095/size_gb_reported/01,ds005095,size_gb_reported,14.28,ds005095_record,Size: 14.28GB,2026-11-14,script,current,
+ds005095/tasks:sternberg.paradigms/01,ds005095,tasks:sternberg.paradigms,cognitive_task,ds005095_docb43add,"Participants completed a version of the Sternberg task (Sternberg, 1966; Fig 1) during EEG recording.",2026-11-15,claude,current,
 ds005095/tasks:sternberg.task_name/01,ds005095,tasks:sternberg.task_name,STERNBERG,ds005095_record,Tasks: STERNBERG,2026-11-14,script,current,
 ds005106/access_routes:nemar.access_method/01,ds005106,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005106/access_routes:nemar.automation_tool/01,ds005106,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -6866,35 +6873,53 @@ ds005106/access_routes:openneuro.access_method/01,ds005106,access_routes:openneu
 ds005106/access_routes:openneuro.automation_tool/01,ds005106,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005106_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005106/access_routes:openneuro.human_steps/01,ds005106,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005106_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005106/acquisition_setups:main.device_manufacturer/01,ds005106,acquisition_setups:main.device_manufacturer,Brainvision,ds005106_sidecar,Manufacturer,2026-11-14,script,current,
+ds005106/acquisition_setups:main.device_manufacturer/02,ds005106,acquisition_setups:main.device_manufacturer,Brainvision,ds005106_doc9c1c26,"""Manufacturer"": ""Brainvision""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005106/acquisition_setups:main.device_model/01,ds005106,acquisition_setups:main.device_model,R-net,ds005106_sidecar,ManufacturersModelName,2026-11-14,script,current,
+ds005106/acquisition_setups:main.device_model/02,ds005106,acquisition_setups:main.device_model,R-net,ds005106_doc9c1c26,"""ManufacturersModelName"": ""R-net""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005106/acquisition_setups:main.line_freq_hz/01,ds005106,acquisition_setups:main.line_freq_hz,50,ds005106_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005106/acquisition_setups:main.line_freq_hz/02,ds005106,acquisition_setups:main.line_freq_hz,50,ds005106_doc9c1c26,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005106/acquisition_setups:main.montage_system/01,ds005106,acquisition_setups:main.montage_system,10_20,ds005106_sidecar,EEGPlacementScheme: 10-20 system,2026-11-14,script,current,
 ds005106/acquisition_setups:main.n_channels_eeg/01,ds005106,acquisition_setups:main.n_channels_eeg,32,ds005106_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005106/acquisition_setups:main.n_channels_eeg/02,ds005106,acquisition_setups:main.n_channels_eeg,32,ds005106_doc9c1c26,"""EEGChannelCount"": 32",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005106/acquisition_setups:main.sampling_rate_hz/01,ds005106,acquisition_setups:main.sampling_rate_hz,500,ds005106_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005106/acquisition_setups:main.sampling_rate_hz/02,ds005106,acquisition_setups:main.sampling_rate_hz,500,ds005106_doc78c23d,The signal was digitised at a 500 Hz sample rate.,2026-11-15,claude,current,Audit reviewer; scope: not given
+ds005106/domains/01,ds005106,domains,development;perception,ds005106_doc78c23d,Participants’ age range covered the major developmental changes in the visual system in the first year of life,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005106/is_bids/01,ds005106,is_bids,true,ds005106_record,dataset_description.json BIDSVersion 1.10.0,2026-11-14,script,current,
 ds005106/license_spdx/01,ds005106,license_spdx,CC0-1.0,ds005106_record,License: CC0,2026-11-14,script,current,
 ds005106/modalities/01,ds005106,modalities,scalp_eeg,ds005106_record,Available Modalities: eeg,2026-11-14,script,current,
 ds005106/n_subjects_reported/01,ds005106,n_subjects_reported,42,ds005106_record,Participants 42,2026-11-14,script,current,
+ds005106/n_subjects_reported/02,ds005106,n_subjects_reported,42,ds005106_doc78c23d,A total of 42 infants took part in the experiment,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005106/name/01,ds005106,name,200 Objects Infants EEG,ds005106_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds005106/participant_groups:infants.n_female/01,ds005106,participant_groups:infants.n_female,16,ds005106_doc78c23d,"Participants were 16 female and 26 male human infants, mean age 6.57 months (sd 3.02 months), age range 1.8–11.5 months",2026-11-15,claude,current,
+ds005106/participant_groups:infants.n_male/01,ds005106,participant_groups:infants.n_male,26,ds005106_doc78c23d,"Participants were 16 female and 26 male human infants, mean age 6.57 months (sd 3.02 months), age range 1.8–11.5 months",2026-11-15,claude,current,
 ds005106/provider_ids/01,ds005106,provider_ids,western_sydney_university,ds005106_sidecar,InstitutionName,2026-11-14,script,current,
 ds005106/size_gb_reported/01,ds005106,size_gb_reported,1.24,ds005106_record,Size: 1.24GB,2026-11-14,script,current,
+ds005106/tasks:fix.paradigms/01,ds005106,tasks:fix.paradigms,passive_viewing,ds005106_doc9c1c26,"""TaskDescription"": ""Participants sat on caregiver lap and viewed stimuli""",2026-11-15,claude,current,
 ds005106/tasks:fix.task_name/01,ds005106,tasks:fix.task_name,fix,ds005106_record,Tasks: fix,2026-11-14,script,current,
 ds005113/access_routes:openneuro.access_method/01,ds005113,access_routes:openneuro.access_method,site_terms_agreement,ds005113_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005113/access_routes:openneuro.automation_tool/01,ds005113,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005113_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005113/access_routes:openneuro.human_steps/01,ds005113,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005113_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005113/acquisition_setups:main.device_model/01,ds005113,acquisition_setups:main.device_model,EGI,ds005113_sidecar,ManufacturersModelName,2026-11-14,script,current,
+ds005113/acquisition_setups:main.device_model/02,ds005113,acquisition_setups:main.device_model,EGI,ds005113_docc5a4d4,"""ManufacturersModelName"": ""EGI""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005113/acquisition_setups:main.ground/01,ds005113,acquisition_setups:main.ground,whatevs,ds005113_sidecar,EEGGround,2026-11-14,script,current,
 ds005113/acquisition_setups:main.line_freq_hz/01,ds005113,acquisition_setups:main.line_freq_hz,60,ds005113_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005113/acquisition_setups:main.line_freq_hz/02,ds005113,acquisition_setups:main.line_freq_hz,60,ds005113_docc5a4d4,"""PowerLineFrequency"": 60",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005113/acquisition_setups:main.n_channels_eeg/01,ds005113,acquisition_setups:main.n_channels_eeg,128,ds005113_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005113/acquisition_setups:main.n_channels_eeg/02,ds005113,acquisition_setups:main.n_channels_eeg,128,ds005113_docc5a4d4,"""EEGChannelCount"": 128",2026-11-15,claude,current,Audit reviewer; scope: sub-001 sidecar
 ds005113/acquisition_setups:main.reference/01,ds005113,acquisition_setups:main.reference,Cz,ds005113_sidecar,EEGReference,2026-11-14,script,current,
+ds005113/acquisition_setups:main.reference/02,ds005113,acquisition_setups:main.reference,Cz,ds005113_docc5a4d4,"""EEGReference"": ""Cz""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005113/acquisition_setups:main.sampling_rate_hz/01,ds005113,acquisition_setups:main.sampling_rate_hz,250,ds005113_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005113/acquisition_setups:main.sampling_rate_hz/02,ds005113,acquisition_setups:main.sampling_rate_hz,250,ds005113_docc5a4d4,"""SamplingFrequency"": 250",2026-11-15,claude,current,Audit reviewer; scope: sub-001 sidecar
+ds005113/domains/01,ds005113,domains,cognitive,ds005113_doc67bd07,600 trial flankers task,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005113/is_bids/01,ds005113,is_bids,true,ds005113_record,dataset_description.json BIDSVersion 1.1.1,2026-11-14,script,current,
 ds005113/license_spdx/01,ds005113,license_spdx,CC0-1.0,ds005113_record,License: CC0,2026-11-14,script,current,
 ds005113/modalities/01,ds005113,modalities,scalp_eeg,ds005113_record,Available Modalities: eeg,2026-11-14,script,current,
 ds005113/n_subjects_reported/01,ds005113,n_subjects_reported,21,ds005113_record,Participants 21,2026-11-14,script,current,
+ds005113/n_subjects_reported/02,ds005113,n_subjects_reported,21,ds005113_doc67bd07,21 subjects taking a 600 trial flankers task with varying luminance,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005113/name/01,ds005113,name,EEG: Flankers with varying luminance,ds005113_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005113/provider_ids/01,ds005113,provider_ids,university_of_new_mexico,ds005113_sidecar,InstitutionName,2026-11-14,script,current,
 ds005113/size_gb_reported/01,ds005113,size_gb_reported,2.75,ds005113_record,Size: 2.75GB,2026-11-14,script,current,
+ds005113/tasks:flankers.paradigms/01,ds005113,tasks:flankers.paradigms,cognitive_task,ds005113_doc67bd07,21 subjects taking a 600 trial flankers task with varying luminance.,2026-11-15,claude,current,
 ds005113/tasks:flankers.task_name/01,ds005113,tasks:flankers.task_name,Flankers,ds005113_record,Tasks: Flankers,2026-11-14,script,current,
 ds005114/access_routes:nemar.access_method/01,ds005114,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005114/access_routes:nemar.automation_tool/01,ds005114,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -6903,11 +6928,17 @@ ds005114/access_routes:openneuro.access_method/01,ds005114,access_routes:openneu
 ds005114/access_routes:openneuro.automation_tool/01,ds005114,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005114_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005114/access_routes:openneuro.human_steps/01,ds005114,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005114_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005114/acquisition_setups:main.device_model/01,ds005114,acquisition_setups:main.device_model,Brain Vision ActiChamp,ds005114_sidecar,ManufacturersModelName,2026-11-14,script,current,
+ds005114/acquisition_setups:main.device_model/02,ds005114,acquisition_setups:main.device_model,Brain Vision ActiChamp,ds005114_docfe8213,"""ManufacturersModelName"": ""Brain Vision ActiChamp""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005114/acquisition_setups:main.ground/01,ds005114,acquisition_setups:main.ground,AFz,ds005114_sidecar,EEGGround,2026-11-14,script,current,
 ds005114/acquisition_setups:main.line_freq_hz/01,ds005114,acquisition_setups:main.line_freq_hz,60,ds005114_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005114/acquisition_setups:main.line_freq_hz/02,ds005114,acquisition_setups:main.line_freq_hz,60,ds005114_docfe8213,"""PowerLineFrequency"": 60",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005114/acquisition_setups:main.n_channels_eeg/01,ds005114,acquisition_setups:main.n_channels_eeg,64,ds005114_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005114/acquisition_setups:main.n_channels_eeg/02,ds005114,acquisition_setups:main.n_channels_eeg,64,ds005114_docfe8213,"""EEGChannelCount"": 64",2026-11-15,claude,current,Audit reviewer; scope: sub-001 ses-01 sidecar
 ds005114/acquisition_setups:main.reference/01,ds005114,acquisition_setups:main.reference,CPz,ds005114_sidecar,EEGReference,2026-11-14,script,current,
+ds005114/acquisition_setups:main.reference/02,ds005114,acquisition_setups:main.reference,CPz,ds005114_docfe8213,"""EEGReference"": ""CPz""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005114/acquisition_setups:main.sampling_rate_hz/01,ds005114,acquisition_setups:main.sampling_rate_hz,500,ds005114_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005114/acquisition_setups:main.sampling_rate_hz/02,ds005114,acquisition_setups:main.sampling_rate_hz,500,ds005114_docfe8213,"""SamplingFrequency"": 500",2026-11-15,claude,current,Audit reviewer; scope: sub-001 ses-01 sidecar
+ds005114/domains/01,ds005114,domains,neurology;cognitive,ds005114_doc095c61,Dot Probe Continuous Performance Task in control & sub-acute mild TBI.,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005114/is_bids/01,ds005114,is_bids,true,ds005114_record,dataset_description.json BIDSVersion 1.1.1,2026-11-14,script,current,
 ds005114/license_spdx/01,ds005114,license_spdx,CC0-1.0,ds005114_record,License: CC0,2026-11-14,script,current,
 ds005114/modalities/01,ds005114,modalities,scalp_eeg,ds005114_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -6915,6 +6946,7 @@ ds005114/n_subjects_reported/01,ds005114,n_subjects_reported,91,ds005114_record,
 ds005114/name/01,ds005114,name,EEG: DPX Cog Ctl Task in Acute Mild TBI,ds005114_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005114/provider_ids/01,ds005114,provider_ids,university_of_new_mexico,ds005114_sidecar,InstitutionName,2026-11-14,script,current,
 ds005114/size_gb_reported/01,ds005114,size_gb_reported,55.88,ds005114_record,Size: 55.88GB,2026-11-14,script,current,
+ds005114/tasks:dpx.paradigms/01,ds005114,tasks:dpx.paradigms,cognitive_task,ds005114_doc095c61,Dot Probe Continuous Performance Task in control & sub-acute mild TBI.,2026-11-15,claude,current,
 ds005114/tasks:dpx.task_name/01,ds005114,tasks:dpx.task_name,DPX,ds005114_record,Tasks: DPX,2026-11-14,script,current,
 ds005121/access_routes:nemar.access_method/01,ds005121,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005121/access_routes:nemar.automation_tool/01,ds005121,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -6922,17 +6954,25 @@ ds005121/access_routes:nemar.human_steps/01,ds005121,access_routes:nemar.human_s
 ds005121/access_routes:openneuro.access_method/01,ds005121,access_routes:openneuro.access_method,site_terms_agreement,ds005121_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005121/access_routes:openneuro.automation_tool/01,ds005121,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005121_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005121/access_routes:openneuro.human_steps/01,ds005121,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005121_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds005121/acquisition_setups:main.device_model/01,ds005121,acquisition_setups:main.device_model,Standard 64Ch actiCAP slim,ds005121_doc529166,"""CapManufacturersModelName"": ""Standard 64Ch actiCAP slim""",2026-11-15,claude,current,Audit reviewer; scope: cap model
 ds005121/acquisition_setups:main.line_freq_hz/01,ds005121,acquisition_setups:main.line_freq_hz,60,ds005121_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005121/acquisition_setups:main.line_freq_hz/02,ds005121,acquisition_setups:main.line_freq_hz,60,ds005121_doc529166,"""PowerLineFrequency"": 60",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005121/acquisition_setups:main.n_channels_eeg/01,ds005121,acquisition_setups:main.n_channels_eeg,58,ds005121_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005121/acquisition_setups:main.n_channels_eeg/02,ds005121,acquisition_setups:main.n_channels_eeg,58,ds005121_doc529166,"""EEGChannelCount"": 58",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005121/acquisition_setups:main.reference/01,ds005121,acquisition_setups:main.reference,FCz,ds005121_sidecar,EEGReference,2026-11-14,script,current,
+ds005121/acquisition_setups:main.reference/02,ds005121,acquisition_setups:main.reference,FCz,ds005121_doc529166,"""EEGReference"": ""FCz""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005121/acquisition_setups:main.sampling_rate_hz/01,ds005121,acquisition_setups:main.sampling_rate_hz,512,ds005121_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005121/acquisition_setups:main.sampling_rate_hz/02,ds005121,acquisition_setups:main.sampling_rate_hz,512,ds005121_doc529166,"""SamplingFrequency"": 512",2026-11-15,claude,current,Audit reviewer; scope: not given
+ds005121/domains/01,ds005121,domains,sleep;cognitive,ds005121_doc49c455,sleep EEG data from 34 participants while Targeted Memory Reactivation was administered,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005121/is_bids/01,ds005121,is_bids,true,ds005121_record,dataset_description.json BIDSVersion 1.2,2026-11-14,script,current,
 ds005121/license_spdx/01,ds005121,license_spdx,CC0-1.0,ds005121_record,License: CC0,2026-11-14,script,current,
 ds005121/modalities/01,ds005121,modalities,scalp_eeg,ds005121_record,Available Modalities: eeg,2026-11-14,script,current,
 ds005121/n_subjects_reported/01,ds005121,n_subjects_reported,34,ds005121_record,Participants 34,2026-11-14,script,current,
+ds005121/n_subjects_reported/02,ds005121,n_subjects_reported,34,ds005121_doc49c455,it contains sleep EEG data from 34 participants,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005121/name/01,ds005121,name,Siefert2024,ds005121_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005121/provider_ids/01,ds005121,provider_ids,university_of_pennsylvania,ds005121_sidecar,InstitutionName,2026-11-14,script,current,
 ds005121/size_gb_reported/01,ds005121,size_gb_reported,9.04,ds005121_record,Size: 9.04GB,2026-11-14,script,current,
+ds005121/tasks:siefert2024.paradigms/01,ds005121,tasks:siefert2024.paradigms,sleep,ds005121_doc529166,"""TaskDescription"": ""Subjects performed a category learning task before taking a nap in the lab where TMR was administered. Data is from nap.""",2026-11-15,claude,current,
 ds005121/tasks:siefert2024.task_name/01,ds005121,tasks:siefert2024.task_name,Siefert2024,ds005121_record,Tasks: Siefert2024,2026-11-14,script,current,
 ds005127/access_routes:nemar.access_method/01,ds005127,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005127/access_routes:nemar.automation_tool/01,ds005127,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -6940,9 +6980,11 @@ ds005127/access_routes:nemar.human_steps/01,ds005127,access_routes:nemar.human_s
 ds005127/access_routes:openneuro.access_method/01,ds005127,access_routes:openneuro.access_method,site_terms_agreement,ds005127_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005127/access_routes:openneuro.automation_tool/01,ds005127,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005127_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005127/access_routes:openneuro.human_steps/01,ds005127,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005127_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds005127/domains/01,ds005127,domains,sleep,ds005127_doc02fd4c,Subjects were scanned for two consecutive nights for approximately 8 hours using EEG/fMRI,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005127/is_bids/01,ds005127,is_bids,true,ds005127_record,dataset_description.json BIDSVersion 1.4.1,2026-11-14,script,current,
 ds005127/license_spdx/01,ds005127,license_spdx,CC0-1.0,ds005127_record,License: CC0,2026-11-14,script,current,
-ds005127/modalities/01,ds005127,modalities,scalp_eeg,ds005127_record,"Available Modalities: eeg, mri, mri_functional, mri_structural",2026-11-14,script,current,
+ds005127/modalities/01,ds005127,modalities,scalp_eeg,ds005127_record,"Available Modalities: eeg, mri, mri_functional, mri_structural",2026-11-14,script,superseded,superseded by ds005127/modalities/02
+ds005127/modalities/02,ds005127,modalities,scalp_eeg;fmri,ds005127_doc02fd4c,overnight EEG-fMRI study,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds005127/n_subjects_reported/01,ds005127,n_subjects_reported,16,ds005127_record,Participants 16,2026-11-14,script,current,
 ds005127/name/01,ds005127,name,AMRI 16-N-0031 sleep1,ds005127_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005127/size_gb_reported/01,ds005127,size_gb_reported,457.81,ds005127_record,Size: 457.81GB,2026-11-14,script,current,
@@ -6996,6 +7038,8 @@ ds005127/tasks:motion20170208t2050.task_name/01,ds005127,tasks:motion20170208t20
 ds005127/tasks:motion20170222t2121.task_name/01,ds005127,tasks:motion20170222t2121.task_name,motion20170222T2121,ds005127_record,Tasks: motion20170222T2121,2026-11-14,script,current,
 ds005127/tasks:motion20170308t2221.task_name/01,ds005127,tasks:motion20170308t2221.task_name,motion20170308T2221,ds005127_record,Tasks: motion20170308T2221,2026-11-14,script,current,
 ds005127/tasks:motion20170412t2220.task_name/01,ds005127,tasks:motion20170412t2220.task_name,motion20170412T2220,ds005127_record,Tasks: motion20170412T2220,2026-11-14,script,current,
+ds005127/tasks:overnight_sleep_with_arousals.paradigms/01,ds005127,tasks:overnight_sleep_with_arousals.paradigms,sleep,ds005127_doc02fd4c,were aroused at random intervals 8 times during the night,2026-11-15,claude,current,
+ds005127/tasks:overnight_sleep_with_arousals.task_name/01,ds005127,tasks:overnight_sleep_with_arousals.task_name,overnight sleep with arousals,ds005127_doc02fd4c,were aroused at random intervals 8 times during the night,2026-11-15,claude,current,
 ds005127/tasks:rest20160518t2312.task_name/01,ds005127,tasks:rest20160518t2312.task_name,rest20160518T2312,ds005127_record,Tasks: rest20160518T2312,2026-11-14,script,current,
 ds005127/tasks:rest20160519t0706.task_name/01,ds005127,tasks:rest20160519t0706.task_name,rest20160519T0706,ds005127_record,Tasks: rest20160519T0706,2026-11-14,script,current,
 ds005127/tasks:rest20160629t2232.task_name/01,ds005127,tasks:rest20160629t2232.task_name,rest20160629T2232,ds005127_record,Tasks: rest20160629T2232,2026-11-14,script,current,
@@ -7316,15 +7360,22 @@ ds005131/access_routes:openneuro.access_method/01,ds005131,access_routes:openneu
 ds005131/access_routes:openneuro.automation_tool/01,ds005131,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005131_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005131/access_routes:openneuro.human_steps/01,ds005131,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005131_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005131/acquisition_setups:main.device_manufacturer/01,ds005131,acquisition_setups:main.device_manufacturer,Brain Products,ds005131_sidecar,Manufacturer,2026-11-14,script,current,
+ds005131/acquisition_setups:main.device_manufacturer/02,ds005131,acquisition_setups:main.device_manufacturer,Brain Products,ds005131_doc25f6d0,"""Manufacturer"": ""Brain Products""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005131/acquisition_setups:main.n_channels_eeg/01,ds005131,acquisition_setups:main.n_channels_eeg,64,ds005131_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005131/acquisition_setups:main.n_channels_eeg/02,ds005131,acquisition_setups:main.n_channels_eeg,64,ds005131_doc25f6d0,"""EEGChannelCount"": 64",2026-11-15,claude,current,Audit reviewer; scope: sub-001 ses-1 sidecar
 ds005131/acquisition_setups:main.sampling_rate_hz/01,ds005131,acquisition_setups:main.sampling_rate_hz,500,ds005131_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005131/acquisition_setups:main.sampling_rate_hz/02,ds005131,acquisition_setups:main.sampling_rate_hz,500,ds005131_doc25f6d0,"""SamplingFrequency"": 500.0",2026-11-15,claude,current,Audit reviewer; scope: sub-001 ses-1 sidecar
+ds005131/domains/01,ds005131,domains,perception,ds005131_doce30dd9,bursts of noise from loudspeakers at different elevations,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005131/is_bids/01,ds005131,is_bids,true,ds005131_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005131/license_spdx/01,ds005131,license_spdx,CC0-1.0,ds005131_record,License: CC0,2026-11-14,script,current,
 ds005131/modalities/01,ds005131,modalities,scalp_eeg,ds005131_record,Available Modalities: eeg,2026-11-14,script,current,
 ds005131/n_subjects_reported/01,ds005131,n_subjects_reported,58,ds005131_record,Participants 58,2026-11-14,script,current,
 ds005131/name/01,ds005131,name,Evoked responses to elevated sounds,ds005131_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005131/size_gb_reported/01,ds005131,size_gb_reported,22.35,ds005131_record,Size: 22.35GB,2026-11-14,script,current,
+ds005131/tasks:deviantdetection.paradigms/01,ds005131,tasks:deviantdetection.paradigms,auditory_erp,ds005131_doce30dd9,Subjects 001-023 participated in this experiment.,2026-11-15,claude,current,
 ds005131/tasks:deviantdetection.task_name/01,ds005131,tasks:deviantdetection.task_name,deviantdetection,ds005131_record,Tasks: deviantdetection,2026-11-14,script,current,
+ds005131/tasks:one_back_experiment_ii.paradigms/01,ds005131,tasks:one_back_experiment_ii.paradigms,auditory_erp,ds005131_doce30dd9,Subjects 100-134 participated in this experiment.,2026-11-15,claude,current,
+ds005131/tasks:one_back_experiment_ii.task_name/01,ds005131,tasks:one_back_experiment_ii.task_name,One-Back (Experiment II),ds005131_doce30dd9,Subjects 100-134 participated in this experiment.,2026-11-15,claude,current,
 ds005131/tasks:oneback.task_name/01,ds005131,tasks:oneback.task_name,oneback,ds005131_record,Tasks: oneback,2026-11-14,script,current,
 ds005169/access_routes:nemar.access_method/01,ds005169,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005169/access_routes:nemar.automation_tool/01,ds005169,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -7333,19 +7384,32 @@ ds005169/access_routes:openneuro.access_method/01,ds005169,access_routes:openneu
 ds005169/access_routes:openneuro.automation_tool/01,ds005169,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005169_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005169/access_routes:openneuro.human_steps/01,ds005169,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005169_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005169/acquisition_setups:main.device_manufacturer/01,ds005169,acquisition_setups:main.device_manufacturer,Nicolet,ds005169_sidecar,Manufacturer,2026-11-14,script,current,
+ds005169/acquisition_setups:main.device_manufacturer/02,ds005169,acquisition_setups:main.device_manufacturer,Nicolet,ds005169_doc82be3b,"""Manufacturer"": ""Nicolet""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005169/acquisition_setups:main.device_model/01,ds005169,acquisition_setups:main.device_model,Wireless64,ds005169_sidecar,ManufacturersModelName,2026-11-14,script,current,
+ds005169/acquisition_setups:main.device_model/02,ds005169,acquisition_setups:main.device_model,Wireless64,ds005169_doc82be3b,"""ManufacturersModelName"": ""Wireless64""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005169/acquisition_setups:main.ground/01,ds005169,acquisition_setups:main.ground,intracranial white matter electrode,ds005169_sidecar,iEEGGround,2026-11-14,script,current,
+ds005169/acquisition_setups:main.ground/02,ds005169,acquisition_setups:main.ground,intracranial white matter electrode,ds005169_doc82be3b,"""iEEGGround"": ""intracranial white matter electrode""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005169/acquisition_setups:main.line_freq_hz/01,ds005169,acquisition_setups:main.line_freq_hz,50,ds005169_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005169/acquisition_setups:main.line_freq_hz/02,ds005169,acquisition_setups:main.line_freq_hz,50,ds005169_doc82be3b,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005169/acquisition_setups:main.n_channels_eeg/01,ds005169,acquisition_setups:main.n_channels_eeg,0,ds005169_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds005169/acquisition_setups:main.reference/01,ds005169,acquisition_setups:main.reference,intracranial white matter electrode,ds005169_sidecar,iEEGReference,2026-11-14,script,current,
+ds005169/acquisition_setups:main.reference/02,ds005169,acquisition_setups:main.reference,intracranial white matter electrode,ds005169_doc82be3b,"""iEEGReference"": ""intracranial white matter electrode""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005169/acquisition_setups:main.sampling_rate_hz/01,ds005169,acquisition_setups:main.sampling_rate_hz,4096,ds005169_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005169/acquisition_setups:main.sampling_rate_hz/02,ds005169,acquisition_setups:main.sampling_rate_hz,4096,ds005169_doc24a081,"continuously recorded at a sample rate of 4,096 Hz using a 64‐channel Nicolet Wireless Amplifier",2026-11-15,claude,current,Audit reviewer; scope: not given
+ds005169/domains/01,ds005169,domains,epilepsy,ds005169_doc8e4839,drug-resistant epilepsy,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005169/is_bids/01,ds005169,is_bids,true,ds005169_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds005169/license_spdx/01,ds005169,license_spdx,CC0-1.0,ds005169_record,License: CC0,2026-11-14,script,current,
-ds005169/modalities/01,ds005169,modalities,ieeg,ds005169_record,"Available Modalities: ieeg, mri, mri_structural",2026-11-14,script,current,
-ds005169/n_subjects_reported/01,ds005169,n_subjects_reported,20,ds005169_record,Participants 20,2026-11-14,script,current,
+ds005169/modalities/01,ds005169,modalities,ieeg,ds005169_record,"Available Modalities: ieeg, mri, mri_structural",2026-11-14,script,superseded,superseded by ds005169/modalities/02
+ds005169/modalities/02,ds005169,modalities,ieeg_seeg,ds005169_doc8e4839,in 22 patients undergoing stereo-EEG presurgical evaluation,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
+ds005169/n_subjects_reported/01,ds005169,n_subjects_reported,20,ds005169_record,Participants 20,2026-11-14,script,conflicting,
+ds005169/n_subjects_reported/02,ds005169,n_subjects_reported,22,ds005169_doc8e4839,in 22 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy,2026-11-15,claude,conflicting,Audit reviewer; scope: not given
 ds005169/name/01,ds005169,name,Dataset of intracranial EEG during cortical stimulation evoking visual effects,ds005169_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds005169/participant_groups:patients.condition/01,ds005169,participant_groups:patients.condition,patient,ds005169_doc8e4839,in 22 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy,2026-11-15,claude,current,
+ds005169/participant_groups:patients.diagnosis/01,ds005169,participant_groups:patients.diagnosis,drug-resistant epilepsy,ds005169_doc8e4839,in 22 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy,2026-11-15,claude,current,
+ds005169/participant_groups:patients.n_subjects/01,ds005169,participant_groups:patients.n_subjects,22,ds005169_doc8e4839,in 22 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy,2026-11-15,claude,current,
 ds005169/provider_ids/01,ds005169,provider_ids,university_emergency_hopital_bucharest,ds005169_sidecar,InstitutionName,2026-11-14,script,current,
 ds005169/size_gb_reported/01,ds005169,size_gb_reported,4.03,ds005169_record,Size: 4.03GB,2026-11-14,script,current,
+ds005169/tasks:dcs.paradigms/01,ds005169,tasks:dcs.paradigms,other,ds005169_doc82be3b,"""TaskDescription"": ""Direct cortical stimulation evoking visual effects""",2026-11-15,claude,current,
 ds005169/tasks:dcs.task_name/01,ds005169,tasks:dcs.task_name,dcs,ds005169_record,Tasks: dcs,2026-11-14,script,current,
 ds005170/access_routes:nemar.access_method/01,ds005170,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005170/access_routes:nemar.automation_tool/01,ds005170,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -7353,12 +7417,16 @@ ds005170/access_routes:nemar.human_steps/01,ds005170,access_routes:nemar.human_s
 ds005170/access_routes:openneuro.access_method/01,ds005170,access_routes:openneuro.access_method,site_terms_agreement,ds005170_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005170/access_routes:openneuro.automation_tool/01,ds005170,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005170_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005170/access_routes:openneuro.human_steps/01,ds005170,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005170_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds005170/domains/01,ds005170,domains,bci;cognitive,ds005170_doc19c23c,Chinese imagined speech dataset,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005170/is_bids/01,ds005170,is_bids,true,ds005170_record,dataset_description.json BIDSVersion 1.6.0,2026-11-14,script,current,
 ds005170/license_spdx/01,ds005170,license_spdx,CC0-1.0,ds005170_record,License: CC0,2026-11-14,script,current,
 ds005170/modalities/01,ds005170,modalities,scalp_eeg,ds005170_record,Available Modalities: eeg,2026-11-14,script,current,
 ds005170/n_subjects_reported/01,ds005170,n_subjects_reported,5,ds005170_record,Participants 5,2026-11-14,script,current,
+ds005170/n_subjects_reported/02,ds005170,n_subjects_reported,5,ds005170_doc19c23c,This dataset is a Chinese imagined speech dataset with five participants,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005170/name/01,ds005170,name,Chisco,ds005170_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005170/size_gb_reported/01,ds005170,size_gb_reported,90.73,ds005170_record,Size: 90.73GB,2026-11-14,script,current,
+ds005170/tasks:imagine.paradigms/01,ds005170,tasks:imagine.paradigms,imagined_speech,ds005170_doc19c23c,This dataset is a Chinese imagined speech dataset,2026-11-15,claude,current,
+ds005170/tasks:imagine.task_name/01,ds005170,tasks:imagine.task_name,imagine,ds005170_doc19c23c,This dataset is a Chinese imagined speech dataset,2026-11-15,claude,current,
 ds005178/access_routes:nemar.access_method/01,ds005178,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005178/access_routes:nemar.automation_tool/01,ds005178,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 ds005178/access_routes:nemar.human_steps/01,ds005178,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
@@ -7366,38 +7434,59 @@ ds005178/access_routes:openneuro.access_method/01,ds005178,access_routes:openneu
 ds005178/access_routes:openneuro.automation_tool/01,ds005178,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005178_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005178/access_routes:openneuro.human_steps/01,ds005178,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005178_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005178/acquisition_setups:main.line_freq_hz/01,ds005178,acquisition_setups:main.line_freq_hz,50,ds005178_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005178/acquisition_setups:main.line_freq_hz/02,ds005178,acquisition_setups:main.line_freq_hz,50,ds005178_docb26d56,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005178/acquisition_setups:main.montage_system/01,ds005178,acquisition_setups:main.montage_system,10_20,ds005178_sidecar,EEGPlacementScheme: 10/20,2026-11-14,script,current,
 ds005178/acquisition_setups:main.reference/01,ds005178,acquisition_setups:main.reference,average,ds005178_sidecar,EEGReference,2026-11-14,script,current,
+ds005178/acquisition_setups:main.reference/02,ds005178,acquisition_setups:main.reference,average,ds005178_docb26d56,"""EEGReference"": ""average""",2026-11-15,claude,current,Audit reviewer; scope: sub-001 ses-001 psg sidecar
 ds005178/acquisition_setups:main.sampling_rate_hz/01,ds005178,acquisition_setups:main.sampling_rate_hz,250,ds005178_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005178/acquisition_setups:main.sampling_rate_hz/02,ds005178,acquisition_setups:main.sampling_rate_hz,250,ds005178_docb26d56,"""SamplingFrequency"": 250",2026-11-15,claude,current,Audit reviewer; scope: sub-001 ses-001 psg sidecar
+ds005178/domains/01,ds005178,domains,sleep,ds005178_doc927650,Ear-EEG Sleep Monitoring 2023 (EESM23) data set,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005178/is_bids/01,ds005178,is_bids,true,ds005178_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds005178/license_spdx/01,ds005178,license_spdx,CC0-1.0,ds005178_record,License: CC0,2026-11-14,script,current,
-ds005178/modalities/01,ds005178,modalities,scalp_eeg,ds005178_record,Available Modalities: eeg,2026-11-14,script,current,
+ds005178/modalities/01,ds005178,modalities,scalp_eeg,ds005178_record,Available Modalities: eeg,2026-11-14,script,superseded,superseded by ds005178/modalities/02
+ds005178/modalities/02,ds005178,modalities,ear_eeg;psg,ds005178_doc927650,The first two recordings consist of polysomnogrpahy (PSG) measurements and ear-EEG measurements.,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds005178/n_subjects_reported/01,ds005178,n_subjects_reported,10,ds005178_record,Participants 10,2026-11-14,script,current,
+ds005178/n_subjects_reported/02,ds005178,n_subjects_reported,10,ds005178_doc927650,The data set contains nightly EEG recordings from 10 healthy participants,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005178/name/01,ds005178,name,Ear-EEG Sleep Monitoring 2023 (EESM23),ds005178_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds005178/participant_groups:participants.condition/01,ds005178,participant_groups:participants.condition,healthy,ds005178_doc927650,nightly EEG recordings from 10 healthy participants,2026-11-15,claude,current,
+ds005178/participant_groups:participants.n_subjects/01,ds005178,participant_groups:participants.n_subjects,10,ds005178_doc927650,nightly EEG recordings from 10 healthy participants,2026-11-15,claude,current,
 ds005178/provider_ids/01,ds005178,provider_ids,aarhus_university,ds005178_sidecar,InstitutionName,2026-11-14,script,current,
 ds005178/size_gb_reported/01,ds005178,size_gb_reported,25.74,ds005178_record,Size: 25.74GB,2026-11-14,script,current,
 ds005178/tasks:sleep.paradigms/01,ds005178,tasks:sleep.paradigms,sleep,ds005178_record,Task name: sleep,2026-11-14,script,current,
 ds005178/tasks:sleep.task_name/01,ds005178,tasks:sleep.task_name,sleep,ds005178_record,Tasks: sleep,2026-11-14,script,current,
+ds005178/tasks:video.paradigms/01,ds005178,tasks:video.paradigms,other,ds005178_doc927650,These recordings are labeled with 'video' as task.,2026-11-15,claude,current,
+ds005178/tasks:video.task_name/01,ds005178,tasks:video.task_name,video,ds005178_doc927650,These recordings are labeled with 'video' as task.,2026-11-15,claude,current,
 ds005185/access_routes:nemar.access_method/01,ds005185,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005185/access_routes:nemar.automation_tool/01,ds005185,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 ds005185/access_routes:nemar.human_steps/01,ds005185,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
 ds005185/access_routes:openneuro.access_method/01,ds005185,access_routes:openneuro.access_method,site_terms_agreement,ds005185_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005185/access_routes:openneuro.automation_tool/01,ds005185,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005185_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005185/access_routes:openneuro.human_steps/01,ds005185,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005185_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds005185/acquisition_setups:main.electrode_type/01,ds005185,acquisition_setups:main.electrode_type,dry,ds005185_doc40d8a9,"used dry electrodes, which is a significantly more realistic technology for home use",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005185/acquisition_setups:main.line_freq_hz/01,ds005185,acquisition_setups:main.line_freq_hz,50,ds005185_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005185/acquisition_setups:main.line_freq_hz/02,ds005185,acquisition_setups:main.line_freq_hz,50,ds005185_doc0146ab,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005185/acquisition_setups:main.n_channels_eeg/01,ds005185,acquisition_setups:main.n_channels_eeg,8,ds005185_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005185/acquisition_setups:main.n_channels_eeg/02,ds005185,acquisition_setups:main.n_channels_eeg,8,ds005185_doc0146ab,"""EEGChannelCount"": 8",2026-11-15,claude,current,Audit reviewer; scope: task-assr sidecar
 ds005185/acquisition_setups:main.reference/01,ds005185,acquisition_setups:main.reference,common,ds005185_sidecar,EEGReference,2026-11-14,script,current,
+ds005185/acquisition_setups:main.reference/02,ds005185,acquisition_setups:main.reference,common,ds005185_doc0146ab,"""EEGReference"": ""common""",2026-11-15,claude,current,Audit reviewer; scope: task-assr sidecar
 ds005185/acquisition_setups:main.sampling_rate_hz/01,ds005185,acquisition_setups:main.sampling_rate_hz,500,ds005185_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005185/acquisition_setups:main.sampling_rate_hz/02,ds005185,acquisition_setups:main.sampling_rate_hz,500,ds005185_doc0146ab,"""SamplingFrequency"": 500",2026-11-15,claude,current,Audit reviewer; scope: task-assr sidecar
+ds005185/domains/01,ds005185,domains,sleep,ds005185_doca72b87,Ear-EEG Sleep Monitoring data set,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005185/is_bids/01,ds005185,is_bids,true,ds005185_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005185/license_spdx/01,ds005185,license_spdx,CC0-1.0,ds005185_record,License: CC0,2026-11-14,script,current,
-ds005185/modalities/01,ds005185,modalities,scalp_eeg,ds005185_record,Available Modalities: eeg,2026-11-14,script,current,
+ds005185/modalities/01,ds005185,modalities,scalp_eeg,ds005185_record,Available Modalities: eeg,2026-11-14,script,superseded,superseded by ds005185/modalities/02
+ds005185/modalities/02,ds005185,modalities,ear_eeg;scalp_eeg;eog;emg,ds005185_doca72b87,"partial PSG (EEG, EOG and chin EMG electrodes), ear-EEG",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds005185/n_subjects_reported/01,ds005185,n_subjects_reported,20,ds005185_record,Participants 20,2026-11-14,script,current,
+ds005185/n_subjects_reported/02,ds005185,n_subjects_reported,20,ds005185_doca72b87,20 subjects who each spent 4 nights sleeping with a partial PSG,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005185/name/01,ds005185,name,Ear-EEG Sleep Monitoring 2019 (EESM19),ds005185_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005185/size_gb_reported/01,ds005185,size_gb_reported,267.6,ds005185_record,Size: 267.6GB,2026-11-14,script,current,
 ds005185/tasks:acti.task_name/01,ds005185,tasks:acti.task_name,acti,ds005185_record,Tasks: acti,2026-11-14,script,current,
+ds005185/tasks:assr.paradigms/01,ds005185,tasks:assr.paradigms,auditory_erp,ds005185_doc0146ab,Auditory Steady State Response: 40 Hz amplitude modulated noise,2026-11-15,claude,current,
 ds005185/tasks:assr.task_name/01,ds005185,tasks:assr.task_name,ASSR,ds005185_record,Tasks: ASSR,2026-11-14,script,current,
 ds005185/tasks:comfort.task_name/01,ds005185,tasks:comfort.task_name,comfort,ds005185_record,Tasks: comfort,2026-11-14,script,current,
 ds005185/tasks:electrodetestlab.task_name/01,ds005185,tasks:electrodetestlab.task_name,electrodeTestLab,ds005185_record,Tasks: electrodeTestLab,2026-11-14,script,current,
+ds005185/tasks:sleep_psg_ear_eeg_nights.paradigms/01,ds005185,tasks:sleep_psg_ear_eeg_nights.paradigms,sleep,ds005185_doca72b87,Each night is saved as a separate ‘session’,2026-11-15,claude,current,
+ds005185/tasks:sleep_psg_ear_eeg_nights.task_name/01,ds005185,tasks:sleep_psg_ear_eeg_nights.task_name,sleep (PSG + ear-EEG nights),ds005185_doca72b87,Each night is saved as a separate ‘session’,2026-11-15,claude,current,
 ds005189/access_routes:nemar.access_method/01,ds005189,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005189/access_routes:nemar.automation_tool/01,ds005189,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 ds005189/access_routes:nemar.human_steps/01,ds005189,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
@@ -7405,19 +7494,29 @@ ds005189/access_routes:openneuro.access_method/01,ds005189,access_routes:openneu
 ds005189/access_routes:openneuro.automation_tool/01,ds005189,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005189_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005189/access_routes:openneuro.human_steps/01,ds005189,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005189_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005189/acquisition_setups:main.device_manufacturer/01,ds005189,acquisition_setups:main.device_manufacturer,Brain Products,ds005189_sidecar,Manufacturer,2026-11-14,script,current,
+ds005189/acquisition_setups:main.device_manufacturer/02,ds005189,acquisition_setups:main.device_manufacturer,Brain Products,ds005189_docee7cca,"""Manufacturer"": ""Brain Products""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005189/acquisition_setups:main.device_model/01,ds005189,acquisition_setups:main.device_model,actiCHamp,ds005189_sidecar,ManufacturersModelName,2026-11-14,script,current,
+ds005189/acquisition_setups:main.device_model/02,ds005189,acquisition_setups:main.device_model,actiCHamp,ds005189_docee7cca,"""ManufacturersModelName"": ""actiCHamp""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005189/acquisition_setups:main.ground/01,ds005189,acquisition_setups:main.ground,FPz,ds005189_sidecar,EEGGround,2026-11-14,script,current,
 ds005189/acquisition_setups:main.line_freq_hz/01,ds005189,acquisition_setups:main.line_freq_hz,50,ds005189_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005189/acquisition_setups:main.line_freq_hz/02,ds005189,acquisition_setups:main.line_freq_hz,50,ds005189_docee7cca,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005189/acquisition_setups:main.n_channels_eeg/01,ds005189,acquisition_setups:main.n_channels_eeg,61,ds005189_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005189/acquisition_setups:main.n_channels_eeg/02,ds005189,acquisition_setups:main.n_channels_eeg,61,ds005189_docee7cca,"""EEGChannelCount"": 61",2026-11-15,claude,current,Audit reviewer; scope: sub-30 sidecar
 ds005189/acquisition_setups:main.reference/01,ds005189,acquisition_setups:main.reference,"Contralateral mastoids (TP9, TP10)",ds005189_sidecar,EEGReference,2026-11-14,script,current,
+ds005189/acquisition_setups:main.reference/02,ds005189,acquisition_setups:main.reference,"Contralateral mastoids (TP9, TP10)",ds005189_docee7cca,"""EEGReference"": ""Contralateral mastoids (TP9, TP10)""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005189/acquisition_setups:main.sampling_rate_hz/01,ds005189,acquisition_setups:main.sampling_rate_hz,1000,ds005189_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005189/acquisition_setups:main.sampling_rate_hz/02,ds005189,acquisition_setups:main.sampling_rate_hz,1000,ds005189_docee7cca,"""SamplingFrequency"": 1000",2026-11-15,claude,current,Audit reviewer; scope: not given
+ds005189/domains/01,ds005189,domains,cognitive,ds005189_doc88fc3c,recognition memory,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005189/is_bids/01,ds005189,is_bids,true,ds005189_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds005189/license_spdx/01,ds005189,license_spdx,CC0-1.0,ds005189_record,License: CC0,2026-11-14,script,current,
-ds005189/modalities/01,ds005189,modalities,scalp_eeg,ds005189_record,"Available Modalities: beh, eeg",2026-11-14,script,current,
+ds005189/modalities/01,ds005189,modalities,scalp_eeg,ds005189_record,"Available Modalities: beh, eeg",2026-11-14,script,superseded,superseded by ds005189/modalities/02
+ds005189/modalities/02,ds005189,modalities,scalp_eeg;eye_tracking,ds005189_doc88fc3c,We recorded both EEG and eye movements.,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds005189/n_subjects_reported/01,ds005189,n_subjects_reported,30,ds005189_record,Participants 30,2026-11-14,script,current,
+ds005189/n_subjects_reported/02,ds005189,n_subjects_reported,30,ds005189_doc88fc3c,"In an EEG study with eye tracking, 30 participants searched for objects in scenes",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005189/name/01,ds005189,name,Search Superiority Recollection Familiarity,ds005189_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds005189/provider_ids/01,ds005189,provider_ids,scene_grammar_lab_goethe_university_frankfurt,ds005189_sidecar,InstitutionName,2026-11-14,script,current,
 ds005189/size_gb_reported/01,ds005189,size_gb_reported,16.72,ds005189_record,Size: 16.72GB,2026-11-14,script,current,
+ds005189/tasks:searchsuprecfam.paradigms/01,ds005189,tasks:searchsuprecfam.paradigms,cognitive_task,ds005189_doc88fc3c,participants searched for objects in some scenes and intentionally memorized others,2026-11-15,claude,current,
 ds005189/tasks:searchsuprecfam.task_name/01,ds005189,tasks:searchsuprecfam.task_name,SearchSupRecFam,ds005189_record,Tasks: SearchSupRecFam,2026-11-14,script,current,
 ds005207/access_routes:nemar.access_method/01,ds005207,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005207/access_routes:nemar.automation_tool/01,ds005207,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -7426,15 +7525,24 @@ ds005207/access_routes:openneuro.access_method/01,ds005207,access_routes:openneu
 ds005207/access_routes:openneuro.automation_tool/01,ds005207,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005207_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005207/access_routes:openneuro.human_steps/01,ds005207,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005207_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005207/acquisition_setups:main.line_freq_hz/01,ds005207,acquisition_setups:main.line_freq_hz,50,ds005207_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005207/acquisition_setups:main.line_freq_hz/02,ds005207,acquisition_setups:main.line_freq_hz,50,ds005207_doc63b7a7,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005207/acquisition_setups:main.montage_system/01,ds005207,acquisition_setups:main.montage_system,10_20,ds005207_sidecar,EEGPlacementScheme: 10/20,2026-11-14,script,current,
 ds005207/acquisition_setups:main.n_channels_eeg/01,ds005207,acquisition_setups:main.n_channels_eeg,6,ds005207_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005207/acquisition_setups:main.n_channels_eeg/02,ds005207,acquisition_setups:main.n_channels_eeg,6,ds005207_doc63b7a7,"""EEGChannelCount"": 6",2026-11-15,claude,current,Audit reviewer; scope: sub-001 ses-001 psg sidecar
 ds005207/acquisition_setups:main.reference/01,ds005207,acquisition_setups:main.reference,"A1, A2",ds005207_sidecar,EEGReference,2026-11-14,script,current,
+ds005207/acquisition_setups:main.reference/02,ds005207,acquisition_setups:main.reference,"A1, A2",ds005207_doc63b7a7,"""EEGReference"": ""A1, A2""",2026-11-15,claude,current,Audit reviewer; scope: psg sidecar
 ds005207/acquisition_setups:main.sampling_rate_hz/01,ds005207,acquisition_setups:main.sampling_rate_hz,128,ds005207_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005207/acquisition_setups:main.sampling_rate_hz/02,ds005207,acquisition_setups:main.sampling_rate_hz,128,ds005207_doc63b7a7,"""SamplingFrequency"": 128",2026-11-15,claude,current,Audit reviewer; scope: sub-001 ses-001 psg sidecar
+ds005207/domains/01,ds005207,domains,sleep,ds005207_doc55007e,wearable sleep monitoring,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005207/is_bids/01,ds005207,is_bids,true,ds005207_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005207/license_spdx/01,ds005207,license_spdx,CC0-1.0,ds005207_record,License: CC0,2026-11-14,script,current,
-ds005207/modalities/01,ds005207,modalities,scalp_eeg,ds005207_record,Available Modalities: eeg,2026-11-14,script,current,
+ds005207/modalities/01,ds005207,modalities,scalp_eeg,ds005207_record,Available Modalities: eeg,2026-11-14,script,superseded,superseded by ds005207/modalities/02
+ds005207/modalities/02,ds005207,modalities,ear_eeg;psg,ds005207_doc55007e,"Some recordings are full polysomnography (PSG) measurements, others are cEEGrid measurements.",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds005207/n_subjects_reported/01,ds005207,n_subjects_reported,20,ds005207_record,Participants 20,2026-11-14,script,current,
+ds005207/n_subjects_reported/02,ds005207,n_subjects_reported,20,ds005207_doc55007e,The data set contains nightly EEG recordings from 20 healthy participants,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005207/name/01,ds005207,name,Surrey cEEGrid sleep data set,ds005207_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds005207/participant_groups:participants.condition/01,ds005207,participant_groups:participants.condition,healthy,ds005207_doc55007e,nightly EEG recordings from 20 healthy participants,2026-11-15,claude,current,
+ds005207/participant_groups:participants.n_subjects/01,ds005207,participant_groups:participants.n_subjects,20,ds005207_doc55007e,nightly EEG recordings from 20 healthy participants,2026-11-15,claude,current,
 ds005207/provider_ids/01,ds005207,provider_ids,university_of_oxford,ds005207_sidecar,InstitutionName,2026-11-14,script,current,
 ds005207/size_gb_reported/01,ds005207,size_gb_reported,28.52,ds005207_record,Size: 28.52GB,2026-11-14,script,current,
 ds005207/tasks:sleep.paradigms/01,ds005207,tasks:sleep.paradigms,sleep,ds005207_record,Task name: Sleep,2026-11-14,script,current,
@@ -7445,12 +7553,19 @@ ds005262/access_routes:nemar.human_steps/01,ds005262,access_routes:nemar.human_s
 ds005262/access_routes:openneuro.access_method/01,ds005262,access_routes:openneuro.access_method,site_terms_agreement,ds005262_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005262/access_routes:openneuro.automation_tool/01,ds005262,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005262_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005262/access_routes:openneuro.human_steps/01,ds005262,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005262_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds005262/domains/01,ds005262,domains,bci,ds005262_docd7c178,Inner Speech EEG recordings,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005262/is_bids/01,ds005262,is_bids,true,ds005262_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds005262/license_spdx/01,ds005262,license_spdx,CC0-1.0,ds005262_record,License: CC0,2026-11-14,script,current,
 ds005262/modalities/01,ds005262,modalities,scalp_eeg,ds005262_record,Available Modalities: eeg,2026-11-14,script,current,
 ds005262/n_subjects_reported/01,ds005262,n_subjects_reported,12,ds005262_record,Participants 12,2026-11-14,script,current,
+ds005262/n_subjects_reported/02,ds005262,n_subjects_reported,12,ds005262_docd7c178,"Inner Speech EEG recordings from 12 subjects, 7 males and 5 females",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005262/name/01,ds005262,name,ArEEG: Arabic Inner Speech EEG dataset,ds005262_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds005262/participant_groups:subjects.n_female/01,ds005262,participant_groups:subjects.n_female,5,ds005262_docd7c178,"12 subjects, 7 males and 5 females",2026-11-15,claude,current,
+ds005262/participant_groups:subjects.n_male/01,ds005262,participant_groups:subjects.n_male,7,ds005262_docd7c178,"12 subjects, 7 males and 5 females",2026-11-15,claude,current,
+ds005262/participant_groups:subjects.n_subjects/01,ds005262,participant_groups:subjects.n_subjects,12,ds005262_docd7c178,"12 subjects, 7 males and 5 females",2026-11-15,claude,current,
 ds005262/size_gb_reported/01,ds005262,size_gb_reported,0.67,ds005262_record,Size: 0.67GB,2026-11-14,script,current,
+ds005262/tasks:inner_speech.paradigms/01,ds005262,tasks:inner_speech.paradigms,imagined_speech,ds005262_docd7c178,"Inner Speech EEG recordings from 12 subjects, 7 males and 5 females with visual cues written in Modern Standard Arabic",2026-11-15,claude,current,
+ds005262/tasks:inner_speech.task_name/01,ds005262,tasks:inner_speech.task_name,inner speech,ds005262_docd7c178,"Inner Speech EEG recordings from 12 subjects, 7 males and 5 females with visual cues written in Modern Standard Arabic",2026-11-15,claude,current,
 ds005262/tasks:main.paradigms/01,ds005262,tasks:main.paradigms,imagined_speech,ds005262_record,Dataset name: Inner Speech,2026-11-14,script,current,
 ds005273/access_routes:nemar.access_method/01,ds005273,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds005273/access_routes:nemar.automation_tool/01,ds005273,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -7459,9 +7574,13 @@ ds005273/access_routes:openneuro.access_method/01,ds005273,access_routes:openneu
 ds005273/access_routes:openneuro.automation_tool/01,ds005273,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005273_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005273/access_routes:openneuro.human_steps/01,ds005273,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005273_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005273/acquisition_setups:main.device_manufacturer/01,ds005273,acquisition_setups:main.device_manufacturer,Brain Products,ds005273_sidecar,Manufacturer,2026-11-14,script,current,
+ds005273/acquisition_setups:main.device_manufacturer/02,ds005273,acquisition_setups:main.device_manufacturer,Brain Products,ds005273_doc156da8,"""Manufacturer"": ""Brain Products""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005273/acquisition_setups:main.line_freq_hz/01,ds005273,acquisition_setups:main.line_freq_hz,50,ds005273_sidecar,PowerLineFrequency,2026-11-14,script,current,
+ds005273/acquisition_setups:main.line_freq_hz/02,ds005273,acquisition_setups:main.line_freq_hz,50,ds005273_doc156da8,"""PowerLineFrequency"": 50.0",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005273/acquisition_setups:main.n_channels_eeg/01,ds005273,acquisition_setups:main.n_channels_eeg,63,ds005273_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005273/acquisition_setups:main.n_channels_eeg/02,ds005273,acquisition_setups:main.n_channels_eeg,63,ds005273_doc156da8,"""EEGChannelCount"": 63",2026-11-15,claude,current,Audit reviewer; scope: sub-10 task-1 sidecar
 ds005273/acquisition_setups:main.sampling_rate_hz/01,ds005273,acquisition_setups:main.sampling_rate_hz,1000,ds005273_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005273/acquisition_setups:main.sampling_rate_hz/02,ds005273,acquisition_setups:main.sampling_rate_hz,1000,ds005273_doc156da8,"""SamplingFrequency"": 1000.0",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005273/is_bids/01,ds005273,is_bids,true,ds005273_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005273/license_spdx/01,ds005273,license_spdx,CC0-1.0,ds005273_record,License: CC0,2026-11-14,script,current,
 ds005273/modalities/01,ds005273,modalities,scalp_eeg,ds005273_record,Available Modalities: eeg,2026-11-14,script,current,

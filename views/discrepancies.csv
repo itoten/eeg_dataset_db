@@ -285,6 +285,8 @@ ds004980,acquisition_setups:main.sampling_rate_hz,conflicting,499.991,secondary,
 ds004980,acquisition_setups:main.sampling_rate_hz,conflicting,499.9914553,primary,https://s3.amazonaws.com/openneuro.org/ds004980/sub-1/eeg/sub-1_task-DefaultTask_eeg.json?versionId=PR.a2763tk.XNYCgLKGXdifALOaXS2Rg,
 ds005087,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds005087/task-rsvp_eeg.json?versionId=iIn0JKtRl8wo2hgC.fr3AdVKgn.NM0u0,
 ds005087,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC11691691/,Audit reviewer; scope: whole dataset
+ds005169,n_subjects_reported,conflicting,20,primary,https://openneuro.org/datasets/ds005169/versions/1.0.0,
+ds005169,n_subjects_reported,conflicting,22,secondary,https://s3.amazonaws.com/openneuro.org/ds005169/README,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
