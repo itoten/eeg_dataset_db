@@ -3957,6 +3957,15 @@ zenodo_21687238,scrambled_background_and_average_face_ba,Scrambled-background an
 zenodo_21709854,resting_state_eeg_eyes_open_and_eyes_clo,"resting-state EEG, eyes-open and eyes-closed",resting_eyes_closed;resting_eyes_open,,,,,,,,
 zenodo_21715567,socio_cognitive_inference_tasks_during_c,socio-cognitive inference tasks during cerebellar gamma HD-tACS,cognitive_task,,,,,,,,
 zenodo_21754263,cued_and_uncued_music_imagery_openmiir,cued and uncued music imagery (OpenMIIR),other,,,,,,,,
+zenodo_21838549,reversing_checkerboard_sitting_and_walki,reversing checkerboard (sitting and walking),visual_erp,,,,,,,,
+zenodo_21838549,visuomotor_mismatch_in_virtual_corridor,visuomotor mismatch in virtual corridor,other,,,,,,,,
+zenodo_21851415,guofeng_art_toy_image_viewing,Guofeng art toy image viewing,passive_viewing,,,,,,,,
+zenodo_21852594,continuous_treadmill_walking,continuous treadmill walking,other,,,,,,,,
+zenodo_21932327,cued_perceptual_discrimination_task_with,cued perceptual discrimination task with response flips,cognitive_task,,,,,,,,
+zenodo_21957788,viewing_still_ads_functional_emotional_m,"viewing still ads (functional, emotional, metaphorical)",passive_viewing,,,,,,,,
+zenodo_22003613,sentence_level_imagined_speech_arabic,sentence-level imagined speech (Arabic),imagined_speech,,,,,,,,
+zenodo_22110518,motorimagery,motorimagery,motor_imagery,,,,,,,,
+zenodo_22110518,restpre_restpost,restpre / restpost,resting_eyes_open,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
