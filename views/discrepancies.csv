@@ -234,6 +234,16 @@ ds004475,acquisition_setups:main.device_model,conflicting,Active Two,primary,htt
 ds004475,acquisition_setups:main.device_model,conflicting,ActiveTwo,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10528133/,Audit reviewer; scope: not given
 ds004477,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004477/README,Audit reviewer; scope: not given
 ds004477,acquisition_setups:main.n_channels_eeg,conflicting,79,primary,https://s3.amazonaws.com/openneuro.org/ds004477/sub-001/eeg/sub-001_task-PES_eeg.json?versionId=VXmlmz8VC.MXtehn3XHrzWa2Ze1U06VM,
+ds004511,n_subjects_reported,conflicting,44,secondary,https://s3.amazonaws.com/openneuro.org/ds004511/README,Audit reviewer; scope: not given
+ds004511,n_subjects_reported,conflicting,45,secondary,https://openneuro.org/datasets/ds004511/versions/1.0.2,
+ds004514,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://s3.amazonaws.com/openneuro.org/ds004514/README,Audit reviewer; scope: not given
+ds004514,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,primary,https://s3.amazonaws.com/openneuro.org/ds004514/sub-01/eeg/sub-01_task-eeg_eeg.json?versionId=B_4M3_FSI_Wf9H6fylObbU2qs6ZAQfAi,
+ds004517,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://s3.amazonaws.com/openneuro.org/ds004517/README,Audit reviewer; scope: not given
+ds004517,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,primary,https://s3.amazonaws.com/openneuro.org/ds004517/sub-01/eeg/sub-01_task-eeg_eeg.json?versionId=zy97bddOshYNT8uhNFvQXGGYA75u8PTZ,
+ds004563,acquisition_setups:main.device_manufacturer,conflicting,BIOSEMI,primary,https://s3.amazonaws.com/openneuro.org/ds004563/sub-40/ses-03/eeg/sub-40_ses-03_task-touchdecoding_eeg.json?versionId=y2_XCSuoZTapfQWr4Edsp6XkOHRyWd4K,
+ds004563,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,secondary,https://s3.amazonaws.com/openneuro.org/ds004563/README,Audit reviewer; scope: not given
+ds004572,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,secondary,https://s3.amazonaws.com/openneuro.org/ds004572/README,Audit reviewer; scope: not given
+ds004572,acquisition_setups:main.device_manufacturer,conflicting,Elekta,primary,https://s3.amazonaws.com/openneuro.org/ds004572/sub-20/ses-01/eeg/sub-20_ses-01_task-baseline1_eeg.json?versionId=HxlUIOqifTKN5i54DUgio7lyd7hT9mFR,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004574/sub-001/eeg/sub-001_task-Oddball_eeg.json?versionId=Ab5RNBhpIMDrjXkMhMZPSZheoa46Lhq0,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004574/README,Audit reviewer; scope: not given
 ds004579,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004579/sub-001/eeg/sub-001_task-IntervalTiming_eeg.json?versionId=t2OsC3KDFjAMAm9gy0G.5ImsoyjGIs9B,
