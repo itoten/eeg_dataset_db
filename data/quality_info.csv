@@ -227,6 +227,8 @@ ds007114,1,recording_notes,events from 2:29 should be erased,sidecar field Subje
 ds007175,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007175_channels,header row,2026-11-14,script,
 ds007176,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007176_channels,header row,2026-11-14,script,
 ds007180,1,recording_notes,Blinks and sporadic eye movements; no prolonged episodes.,sidecar field SubjectArtefactDescription,ds007180_sidecar,SubjectArtefactDescription,2026-11-14,script,
+ds007216,1,impedance_threshold,"impedance kept below 20kOhms, measured at set-up and inside scanner",stated in the document,ds007216_doc6b05d2,Electrode impedance was kept below 20kOhms and measured twice,2026-11-16,claude,
+ds007222,1,recording_notes,missing data notes: one subject missing part of noise sensor array,stated in the document,ds007222_doc8e1a40,One subject is missing part of their noise sensor array.,2026-11-16,claude,
 ds007338,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007338_channels,header row,2026-11-14,script,
 ds007353,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007353_channels,header row,2026-11-14,script,
 ds007427,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007427_channels,header row,2026-11-14,script,

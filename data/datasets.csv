@@ -496,21 +496,21 @@ ds007137,PURSUE N2pc Visual Search,,scalp_eeg,,,,CC0-1.0,,,,,,true,,294,,,,12.24
 ds007139,PURSUE LRP/ERN Flanker,,scalp_eeg,,mt_holyoke_college_university_of_richmond_claremon_139,,CC0-1.0,,,,,,true,,292,,,,14.53,,,,,,direct_download,open,29,500,10_20,Brain Vision actiCHamp,,,2026-11-16
 ds007162,Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG),,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,60.85,,,,,,direct_download,open,63,1000,10_20,Brain Products actiCHamp,passive_viewing,,2026-11-16
 ds007169,"Multimodal Cognitive Workload n-back Task, 4 Difficulties",,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,0.41,,,,,,direct_download,open,19,250,10_20,io:bio io:bio mobile EEG system,cognitive_task,,2026-11-16
-ds007172,EEG-Asymmetries Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,100,,,,11.04,,,,,,direct_download,open,32,500,10_20,Brain Products,resting_unspecified,,2026-11-14
-ds007175,FFR-active-listening,,scalp_eeg,,,,CC0-1.0,,,,,,true,,41,,,,200.43,,,,,,direct_download,open,64,5000,,BrainProducts,,,2026-11-14
-ds007176,Longitudinal EEG Test-Retest Reliability in Healthy Individuals,,scalp_eeg,,,,CC0-1.0,,,,,,true,,45,,,,21.06,,,,,,direct_download,open,,1000,10_20,Neuroscan,,,2026-11-14
-ds007180,Exo-EEG Experiment,,scalp_eeg,,university_of_granada,,CC0-1.0,,,,,,true,,25,,,,14.67,,,,,,direct_download,open,63,500,10_20,Brain Products BrainAmp,,,2026-11-14
-ds007181,"Structural MRI, Resting-state fMRI, and PSG/EEG Dataset of Zoster-associated Neuralgia",,scalp_eeg,,,,CC0-1.0,,,,,,true,,66,,,,59.15,,,,,,direct_download,open,,,,,resting_unspecified;sleep,,2026-11-14
-ds007216,A multi-session simultaneous EEG-fMRI dataset with online experience sampling,,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,104.7,,,,,,direct_download,open,31,5000,10_20,Brain Products,,,2026-11-14
-ds007221,Cross-Environment Multi-Paradigm Motor Imagery EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,84,,,,124.78,,,,,,direct_download,open,69,1000,,Brain Products,,,2026-11-14
-ds007222,Visual Occlusions with Treadmill Walking Speeds EEG,,scalp_eeg,,univesity_of_florida_gainesville,,CC0-1.0,,,,,,true,,15,,,,3.31,,,,,,direct_download,open,120,500,,,,,2026-11-14
-ds007262,Cognitive Workload 8-level arithmetic,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,0.37,,,,,,direct_download,open,19,250,10_20,io:bio io:bio mobile EEG system,,,2026-11-14
-ds007314,tACS for Patients with Post-Stroke Anomia,,scalp_eeg,,,,CC0-1.0,,,,,,true,,2,,,,1.09,,,,,,direct_download,open,,500,,,,,2026-11-14
-ds007315,tACS for Patients with Post-Stroke Anomia,,scalp_eeg,,,,CC0-1.0,,,,,,true,,2,,,,1.09,,,,,,direct_download,open,,500,,,,,2026-11-14
-ds007322,Personalized smartphone notifications bias auditory salience across processing stages,,scalp_eeg,,,,CC0-1.0,,,,,,true,,57,,,,42.51,,,,,,direct_download,open,64,1000,10_20,Brain Products,,,2026-11-14
-ds007327,Basketball Motor Imagery EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,35,,,,54.18,,,,,,direct_download,open,,,,,,,2026-11-14
-ds007338,EEGEyeNet Dataset,,scalp_eeg,,the_university_of_zurich,,CC0-1.0,,,,,,true,,1,,,,0.04,,,,,,direct_download,open,129,500,,Magstim EGI Net Amps,,,2026-11-14
-ds007347,Sterotactic Focused Ultrasound Mesencephalotomy for the Treatment of Head and Neck Cancer Pain,,scalp_eeg,,,,CC0-1.0,,,,,,true,,5,,,,1.65,,,,,,direct_download,open,48,256,,,resting_unspecified,,2026-11-14
+ds007172,EEG-Asymmetries Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,100,,,,11.04,,,,,,direct_download,open,32,500,10_20,Brain Products,cognitive_task;resting_eyes_closed;resting_eyes_open;resting_unspecified,,2026-11-16
+ds007175,FFR-active-listening,,scalp_eeg,,,,CC0-1.0,,,,,,true,,41,,,,200.43,,,,,,direct_download,open,64,5000,,BrainProducts,,,2026-11-16
+ds007176,Longitudinal EEG Test-Retest Reliability in Healthy Individuals,,scalp_eeg,,,,CC0-1.0,,,,,,true,,45,,,,21.06,,,,,,direct_download,open,,1000,10_20,Neuroscan,,,2026-11-16
+ds007180,Exo-EEG Experiment,,scalp_eeg,,university_of_granada,,CC0-1.0,,,,,,true,,25,,,,14.67,,,,,,direct_download,open,63,500,10_20,Brain Products BrainAmp,cognitive_task,,2026-11-16
+ds007181,"Structural MRI, Resting-state fMRI, and PSG/EEG Dataset of Zoster-associated Neuralgia",,fmri;psg,,,,CC0-1.0,,,,,,true,,66,,,,59.15,,,,,,direct_download,open,,,,,resting_unspecified;sleep,,2026-11-16
+ds007216,A multi-session simultaneous EEG-fMRI dataset with online experience sampling,,scalp_eeg;fmri;ecg,,,,CC0-1.0,,,,,,true,,24,,,,104.7,,,,,,direct_download,open,31,5000,10_20,Brain Products BrainAmp MRPlus,cognitive_task;resting_unspecified,,2026-11-16
+ds007221,Cross-Environment Multi-Paradigm Motor Imagery EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,84,,,,124.78,,,,,,direct_download,open,69,1000,,Brain Products,motor_imagery,,2026-11-16
+ds007222,Visual Occlusions with Treadmill Walking Speeds EEG,,scalp_eeg;emg,,univesity_of_florida_gainesville,,CC0-1.0,,,,,,true,,15,,,,3.31,,,,,,direct_download,open,120,500,,,other,,2026-11-16
+ds007262,Cognitive Workload 8-level arithmetic,,scalp_eeg;ecg,,,,CC0-1.0,,,,,,true,,18,,,,0.37,,,,,,direct_download,open,19,250,10_20,io:bio io:bio mobile EEG system,cognitive_task,,2026-11-16
+ds007314,tACS for Patients with Post-Stroke Anomia,,scalp_eeg;eog,,,,CC0-1.0,,,,,,true,,2,,,,1.09,,,,,,direct_download,open,,500,,Neuroelectrics Starstim-32,language;overt_speech,,2026-11-16
+ds007315,tACS for Patients with Post-Stroke Anomia,,scalp_eeg;eog,,,,CC0-1.0,,,,,,true,,2,,,,1.09,,,,,,direct_download,open,,500,,Neuroelectrics Starstim-32,language;overt_speech,,2026-11-16
+ds007322,Personalized smartphone notifications bias auditory salience across processing stages,,scalp_eeg,,,,CC0-1.0,,,,,,true,,57,,,,42.51,,,,,,direct_download,open,64,1000,10_20,Brain Products,auditory_erp,,2026-11-16
+ds007327,Basketball Motor Imagery EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,35,,,,54.18,,,,,,direct_download,open,64,1000,,ANT Neuro,motor_imagery,,2026-11-16
+ds007338,EEGEyeNet Dataset,,scalp_eeg;eye_tracking,,the_university_of_zurich,,CC0-1.0,,,,,,true,,1,,,,0.04,,,,,,direct_download,open,129,500,,Magstim EGI Net Amps,,,2026-11-16
+ds007347,Sterotactic Focused Ultrasound Mesencephalotomy for the Treatment of Head and Neck Cancer Pain,,scalp_eeg,,,,CC0-1.0,,,,,,true,,5,,,,1.65,,,,,,direct_download,open,48,256,,,resting_unspecified,,2026-11-16
 ds007353,HAD-MEEG,,meg;scalp_eeg,,beijing_normal_university_beijing,,CC0-1.0,,,,,,true,,32,,,,180.59,,,,,,direct_download,open,62,1000,10_20,"NeuroScan, USA",,,2026-11-14
 ds007358,A subset of large-scale EEG dataset (India + Tanzania),,scalp_eeg,,,,CC0-1.0,,,,,,true,,2000,,,,16.08,,,,,,direct_download,open,50,128,,,,,2026-11-14
 ds007406,EEG dataset on consumer responses to extreme versus traditional marketing videos,,scalp_eeg,,universidad_san_francisco_de_quito_usfq,,CC0-1.0,,,,,,true,,10,,,,0.03,,,,,,direct_download,open,14,256,10_10,EMOTIV EPOC X,,,2026-11-14
