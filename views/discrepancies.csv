@@ -157,3 +157,5 @@ zenodo_3875158,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary
 zenodo_3875158,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://zenodo.org/records/3875159,Audit reviewer; scope: distributed
 zenodo_4245090,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7682856/,Audit reviewer; scope: paper methods; the abstract/record say 62-channel (incl. 2 eog)
 zenodo_4245090,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://zenodo.org/records/4245091,
+zenodo_4451998,acquisition_setups:main.device_model,conflicting,Enobio 8,primary,https://zenodo.org/records/4451999,Audit reviewer; scope: enobio recordings
+zenodo_4451998,acquisition_setups:main.device_model,conflicting,OpenBCI board,primary,https://zenodo.org/records/4451999,Audit reviewer; scope: eeglass recordings

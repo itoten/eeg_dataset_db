@@ -4083,6 +4083,23 @@ zenodo_4309471,resting_state_eyes_closed,resting-state eyes closed,resting_eyes_
 zenodo_4309471,resting_state_eyes_open,resting-state eyes open,resting_eyes_open,,,,,,,,
 zenodo_4309471,visual_evoked_potentials_at_2_5_7_10_hz,"Visual Evoked Potentials at 2, 5, 7, 10 Hz",visual_erp,,,,,,,,
 zenodo_4316607,resting_state_eeg_eyes_open_and_eyes_clo,"resting-state EEG, eyes open and eyes closed",resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_4451998,motor_imagery,motor imagery,motor_imagery,,,,,,,,
+zenodo_4451998,resting_state_during_closed_eyes,resting state during closed eyes,resting_eyes_closed,,,,,,,,
+zenodo_4453395,casual_computer_tasks_web_browsing_messa,"casual computer tasks (web browsing, messaging, news reading)",other,,,,,,,,
+zenodo_4471942,visual_motor_working_memory_task_experim,visual-motor working memory task (experiments 1 and 2),cognitive_task,,,,,,,,
+zenodo_4518753,auditory_attention_decoding_attend_to_le,auditory attention decoding (attend to left or right story),other,,,,,,,,
+zenodo_4537750,attending_to_a_pre_specified_instrument,attending to a pre-specified instrument in polyphonic music,other,,,,,,,,
+zenodo_4558989,two_attention_related_tasks_in_virtual_r,two attention-related tasks in virtual reality,cognitive_task,,,,,,,,
+zenodo_4579449,listening_to_continuous_speech_peaky_or,"listening to continuous speech (peaky or unaltered), ABR/MLR recording",auditory_erp,,,,,,,,
+zenodo_4659713,stimulus_action_association_learning_tas,stimulus-action association learning task,cognitive_task,,,,,,,,
+zenodo_4697025,resting_eeg,resting EEG,resting_unspecified,,,,,,,,
+zenodo_4697025,virtual_t_maze_task,virtual T-maze task,other,,,,,,,,
+zenodo_4699202,three_class_motor_imagery,three-class motor imagery,motor_imagery,,,,,,,,
+zenodo_4759102,true_false_judgments_of_autobiographical,"true/false judgments of autobiographical, arithmetic and semantic statements",cognitive_task,,,,,,,,
+zenodo_4896633,resting_eeg_before_and_after_tdcs,resting EEG before and after tDCS,resting_unspecified,,,,,,,,
+zenodo_4917217,multi_attribute_task_battery_ii_matb_ii,Multi-Attribute Task Battery-II (MATB-II) at three workload levels,cognitive_task,,,,,,,,
+zenodo_4933374,three_stimuli_concealed_information_lie,three-stimuli concealed-information (lie detection) P300 protocol,p300_erp,,,,,,,,
+zenodo_4933630,motor_imagery_cursor_and_robotic_arm_con,motor-imagery cursor and robotic arm control (reach and grasp),motor_imagery,,,,,,,,
 zenodo_5882499,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7516450,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7664068,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
