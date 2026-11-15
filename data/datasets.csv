@@ -83,21 +83,20 @@ ds002833,DataSet2,,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,20,,,,39.77,,,,,
 ds002893,Auditory-Visual Shift Study,,scalp_eeg;eog,,institute_for_neural_computation,,CC0-1.0,,,,,,true,,49,,,,7.7,,,,,,direct_download,open,33,250,10_20,,auditory_erp;visual_erp,,2026-11-15
 ds003004,Imagined Emotion Study,,scalp_eeg;ecg,emotion,institute_for_neural_computation,,CC0-1.0,,,,,,true,,conflicting,,,,36.05,,,,,,direct_download,open,,256,10_20,,emotion_induction,,2026-11-15
 ds003029,Epilepsy-iEEG-Multicenter-Dataset,,ieeg_ecog;ieeg_seeg,epilepsy,,,CC0-1.0,,,,,,true,,35,,,,10.32,,,,,,direct_download,open,0,1000,,,,,2026-11-15
-ds003039,free walking study,,scalp_eeg,,university_of_oldenburg,,CC0-1.0,,,,,,true,,19,,,,7.82,,,,,,direct_download,open,64,500,,LiveAmp,,,2026-11-14
-ds003061,EEG data from an auditory oddball task,,scalp_eeg,,paul_sabatier_universite,,CC0-1.0,,,,,,true,,13,,,,2.26,,,,,,direct_download,open,64,256,,BIOSEMI Biosemi Active 2,p300_erp,,2026-11-14
-ds003078,PROBE iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,6,,,,10.95,,,,,,direct_download,open,,,,,,,2026-11-14
-ds003190,Assesment of the visual stimuli properties in P300 paradigm,,scalp_eeg,,tecnologico_de_monterrey,,CC0-1.0,,,,,,true,,19,,,,1.01,,,,,,direct_download,open,0,256,,,,,2026-11-14
-ds003194,Neuroepo multisession,,scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,0.18,,,,,,direct_download,open,19,200,10_10,,,,2026-11-14
-ds003195,Placebo Neuroepo multisession,,scalp_eeg,,,,CC0-1.0,,,,,,true,,10,,,,0.12,,,,,,direct_download,open,19,200,10_10,,,,2026-11-14
-ds003343,Disentangling the percepts of illusory movement and sensory stimulation during tendon vibration in the EEG,,scalp_eeg,,centre_hospitalier_universitaire_vaudois_chuv,,CC0-1.0,,,,,,true,,20,,,,0.65,,,,,,direct_download,open,16,500,10_10,g.tec g.Nautilus,,,2026-11-14
-ds003374,Dataset of neurons and intracranial EEG from human amygdala during aversive dynamic visual stimulation,,ieeg,,universit_tsspital_z_rich,,CC0-1.0,,,,,,true,,9,,,,0.16,,,,,,direct_download,open,0,2000,,Neuralynx ATLAS Neuralynx ATLAS,,,2026-11-14
-ds003380,"Corticothalamic communication under analgesia, sedation and gradual ischemia: a multimodal model of controlled gradual cerebral ischemia in pig",,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.02,,,,,,direct_download,open,,,,,,,2026-11-14
-ds003420,HD-EEGtask(Dataset 1),,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,23,,,,47.09,,,,,,direct_download,open,256,1000,,,,,2026-11-14
-ds003421,HD-EEGtask(Dataset 2),,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,20,,,,39.58,,,,,,direct_download,open,257,1000,,,,,2026-11-14
-ds003458,EEG: Three armed bandit gambling task,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,23,,,,4.72,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,,,2026-11-14
-ds003474,EEG: Probabilistic Selection and Depression,,scalp_eeg,,university_of_arizona,,CC0-1.0,,,,,,true,,122,,,,16.64,,,,,,direct_download,open,64,500,,Neuroscan Synamps2,,,2026-11-14
-ds003478,EEG: Depression rest,,scalp_eeg,,university_of_arizona,,CC0-1.0,,,,,,true,,122,,,,10.65,,,,,,direct_download,open,64,500,,Neuroscan Synamps2,resting_unspecified,,2026-11-14
-ds003490,EEG: 3-Stim Auditory Oddball and Rest in Parkinson's,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,50,,,,5.85,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,resting_unspecified,,2026-11-14
+ds003039,free walking study,,scalp_eeg,,university_of_oldenburg,,CC0-1.0,,,,,,true,,19,,,,7.82,,,,,,direct_download,open,64,500,,LiveAmp,other,,2026-11-15
+ds003061,EEG data from an auditory oddball task,,scalp_eeg,perception;cognitive,paul_sabatier_universite,,CC0-1.0,,,,,,true,,13,,,,2.26,,,,,,direct_download,open,64,,,,auditory_erp;p300_erp,,2026-11-15
+ds003078,PROBE iEEG,,ieeg,,,,CC0-1.0,,,,,,true,,6,,,,10.95,,,,,,direct_download,open,,,,,,,2026-11-15
+ds003190,Assesment of the visual stimuli properties in P300 paradigm,,scalp_eeg,,tecnologico_de_monterrey,,CC0-1.0,,,,,,true,,19,,,,1.01,,,,,,direct_download,open,,256,10_20,,p300_erp,,2026-11-15
+ds003194,Neuroepo multisession,,scalp_eeg,neurology,,,CC0-1.0,,,,,,true,,15,,,,0.18,,,,,,direct_download,open,19,200,10_10,,resting_unspecified,,2026-11-15
+ds003195,Placebo Neuroepo multisession,,scalp_eeg,neurology,,,CC0-1.0,,,,,,true,,10,,,,0.12,,,,,,direct_download,open,19,200,10_10,,resting_unspecified,,2026-11-15
+ds003343,Disentangling the percepts of illusory movement and sensory stimulation during tendon vibration in the EEG,,scalp_eeg,,centre_hospitalier_universitaire_vaudois_chuv,,CC0-1.0,,,,,,true,,20,,,,0.65,,,,,,direct_download,open,16,500,10_10,,other,,2026-11-15
+ds003374,Dataset of neurons and intracranial EEG from human amygdala during aversive dynamic visual stimulation,,ieeg,epilepsy;emotion,universit_tsspital_z_rich,,CC0-1.0,,,,,,true,,9,,,,0.16,,,,,,direct_download,open,0,2000,,Neuralynx ATLAS Neuralynx ATLAS,emotion_induction,,2026-11-15
+ds003420,HD-EEGtask(Dataset 1),,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,23,,,,47.09,,,,,,direct_download,open,256,1000,,"EGI, Electrical Geodesic Inc.",language;overt_speech,,2026-11-15
+ds003421,HD-EEGtask(Dataset 2),,scalp_eeg,,chu_de_rennes,,CC0-1.0,,,,,,true,,20,,,,39.58,,,,,,direct_download,open,,1000,,"EGI, Electrical Geodesic Inc.",cognitive_task;overt_speech;resting_eyes_open,,2026-11-15
+ds003458,EEG: Three armed bandit gambling task,,scalp_eeg;emg;eda,,university_of_new_mexico,,CC0-1.0,,,,,,true,,23,,,,4.72,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,cognitive_task,,2026-11-15
+ds003474,EEG: Probabilistic Selection and Depression,,scalp_eeg,,university_of_arizona,,CC0-1.0,,,,,,true,,122,,,,16.64,,,,,,direct_download,open,64,500,,,cognitive_task,,2026-11-15
+ds003478,EEG: Depression rest,,scalp_eeg,,university_of_arizona,,CC0-1.0,,,,,,true,,122,,,,10.65,,,,,,direct_download,open,64,500,,,resting_eyes_closed;resting_eyes_open;resting_unspecified,,2026-11-15
+ds003490,EEG: 3-Stim Auditory Oddball and Rest in Parkinson's,,scalp_eeg;other_physiological,,university_of_new_mexico,,CC0-1.0,,,,,,true,,50,,,,5.85,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,p300_erp;resting_unspecified,,2026-11-15
 ds003498,interictal iEEG during slow-wave sleep with HFO markings,,ieeg,,university_hospital_zurich_neurosurgery_department,,CC0-1.0,,,,,,true,,20,,,,44.73,,,,,,direct_download,open,0,2000,,Neuralynx,,,2026-11-14
 ds003505,VEPCON: Source imaging of high-density visual evoked potentials with multi-scale brain parcellations and connectomes,,scalp_eeg,,university_of_fribourg,,CC0-1.0,,,,,,true,,20,,,,28.97,,,,,,direct_download,open,128,2048,,Biosemi ActiveTwo,,,2026-11-14
 ds003506,EEG: Reinforcement Learning in Parkinson's,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,56,,,,16.2,,,,,,direct_download,open,64,500,,Brain Vision ActiChamp,,,2026-11-14

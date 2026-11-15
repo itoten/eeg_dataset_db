@@ -79,20 +79,36 @@ ds002893,auditoryvisualshift,AuditoryVisualShift,,,,,,,,,"For each subject, the 
 ds003004,imagined_emotion_narratives,imagined emotion narratives,emotion_induction,,,,,,,,
 ds003004,imaginedemotion,ImaginedEmotion,,,,,,,,,"Subjects were seated comfortably with eyes closed in a dimly lit room with air-tube fed ear-bud earphones. Imagination of the emotional states was encouraged and guided by a set of pre-recorded verbal suggestions. Each session began and ended with 2 min of eyes closed silent rest. The task then began with a recorded verbal explanation of the task, followed by approximately 5 min of verbal guided imagery relaxation instructions to promote a relaxed, inwardly-focused state. A series of 15 guided imagery narratives, each describing a different emotion and potential scenario, were then presented,  [ds003004_sidecar]"
 ds003029,ictal,ictal,,,,,,,,,
+ds003039,free_walking_two_outdoor_routes_with_and,"free walking (two outdoor routes, with and without self-paced button pressing)",other,,,,,,,,
 ds003039,neurcorryoung,neurCorrYoung,,,,,,,,,
+ds003061,auditory_oddball_standard_oddball_distra,"auditory oddball (standard, oddball, distractor), eyes closed",auditory_erp;p300_erp,,,,,,,,
 ds003061,p300,P300,p300_erp,,,,,,,,"Participants were instructed to close their eyes and respond to oddball sounds. There were 3 types of sounds interspaced by about 1 second each, standard (500 Hz pure sounds lasting 60 ms), oddball (1000 Hz pure sounds lasting 60 ms), or distractor sounds (white noise lasting 60 ms). Participants were instructed to press a keypad on their lap when hearing an oddball and to ignore other types of stimuli. See experimental code for additional details. [ds003061_sidecar]"
 ds003190,cnos,cnos,,,,,,,,,Sujects were exposed to 6 number of flashing symbols (4 up to 9). [ds003190_sidecar]
+ds003190,p300_paradigm_with_4_to_9_stimuli_standa,P300 paradigm with 4 to 9 stimuli (Standard-Flash vs Cartoon-Face flash),p300_erp,,,,,,,,
+ds003194,resting_state_eeg_before_and_six_months,resting-state EEG before and six months after drug,resting_unspecified,,,,,,,,
 ds003194,task_6m_nepo,task 6m nepo,,,,,,,,,
 ds003194,task_pre_nepo,task pre nepo,,,,,,,,,task. [ds003194_sidecar]
+ds003195,resting_state_eeg_before_and_six_months,resting-state EEG before and six months after drug,resting_unspecified,,,,,,,,
 ds003195,task_placebo_6m,task placebo 6m,,,,,,,,,task. [ds003195_sidecar]
 ds003195,task_placebo_pre,task placebo pre,,,,,,,,,
 ds003343,fps,fps,,,,,,,,,"Subjects were receiving tendon co-vibration on biceps and triceps on the left elbow. Depending on chosen frequencies, participants did or did not experience illusory movement. [ds003343_sidecar]"
+ds003343,tendon_vibration_illusion_vs_control,tendon vibration (illusion vs control),other,,,,,,,,
+ds003374,aversive_dynamic_visual_stimulation_fear,aversive dynamic visual stimulation (fearful faces vs neutral landscapes),emotion_induction,,,,,,,,
 ds003374,jokeit,jokeit,,,,,,,,,"We used a paradigm comprising of a series of dynamic videos, which has been already validated in previous clinical investigations (Schacher et al., 2006). The videos were all silent and consisted of dynamic fearful faces and dynamic neutral landscapes, presented in an alternating order, in a block design. The paradigm included eight blocks of 75 short video clips (2–3 s) of fearful faces (aversive condition) and nine blocks of 72 short video clips (2–3 s) of neutral landscapes (neutral condition). Each block lasted 24 s in total, and contained short video clips without any intermission between. [ds003374_sidecar]"
+ds003420,visual_naming_and_spelling,visual naming and spelling,language;overt_speech,,,,,,,,
+ds003421,auditory_naming,auditory naming,overt_speech,,,,,,,,
+ds003421,memory,memory,cognitive_task,,,,,,,,
 ds003421,picturesnaming,PicturesNaming,,,,,,,,,Subjects were asked to close their eyes for 10 min). [ds003421_sidecar]
+ds003421,resting_state,resting state,resting_eyes_open,,,,,,,,
+ds003421,visual_naming,visual naming,overt_speech,,,,,,,,
+ds003458,three_armed_bandit_with_oscillating_prob,three-armed bandit with oscillating probabilities,cognitive_task,,,,,,,,
 ds003458,threearmedbandit,ThreeArmedBandit,,,,,,,,,
+ds003474,probabilistic_selection_task,probabilistic selection task,cognitive_task,,,,,,,,
 ds003474,probabilisticselection,ProbabilisticSelection,,,,,,,,,
 ds003478,rest,Rest,resting_unspecified,,,,,,,,
+ds003478,rest_one_minute_eyes_open_eyes_closed_sp,Rest (one-minute eyes open / eyes closed spans),resting_eyes_closed;resting_eyes_open,,,,,,,,
 ds003490,rest,Rest,resting_unspecified,,,,,,,,
+ds003490,t_3_stimulus_auditory_oddball,3-stimulus auditory oddball,p300_erp,,,,,,,,
 ds003498,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 ds003505,faces,faces,,,,,,,,,
 ds003505,motion,motion,,,,,,,,,
