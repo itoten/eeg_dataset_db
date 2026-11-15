@@ -129,7 +129,7 @@ def value_ok(kind, value, quote):
 # enum values that must be visible in the quote itself (a reviewer's inference is not enough)
 ENUM_WORDS = {"montage_system": {"10_20": r"10\s*[-–/]\s*20", "10_10": r"10\s*[-–/]\s*10|10\s*%", "10_05": r"10\s*[-–/]\s*0?5\b",
                                  "egi_hydrocel": r"hydro\s*cel", "biosemi_abc": r"\bABC\b", "ear": r"\bear", "intracranial": r"intracranial|ECoG|depth|SEEG|subdural"},
-              "electrode_type": {"dry": r"\bdry\b", "wet_gel": r"\bgel|\bwet\b|paste", "saline": r"saline|sponge", "intracranial": r"intracranial|ECoG|depth|SEEG|subdural"},
+              "electrode_type": {"dry": r"\bdry\b", "wet_gel": r"\bgel|paste", "saline": r"saline|sponge", "intracranial": r"intracranial|ECoG|depth|SEEG|subdural"},
               # a notch filter at 50 Hz does not say the line frequency is 50 Hz
               "line_freq_hz": {v: r"\bline|mains|power[- ]?(?:line|grid|supply)|utility|\bAC\b" for v in ("50", "60")}}
 

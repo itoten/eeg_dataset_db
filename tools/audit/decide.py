@@ -3,7 +3,8 @@
 Usage: python3 tools/audit/decide.py BATCH [--dry]
 
 remove (with its evidence quote found on the page) -> the dataset's rows are deleted from every table,
-with the reason printed for the commit message. copy_of (checked) -> a derived_from relation to the DB
+with the reason printed for the commit message. A duplicate or part-of-larger verdict deletes only when
+the record itself says so in a checked copy_of quote; a shared title is not enough. copy_of (checked) -> a derived_from relation to the DB
 dataset whose source URL or DOI matches, else nothing. unclear and unchecked decisions are left alone.
 """
 import json, re, sys
@@ -30,6 +31,9 @@ def main():
     remove, rel = {}, []
     for d in dec:
         if d["verdict"] == "remove" and d["evidence_checked"]:
+            if d["reason"] in ("duplicate_record", "part_of_larger") and not d.get("copy_checked"):
+                print(f"kept {d['dataset_id']}: {d['reason']} is not stated by the record itself")
+                continue
             remove[d["dataset_id"]] = d["reason"]
         elif d.get("copy_checked") and d["verdict"] == "keep":
             t = str(d["copy_of"].get("url_or_doi", "")).rstrip("/").lower()
