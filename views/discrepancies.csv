@@ -794,6 +794,14 @@ nm000284,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,http
 nm000284,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://nemar.org/dataset/nm000284,
 nm000290,acquisition_setups:main.reference,conflicting,M1 (mastoid),secondary,https://api.nemar.org/datasets/nm000290,Audit reviewer; scope: not given
 nm000290,acquisition_setups:main.reference,conflicting,Mastoïd M1,secondary,https://nemar.org/dataset/nm000290,
+nm000310,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://api.nemar.org/datasets/nm000310,Audit reviewer; scope: not given
+nm000310,acquisition_setups:main.n_channels_eeg,conflicting,65,secondary,https://nemar.org/dataset/nm000310,
+nm000310,n_subjects_reported,conflicting,11,secondary,https://nemar.org/dataset/nm000310,
+nm000310,n_subjects_reported,conflicting,31,secondary,https://api.nemar.org/datasets/nm000310,Audit reviewer; scope: not given
+nm000311,acquisition_setups:main.n_channels_eeg,conflicting,60,secondary,https://api.nemar.org/datasets/nm000311,Audit reviewer; scope: not given
+nm000311,acquisition_setups:main.n_channels_eeg,conflicting,71,secondary,https://nemar.org/dataset/nm000311,
+nm000316,n_subjects_reported,conflicting,244,secondary,https://api.datacite.org/dois/10.5281/zenodo.20421767,Audit reviewer; scope: whole imu-mi_a dataset
+nm000316,n_subjects_reported,conflicting,5,secondary,https://nemar.org/dataset/nm000316,
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
