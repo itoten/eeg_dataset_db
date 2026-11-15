@@ -171,21 +171,21 @@ ds004120,BCIT Baseline Driving,,scalp_eeg,,,,CC0-1.0,,,,,,true,,109,,,,302.49,,,
 ds004121,BCIT Mind Wandering,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,23.91,,,,,,direct_download,open,64,,,BioSemi,cognitive_task,,2026-11-15
 ds004122,BCIT Speed Control,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,36.16,,,,,,direct_download,open,64,,,BioSemi,cognitive_task,,2026-11-15
 ds004123,BCIT Traffic Complexity,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,17.52,,,,,,direct_download,open,64,,,BioSemi,cognitive_task,,2026-11-15
-ds004147,Average Task Value,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,12,,,,4,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-14
-ds004148,A test-retest resting and cognitive state EEG dataset,,scalp_eeg,,southwest_university,,CC0-1.0,,,,,,true,,60,,,,30.67,,,,,,direct_download,open,64,500,,,resting_eyes_closed;resting_eyes_open,,2026-11-14
-ds004151,Effect of obesity on inhibitory control in preadolescents during stop-signal task. An event-related potentials study,,scalp_eeg,,arkansas_children_nutrition_center_university_of_a,,CC0-1.0,,,,,,true,,57,,,,23.14,,,,,,direct_download,open,128,500,10_10,"Geodesic EEG system Geodesic Net Amps 300, Netstation 4.5.2 software",,,2026-11-14
-ds004152,Drum Trainer,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,21,,,,4.77,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-14
-ds004166,"Effects of Forward and Backward Span Trainings on Working Memory: Evidence from a Randomized, Controlled Trial",,scalp_eeg,,,,CC0-1.0,,,,,,true,,71,,,,77.37,,,,,,direct_download,open,,,,,,,2026-11-14
-ds004194,Visual ECoG dataset,,ieeg,,,,CC0-1.0,,,,,,true,,14,,,,7.83,,,,,,direct_download,open,,,,,,,2026-11-14
-ds004196,Bimodal dataset on Inner speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,4,,,,9.33,,,,,,direct_download,open,,,,,imagined_speech,,2026-11-14
-ds004200,Temporal Scaling,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,20,,,,7.21,,,,,,direct_download,open,37,1000,,actiCHamp Plus,,,2026-11-14
-ds004252,Rotation-tolerant representations elucidate the time course of high-level object processing,,scalp_eeg,,university_of_sydney,,CC0-1.0,,,,,,true,,16,,,,18.27,,,,,,direct_download,open,128,1000,,BrainVision ActiChamp,,,2026-11-14
-ds004256,Encoding of Sound Source Elevation in Human Cortex,,scalp_eeg,,,,CC0-1.0,,,,,,true,,53,,,,18.18,,,,,,direct_download,open,64,500,,Elekta,,,2026-11-14
-ds004262,Continuous Feedback Processing,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,21,,,,3.47,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-14
-ds004264,Steer the Ship,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,21,,,,3.3,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-14
-ds004279,Large Spanish EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,56,,,,25.22,,,,,,direct_download,open,64,1000,,,,,2026-11-14
-ds004284,eeg-neuroforecasting,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,16.36,,,,,,site_terms_agreement,one_time_human,129,1000,,EGI,,,2026-11-14
-ds004295,Reward gain and punishment avoidance reversal learning,,scalp_eeg,,leibniz_institute_for_neurobiology_university_of_m,,CC0-1.0,,,,,,true,,26,,,,31.51,,,,,,direct_download,open,66,1024,10_20,BioSemi ActiveTwo,,,2026-11-14
+ds004147,Average Task Value,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,12,,,,4,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-15
+ds004148,A test-retest resting and cognitive state EEG dataset,,scalp_eeg,,southwest_university,,CC0-1.0,,,,,,true,,60,,,,30.67,,,,,,direct_download,open,64,500,,Brain Products,cognitive_task;resting_eyes_closed;resting_eyes_open,,2026-11-15
+ds004151,Effect of obesity on inhibitory control in preadolescents during stop-signal task. An event-related potentials study,,scalp_eeg,,arkansas_children_nutrition_center_university_of_a,,CC0-1.0,,,,,,true,,57,,,,23.14,,,,,,direct_download,open,128,500,10_10,,cognitive_task,,2026-11-15
+ds004152,Drum Trainer,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,21,,,,4.77,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-15
+ds004166,"Effects of Forward and Backward Span Trainings on Working Memory: Evidence from a Randomized, Controlled Trial",,scalp_eeg;eog,,,,CC0-1.0,,,,,,true,,71,,,,77.37,,,,,,direct_download,open,64,,,Neuroscan Synamps RT,cognitive_task,,2026-11-15
+ds004194,Visual ECoG dataset,,ieeg_ecog,epilepsy;perception,,,CC0-1.0,,,,,,true,,14,,,,7.83,,,,,,direct_download,open,,,,,,,2026-11-15
+ds004196,Bimodal dataset on Inner speech,,scalp_eeg;fmri,,,,CC0-1.0,,,,,,true,,4,,,,9.33,,,,,,direct_download,open,,,,BioSemi Active2,imagined_speech,,2026-11-15
+ds004200,Temporal Scaling,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,20,,,,7.21,,,,,,direct_download,open,37,1000,,actiCHamp Plus,,,2026-11-15
+ds004252,Rotation-tolerant representations elucidate the time course of high-level object processing,,scalp_eeg,,university_of_sydney,,CC0-1.0,,,,,,true,,16,,,,18.27,,,,,,direct_download,open,128,1000,,BrainVision ActiChamp,visual_erp,,2026-11-15
+ds004256,Encoding of Sound Source Elevation in Human Cortex,,scalp_eeg,,,,CC0-1.0,,,,,,true,,53,,,,18.18,,,,,,direct_download,open,64,500,,Elekta,auditory_erp,,2026-11-15
+ds004262,Continuous Feedback Processing,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,21,,,,3.47,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-15
+ds004264,Steer the Ship,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,21,,,,3.3,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-15
+ds004279,Large Spanish EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,56,,,,25.22,,,,,,direct_download,open,64,1000,,,imagined_speech;language,,2026-11-15
+ds004284,eeg-neuroforecasting,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,16.36,,,,,,site_terms_agreement,one_time_human,129,1000,,EGI,,,2026-11-15
+ds004295,Reward gain and punishment avoidance reversal learning,,scalp_eeg,,leibniz_institute_for_neurobiology_university_of_m,,CC0-1.0,,,,,,true,,26,,,,31.51,,,,,,direct_download,open,66,1024,10_20,BioSemi ActiveTwo,,,2026-11-15
 ds004306,EEG Semantic Imagination and Perception Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,12,,,,0.64,,,,,,direct_download,open,124,1024,10_20,,,,2026-11-14
 ds004315,"Mood Manipulation and PST, Experiment 1",,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,50,,,,9.81,,,,,,direct_download,open,60,500,,Brain Vision ActiChamp,,,2026-11-14
 ds004317,"Mood Manipulation and PST, Experiment 2",,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,50,,,,18.29,,,,,,direct_download,open,60,500,,Brain Vision ActiChamp,,,2026-11-14

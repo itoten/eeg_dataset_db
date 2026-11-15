@@ -173,6 +173,10 @@ ds004122,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https
 ds004122,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://s3.amazonaws.com/openneuro.org/ds004122/README,Audit reviewer; scope: as recorded (readme)
 ds004123,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://s3.amazonaws.com/openneuro.org/ds004123/task-DriveWithComplexity_eeg.json?versionId=eh81Yy_NrhsFvSyCfkDF8umZF.n0NcOY,
 ds004123,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://s3.amazonaws.com/openneuro.org/ds004123/README,Audit reviewer; scope: as recorded (readme)
+ds004151,acquisition_setups:main.device_manufacturer,conflicting,Geodesic EEG system,primary,https://s3.amazonaws.com/openneuro.org/ds004151/sub-57/eeg/sub-57_task-stop_eeg.json?versionId=TmknwDKur0tDCrte4Cu7P5nB4MsA9cif,
+ds004151,acquisition_setups:main.device_manufacturer,conflicting,Magstim EGI,secondary,https://s3.amazonaws.com/openneuro.org/ds004151/README,Audit reviewer; scope: whole dataset
+ds004151,acquisition_setups:main.device_model,conflicting,Geodesic Net Amps 300,secondary,https://s3.amazonaws.com/openneuro.org/ds004151/README,Audit reviewer; scope: whole dataset
+ds004151,acquisition_setups:main.device_model,conflicting,"Geodesic Net Amps 300, Netstation 4.5.2 software",primary,https://s3.amazonaws.com/openneuro.org/ds004151/sub-57/eeg/sub-57_task-stop_eeg.json?versionId=TmknwDKur0tDCrte4Cu7P5nB4MsA9cif,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004574/sub-001/eeg/sub-001_task-Oddball_eeg.json?versionId=Ab5RNBhpIMDrjXkMhMZPSZheoa46Lhq0,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004574/README,Audit reviewer; scope: not given
 ds004579,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004579/sub-001/eeg/sub-001_task-IntervalTiming_eeg.json?versionId=t2OsC3KDFjAMAm9gy0G.5ImsoyjGIs9B,
