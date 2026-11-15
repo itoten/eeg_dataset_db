@@ -122,6 +122,8 @@ zenodo_17631682,possibly_same_as,zenodo_7221843,zenodo_17631683,Both print the s
 zenodo_19440996,possibly_same_as,nm000280,zenodo_20848097,Both print the same name; whether they are the same data is not checked
 zenodo_20501466,possibly_same_as,zenodo_22829925,zenodo_20501467,Both print the same name; whether they are the same data is not checked
 zenodo_22829925,possibly_same_as,zenodo_20501466,zenodo_22829926,Both print the same name; whether they are the same data is not checked
+zenodo_3840614,subset_of,zenodo_3837212,zenodo_15572614,"The record says it is part of the other dataset (audit, quote checked)"
+zenodo_3840616,subset_of,zenodo_3837212,zenodo_15581491,"The record says it is part of the other dataset (audit, quote checked)"
 zenodo_7221843,possibly_same_as,figshare_8091242,zenodo_7221844,Both print the same name; whether they are the same data is not checked
 zenodo_7221843,possibly_same_as,zenodo_14568950,zenodo_7221844,Both print the same name; whether they are the same data is not checked
 zenodo_7221843,possibly_same_as,zenodo_17631682,zenodo_7221844,Both print the same name; whether they are the same data is not checked

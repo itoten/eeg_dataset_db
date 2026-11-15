@@ -151,3 +151,7 @@ zenodo_24046851,acquisition_setups:main.n_channels_eeg,conflicting,4,primary,htt
 zenodo_24046851,acquisition_setups:main.n_channels_eeg,conflicting,8,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: madrid site
 zenodo_24046851,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: madrid site
 zenodo_24046851,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://zenodo.org/records/24046852,Audit reviewer; scope: puebla site
+zenodo_3377910,acquisition_setups:main.sampling_rate_hz,conflicting,8192,primary,https://zenodo.org/records/21415059,"Audit reviewer; scope: recorded, as written later in the same record"
+zenodo_3377910,acquisition_setups:main.sampling_rate_hz,conflicting,8196,primary,https://zenodo.org/records/21415059,"Audit reviewer; scope: recorded, as written in the record's first paragraph"
+zenodo_3875158,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8600362/,Audit reviewer; scope: recorded
+zenodo_3875158,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://zenodo.org/records/3875159,Audit reviewer; scope: distributed

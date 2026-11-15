@@ -4023,7 +4023,26 @@ zenodo_24141043,story_listening_after_trust_building_gam,story listening after t
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3267301,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+zenodo_3267307,brain_invaders_multi_user_p300_bci_coope,"Brain Invaders multi-user P300 BCI (Cooperation 1-Target, Cooperation 2-Targets, Competition 1-Target, Competition 2-Targets)",p300_erp,,,,,,,,
 zenodo_3267307,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+zenodo_3364265,free_recall_task,free recall task,cognitive_task,,,,,,,,
+zenodo_3364265,sentence_comprehension_task,sentence comprehension task,language,,,,,,,,
+zenodo_3364265,stroop_task,Stroop task,cognitive_task,,,,,,,,
+zenodo_3369178,listening_imagining_speaking_speaking_16,"listening, imagining speaking, speaking (16 English phonemes)",imagined_speech;overt_speech,,,,,,,,
+zenodo_3369178,listening_imagining_speaking_speaking_16_x,"listening, imagining speaking, speaking (16 Chinese syllables)",imagined_speech;overt_speech,,,,,,,,
+zenodo_3377910,selective_auditory_attention_to_one_of_t,selective auditory attention to one of two competing Dutch stories (HRTF or dry dichotic),cognitive_task,,,,,,,,
+zenodo_3600422,auditory_yes_no_eog_communication_traini,"auditory yes/no EOG communication (training, feedback, copy and free spelling sessions)",other,,,,,,,,
+zenodo_3618204,periodic_tone_sequences_for_envelope_fol,periodic tone sequences for envelope-following responses,auditory_erp,,,,,,,,
+zenodo_3618204,responses_to_1_khz_tone_beeps_for_erps,responses to 1 kHz tone beeps for ERPs,auditory_erp,,,,,,,,
+zenodo_3618204,resting_state_eyes_open_and_eyes_closed,resting-state eyes open and eyes closed,resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_3618204,selective_attention_to_one_of_two_spatia,selective attention to one of two spatially separated competing speech streams,cognitive_task,,,,,,,,
+zenodo_3623636,resting_state_eeg,resting-state EEG,resting_unspecified,,,,,,,,
+zenodo_3630582,resting_state,resting state,resting_unspecified,,,,,,,,
+zenodo_3745592,mental_concentration_on_a_target_relax_g,"mental concentration on a target (relax, get ready, concentrate)",cognitive_task,,,,,,,,
+zenodo_3837212,continuous_vigilance_alertness_task_ctt,continuous vigilance/alertness task (CTT) during HD-tES,cognitive_task,,,,,,,,
+zenodo_3875158,resting_state_alternating_eyes_closed_an,"resting state, alternating eyes closed and eyes open (six 1-min baselines)",resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_3885754,long_term_video_eeg_monitoring_with_conv,long-term video-EEG monitoring with convulsive seizures,long_term_monitoring,,,,,,,,
+zenodo_3888380,somatosensory_evoked_potentials_by_media,somatosensory evoked potentials by median-nerve electrical stimulation,other,,,,,,,,
 zenodo_5882499,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7516450,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7664068,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
