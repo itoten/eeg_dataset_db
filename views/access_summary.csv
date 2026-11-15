@@ -1,5 +1,5 @@
 access_tier,access_method,n_datasets,n_subjects_reported,hours_reported,n_datasets_without_subjects,n_datasets_without_hours
-open,direct_download,1690,49381,33301.6,605,1380
+open,direct_download,1682,49422,33301.6,593,1372
 one_time_human,free_account_required,3,0,0,3,3
 one_time_human,site_terms_agreement,52,2574,0,4,52
 per_dataset_human,gated_click_through,5,62,0,3,5

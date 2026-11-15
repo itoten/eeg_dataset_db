@@ -3980,6 +3980,12 @@ zenodo_22642959,postural_balance_assessment_after_cognit,postural balance assess
 zenodo_22652419,working_memory_updating,working memory updating,cognitive_task,,,,,,,,
 zenodo_22660210,temporal_discrimination_task,temporal discrimination task,cognitive_task,,,,,,,,
 zenodo_22705593,walking_with_environmental_demands_unity,walking with environmental demands (Unity trials),other,,,,,,,,
+zenodo_22741446,observing_rendered_human_motion_videos_w,observing rendered human motion videos while EEG was recorded,passive_viewing,,,,,,,,
+zenodo_22875251,four_attention_tests_t1_sustained_t2_sel,"four attention tests (T1 Sustained, T2 Selective, T3 Alternating, T4 Divided Attention)",cognitive_task,,,,,,,,
+zenodo_22932789,rapid_serial_presentation_of_999_artwork,rapid serial presentation of 999 artworks (300 ms SOA; second experiment 50 ms SOA) with target detection,other,,,,,,,,
+zenodo_22949771,clinicaleeg_restingstate,clinicalEEG_restingState,resting_unspecified,,,,,,,,
+zenodo_22974623,heard_speech_and_imagined_speech,heard speech and imagined speech,imagined_speech;language,,,,,,,,
+zenodo_23080151,partial_report_task,partial report task,cognitive_task,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
