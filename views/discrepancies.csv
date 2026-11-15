@@ -674,6 +674,11 @@ nm000201,acquisition_setups:main.sampling_rate_hz,conflicting,100,secondary,http
 nm000201,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://nemar.org/dataset/nm000201,
 nm000206,acquisition_setups:main.n_channels_eeg,conflicting,61,secondary,https://nemar.org/dataset/nm000206,
 nm000206,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://api.nemar.org/datasets/nm000206,Audit reviewer; scope: not given
+nm000208,n_subjects_reported,conflicting,14,secondary,https://nemar.org/dataset/nm000208,
+nm000208,n_subjects_reported,conflicting,15,secondary,https://api.nemar.org/datasets/nm000208,Audit reviewer; scope: not given
+nm000217,n_subjects_reported,conflicting,44,secondary,https://api.nemar.org/datasets/nm000217,Audit reviewer; scope: not given
+nm000217,n_subjects_reported,conflicting,44,secondary,https://nemar.org/dataset/nm000217,
+nm000217,n_subjects_reported,conflicting,50,secondary,https://api.nemar.org/datasets/nm000217,Audit reviewer; scope: not given
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)

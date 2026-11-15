@@ -362,6 +362,7 @@ nm000195,event_markers,Events,Target;NonTarget,,,,,nm000195_doc8e3e82,"- **Event
 nm000198,event_markers,event markers,target;non-target,,,,,nm000198_doc77b499,event markers distinguish target from non-target intensifications,2026-11-16,claude,
 nm000205,event_markers,Target/NonTarget events,Target;NonTarget,,,,,nm000205_doc60770f,62-channel EEG with Target and NonTarget event annotations,2026-11-16,claude,
 nm000206,event_markers,Events,rs;easy;medium;diff,,,,,nm000206_doccc201e,"- **Events**: rs=1, easy=2, medium=3, diff=4",2026-11-16,claude,
+nm000207,event_markers,Events,,,,,,nm000207_doc354710,"Events**: Target=[111, 112, 113, 114], NonTarget=[101, 102, 103, 104]",2026-11-16,claude,
 tuab,normal_abnormal,normal/abnormal,normal;abnormal,,,,,tuh_eeg_downloads,TUAB entry: A corpus of EEGs that have been annotated as normal or abnormal,2026-11-14,claude,
 tuar,artifact_annotations,artifacts,EYEM;CHEW;SHIV;ELPP;MUSC,,,,,tuh_eeg_downloads,"TUAR entry: annotations of 5 different artifacts: (1) eye movement (EYEM), (2) chewing (CHEW)",2026-11-14,claude,
 tuep,seizure_annotations,seizure annotations,,,,,,tuh_eeg_downloads,TUEP entry: This new version of the corpus has seizure annotations,2026-11-14,claude,
