@@ -854,21 +854,21 @@ nm000152,Upper-limb elbow-centered motor imagery dataset (10 classes),,scalp_eeg
 nm000153,Langer et al. 2017 — Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB),,scalp_eeg;eye_tracking,development,,2026,CC-BY-NC-SA-3.0,,,,,,true,,111,,1149,93.4,110.3,,,,,,direct_download,open,128,500,egi_hydrocel,EGI,cognitive_task;resting_unspecified,,2026-11-16
 nm000156,Hybrid EEG-fNIRS MI dataset for ICH from Shi et al 2025,,scalp_eeg;fnirs,bci,,2026,CC-BY-NC-ND-4.0,,,,,,true,,37,,98,31.22,2.59,,,,,,direct_download,open,32,256,10_10,g.tec g.HIamp,motor_imagery,,2026-11-16
 nm000157,"BigP3BCI Study B — 6x6 checkerboard, multi-session (19 healthy subjects)",,scalp_eeg,bci,,2026,CC-BY-4.0,,,,,,true,,19,,544,28.72,4.28,,,,,,direct_download,open,16,256,,g.tec g.USBamp,p300_erp,,2026-11-16
-nm000158,"Liu, Lv et al. 2023 — EEG datasets of stroke patients (motor imagery)",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,50,,50,4.44,1.15,,,,,,direct_download,open,29,500,10_10,,,,2026-11-14
-nm000160,Multi-joint upper-limb MI dataset from Yi et al. 2025,,scalp_eeg,,,2026,CC-BY-NC-ND-4.0,,,,,,true,,18,,141,32.5,49.96,,,,,,direct_download,open,62,1000,10_10,,,,2026-11-14
-nm000161,BNCI 2024-001 Handwritten Character Classification dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,20,,40,33.62,26.99,,,,,,direct_download,open,60,500,10_10,,,,2026-11-14
-nm000162,BNCI 2025-001 Motor Kinematics Reaching dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,20,,20,44.45,36.54,,,,,,direct_download,open,67,500,10_05,,,,2026-11-14
-nm000163,c-VEP and Burst-VEP dataset from Castillos et al. (2023),,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,12,,12,0.88,0.16,,,,,,direct_download,open,32,500,10_10,,,,2026-11-14
-nm000166,"M3CV: Multi-subject, Multi-session, Multi-task EEG Database",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,95,,2469,100.48,21.61,,,,,,direct_download,open,64,250,10_10,,,,2026-11-14
-nm000167,Motor imagery dataset from Ma et al. 2020,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,25,,375,35.26,53.8,,,,,,direct_download,open,,1000,10_10,,,,2026-11-14
-nm000168,BNCI 2015-013 Error-Related Potentials dataset,,scalp_eeg,,,2026,CC-BY-NC-ND-4.0,,,,,,true,,6,,120,6.09,5.21,,,,,,direct_download,open,64,512,10_10,,,,2026-11-14
-nm000169,BNCI 2014-008 P300 dataset (ALS patients),,scalp_eeg,,,2026,CC-BY-NC-ND-4.0,,,,,,true,,8,,8,3.02,0.23,,,,,,direct_download,open,8,256,10_10,,,,2026-11-14
-nm000170,BNCI 2025-002 Continuous 2D Trajectory Decoding dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,10,,90,28.19,7.38,,,,,,direct_download,open,60,200,10_05,,,,2026-11-14
-nm000171,BNCI 2014-002 Motor Imagery dataset,,scalp_eeg,,,2026,CC-BY-ND-4.0,,,,,,true,,14,,112,6.87,1.37,,,,,,direct_download,open,15,512,,,,,2026-11-14
-nm000172,High-gamma dataset described in Schirrmeister et al. 2017,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,14,,28,28.7,31.3,,,,,,direct_download,open,128,500,10_05,,,,2026-11-14
-nm000173,Motor Imagery ataset from Ofner et al 2017,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,15,,300,0.36,34,,,,,,direct_download,open,61,512,10_05,,,,2026-11-14
-nm000174,Imagined Speech EEG dataset comparing paradigm designs (Aguilera-Rodriguez et al. 2025),,scalp_eeg,,,2026,CC-BY-NC-ND-4.0,,,,,,true,,15,,30,5.03,2.23,,,,,,direct_download,open,24,500,10_10,,,,2026-11-14
-nm000176,"BigP3BCI Study K — 9x8 adaptive/checkerboard, 2 sessions (5 healthy subjects)",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,5,,128,3.61,0.77,,,,,,direct_download,open,16,256,10_10,,,,2026-11-14
+nm000158,"Liu, Lv et al. 2023 — EEG datasets of stroke patients (motor imagery)",,scalp_eeg;eog,bci;clinical,,2026,CC-BY-4.0,,,,,,true,,50,,50,4.44,1.15,,,,,,direct_download,open,29,500,10_10,ZhenTec NT1,motor_imagery,,2026-11-16
+nm000160,Multi-joint upper-limb MI dataset from Yi et al. 2025,,scalp_eeg,bci;motor,,2026,CC-BY-NC-ND-4.0,,,,,,true,,18,,141,32.5,49.96,,,,,,direct_download,open,,1000,10_10,Neuroscan SynAmps2,motor_imagery,,2026-11-16
+nm000161,BNCI 2024-001 Handwritten Character Classification dataset,,scalp_eeg;eog,bci,,2026,CC-BY-4.0,,,,,,true,,20,,40,33.62,26.99,,,,,,direct_download,open,60,,10_10,BrainVision,motor_execution,,2026-11-16
+nm000162,BNCI 2025-001 Motor Kinematics Reaching dataset,,scalp_eeg;eog,bci;motor,,2026,CC-BY-4.0,,,,,,true,,20,,20,44.45,36.54,,,,,,direct_download,open,67,500,10_05,BrainAmp,motor_execution,,2026-11-16
+nm000163,c-VEP and Burst-VEP dataset from Castillos et al. (2023),,scalp_eeg,bci,,2026,CC-BY-4.0,,,,,,true,,12,,12,0.88,0.16,,,,,,direct_download,open,32,500,10_10,BrainProducts LiveAmp,other,,2026-11-16
+nm000166,"M3CV: Multi-subject, Multi-session, Multi-task EEG Database",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,95,,2469,100.48,21.61,,,,,,direct_download,open,64,,10_10,Brain Products GmbH BrainAmp,motor_execution;p300_erp;resting_unspecified;ssvep,,2026-11-16
+nm000167,Motor imagery dataset from Ma et al. 2020,,scalp_eeg;eog,bci;motor,,2026,CC-BY-4.0,,,,,,true,,25,,375,35.26,53.8,,,,,,direct_download,open,62,1000,10_10,Neuroscan SynAmps2,motor_imagery,,2026-11-16
+nm000168,BNCI 2015-013 Error-Related Potentials dataset,,scalp_eeg,bci,,2026,CC-BY-NC-ND-4.0,,,,,,true,,6,,120,6.09,5.21,,,,,,direct_download,open,64,512,10_10,Biosemi ActiveTwo,other,,2026-11-16
+nm000169,BNCI 2014-008 P300 dataset (ALS patients),,scalp_eeg,bci;clinical;neurology,,2026,CC-BY-NC-ND-4.0,,,,,,true,,8,,8,3.02,0.23,,,,,,direct_download,open,8,256,10_10,g.tec g.MOBILAB,p300_erp,,2026-11-16
+nm000170,BNCI 2025-002 Continuous 2D Trajectory Decoding dataset,,scalp_eeg;eog,bci,,2026,CC-BY-4.0,,,,,,true,,10,,90,28.19,7.38,,,,,,direct_download,open,60,200,10_05,Brain Products actiCAP,other,,2026-11-16
+nm000171,BNCI 2014-002 Motor Imagery dataset,,scalp_eeg,bci,,2026,CC-BY-ND-4.0,,,,,,true,,14,,112,6.87,1.37,,,,,,direct_download,open,15,512,,g.USBamp,motor_imagery,,2026-11-16
+nm000172,High-gamma dataset described in Schirrmeister et al. 2017,,scalp_eeg,bci;motor,,2026,CC-BY-4.0,,,,,,true,,14,,28,28.7,31.3,,,,,,direct_download,open,128,500,10_05,,motor_execution,,2026-11-16
+nm000173,Motor Imagery ataset from Ofner et al 2017,,scalp_eeg;eog,bci;motor,,2026,CC-BY-4.0,,,,,,true,,15,,300,0.36,34,,,,,,direct_download,open,61,512,10_05,g.tec,motor_execution;motor_imagery,,2026-11-16
+nm000174,Imagined Speech EEG dataset comparing paradigm designs (Aguilera-Rodriguez et al. 2025),,scalp_eeg,bci,,2026,CC-BY-NC-ND-4.0,,,,,,true,,15,,30,5.03,2.23,,,,,,direct_download,open,24,500,10_10,mBrainTrain Smarting,imagined_speech,,2026-11-16
+nm000176,"BigP3BCI Study K — 9x8 adaptive/checkerboard, 2 sessions (5 healthy subjects)",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,5,,128,3.61,0.77,,,,,,direct_download,open,16,256,10_10,g.tec g.USBamp,p300_erp,,2026-11-16
 nm000177,Multi-session longitudinal motor imagery EEG dataset (Kumar et al. 2024),,scalp_eeg;eog,,,2026,CC-BY-4.0,,,,,,true,,18,,,,14.43,,,,,,direct_download,open,22,512,10_10,ANT Neuro eego mylab,motor_imagery,,2026-11-16
 nm000178,BNCI 2020-001 Reach-and-Grasp Electrode Comparison EEG dataset,,scalp_eeg;eog,,,2026,CC-BY-4.0,,,,,,true,,45,,45,36.98,8.67,,,,,,direct_download,open,58,256,10_05,g.tec,motor_execution,,2026-11-16
 nm000179,LEMON: MPI Leipzig Mind-Brain-Body EEG (Resting State),,scalp_eeg;eog,,,2026,CC-BY-4.0,,,,,,true,,conflicting,,215,62.37,126.92,,,,,,direct_download,open,,2500,10_10,BrainAmp MR plus,resting_eyes_closed;resting_eyes_open,,2026-11-16

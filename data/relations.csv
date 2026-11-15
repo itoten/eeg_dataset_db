@@ -39,7 +39,9 @@ nm000158,derived_from,liu2024_acute_stroke_mi,nm000158_nemar,NEMAR lists 10.1038
 nm000160,derived_from,yi2025_eeg_fnirs_joints,nm000160_nemar,NEMAR lists 10.1038/s41597-025-05286-0 as IsDerivedFrom this record
 nm000163,derived_from,zenodo_8255617,nm000163_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsVersionOf this record
 nm000167,derived_from,ma2020_joints_mi,nm000167_nemar,NEMAR lists 10.1038/s41597-020-0535-2 as IsDerivedFrom this record
+nm000173,derived_from,zenodo_834975,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000176,derived_from,bigp3bci,nm000176_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000176,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000185,derived_from,sleep_edfx,nm000185_nemar,NEMAR lists 10.13026/C2X676 as IsDerivedFrom this record
 nm000186,derived_from,bigp3bci,nm000186_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000186,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"

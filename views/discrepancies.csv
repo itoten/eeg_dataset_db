@@ -641,6 +641,16 @@ nm000147,n_subjects_reported,conflicting,178,primary,https://www.nature.com/arti
 nm000147,n_subjects_reported,conflicting,43,secondary,https://nemar.org/dataset/nm000147,
 nm000157,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000157,
 nm000157,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000157,Audit reviewer; scope: not given
+nm000160,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://api.nemar.org/datasets/nm000160,Audit reviewer; scope: not given
+nm000160,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://nemar.org/dataset/nm000160,
+nm000160,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://www.nature.com/articles/s41597-025-05286-0,Audit reviewer; scope: paper: cap size
+nm000161,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.nemar.org/datasets/nm000161,Audit reviewer; scope: after preprocessing
+nm000161,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://api.nemar.org/datasets/nm000161,Audit reviewer; scope: recorded; distributed data downsampled to 128 hz
+nm000161,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://nemar.org/dataset/nm000161,
+nm000166,acquisition_setups:main.reference,conflicting,FCz,secondary,https://api.nemar.org/datasets/nm000166,Audit reviewer; scope: not given
+nm000166,acquisition_setups:main.reference,conflicting,"TP9/TP10 (linked mastoids, applied offline during preprocessing)",secondary,https://nemar.org/dataset/nm000166,
+nm000166,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000166,Audit reviewer; scope: recorded
+nm000166,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://nemar.org/dataset/nm000166,
 nm000179,acquisition_setups:main.n_channels_eeg,conflicting,61,primary,https://www.nature.com/articles/sdata2018308,Audit reviewer; scope: not given
 nm000179,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://nemar.org/dataset/nm000179,
 nm000179,n_subjects_reported,conflicting,215,secondary,https://api.nemar.org/datasets/nm000179,Audit reviewer; scope: not given
