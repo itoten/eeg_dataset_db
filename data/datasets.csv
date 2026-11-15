@@ -809,21 +809,21 @@ natview_eeg_fmri,An open-access dataset of naturalistic viewing using simultaneo
 nch_sleep,NCH Sleep DataBank: A Large Collection of Real-world Pediatric Sleep Studies with Longitudinal Clinical Data,,psg;scalp_eeg,,,,LicenseRef-physionet-credentialed,,,,,,,,,,,,,,,,,,credentialed_training,approval,,,,,,,2026-11-14
 neuro_stress_resilience_hci,Neurophysiological Dataset of Stress Resilience During Human-Computer Interaction,,scalp_eeg;fnirs;eda,,,,ODbL-1.0,,,,,,,,35,,,,19.1,,,,,,direct_download,open,,,,,,,2026-11-14
 ngo2024_als_spelling,An EEG & Eye-Tracking Dataset of ALS Patients & Healthy People during Eye-Tracking-Based Spelling System Usage,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-nm000103,Healthy Brain Network EEG - Not for Commercial Use,,scalp_eeg,,,2026,CC-BY-NC-SA-4.0,,,,,,true,,447,,3522,285.02,250.25,,,,,,direct_download,open,129,500,,,,,2026-11-14
-nm000109,EEG During Mental Arithmetic Tasks,,scalp_eeg,,,2026,ODC-By-1.0,,,,,,true,,36,,72,2.41,0.17,,,,,,direct_download,open,21,500,10_20,,,,2026-11-14
-nm000110,CHB-MIT,,scalp_eeg,,,2026,ODC-By-1.0,,,,,,true,,24,,686,982.94,42.62,,,,,,direct_download,open,,256,,,,,2026-11-14
-nm000111,ISRUC-Sleep: A comprehensive public dataset for sleep researchers.,,scalp_eeg,,,2026,,,,,,,true,,118,,126,928.66,17.37,,,,,,direct_download,open,,200,,,,,2026-11-14
-nm000112,FACED - Finer-grained Affective Computing EEG Dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,123,,123,153.78,31.41,,,,,,direct_download,open,32,1000,10_10,,,,2026-11-14
-nm000113,"2020 BCI competition, track 3",,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,15,,45,5.18,0.57,,,,,,direct_download,open,64,256,10_10,,,,2026-11-14
-nm000114,MDD Patients and Healthy Controls EEG Data,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,64,,181,20.56,0.79,,,,,,direct_download,open,,256,10_20,,,,2026-11-14
-nm000115,Zhou2016,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,4,,24,6.27,0.15,,,,,,direct_download,open,14,250,10_10,,,,2026-11-14
-nm000118,Nakanishi2015 – SSVEP Nakanishi 2015 dataset,,scalp_eeg,,,2026,,,,,,,true,,9,,9,2.13,0.19,,,,,,direct_download,open,8,256,10_10,,,,2026-11-14
-nm000119,Oikonomou2016 – SSVEP MAMEM 1 dataset,,scalp_eeg,,,2026,ODC-By-1.0,,,,,,true,,11,,47,6.22,11.41,,,,,,direct_download,open,256,250,,,,,2026-11-14
-nm000120,Oikonomou2016 – SSVEP MAMEM 2 dataset,,scalp_eeg,,,2026,ODC-By-1.0,,,,,,true,,11,,55,5.11,9.72,,,,,,direct_download,open,256,250,,,,,2026-11-14
-nm000121,Oikonomou2016 – SSVEP MAMEM 3 dataset,,scalp_eeg,,,2026,ODC-By-1.0,,,,,,true,,11,,110,4.6,0.27,,,,,,direct_download,open,14,128,10_10,,,,2026-11-14
-nm000122,Chen2017 – Single-flicker online SSVEP BCI dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,12,,12,3.27,10.89,,,,,,direct_download,open,32,512,10_10,,,,2026-11-14
-nm000123,Kalunga2016 – SSVEP Exo dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,12,,30,2.59,0.16,,,,,,direct_download,open,8,256,10_10,,,,2026-11-14
-nm000124,Han2024 – SSVEP fatigue dataset with two frequency paradigms,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,24,,48,19.84,33.05,,,,,,direct_download,open,64,1000,10_10,,,,2026-11-14
+nm000103,Healthy Brain Network EEG - Not for Commercial Use,,scalp_eeg,development;psychiatry,,2026,CC-BY-NC-SA-4.0,,,,,,true,,447,,3522,285.02,250.25,,,,,,direct_download,open,129,500,,,,,2026-11-16
+nm000109,EEG During Mental Arithmetic Tasks,,scalp_eeg,cognitive,,2026,ODC-By-1.0,,,,,,true,,36,,72,2.41,0.17,,,,,,direct_download,open,21,500,10_20,XAI-MEDICA,cognitive_task;resting_eyes_closed,,2026-11-16
+nm000110,CHB-MIT,,scalp_eeg;ecg,epilepsy;clinical,,2026,ODC-By-1.0,,,,,,true,,conflicting,,686,982.94,42.62,,,,,,direct_download,open,,256,10_20,,long_term_monitoring,,2026-11-16
+nm000111,ISRUC-Sleep: A comprehensive public dataset for sleep researchers.,,psg;scalp_eeg;eog;emg;respiration,sleep;clinical,,2026,,,,,,,true,,118,,126,928.66,17.37,,,,,,direct_download,open,,200,,,sleep,,2026-11-16
+nm000112,FACED - Finer-grained Affective Computing EEG Dataset,,scalp_eeg,emotion,,2026,CC-BY-4.0,,,,,,true,,123,,123,153.78,31.41,,,,,,direct_download,open,32,,,Neuracle NeuSen.W32,emotion_induction,,2026-11-16
+nm000113,"2020 BCI competition, track 3",,scalp_eeg,bci,,2026,CC-BY-4.0,,,,,,true,,15,,45,5.18,0.57,,,,,,direct_download,open,64,256,10_10,,imagined_speech,,2026-11-16
+nm000114,MDD Patients and Healthy Controls EEG Data,,scalp_eeg,psychiatry;clinical,,2026,CC-BY-4.0,,,,,,true,,conflicting,,181,20.56,0.79,,,,,,direct_download,open,19,256,10_20,,p300_erp;resting_eyes_closed;resting_eyes_open,,2026-11-16
+nm000115,Zhou2016,,scalp_eeg,bci;motor,,2026,CC-BY-4.0,,,,,,true,,4,,24,6.27,0.15,,,,,,direct_download,open,14,250,,,motor_imagery,,2026-11-16
+nm000118,Nakanishi2015 – SSVEP Nakanishi 2015 dataset,,scalp_eeg,bci;perception,,2026,,,,,,,true,,9,,9,2.13,0.19,,,,,,direct_download,open,8,,10_10,BioSemi ActiveTwo,ssvep,,2026-11-16
+nm000119,Oikonomou2016 – SSVEP MAMEM 1 dataset,,scalp_eeg,bci;perception,,2026,ODC-By-1.0,,,,,,true,,11,,47,6.22,11.41,,,,,,direct_download,open,256,250,,EGI 300 Geodesic EEG System (GES 300),ssvep,,2026-11-16
+nm000120,Oikonomou2016 – SSVEP MAMEM 2 dataset,,scalp_eeg,bci;perception,,2026,ODC-By-1.0,,,,,,true,,11,,55,5.11,9.72,,,,,,direct_download,open,256,250,,EGI 300 Geodesic EEG System (GES 300),ssvep,,2026-11-16
+nm000121,Oikonomou2016 – SSVEP MAMEM 3 dataset,,scalp_eeg,bci,,2026,ODC-By-1.0,,,,,,true,,11,,110,4.6,0.27,,,,,,direct_download,open,14,128,10_10,Emotiv EPOC,ssvep,,2026-11-16
+nm000122,Chen2017 – Single-flicker online SSVEP BCI dataset,,scalp_eeg,bci;perception,,2026,CC-BY-4.0,,,,,,true,,12,,12,3.27,10.89,,,,,,direct_download,open,32,,,BioSemi ActiveTwo,ssvep,,2026-11-16
+nm000123,Kalunga2016 – SSVEP Exo dataset,,scalp_eeg,bci,,2026,CC-BY-4.0,,,,,,true,,12,,30,2.59,0.16,,,,,,direct_download,open,8,256,10_10,g.tec MobiLab,ssvep,,2026-11-16
+nm000124,Han2024 – SSVEP fatigue dataset with two frequency paradigms,,scalp_eeg,bci,,2026,CC-BY-4.0,,,,,,true,,24,,48,19.84,33.05,,,,,,direct_download,open,64,1000,10_10,Neuroscan Synamps2,ssvep,,2026-11-16
 nm000125,Lee2021 – SSVEP paradigm of the Mobile BCI dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,23,,85,13.34,3.55,,,,,,direct_download,open,,100,,,,,2026-11-14
 nm000126,Wang2016 – SSVEP Wang 2016 dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,34,,34,14.51,6.48,,,,,,direct_download,open,64,250,10_10,,,,2026-11-14
 nm000127,Kim2025 – 40-class beta-range SSVEP speller dataset,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,true,,40,,240,18.93,16.53,,,,,,direct_download,open,31,1024,10_10,,,,2026-11-14

@@ -582,6 +582,24 @@ figshare_9033983,modalities,conflicting,scalp_eeg,primary,https://figshare.com/a
 figshare_9033983,modalities,conflicting,scalp_eeg;audio,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9355803/fullTextXML,Audit reviewer; scope: not given
 hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://huggingface.co/datasets/MaRez10/EEG_Pain_Perception,Audit reviewer; scope: recorded
 hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://huggingface.co/datasets/MaRez10/EEG_Pain_Perception,Audit reviewer; scope: downsampled (whether the distributed files are at 250 hz is not stated)
+nm000110,n_subjects_reported,conflicting,22,primary,https://physionet.org/content/chbmit/1.0.0/,Audit reviewer; scope: not given
+nm000110,n_subjects_reported,conflicting,24,secondary,https://nemar.org/dataset/nm000110,
+nm000112,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000112,
+nm000112,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://www.nature.com/articles/s41597-023-02650-w,Audit reviewer; scope: not given
+nm000112,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://nemar.org/dataset/nm000112,
+nm000112,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://www.nature.com/articles/s41597-023-02650-w,Audit reviewer; scope: cohort 1 (250 hz)
+nm000114,n_subjects_reported,conflicting,34,secondary,https://api.nemar.org/datasets/nm000114,Audit reviewer; scope: not given
+nm000114,n_subjects_reported,conflicting,64,secondary,https://nemar.org/dataset/nm000114,
+nm000115,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000115,
+nm000115,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0162657,Audit reviewer; scope: not given
+nm000118,acquisition_setups:main.reference,conflicting,CMS,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140703,Audit reviewer; scope: not given
+nm000118,acquisition_setups:main.reference,conflicting,CMS/DRL,secondary,https://nemar.org/dataset/nm000118,
+nm000118,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140703,Audit reviewer; scope: recorded
+nm000118,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://nemar.org/dataset/nm000118,
+nm000122,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000122,
+nm000122,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178385,Audit reviewer; scope: not given
+nm000122,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.nemar.org/datasets/nm000122,Audit reviewer; scope: session 0 (training)
+nm000122,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://nemar.org/dataset/nm000122,
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
