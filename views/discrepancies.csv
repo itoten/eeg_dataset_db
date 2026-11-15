@@ -847,6 +847,18 @@ nm000352,n_subjects_reported,conflicting,24,secondary,https://nemar.org/dataset/
 nm000352,n_subjects_reported,conflicting,34,secondary,https://purl.stanford.edu/zk881ps0522,Audit reviewer; scope: whole library
 nm000354,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12891490/fullTextXML,Audit reviewer; scope: recorded
 nm000354,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://api.nemar.org/datasets/nm000354,Audit reviewer; scope: distributed epochs
+nm000356,acquisition_setups:main.sampling_rate_hz,conflicting,100,secondary,https://api.nemar.org/datasets/nm000356,Audit reviewer; scope: distributed hfa envelopes
+nm000356,acquisition_setups:main.sampling_rate_hz,conflicting,1200,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10427021/,Audit reviewer; scope: recorded signal
+nm000357,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000357,Audit reviewer; scope: distributed signals
+nm000357,acquisition_setups:main.sampling_rate_hz,conflicting,2000,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10873379/,Audit reviewer; scope: recorded macroelectrode signal
+nm000359,n_subjects_reported,conflicting,1,secondary,https://nemar.org/dataset/nm000359,
+nm000359,n_subjects_reported,conflicting,5,secondary,https://api.nemar.org/datasets/nm000359,Audit reviewer; scope: not given
+nm000364,hours_reported,conflicting,6.16,secondary,https://nemar.org/dataset/nm000364,
+nm000364,hours_reported,conflicting,6.2,secondary,https://api.nemar.org/datasets/nm000364,Audit reviewer; scope: not given
+nm000365,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000365,Audit reviewer; scope: distributed epochs
+nm000365,acquisition_setups:main.sampling_rate_hz,conflicting,2000,primary,https://arxiv.org/pdf/2405.11459,Audit reviewer; scope: recorded; the released epochs are resampled to 1000 hz
+nm000367,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://api.nemar.org/datasets/nm000367,Audit reviewer; scope: distributed lfp
+nm000367,acquisition_setups:main.sampling_rate_hz,conflicting,32000,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC11659172/,Audit reviewer; scope: recorded
 nm000372,acquisition_setups:main.n_channels_eeg,conflicting,128,secondary,https://api.nemar.org/datasets/nm000372,Audit reviewer; scope: not given
 nm000372,acquisition_setups:main.n_channels_eeg,conflicting,148,secondary,https://nemar.org/dataset/nm000372,
 nm000376,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.nemar.org/datasets/nm000376,Audit reviewer; scope: original recordings
