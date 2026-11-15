@@ -319,6 +319,8 @@ ds005411,acquisition_setups:main.reference,conflicting,bipolar,primary,https://s
 ds005411,acquisition_setups:main.reference,conflicting,typically a mastoid reference,secondary,https://s3.amazonaws.com/openneuro.org/ds005411/README,Audit reviewer; scope: monopolar recordings only
 ds005416,acquisition_setups:main.n_channels_eeg,conflicting,24,secondary,https://s3.amazonaws.com/openneuro.org/ds005416/README,Audit reviewer; scope: not given
 ds005416,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://s3.amazonaws.com/openneuro.org/ds005416/sub-s01/eeg/sub-s01_task-WatchingTask_eeg.json?versionId=mNxPhBqCI7GmT0n1Sx2Fiqb7GjxIwi8C,
+ds005448,acquisition_setups:main.reference,conflicting,extracranial reference electrode on the scalp vertex or mastoid,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12489785/,Audit reviewer; scope: not given
+ds005448,acquisition_setups:main.reference,conflicting,probably mastoid,primary,https://s3.amazonaws.com/openneuro.org/ds005448/sub-STREEF01/ses-1/ieeg/sub-STREEF01_ses-1_task-SPESclin_run-021250_ieeg.json?versionId=owwED4W6q53EUb1dLuz6MKoSiOZ4LvS4,
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
