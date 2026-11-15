@@ -33,7 +33,8 @@ def main():
     for d in dec:
         part = d["reason"] == "part_of_larger"
         title_only = re.sub(r"\W", "", str(d["evidence"].get("quote", "")).lower()) in re.sub(r"\W", "", str(d.get("name", "")).lower())
-        if d["verdict"] == "remove" and d["evidence_checked"] and not part and title_only:
+        # a title can name the species, but it cannot show what the files contain
+        if d["verdict"] == "remove" and d["evidence_checked"] and not part and title_only and d["reason"] != "animal":
             print(f"kept {d['dataset_id']}: the evidence is only the title")
             continue
         if d["verdict"] == "remove" and d["evidence_checked"] and not part:
