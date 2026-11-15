@@ -4115,7 +4115,16 @@ zenodo_4997057,iowa_gambling_task_igt,Iowa Gambling Task (IGT),cognitive_task,,,
 zenodo_4998289,faces_or_noise_images,faces or noise images,other,,,,,,,,
 zenodo_5002433,watching_silent_videos,watching silent videos,passive_viewing,,,,,,,,
 zenodo_5003712,relaxed_seated_eeg_acquisition,relaxed seated EEG acquisition,resting_unspecified,,,,,,,,
+zenodo_5512577,audio_book_listening_with_tactile_pulses,audio-book listening with tactile pulses,language,,,,,,,,
+zenodo_5525475,resting_eeg_with_eyes_closed_studies_i_a,resting EEG with eyes closed (Studies I and II),resting_eyes_closed,,,,,,,,
+zenodo_5547290,resting_state_with_eyes_open_in_a_dark_r,resting state with eyes open in a dark room,resting_eyes_open,,,,,,,,
+zenodo_5608639,go_no_go_saccadic_task_based_on_facial_e,go/no-go saccadic task based on facial expression cues,cognitive_task,,,,,,,,
+zenodo_5680760,visual_target_landolt_c_detection_while,visual target (Landolt C) detection while standing or walking on a treadmill,visual_erp,,,,,,,,
+zenodo_5784855,observing_robot_facial_expressions,observing robot facial expressions,passive_viewing,,,,,,,,
+zenodo_5831825,visual_erp_speller_llp_paradigm,visual ERP speller (LLP paradigm),p300_erp,,,,,,,,
+zenodo_5882499,left_right_hand_motor_imagery_with_robot,left/right hand motor imagery with robot-arm feedback,motor_imagery,,,,,,,,
 zenodo_5882499,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zenodo_5882499,resting_state_eyes_open_then_closed,"resting state, eyes open then closed",resting_eyes_closed;resting_eyes_open,,,,,,,,
 zenodo_7516450,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7664068,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_784093,main,,ssvep,,,,,,,,Paradigm stated by the dataset name

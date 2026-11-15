@@ -163,3 +163,9 @@ zenodo_4965280,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary
 zenodo_4965280,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC5206273/,Audit reviewer; scope: after the paper preprocessing; the record says the shared data were preprocessed as described in the manuscript
 zenodo_4995166,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC4718524/,Audit reviewer; scope: paper text; conflicts with the record
 zenodo_4995166,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://zenodo.org/records/4995167,Audit reviewer; scope: record readme text
+zenodo_5525475,acquisition_setups:main.device_manufacturer,conflicting,"Advanced Neuro Technology, ANT",primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8154036/,Audit reviewer; scope: study i
+zenodo_5525475,acquisition_setups:main.device_manufacturer,conflicting,EGI,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8154036/,Audit reviewer; scope: study ii
+zenodo_5525475,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8154036/,Audit reviewer; scope: study ii
+zenodo_5525475,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8154036/,Audit reviewer; scope: study i (paper numbering; the record does not say which zip is which study)
+zenodo_5784855,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.5784856,Audit reviewer; scope: distributed data (raw and cleaned)
+zenodo_5784855,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://arxiv.org/pdf/2012.04511,Audit reviewer; scope: recorded rate in the arxiv preprint's miko experiment
