@@ -55,3 +55,15 @@ zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,seconda
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,8196,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: recorded (record text)
 zenodo_1158409,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.1158410,Audit reviewer; scope: distributed
 zenodo_1158409,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7155003/fullTextXML,Audit reviewer; scope: recorded
+zenodo_13308644,acquisition_setups:main.n_channels_eeg,conflicting,63,secondary,https://api.datacite.org/dois/10.5281/zenodo.13308645,Audit reviewer; scope: not given
+zenodo_13308644,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12059128/fullTextXML,Audit reviewer; scope: not given
+zenodo_13598206,acquisition_setups:main.device_manufacturer,conflicting,BrainProducts,secondary,https://api.datacite.org/dois/10.5281/zenodo.15698441,Audit reviewer; scope: not given
+zenodo_13598206,acquisition_setups:main.device_manufacturer,conflicting,EMOTIV,secondary,https://api.datacite.org/dois/10.5281/zenodo.15698441,Audit reviewer; scope: not given
+zenodo_13598206,acquisition_setups:main.device_model,conflicting,EPOC Flex,secondary,https://api.datacite.org/dois/10.5281/zenodo.15698441,Audit reviewer; scope: not given
+zenodo_13598206,acquisition_setups:main.device_model,conflicting,LiveAmp,secondary,https://api.datacite.org/dois/10.5281/zenodo.15698441,Audit reviewer; scope: not given
+zenodo_13598206,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: liveamp and epoc flex sessions
+zenodo_13598206,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: brainamp session
+zenodo_13598206,acquisition_setups:main.reference,conflicting,CMS (Fpz) and DRL (FCz),secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: epoc flex
+zenodo_13598206,acquisition_setups:main.reference,conflicting,FCz,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: liveamp and brainamp
+zenodo_13598206,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: epoc flex native rate
+zenodo_13598206,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: liveamp native rate
