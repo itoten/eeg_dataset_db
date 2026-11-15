@@ -3807,6 +3807,26 @@ zenodo_15437727,cardio_audio_synchronisation_task_cas,Cardio Audio Synchronisati
 zenodo_15454354,kinesthetic_mi_with_bar_feedback_interfa,Kinesthetic MI with bar feedback interface (left/right hand),motor_imagery,,,,,,,,
 zenodo_15454354,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_15454354,t_2_minute_resting_state_eeg_pre_post_stim,2-minute resting state EEG pre/post stimulation,resting_unspecified,,,,,,,,
+zenodo_15487490,t_15_session_alpha_band_eeg_neurofeedback,15-session alpha-band EEG neurofeedback intervention,neurofeedback,,,,,,,,
+zenodo_15492614,sound_localisation,sound localisation,other,,,,,,,,
+zenodo_15535604,gender_agreement_judgment_task,gender agreement judgment task,language,,,,,,,,
+zenodo_15599285,code_vep_selection_in_a_conversational_b,code-VEP selection in a conversational brain-AI interface,other,,,,,,,,
+zenodo_15665100,selective_visual_attention_to_single_obj,selective visual attention to single-object and superimposed-object videos,cognitive_task,,,,,,,,
+zenodo_15665659,sequential_visuospatial_working_memory_t,sequential visuospatial working memory task,cognitive_task,,,,,,,,
+zenodo_15744485,listening_to_a_german_audio_book,listening to a German audio book,language,,,,,,,,
+zenodo_15760253,t_2_back_task_with_masked_and_unmasked_fac,2-back task with masked and unmasked faces,cognitive_task,,,,,,,,
+zenodo_15763452,phoneme_morphing_discrimination_task_sle,"phoneme morphing discrimination task, sleep session",cognitive_task;sleep,,,,,,,,
+zenodo_15763452,phoneme_morphing_discrimination_task_wak,"phoneme morphing discrimination task, wake session",cognitive_task,,,,,,,,
+zenodo_15767675,series_of_tasks_during_quantum_circuit_e,series of tasks during quantum circuit execution,other,,,,,,,,
+zenodo_15781279,resting_state_eyes_open_fixation_cross,"resting state, eyes open, fixation cross",resting_eyes_open,,,,,,,,
+zenodo_15783233,sensorimotor_tms_task_single_pulse_tms_r,"sensorimotor TMS task (single-pulse TMS, report of perceived hand movement)",other,,,,,,,,
+zenodo_15795284,experiment_2_passive_listening_to_transi,Experiment 2: passive listening to transitional click trains,auditory_erp,,,,,,,,
+zenodo_15795284,experiment_3_change_detection_task,Experiment 3: change detection task,auditory_erp;cognitive_task,,,,,,,,
+zenodo_15795284,experiment_5_passive_listening_in_coma_p,Experiment 5: passive listening in coma patients,auditory_erp,,,,,,,,
+zenodo_15798525,emotion_decoding_and_auditory_attention,emotion decoding and auditory attention decoding with original musical stimuli; counting pitch augmentations (oddballs),other,,,,,,,,
+zenodo_15830021,resting_state_eyes_open_fixation_cross_1,"resting state, eyes open, fixation cross (180 s)",resting_eyes_open,,,,,,,,
+zenodo_15833925,orientation_perception_task_mean_orienta,orientation perception task (mean orientation of a tilted Gabor array),cognitive_task,,,,,,,,
+zenodo_15850551,multi_attribute_decision_making,multi-attribute decision making,cognitive_task,,,,,,,,
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
