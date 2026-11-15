@@ -42,8 +42,11 @@ nm000167,derived_from,ma2020_joints_mi,nm000167_nemar,NEMAR lists 10.1038/s41597
 nm000176,derived_from,bigp3bci,nm000176_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000185,derived_from,sleep_edfx,nm000185_nemar,NEMAR lists 10.13026/C2X676 as IsDerivedFrom this record
 nm000186,derived_from,bigp3bci,nm000186_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000186,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000187,derived_from,bigp3bci,nm000187_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000187,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000191,derived_from,bigp3bci,nm000191_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000191,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000197,derived_from,bigp3bci,nm000197_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000200,derived_from,bigp3bci,nm000200_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000216,derived_from,zenodo_3266929,nm000216_nemar,NEMAR lists 10.5281/zenodo.3266930 as IsDerivedFrom this record
