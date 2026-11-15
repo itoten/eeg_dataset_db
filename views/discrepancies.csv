@@ -43,6 +43,10 @@ figshare_28736903,acquisition_setups:main.n_channels_eeg,conflicting,59,primary,
 figshare_28736903,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://www.nature.com/articles/s41597-026-07476-w,Audit reviewer; scope: exoskeleton sessions
 figshare_30133477,license_spdx,conflicting,CC-BY-4.0,secondary,https://figshare.com/articles/dataset/An_EEG_Imagined_Speech_Dataset_for_BCI_Applications_with_Binary_and_Numerical_Stimuli/30133477,
 figshare_30133477,license_spdx,conflicting,CC-BY-NC-SA-4.0,secondary,https://api.figshare.com/v2/articles/30133477,Audit reviewer; scope: not given
+figshare_30509165,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://ndownloader.figshare.com/files/65799363,Audit reviewer; scope: task-motorimagery_eeg.json
+figshare_30509165,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13424360/,Audit reviewer; scope: device
+figshare_30509165,acquisition_setups:main.reference,conflicting,CPz,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13424360/,Audit reviewer; scope: not given
+figshare_30509165,acquisition_setups:main.reference,conflicting,average,primary,https://ndownloader.figshare.com/files/65799363,Audit reviewer; scope: task-motorimagery_eeg.json
 figshare_33440344,acquisition_setups:main.n_channels_eeg,conflicting,14,secondary,https://api.figshare.com/v2/articles/33440344,Audit reviewer; scope: not given
 figshare_33440344,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://figshare.com/articles/dataset/A_multi-paradigm_EEG_dataset_for_visual_motor_imagery_of_driving_home_automation_and_hand_movement_for_BCI/33440344,
 figshare_9033983,modalities,conflicting,scalp_eeg,primary,https://figshare.com/articles/dataset/EEG_recordings_and_stimuli/9033983,
