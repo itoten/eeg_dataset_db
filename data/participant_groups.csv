@@ -30,6 +30,8 @@ ds003421,healthy_volunteers,healthy volunteers,healthy,,20,,,23,,10,10,right-han
 ds003458,healthy_control_college_studen,healthy control college students,healthy,,,,,,,,,,,
 ds003490,matched_controls,matched controls,,,25,,,,,,,,,
 ds003490,parkinson_patients,Parkinson patients,patient,,25,,,,,,,,,
+ds003800,elderly_with_dementia,elderly with dementia,patient,dementia,,,,,,,,,,
+ds003805,single_volunteer,single volunteer,healthy,,,,,23,,,,,,
 dv_10_18710_d5io4r,multilinguals_with_norwegian_a,multilinguals with Norwegian as a first language,,,,18,82,,,,,,,
 dv_10_18710_e96an9,bi_multilinguals,bi/multilinguals,,,,18,57,,,,,,,
 dv_10_18710_eozhm6,native_norwegian_speakers,native Norwegian speakers,,,,18,67,,,,,,,

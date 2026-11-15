@@ -154,22 +154,32 @@ ds003766,resting,resting,resting_unspecified,,,,,,,,
 ds003766,wordchoice,wordchoice,,,,,,,,,
 ds003768,rest,rest,resting_unspecified,,,,,,,,
 ds003768,sleep,sleep,sleep,,,,,,,,
+ds003774,music_listening,music listening,passive_viewing,,,,,,,,
 ds003774,musiclistening,MusicListening,,,,,,,,,"The participants sat comfortably in a dark room and were made to wear the 128 channel high density Electroencephalography (EEG) cap. For the music listening session, the participants were again indicated to close their eyes with a single beep, and the song was presented to them on speakers. After listening to the song, a double beep was presented, suggesting them to open their eyes and answer two questions. [ds003774_sidecar]"
-ds003775,resteyesc,resteyesc,,,,,,,,,Resting-state data extracted from an experimental evoked potential paradigm. [ds003775_sidecar]
+ds003775,resteyesc,resteyesc,resting_eyes_closed,,,,,,,,Resting-state data extracted from an experimental evoked potential paradigm. [ds003775_sidecar]
+ds003800,auditory_gamma_stimulation,auditory gamma stimulation,other,,,,,,,,
 ds003800,auditorygammaentrainment,AuditoryGammaEntrainment,,,,,,,,,"Two speakers were placed in front of the participant 50cm apart from each other and directly pointed at the participant's ears at a distance of 50cm. The sound intensity was around -40dB within a fixed range for all participants. Before starting the task, the participant was asked if the volume was loud enough and the sound volume was set at a comfortable level for each participant. The auditory stimulus was a 5kHz carrier tone amplitude modulated with a 40Hz rectangular wave (40Hz On and Off cycles). Since a 40Hz audio signal cannot be easily heard, the 5KHz carrier frequency was used to rend [ds003800_sidecar]"
 ds003800,rest,Rest,resting_unspecified,,,,,,,,
+ds003800,rest_data,Rest data,resting_eyes_open,,,,,,,,
 ds003801,neuraltrackingtogo,NeuralTrackingToGo,,,,,,,,,
+ds003801,two_competing_speaker_paradigm,two-competing speaker paradigm,auditory_erp,,,,,,,,
+ds003805,auditory_visual_and_audio_visual_gamma_s,"auditory, visual and audio-visual gamma stimulation",other,,,,,,,,
 ds003805,multisensorygammaentrainment,MultisensoryGammaEntrainment,,,,,,,,,"The task is composed of three epochs of auditory, visual, and audio-visual stimulations respectively, each lasting for 40sec in one session. [ds003805_sidecar]"
+ds003810,mivsrest,MIvsRest,motor_imagery;resting_unspecified,,,,,,,,
 ds003810,mivsrestrun0,MIvsRestRUN0,,,,,,,,,
 ds003810,mivsrestrun1,MIvsRestRUN1,,,,,,,,,
 ds003810,mivsrestrun2,MIvsRestRUN2,,,,,,,,,
 ds003810,mivsrestrun3,MIvsRestRUN3,,,,,,,,,
 ds003810,mivsrestrun4,MIvsRestRUN4,,,,,,,,,
-ds003822,probabilisticselection,ProbabilisticSelection,,,,,,,,,
-ds003825,rsvp,rsvp,,,,,,,,,
+ds003810,run0_real_grasping,RUN0 real grasping,motor_execution,,,,,,,,
+ds003816,lkm_states,LKM states,other,,,,,,,,
+ds003822,probabilisticselection,ProbabilisticSelection,cognitive_task,,,,,,,,
+ds003825,rsvp,rsvp,visual_erp,,,,,,,,
+ds003838,digit_span_rest,digit span / rest,cognitive_task;resting_eyes_closed,,,,,,,,
 ds003838,mixed,mixed,,,,,,,,,
 ds003844,task_acute,task-acute,,,,,,,,,"Intra-operative recording, patient is under (tempered) anesthesia, not doing a specific task/undergoing mapping. [ds003844_sidecar]"
-ds003846,predictionerror,PredictionError,,,,,,,,,Select an Object in VR by tapping on it with the fingertip of the index finger. [ds003846_sidecar]
+ds003846,predictionerror,PredictionError,cognitive_task,,,,,,,,Select an Object in VR by tapping on it with the fingertip of the index finger. [ds003846_sidecar]
+ds003848,rest_sleep_spesclin,rest / sleep / SPESclin,clinical_routine;resting_unspecified;sleep,,,,,,,,
 ds003848,task_chocs1,task-CHOCS1,,,,,,,,,
 ds003848,task_rest,task-Rest,resting_unspecified,,,,,,,,
 ds003848,task_slawtrans,task-slawtrans,,,,,,,,,
@@ -179,7 +189,9 @@ ds003848,task_spesclin,task-SPESclin,,,,,,,,,"No task, electrical stimulation is
 ds003876,interictal,interictal,,,,,,,,,
 ds003876,interictalasleep,interictalasleep,,,,,,,,,
 ds003876,interictalawake,interictalawake,,,,,,,,,
+ds003885,classification,classification,visual_erp,,,,,,,,
 ds003885,movement,movement,,,,,,,,,"Participants were asked to press one of two buttons to indicate whether the object image presented on screen was alive or not. On trials marked 'is_fast', participants viewed rapid RSVP streams of the same images and responded to the fixation spot changing colour. [ds003885_sidecar]"
+ds003885,passive_viewing,passive viewing,passive_viewing,,,,,,,,
 ds003887,movement,movement,,,,,,,,,"Participants were asked to press one of two buttons to indicate whether the object image presented on screen was alive or not. On trials marked 'is_fast', participants viewed rapid RSVP streams of the same images and responded to the fixation spot changing colour. [ds003887_sidecar]"
 ds003944,rest,Rest,resting_unspecified,,,,,,,,"In this resting task, participants were asked to let their mind wander while focusing on a fixation point. The fixation point was a plus-sign projected onto a screen in the MEG recording room about 1 meter from the participant. [ds003944_sidecar]"
 ds003947,rest,rest,resting_unspecified,,,,,,,,"In this resting task, participants were asked to let their mind wander while focusing on a fixation point. The fixation point was a plus-sign projected onto a screen in the MEG recording room about 1 meter from the participant. [ds003947_sidecar]"

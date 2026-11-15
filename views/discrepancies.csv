@@ -67,6 +67,19 @@ ds003474,acquisition_setups:main.device_model,conflicting,Neuroscan Synamps2,pri
 ds003474,acquisition_setups:main.device_model,conflicting,Synamps 2,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6515849/,Audit reviewer; scope: not given
 ds003478,acquisition_setups:main.device_model,conflicting,Neuroscan Synamps2,primary,https://openneuro.org/crn/datasets/ds003478/objects/ea629460f601a6d77f6cbc70a9bf092c41cfde7c?filename=sub-001_task-Rest_run-01_eeg.json,
 ds003478,acquisition_setups:main.device_model,conflicting,Synamps 2,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6515849/,Audit reviewer; scope: stated for the paper's recordings (same participants)
+ds003775,acquisition_setups:main.reference,conflicting,average,primary,https://s3.amazonaws.com/openneuro.org/ds003775/derivatives/cleaned_data/sub-111/ses-t1/eeg/sub-111_ses-t1_task-resteyesc_desc-cleaned_eeg.json?versionId=WluPZFbZgGVpEL2oR.0BIseWsusKr3ZP,
+ds003775,acquisition_setups:main.reference,conflicting,average reference,secondary,https://s3.amazonaws.com/openneuro.org/ds003775/README,Audit reviewer; scope: distributed raw files
+ds003800,acquisition_setups:main.reference,conflicting,average,primary,https://openneuro.org/crn/datasets/ds003800/objects/026d422fdf45ea0cb31e997687622da0f039a031?filename=sub-001_task-AuditoryGammaEntrainment_eeg.json,
+ds003800,acquisition_setups:main.reference,conflicting,earlobes,secondary,https://s3.amazonaws.com/openneuro.org/ds003800/README,Audit reviewer; scope: not given
+ds003805,acquisition_setups:main.reference,conflicting,average,primary,https://openneuro.org/crn/datasets/ds003805/objects/fae82d629a129867d4949c36e92d76fb09a7633b?filename=sub-1_task-MultisensoryGammaEntrainment_eeg.json,
+ds003805,acquisition_setups:main.reference,conflicting,earlobes,secondary,https://s3.amazonaws.com/openneuro.org/ds003805/README,Audit reviewer; scope: not given
+ds003825,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://openneuro.org/crn/datasets/ds003825/objects/e1590dcf18f1ce3ec81023251df03550142ebd99?filename=task-rsvp_eeg.json,
+ds003825,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/s41597-021-01102-7,Audit reviewer; scope: recorded
+ds003825,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://www.nature.com/articles/s41597-021-01102-7,Audit reviewer; scope: preprocessed derivative
+ds003838,n_subjects_reported,conflicting,65,primary,https://openneuro.org/datasets/ds003838/versions/1.0.6,
+ds003838,n_subjects_reported,conflicting,86,secondary,https://s3.amazonaws.com/openneuro.org/ds003838/README,Audit reviewer; scope: not given
+ds003846,acquisition_setups:main.ground,conflicting,AFz,secondary,https://s3.amazonaws.com/openneuro.org/ds003846/README,Audit reviewer; scope: not given
+ds003846,acquisition_setups:main.ground,conflicting,Fpz,primary,https://s3.amazonaws.com/openneuro.org/ds003846/sub-02/ses-EMS/eeg/sub-02_ses-EMS_task-PredictionError_eeg.json?versionId=kEHdlsVstsb1tY0BeCk_GW782mUtmsfq,
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
