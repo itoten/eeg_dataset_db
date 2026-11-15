@@ -115,3 +115,14 @@ rejected_trials, recording_notes, signal_check_procedure, other.
 - Never report counts you computed (adding groups, counting files). Only stated numbers.
 - Do not modify anything in the repository. Write only your output file.
 - Finish with a one-paragraph summary of what you could not open or decide.
+
+## Practical notes
+- zenodo.org may answer 403: read `https://api.datacite.org/dois/10.5281/zenodo.<id>` instead and cite it;
+  file lists are in the DB's cache `cache/zenodo/<id>.json` (read-only). Use curl/Python, not WebFetch.
+- Leave out inferred values: montage from channel names, `healthy` the quote does not say, device_fixed or
+  custom montages, line frequency from notch filters, gel from "wet".
+- Rates written in kHz are fine (give Hz). Give no year_published.
+- `duplicate_record` only when the record itself says it is a copy. A volume or part of a larger dataset is
+  `remove`/`part_of_larger` with `copy_of` naming the larger one: it is kept and linked, not deleted.
+- Be economical: read each paper's Methods and data sections, not whole PDFs page by page; stop once
+  the fields are settled. Check quotes with one script at the end.
