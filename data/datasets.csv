@@ -782,7 +782,7 @@ figshare_5537326,Myogenic Artifact Wet EEG Datasets,,scalp_eeg,other,,2018,CC-BY
 figshare_5537338,Myogenic Artifact Dry EEG Datasets,,scalp_eeg,other,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,97,,custom,,other,,2026-11-15
 figshare_7666055,Multi-channel EEG recordings during a sustained-attention driving task (pre-processed dataset),,scalp_eeg,cognitive;bci,,2019,CC-BY-4.0,,,,,,,,27,,,,,,,,,,direct_download,open,30,,10_20,Scan NuAmps Express,cognitive_task,,2026-11-15
 figshare_8091242,EEG dataset,,scalp_eeg,bci,,2019,,,,,,,,,14,,,,,,,,,,direct_download,open,32,1000,10_20,Brain Products ActiCap,other;p300_erp;visual_erp,,2026-11-15
-figshare_9033983,EEG recordings and stimuli,,conflicting,cognitive;perception,,2019,CC0-1.0,,,,,,,,13,,,,,,,,,,direct_download,open,64,125,,BrainProducts actiCHamp,language,,2026-11-14
+figshare_9033983,EEG recordings and stimuli,,conflicting,cognitive;perception,,2019,CC0-1.0,,,,,,,,13,,,,,,,,,,direct_download,open,64,125,,BrainProducts actiCHamp,language,,2026-11-15
 gu2024_ssvep_1_60hz,An open dataset for human SSVEPs in the frequency range of 1-60 Hz,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
 he2025_remote_sensing,EEGET-RSOD,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 hf_alexeykashevnik_eegmeditation,EEGMeditation,,scalp_eeg;ecg;video,cognitive;resting_state,,2025,,,,,,,,,33,,,,,,,,,,gated_click_through,per_dataset_human,64,2048,10_10,ANT Neuro eego mylab (EE-225),cognitive_task;resting_eyes_closed;resting_eyes_open,,2026-11-15
