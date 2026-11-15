@@ -333,21 +333,21 @@ ds005307,Laser-evoked potentials in the human spinal cord and cortex,,scalp_eeg,
 ds005340,Fundamental frequency predominantly drives talker differences in auditory brainstem responses to continuous speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,15,,,,9.47,,,,,,direct_download,open,2,10000,10_20,Brain Products actiCHamp with EP-PreAmp,auditory_erp,,2026-11-15
 ds005342,EEG data offline and online during motor imagery for standing and sitting,,scalp_eeg,,universidad_antonio_nari_o,,CC0-1.0,,,,,,true,,32,,,,2.03,,,,,,direct_download,open,17,250,10_20,g.tec g.Nautilus PRO,motor_imagery,,2026-11-15
 ds005343,Gaffrey Lab Infant Microstates and Attention,,scalp_eeg,,duke_university,,CC0-1.0,,,,,,true,,43,,,,22.7,,,,,,direct_download,open,,1000,,,resting_unspecified,,2026-11-15
-ds005345,Le Petit Prince (LPP) Multi-talker: Naturalistic 7T fMRI and EEG Dataset,,scalp_eeg,,shanghai_ninth_people_s_hospital,,CC0-1.0,,,,,,true,,26,,,,162.54,,,,,,direct_download,open,64,500,10_20,Brain Products BrainAmp DC,resting_unspecified,,2026-11-14
-ds005363,Object recognition in healthy aging (ORHA) - EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,43,,,,17.71,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,Brain Products,,,2026-11-14
-ds005383,"TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,0.35,,,,,,direct_download,open,30,200,10_20,,,,2026-11-14
-ds005385,Resting-state EEG data before and after cognitive activity across the adult lifespan and a 5-year follow-up,,scalp_eeg,,leibniz_research_centre_for_working_environment_an,,CC0-1.0,,,,,,true,,608,,,,74.07,,,,,,direct_download,open,64,1000,10_20,BrainProducts BrainAmp DC,,,2026-11-14
-ds005397,Affordances of stairs,,scalp_eeg,,technische_universitat_berlin,,CC0-1.0,,,,,,true,,26,,,,11.99,,,,,,direct_download,open,64,500,,,,,2026-11-14
-ds005398,"Open iEEG Dataset (Pediatric iEEG, Wayne State University and UCLA)",,ieeg,,,,CC0-1.0,,,,,,true,,185,,,,102.19,,,,,,direct_download,open,0,1000,,,sleep,,2026-11-14
-ds005403,Delayed Auditory Feedback EEG/EGG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,118.45,,,,,,direct_download,open,62,10000,10_20,BrainProducts,,,2026-11-14
-ds005406,EEG frequency tagging reveals the integration of dissimilar observed actions,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,13.26,,,,,,direct_download,open,63,1000,10_20,Brain Products,,,2026-11-14
-ds005408,The effect of speech masking on the human subcortical response to continuous speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,25,,,,37.85,,,,,,direct_download,open,2,10000,10_20,Brain Products actiCHamp with EP-PreAmp,,,2026-11-14
-ds005410,Semantic_conditioning,,scalp_eeg,,university_of_tuebingen_germany,,CC0-1.0,,,,,,true,,81,,,,19.76,,,,,,direct_download,open,63,1000,,Brain Products actiCHamp,,,2026-11-14
-ds005411,Free Recall of Word Lists with Repeated Items,,ieeg,,,,CC0-1.0,,,,,,true,,48,,,,157.36,,,,,,direct_download,open,0,1000,,Blackrock,,,2026-11-14
-ds005415,Numbers,,ieeg,,,,CC0-1.0,,,,,,true,,13,,,,7.46,,,,,,direct_download,open,0,1000,,,,,2026-11-14
-ds005416,Fatigue Characterization of EEG under Mixed Reality Stereo Vision,,scalp_eeg,,university_of_changchun_science_and_technology,,CC0-1.0,,,,,,true,,23,,,,21.3,,,,,,direct_download,open,64,1000,10_20,Neuracle NSW364,,,2026-11-14
-ds005420,Resting state EEG with closed eyes and open eyes in females from 60 to 80 years old,,scalp_eeg,,,,CC0-1.0,,,,,,true,,37,,,,0.36,,,,,,direct_download,open,20,500,,,,,2026-11-14
-ds005429,"Auditory oddball comparison (Optimum-1, Learning-oddball, and the local–global paradigm)",,scalp_eeg,,university_of_milan,,CC0-1.0,,,,,,true,,15,,,,16.47,,,,,,direct_download,open,64,2500,,,,,2026-11-14
+ds005345,Le Petit Prince (LPP) Multi-talker: Naturalistic 7T fMRI and EEG Dataset,,scalp_eeg;fmri,,shanghai_ninth_people_s_hospital,,CC0-1.0,,,,,,true,,26,,,,162.54,,,,,,direct_download,open,64,500,10_20,Brain Products BrainAmp DC,language;resting_unspecified,,2026-11-15
+ds005363,Object recognition in healthy aging (ORHA) - EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,43,,,,17.71,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,Brain Products,,,2026-11-15
+ds005383,"TMNRED, A Chinese Language EEG Dataset for Fuzzy Semantic Target Identification in Natural Reading Environments",,scalp_eeg,cognitive,,,CC0-1.0,,,,,,true,,30,,,,0.35,,,,,,direct_download,open,30,200,10_20,,language,,2026-11-15
+ds005385,Resting-state EEG data before and after cognitive activity across the adult lifespan and a 5-year follow-up,,scalp_eeg,,leibniz_research_centre_for_working_environment_an,,CC0-1.0,,,,,,true,,608,,,,74.07,,,,,,direct_download,open,64,1000,10_20,BrainProducts,resting_eyes_closed;resting_eyes_open,,2026-11-15
+ds005397,Affordances of stairs,,scalp_eeg,,technische_universitat_berlin,,CC0-1.0,,,,,,true,,26,,,,11.99,,,,,,direct_download,open,64,500,,,other,,2026-11-15
+ds005398,"Open iEEG Dataset (Pediatric iEEG, Wayne State University and UCLA)",,ieeg,epilepsy,,,CC0-1.0,,,,,,true,,185,,,,102.19,,,,,,direct_download,open,0,1000,,,sleep,,2026-11-15
+ds005403,Delayed Auditory Feedback EEG/EGG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,118.45,,,,,,direct_download,open,62,10000,10_20,BrainProducts,overt_speech,,2026-11-15
+ds005406,EEG frequency tagging reveals the integration of dissimilar observed actions,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,13.26,,,,,,direct_download,open,63,1000,10_20,Brain Products,,,2026-11-15
+ds005408,The effect of speech masking on the human subcortical response to continuous speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,25,,,,37.85,,,,,,direct_download,open,2,10000,10_20,Brain Products,auditory_erp,,2026-11-15
+ds005410,Semantic_conditioning,,scalp_eeg,,university_of_tuebingen_germany,,CC0-1.0,,,,,,true,,81,,,,19.76,,,,,,direct_download,open,63,1000,,Brain Products actiCHamp,other,,2026-11-15
+ds005411,Free Recall of Word Lists with Repeated Items,,ieeg,,,,CC0-1.0,,,,,,true,,48,,,,157.36,,,,,,direct_download,open,0,1000,,Blackrock,cognitive_task,,2026-11-15
+ds005415,Numbers,,ieeg_seeg,,,,CC0-1.0,,,,,,true,,13,,,,7.46,,,,,,direct_download,open,0,1000,,,other,,2026-11-15
+ds005416,Fatigue Characterization of EEG under Mixed Reality Stereo Vision,,scalp_eeg,,university_of_changchun_science_and_technology,,CC0-1.0,,,,,,true,,23,,,,21.3,,,,,,direct_download,open,,1000,10_20,Neuracle NSW364,passive_viewing,,2026-11-15
+ds005420,Resting state EEG with closed eyes and open eyes in females from 60 to 80 years old,,scalp_eeg,,,,CC0-1.0,,,,,,true,,37,,,,0.36,,,,,,direct_download,open,20,500,,,resting_eyes_closed;resting_eyes_open,,2026-11-15
+ds005429,"Auditory oddball comparison (Optimum-1, Learning-oddball, and the local–global paradigm)",,scalp_eeg,,university_of_milan,,CC0-1.0,,,,,,true,,15,,,,16.47,,,,,,direct_download,open,64,2500,,,auditory_erp;p300_erp,,2026-11-15
 ds005448,STReEF,,ieeg,,university_medical_center_utrecht_division_brain_c,,CC0-1.0,,,,,,true,,13,,,,44.73,,,,,,direct_download,open,0,2048,,Micromed LTM128 Express,,,2026-11-14
 ds005473,29 By BP,,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,29,,,,6.18,,,,,,direct_download,open,63,1000,,"Brain Products GmbH,64 Ag-AgCl scalp electrodes",,,2026-11-14
 ds005486,PREDICT,,scalp_eeg,,,,CC0-1.0,,,,,,true,,159,,,,371.04,,,,,,direct_download,open,,25000,,,resting_unspecified,,2026-11-14

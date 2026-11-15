@@ -307,6 +307,18 @@ ds005343,acquisition_setups:main.n_channels_eeg,conflicting,128,secondary,https:
 ds005343,acquisition_setups:main.n_channels_eeg,conflicting,129,primary,https://s3.amazonaws.com/openneuro.org/ds005343/sub-S1/eeg/sub-S1_task-resting_eeg.json?versionId=nuJ3rljMVMUJRXJ4vuya1.THD5r3cl2f,
 ds005343,acquisition_setups:main.reference,conflicting,Cz or E129,primary,https://s3.amazonaws.com/openneuro.org/ds005343/sub-S1/eeg/sub-S1_task-resting_eeg.json?versionId=nuJ3rljMVMUJRXJ4vuya1.THD5r3cl2f,
 ds005343,acquisition_setups:main.reference,conflicting,vertex (channel Cz),secondary,https://s3.amazonaws.com/openneuro.org/ds005343/README,Audit reviewer; scope: not given
+ds005385,acquisition_setups:main.device_model,conflicting,Brain Amp DC,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8961345/,Audit reviewer; scope: day 1 measurement in the protocol
+ds005385,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://s3.amazonaws.com/openneuro.org/ds005385/sub-600/ses-1/eeg/sub-600_ses-1_task-EyesOpen_acq-pre_eeg.json?versionId=D5qYUJ__BeIFGltWgrRmw2mCZ2J8JbW4,
+ds005408,acquisition_setups:main.device_model,conflicting,BrainVision ActiCHAMP amplifier and two EP-Preamp ABR preamplifiers,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11974362/,Audit reviewer; scope: not given
+ds005408,acquisition_setups:main.device_model,conflicting,actiCHamp with EP-PreAmp,primary,https://s3.amazonaws.com/openneuro.org/ds005408/task-peakysnr_eeg.json?versionId=nSesD63VfOtu4dhWasJcvfCTNvhlxl.z,
+ds005408,acquisition_setups:main.ground,conflicting,forehead at Fpz,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11974362/,Audit reviewer; scope: not given
+ds005408,acquisition_setups:main.ground,conflicting,placed on Fpz,primary,https://s3.amazonaws.com/openneuro.org/ds005408/task-peakysnr_eeg.json?versionId=nSesD63VfOtu4dhWasJcvfCTNvhlxl.z,
+ds005408,acquisition_setups:main.reference,conflicting,FCz referenced to each of the earlobes,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11974362/,Audit reviewer; scope: not given
+ds005408,acquisition_setups:main.reference,conflicting,placed on FCz,primary,https://s3.amazonaws.com/openneuro.org/ds005408/task-peakysnr_eeg.json?versionId=nSesD63VfOtu4dhWasJcvfCTNvhlxl.z,
+ds005411,acquisition_setups:main.reference,conflicting,bipolar,primary,https://s3.amazonaws.com/openneuro.org/ds005411/sub-R1204T/ses-0/ieeg/sub-R1204T_ses-0_task-RepFR1_acq-bipolar_ieeg.json?versionId=eN7SKJ4R.sdsN1Hmvt0C42vDDlbNSBRa,
+ds005411,acquisition_setups:main.reference,conflicting,typically a mastoid reference,secondary,https://s3.amazonaws.com/openneuro.org/ds005411/README,Audit reviewer; scope: monopolar recordings only
+ds005416,acquisition_setups:main.n_channels_eeg,conflicting,24,secondary,https://s3.amazonaws.com/openneuro.org/ds005416/README,Audit reviewer; scope: not given
+ds005416,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://s3.amazonaws.com/openneuro.org/ds005416/sub-s01/eeg/sub-s01_task-WatchingTask_eeg.json?versionId=mNxPhBqCI7GmT0n1Sx2Fiqb7GjxIwi8C,
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given

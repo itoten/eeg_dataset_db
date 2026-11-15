@@ -941,25 +941,35 @@ ds005307,pain,pain,,,,,,,,,
 ds005340,peakypitch,peakypitch,auditory_erp,,,,,,,,
 ds005342,sitstand,sitstand,motor_imagery,,,,,,,,"The temporal sequence task of a trial performed by each participant consisted of four steps. As a first step (fixation), a cross symbol appeared on the TV screen for 4 s during which the participant was asked to avoid any body movement or effort and to stay focused while looking at the symbol. In the second step (action observation), a figure appeared on the TV screen for 3 s, which the participant had to observe and perform one experimental task subsequently in the third step. In the third step (imagining), the participant had to visualize the action indicated by the figure shown in the secon [ds005342_sidecar]"
 ds005343,resting,resting,resting_unspecified,,,,,,,,
+ds005345,le_petit_prince_multi_talker_listening,Le Petit Prince multi-talker listening,language,,,,,,,,
 ds005345,multitalker,multitalker,,,,,,,,,Listening to multitalker narratives for auditory processing research. [ds005345_sidecar]
 ds005345,rest,rest,resting_unspecified,,,,,,,,
 ds005363,objrecog,objrecog,,,,,,,,,
 ds005383,fuzzysemanticrecognition,fuzzysemanticrecognition,,,,,,,,,
+ds005383,natural_reading_fuzzy_semantic_target_id,"natural reading, fuzzy semantic target identification",language,,,,,,,,
+ds005385,eyesopen_eyesclosed_pre_and_post_cogniti,EyesOpen / EyesClosed (pre and post cognitive tests),resting_eyes_closed;resting_eyes_open,,,,,,,,
 ds005385,restingstate,RestingState,,,,,,,,,"participants had to sit still in the laboratory. sequences of 3 minutes were recorded with eyes open closed and eyes closed open, respectively. Both recordings were performed either before (acq-pre) or and after (acq-post) a battery of neurocognitive experiments (duration about 2 hours). Session 1 (first measurement) and session 2 (first follow-up) were performed with a time lag of about 5 years. [ds005385_sidecar]"
+ds005397,scene_rating_beauty_complexity_interesti,"scene rating (beauty, complexity, interestingness, reading/social appropriateness)",other,,,,,,,,
 ds005397,tectonic,tectonic,,,,,,,,,Participants viewed images with varied stair architecture (4) with different primed activites in mind (3). [ds005397_sidecar]
 ds005398,sleep,sleep,sleep,,,,,,,,
 ds005403,daf,daf,,,,,,,,,
+ds005403,delayed_auditory_feedback_daf,delayed auditory feedback (daf),overt_speech,,,,,,,,
 ds005406,ftdiss,FTdiss,,,,,,,,,
+ds005408,peaky_snr,peaky_snr,auditory_erp,,,,,,,,
 ds005408,peakysnr,peakysnr,,,,,,,,,
-ds005410,conditioning,conditioning,,,,,,,,,"The experiment consisted of two phases: acquisition and test. Each trial involved a sequence of three events: a word, followed by a tactile stimulus, and then an auditory stimulus. During acquisition, words from one category (e.g., animals) were followed by a left-hand vibration and a pleasant sound (US-), while words from another category (e.g., clothing) were followed by a right-hand vibration and the same pleasant sound. In the acquisition phase, there were 15 trials of each type. In the test phase, 110 trials replicated the acquisition sequences, and 110 trials presented incorrect word-tac [ds005410_sidecar]"
+ds005410,conditioning,conditioning,other,,,,,,,,"The experiment consisted of two phases: acquisition and test. Each trial involved a sequence of three events: a word, followed by a tactile stimulus, and then an auditory stimulus. During acquisition, words from one category (e.g., animals) were followed by a left-hand vibration and a pleasant sound (US-), while words from another category (e.g., clothing) were followed by a right-hand vibration and the same pleasant sound. In the acquisition phase, there were 15 trials of each type. In the test phase, 110 trials replicated the acquisition sequences, and 110 trials presented incorrect word-tac [ds005410_sidecar]"
+ds005411,repeated_item_free_recall,repeated item free recall,cognitive_task,,,,,,,,
 ds005411,repfr1,RepFR1,,,,,,,,,free recall of word lists with repeated items. [ds005411_sidecar]
-ds005415,numbers,numbers,,,,,,,,,
-ds005416,watchingtask,WatchingTask,,,,,,,,,"Each participant was required to complete watching 2 resting scenes and 15 movement scenes. Each movement scene was asked to watch stereoscopic depth movements, with movement speed set at 3.25 m/s. Each resting scene takes about 5 minutes (300s). [ds005416_sidecar]"
-ds005420,oa,oa,,,,,,,,,
+ds005415,numbers,numbers,other,,,,,,,,
+ds005416,watchingtask,WatchingTask,passive_viewing,,,,,,,,"Each participant was required to complete watching 2 resting scenes and 15 movement scenes. Each movement scene was asked to watch stereoscopic depth movements, with movement speed set at 3.25 m/s. Each resting scene takes about 5 minutes (300s). [ds005416_sidecar]"
+ds005420,oa,oa,resting_eyes_closed;resting_eyes_open,,,,,,,,
 ds005420,oc,oc,,,,,,,,,
+ds005429,learning_oddball_p3b,learning-oddball (P3b),p300_erp,,,,,,,,
 ds005429,learningoddball,LearningOddball,,,,,,,,,
+ds005429,local_global_paradigm,local-global paradigm,auditory_erp,,,,,,,,
 ds005429,localglobal,LocalGlobal,,,,,,,,,Stimuli consisted of quintlets that could be standards or deviants on the local/global level depending on block type. [ds005429_sidecar]
 ds005429,optimum1,Optimum1,,,,,,,,,
+ds005429,optimum_1_mmn,Optimum-1 (MMN),auditory_erp,,,,,,,,
 ds005448,task_spesclin,task-SPESclin,,,,,,,,,"No task, electrical stimulation is performed. Patient is resting with eyes open/closed. The latter is not always specified. [ds005448_sidecar]"
 ds005473,t_29bybp,29ByBP,,,,,,,,,
 ds005486,rest,rest,resting_unspecified,,,,,,,,
