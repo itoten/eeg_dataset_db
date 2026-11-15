@@ -307,26 +307,28 @@ ds004279,sentences,sentences,,,,,,,,,
 ds004279,speech_perception_and_silent_speech_prod,speech perception and silent speech production on 30 Spanish sentences,imagined_speech;language,,,,,,,,
 ds004284,kickstarter,kickstarter,,,,,,,,,
 ds004295,task,task,,,,,,,,,
-ds004306,experiment,experiment,,,,,,,,,
-ds004315,pst,PST,,,,,,,,,
-ds004317,pst,PST,,,,,,,,,
+ds004306,experiment,experiment,other,,,,,,,,
+ds004315,pst,PST,cognitive_task,,,,,,,,
+ds004317,pst,PST,cognitive_task,,,,,,,,
 ds004324,rsvp,RSVP,,,,,,,,,
-ds004347,jacobsen,jacobsen,,,,,,,,,
+ds004347,jacobsen,jacobsen,visual_erp,,,,,,,,
 ds004348,sleep,Sleep,sleep,,,,,,,,At home sleep recording. [ds004348_sidecar]
 ds004350,lg,LG,,,,,,,,,
+ds004350,n_back_sart_local_global,N-Back / SART / Local Global,cognitive_task,,,,,,,,
 ds004350,nb1,NB1,,,,,,,,,
 ds004350,nb2,NB2,,,,,,,,,
 ds004350,nb3,NB3,,,,,,,,,
 ds004350,sart,SART,,,,,,,,,
-ds004356,musicvsspeech,MusicvsSpeech,,,,,,,,,"For the first phase, subjects listened to 10 trials (each 60 seconds long) clicks. For the second phase, subjects listened to 40 trials (each 12 seconds long) each of six genres of music and six types of speech (480 trials in total), while seated in a sound-isolating booth on a chair in front of a monitor. Subjects were encouraged to rest or sleep and did not have to pay attention to the audio. Subjects were asked to stay awake and paying attention to the sounds. [ds004356_sidecar]"
-ds004357,rsvp,rsvp,,,,,,,,,
-ds004362,motion,motion,,,,,,,,,
-ds004367,rdk,rdk,,,,,,,,,
+ds004356,musicvsspeech,MusicvsSpeech,auditory_erp,,,,,,,,"For the first phase, subjects listened to 10 trials (each 60 seconds long) clicks. For the second phase, subjects listened to 40 trials (each 12 seconds long) each of six genres of music and six types of speech (480 trials in total), while seated in a sound-isolating booth on a chair in front of a monitor. Subjects were encouraged to rest or sleep and did not have to pay attention to the audio. Subjects were asked to stay awake and paying attention to the sounds. [ds004356_sidecar]"
+ds004357,rsvp,rsvp,visual_erp,,,,,,,,
+ds004362,motion,motion,motor_execution;motor_imagery;resting_eyes_closed;resting_eyes_open,,,,,,,,
+ds004367,rdk,rdk,cognitive_task,,,,,,,,
 ds004368,task,task,,,,,,,,,
-ds004369,attendedspeakerparadigm,attendedSpeakerParadigm,,,,,,,,,
+ds004369,attendedspeakerparadigm,attendedSpeakerParadigm,auditory_erp,,,,,,,,
+ds004370,spesclin,SPESclin,clinical_routine,,,,,,,,
 ds004370,task_spesclin,task-SPESclin,,,,,,,,,"No task, electrical stimulation is performed. Patient is resting with eyes open/closed. The latter is not always specified. [ds004370_sidecar]"
 ds004370,task_spesprop,task-SPESprop,,,,,,,,,
-ds004381,seprate,sepRate,,,,,,,,,Tibial left stimulation at 2.70 Hz. [ds004381_sidecar]
+ds004381,seprate,sepRate,other,,,,,,,,Tibial left stimulation at 2.70 Hz. [ds004381_sidecar]
 ds004388,alternating,alternating,,,,,,,,,Participants were laying on their back. Alternating stimulation of mixed median nerve stimulation at the left wrist and mixed tibial nerve at the left ankle. [ds004388_sidecar]
 ds004388,median,median,,,,,,,,,
 ds004388,tibial,tibial,,,,,,,,,

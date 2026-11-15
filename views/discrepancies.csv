@@ -177,6 +177,23 @@ ds004151,acquisition_setups:main.device_manufacturer,conflicting,Geodesic EEG sy
 ds004151,acquisition_setups:main.device_manufacturer,conflicting,Magstim EGI,secondary,https://s3.amazonaws.com/openneuro.org/ds004151/README,Audit reviewer; scope: whole dataset
 ds004151,acquisition_setups:main.device_model,conflicting,Geodesic Net Amps 300,secondary,https://s3.amazonaws.com/openneuro.org/ds004151/README,Audit reviewer; scope: whole dataset
 ds004151,acquisition_setups:main.device_model,conflicting,"Geodesic Net Amps 300, Netstation 4.5.2 software",primary,https://s3.amazonaws.com/openneuro.org/ds004151/sub-57/eeg/sub-57_task-stop_eeg.json?versionId=TmknwDKur0tDCrte4Cu7P5nB4MsA9cif,
+ds004306,n_subjects_reported,conflicting,12,primary,https://openneuro.org/datasets/ds004306/versions/1.0.2,
+ds004306,n_subjects_reported,conflicting,13,secondary,https://s3.amazonaws.com/openneuro.org/ds004306/README,Audit reviewer; scope: not given
+ds004350,acquisition_setups:main.reference,conflicting,BIOSEMI CMS/DRL,primary,https://s3.amazonaws.com/openneuro.org/ds004350/sub-001/ses-post/eeg/sub-001_ses-post_task-LG_eeg.json?versionId=H4DYDF0D5L.BYytJY_JtvUh18X04r4fN,
+ds004350,acquisition_setups:main.reference,conflicting,BIOSEMI CMS\/DRL,primary,https://s3.amazonaws.com/openneuro.org/ds004350/sub-001/ses-post/eeg/sub-001_ses-post_task-LG_eeg.json?versionId=H4DYDF0D5L.BYytJY_JtvUh18X04r4fN,Audit reviewer; scope: not given
+ds004350,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://www.frontiersin.org/articles/10.3389/fnhum.2020.00246/full,Audit reviewer; scope: as recorded
+ds004350,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://s3.amazonaws.com/openneuro.org/ds004350/README,Audit reviewer; scope: distributed signals; recorded at 2048 hz per paper
+ds004350,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://s3.amazonaws.com/openneuro.org/ds004350/sub-001/ses-post/eeg/sub-001_ses-post_task-LG_eeg.json?versionId=H4DYDF0D5L.BYytJY_JtvUh18X04r4fN,
+ds004356,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,primary,https://www.nature.com/articles/s41598-023-50438-0,Audit reviewer; scope: not given
+ds004356,acquisition_setups:main.device_manufacturer,conflicting,BrainProducts,primary,https://s3.amazonaws.com/openneuro.org/ds004356/task-MusicvsSpeech_eeg.json?versionId=T6To9Sjs71zraK7DKwEMnEdHBQMUq3qT,
+ds004356,acquisition_setups:main.device_model,conflicting,ActiCHamp,primary,https://www.nature.com/articles/s41598-023-50438-0,Audit reviewer; scope: not given
+ds004356,acquisition_setups:main.device_model,conflicting,ActiCHamp. EP-PreAmp for ABR electrodes.,primary,https://s3.amazonaws.com/openneuro.org/ds004356/task-MusicvsSpeech_eeg.json?versionId=T6To9Sjs71zraK7DKwEMnEdHBQMUq3qT,
+ds004356,acquisition_setups:main.ground,conflicting,Fpz,primary,https://www.nature.com/articles/s41598-023-50438-0,Audit reviewer; scope: not given
+ds004356,acquisition_setups:main.ground,conflicting,placed on Fpz,primary,https://s3.amazonaws.com/openneuro.org/ds004356/task-MusicvsSpeech_eeg.json?versionId=T6To9Sjs71zraK7DKwEMnEdHBQMUq3qT,
+ds004356,acquisition_setups:main.reference,conflicting,ABR reference placed on FCz,primary,https://s3.amazonaws.com/openneuro.org/ds004356/task-MusicvsSpeech_eeg.json?versionId=T6To9Sjs71zraK7DKwEMnEdHBQMUq3qT,
+ds004356,acquisition_setups:main.reference,conflicting,The average of the two electrodes TP9 and TP10 was used as the reference.,primary,https://www.nature.com/articles/s41598-023-50438-0,Audit reviewer; scope: cortical channels
+ds004357,acquisition_setups:main.reference,conflicting,Cz,primary,https://s3.amazonaws.com/openneuro.org/ds004357/task-rsvp_eeg.json?versionId=Txv9znDhaRpiN3brBgoamndUAyUqKDaE,
+ds004357,acquisition_setups:main.reference,conflicting,FCz,primary,https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011760,Audit reviewer; scope: not given
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004574/sub-001/eeg/sub-001_task-Oddball_eeg.json?versionId=Ab5RNBhpIMDrjXkMhMZPSZheoa46Lhq0,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004574/README,Audit reviewer; scope: not given
 ds004579,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004579/sub-001/eeg/sub-001_task-IntervalTiming_eeg.json?versionId=t2OsC3KDFjAMAm9gy0G.5ImsoyjGIs9B,

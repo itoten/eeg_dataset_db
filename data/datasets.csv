@@ -186,21 +186,21 @@ ds004264,Steer the Ship,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,21,
 ds004279,Large Spanish EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,56,,,,25.22,,,,,,direct_download,open,64,1000,,,imagined_speech;language,,2026-11-15
 ds004284,eeg-neuroforecasting,,scalp_eeg,,,,CC0-1.0,,,,,,true,,18,,,,16.36,,,,,,site_terms_agreement,one_time_human,129,1000,,EGI,,,2026-11-15
 ds004295,Reward gain and punishment avoidance reversal learning,,scalp_eeg,,leibniz_institute_for_neurobiology_university_of_m,,CC0-1.0,,,,,,true,,26,,,,31.51,,,,,,direct_download,open,66,1024,10_20,BioSemi ActiveTwo,,,2026-11-15
-ds004306,EEG Semantic Imagination and Perception Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,12,,,,0.64,,,,,,direct_download,open,124,1024,10_20,,,,2026-11-14
-ds004315,"Mood Manipulation and PST, Experiment 1",,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,50,,,,9.81,,,,,,direct_download,open,60,500,,Brain Vision ActiChamp,,,2026-11-14
-ds004317,"Mood Manipulation and PST, Experiment 2",,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,50,,,,18.29,,,,,,direct_download,open,60,500,,Brain Vision ActiChamp,,,2026-11-14
-ds004324,ToonFaces,,scalp_eeg,,,,CC0-1.0,,,,,,true,,26,,,,2.46,,,,,,direct_download,open,28,500,10_20,,,,2026-11-14
-ds004347,Symmetry perception and affective responses: a combined EEG/EMG study,,scalp_eeg,,university_of_liverpool,,CC0-1.0,,,,,,true,,24,,,,2.4,,,,,,direct_download,open,64,512,,BIOSEMI ActiveTwo,,,2026-11-14
-ds004348,Ear-EEG Sleep Monitoring 2017 (EESM17),,scalp_eeg,,aarhus_university,,CC0-1.0,,,,,,true,,9,,,,8.19,,,,,,direct_download,open,34,200,10_20,,sleep,,2026-11-14
-ds004350,Executive Functionning Study for Assessing the Effect of Neurofeedback,,scalp_eeg,,paul_sabatier_university,,CC0-1.0,,,,,,true,,24,,,,9.44,,,,,,direct_download,open,64,256,10_20,ActiveTwo,,,2026-11-14
-ds004356,Subcortical responses to music and speech are alike while cortical responses diverge,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,213.08,,,,,,direct_download,open,34,10000,10_20,BrainProducts ActiCHamp. EP-PreAmp for ABR electrodes.,,,2026-11-14
-ds004357,Features-EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,16,,,,19.34,,,,,,direct_download,open,63,1000,,,,,2026-11-14
-ds004362,EEG Motor Movement/Imagery Dataset,,scalp_eeg,,wadsworth_center_new_york_state_department_of_heal,,CC0-1.0,,,,,,true,,109,,,,7.77,,,,,,direct_download,open,64,,,,,,2026-11-14
-ds004367,Meta-rdk: Raw EEG data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,40,,,,27.98,,,,,,direct_download,open,68,1200,10_20,g.tec,,,2026-11-14
-ds004368,Meta-rdk: Preprocessed EEG data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,39,,,,0.97,,,,,,direct_download,open,63,128,10_20,g.tec,,,2026-11-14
-ds004369,Blink-Pause-Relation (Competing Speaker Paradigm),,scalp_eeg,,university_of_oldenburg,,CC0-1.0,,,,,,true,,41,,,,2.03,,,,,,direct_download,open,4,500,,BrainAmp,,,2026-11-14
-ds004370,PRIOS,,ieeg,,university_medical_center_utrecht_division_brain_c,,CC0-1.0,,,,,,true,,7,,,,27.55,,,,,,direct_download,open,0,2048,,Micromed LTM64 Express,,,2026-11-14
-ds004381,Intraoperative EEG dataset during medianus-tibialis stimulation with 8 different rates,,scalp_eeg,,department_of_neurosurgery_university_hospital_zur,,CC0-1.0,,,,,,true,,18,,,,7.73,,,,,,direct_download,open,4,20000,,Inomed Medizintechnik GmbH Inomed ISIS System,,,2026-11-14
+ds004306,EEG Semantic Imagination and Perception Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,conflicting,,,,0.64,,,,,,direct_download,open,124,1024,10_20,ANT-Neuro,other,,2026-11-15
+ds004315,"Mood Manipulation and PST, Experiment 1",,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,50,,,,9.81,,,,,,direct_download,open,60,500,,Brain Vision ActiChamp,cognitive_task,,2026-11-15
+ds004317,"Mood Manipulation and PST, Experiment 2",,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,50,,,,18.29,,,,,,direct_download,open,60,500,,Brain Vision ActiChamp,cognitive_task,,2026-11-15
+ds004324,ToonFaces,,scalp_eeg,,,,CC0-1.0,,,,,,true,,26,,,,2.46,,,,,,direct_download,open,28,500,10_20,,,,2026-11-15
+ds004347,Symmetry perception and affective responses: a combined EEG/EMG study,,scalp_eeg,,university_of_liverpool,,CC0-1.0,,,,,,true,,24,,,,2.4,,,,,,direct_download,open,64,512,,BIOSEMI ActiveTwo,visual_erp,,2026-11-15
+ds004348,Ear-EEG Sleep Monitoring 2017 (EESM17),,ear_eeg;eog;emg;scalp_eeg,,aarhus_university,,CC0-1.0,,,,,,true,,9,,,,8.19,,,,,,direct_download,open,34,200,10_20,,sleep,,2026-11-15
+ds004350,Executive Functionning Study for Assessing the Effect of Neurofeedback,,scalp_eeg,,paul_sabatier_university,,CC0-1.0,,,,,,true,,24,,,,9.44,,,,,,direct_download,open,64,,10_20,ActiveTwo,cognitive_task,,2026-11-15
+ds004356,Subcortical responses to music and speech are alike while cortical responses diverge,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,213.08,,,,,,direct_download,open,34,10000,10_20,,auditory_erp,,2026-11-15
+ds004357,Features-EEG,,scalp_eeg,,,,CC0-1.0,,,,,,true,,16,,,,19.34,,,,,,direct_download,open,63,1000,,BrainVision ActiChamp,visual_erp,,2026-11-15
+ds004362,EEG Motor Movement/Imagery Dataset,,scalp_eeg,,wadsworth_center_new_york_state_department_of_heal,,CC0-1.0,,,,,,true,,109,,,,7.77,,,,,,direct_download,open,64,160,,,motor_execution;motor_imagery;resting_eyes_closed;resting_eyes_open,,2026-11-15
+ds004367,Meta-rdk: Raw EEG data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,40,,,,27.98,,,,,,direct_download,open,68,1200,10_20,g.tec HIamp,cognitive_task,,2026-11-15
+ds004368,Meta-rdk: Preprocessed EEG data,,scalp_eeg,,,,CC0-1.0,,,,,,true,,39,,,,0.97,,,,,,direct_download,open,63,128,10_20,g.tec,,,2026-11-15
+ds004369,Blink-Pause-Relation (Competing Speaker Paradigm),,scalp_eeg,,university_of_oldenburg,,CC0-1.0,,,,,,true,,41,,,,2.03,,,,,,direct_download,open,4,500,,BrainAmp,auditory_erp,,2026-11-15
+ds004370,PRIOS,,ieeg;ieeg_ecog,,university_medical_center_utrecht_division_brain_c,,CC0-1.0,,,,,,true,,7,,,,27.55,,,,,,direct_download,open,0,2048,,Micromed LTM64 Express,clinical_routine,,2026-11-15
+ds004381,Intraoperative EEG dataset during medianus-tibialis stimulation with 8 different rates,,scalp_eeg,,department_of_neurosurgery_university_hospital_zur,,CC0-1.0,,,,,,true,,18,,,,7.73,,,,,,direct_download,open,4,20000,,Inomed Medizintechnik GmbH Inomed ISIS System,other,,2026-11-15
 ds004388,Somatosensory evoked potentials in the human spinal cord to mixed nerve stimulation,,scalp_eeg,,max_planck_institute_for_human_cognitive_and_brain,,CC0-1.0,,,,,,true,,40,,,,682.54,,,,,,direct_download,open,67,10000,10_10,Bittum NeurOne,,,2026-11-14
 ds004389,Somatosensory evoked potentials in the human spinal cord to mixed and sensory nerve stimulation,,scalp_eeg,,max_planck_institute_for_human_cognitive_and_brain,,CC0-1.0,,,,,,true,,26,,,,376.5,,,,,,direct_download,open,42,10000,10_10,Bittum NeurOne,,,2026-11-14
 ds004395,Penn Electrophysiology of Encoding and Retrieval Study (PEERS),,scalp_eeg,,,,CC0-1.0,,,,,,true,,364,,,,8925.16,,,,,,direct_download,open,125,500,,EGI,,,2026-11-14
