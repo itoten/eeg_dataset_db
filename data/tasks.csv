@@ -463,23 +463,29 @@ ds004771,py,PY,,,,,,,,,
 ds004771,python_reading_acceptability_judgments,Python reading acceptability judgments,language,,,,,,,,
 ds004774,ccep,CCEP,other,,,,,,,,Bipolar corticocortical stimulation. [ds004774_sidecar]
 ds004774,task_spesclin,task-SPESclin,,,,,,,,,
-ds004784,mixed,mixed,,,,,,,,,
 ds004785,unnamed,unnamed,,,,,,,,,
+ds004789,delayed_free_recall_of_word_lists,Delayed Free Recall of Word Lists,cognitive_task,,,,,,,,
 ds004789,fr1,FR1,,,,,,,,,delayed free recall of word lists. [ds004789_sidecar]
 ds004796,msit,msit,,,,,,,,,"MSIT is a task design to study cognitive control and conflict processing. Standard version was firstly described by Bush et al. in 2006. Three digits are displayed in the center of the screen, including two digits that are always identical and one deviant. Participants are instructed to indicate the deviant digit in each set. The task was fully described in the corresponding research paper. [ds004796_sidecar]"
+ds004796,msit_and_sternberg_memory_task,MSIT and Sternberg memory task,cognitive_task,,,,,,,,
 ds004796,rest,rest,resting_unspecified,,,,,,,,
+ds004796,resting_state_protocol,Resting-state protocol,resting_eyes_closed;resting_eyes_open,,,,,,,,
 ds004796,sternberg,sternberg,,,,,,,,,
-ds004802,rovingoddball,RovingOddball,,,,,,,,,"Roving oddball task with face stimuli with either happy, angry, or neutral facial expression. To keep participants engaged, 10% of trials contained a red fixation cross. Participants were instructed to press the space bar when they noticed the red cross. [ds004802_sidecar]"
+ds004802,rovingoddball,RovingOddball,visual_erp,,,,,,,,"Roving oddball task with face stimuli with either happy, angry, or neutral facial expression. To keep participants engaged, 10% of trials contained a red fixation cross. Participants were instructed to press the space bar when they noticed the red cross. [ds004802_sidecar]"
+ds004809,categorized_free_recall,Categorized Free Recall,cognitive_task,,,,,,,,
 ds004809,catfr1,catFR1,,,,,,,,,delayed free recall of categorized word lists. [ds004809_sidecar]
 ds004816,rsvp,rsvp,,,,,,,,,
+ds004816,two_back_task_on_superimposed_stimuli_rs,two-back task on superimposed stimuli (RSVP),cognitive_task,,,,,,,,
 ds004817,rsvp,rsvp,,,,,,,,,
+ds004817,two_back_task_on_superimposed_stimuli_rs,two-back task on superimposed stimuli (RSVP),cognitive_task,,,,,,,,
+ds004840,music_assisted_relaxation_pre_mar_mti_po,Music-Assisted Relaxation (PRE / MAR MTI / POST),other,,,,,,,,
 ds004840,task_musictherapy,task-musicTherapy,,,,,,,,,"Music therapy intervention(MTI) consisted of Music - Assisted Relaxation(MAR), a music therapy technique aimed at enhancing relaxation and well - being of patients. [ds004840_sidecar]"
 ds004840,task_postmusictherapy,task-postMusicTherapy,,,,,,,,,
 ds004840,task_premusictherapy,task-preMusicTherapy,,,,,,,,,
-ds004841,driveonmission,DriveOnMission,,,,,,,,,
+ds004841,driveonmission,DriveOnMission,cognitive_task,,,,,,,,
 ds004842,driveonmission,DriveOnMission,,,,,,,,,
 ds004843,visualsituationalawareness,VisualSituationalAwareness,,,,,,,,,
-ds004844,drive,Drive,,,,,,,,,
+ds004844,drive,Drive,cognitive_task,,,,,,,,
 ds004849,nback,nback,,,,,,,,,
 ds004850,nback,nback,,,,,,,,,
 ds004851,hid,HID,,,,,,,,,

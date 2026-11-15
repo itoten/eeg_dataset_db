@@ -262,6 +262,12 @@ ds004661,acquisition_setups:main.reference,conflicting,EXG5 EXG6,primary,https:/
 ds004661,acquisition_setups:main.reference,conflicting,left and right mastoids,secondary,https://s3.amazonaws.com/openneuro.org/ds004661/README,Audit reviewer; scope: not given
 ds004661,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://s3.amazonaws.com/openneuro.org/ds004661/sub-001/eeg/sub-001_task-nback_eeg.json?versionId=w5GBT09LyAAeLyyd38J6nITVKJApyOGa,
 ds004661,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://s3.amazonaws.com/openneuro.org/ds004661/README,Audit reviewer; scope: as recorded; sidecar says 128 (distributed)
+ds004796,acquisition_setups:main.device_model,conflicting,Brain Products GmbH actiCHamp,primary,https://s3.amazonaws.com/openneuro.org/ds004796/task-msit_eeg.json?versionId=4vV85ItI2xvAGk61ScsHoFmLV6ehi9gl,
+ds004796,acquisition_setups:main.device_model,conflicting,actiCHamp,primary,https://www.nature.com/articles/s41597-024-03106-5,Audit reviewer; scope: not given
+ds004840,acquisition_setups:main.device_model,conflicting,Micromed LTM64,secondary,https://s3.amazonaws.com/openneuro.org/ds004840/README,Audit reviewer; scope: not given
+ds004840,acquisition_setups:main.device_model,conflicting,"Micromed LTM64, Colombian National Institute for Drug and Food Safety (20090486-2015)",primary,https://s3.amazonaws.com/openneuro.org/ds004840/sub-01/ses-01/eeg/sub-01_ses-01_task-musicTherapy_eeg.json?versionId=KUjZCQlZ0EsGca1SGW1613N4J0HiZXMm,
+ds004840,acquisition_setups:main.reference,conflicting,Cz,secondary,https://s3.amazonaws.com/openneuro.org/ds004840/README,Audit reviewer; scope: readme; the sidecar says fcz
+ds004840,acquisition_setups:main.reference,conflicting,FCz,primary,https://s3.amazonaws.com/openneuro.org/ds004840/sub-01/ses-01/eeg/sub-01_ses-01_task-musicTherapy_eeg.json?versionId=KUjZCQlZ0EsGca1SGW1613N4J0HiZXMm,
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
