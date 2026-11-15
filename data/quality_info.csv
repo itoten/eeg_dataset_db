@@ -234,6 +234,7 @@ ds007353,1,bad_channel_marks,The channels file has a status column (BIDS: good o
 ds007427,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007427_channels,header row,2026-11-14,script,
 ds007431,1,recording_notes,No notes,sidecar field SubjectArtefactDescription,ds007431_sidecar,SubjectArtefactDescription,2026-11-14,script,
 ds007445,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007445_channels,header row,2026-11-14,script,
+ds007454,1,impedance_threshold,skin-electrode impedance brought below 15 kOhm before recording,stated in the document,ds007454_doc1069c9,Skin-electrode impedance was brought below 15 kΩ before starting the recording.,2026-11-16,claude,
 ds007537,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007537_channels,header row,2026-11-14,script,
 ds007541,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds007541_channels,header row,2026-11-14,script,
 ds007558,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel).,status column of channels.tsv,ds007558_channels,header row,2026-11-14,script,
