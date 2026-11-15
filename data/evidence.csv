@@ -14207,6 +14207,7 @@ ds008014/access_routes:openneuro.access_method/01,ds008014,access_routes:openneu
 ds008014/access_routes:openneuro.automation_tool/01,ds008014,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008014_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008014/access_routes:openneuro.human_steps/01,ds008014,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008014_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds008014/acquisition_setups:main.device_manufacturer/01,ds008014,acquisition_setups:main.device_manufacturer,BioSemi,ds008014_sidecar,Manufacturer,2026-11-14,script,current,
+ds008014/acquisition_setups:main.device_manufacturer/02,ds008014,acquisition_setups:main.device_manufacturer,BioSemi,ds008014_doc50c56b,Raw BioSemi BDF recordings are stored under each participant folder.,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008014/acquisition_setups:main.device_model/01,ds008014,acquisition_setups:main.device_model,ActiveTwo,ds008014_sidecar,ManufacturersModelName,2026-11-14,script,current,
 ds008014/acquisition_setups:main.ground/01,ds008014,acquisition_setups:main.ground,CMS/DRL,ds008014_sidecar,EEGGround,2026-11-14,script,current,
 ds008014/acquisition_setups:main.line_freq_hz/01,ds008014,acquisition_setups:main.line_freq_hz,60,ds008014_sidecar,PowerLineFrequency,2026-11-14,script,current,
@@ -14215,12 +14216,15 @@ ds008014/acquisition_setups:main.sampling_rate_hz/01,ds008014,acquisition_setups
 ds008014/is_bids/01,ds008014,is_bids,true,ds008014_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds008014/license_spdx/01,ds008014,license_spdx,CC0-1.0,ds008014_record,License: CC0,2026-11-14,script,current,
 ds008014/modalities/01,ds008014,modalities,scalp_eeg,ds008014_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008014/modalities/02,ds008014,modalities,scalp_eeg,ds008014_doc50c56b,This dataset contains raw EEG data from a visual statistical learning experiment,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008014/n_subjects_reported/01,ds008014,n_subjects_reported,78,ds008014_record,Participants 78,2026-11-14,script,current,
 ds008014/name/01,ds008014,name,"Not passive sponges: When attention wanes, our brains are less synchronized with the environment",ds008014_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds008014/size_gb_reported/01,ds008014,size_gb_reported,57.99,ds008014_record,Size: 57.99GB,2026-11-14,script,current,
 ds008014/tasks:control.task_name/01,ds008014,tasks:control.task_name,control,ds008014_record,Tasks: control,2026-11-14,script,current,
 ds008014/tasks:frequency.task_name/01,ds008014,tasks:frequency.task_name,frequency,ds008014_record,Tasks: frequency,2026-11-14,script,current,
 ds008014/tasks:tp.task_name/01,ds008014,tasks:tp.task_name,tp,ds008014_record,Tasks: tp,2026-11-14,script,current,
+ds008014/tasks:visual_statistical_learning_control_freq.paradigms/01,ds008014,tasks:visual_statistical_learning_control_freq.paradigms,other,ds008014_doc50c56b,"a visual statistical learning experiment with three conditions: control, frequency, and tp",2026-11-16,claude,current,
+ds008014/tasks:visual_statistical_learning_control_freq.task_name/01,ds008014,tasks:visual_statistical_learning_control_freq.task_name,"visual statistical learning (control, frequency, tp)",ds008014_doc50c56b,"a visual statistical learning experiment with three conditions: control, frequency, and tp",2026-11-16,claude,current,
 ds008037/access_routes:openneuro.access_method/01,ds008037,access_routes:openneuro.access_method,site_terms_agreement,ds008037_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds008037/access_routes:openneuro.automation_tool/01,ds008037,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008037_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008037/access_routes:openneuro.human_steps/01,ds008037,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008037_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
@@ -14263,14 +14267,33 @@ ds008065/acquisition_setups:main.line_freq_hz/01,ds008065,acquisition_setups:mai
 ds008065/acquisition_setups:main.n_channels_eeg/01,ds008065,acquisition_setups:main.n_channels_eeg,3,ds008065_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds008065/acquisition_setups:main.reference/01,ds008065,acquisition_setups:main.reference,placed on FCz,ds008065_sidecar,EEGReference,2026-11-14,script,current,
 ds008065/acquisition_setups:main.sampling_rate_hz/01,ds008065,acquisition_setups:main.sampling_rate_hz,10000,ds008065_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds008065/domains/01,ds008065,domains,perception,ds008065_docf60266,Multiband auditory brainstem responses (ABRs) were derived to continuous peaky,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008065/is_bids/01,ds008065,is_bids,true,ds008065_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds008065/license_spdx/01,ds008065,license_spdx,CC0-1.0,ds008065_record,License: CC0,2026-11-14,script,current,
 ds008065/modalities/01,ds008065,modalities,scalp_eeg,ds008065_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008065/modalities/02,ds008065,modalities,scalp_eeg,ds008065_docf60266,It includes EEG recording from participant 01 to 15 in raw brainvision format,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008065/n_subjects_reported/01,ds008065,n_subjects_reported,62,ds008065_record,Participants 62,2026-11-14,script,current,
 ds008065/name/01,ds008065,name,Optimizing parameters for multiband ABRs to continuous speech,ds008065_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds008065/participant_groups:exp1_phases.age_max/01,ds008065,participant_groups:exp1_phases.age_max,23,ds008065_docf60266,"17 participants, mean ± SD age of 20.4 ± 1.3 years (19-23 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp1_phases.age_mean/01,ds008065,participant_groups:exp1_phases.age_mean,20.4,ds008065_docf60266,"17 participants, mean ± SD age of 20.4 ± 1.3 years (19-23 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp1_phases.age_min/01,ds008065,participant_groups:exp1_phases.age_min,19,ds008065_docf60266,"17 participants, mean ± SD age of 20.4 ± 1.3 years (19-23 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp1_phases.age_sd/01,ds008065,participant_groups:exp1_phases.age_sd,1.3,ds008065_docf60266,"17 participants, mean ± SD age of 20.4 ± 1.3 years (19-23 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp1_phases.n_subjects/01,ds008065,participant_groups:exp1_phases.n_subjects,17,ds008065_docf60266,"17 participants, mean ± SD age of 20.4 ± 1.3 years (19-23 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp2_f0s.age_max/01,ds008065,participant_groups:exp2_f0s.age_max,29,ds008065_docf60266,"30 participants, mean ± SD age of 20.3 ± 2.0 years (18-29 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp2_f0s.age_mean/01,ds008065,participant_groups:exp2_f0s.age_mean,20.3,ds008065_docf60266,"30 participants, mean ± SD age of 20.3 ± 2.0 years (18-29 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp2_f0s.age_min/01,ds008065,participant_groups:exp2_f0s.age_min,18,ds008065_docf60266,"30 participants, mean ± SD age of 20.3 ± 2.0 years (18-29 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp2_f0s.age_sd/01,ds008065,participant_groups:exp2_f0s.age_sd,2,ds008065_docf60266,"30 participants, mean ± SD age of 20.3 ± 2.0 years (18-29 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp2_f0s.n_subjects/01,ds008065,participant_groups:exp2_f0s.n_subjects,30,ds008065_docf60266,"30 participants, mean ± SD age of 20.3 ± 2.0 years (18-29 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp3_f0s2.age_max/01,ds008065,participant_groups:exp3_f0s2.age_max,57,ds008065_docf60266,"15 participants, mean ± SD age of 27.7 ± 10.2 years (19-57 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp3_f0s2.age_mean/01,ds008065,participant_groups:exp3_f0s2.age_mean,27.7,ds008065_docf60266,"15 participants, mean ± SD age of 27.7 ± 10.2 years (19-57 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp3_f0s2.age_min/01,ds008065,participant_groups:exp3_f0s2.age_min,19,ds008065_docf60266,"15 participants, mean ± SD age of 27.7 ± 10.2 years (19-57 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp3_f0s2.age_sd/01,ds008065,participant_groups:exp3_f0s2.age_sd,10.2,ds008065_docf60266,"15 participants, mean ± SD age of 27.7 ± 10.2 years (19-57 years)",2026-11-16,claude,current,
+ds008065/participant_groups:exp3_f0s2.n_subjects/01,ds008065,participant_groups:exp3_f0s2.n_subjects,15,ds008065_docf60266,"15 participants, mean ± SD age of 27.7 ± 10.2 years (19-57 years)",2026-11-16,claude,current,
 ds008065/size_gb_reported/01,ds008065,size_gb_reported,94.35,ds008065_record,Size: 94.35GB,2026-11-14,script,current,
 ds008065/tasks:f0s.task_name/01,ds008065,tasks:f0s.task_name,f0s,ds008065_record,Tasks: f0s,2026-11-14,script,current,
+ds008065/tasks:f0s2.paradigms/01,ds008065,tasks:f0s2.paradigms,auditory_erp,ds008065_docf60266,Multiband auditory brainstem responses (ABRs) were derived to continuous peaky speech from two narrators (stories) with fundamental frequencies (f0s) that,2026-11-16,claude,current,
 ds008065/tasks:f0s2.task_name/01,ds008065,tasks:f0s2.task_name,f0s2,ds008065_record,Tasks: f0s2,2026-11-14,script,current,
+ds008065/tasks:phases.paradigms/01,ds008065,tasks:phases.paradigms,auditory_erp,ds008065_docf60266,Multiband auditory brainstem responses (ABRs) were derived to continuous peaky,2026-11-16,claude,current,
 ds008065/tasks:phases.task_name/01,ds008065,tasks:phases.task_name,phases,ds008065_record,Tasks: phases,2026-11-14,script,current,
 ds008081/access_routes:openneuro.access_method/01,ds008081,access_routes:openneuro.access_method,site_terms_agreement,ds008081_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds008081/access_routes:openneuro.automation_tool/01,ds008081,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008081_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
@@ -14286,6 +14309,7 @@ ds008081/acquisition_setups:main.sampling_rate_hz/01,ds008081,acquisition_setups
 ds008081/is_bids/01,ds008081,is_bids,true,ds008081_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds008081/license_spdx/01,ds008081,license_spdx,CC0-1.0,ds008081_record,License: CC0,2026-11-14,script,current,
 ds008081/modalities/01,ds008081,modalities,scalp_eeg,ds008081_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008081/modalities/02,ds008081,modalities,scalp_eeg,ds008081_doc8aa372,REAL-ErgoSSVEP: EEG and ergonomic dataset of steady-state visual evoked potentials under realistic backgrounds,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008081/n_subjects_reported/01,ds008081,n_subjects_reported,30,ds008081_record,Participants 30,2026-11-14,script,current,
 ds008081/name/01,ds008081,name,REAL-ErgoSSVEP: EEG and ergonomic dataset of steady-state visual evoked potentials under realistic backgrounds,ds008081_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds008081/size_gb_reported/01,ds008081,size_gb_reported,11.58,ds008081_record,Size: 11.58GB,2026-11-14,script,current,
@@ -14297,31 +14321,60 @@ ds008082/access_routes:nemar.human_steps/01,ds008082,access_routes:nemar.human_s
 ds008082/access_routes:openneuro.access_method/01,ds008082,access_routes:openneuro.access_method,site_terms_agreement,ds008082_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds008082/access_routes:openneuro.automation_tool/01,ds008082,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008082_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008082/access_routes:openneuro.human_steps/01,ds008082,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008082_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds008082/acquisition_setups:main.device_manufacturer/01,ds008082,acquisition_setups:main.device_manufacturer,Neuronic S.A.,ds007823_doc5de858,"Neuronic S.A. (MEDICID 5, Cuba)",2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008082/acquisition_setups:main.device_model/01,ds008082,acquisition_setups:main.device_model,MEDICID 5,ds007823_doc5de858,"Neuronic S.A. (MEDICID 5, Cuba)",2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008082/acquisition_setups:main.line_freq_hz/01,ds008082,acquisition_setups:main.line_freq_hz,60,ds007823_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds008082/acquisition_setups:main.montage_system/01,ds008082,acquisition_setups:main.montage_system,10_10,ds007823_sidecar,EEGPlacementScheme: 10-10,2026-11-14,script,current,
-ds008082/acquisition_setups:main.n_channels_eeg/01,ds008082,acquisition_setups:main.n_channels_eeg,21,ds007823_sidecar,EEGChannelCount,2026-11-14,script,current,
-ds008082/acquisition_setups:main.reference/01,ds008082,acquisition_setups:main.reference,common,ds007823_sidecar,EEGReference,2026-11-14,script,current,
+ds008082/acquisition_setups:main.montage_system/01,ds008082,acquisition_setups:main.montage_system,10_10,ds007823_sidecar,EEGPlacementScheme: 10-10,2026-11-14,script,conflicting,
+ds008082/acquisition_setups:main.montage_system/02,ds008082,acquisition_setups:main.montage_system,10_20,ds007823_doc5de858,Nineteen Ag/AgCl electrodes were placed on the scalp according to the international 10/20 electrode placement system,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
+ds008082/acquisition_setups:main.n_channels_eeg/01,ds008082,acquisition_setups:main.n_channels_eeg,21,ds007823_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
+ds008082/acquisition_setups:main.n_channels_eeg/02,ds008082,acquisition_setups:main.n_channels_eeg,19,ds007823_doc5de858,Nineteen Ag/AgCl electrodes were placed on the scalp according to the international 10/20 electrode placement system,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
+ds008082/acquisition_setups:main.reference/01,ds008082,acquisition_setups:main.reference,common,ds007823_sidecar,EEGReference,2026-11-14,script,conflicting,
+ds008082/acquisition_setups:main.reference/02,ds008082,acquisition_setups:main.reference,linked earlobes,ds007823_doc5de858,using the linked earlobes as the reference and keeping electrode impedance below 5 kOhm,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 ds008082/acquisition_setups:main.sampling_rate_hz/01,ds008082,acquisition_setups:main.sampling_rate_hz,200,ds007823_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds008082/acquisition_setups:main.sampling_rate_hz/02,ds008082,acquisition_setups:main.sampling_rate_hz,200,ds007823_doc5de858,with a bandwidth of 0.5 to 30 Hz and sampled at 200 Hz using a 12-bit analog-to-digital converter,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008082/is_bids/01,ds008082,is_bids,true,ds008082_record,dataset_description.json BIDSVersion 1.6.0,2026-11-14,script,current,
 ds008082/license_spdx/01,ds008082,license_spdx,CC0-1.0,ds008082_record,License: CC0,2026-11-14,script,current,
 ds008082/modalities/01,ds008082,modalities,scalp_eeg,ds008082_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008082/modalities/02,ds008082,modalities,scalp_eeg,ds007823_doc5de858,"EEG was recorded using a 21-channel digital EEG hardware and software package from Neuronic S.A. (MEDICID 5, Cuba)",2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008082/n_subjects_reported/01,ds008082,n_subjects_reported,173,ds008082_record,Participants 173,2026-11-14,script,current,
 ds008082/name/01,ds008082,name,A COVID-19 survivors and close contacts EEG dataset,ds008082_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds008082/participant_groups:close_contacts_controls.age_mean/01,ds008082,participant_groups:close_contacts_controls.age_mean,45.09,ds007823_doc5de858,The control group comprised 86 subjects (mean age 45.09 ± 12.65 years) who were close contacts of COVID-19 patients.,2026-11-16,claude,current,
+ds008082/participant_groups:close_contacts_controls.age_sd/01,ds008082,participant_groups:close_contacts_controls.age_sd,12.65,ds007823_doc5de858,The control group comprised 86 subjects (mean age 45.09 ± 12.65 years) who were close contacts of COVID-19 patients.,2026-11-16,claude,current,
+ds008082/participant_groups:close_contacts_controls.n_subjects/01,ds008082,participant_groups:close_contacts_controls.n_subjects,86,ds007823_doc5de858,The control group comprised 86 subjects (mean age 45.09 ± 12.65 years) who were close contacts of COVID-19 patients.,2026-11-16,claude,current,
+ds008082/participant_groups:covid_patients.age_mean/01,ds008082,participant_groups:covid_patients.age_mean,47.14,ds007823_doc5de858,This study included 87 convalescent patients (mean age 47.14 ± 13.40 years) with a prior infection of the COVID-19 beta variant,2026-11-16,claude,current,
+ds008082/participant_groups:covid_patients.age_sd/01,ds008082,participant_groups:covid_patients.age_sd,13.4,ds007823_doc5de858,This study included 87 convalescent patients (mean age 47.14 ± 13.40 years) with a prior infection of the COVID-19 beta variant,2026-11-16,claude,current,
+ds008082/participant_groups:covid_patients.condition/01,ds008082,participant_groups:covid_patients.condition,patient,ds007823_doc5de858,This study included 87 convalescent patients (mean age 47.14 ± 13.40 years) with a prior infection of the COVID-19 beta variant,2026-11-16,claude,current,
+ds008082/participant_groups:covid_patients.n_subjects/01,ds008082,participant_groups:covid_patients.n_subjects,87,ds007823_doc5de858,This study included 87 convalescent patients (mean age 47.14 ± 13.40 years) with a prior infection of the COVID-19 beta variant,2026-11-16,claude,current,
 ds008082/size_gb_reported/01,ds008082,size_gb_reported,1.1,ds008082_record,Size: 1.1GB,2026-11-14,script,current,
 ds008082/tasks:covid.task_name/01,ds008082,tasks:covid.task_name,COVID,ds008082_record,Tasks: COVID,2026-11-14,script,current,
+ds008082/tasks:resting_eeg.paradigms/01,ds008082,tasks:resting_eeg.paradigms,resting_eyes_closed,ds008082_doc01a75d,Resting EEG was recorded for 8 minutes in all participants with eyes closed.,2026-11-16,claude,current,
+ds008082/tasks:resting_eeg.task_name/01,ds008082,tasks:resting_eeg.task_name,resting EEG,ds008082_doc01a75d,Resting EEG was recorded for 8 minutes in all participants with eyes closed.,2026-11-16,claude,current,
 ds008083/access_routes:nemar.access_method/01,ds008083,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds008083/access_routes:nemar.automation_tool/01,ds008083,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 ds008083/access_routes:nemar.human_steps/01,ds008083,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
 ds008083/access_routes:openneuro.access_method/01,ds008083,access_routes:openneuro.access_method,site_terms_agreement,ds008083_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds008083/access_routes:openneuro.automation_tool/01,ds008083,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008083_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008083/access_routes:openneuro.human_steps/01,ds008083,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008083_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds008083/acquisition_setups:main.device_model/01,ds008083,acquisition_setups:main.device_model,actiChamp Plus,ds008083_doc0e0228,using an actiChamp Plus amplifier at 1000 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008083/acquisition_setups:main.ground/01,ds008083,acquisition_setups:main.ground,FPz,ds008083_doc0e0228,The ground electrode was placed at FPz and data were online referenced to FCz.,2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008083/acquisition_setups:main.montage_system/01,ds008083,acquisition_setups:main.montage_system,10_20,ds008083_doc0e0228,31 active Ag/AgCl electrodes arranged according to the international 10/20 system,2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008083/acquisition_setups:main.n_channels_eeg/01,ds008083,acquisition_setups:main.n_channels_eeg,31,ds008083_doc0e0228,Continuous EEG was recorded from 31 active Ag/AgCl electrodes arranged according to the international 10/20 system,2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008083/acquisition_setups:main.reference/01,ds008083,acquisition_setups:main.reference,FCz,ds008083_doc0e0228,The ground electrode was placed at FPz and data were online referenced to FCz.,2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008083/acquisition_setups:main.sampling_rate_hz/01,ds008083,acquisition_setups:main.sampling_rate_hz,1000,ds008083_doc0e0228,using an actiChamp Plus amplifier at 1000 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008083/is_bids/01,ds008083,is_bids,true,ds008083_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds008083/license_spdx/01,ds008083,license_spdx,CC0-1.0,ds008083_record,License: CC0,2026-11-14,script,current,
 ds008083/modalities/01,ds008083,modalities,scalp_eeg,ds008083_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008083/modalities/02,ds008083,modalities,scalp_eeg,ds008083_doc0e0228,This EEG-BIDS dataset contains cue-locked EEG recordings,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008083/n_subjects_reported/01,ds008083,n_subjects_reported,43,ds008083_record,Participants 43,2026-11-14,script,current,
 ds008083/name/01,ds008083,name,Hierarchical Priors in Perceptual Uncertainty and Psychosis Proneness,ds008083_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds008083/participant_groups:final_sample.age_mean/01,ds008083,participant_groups:final_sample.age_mean,24.47,ds008083_doc0e0228,"leaving 43 participants in the final sample (27 female, 1 trans; mean age 24.47 +/- 5.46 years)",2026-11-16,claude,current,
+ds008083/participant_groups:final_sample.age_sd/01,ds008083,participant_groups:final_sample.age_sd,5.46,ds008083_doc0e0228,"leaving 43 participants in the final sample (27 female, 1 trans; mean age 24.47 +/- 5.46 years)",2026-11-16,claude,current,
+ds008083/participant_groups:final_sample.n_female/01,ds008083,participant_groups:final_sample.n_female,27,ds008083_doc0e0228,"leaving 43 participants in the final sample (27 female, 1 trans; mean age 24.47 +/- 5.46 years)",2026-11-16,claude,current,
+ds008083/participant_groups:final_sample.n_subjects/01,ds008083,participant_groups:final_sample.n_subjects,43,ds008083_doc0e0228,"leaving 43 participants in the final sample (27 female, 1 trans; mean age 24.47 +/- 5.46 years)",2026-11-16,claude,current,
 ds008083/size_gb_reported/01,ds008083,size_gb_reported,8.76,ds008083_record,Size: 8.76GB,2026-11-14,script,current,
 ds008083/tasks:hierprior.task_name/01,ds008083,tasks:hierprior.task_name,HierPrior,ds008083_record,Tasks: HierPrior,2026-11-14,script,current,
+ds008083/tasks:hierprior_rdk.paradigms/01,ds008083,tasks:hierprior_rdk.paradigms,other,ds008083_doc0e0228,a random-dot kinematogram (RDK) task designed to dissociate low-level and high-level priors during perceptual decision-making,2026-11-16,claude,current,
+ds008083/tasks:hierprior_rdk.task_name/01,ds008083,tasks:hierprior_rdk.task_name,HierPrior RDK,ds008083_doc0e0228,a random-dot kinematogram (RDK) task designed to dissociate low-level and high-level priors during perceptual decision-making,2026-11-16,claude,current,
 ds008095/access_routes:openneuro.access_method/01,ds008095,access_routes:openneuro.access_method,site_terms_agreement,ds008095_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds008095/access_routes:openneuro.automation_tool/01,ds008095,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008095_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008095/access_routes:openneuro.human_steps/01,ds008095,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008095_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
@@ -14334,9 +14387,11 @@ ds008095/acquisition_setups:main.sampling_rate_hz/01,ds008095,acquisition_setups
 ds008095/is_bids/01,ds008095,is_bids,true,ds008095_record,dataset_description.json BIDSVersion 1.11.1,2026-11-14,script,current,
 ds008095/license_spdx/01,ds008095,license_spdx,CC0-1.0,ds008095_record,License: CC0,2026-11-14,script,current,
 ds008095/modalities/01,ds008095,modalities,scalp_eeg,ds008095_record,"Available Modalities: beh, eeg",2026-11-14,script,current,
+ds008095/modalities/02,ds008095,modalities,scalp_eeg,ds008095_sidecar,"""EEGChannelCount"": 128",2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008095/n_subjects_reported/01,ds008095,n_subjects_reported,63,ds008095_record,Participants 63,2026-11-14,script,current,
 ds008095/name/01,ds008095,name,Longevity of the TIME effect,ds008095_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds008095/size_gb_reported/01,ds008095,size_gb_reported,33.68,ds008095_record,Size: 33.68GB,2026-11-14,script,current,
+ds008095/tasks:ratings.paradigms/01,ds008095,tasks:ratings.paradigms,other,ds008095_sidecar,Audio-visual ratings task with fixation and audio-visual stimulus onset events,2026-11-16,claude,current,
 ds008095/tasks:ratings.task_name/01,ds008095,tasks:ratings.task_name,ratings,ds008095_record,Tasks: ratings,2026-11-14,script,current,
 ds008095/tasks:synch.task_name/01,ds008095,tasks:synch.task_name,synch,ds008095_record,Tasks: synch,2026-11-14,script,current,
 ds008095/tasks:test.task_name/01,ds008095,tasks:test.task_name,test,ds008095_record,Tasks: test,2026-11-14,script,current,
@@ -14345,17 +14400,27 @@ ds008099/access_routes:openneuro.access_method/01,ds008099,access_routes:openneu
 ds008099/access_routes:openneuro.automation_tool/01,ds008099,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008099_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008099/access_routes:openneuro.human_steps/01,ds008099,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008099_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds008099/acquisition_setups:main.device_manufacturer/01,ds008099,acquisition_setups:main.device_manufacturer,Emotiv,ds008099_sidecar,Manufacturer,2026-11-14,script,current,
+ds008099/acquisition_setups:main.device_manufacturer/02,ds008099,acquisition_setups:main.device_manufacturer,Emotiv,ds008099_doc056885,Pizza-topping meat/vegetarian word categorization with consumer EEG (EMOTIV EPOC X),2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008099/acquisition_setups:main.device_model/01,ds008099,acquisition_setups:main.device_model,EPOC X,ds008099_sidecar,ManufacturersModelName,2026-11-14,script,current,
+ds008099/acquisition_setups:main.device_model/02,ds008099,acquisition_setups:main.device_model,EPOC X,ds008099_docbe772c,"Consumer EEG (EMOTIV EPOC X, 14 channels, 128 Hz)",2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008099/acquisition_setups:main.n_channels_eeg/01,ds008099,acquisition_setups:main.n_channels_eeg,14,ds008099_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds008099/acquisition_setups:main.n_channels_eeg/02,ds008099,acquisition_setups:main.n_channels_eeg,14,ds008099_docbe772c,14 EEG channels only (AF3 F7 F3 FC5 T7 P7 O1 O2 P8 T8 FC6 F4 F8 AF4),2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008099/acquisition_setups:main.reference/01,ds008099,acquisition_setups:main.reference,device-internal (CMS/DRL),ds008099_sidecar,EEGReference,2026-11-14,script,current,
 ds008099/acquisition_setups:main.sampling_rate_hz/01,ds008099,acquisition_setups:main.sampling_rate_hz,128,ds008099_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds008099/acquisition_setups:main.sampling_rate_hz/02,ds008099,acquisition_setups:main.sampling_rate_hz,128,ds008099_docbe772c,"Consumer EEG (EMOTIV EPOC X, 14 channels, 128 Hz)",2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008099/domains/01,ds008099,domains,cognitive,ds008099_docbe772c,meat/vegetarian categorization of pizza-topping words,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008099/is_bids/01,ds008099,is_bids,true,ds008099_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds008099/license_spdx/01,ds008099,license_spdx,CC0-1.0,ds008099_record,License: CC0,2026-11-14,script,current,
 ds008099/modalities/01,ds008099,modalities,scalp_eeg,ds008099_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008099/modalities/02,ds008099,modalities,scalp_eeg,ds008099_docbe772c,"Consumer EEG (EMOTIV EPOC X, 14 channels, 128 Hz)",2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008099/n_subjects_reported/01,ds008099,n_subjects_reported,30,ds008099_record,Participants 30,2026-11-14,script,current,
+ds008099/n_subjects_reported/02,ds008099,n_subjects_reported,30,ds008099_docbe772c,"Consumer EEG (EMOTIV EPOC X, 14 channels, 128 Hz) from 30 participants during a",2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008099/name/01,ds008099,name,Pizza-topping meat/vegetarian word categorization with consumer EEG (EMOTIV EPOC X),ds008099_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds008099/size_gb_reported/01,ds008099,size_gb_reported,0.04,ds008099_record,Size: 0.04GB,2026-11-14,script,current,
+ds008099/tasks:foodword.paradigms/01,ds008099,tasks:foodword.paradigms,other,ds008099_docbe772c,"meat/vegetarian categorization of pizza-topping words (""IS IT MEAT?"")",2026-11-16,claude,current,
 ds008099/tasks:foodword.task_name/01,ds008099,tasks:foodword.task_name,foodword,ds008099_record,Tasks: foodword,2026-11-14,script,current,
+ds008099/tasks:resting_baseline.paradigms/01,ds008099,tasks:resting_baseline.paradigms,resting_eyes_closed;resting_eyes_open,ds008099_docbe772c,Fixed 20 s eyes-open + 20 s eyes-closed resting baseline,2026-11-16,claude,current,
+ds008099/tasks:resting_baseline.task_name/01,ds008099,tasks:resting_baseline.task_name,resting baseline,ds008099_docbe772c,Fixed 20 s eyes-open + 20 s eyes-closed resting baseline,2026-11-16,claude,current,
 ds008104/access_routes:openneuro.access_method/01,ds008104,access_routes:openneuro.access_method,site_terms_agreement,ds008104_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds008104/access_routes:openneuro.automation_tool/01,ds008104,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008104_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008104/access_routes:openneuro.human_steps/01,ds008104,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008104_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
@@ -14370,11 +14435,15 @@ ds008104/acquisition_setups:main.sampling_rate_hz/01,ds008104,acquisition_setups
 ds008104/is_bids/01,ds008104,is_bids,true,ds008104_record,dataset_description.json BIDSVersion 1.8.0,2026-11-14,script,current,
 ds008104/license_spdx/01,ds008104,license_spdx,CC0-1.0,ds008104_record,License: CC0,2026-11-14,script,current,
 ds008104/modalities/01,ds008104,modalities,scalp_eeg,ds008104_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008104/modalities/02,ds008104,modalities,scalp_eeg,ds008104_doc868655,Raw EEG data recorded during the Frustrative Effort Doors task.,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008104/n_subjects_reported/01,ds008104,n_subjects_reported,81,ds008104_record,Participants 81,2026-11-14,script,current,
+ds008104/n_subjects_reported/02,ds008104,n_subjects_reported,81,ds008104_doc868655,Raw EEG data recorded during the Frustrative Effort Doors task. N=81.,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008104/name/01,ds008104,name,FNR Effort Study EEG Dataset,ds008104_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds008104/provider_ids/01,ds008104,provider_ids,university_of_mons_belgium,ds008104_sidecar,InstitutionName,2026-11-14,script,current,
 ds008104/size_gb_reported/01,ds008104,size_gb_reported,200.13,ds008104_record,Size: 200.13GB,2026-11-14,script,current,
 ds008104/tasks:fnreffortstudy.task_name/01,ds008104,tasks:fnreffortstudy.task_name,FNReffortstudy,ds008104_record,Tasks: FNReffortstudy,2026-11-14,script,current,
+ds008104/tasks:frustrative_effort_doors_task.paradigms/01,ds008104,tasks:frustrative_effort_doors_task.paradigms,other,ds008104_doc868655,Raw EEG data recorded during the Frustrative Effort Doors task.,2026-11-16,claude,current,
+ds008104/tasks:frustrative_effort_doors_task.task_name/01,ds008104,tasks:frustrative_effort_doors_task.task_name,Frustrative Effort Doors task,ds008104_doc868655,Raw EEG data recorded during the Frustrative Effort Doors task.,2026-11-16,claude,current,
 ds008115/access_routes:openneuro.access_method/01,ds008115,access_routes:openneuro.access_method,site_terms_agreement,ds008115_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds008115/access_routes:openneuro.automation_tool/01,ds008115,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008115_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008115/access_routes:openneuro.human_steps/01,ds008115,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008115_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
@@ -14383,12 +14452,18 @@ ds008115/acquisition_setups:main.line_freq_hz/01,ds008115,acquisition_setups:mai
 ds008115/acquisition_setups:main.n_channels_eeg/01,ds008115,acquisition_setups:main.n_channels_eeg,4,ds008115_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds008115/acquisition_setups:main.reference/01,ds008115,acquisition_setups:main.reference,Cz,ds008115_sidecar,EEGReference,2026-11-14,script,current,
 ds008115/acquisition_setups:main.sampling_rate_hz/01,ds008115,acquisition_setups:main.sampling_rate_hz,178.1538462,ds008115_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds008115/domains/01,ds008115,domains,clinical,ds008115_docb5f191,Monitoring of pain and nociception in critical care patients unable to self-report,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008115/is_bids/01,ds008115,is_bids,true,ds008115_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds008115/license_spdx/01,ds008115,license_spdx,CC0-1.0,ds008115_record,License: CC0,2026-11-14,script,current,
-ds008115/modalities/01,ds008115,modalities,scalp_eeg,ds008115_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008115/modalities/01,ds008115,modalities,scalp_eeg,ds008115_record,Available Modalities: eeg,2026-11-14,script,superseded,superseded by ds008115/modalities/02
+ds008115/modalities/02,ds008115,modalities,scalp_eeg;other_physiological,ds008115_docb5f191,Frontal EEG recordings and nociception monitor recordings during putatively,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds008115/n_subjects_reported/01,ds008115,n_subjects_reported,180,ds008115_record,Participants 180,2026-11-14,script,current,
 ds008115/name/01,ds008115,name,ValidPain2 - Performance of the Nociception Level Index and the PainSensor to predict and detect responsiveness to nociceptive procedures in critical care patients,ds008115_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds008115/participant_groups:critical_care_patients.condition/01,ds008115,participant_groups:critical_care_patients.condition,patient,ds008115_docb5f191,We included 196 critical care patients undergoing endotracheal suctioning (n = 149) and positioning (n = 47).,2026-11-16,claude,current,
+ds008115/participant_groups:critical_care_patients.n_subjects/01,ds008115,participant_groups:critical_care_patients.n_subjects,196,ds008115_docb5f191,We included 196 critical care patients undergoing endotracheal suctioning (n = 149) and positioning (n = 47).,2026-11-16,claude,current,
 ds008115/size_gb_reported/01,ds008115,size_gb_reported,0.13,ds008115_record,Size: 0.13GB,2026-11-14,script,current,
+ds008115/tasks:endotracheal_suctioning_and_positioning.paradigms/01,ds008115,tasks:endotracheal_suctioning_and_positioning.paradigms,other,ds008115_docb5f191,putatively noxious and non-noxious interventions in mechanically-ventilated intesive care patients,2026-11-16,claude,current,
+ds008115/tasks:endotracheal_suctioning_and_positioning.task_name/01,ds008115,tasks:endotracheal_suctioning_and_positioning.task_name,endotracheal suctioning and positioning,ds008115_docb5f191,putatively noxious and non-noxious interventions in mechanically-ventilated intesive care patients,2026-11-16,claude,current,
 ds008115/tasks:endotrachealsuction.task_name/01,ds008115,tasks:endotrachealsuction.task_name,EndotrachealSuction,ds008115_record,Tasks: EndotrachealSuction,2026-11-14,script,current,
 ds008115/tasks:other.task_name/01,ds008115,tasks:other.task_name,Other,ds008115_record,Tasks: Other,2026-11-14,script,current,
 ds008115/tasks:positioning.task_name/01,ds008115,tasks:positioning.task_name,Positioning,ds008115_record,Tasks: Positioning,2026-11-14,script,current,
@@ -14401,6 +14476,7 @@ ds008161/acquisition_setups:main.sampling_rate_hz/01,ds008161,acquisition_setups
 ds008161/is_bids/01,ds008161,is_bids,true,ds008161_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds008161/license_spdx/01,ds008161,license_spdx,CC0-1.0,ds008161_record,License: CC0,2026-11-14,script,current,
 ds008161/modalities/01,ds008161,modalities,scalp_eeg,ds008161_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008161/modalities/02,ds008161,modalities,scalp_eeg,ds008161_doc59c096,Auditory-motor EEG (one-channel),2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008161/n_subjects_reported/01,ds008161,n_subjects_reported,33,ds008161_record,Participants 33,2026-11-14,script,current,
 ds008161/name/01,ds008161,name,Auditory-motor EEG (one-channel),ds008161_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds008161/size_gb_reported/01,ds008161,size_gb_reported,48.66,ds008161_record,Size: 48.66GB,2026-11-14,script,current,
@@ -14414,21 +14490,36 @@ ds008257/access_routes:openneuro.access_method/01,ds008257,access_routes:openneu
 ds008257/access_routes:openneuro.automation_tool/01,ds008257,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008257_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008257/access_routes:openneuro.human_steps/01,ds008257,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008257_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds008257/acquisition_setups:main.device_manufacturer/01,ds008257,acquisition_setups:main.device_manufacturer,Brain Products,ds008257_sidecar,Manufacturer,2026-11-14,script,current,
+ds008257/acquisition_setups:main.device_manufacturer/02,ds008257,acquisition_setups:main.device_manufacturer,Brain Products,ds008257_docf5345b,Brain Products actiCAP slim active electrodes,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008257/acquisition_setups:main.device_model/01,ds008257,acquisition_setups:main.device_model,actiCHamp Plus,ds008257_sidecar,ManufacturersModelName,2026-11-14,script,current,
+ds008257/acquisition_setups:main.device_model/02,ds008257,acquisition_setups:main.device_model,actiCHamp Plus,ds008257_docf5345b,a BrainVision actiCHamp Plus amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008257/acquisition_setups:main.ground/01,ds008257,acquisition_setups:main.ground,Fpz,ds008257_sidecar,EEGGround,2026-11-14,script,current,
 ds008257/acquisition_setups:main.hardware_filter/01,ds008257,acquisition_setups:main.hardware_filter,"{""LowpassFilter"": {""MaximumFrequency"": 280}}",ds008257_sidecar,HardwareFilters,2026-11-14,script,current,
 ds008257/acquisition_setups:main.line_freq_hz/01,ds008257,acquisition_setups:main.line_freq_hz,50,ds008257_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds008257/acquisition_setups:main.montage_system/01,ds008257,acquisition_setups:main.montage_system,10_10,ds008257_sidecar,EEGPlacementScheme: 10-10,2026-11-14,script,current,
-ds008257/acquisition_setups:main.n_channels_eeg/01,ds008257,acquisition_setups:main.n_channels_eeg,127,ds008257_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds008257/acquisition_setups:main.n_channels_eeg/01,ds008257,acquisition_setups:main.n_channels_eeg,127,ds008257_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
+ds008257/acquisition_setups:main.n_channels_eeg/02,ds008257,acquisition_setups:main.n_channels_eeg,128,ds008257_doc3ca10b,EMD consists of 128-channel EEG responses and eye-tracking recordings of 6 human participants,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 ds008257/acquisition_setups:main.reference/01,ds008257,acquisition_setups:main.reference,Fz,ds008257_sidecar,EEGReference,2026-11-14,script,current,
+ds008257/acquisition_setups:main.reference/02,ds008257,acquisition_setups:main.reference,Fz,ds008257_docf5345b,and referencing to the Fz electrode,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008257/acquisition_setups:main.sampling_rate_hz/01,ds008257,acquisition_setups:main.sampling_rate_hz,1000,ds008257_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds008257/acquisition_setups:main.sampling_rate_hz/02,ds008257,acquisition_setups:main.sampling_rate_hz,1000,ds008257_docf5345b,We recorded the data at a sampling rate of 1000 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008257/domains/01,ds008257,domains,perception,ds008257_doc3ca10b,neural correlates of dynamic visual event perception,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008257/is_bids/01,ds008257,is_bids,true,ds008257_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds008257/license_spdx/01,ds008257,license_spdx,CC0-1.0,ds008257_record,License: CC0,2026-11-14,script,current,
-ds008257/modalities/01,ds008257,modalities,scalp_eeg,ds008257_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008257/modalities/01,ds008257,modalities,scalp_eeg,ds008257_record,Available Modalities: eeg,2026-11-14,script,superseded,superseded by ds008257/modalities/02
+ds008257/modalities/02,ds008257,modalities,scalp_eeg;eye_tracking,ds008257_doc3ca10b,EMD consists of 128-channel EEG responses and eye-tracking recordings of 6 human participants,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds008257/n_subjects_reported/01,ds008257,n_subjects_reported,6,ds008257_record,Participants 6,2026-11-14,script,current,
+ds008257/n_subjects_reported/02,ds008257,n_subjects_reported,6,ds008257_doc3ca10b,EMD consists of 128-channel EEG responses and eye-tracking recordings of 6 human participants,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008257/name/01,ds008257,name,EEG Moments Dataset (EMD),ds008257_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds008257/participant_groups:participants.age_max/01,ds008257,participant_groups:participants.age_max,32,ds008257_docf5345b,"Six healthy adults (three males aged 21, 28, 32; three females aged 21, 23, 24) participated, all",2026-11-16,claude,current,
+ds008257/participant_groups:participants.age_min/01,ds008257,participant_groups:participants.age_min,21,ds008257_docf5345b,"Six healthy adults (three males aged 21, 28, 32; three females aged 21, 23, 24) participated, all",2026-11-16,claude,current,
+ds008257/participant_groups:participants.condition/01,ds008257,participant_groups:participants.condition,healthy,ds008257_docf5345b,"Six healthy adults (three males aged 21, 28, 32; three females aged 21, 23, 24) participated, all",2026-11-16,claude,current,
+ds008257/participant_groups:participants.n_female/01,ds008257,participant_groups:participants.n_female,3,ds008257_docf5345b,"Six healthy adults (three males aged 21, 28, 32; three females aged 21, 23, 24) participated, all",2026-11-16,claude,current,
+ds008257/participant_groups:participants.n_male/01,ds008257,participant_groups:participants.n_male,3,ds008257_docf5345b,"Six healthy adults (three males aged 21, 28, 32; three females aged 21, 23, 24) participated, all",2026-11-16,claude,current,
+ds008257/participant_groups:participants.n_subjects/01,ds008257,participant_groups:participants.n_subjects,6,ds008257_docf5345b,"Six healthy adults (three males aged 21, 28, 32; three females aged 21, 23, 24) participated, all",2026-11-16,claude,current,
 ds008257/provider_ids/01,ds008257,provider_ids,freie_universit_t,ds008257_sidecar,InstitutionName,2026-11-14,script,current,
 ds008257/size_gb_reported/01,ds008257,size_gb_reported,165.65,ds008257_record,Size: 165.65GB,2026-11-14,script,current,
+ds008257/tasks:video.paradigms/01,ds008257,tasks:video.paradigms,other,ds008257_doc3ca10b,"6 human participants viewing 1,102 short naturalistic videos (3-second long; with audio track) while maintaining central fixation",2026-11-16,claude,current,
 ds008257/tasks:video.task_name/01,ds008257,tasks:video.task_name,video,ds008257_record,Tasks: video,2026-11-14,script,current,
 ds008302/access_routes:nemar.access_method/01,ds008302,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds008302/access_routes:nemar.automation_tool/01,ds008302,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
@@ -14437,24 +14528,42 @@ ds008302/access_routes:openneuro.access_method/01,ds008302,access_routes:openneu
 ds008302/access_routes:openneuro.automation_tool/01,ds008302,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008302_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008302/access_routes:openneuro.human_steps/01,ds008302,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008302_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds008302/acquisition_setups:main.device_manufacturer/01,ds008302,acquisition_setups:main.device_manufacturer,Brain Products,ds008302_sidecar,Manufacturer,2026-11-14,script,current,
-ds008302/acquisition_setups:main.device_model/01,ds008302,acquisition_setups:main.device_model,Brain Products actiCHamp,ds008302_sidecar,ManufacturersModelName,2026-11-14,script,current,
+ds008302/acquisition_setups:main.device_manufacturer/02,ds008302,acquisition_setups:main.device_manufacturer,Brain Products,ds008302_doce38978,"EEG was recorded using a 64-channel active electrode system (actiCHamp, Brain Products)",2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008302/acquisition_setups:main.device_model/01,ds008302,acquisition_setups:main.device_model,Brain Products actiCHamp,ds008302_sidecar,ManufacturersModelName,2026-11-14,script,conflicting,
+ds008302/acquisition_setups:main.device_model/02,ds008302,acquisition_setups:main.device_model,actiCHamp,ds008302_doce38978,"EEG was recorded using a 64-channel active electrode system (actiCHamp, Brain Products)",2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 ds008302/acquisition_setups:main.ground/01,ds008302,acquisition_setups:main.ground,Fpz,ds008302_sidecar,EEGGround,2026-11-14,script,current,
+ds008302/acquisition_setups:main.ground/02,ds008302,acquisition_setups:main.ground,Fpz,ds008302_doce38978,with Fpz used as the ground electrode,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008302/acquisition_setups:main.hardware_filter/01,ds008302,acquisition_setups:main.hardware_filter,"{""LowPass"": {""CutoffFrequency"": 260}}",ds008302_sidecar,HardwareFilters,2026-11-14,script,current,
 ds008302/acquisition_setups:main.line_freq_hz/01,ds008302,acquisition_setups:main.line_freq_hz,50,ds008302_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds008302/acquisition_setups:main.montage_system/01,ds008302,acquisition_setups:main.montage_system,10_10,ds008302_sidecar,EEGPlacementScheme: 10-10,2026-11-14,script,current,
-ds008302/acquisition_setups:main.n_channels_eeg/01,ds008302,acquisition_setups:main.n_channels_eeg,63,ds008302_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds008302/acquisition_setups:main.n_channels_eeg/01,ds008302,acquisition_setups:main.n_channels_eeg,63,ds008302_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
+ds008302/acquisition_setups:main.n_channels_eeg/02,ds008302,acquisition_setups:main.n_channels_eeg,64,ds008302_doce38978,"EEG was recorded using a 64-channel active electrode system (actiCHamp, Brain Products)",2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 ds008302/acquisition_setups:main.reference/01,ds008302,acquisition_setups:main.reference,FCz,ds008302_sidecar,EEGReference,2026-11-14,script,current,
 ds008302/acquisition_setups:main.sampling_rate_hz/01,ds008302,acquisition_setups:main.sampling_rate_hz,1000,ds008302_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds008302/acquisition_setups:main.sampling_rate_hz/02,ds008302,acquisition_setups:main.sampling_rate_hz,1000,ds008302_doce38978,The sampling rate was 1000 Hz.,2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008302/domains/01,ds008302,domains,cognitive,ds008302_docab2e34,a verbal working memory digit-span task with serial recall,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008302/is_bids/01,ds008302,is_bids,true,ds008302_record,dataset_description.json BIDSVersion 1.10.0,2026-11-14,script,current,
 ds008302/license_spdx/01,ds008302,license_spdx,CC0-1.0,ds008302_record,License: CC0,2026-11-14,script,current,
-ds008302/modalities/01,ds008302,modalities,scalp_eeg,ds008302_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008302/modalities/01,ds008302,modalities,scalp_eeg,ds008302_record,Available Modalities: eeg,2026-11-14,script,superseded,superseded by ds008302/modalities/02
+ds008302/modalities/02,ds008302,modalities,scalp_eeg;ecg;eye_tracking;other_physiological,ds008302_docab2e34,"raw 64-channel EEG, electrocardiography (ECG), photoplethysmography (PPG), eye-tracking/pupillometry",2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds008302/n_subjects_reported/01,ds008302,n_subjects_reported,124,ds008302_record,Participants 124,2026-11-14,script,current,
+ds008302/n_subjects_reported/02,ds008302,n_subjects_reported,124,ds008302_docab2e34,recorded from 124 healthy young adults during two experimental conditions,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008302/name/01,ds008302,name,Cognitive overload and rest dataset. Simultaneous EEG + PPG + ECG + eye-tracking,ds008302_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds008302/participant_groups:paper_final_sample.age_max/01,ds008302,participant_groups:paper_final_sample.age_max,32,ds008302_doce38978,"123 participants (100 females), aged 18 to 32 years (M = 20.49, SD = 2.27)",2026-11-16,claude,current,
+ds008302/participant_groups:paper_final_sample.age_mean/01,ds008302,participant_groups:paper_final_sample.age_mean,20.49,ds008302_doce38978,"123 participants (100 females), aged 18 to 32 years (M = 20.49, SD = 2.27)",2026-11-16,claude,current,
+ds008302/participant_groups:paper_final_sample.age_min/01,ds008302,participant_groups:paper_final_sample.age_min,18,ds008302_doce38978,"123 participants (100 females), aged 18 to 32 years (M = 20.49, SD = 2.27)",2026-11-16,claude,current,
+ds008302/participant_groups:paper_final_sample.age_sd/01,ds008302,participant_groups:paper_final_sample.age_sd,2.27,ds008302_doce38978,"123 participants (100 females), aged 18 to 32 years (M = 20.49, SD = 2.27)",2026-11-16,claude,current,
+ds008302/participant_groups:paper_final_sample.n_female/01,ds008302,participant_groups:paper_final_sample.n_female,100,ds008302_doce38978,"123 participants (100 females), aged 18 to 32 years (M = 20.49, SD = 2.27)",2026-11-16,claude,current,
+ds008302/participant_groups:paper_final_sample.n_subjects/01,ds008302,participant_groups:paper_final_sample.n_subjects,123,ds008302_doce38978,"123 participants (100 females), aged 18 to 32 years (M = 20.49, SD = 2.27)",2026-11-16,claude,current,
+ds008302/participant_groups:readme_sample.condition/01,ds008302,participant_groups:readme_sample.condition,healthy,ds008302_docab2e34,recorded from 124 healthy young adults during two experimental conditions,2026-11-16,claude,current,
+ds008302/participant_groups:readme_sample.n_subjects/01,ds008302,participant_groups:readme_sample.n_subjects,124,ds008302_docab2e34,recorded from 124 healthy young adults during two experimental conditions,2026-11-16,claude,current,
 ds008302/provider_ids/01,ds008302,provider_ids,ural_federal_university,ds008302_sidecar,InstitutionName,2026-11-14,script,current,
 ds008302/size_gb_reported/01,ds008302,size_gb_reported,194.95,ds008302_record,Size: 194.95GB,2026-11-14,script,current,
+ds008302/tasks:memory.paradigms/01,ds008302,tasks:memory.paradigms,cognitive_task,ds008302_docab2e34,a verbal working memory digit-span task with serial recall,2026-11-16,claude,current,
 ds008302/tasks:memory.task_name/01,ds008302,tasks:memory.task_name,memory,ds008302_record,Tasks: memory,2026-11-14,script,current,
 ds008302/tasks:rest.paradigms/01,ds008302,tasks:rest.paradigms,resting_unspecified,ds008302_record,Task name: rest,2026-11-14,script,current,
 ds008302/tasks:rest.task_name/01,ds008302,tasks:rest.task_name,rest,ds008302_record,Tasks: rest,2026-11-14,script,current,
+ds008302/tasks:video.paradigms/01,ds008302,tasks:video.paradigms,passive_viewing,ds008302_docab2e34,3 minutes and 52 seconds of passive cartoon watching,2026-11-16,claude,current,
 ds008302/tasks:video.task_name/01,ds008302,tasks:video.task_name,video,ds008302_record,Tasks: video,2026-11-14,script,current,
 ds008349/access_routes:openneuro.access_method/01,ds008349,access_routes:openneuro.access_method,site_terms_agreement,ds008349_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds008349/access_routes:openneuro.automation_tool/01,ds008349,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008349_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
@@ -14467,19 +14576,27 @@ ds008349/acquisition_setups:main.montage_system/01,ds008349,acquisition_setups:m
 ds008349/acquisition_setups:main.n_channels_eeg/01,ds008349,acquisition_setups:main.n_channels_eeg,63,ds008349_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds008349/acquisition_setups:main.reference/01,ds008349,acquisition_setups:main.reference,FCz,ds008349_sidecar,EEGReference,2026-11-14,script,current,
 ds008349/acquisition_setups:main.sampling_rate_hz/01,ds008349,acquisition_setups:main.sampling_rate_hz,1000,ds008349_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds008349/domains/01,ds008349,domains,other,ds008349_doc18ee39,thermal and chemical pain; aversive auditory and taste stimulations,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008349/is_bids/01,ds008349,is_bids,true,ds008349_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds008349/license_spdx/01,ds008349,license_spdx,CC0-1.0,ds008349_record,License: CC0,2026-11-14,script,current,
-ds008349/modalities/01,ds008349,modalities,scalp_eeg,ds008349_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008349/modalities/01,ds008349,modalities,scalp_eeg,ds008349_record,Available Modalities: eeg,2026-11-14,script,superseded,superseded by ds008349/modalities/02
+ds008349/modalities/02,ds008349,modalities,scalp_eeg;eda;ecg,ds008349_doc18ee39,as well as galvanic skin response and electrocardiogram data in a subset of 76 participants,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 ds008349/n_subjects_reported/01,ds008349,n_subjects_reported,125,ds008349_record,Participants 125,2026-11-14,script,current,
+ds008349/n_subjects_reported/02,ds008349,n_subjects_reported,125,ds008349_doc18ee39,This dataset contains EEG recordings from 125 pain-free adults,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008349/name/01,ds008349,name,A comprehensive physiological dataset of pain and aversive modalities for pain biomarkers research,ds008349_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds008349/participant_groups:pain_free_adults.n_subjects/01,ds008349,participant_groups:pain_free_adults.n_subjects,125,ds008349_doc18ee39,This dataset contains EEG recordings from 125 pain-free adults,2026-11-16,claude,current,
 ds008349/provider_ids/01,ds008349,provider_ids,universite_laval,ds008349_sidecar,InstitutionName,2026-11-14,script,current,
 ds008349/size_gb_reported/01,ds008349,size_gb_reported,113.93,ds008349_record,Size: 113.93GB,2026-11-14,script,current,
 ds008349/tasks:audioactive.task_name/01,ds008349,tasks:audioactive.task_name,audioactive,ds008349_record,Tasks: audioactive,2026-11-14,script,current,
 ds008349/tasks:audiopassive.task_name/01,ds008349,tasks:audiopassive.task_name,audiopassive,ds008349_record,Tasks: audiopassive,2026-11-14,script,current,
 ds008349/tasks:chemicalactive.task_name/01,ds008349,tasks:chemicalactive.task_name,chemicalactive,ds008349_record,Tasks: chemicalactive,2026-11-14,script,current,
 ds008349/tasks:chemicalpassive.task_name/01,ds008349,tasks:chemicalpassive.task_name,chemicalpassive,ds008349_record,Tasks: chemicalpassive,2026-11-14,script,current,
+ds008349/tasks:pain_and_aversive_stimulation.paradigms/01,ds008349,tasks:pain_and_aversive_stimulation.paradigms,other,ds008349_doc18ee39,four experimental conditions (thermal and chemical pain; aversive auditory and taste stimulations),2026-11-16,claude,current,
+ds008349/tasks:pain_and_aversive_stimulation.task_name/01,ds008349,tasks:pain_and_aversive_stimulation.task_name,pain and aversive stimulation,ds008349_doc18ee39,four experimental conditions (thermal and chemical pain; aversive auditory and taste stimulations),2026-11-16,claude,current,
 ds008349/tasks:resting.paradigms/01,ds008349,tasks:resting.paradigms,resting_unspecified,ds008349_record,Task name: resting,2026-11-14,script,current,
 ds008349/tasks:resting.task_name/01,ds008349,tasks:resting.task_name,resting,ds008349_record,Tasks: resting,2026-11-14,script,current,
+ds008349/tasks:resting_state.paradigms/01,ds008349,tasks:resting_state.paradigms,resting_unspecified,ds008349_doc18ee39,from two resting-state and four experimental conditions (thermal and chemical pain; aversive auditory and taste stimulations),2026-11-16,claude,current,
+ds008349/tasks:resting_state.task_name/01,ds008349,tasks:resting_state.task_name,resting state,ds008349_doc18ee39,from two resting-state and four experimental conditions (thermal and chemical pain; aversive auditory and taste stimulations),2026-11-16,claude,current,
 ds008349/tasks:restingopen.task_name/01,ds008349,tasks:restingopen.task_name,restingopen,ds008349_record,Tasks: restingopen,2026-11-14,script,current,
 ds008349/tasks:tasteactive.task_name/01,ds008349,tasks:tasteactive.task_name,tasteactive,ds008349_record,Tasks: tasteactive,2026-11-14,script,current,
 ds008349/tasks:tastepassive.task_name/01,ds008349,tasks:tastepassive.task_name,tastepassive,ds008349_record,Tasks: tastepassive,2026-11-14,script,current,
@@ -14492,17 +14609,29 @@ ds008446/access_routes:openneuro.access_method/01,ds008446,access_routes:openneu
 ds008446/access_routes:openneuro.automation_tool/01,ds008446,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008446_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008446/access_routes:openneuro.human_steps/01,ds008446,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008446_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds008446/acquisition_setups:main.device_manufacturer/01,ds008446,acquisition_setups:main.device_manufacturer,g.tec GmbH,ds008446_sidecar,Manufacturer,2026-11-14,script,current,
+ds008446/acquisition_setups:main.device_manufacturer/02,ds008446,acquisition_setups:main.device_manufacturer,g.tec GmbH,ds008446_doc95f3f2,**EEG system:** g.tec GmbH,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008446/acquisition_setups:main.line_freq_hz/01,ds008446,acquisition_setups:main.line_freq_hz,50,ds008446_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds008446/acquisition_setups:main.n_channels_eeg/01,ds008446,acquisition_setups:main.n_channels_eeg,62,ds008446_record,README: GmbH - **Sampling frequency:** 512 Hz - **65 Channels:** - 62 EEG Channels - 2 Reference Channels - 1 Marker Channel ## Format Data is,2026-11-14,script,current,
 ds008446/acquisition_setups:main.reference/01,ds008446,acquisition_setups:main.reference,Linked Mastoids,ds008446_sidecar,EEGReference,2026-11-14,script,current,
 ds008446/acquisition_setups:main.sampling_rate_hz/01,ds008446,acquisition_setups:main.sampling_rate_hz,512,ds008446_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds008446/acquisition_setups:main.sampling_rate_hz/02,ds008446,acquisition_setups:main.sampling_rate_hz,512,ds008446_doc95f3f2,**Sampling frequency:** 512 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
+ds008446/domains/01,ds008446,domains,motor,ds008446_doc95f3f2,finger cues for motor imagery,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008446/is_bids/01,ds008446,is_bids,true,ds008446_record,dataset_description.json BIDSVersion 1.6.0,2026-11-14,script,current,
 ds008446/license_spdx/01,ds008446,license_spdx,CC0-1.0,ds008446_record,License: CC0,2026-11-14,script,current,
 ds008446/modalities/01,ds008446,modalities,scalp_eeg,ds008446_record,Available Modalities: eeg,2026-11-14,script,current,
+ds008446/modalities/02,ds008446,modalities,scalp_eeg,ds008446_doc95f3f2,This dataset contains EEG recordings from 20 participants,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008446/n_subjects_reported/01,ds008446,n_subjects_reported,20,ds008446_record,Participants 20,2026-11-14,script,current,
+ds008446/n_subjects_reported/02,ds008446,n_subjects_reported,20,ds008446_doc95f3f2,This dataset contains EEG recordings from 20 participants performing a novel paradigm,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008446/name/01,ds008446,name,Random and Sequential Order Finger Motor Imagery,ds008446_record,dataset_description.json Name (page title),2026-11-14,script,current,
+ds008446/participant_groups:participants.age_max/01,ds008446,participant_groups:participants.age_max,57,ds008446_doc95f3f2,20 participants - Counterbalanced block order conditions - Age range: 19-57 years,2026-11-16,claude,current,
+ds008446/participant_groups:participants.age_min/01,ds008446,participant_groups:participants.age_min,19,ds008446_doc95f3f2,20 participants - Counterbalanced block order conditions - Age range: 19-57 years,2026-11-16,claude,current,
+ds008446/participant_groups:participants.n_subjects/01,ds008446,participant_groups:participants.n_subjects,20,ds008446_doc95f3f2,20 participants - Counterbalanced block order conditions - Age range: 19-57 years,2026-11-16,claude,current,
 ds008446/size_gb_reported/01,ds008446,size_gb_reported,5.36,ds008446_record,Size: 5.36GB,2026-11-14,script,current,
+ds008446/tasks:random_cue_order.paradigms/01,ds008446,tasks:random_cue_order.paradigms,motor_imagery,ds008446_doc95f3f2,finger cues for motor imagery execution cued in random and sequential blocks,2026-11-16,claude,current,
+ds008446/tasks:random_cue_order.task_name/01,ds008446,tasks:random_cue_order.task_name,Random Cue Order,ds008446_doc95f3f2,finger cues for motor imagery execution cued in random and sequential blocks,2026-11-16,claude,current,
 ds008446/tasks:randomcueorder.task_name/01,ds008446,tasks:randomcueorder.task_name,RandomCueOrder,ds008446_record,Tasks: RandomCueOrder,2026-11-14,script,current,
+ds008446/tasks:sequential_cue_order.paradigms/01,ds008446,tasks:sequential_cue_order.paradigms,motor_imagery,ds008446_doc95f3f2,finger cues for motor imagery execution cued in random and sequential blocks,2026-11-16,claude,current,
+ds008446/tasks:sequential_cue_order.task_name/01,ds008446,tasks:sequential_cue_order.task_name,Sequential Cue Order,ds008446_doc95f3f2,finger cues for motor imagery execution cued in random and sequential blocks,2026-11-16,claude,current,
 ds008446/tasks:sequentialcueorder.task_name/01,ds008446,tasks:sequentialcueorder.task_name,SequentialCueOrder,ds008446_record,Tasks: SequentialCueOrder,2026-11-14,script,current,
 ds008465/access_routes:nemar.access_method/01,ds008465,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 ds008465/access_routes:nemar.automation_tool/01,ds008465,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,

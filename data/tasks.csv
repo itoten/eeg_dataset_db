@@ -1762,6 +1762,7 @@ ds008003,pitchmatch,PitchMatch,cognitive_task,,,,,,,,
 ds008014,control,control,,,,,,,,,Control condition with random syllable stream. [ds008014_sidecar]
 ds008014,frequency,frequency,,,,,,,,,
 ds008014,tp,tp,,,,,,,,,
+ds008014,visual_statistical_learning_control_freq,"visual statistical learning (control, frequency, tp)",other,,,,,,,,
 ds008037,backwardsdigitspan,BackwardsDigitSpan,,,,,,,,,
 ds008037,clt,CLT,,,,,,,,,
 ds008037,go_no_go,Go/No-Go,,,,,,,,,
@@ -1775,38 +1776,47 @@ ds008037,symmetry_span,Symmetry Span,,,,,,,,,
 ds008037,tms_eeg,TMS-EEG,,,,,,,,,
 ds008037,working_memory,Working memory,,,,,,,,,
 ds008065,f0s,f0s,,,,,,,,,
-ds008065,f0s2,f0s2,,,,,,,,,
-ds008065,phases,phases,,,,,,,,,
+ds008065,f0s2,f0s2,auditory_erp,,,,,,,,
+ds008065,phases,phases,auditory_erp,,,,,,,,
 ds008081,ssvep,ssvep,ssvep,,,,,,,,
 ds008082,covid,COVID,,,,,,,,,
+ds008082,resting_eeg,resting EEG,resting_eyes_closed,,,,,,,,
 ds008083,hierprior,HierPrior,,,,,,,,,
-ds008095,ratings,ratings,,,,,,,,,Audio-visual ratings task with fixation and audio-visual stimulus onset events. [ds008095_sidecar]
+ds008083,hierprior_rdk,HierPrior RDK,other,,,,,,,,
+ds008095,ratings,ratings,other,,,,,,,,Audio-visual ratings task with fixation and audio-visual stimulus onset events. [ds008095_sidecar]
 ds008095,synch,synch,,,,,,,,,
 ds008095,test,test,,,,,,,,,
 ds008095,uni,uni,,,,,,,,,
-ds008099,foodword,foodword,,,,,,,,,"Meat/vegetarian categorization of pizza-topping words ('IS IT MEAT?'). Participants pressed M for meat items and V for vegetarian/cheese items and were instructed to prioritise accuracy over speed. Word ink colour was neutral (black), congruent, or incongruent with category, in randomized blocks. Preceded by an eyes-open/eyes-closed resting baseline. [ds008099_sidecar]"
+ds008099,foodword,foodword,other,,,,,,,,"Meat/vegetarian categorization of pizza-topping words ('IS IT MEAT?'). Participants pressed M for meat items and V for vegetarian/cheese items and were instructed to prioritise accuracy over speed. Word ink colour was neutral (black), congruent, or incongruent with category, in randomized blocks. Preceded by an eyes-open/eyes-closed resting baseline. [ds008099_sidecar]"
+ds008099,resting_baseline,resting baseline,resting_eyes_closed;resting_eyes_open,,,,,,,,
 ds008104,fnreffortstudy,FNReffortstudy,,,,,,,,,"Participants completed an effort-based reward task in which they first exerted either low or high physical effort by repeatedly pressing a key, then selected one of two doors to obtain monetary feedback (win or loss). Feedback was predetermined and differed across conditions: a non-frustration condition with frequent rewards (80% wins) and a frustration condition with reduced rewards (40% wins, 60% losses), designed to induce frustrative non-reward. The task comprised 160 trials (80 per condition), with equal numbers of low- and high-effort trials. [ds008104_sidecar]"
+ds008104,frustrative_effort_doors_task,Frustrative Effort Doors task,other,,,,,,,,
+ds008115,endotracheal_suctioning_and_positioning,endotracheal suctioning and positioning,other,,,,,,,,
 ds008115,endotrachealsuction,EndotrachealSuction,,,,,,,,,
 ds008115,other,Other,,,,,,,,,
 ds008115,positioning,Positioning,,,,,,,,,
 ds008161,active,active,,,,,,,,,
 ds008161,motor,motor,,,,,,,,,
 ds008161,passive,passive,,,,,,,,,
-ds008257,video,video,,,,,,,,,"Each of the 6 participants underwent 8 data collection sessions. During each session, participants were presented with one quartile of the training videos (i.e., 250 out of 1,000 videos), and with all 102 testing videos, each repeated for 3 times. Thus, across all 8 data collection sessions, the 1,000 training videos were repeated 6 times, and the 102 testing videos were repeated 24 times. The videos were presented in random order with the constraint of no consecutive repetition. One session comprised 16 runs, each lasting around 7 minutes and consisting of 66 video presentation trials. Each t [ds008257_sidecar]"
-ds008302,memory,memory,,,,,,,,,"The adaptive digit span task was a modified version of the simple digit span task, designed to estimate verbal working memory capacity more precisely. Because participants completed a simple digit span task during the first visit, their starting span length was defined as their maximum correctly recalled span length minus one digit. In each trial, participants were presented with a sequence of digits to be remembered and recalled. The trial began with an exclamation mark for 0.5 s, followed by a fixation cross (Thaler et al., 2013; 0.8 cm in diameter) for 2 s, and then digits were presented fo [ds008302_sidecar]"
+ds008257,video,video,other,,,,,,,,"Each of the 6 participants underwent 8 data collection sessions. During each session, participants were presented with one quartile of the training videos (i.e., 250 out of 1,000 videos), and with all 102 testing videos, each repeated for 3 times. Thus, across all 8 data collection sessions, the 1,000 training videos were repeated 6 times, and the 102 testing videos were repeated 24 times. The videos were presented in random order with the constraint of no consecutive repetition. One session comprised 16 runs, each lasting around 7 minutes and consisting of 66 video presentation trials. Each t [ds008257_sidecar]"
+ds008302,memory,memory,cognitive_task,,,,,,,,"The adaptive digit span task was a modified version of the simple digit span task, designed to estimate verbal working memory capacity more precisely. Because participants completed a simple digit span task during the first visit, their starting span length was defined as their maximum correctly recalled span length minus one digit. In each trial, participants were presented with a sequence of digits to be remembered and recalled. The trial began with an exclamation mark for 0.5 s, followed by a fixation cross (Thaler et al., 2013; 0.8 cm in diameter) for 2 s, and then digits were presented fo [ds008302_sidecar]"
 ds008302,rest,rest,resting_unspecified,,,,,,,,
-ds008302,video,video,,,,,,,,,
+ds008302,video,video,passive_viewing,,,,,,,,
 ds008349,audioactive,audioactive,,,,,,,,,Audio stimulation continous unpleasantness ratings on VAS. [ds008349_sidecar]
 ds008349,audiopassive,audiopassive,,,,,,,,,
 ds008349,chemicalactive,chemicalactive,,,,,,,,,
 ds008349,chemicalpassive,chemicalpassive,,,,,,,,,
+ds008349,pain_and_aversive_stimulation,pain and aversive stimulation,other,,,,,,,,
 ds008349,resting,resting,resting_unspecified,,,,,,,,
+ds008349,resting_state,resting state,resting_unspecified,,,,,,,,
 ds008349,restingopen,restingopen,,,,,,,,,
 ds008349,tasteactive,tasteactive,,,,,,,,,
 ds008349,tastepassive,tastepassive,,,,,,,,,
 ds008349,thermalactive,thermalactive,,,,,,,,,
 ds008349,thermalpassive,thermalpassive,,,,,,,,,
+ds008446,random_cue_order,Random Cue Order,motor_imagery,,,,,,,,
 ds008446,randomcueorder,RandomCueOrder,,,,,,,,,RandomCueOrder cue presentation paradigm. [ds008446_sidecar]
+ds008446,sequential_cue_order,Sequential Cue Order,motor_imagery,,,,,,,,
 ds008446,sequentialcueorder,SequentialCueOrder,,,,,,,,,
 ds008465,comm,comm,,,,,,,,,Imagined and executed vocalization and writing of four Chinese strokes and four English letters. [ds008465_sidecar]
 ds008496,activeai,activeai,,,,,,,,,

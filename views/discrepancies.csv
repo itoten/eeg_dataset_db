@@ -492,6 +492,18 @@ ds008003,acquisition_setups:main.n_channels_eeg,conflicting,0,primary,https://s3
 ds008003,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds008003/README,Audit reviewer; scope: not given
 ds008003,acquisition_setups:main.reference,conflicting,average,primary,https://s3.amazonaws.com/openneuro.org/ds008003/sub-105/eeg/sub-105_task-PitchMatch_eeg.json?versionId=JKANYPsVYiqR0qaDIEZo8dOlVBe7erKq&AWSAccessKeyId=AKIARTA7OOV5WQ3DGSOB&Expires=1795227869&Signature=lM78pZOcyj%2FhrAYuz0gTxeDsncI%3D,
 ds008003,acquisition_setups:main.reference,conflicting,average reference,secondary,https://s3.amazonaws.com/openneuro.org/ds008003/README,Audit reviewer; scope: distributed data
+ds008082,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://s3.amazonaws.com/openneuro.org/ds007823/sub-CUCOV001/eeg/sub-CUCOV001_task-COVID_eeg.json?versionId=DdC0HsblcyLFHJeBZrTmQIGppGhwsBDX,
+ds008082,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12992985/,Audit reviewer; scope: not given
+ds008082,acquisition_setups:main.n_channels_eeg,conflicting,19,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12992985/,Audit reviewer; scope: not given
+ds008082,acquisition_setups:main.n_channels_eeg,conflicting,21,primary,https://s3.amazonaws.com/openneuro.org/ds007823/sub-CUCOV001/eeg/sub-CUCOV001_task-COVID_eeg.json?versionId=DdC0HsblcyLFHJeBZrTmQIGppGhwsBDX,
+ds008082,acquisition_setups:main.reference,conflicting,common,primary,https://s3.amazonaws.com/openneuro.org/ds007823/sub-CUCOV001/eeg/sub-CUCOV001_task-COVID_eeg.json?versionId=DdC0HsblcyLFHJeBZrTmQIGppGhwsBDX,
+ds008082,acquisition_setups:main.reference,conflicting,linked earlobes,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12992985/,Audit reviewer; scope: not given
+ds008257,acquisition_setups:main.n_channels_eeg,conflicting,127,primary,https://s3.amazonaws.com/openneuro.org/ds008257/task-video_eeg.json?versionId=1kOS77PrORSeHSU7gGSK1meN5vvf4snn,
+ds008257,acquisition_setups:main.n_channels_eeg,conflicting,128,primary,https://arxiv.org/abs/2608.28768,Audit reviewer; scope: not given
+ds008302,acquisition_setups:main.device_model,conflicting,Brain Products actiCHamp,primary,https://s3.amazonaws.com/openneuro.org/ds008302/sub-002/eeg/sub-002_task-memory_eeg.json?versionId=uvKRAtnzU4tlWlVNMcKHei9DHCU7pDsN,
+ds008302,acquisition_setups:main.device_model,conflicting,actiCHamp,primary,https://www.biorxiv.org/content/10.64898/2026.11.01.763481v1.full,Audit reviewer; scope: not given
+ds008302,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds008302/sub-002/eeg/sub-002_task-memory_eeg.json?versionId=uvKRAtnzU4tlWlVNMcKHei9DHCU7pDsN,
+ds008302,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://www.biorxiv.org/content/10.64898/2026.11.01.763481v1.full,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
