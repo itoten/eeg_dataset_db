@@ -700,13 +700,13 @@ eegmat,EEG During Mental Arithmetic Tasks,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,,,
 eegmmidb,EEG Motor Movement/Imagery Dataset,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,3.4,,,,,,direct_download,open,,,,,,,2026-11-14
 eldbeta,eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for the Aging Population,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
 faced,FACED,,,,,2023,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
-figshare_12236966,EEG 128E example dataset ANT CNT,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+figshare_12236966,EEG 128E example dataset ANT CNT,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
 figshare_12636731,Ultra high-density EEG recording of interictal migraine and controls: sensory and rest,,scalp_eeg,neurology;perception;resting_state,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,128,512,custom,BioSemi ActiveTwo,auditory_erp;resting_eyes_open;visual_erp,,2026-11-15
-figshare_13604078,"Mobile BCI dataset of scalp- and ear-EEG with ERP and SSVEP paradigms during standing, walking, and running",,conflicting,bci,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,500,10_20,,ssvep;visual_erp,,2026-11-14
-figshare_14191880,multi-class eeg dataset,,scalp_eeg,epilepsy,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-figshare_14273687,EEG driver drowsiness dataset,,scalp_eeg,cognitive,,2021,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,30,,,,cognitive_task,,2026-11-14
+figshare_13604078,"Mobile BCI dataset of scalp- and ear-EEG with ERP and SSVEP paradigms during standing, walking, and running",,conflicting,bci,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,500,10_20,,ssvep;visual_erp,,2026-11-15
+figshare_14191880,multi-class eeg dataset,,scalp_eeg,epilepsy,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+figshare_14273687,EEG driver drowsiness dataset,,scalp_eeg,cognitive,,2021,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,30,,,,cognitive_task,,2026-11-15
 figshare_14695578,EEG dataset for evaluation of a single-session SIT effect in healthy aging,,scalp_eeg,cognitive;motor,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,auditory_erp;motor_execution,,2026-11-15
-figshare_16586957,EEG driver drowsiness dataset (unbalanced),,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,30,128,,,,,2026-11-14
+figshare_16586957,EEG driver drowsiness dataset (unbalanced),,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,30,128,,,,,2026-11-15
 figshare_18470912,A large and rich EEG dataset for modeling human visual object recognition,,scalp_eeg,perception,,2023,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,64,1000,10_10,Brainvision actiCHamp,passive_viewing;resting_unspecified;visual_erp,,2026-11-14
 figshare_2068626,A dataset for the test-retest reliability assessment of EEG & ERP quantities,,scalp_eeg,perception,,2018,CC-BY-4.0,,,,,,,,4,,,,,,,,,,direct_download,open,128,512,,Biosemi,cognitive_task;visual_erp,,2026-11-14
 figshare_2068677,"MAMEM EEG SSVEP Dataset I (256 channels, 11 subjects, 5 frequencies presented in isolation)",,scalp_eeg,bci,,2021,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,256,250,egi_hydrocel,EGI EGI 300 Geodesic EEG System (GES 300),ssvep,,2026-11-15
