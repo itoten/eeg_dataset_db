@@ -4167,6 +4167,21 @@ zenodo_6801530,face_adaptation_human_cat_faces,face adaptation (human/cat faces)
 zenodo_6855794,audiovisual_video_only_speech_trials,audiovisual / video-only speech trials,other,,,,,,,,
 zenodo_6874128,matb_n_back_pvt_flanker,"MATB, N-Back, PVT, Flanker",cognitive_task,,,,,,,,
 zenodo_6897259,t_0_1_2_back_working_memory_task,"0-, 1-, 2-back working memory task",cognitive_task,,,,,,,,
+zenodo_6973570,overnight_tmr_targeted_memory_reactivati,overnight TMR (targeted memory reactivation) during slow wave sleep,sleep,,,,,,,,
+zenodo_6992084,sentence_reading_critical_sentence_prese,"sentence reading, critical sentence presented word-by-word",language,,,,,,,,
+zenodo_7002835,flickering_checkerboard_stimulation,flickering checkerboard stimulation,ssvep,,,,,,,,
+zenodo_7055971,fast_periodic_visual_stimulation_of_nume,"fast periodic visual stimulation of numerosities (base 6 Hz, deviant 1.2 Hz)",ssvep,,,,,,,,
+zenodo_7078450,competing_speaker_auditory_attention_det,competing-speaker auditory attention detection (Mandarin),other,,,,,,,,
+zenodo_7086167,listening_to_audiobook_chapters,listening to audiobook chapters,language,,,,,,,,
+zenodo_7086208,english_and_dutch_audiobook_listening_in,"English and Dutch audiobook listening in quiet, babble noise and competing speakers",language,,,,,,,,
+zenodo_7133258,eyes_open_eyes_closed_with_facial_muscle,eyes open / eyes closed with facial muscle activation,other,,,,,,,,
+zenodo_7152315,viewing_facial_emotions_angry_happy_neut,"viewing facial emotions (Angry, Happy, Neutral, Sad)",passive_viewing,,,,,,,,
+zenodo_7185166,cad_modelling_from_isometric_vs_orthogra,CAD modelling from isometric vs orthographic technical drawings,cognitive_task,,,,,,,,
+zenodo_7186298,baseline_and_adaptation_numerosity_tasks,Baseline and Adaptation numerosity tasks,visual_erp,,,,,,,,
+zenodo_7189460,famous_unfamiliar_and_scrambled_face_sym,"famous, unfamiliar and scrambled face symmetry judgement",cognitive_task,,,,,,,,
+zenodo_7253437,competing_speaker_auditory_attention_att,competing-speaker auditory attention (attended direction),other,,,,,,,,
+zenodo_7258867,routine_resting_eeg,routine resting EEG,resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_7277150,c_vep_bci_t9_pin_pad_layout_11_targets,"c-VEP BCI, T9 PIN-pad layout (11 targets)",other,,,,,,,,
 zenodo_7516450,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7664068,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_784093,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
