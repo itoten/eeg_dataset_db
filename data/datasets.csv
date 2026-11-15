@@ -1843,21 +1843,20 @@ zenodo_8188856,EEG recordings comprising evoked potentials related to attention 
 zenodo_821566,"Data from Hesse et al. 2017: Preattentive Processing of Numerical Visual Information, Front Hum Neurosci., 11:70, 2017. doi: 10.3389/fnhum.2017.00070.",,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_8225408,EEG recordings during resting-state and the maintenance periods of a spatial working memory task in humans,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_8246572,Intracranial EEG Structure-Function Coupling and Seizure Outcomes After Epilepsy Surgery,,,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8255617,4-class code-VEP EEG data,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8327282,EMAP Open Dataset,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_8332197,SignEEG v1.0 : Multimodal Electroencephalography and Signature Database for Biometric Systems,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8338679,Generalizable electroencephalographic classification of Parkinson's disease using deep learning,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8341101,Data about architectural experience influence on other's body expression processing,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_834975,Upper limb movements can be decoded from the time-domain of low-frequency EEG,,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8369130,Alpha-frequency feedback to early visual cortex orchestrates coherent naturalistic vision (Rawdata),,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8369135,Alpha-frequency feedback to early visual cortex orchestrates coherent naturalistic vision,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8370355,The neural correlates of embodied L2 learning Does embodied L2 verb learning affect representation and retention?,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8381730,Neural Signals and Human Behavior - encodingN200,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,4,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_838542,"EEG Data for: ""Composing only by thought: novel application of the P300 brain-computer interface""",,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8393094,Dynamics of recurrent indicators during night recording,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_8407715,Scream's roughness grants privileged access to the brain during sleep.,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_841763,CNBI EPFL Brain Tweakers Cybathlon BCI race dataset,,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8429739,Muse EEG Subconscious Decisions Dataset,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_8431450,EmoKey Moments Muse EEG Dataset (EKM-ED): A Comprehensive Collection of Muse S EEG Data and Key Emotional Moments,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+zenodo_8255617,4-class code-VEP EEG data,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,12,,,,,,,,,,direct_download,open,32,500,10_20,BrainProduct LiveAmp 32,other,,2026-11-15
+zenodo_8327282,EMAP Open Dataset,,eda;respiration,,,2023,CC-BY-4.0,,,,,,,,145,,,,,,,,,,request_form_or_email,approval,,,,,emotion_induction,,2026-11-15
+zenodo_8332197,SignEEG v1.0 : Multimodal Electroencephalography and Signature Database for Biometric Systems,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,70,,,,,,,,,,direct_download,open,5,128,10_20,Emotiv Insight,motor_execution;other;passive_viewing,,2026-11-15
+zenodo_8338679,Generalizable electroencephalographic classification of Parkinson's disease using deep learning,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,resting_unspecified,,2026-11-15
+zenodo_8341101,Data about architectural experience influence on other's body expression processing,,scalp_eeg;eye_tracking,,,2023,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,other,,2026-11-15
+zenodo_834975,Upper limb movements can be decoded from the time-domain of low-frequency EEG,,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,15,,,,,,,,,,direct_download,open,61,512,,g.tec medical engineering GmbH,motor_execution;motor_imagery,,2026-11-15
+zenodo_8369130,Alpha-frequency feedback to early visual cortex orchestrates coherent naturalistic vision (Rawdata),,scalp_eeg;fmri,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,64,1000,10_10,,other,,2026-11-15
+zenodo_8369135,Alpha-frequency feedback to early visual cortex orchestrates coherent naturalistic vision,,scalp_eeg;fmri,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,64,1000,10_10,,other,,2026-11-15
+zenodo_8370355,The neural correlates of embodied L2 learning Does embodied L2 verb learning affect representation and retention?,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_8381730,Neural Signals and Human Behavior - encodingN200,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,4,,,,,,,,,,direct_download,open,128,1000,,,cognitive_task,,2026-11-15
+zenodo_838542,"EEG Data for: ""Composing only by thought: novel application of the P300 brain-computer interface""",,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,6,250,,Twente Medical Systems International B.V. Mobita,p300_erp,,2026-11-15
+zenodo_8407715,Scream's roughness grants privileged access to the brain during sleep.,,scalp_eeg;eog;emg;psg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,500,10_20,BrainProducts GmbH VAmp,auditory_erp;sleep,,2026-11-15
+zenodo_841763,CNBI EPFL Brain Tweakers Cybathlon BCI race dataset,,scalp_eeg,,,2017,CC-BY-4.0,,,,,,,,2,,,,,,,,,,direct_download,open,16,512,10_20,gTec gUSBamp,motor_imagery,,2026-11-15
+zenodo_8429739,Muse EEG Subconscious Decisions Dataset,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,Muse,cognitive_task,,2026-11-15
+zenodo_8431450,EmoKey Moments Muse EEG Dataset (EKM-ED): A Comprehensive Collection of Muse S EEG Data and Key Emotional Moments,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,47,,,,,,,,,,direct_download,open,,,,Muse S,emotion_induction,,2026-11-15
 zhou2016,three-class motor imagery EEG data.zip,,scalp_eeg,,,2016,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
 zuco,Zurich Cognitive Language Processing Corpus: A simultaneous EEG and eye-tracking resource for analyzing the human reading process,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14

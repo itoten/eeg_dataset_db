@@ -195,3 +195,5 @@ zenodo_7876018,acquisition_setups:main.sampling_rate_hz,conflicting,100,primary,
 zenodo_7876018,acquisition_setups:main.sampling_rate_hz,conflicting,1200,primary,https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002176,Audit reviewer; scope: recorded
 zenodo_7951043,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10839100/,Audit reviewer; scope: emg
 zenodo_7951043,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10839100/,Audit reviewer; scope: eeg
+zenodo_8431450,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://zenodo.org/records/8431451,Audit reviewer; scope: distributed preprocessed version
+zenodo_8431450,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://zenodo.org/records/8431451,Audit reviewer; scope: recorded
