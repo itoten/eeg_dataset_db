@@ -3746,6 +3746,17 @@ zenodo_13712627,delayed_action_task_memory_guided_action,delayed action task (me
 zenodo_13753035,cued_switching_task_with_monetary_reward,cued switching task with monetary reward (low/high reward),cognitive_task,,,,,,,,
 zenodo_13790278,silent_reading_of_action_and_non_action,silent reading of action and non-action verbs in L1 and L2 with semantic judgment,language;visual_erp,,,,,,,,
 zenodo_13861637,easy_screen_p300_speller,Easy screen P300 speller,p300_erp,,,,,,,,
+zenodo_14590636,listening_to_songs_spoken_and_hummed_ver,"listening to songs, spoken and hummed versions",language;passive_viewing,,,,,,,,
+zenodo_14672333,relaxation_and_motor_imagery_of_dorsal_a,relaxation and motor imagery of dorsal and plantar flexion (static and motion models),motor_imagery,,,,,,,,
+zenodo_14732589,visual_spatial_attention_vsa_with_predic,visual spatial attention (VSA) with predictability manipulations,cognitive_task;visual_erp,,,,,,,,
+zenodo_14749213,ngalso_meditation_with_pre_post_eyes_ope,NGALSO meditation with pre/post eyes open and eyes closed,other;resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_14750412,noise_paradigm_artifacts_without_rsvp_ta,noise paradigm (artifacts without RSVP task),other,,,,,,,,
+zenodo_14750412,p300_rsvp_image_search_with_and_without,"P300 RSVP image search, with and without participant-induced artifacts",p300_erp;visual_erp,,,,,,,,
+zenodo_14787742,iaps_picture_viewing_for_four_valence_ar,IAPS picture viewing for four valence-arousal states,emotion_induction;passive_viewing,,,,,,,,
+zenodo_14794875,facial_emotion_recognition_fer_task,Facial Emotion Recognition (FER) task,emotion_induction;passive_viewing,,,,,,,,
+zenodo_14799297,colored_holographic_stimuli,colored holographic stimuli,passive_viewing,,,,,,,,
+zenodo_14864611,viewing_images_uncanny_valley_study,viewing images (Uncanny Valley study),passive_viewing,,,,,,,,
+zenodo_14876711,handover_joint_and_solo_object_placing_a,"handover, joint and solo object-placing actions near a robot",motor_execution,,,,,,,,
 zenodo_15454354,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name

@@ -67,3 +67,9 @@ zenodo_13598206,acquisition_setups:main.reference,conflicting,CMS (Fpz) and DRL 
 zenodo_13598206,acquisition_setups:main.reference,conflicting,FCz,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: liveamp and brainamp
 zenodo_13598206,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: epoc flex native rate
 zenodo_13598206,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: liveamp native rate
+zenodo_14590636,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://www.isca-archive.org/interspeech_2023/cantisani23_interspeech.pdf,Audit reviewer; scope: recorded
+zenodo_14590636,acquisition_setups:main.sampling_rate_hz,conflicting,64,secondary,https://api.datacite.org/dois/10.5281/zenodo.14590637,Audit reviewer; scope: distributed (preprocessed)
+zenodo_14749213,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10921575/fullTextXML,Audit reviewer; scope: recorded
+zenodo_14749213,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10921575/fullTextXML,Audit reviewer; scope: exported
+zenodo_14794875,n_subjects_reported,conflicting,72,secondary,https://api.datacite.org/dois/10.5281/zenodo.19408373,Audit reviewer; scope: not given
+zenodo_14794875,n_subjects_reported,conflicting,73,primary,https://arxiv.org/pdf/2504.18969,Audit reviewer; scope: not given
