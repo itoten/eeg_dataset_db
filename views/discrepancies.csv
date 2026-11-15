@@ -626,6 +626,21 @@ nm000137,hours_reported,conflicting,15.7,primary,https://nemar.org/dataset/nm000
 nm000137,hours_reported,conflicting,60,primary,https://www.nature.com/articles/sdata2018211,Audit reviewer; scope: whole kaya dataset (paper)
 nm000137,n_subjects_reported,conflicting,13,primary,https://www.nature.com/articles/sdata2018211,Audit reviewer; scope: whole kaya dataset (paper)
 nm000137,n_subjects_reported,conflicting,7,primary,https://nemar.org/dataset/nm000137,
+nm000140,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000140,
+nm000140,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000140,Audit reviewer; scope: not given
+nm000143,acquisition_setups:main.sampling_rate_hz,conflicting,100,secondary,https://nemar.org/dataset/nm000143,
+nm000143,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000143,Audit reviewer; scope: recorded
+nm000144,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000144,
+nm000144,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000144,Audit reviewer; scope: not given
+nm000146,acquisition_setups:main.n_channels_eeg,conflicting,60,secondary,https://api.nemar.org/datasets/nm000146,Audit reviewer; scope: record (distributed data)
+nm000146,acquisition_setups:main.n_channels_eeg,conflicting,60,secondary,https://nemar.org/dataset/nm000146,
+nm000146,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0114853,Audit reviewer; scope: paper (recorded)
+nm000146,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0114853,Audit reviewer; scope: recorded
+nm000146,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://nemar.org/dataset/nm000146,
+nm000147,n_subjects_reported,conflicting,178,primary,https://www.nature.com/articles/s41597-026-07215-1,Audit reviewer; scope: whole bbbd
+nm000147,n_subjects_reported,conflicting,43,secondary,https://nemar.org/dataset/nm000147,
+nm000157,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000157,
+nm000157,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.nemar.org/datasets/nm000157,Audit reviewer; scope: not given
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)

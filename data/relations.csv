@@ -32,7 +32,9 @@ nm000125,subset_of,figshare_13604078,figshare_13604078_paper_a,"The record says 
 nm000130,derived_from,eldbeta,nm000130_nemar,NEMAR lists 10.1038/s41597-022-01372-9 as IsDerivedFrom this record
 nm000137,derived_from,kaya2018,nm000137_nemar,NEMAR lists 10.1038/sdata.2018.211 as IsDerivedFrom this record
 nm000146,derived_from,weibo2014,nm000146_nemar,NEMAR lists 10.1371/journal.pone.0114853 as IsDerivedFrom this record
+nm000148,derived_from,dv_10_7910_dvn_28932,dv_10_7910_dvn_28932_paper_a,"The record says its data come from the other dataset (audit, quote checked)"
 nm000157,derived_from,bigp3bci,nm000157_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
+nm000157,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000158,derived_from,liu2024_acute_stroke_mi,nm000158_nemar,NEMAR lists 10.1038/s41597-023-02787-8 as IsDerivedFrom this record
 nm000160,derived_from,yi2025_eeg_fnirs_joints,nm000160_nemar,NEMAR lists 10.1038/s41597-025-05286-0 as IsDerivedFrom this record
 nm000163,derived_from,zenodo_8255617,nm000163_nemar,NEMAR lists 10.5281/zenodo.8255618 as IsVersionOf this record
