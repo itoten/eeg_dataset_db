@@ -163,6 +163,10 @@ zenodo_4965280,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary
 zenodo_4965280,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC5206273/,Audit reviewer; scope: after the paper preprocessing; the record says the shared data were preprocessed as described in the manuscript
 zenodo_4995166,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC4718524/,Audit reviewer; scope: paper text; conflicts with the record
 zenodo_4995166,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://zenodo.org/records/4995167,Audit reviewer; scope: record readme text
+zenodo_5119526,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC9049359/,Audit reviewer; scope: recorded
+zenodo_5119526,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://zenodo.org/records/5119527,Audit reviewer; scope: distributed files (record description)
+zenodo_5172961,acquisition_setups:main.n_channels_eeg,conflicting,128,primary,https://zenodo.org/records/5931539,Audit reviewer; scope: original gaba recordings
+zenodo_5172961,acquisition_setups:main.n_channels_eeg,conflicting,39,primary,https://zenodo.org/records/5931539,Audit reviewer; scope: simulated .set files
 zenodo_5525475,acquisition_setups:main.device_manufacturer,conflicting,"Advanced Neuro Technology, ANT",primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8154036/,Audit reviewer; scope: study i
 zenodo_5525475,acquisition_setups:main.device_manufacturer,conflicting,EGI,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8154036/,Audit reviewer; scope: study ii
 zenodo_5525475,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8154036/,Audit reviewer; scope: study ii
