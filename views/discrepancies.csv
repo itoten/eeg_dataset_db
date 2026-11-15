@@ -121,5 +121,7 @@ zenodo_17314288,acquisition_setups:main.sampling_rate_hz,conflicting,2048,second
 zenodo_17314288,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://api.datacite.org/dois/10.5281/zenodo.23592484,Audit reviewer; scope: distributed
 zenodo_17413335,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://www.nature.com/articles/s41597-026-07244-w,Audit reviewer; scope: preprocessed (mat)
 zenodo_17413335,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://www.nature.com/articles/s41597-026-07244-w,Audit reviewer; scope: raw (cnt)
+zenodo_19059356,acquisition_setups:main.sampling_rate_hz,conflicting,100,secondary,https://zenodo.org/records/19059357,Audit reviewer; scope: eegnet dataset
+zenodo_19059356,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://zenodo.org/records/19059357,Audit reviewer; scope: afah dataset
 zenodo_19333248,acquisition_setups:main.n_channels_eeg,conflicting,18,primary,https://zenodo.org/records/19333249,Audit reviewer; scope: distributed processed data
 zenodo_19333248,acquisition_setups:main.n_channels_eeg,conflicting,19,primary,https://zenodo.org/records/19333249,Audit reviewer; scope: original recordings; distributed data has 18 derived bipolar channels
