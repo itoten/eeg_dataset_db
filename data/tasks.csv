@@ -4125,6 +4125,17 @@ zenodo_5831825,visual_erp_speller_llp_paradigm,visual ERP speller (LLP paradigm)
 zenodo_5882499,left_right_hand_motor_imagery_with_robot,left/right hand motor imagery with robot-arm feedback,motor_imagery,,,,,,,,
 zenodo_5882499,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_5882499,resting_state_eyes_open_then_closed,"resting state, eyes open then closed",resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_5907008,ssvep_stimuli_high_vs_low_frequencies_am,"SSVEP stimuli, high vs low frequencies; amplitude reduction",ssvep,,,,,,,,
+zenodo_600531,gambling_task,gambling task,cognitive_task,,,,,,,,
+zenodo_602109,oddball_paradigm_with_affective_pictures,oddball paradigm with affective pictures,visual_erp,,,,,,,,
+zenodo_6027334,visual_poffenberg_paradigm,visual Poffenberg paradigm,visual_erp,,,,,,,,
+zenodo_606506,listening_to_spoken_dialogues_with_actio,listening to spoken dialogues with action categorization,auditory_erp;language,,,,,,,,
+zenodo_616772,p300_speller,P300 speller,p300_erp,,,,,,,,
+zenodo_618914,resting_state_eyes_closed,resting state eyes closed,resting_eyes_closed,,,,,,,,
+zenodo_618914,resting_state_eyes_open,resting state eyes open,resting_eyes_open,,,,,,,,
+zenodo_6223149,endogenous_orienting_of_spatial_attentio,endogenous orienting of spatial attention with central cues,cognitive_task,,,,,,,,
+zenodo_6225533,auditory_local_global_tone_sequences,auditory local-global tone sequences,auditory_erp,,,,,,,,
+zenodo_6385767,resting_state_eeg,resting-state EEG,resting_unspecified,,,,,,,,
 zenodo_7516450,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7664068,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_784093,main,,ssvep,,,,,,,,Paradigm stated by the dataset name

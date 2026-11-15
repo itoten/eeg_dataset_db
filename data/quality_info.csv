@@ -378,3 +378,7 @@ zenodo_4990627,1,other,TMS artefact: samples after pulse unusable,stated in the 
 zenodo_5512577,1,recording_notes,Equipment dysfunctions listed (button malfunction for one subject; five channels interpolated; some recordings split),stated in the document,zenodo_5512577_doc1f9ea9,Dysfunctions of the equipment were detected and should be taken into account,2026-11-15,claude,
 zenodo_5525475,1,impedance_threshold,Impedance kept below 40 kΩ (Study II),stated in the document,zenodo_5525475_doc1f96b0,Impedance was kept below 40 kΩ.,2026-11-15,claude,
 zenodo_5831825,1,impedance_threshold,Impedances below 20 kΩ,stated in the document,zenodo_5831825_doc3291fd,impedances were kept below 20 kΩ,2026-11-15,claude,
+zenodo_5907008,1,impedance_threshold,impedance below 20 kOhm before recording,stated in the document,zenodo_5907009,The electrode impedance were brought below 20kOhm prior recording.,2026-11-15,claude,
+zenodo_6027334,1,impedance_threshold,impedance below 20 kOhm,stated in the document,zenodo_6027334_doc9b5215,Electrode impedance was kept below 20 kΩ.,2026-11-15,claude,
+zenodo_606506,1,impedance_threshold,impedances below 20 KOhm,stated in the document,zenodo_606506_doc413126,Electrode impedances were kept below 20 KΩ.,2026-11-15,claude,
+zenodo_618914,1,impedance_threshold,impedance below 6 kOhm for all channels,stated in the document,zenodo_618914_doc8288c9,Impedance for all channels was kept below 6 kΩ.,2026-11-15,claude,
