@@ -541,21 +541,21 @@ ds007703,Single pulse electrical stimulation in white matter modulates iEEG visu
 ds007720,BCI-FIT: A customization protocol for communication brain-computer interface systems.,,scalp_eeg,bci,oregon_health_and_science_university,,CC0-1.0,,,,,,true,,5,,,,2.17,,,,,,direct_download,open,7,300,10_20,DSI-Flex,,,2026-11-16
 ds007721,Bone conducted responses using the parallel auditory brainstem response (pABR) paradigm,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,22.01,,,,,,site_terms_agreement,one_time_human,3,10000,,Brain Products actiCHamp Plus with EP-PreAmp,,,2026-11-16
 ds007753,BCCWJ-EEG,,scalp_eeg;eog,,,,CC0-1.0,,,,,,true,,41,,,,21.75,,,,,,direct_download,open,64,1000,,Brain Products BrainAmp,,,2026-11-16
-ds007788,Dataset: EEG-Controlled Exoskeleton for Walking and Standing - A Longitudinal Study of Healthy Individuals,,scalp_eeg,,,,CC0-1.0,,,,,,true,,7,,,,3.62,,,,,,direct_download,open,60,100,10_20,MOVE System,,,2026-11-14
-ds007801,OpenNeuro EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,80,,,,3.55,,,,,,site_terms_agreement,one_time_human,103,256,,,,,2026-11-14
-ds007813,EEG Practice Set,,scalp_eeg,,,,CC0-1.0,,,,,,true,,4,,,,0.47,,,,,,direct_download,open,,500,10_20,Brain Products,,,2026-11-14
-ds007822,Prisoner's Dilemma EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,0.35,,,,,,direct_download,open,,300,,,,,2026-11-14
-ds007823,ds007823,,scalp_eeg,,,,,,,,,,true,,173,,,,1.1,,,,,,direct_download,open,21,200,10_10,,,,2026-11-14
-ds007827,Loneliness EEG - Roving Oddball Task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,99,,,,66.76,,,,,,direct_download,open,72,2048,,,,,2026-11-14
-ds007864,Neuroepo multisession Phase II and III,,scalp_eeg,,ciren,,CC0-1.0,,,,,,true,,45,,,,0.47,,,,,,direct_download,open,21,200,10_20,NEURONIC Medicid IV,resting_eyes_closed,,2026-11-14
-ds007865,Placebo Neuroepo multisession Phase II and III,,scalp_eeg,,ciren,,CC0-1.0,,,,,,true,,24,,,,0.26,,,,,,direct_download,open,19,200,10_20,NEURONIC Medicid IV,resting_eyes_closed,,2026-11-14
-ds007895,Auditory Streaming and Interoception,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,7.25,,,,,,direct_download,open,1,10000,10_20,Brain Products actiCHamp Plus with EP-PreAmp Gain 50,,,2026-11-14
-ds007949,Auditory Streaming and Interoception,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,7.25,,,,,,direct_download,open,1,10000,10_20,Brain Products actiCHamp Plus with EP-PreAmp Gain 50,,,2026-11-14
-ds007955,EEG and autonomic responses during emotional word association,,scalp_eeg,,,,CC0-1.0,,,,,,true,,9,,,,0.03,,,,,,direct_download,open,8,250,,OpenBCI Cyton + Ultracortex Mark IV,,,2026-11-14
-ds007964,ds007964,,scalp_eeg,,university_of_sydney,,,,,,,,true,,19,,,,18.65,,,,,,direct_download,open,128,1000,,BrainVision ActiChamp,,,2026-11-14
-ds007968,Narrative Reward,,scalp_eeg,,macewan_university,,CC0-1.0,,,,,,true,,40,,,,2.82,,,,,,direct_download,open,32,1000,,actiCHamp,,,2026-11-14
-ds007987,Raw resting-state EEG dataset with alternating eyes-open and eyes-closed recordings in healthy adults,,scalp_eeg,,,,CC0-1.0,,,,,,true,,43,,,,38.16,,,,,,direct_download,open,128,1024,,,resting_unspecified,,2026-11-14
-ds008003,Working Memory Disruption and Altered Alpha Dynamics In Misophonics,,scalp_eeg,,kansas_state_university,,CC0-1.0,,,,,,true,,54,,,,13.56,,,,,,site_terms_agreement,one_time_human,0,256,,biosemie active 2,,,2026-11-14
+ds007788,Dataset: EEG-Controlled Exoskeleton for Walking and Standing - A Longitudinal Study of Healthy Individuals,,scalp_eeg;eog,,,,CC0-1.0,,,,,,true,,7,,,,3.62,,,,,,direct_download,open,60,100,10_20,MOVE System,motor_imagery,,2026-11-16
+ds007801,OpenNeuro EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,80,,,,3.55,,,,,,site_terms_agreement,one_time_human,,256,10_20,,motor_execution;other,,2026-11-16
+ds007813,EEG Practice Set,,scalp_eeg,,,,CC0-1.0,,,,,,true,,4,,,,0.47,,,,,,direct_download,open,,500,10_20,Brain Products,,,2026-11-16
+ds007822,Prisoner's Dilemma EEG Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,0.35,,,,,,direct_download,open,,300,,,other,,2026-11-16
+ds007823,ds007823,,scalp_eeg,,,,,,,,,,true,,173,,,,1.1,,,,,,direct_download,open,,200,,Neuronic S.A. MEDICID 5,resting_eyes_closed;resting_eyes_open,,2026-11-16
+ds007827,Loneliness EEG - Roving Oddball Task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,99,,,,66.76,,,,,,direct_download,open,72,2048,,BioSemi ActiveTwo,visual_erp,,2026-11-16
+ds007864,Neuroepo multisession Phase II and III,,scalp_eeg,,ciren,,CC0-1.0,,,,,,true,,45,,,,0.47,,,,,,direct_download,open,21,200,10_20,NEURONIC Medicid IV,resting_eyes_closed,,2026-11-16
+ds007865,Placebo Neuroepo multisession Phase II and III,,scalp_eeg,,ciren,,CC0-1.0,,,,,,true,,24,,,,0.26,,,,,,direct_download,open,19,200,10_20,NEURONIC Medicid IV,resting_eyes_closed,,2026-11-16
+ds007895,Auditory Streaming and Interoception,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,7.25,,,,,,direct_download,open,1,10000,10_20,Brain Products actiCHamp Plus with EP-PreAmp Gain 50,,,2026-11-16
+ds007949,Auditory Streaming and Interoception,,scalp_eeg,,,,CC0-1.0,,,,,,true,,22,,,,7.25,,,,,,direct_download,open,1,10000,10_20,Brain Products actiCHamp Plus with EP-PreAmp Gain 50,,,2026-11-16
+ds007955,EEG and autonomic responses during emotional word association,,scalp_eeg;eda;other_physiological,,,,CC0-1.0,,,,,,true,,9,,,,0.03,,,,,,direct_download,open,8,250,,OpenBCI Cyton + Ultracortex Mark IV,other,,2026-11-16
+ds007964,ds007964,,scalp_eeg,,university_of_sydney,,,,,,,,true,,19,,,,18.65,,,,,,direct_download,open,128,1000,,BrainVision ActiChamp,,,2026-11-16
+ds007968,Narrative Reward,,scalp_eeg,,macewan_university,,CC0-1.0,,,,,,true,,40,,,,2.82,,,,,,direct_download,open,32,1000,,actiCHamp,other,,2026-11-16
+ds007987,Raw resting-state EEG dataset with alternating eyes-open and eyes-closed recordings in healthy adults,,scalp_eeg,,,,CC0-1.0,,,,,,true,,43,,,,38.16,,,,,,direct_download,open,128,1024,,Biosemi ActiveTwo,resting_unspecified,,2026-11-16
+ds008003,Working Memory Disruption and Altered Alpha Dynamics In Misophonics,,scalp_eeg,,kansas_state_university,,CC0-1.0,,,,,,true,,54,,,,13.56,,,,,,site_terms_agreement,one_time_human,,256,,,cognitive_task,,2026-11-16
 ds008014,"Not passive sponges: When attention wanes, our brains are less synchronized with the environment",,scalp_eeg,,,,CC0-1.0,,,,,,true,,78,,,,57.99,,,,,,site_terms_agreement,one_time_human,,1024,,BioSemi ActiveTwo,,,2026-11-14
 ds008037,The neural dynamics of working memory and transcranial magnetic stimulation,,scalp_eeg,,monash_university,,CC0-1.0,,,,,,true,,123,,,,102.25,,,,,,site_terms_agreement,one_time_human,62,1000,10_20,,resting_unspecified,,2026-11-14
 ds008065,Optimizing parameters for multiband ABRs to continuous speech,,scalp_eeg,,,,CC0-1.0,,,,,,true,,62,,,,94.35,,,,,,direct_download,open,3,10000,,Brain Products actiCHamp Plus with EP-PreAmp,,,2026-11-14
