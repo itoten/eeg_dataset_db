@@ -1223,26 +1223,25 @@ zenodo_11211876,HEROIC: a platform for remote collection of electroencephalograp
 zenodo_1146090,"Dataset used in ""Steady state visual evoked potential (SSVEP) based brain-computer interface (BCI) performance under different perturbations"" 2018, PLOS ONE",,scalp_eeg;eog,bci,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,60,,,Brain Products ActiCHamp,ssvep,,2026-11-15
 zenodo_11541113,ASA: An Auditory Spatial Attention Dataset with Multiple Speaking Locations,,scalp_eeg,perception;cognitive,,2024,CC-BY-4.0,,,,,,,,20,,,8,,,,,,,direct_download,open,64,500,10_20,BrainAmp,other,,2026-11-15
 zenodo_1158409,"EEG Data for: ""Cortical oscillations and entrainment in speech processing during working memory load""",,scalp_eeg;eog,cognitive;perception,,2018,CC-BY-SA-4.0,,,,,,,,22,,,,,,,,,,direct_download,open,64,,10_20,BioSemi ActiveTwo,cognitive_task,,2026-11-15
-zenodo_1168446,Bench EEG recordings during ultra-slow induction to and emergence from propofol anaesthesia,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_1169139,Avoiding sedentary behaviors requires more cortical resources than avoiding physical activity,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1170528,"Raw EEG Data Publication ""Embodying the camera""",,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1182919,EEG Resting data from CLIS patients,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_1182923,All EEG data from CLIS patient,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_1183648,REsting state EEG data set,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_1185066,REXCO Project :Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1185943,Time-generalized multivariate analysis of EEG responses reveals a cascading architecture of semantic mismatch processing,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1199010,EEG and audio dataset for auditory attention decoding,,scalp_eeg,,,2018,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1201559,Integrated analysis of anatomical and electrophysiological human intracranial data,,,,,2018,CC-BY-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_12074241,Progressive encephalopathy in m.3243A > G/MT-TL1 mutation carriers: a quantitative EEG analysis,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1213583,The causal role of the somatosensory cortex in prosocial behavior - EEG dataset,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1237653,REXCO Project :Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1252140,EEG data collected with Emotiv device in people with epilepsy and controls in Guinea-Bissau and Nigeria,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_12723991,Realtime Data Collection and Analysis Framework for Collaboration and Co-presence in a Virtual Reality Environment,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_12734986,EEG data offline and online during motor imagery for standing and sitting,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_12754928,Benchmark EEG data set for trust assessment for interactions with social robots,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_12804783,MOVING: a Multi-MOdal dataset of EEG signals and VIrtual Glove hand trackING,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1280683,A dataset of neonatal EEG recordings with seizures annotations,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_1281145,Trained SVMs,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+zenodo_1168446,Bench EEG recordings during ultra-slow induction to and emergence from propofol anaesthesia,,scalp_eeg,,,2018,,,,,,,,,16,,,,,,,,,,request_form_or_email,approval,,,,,anesthesia,,2026-11-15
+zenodo_1169139,Avoiding sedentary behaviors requires more cortical resources than avoiding physical activity,,scalp_eeg,cognitive,,2018,CC-BY-4.0,,,,,,,,29,,,,,,,,,,direct_download,open,64,1024,,Biosemi Active-Two,cognitive_task,,2026-11-15
+zenodo_1170528,"Raw EEG Data Publication ""Embodying the camera""",,scalp_eeg,perception,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,128,500,,Electrical Geodesic Sensor Net,motor_execution;passive_viewing,,2026-11-15
+zenodo_1182919,EEG Resting data from CLIS patients,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-15
+zenodo_1182923,All EEG data from CLIS patient,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-15
+zenodo_1183648,REsting state EEG data set,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-15
+zenodo_1185066,REXCO Project :Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults,,scalp_eeg;eog,cognitive;resting_state,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,30,1000,10_20,Brain Products GmbH actiCHamp,cognitive_task;other;resting_eyes_closed,,2026-11-15
+zenodo_1185943,Time-generalized multivariate analysis of EEG responses reveals a cascading architecture of semantic mismatch processing,,scalp_eeg,cognitive,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,language,,2026-11-15
+zenodo_1199010,EEG and audio dataset for auditory attention decoding,,scalp_eeg;eog;audio,perception;bci,,2018,CC-BY-NC-4.0,,,,,,,,18,,,,,,,,,,direct_download,open,64,512,10_20,Biosemi Active 2,cognitive_task,,2026-11-15
+zenodo_1201559,Integrated analysis of anatomical and electrophysiological human intracranial data,,,,,2018,CC-BY-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_12074241,Progressive encephalopathy in m.3243A > G/MT-TL1 mutation carriers: a quantitative EEG analysis,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_1213583,The causal role of the somatosensory cortex in prosocial behavior - EEG dataset,,scalp_eeg,cognitive,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,64,500,10_20,ActiCHamp,cognitive_task,,2026-11-15
+zenodo_1237653,REXCO Project :Physical exercise increases overall brain oscillatory activity but does not influence inhibitory control in young adults,,scalp_eeg;eog,cognitive;resting_state,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,30,1000,10_20,Brain Products GmbH actiCHamp,cognitive_task;other;resting_eyes_closed,,2026-11-15
+zenodo_1252140,EEG data collected with Emotiv device in people with epilepsy and controls in Guinea-Bissau and Nigeria,,scalp_eeg,epilepsy;resting_state,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,14,,,,resting_eyes_closed;resting_eyes_open,,2026-11-15
+zenodo_12723991,Realtime Data Collection and Analysis Framework for Collaboration and Co-presence in a Virtual Reality Environment,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_12734986,EEG data offline and online during motor imagery for standing and sitting,,scalp_eeg,bci;motor,,2024,CC-BY-4.0,,,,,,,,32,,,,,,,,,,direct_download,open,,250,10_20,,motor_imagery,,2026-11-15
+zenodo_12754928,Benchmark EEG data set for trust assessment for interactions with social robots,,scalp_eeg,cognitive;emotion,,2024,CC-BY-4.0,,,,,,,,21,,,,,,,,,,direct_download,open,14,128,,Emotiv,other,,2026-11-15
+zenodo_12804783,MOVING: a Multi-MOdal dataset of EEG signals and VIrtual Glove hand trackING,,scalp_eeg,motor;bci,,2024,CC-BY-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,32,,,,,,2026-11-15
+zenodo_1280683,A dataset of neonatal EEG recordings with seizures annotations,,scalp_eeg,clinical;epilepsy;development,,2018,CC-BY-4.0,,,,,,,,79,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
 zenodo_12818266,Longterm epidural electrophysiology recordings of the NEO BCI system,,,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
 zenodo_1295935,"MAMEM EEG SSVEP Dataset I (256 channels, 11 subjects, 5 frequencies presented in isolation)",,scalp_eeg,,,2016,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,250,,,,,2026-11-14
 zenodo_1295947,"MAMEM EEG SSVEP Dataset II (256 channels, 11 subjects, 5 frequencies presented simultaneously)",,scalp_eeg,,,2016,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,250,,,,,2026-11-14
