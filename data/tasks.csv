@@ -3903,6 +3903,11 @@ zenodo_18326079,natural_scene_videos_with_sudden_vs_grad,natural scene videos wi
 zenodo_18383498,meditation_eeg,Meditation EEG,resting_unspecified,,,,,,,,
 zenodo_18383498,rsvp_eeg_with_music_background_pre_test,RSVP EEG with music background (pre-test),cognitive_task,,,,,,,,
 zenodo_18396885,passive_viewing_of_emotion_eliciting_vid,passive viewing of emotion-eliciting video clips,emotion_induction;passive_viewing,,,,,,,,
+zenodo_19745686,speech_comprehension_vs_sound_identifica,speech comprehension vs. sound identification,language,,,,,,,,
+zenodo_20089289,videos_containing_relevant_irrelevant_an,"videos containing relevant, irrelevant, and false information (ASMR-based audiovisual stimulation in the experimental group)",cognitive_task,,,,,,,,
+zenodo_20145134,resting_state,resting-state,resting_unspecified,,,,,,,,
+zenodo_20163071,stress_relaxation_and_white_noise_audito,"stress, relaxation and white noise auditory stimulation",other,,,,,,,,
+zenodo_20184538,before_during_and_after_dolphin_assisted,"before, during, and after Dolphin-Assisted Therapy sessions",other,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name

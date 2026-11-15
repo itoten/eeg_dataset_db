@@ -273,3 +273,4 @@ zenodo_18032056,event_markers,task_EEG / event_EEG,,,,,,zenodo_18032057,task_EEG
 zenodo_18087805,class_labels,mapping.yaml,,,,,,zenodo_18087806,mapping.yaml - describes the mapping from the marker (given cue) to the class (performed action).,2026-11-15,claude,
 zenodo_18147495,seizure_annotations,After / Before / During folders,post-ictal;pre-ictal;ictal,,,,,zenodo_18147496,"Before (pre-ictal signals from 43 patients, named b_00.csv to b_42.csv), and During (ictal signals from 43 patients, named d_00.csv to d_42.csv)",2026-11-15,claude,
 zenodo_18396885,class_labels,affective condition,positive;neutral;negative,,,,,zenodo_18396886,"three affective conditions: positive, neutral, and negative",2026-11-15,claude,
+zenodo_20163071,class_labels,Experimental condition labels,stress;relaxation;white noise,,,,,zenodo_20163072,"Experimental condition labels (stress, relaxation, white noise).",2026-11-15,claude,
