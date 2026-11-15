@@ -3827,6 +3827,22 @@ zenodo_15798525,emotion_decoding_and_auditory_attention,emotion decoding and aud
 zenodo_15830021,resting_state_eyes_open_fixation_cross_1,"resting state, eyes open, fixation cross (180 s)",resting_eyes_open,,,,,,,,
 zenodo_15833925,orientation_perception_task_mean_orienta,orientation perception task (mean orientation of a tilted Gabor array),cognitive_task,,,,,,,,
 zenodo_15850551,multi_attribute_decision_making,multi-attribute decision making,cognitive_task,,,,,,,,
+zenodo_15860203,fast_paced_game_and_slow_paced_game,Fast-Paced Game and Slow-Paced Game,cognitive_task,,,,,,,,
+zenodo_15879449,eeg_biofeedback,EEG Biofeedback,neurofeedback,,,,,,,,
+zenodo_15919876,libet_task,Libet task,cognitive_task,,,,,,,,
+zenodo_16487740,lateral_interception_task,Lateral Interception Task,motor_execution,,,,,,,,
+zenodo_16536440,selective_auditory_attention_decoding,selective auditory attention decoding,cognitive_task,,,,,,,,
+zenodo_16622879,baseline_rest,baseline rest,resting_eyes_closed,,,,,,,,
+zenodo_16622879,indian_classical_music_raga_listening,Indian Classical Music raga listening,other,,,,,,,,
+zenodo_16634018,aep_feedback_active_oddball_with_keyboar,AEP_Feedback (active oddball with keyboard responses),auditory_erp,,,,,,,,
+zenodo_16634018,aep_passive_listening_oddball,AEP (passive listening oddball),auditory_erp,,,,,,,,
+zenodo_16634018,resting_closed,Resting_Closed,resting_eyes_closed,,,,,,,,
+zenodo_16634018,resting_open,Resting_Open,resting_eyes_open,,,,,,,,
+zenodo_16755955,coordination_task_synchronous_and_asynch,coordination task (synchronous and asynchronous movements),motor_execution,,,,,,,,
+zenodo_16777947,ssvep_offline_experiment,SSVEP offline experiment,ssvep,,,,,,,,
+zenodo_16778664,sequential_three_operand_arithmetic_task,sequential three-operand arithmetic task,cognitive_task,,,,,,,,
+zenodo_16788547,ec_resting_state,EC resting state,resting_eyes_closed,,,,,,,,
+zenodo_16788547,eo_resting_state,EO resting state,resting_eyes_open,,,,,,,,
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_18288104,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name

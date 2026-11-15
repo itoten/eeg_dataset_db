@@ -1353,26 +1353,21 @@ zenodo_15798525,Decoding Auditory Attention and Musical Emotions with Ear-EEG (D
 zenodo_15830021,Test-Retest Reliability Analysis of Resting-state EEG Measures and Their Association with Long-Term Memory in Children and Adults,,scalp_eeg,resting_state,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,64,1000,10_20,Brain Products RNet,resting_eyes_open,,2026-11-15
 zenodo_15833925,Dynamic Neural Compensation for Distorted Orientation Perception in Chronic Astigmatism,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,42,,,,,,,,,,direct_download,open,64,,,Brain Products BrainAmp,cognitive_task,,2026-11-15
 zenodo_15850551,Data for multi-attribute decision making EEG project.,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-15
-zenodo_15860203,EEG Data for Cognitive Performance in Fast and Slow-Paced Games,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_15878238,ASTRA Validation Exercise #03 Neurometric dataset,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_15879449,Granular Phenotyping of Neuromuscular and Cortical Adaptation in Elite National Judo Athletes: A Three-Group Experimental Analysis Using EEG and EMG Markers Following 15 Sessions of EEG Biofeedback,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_15919876,When Breathing Guides Action: Altered Coupling in Functional Neurological Disorder,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16364095,Machine learning predictions from unpredictable chaos,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16367812,EEG-Activity-Recognition,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16375092,Figurative Attention Measurement Using EEG During Ambiguous Stimuli Perception,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,19,,,,,,2026-11-14
-zenodo_16420806,Benchmark data for canonical head computational models,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16487740,Probabilistic inference of synaptic efficacies in social facilitation,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16536440,Ear-SAAD dataset,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16574000,Virtual brain activity data,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16620089,Global excitatory synchrony: Ketamine induces global common-mode excitatory network oscillation by inhibiting key interneurons,,scalp_eeg,,,2025,CC-BY-NC-ND-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16622879,ICM EEG Dataset: EEG Recordings During Perception of Indian Classical Music Ragas,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16634018,EEG Dataset of Auditory Evoked Potentials,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,8,,,,,,2026-11-14
-zenodo_16734701,Linkage files for overnight sleep Functional Brain Age work (Res-NN),,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16755955,Enhanced Interpersonal Movement Coordination in the Military: A Hyperscanning Study,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16777947,Labeled SSVEP-based openbci EEG text files,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
-zenodo_16778664,Dataset: arithmetic calculations measured by intracranial EEG in the human brain,,,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16788547,Resting-State EEG Dataset for Depression and Healthy Controls,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-zenodo_16793624,"Dataset for the study ""Distinct Neural Dynamics in Joint versus Side-by-Side Actions: Insights from Dual EEG""",,scalp_eeg,,,2025,CC-BY-NC-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-14
+zenodo_15860203,EEG Data for Cognitive Performance in Fast and Slow-Paced Games,,scalp_eeg,cognitive,,2025,CC-BY-4.0,,,,,,,,24,,,,,,,,,,direct_download,open,,,,EMOTIV EPOCX,cognitive_task,,2026-11-15
+zenodo_15879449,Granular Phenotyping of Neuromuscular and Cortical Adaptation in Elite National Judo Athletes: A Three-Group Experimental Analysis Using EEG and EMG Markers Following 15 Sessions of EEG Biofeedback,,scalp_eeg;emg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,neurofeedback,,2026-11-15
+zenodo_15919876,When Breathing Guides Action: Altered Coupling in Functional Neurological Disorder,,scalp_eeg;respiration,neurology;clinical,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-15
+zenodo_16364095,Machine learning predictions from unpredictable chaos,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_16375092,Figurative Attention Measurement Using EEG During Ambiguous Stimuli Perception,,scalp_eeg,cognitive,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,19,,,,,,2026-11-15
+zenodo_16487740,Probabilistic inference of synaptic efficacies in social facilitation,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,TMSi,motor_execution,,2026-11-15
+zenodo_16536440,Ear-SAAD dataset,,scalp_eeg;ear_eeg;eog,perception,,2025,CC-BY-4.0,,,,,,,,15,,,,,,,,,,direct_download,open,,,,TMSi Mobita,cognitive_task,,2026-11-15
+zenodo_16622879,ICM EEG Dataset: EEG Recordings During Perception of Indian Classical Music Ragas,,scalp_eeg;ecg,perception,,2025,CC-BY-4.0,,,,,,,,9,,,,,,,,,,direct_download,open,19,256,10_20,RMS Maximus 24,other;resting_eyes_closed,,2026-11-15
+zenodo_16634018,EEG Dataset of Auditory Evoked Potentials,,scalp_eeg,perception;resting_state,,2025,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,8,250,10_20,Unicorn Hybrid Black,auditory_erp;resting_eyes_closed;resting_eyes_open,,2026-11-15
+zenodo_16734701,Linkage files for overnight sleep Functional Brain Age work (Res-NN),,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_16755955,Enhanced Interpersonal Movement Coordination in the Military: A Hyperscanning Study,,scalp_eeg;eog,cognitive,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,64,2048,,Biosemi ActiveTwo,motor_execution,,2026-11-15
+zenodo_16777947,Labeled SSVEP-based openbci EEG text files,,scalp_eeg,bci,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,OpenBCI Ultracortex Mark IV,ssvep,,2026-11-15
+zenodo_16778664,Dataset: arithmetic calculations measured by intracranial EEG in the human brain,,ieeg_seeg,epilepsy;cognitive,,2026,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,,2048,intracranial,Natus Quantum,cognitive_task,,2026-11-15
+zenodo_16788547,Resting-State EEG Dataset for Depression and Healthy Controls,,scalp_eeg;eog,psychiatry;resting_state,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,16,200,10_20,GRASS TECHNOLOGIES UPM-PLUS,resting_eyes_closed;resting_eyes_open,,2026-11-15
+zenodo_16793624,"Dataset for the study ""Distinct Neural Dynamics in Joint versus Side-by-Side Actions: Insights from Dual EEG""",,scalp_eeg,,,2025,CC-BY-NC-4.0,,,,,,,,40,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-15
 zenodo_16813890,Music-Stimulated EEG Motor Control Dataset,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_16850207,Entropy-based measure for assessing global synchronicity in EEG signals,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_16871669,Acute supplementation of beta-hydroxybutyrate increases visual cortical excitability in humans: a combined Electro-EncephaloGraphy and – Magnetic Resonance Spectroscopy study,,scalp_eeg,,,2025,CC-BY-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14

@@ -95,3 +95,5 @@ zenodo_15086710,acquisition_setups:main.sampling_rate_hz,conflicting,2048,second
 zenodo_15086710,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.15086711,Audit reviewer; scope: distributed (preprocessed epochs)
 zenodo_15454354,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://api.datacite.org/dois/10.5281/zenodo.15454355,Audit reviewer; scope: healthy participants
 zenodo_15454354,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://api.datacite.org/dois/10.5281/zenodo.15454355,Audit reviewer; scope: sci and subgroup participants
+zenodo_16536440,acquisition_setups:main.n_channels_eeg,conflicting,19,secondary,https://api.datacite.org/dois/10.5281/zenodo.16536441,Audit reviewer; scope: around-the-ear eeg
+zenodo_16536440,acquisition_setups:main.n_channels_eeg,conflicting,29,secondary,https://api.datacite.org/dois/10.5281/zenodo.16536441,Audit reviewer; scope: scalp eeg
