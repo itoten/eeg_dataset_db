@@ -102,6 +102,8 @@ def quote_ok(url, quote):
 
 def numbers_in(quote):
     out = set(re.findall(r"\d+(?:[.,]\d+)?", quote.replace(",", "")))
+    for k in re.findall(r"(\d+(?:\.\d+)?)\s*kHz\b", quote.replace(",", "")):  # "1 kHz" states 1000 Hz
+        out.add(f"{float(k) * 1000:g}")
     for w, n in WORDNUM.items():
         if re.search(rf"\b{w}\b", quote, re.I):
             out.add(str(n))
