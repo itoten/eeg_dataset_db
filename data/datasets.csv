@@ -1553,6 +1553,7 @@ zenodo_2222267,Attempted Arm and Hand Movements can be Decoded from Low-Frequenc
 zenodo_22227355,AVMoments-EEG: A Large-Scale EEG Datasets of Naturalistic Audiovisual Event Perception,,scalp_eeg;eog;ecg,,,2026,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,,1000,10_10,ANT Neuro,passive_viewing,,2026-11-15
 zenodo_22307402,MoveAtlas harmonized release: Rest and treadmill-walking EEG in Parkinson's disease (OpenNeuro ds007526),,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
 zenodo_22308280,MoveAtlas harmonized release: Resting-state EEG in Parkinson's disease (OpenNeuro ds004584),,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
+zenodo_22313521,MoveAtlas harmonized release: Lance-Adams syndrome EEG and EMG case,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 zenodo_22313544,MoveAtlas harmonized release: UC San Diego resting-state EEG in Parkinson's disease (OpenNeuro ds002778),,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
 zenodo_22553918,Stroop and Simon tasks in Musicians and Non-Musicians EEG dataset,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,23,,,,,,,,,,direct_download,open,32,500,10_20,Brain Vision,cognitive_task,,2026-11-15
 zenodo_22557159,EEG Auditory Isochronous Rhythm Stimulation and Resting State,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,auditory_erp;resting_unspecified,,2026-11-15
