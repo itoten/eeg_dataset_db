@@ -3944,6 +3944,19 @@ zenodo_20789302,serious_game_island_voices_about_climate,serious game Island Voi
 zenodo_21156617,t_40_hz_amplitude_modulated_auditory_stimu,"40 Hz amplitude-modulated auditory stimuli (pure tone, cicada song, cat's purr, brownian noise, silence)",auditory_erp,,,,,,,,
 zenodo_21204030,immersive_vr_task_for_intent_decoding,immersive VR task for intent decoding,other,,,,,,,,
 zenodo_21301952,veca_eeg_cognitive_battery_vr_mem8_10_vr,"VECA-EEG cognitive battery (vr_mem8-10, vr_att, vr_abs, vr_calc4-6, vr_exec, vr_recall)",cognitive_task,,,,,,,,
+zenodo_21470307,five_voluntary_commands_right_gaze_left,"five voluntary commands (right gaze, left gaze, left wink, right wink and double blink)",other,,,,,,,,
+zenodo_21470455,grip_force_level_motor_imagery,Grip-Force-Level Motor Imagery,motor_imagery,,,,,,,,
+zenodo_21496852,active_ai_and_passive_ai_learning_tasks,Active AI and Passive AI learning tasks,cognitive_task,,,,,,,,
+zenodo_21604698,online_ssvep_experiment,online SSVEP experiment,ssvep,,,,,,,,
+zenodo_21619001,imagined_speech_of_eight_words,imagined speech of eight words,imagined_speech,,,,,,,,
+zenodo_21629134,routine_clinical_eeg_recordings_at_pak_e,routine clinical EEG recordings at Pak-Emirates Military Hospital,clinical_routine,,,,,,,,
+zenodo_21630051,clinical_recording_in_hospital,clinical recording in hospital,clinical_routine,,,,,,,,
+zenodo_21630051,eyes_open_then_eyes_closed_resting_recor,eyes open then eyes closed resting recording,resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_21643178,face_versus_non_face_detection_task,Face versus non-face detection task,cognitive_task;visual_erp,,,,,,,,
+zenodo_21687238,scrambled_background_and_average_face_ba,Scrambled-background and average-face-background conditions,other,,,,,,,,
+zenodo_21709854,resting_state_eeg_eyes_open_and_eyes_clo,"resting-state EEG, eyes-open and eyes-closed",resting_eyes_closed;resting_eyes_open,,,,,,,,
+zenodo_21715567,socio_cognitive_inference_tasks_during_c,socio-cognitive inference tasks during cerebellar gamma HD-tACS,cognitive_task,,,,,,,,
+zenodo_21754263,cued_and_uncued_music_imagery_openmiir,cued and uncued music imagery (OpenMIIR),other,,,,,,,,
 zenodo_2392978,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266222,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 zenodo_3266929,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name

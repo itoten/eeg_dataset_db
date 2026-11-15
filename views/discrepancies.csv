@@ -125,3 +125,5 @@ zenodo_19059356,acquisition_setups:main.sampling_rate_hz,conflicting,100,seconda
 zenodo_19059356,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://zenodo.org/records/19059357,Audit reviewer; scope: afah dataset
 zenodo_19333248,acquisition_setups:main.n_channels_eeg,conflicting,18,primary,https://zenodo.org/records/19333249,Audit reviewer; scope: distributed processed data
 zenodo_19333248,acquisition_setups:main.n_channels_eeg,conflicting,19,primary,https://zenodo.org/records/19333249,Audit reviewer; scope: original recordings; distributed data has 18 derived bipolar channels
+zenodo_21709854,domains,conflicting,psychiatry,primary,https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.30.711922,Audit reviewer; scope: not given
+zenodo_21709854,domains,conflicting,resting_state,primary,https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.30.711922,Audit reviewer; scope: not given
