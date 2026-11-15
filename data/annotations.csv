@@ -47,6 +47,7 @@ ds004477,behavioral_responses,allocated resources per trial,,,,,,ds004477_doc02b
 ds004477,self_report_ratings,reported confidence per decision,,,,,,ds004477_doc02b3d2,providing their reported confidences for each decision,2026-11-15,claude,
 ds004504,clinical_diagnosis,AD / FTD / CN,AD;FTD;CN,,,,,ds004504_doc216ff8,36 of them were diagnosed with Alzheimer's disease (AD group),2026-11-15,claude,
 ds004504,questionnaires,MMSE,,,,,,ds004504_doc216ff8,Cognitive and neuropsychological state was evaluated by the international Mini-Mental State Examination (MMSE).,2026-11-15,claude,
+ds004770,event_markers,stimulus/tap codes,101;401;501,,,,,ds004770_docf3b253,"(101 is for task display, 401 is for finger tapping to the successful grid, and 501 is for finger tapping to the failed grid)",2026-11-15,claude,
 dv_10_18710_d5io4r,behavioral_responses,flanker and AX-CPT behavioural data,,,,,,dv_10_18710_d5io4r_docb247b2,".tsv : Tab separated values file, contain behavioral data",2026-11-15,claude,
 dv_10_18710_d5io4r,event_markers,Stimulus designations (contained in .vmrk files),1 - left congruent;2 - right congruent;3 - left incongruent;4 - right incongruent;5 - left neutral;6 - right neutral;201 - correct response;200 - incorrect response,,,,,dv_10_18710_d5io4r_docb247b2,Stimulus designations (contained in .vmrk files),2026-11-15,claude,
 dv_10_18710_d5io4r,questionnaires,"CRS, IPAQ, LHQ, SFFQ, SNI",,,,,,dv_10_18710_d5io4r_docb247b2,"tasks: restingstateClosedEye, Flanker, CRS, IPAQ, LHQ, SFFQ, SNI",2026-11-15,claude,

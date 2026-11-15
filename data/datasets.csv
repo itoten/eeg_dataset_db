@@ -245,21 +245,21 @@ ds004603,Visual Attribute-Specific Contextual Trajectory Paradigm,,scalp_eeg,,sc
 ds004621,The Nencki-Symfonia EEG/ERP dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,42,,,,77.38,,,,,,direct_download,open,,1000,,Brain Products GmbH actiCHamp,cognitive_task;p300_erp;resting_unspecified,,2026-11-15
 ds004624,Intracranial recordings using BCI2000 and the CorTec BrainInterchange,,ieeg,,,,CC0-1.0,,,,,,true,,3,,,,19.31,,,,,,direct_download,open,,1000,,,,,2026-11-15
 ds004625,Mind in Motion Young Adults Walking Over Uneven Terrain,,scalp_eeg;emg,,university_of_florida,,CC0-1.0,,,,,,true,,32,,,,62.46,,,,,,direct_download,open,120,500,,Brain Vision,motor_execution,,2026-11-15
-ds004626,Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modelling and event-related potentials.,,scalp_eeg,,institute_of_psychology_polish_academy_of_sciences,,CC0-1.0,,,,,,true,,52,,,,19.87,,,,,,direct_download,open,68,1000,10_20,Neuroscan SynAmps RT,,,2026-11-14
-ds004635,Gaffrey Lab Infant Microstates Reliability,,scalp_eeg,,duke_university,,CC0-1.0,,,,,,true,,48,,,,26.05,,,,,,direct_download,open,129,1000,,"Electrical Geodesics, Inc. (EGI)",resting_unspecified,,2026-11-14
-ds004642,Intraoperative recordings of medianus stimulation with low and high impedance ECoG,,ieeg,,department_of_neurosurgery_university_hospital_zur,,CC0-1.0,,,,,,true,,10,,,,1.2,,,,,,direct_download,open,0,20000,,Inomed Medizintechnik GmbH Inomed ISIS System,,,2026-11-14
-ds004657,Driving with Autonomous Aids,,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,43.06,,,,,,direct_download,open,64,1024,,,,,2026-11-14
-ds004660,TNO,,scalp_eeg,,tno_laboratory_netherlands,,CC0-1.0,,,,,,true,,21,,,,7.25,,,,,,direct_download,open,32,512,,,p300_erp,,2026-11-14
-ds004661,ANDI,,scalp_eeg,,,,CC0-1.0,,,,,,true,,17,,,,1.4,,,,,,direct_download,open,64,128,,,,,2026-11-14
-ds004696,HAPwave_bids,,ieeg,,mayo_clinic_rochester_mn,,CC0-1.0,,,,,,true,,8,,,,14.17,,,,,,direct_download,open,0,2048,,,,,2026-11-14
-ds004703,sEEG Passive listening to natural speech,,ieeg,,uc_san_diego_health,,CC0-1.0,,,,,,true,,10,,,,12.37,,,,,,direct_download,open,0,1024,,Natus Quantum,,,2026-11-14
-ds004706,Spatial memory and non-invasive closed-loop stimulus timing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,1328.2,,,,,,direct_download,open,128,2048,,BioSemi,,,2026-11-14
-ds004718,Le Petit Prince Hong Kong: Naturalistic fMRI and EEG dataset from older Cantonese speakers,,scalp_eeg,,hong_kong_polytechnic_university,,CC0-1.0,,,,,,true,,52,,,,37.03,,,,,,direct_download,open,64,1000,10_20,,resting_unspecified,,2026-11-14
-ds004745,8-Channel SSVEP EEG Dataset with Artifact Trials,,scalp_eeg,,university_of_trento,,CC0-1.0,,,,,,true,,6,,,,0.24,,,,,,direct_download,open,8,1000,10_20,,,,2026-11-14
-ds004752,"Dataset of intracranial EEG, scalp EEG and beamforming sources from epilepsy patients performing a verbal working memory task",,ieeg;scalp_eeg,,schweizerische_epilepsie_klinik,,CC0-1.0,,,,,,true,,15,,,,10.23,,,,,,direct_download,open,19,200,,Neuralynx Inc. Neuralynx ATLAS,,,2026-11-14
-ds004770,iEEG on children during gameplay,,ieeg,,,,CC0-1.0,,,,,,true,,10,,,,8.69,,,,,,site_terms_agreement,one_time_human,,1000,,a/a,,,2026-11-14
-ds004771,EEG/ERP data from a Python Reading Task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,61,,,,1.36,,,,,,site_terms_agreement,one_time_human,34,256,,,,,2026-11-14
-ds004774,Automatic Evoked Response Detection (ER-Detect) dataset,,ieeg,,mayo_clinic,,CC0-1.0,,,,,,true,,14,,,,24.78,,,,,,direct_download,open,,2048,,Natus Medical Inc,,,2026-11-14
+ds004626,Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modelling and event-related potentials.,,scalp_eeg,,institute_of_psychology_polish_academy_of_sciences,,CC0-1.0,,,,,,true,,52,,,,19.87,,,,,,direct_download,open,68,1000,10_20,Neuroscan SynAmps RT,,,2026-11-15
+ds004635,Gaffrey Lab Infant Microstates Reliability,,scalp_eeg,,duke_university,,CC0-1.0,,,,,,true,,48,,,,26.05,,,,,,direct_download,open,129,1000,,"Electrical Geodesics, Inc. (EGI)",passive_viewing;resting_unspecified,,2026-11-15
+ds004642,Intraoperative recordings of medianus stimulation with low and high impedance ECoG,,ieeg;ieeg_ecog,,department_of_neurosurgery_university_hospital_zur,,CC0-1.0,,,,,,true,,10,,,,1.2,,,,,,direct_download,open,0,20000,,Inomed Medizintechnik GmbH Inomed ISIS System,other,,2026-11-15
+ds004657,Driving with Autonomous Aids,,scalp_eeg;eog;ecg;eda;eye_tracking,,,,CC0-1.0,,,,,,true,,24,,,,43.06,,,,,,direct_download,open,64,1024,,,cognitive_task,,2026-11-15
+ds004660,TNO,,scalp_eeg,,tno_laboratory_netherlands,,CC0-1.0,,,,,,true,,21,,,,7.25,,,,,,direct_download,open,32,512,,,p300_erp,,2026-11-15
+ds004661,ANDI,,scalp_eeg;eog,,,,CC0-1.0,,,,,,true,,17,,,,1.4,,,,,,direct_download,open,64,,,BioSemi ActiveTwo,cognitive_task,,2026-11-15
+ds004696,HAPwave_bids,,ieeg,,mayo_clinic_rochester_mn,,CC0-1.0,,,,,,true,,8,,,,14.17,,,,,,direct_download,open,0,2048,,,other,,2026-11-15
+ds004703,sEEG Passive listening to natural speech,,ieeg;ieeg_seeg,,uc_san_diego_health,,CC0-1.0,,,,,,true,,10,,,,12.37,,,,,,direct_download,open,0,1024,,Natus Quantum,language,,2026-11-15
+ds004706,Spatial memory and non-invasive closed-loop stimulus timing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,1328.2,,,,,,direct_download,open,128,2048,,BioSemi,cognitive_task,,2026-11-15
+ds004718,Le Petit Prince Hong Kong: Naturalistic fMRI and EEG dataset from older Cantonese speakers,,scalp_eeg;fmri,,hong_kong_polytechnic_university,,CC0-1.0,,,,,,true,,52,,,,37.03,,,,,,direct_download,open,64,1000,10_20,Neuroscan,language;resting_unspecified,,2026-11-15
+ds004745,8-Channel SSVEP EEG Dataset with Artifact Trials,,scalp_eeg,,university_of_trento,,CC0-1.0,,,,,,true,,6,,,,0.24,,,,,,direct_download,open,8,1000,10_20,,ssvep,,2026-11-15
+ds004752,"Dataset of intracranial EEG, scalp EEG and beamforming sources from epilepsy patients performing a verbal working memory task",,scalp_eeg;ieeg;ieeg_seeg,,schweizerische_epilepsie_klinik,,CC0-1.0,,,,,,true,,15,,,,10.23,,,,,,direct_download,open,19,200,10_20,Neuralynx Inc. Neuralynx ATLAS,cognitive_task,,2026-11-15
+ds004770,iEEG on children during gameplay,,ieeg,,,,CC0-1.0,,,,,,true,,10,,,,8.69,,,,,,site_terms_agreement,one_time_human,,1000,,a/a,cognitive_task,,2026-11-15
+ds004771,EEG/ERP data from a Python Reading Task,,scalp_eeg,,,,CC0-1.0,,,,,,true,,61,,,,1.36,,,,,,site_terms_agreement,one_time_human,34,256,,,language,,2026-11-15
+ds004774,Automatic Evoked Response Detection (ER-Detect) dataset,,ieeg,,mayo_clinic,,CC0-1.0,,,,,,true,,14,,,,24.78,,,,,,direct_download,open,,2048,,Natus Medical Inc,other,,2026-11-15
 ds004784,"Phantom EEG Dataset with Motion, Muscle, and Eye Artifacts and Example Scripts",,scalp_eeg,,university_of_florida,,CC0-1.0,,,,,,true,,1,,,,1.01,,,,,,direct_download,open,128,512,,ActiveTwo,,,2026-11-14
 ds004785,EEG data for paper titled - Precise cortical contributions to feedback sensorimotor control during reactive balance,,scalp_eeg,,,,CC0-1.0,,,,,,true,,17,,,,0.34,,,,,,direct_download,open,32,500,,,,,2026-11-14
 ds004789,Delayed Free Recall of Word Lists,,ieeg,,,,CC0-1.0,,,,,,true,,280,,,,576.31,,,,,,direct_download,open,0,500,,,,,2026-11-14

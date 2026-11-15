@@ -436,21 +436,32 @@ ds004625,mixed,mixed,,,,,,,,,
 ds004625,walking_over_uneven_terrain,walking over uneven terrain,motor_execution,,,,,,,,
 ds004626,dotprobe,DotProbe,,,,,,,,,
 ds004635,resting,resting,resting_unspecified,,,,,,,,
+ds004635,watched_up_to_15_minutes_of_relaxing_vid,watched up to 15 minutes of relaxing videos with sound,passive_viewing,,,,,,,,
 ds004642,lozhfo,lozHFO,,,,,,,,,Medianus stimulation at 4.70 Hz with low and high impedance ECoG electrodes. [ds004642_sidecar]
+ds004642,medianus_sep,medianus SEP,other,,,,,,,,
 ds004657,drive,Drive,,,,,,,,,
+ds004657,semi_automated_driving_task,semi-automated driving task,cognitive_task,,,,,,,,
 ds004660,p300,P300,p300_erp,,,,,,,,
+ds004661,guided_visual_search_with_auditory_n_bac,guided visual search with auditory N-back,cognitive_task,,,,,,,,
 ds004661,nback,nback,,,,,,,,,
 ds004696,cortico_cortical_evoked_potentials_cceps,Cortico-Cortical Evoked Potentials -CCEPs,,,,,,,,,intracranial EEG (iEEG) recordings during single pulse electrical stimulation. [ds004696_sidecar]
-ds004703,passivelisten,PassiveListen,,,,,,,,,Participant passively listens to 30-45s passages of conversational speech and verbally answers a 2AC content question after each passage. 6 blocks with 7 passages per block. [ds004703_sidecar]
+ds004696,single_pulse_electrical_stimulation_rest,"single pulse electrical stimulation, resting",other,,,,,,,,
+ds004703,passivelisten,PassiveListen,language,,,,,,,,Participant passively listens to 30-45s passages of conversational speech and verbally answers a 2AC content question after each passage. 6 blocks with 7 passages per block. [ds004703_sidecar]
 ds004706,niclscourierclosedloop,NiclsCourierClosedLoop,,,,,,,,,
 ds004706,niclscourierreadonly,NiclsCourierReadOnly,,,,,,,,,
+ds004706,spatial_navigation_and_free_recall_couri,spatial navigation and free recall (courier task),cognitive_task,,,,,,,,
+ds004718,listening_to_the_little_prince_audiobook,listening to The Little Prince audiobook,language,,,,,,,,
 ds004718,lpphk,lppHK,,,,,,,,,
 ds004718,rest,rest,resting_unspecified,,,,,,,,
+ds004745,ssvep,SSVEP,ssvep,,,,,,,,
 ds004745,unnamed,unnamed,,,,,,,,,
+ds004752,modified_sternberg_verbal_working_memory,modified Sternberg verbal working memory,cognitive_task,,,,,,,,
 ds004752,verbalwm,verbalWM,,,,,,,,,"In the task, sets of consonants are presented and have to be memorized. The set size (4, 6, or 8 letters) determines working memory workload. In each trial, presentation of a letter string (encoding period, 2 s) is followed by a delay (maintenance period, 3 s). After the delay, a probe letter is presented. Participants indicate whether the probe was in the letter string or not. [ds004752_sidecar]"
 ds004770,game,game,,,,,,,,,game. [ds004770_sidecar]
+ds004770,memory_matrix_visuospatial_working_memor,Memory Matrix visuospatial working memory game,cognitive_task,,,,,,,,
 ds004771,py,PY,,,,,,,,,
-ds004774,ccep,CCEP,,,,,,,,,Bipolar corticocortical stimulation. [ds004774_sidecar]
+ds004771,python_reading_acceptability_judgments,Python reading acceptability judgments,language,,,,,,,,
+ds004774,ccep,CCEP,other,,,,,,,,Bipolar corticocortical stimulation. [ds004774_sidecar]
 ds004774,task_spesclin,task-SPESclin,,,,,,,,,
 ds004784,mixed,mixed,,,,,,,,,
 ds004785,unnamed,unnamed,,,,,,,,,

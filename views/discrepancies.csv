@@ -256,6 +256,12 @@ ds004582,acquisition_setups:main.device_manufacturer,conflicting,BrainProducts,p
 ds004582,acquisition_setups:main.device_manufacturer,conflicting,BrainVision,secondary,https://s3.amazonaws.com/openneuro.org/ds004582/README,Audit reviewer; scope: not given
 ds004584,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004584/sub-001/eeg/sub-001_task-Rest_eeg.json?versionId=KNvvsSVtJoWaLA01.y0OL7U5A0f04LDp,
 ds004584,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004584/README,Audit reviewer; scope: not given
+ds004635,acquisition_setups:main.reference,conflicting,E129/Cz,primary,https://s3.amazonaws.com/openneuro.org/ds004635/sub-S1/eeg/sub-S1_task-resting_eeg.json?versionId=uEmbtx9Z0_Itc_FePs3jhmOxDlyEjLfU,
+ds004635,acquisition_setups:main.reference,conflicting,vertex (channel Cz),secondary,https://s3.amazonaws.com/openneuro.org/ds004635/README,Audit reviewer; scope: not given
+ds004661,acquisition_setups:main.reference,conflicting,EXG5 EXG6,primary,https://s3.amazonaws.com/openneuro.org/ds004661/sub-001/eeg/sub-001_task-nback_eeg.json?versionId=w5GBT09LyAAeLyyd38J6nITVKJApyOGa,
+ds004661,acquisition_setups:main.reference,conflicting,left and right mastoids,secondary,https://s3.amazonaws.com/openneuro.org/ds004661/README,Audit reviewer; scope: not given
+ds004661,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://s3.amazonaws.com/openneuro.org/ds004661/sub-001/eeg/sub-001_task-nback_eeg.json?versionId=w5GBT09LyAAeLyyd38J6nITVKJApyOGa,
+ds004661,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://s3.amazonaws.com/openneuro.org/ds004661/README,Audit reviewer; scope: as recorded; sidecar says 128 (distributed)
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
 dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
