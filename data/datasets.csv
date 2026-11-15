@@ -393,21 +393,21 @@ ds005691,SpinalExpect_Invasive,,ieeg,,otto_von_guericke_university_magdeburg_and
 ds005692,SpinalExpect_NonInvasive,,scalp_eeg,,otto_von_guericke_university_magdeburg_and_leibniz,,CC0-1.0,,,,,,true,,30,,,,92.81,,,,,,direct_download,open,24,5000,,Brain Products GmbH BrainAmp DC,,,2026-11-14
 ds005697,PerceiveImagine,,scalp_eeg,,beijing_institute_of_basic_medical_sciences,,CC0-1.0,,,,,,true,,52,,,,66.55,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,Neuroscan SynAmps 2,,,2026-11-14
 ds005779,Real-time personalized brain state-dependent TMS in healthy adults,,scalp_eeg,,university_of_texas_at_austin,,CC0-1.0,,,,,,true,,19,,,,88.67,,,,,,direct_download,open,70,5000,,Bittium Biosignals,resting_unspecified,,2026-11-14
-ds005795,MULTI-CLARID (Multimodal Category Learning and Resting-state Imaging Data),,scalp_eeg,,,,CC0-1.0,,,,,,true,,34,,,,6.41,,,,,,direct_download,open,72,500,,Brain Products,resting_unspecified,,2026-11-14
-ds005811,NOD-EEG,,scalp_eeg,,beijing_normal_university,,CC0-1.0,,,,,,true,,19,,,,16.24,,,,,,direct_download,open,62,500,10_20,NeuroScan,,,2026-11-14
-ds005815,A Human EEG Dataset for Multisensory Perception and Mental Imagery,,scalp_eeg,,national_yang_ming_chiao_tung_university,,CC0-1.0,,,,,,true,,20,,,,7.6,,,,,,direct_download,open,30,1000,10_20,Compumedics Neuroscan SynAmps RT 64,resting_unspecified,,2026-11-14
-ds005841,EEG Experiment measuring ERPs in VR,,scalp_eeg,,,,CC0-1.0,,,,,,true,,48,,,,7.35,,,,,,site_terms_agreement,one_time_human,,512,,,,,2026-11-14
-ds005857,ltpDelayRepFRReadOnly,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,284.38,,,,,,direct_download,open,128,2048,,BioSemi,,,2026-11-14
-ds005863,Cognitive Electrophysiology in Socioeconomic Context in Adulthood,,scalp_eeg,,university_of_california_merced,,CC0-1.0,,,,,,true,,127,,,,10.59,,,,,,direct_download,open,27,500,10_20,Brain Products Brain Products actiCHamp Plus,p300_erp,,2026-11-14
-ds005866,Flankers-NEAR,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,60,,,,3.57,,,,,,direct_download,open,,500,,Neuroscan-Compumedics SynAmpsRT,,,2026-11-14
-ds005868,Flankers-FAR,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,48,,,,2.93,,,,,,direct_download,open,,500,,Neuroscan-Compumedics SynAmpsRT,,,2026-11-14
-ds005872,EEGEyeNet Dataset,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.04,,,,,,direct_download,open,129,500,,,,,2026-11-14
-ds005873,SeizeIT2,,scalp_eeg,,multi_center_european_epileptic_monitoring_units,,CC0-1.0,,,,,,true,,125,,,,44.36,,,,,,direct_download,open,2,256,,,,,2026-11-14
-ds005876,Song Familiarity,,scalp_eeg,,macewan_university,,CC0-1.0,,,,,,true,,29,,,,7.13,,,,,,direct_download,open,32,1000,,actiCHamp,,,2026-11-14
-ds005907,EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,53,,,,5.65,,,,,,direct_download,open,56,500,,Brain Vision ActiChamp,,,2026-11-14
-ds005931,Visuomotor_task,,ieeg,,,,CC0-1.0,,,,,,true,,8,,,,0.8,,,,,,direct_download,open,,1000,,,,,2026-11-14
-ds005932,PWIe,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,29,,,,2.28,,,,,,direct_download,open,,500,,Neuroscan-Compumedics SynAmpsRT,,,2026-11-14
-ds005946,ERC_CoG PROMENADE - WP2 - MetaImagery (Metaphor and Mental Imagery),,scalp_eeg,,university_school_for_advanced_studies_iuss,,CC0-1.0,,,,,,true,,39,,,,14.83,,,,,,direct_download,open,58,1000,10_20,2023 Brain Products GmbH actiCHamp Plus,,,2026-11-14
+ds005795,MULTI-CLARID (Multimodal Category Learning and Resting-state Imaging Data),,scalp_eeg;ecg;eog;emg;eda;respiration;fmri,,,,CC0-1.0,,,,,,true,,34,,,,6.41,,,,,,direct_download,open,,,,Brain Products BrainAmp MRplus,cognitive_task;resting_eyes_closed;resting_unspecified,,2026-11-16
+ds005811,NOD-EEG,,scalp_eeg,,beijing_normal_university,,CC0-1.0,,,,,,true,,19,,,24,16.24,,,,,,direct_download,open,,500,10_20,NeuroScan,cognitive_task,,2026-11-16
+ds005815,A Human EEG Dataset for Multisensory Perception and Mental Imagery,,scalp_eeg,,national_yang_ming_chiao_tung_university,,CC0-1.0,,,,,,true,,20,,,,7.6,,,,,,direct_download,open,30,1000,10_20,Compumedics Neuroscan SynAmps RT 64,other;resting_eyes_closed;resting_eyes_open;resting_unspecified,,2026-11-16
+ds005841,EEG Experiment measuring ERPs in VR,,scalp_eeg,,,,CC0-1.0,,,,,,true,,48,,,,7.35,,,,,,site_terms_agreement,one_time_human,,512,,,visual_erp,,2026-11-16
+ds005857,ltpDelayRepFRReadOnly,,scalp_eeg,,,,CC0-1.0,,,,,,true,,33,,,,284.38,,,,,,direct_download,open,128,2048,,BioSemi,,,2026-11-16
+ds005863,Cognitive Electrophysiology in Socioeconomic Context in Adulthood,,scalp_eeg;eog,,university_of_california_merced,,CC0-1.0,,,,,,true,,127,,,,10.59,,,,,,direct_download,open,27,500,10_20,Brain Products,auditory_erp;cognitive_task;p300_erp,,2026-11-16
+ds005866,Flankers-NEAR,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,60,,,,3.57,,,,,,direct_download,open,,500,,Neuroscan-Compumedics SynAmpsRT,cognitive_task,,2026-11-16
+ds005868,Flankers-FAR,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,48,,,,2.93,,,,,,direct_download,open,,500,,Neuroscan-Compumedics SynAmpsRT,cognitive_task,,2026-11-16
+ds005872,EEGEyeNet Dataset,,scalp_eeg;eye_tracking,,,,CC0-1.0,,,,,,true,,conflicting,,,,0.04,,,,,,direct_download,open,129,500,,Geodesic Hydrocel,,,2026-11-16
+ds005873,SeizeIT2,,ear_eeg;ecg;emg,epilepsy;clinical,multi_center_european_epileptic_monitoring_units,,CC0-1.0,,,,,,true,,125,,,,44.36,,,,,,direct_download,open,2,,,Byteflies Sensor Dot,long_term_monitoring,,2026-11-16
+ds005876,Song Familiarity,,scalp_eeg,,macewan_university,,CC0-1.0,,,,,,true,,29,,,,7.13,,,,,,direct_download,open,32,1000,,actiCHamp,cognitive_task,,2026-11-16
+ds005907,EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls,,scalp_eeg,,university_of_new_mexico,,CC0-1.0,,,,,,true,,53,,,,5.65,,,,,,direct_download,open,56,500,,Brain Products,cognitive_task,,2026-11-16
+ds005931,Visuomotor_task,,ieeg,epilepsy,,,CC0-1.0,,,,,,true,,conflicting,,,,0.8,,,,,,direct_download,open,,1000,,,cognitive_task,,2026-11-16
+ds005932,PWIe,,scalp_eeg,,san_diego_state_university,,CC0-1.0,,,,,,true,,29,,,,2.28,,,,,,direct_download,open,,500,,Neuroscan-Compumedics SynAmpsRT,language;overt_speech,,2026-11-16
+ds005946,ERC_CoG PROMENADE - WP2 - MetaImagery (Metaphor and Mental Imagery),,scalp_eeg,,university_school_for_advanced_studies_iuss,,CC0-1.0,,,,,,true,,39,,,,14.83,,,,,,direct_download,open,58,1000,10_20,actiCHamp Plus,cognitive_task,,2026-11-16
 ds005953,iEEG_visual,,ieeg,,stanford_hospital_and_clinics,,CC0-1.0,,,,,,true,,2,,,,0.56,,,,,,direct_download,open,0,3051.76,,Tucker Davis Technologies,,,2026-11-14
 ds005960,General Info: inst-comp-eeg,,scalp_eeg,,university_of_granada,,CC0-1.0,,,,,,true,,41,,,,57.69,,,,,,direct_download,open,61,1000,,BrainVision,,,2026-11-14
 ds006018,Cognitive Electrophysiology in Socioeconomic Context in Adulthood: An EEG dataset,,scalp_eeg,,university_of_california_merced,,CC0-1.0,,,,,,true,,127,,,,10.59,,,,,,direct_download,open,27,500,10_20,Brain Products Brain Products actiCHamp Plus,p300_erp,,2026-11-14

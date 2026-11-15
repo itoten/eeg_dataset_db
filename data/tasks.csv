@@ -1209,16 +1209,21 @@ ds005779,trainingblock3,trainingblock3,,,,,,,,,
 ds005779,trainingblock4,trainingblock4,,,,,,,,,
 ds005779,trainingblock5,trainingblock5,,,,,,,,,
 ds005779,trainingblock6,trainingblock6,,,,,,,,,
+ds005795,auditory_category_learning_experiment,auditory category learning experiment,cognitive_task,,,,,,,,
 ds005795,learning,learning,,,,,,,,,
 ds005795,lernmulti,lernmulti,,,,,,,,,
 ds005795,rest,rest,resting_unspecified,,,,,,,,
-ds005811,imagenet,ImageNet,,,,,,,,,"watching images from ImageNet, and judge whether the image is animacy or not. [ds005811_sidecar]"
+ds005795,rs_fmri_resting,rs-fMRI (resting),resting_eyes_closed,,,,,,,,
+ds005811,imagenet,ImageNet,cognitive_task,,,,,,,,"watching images from ImageNet, and judge whether the image is animacy or not. [ds005811_sidecar]"
+ds005815,multimodal_mental_imagery,multimodal mental imagery,other,,,,,,,,
 ds005815,rest1,rest1,,,,,,,,,resting-state recording. [ds005815_sidecar]
+ds005815,rest1_resting_phases,rest1 / resting phases,resting_eyes_closed;resting_eyes_open,,,,,,,,
 ds005815,rest2,rest2,,,,,,,,,
 ds005815,resting,resting,resting_unspecified,,,,,,,,
 ds005815,task,task,,,,,,,,,
 ds005815,visual_auditory_imagination,visual-auditory-imagination,,,,,,,,,
 ds005841,lumfront,lumfront,,,,,,,,,
+ds005841,lumfront_lumperp_regfront_regperp_signal,"Lumfront, Lumperp, Regfront, Regperp, Signalscreen, Signalvr",visual_erp,,,,,,,,
 ds005841,lumperp,lumperp,,,,,,,,,
 ds005841,regfront,regfront,,,,,,,,,
 ds005841,regperp,regperp,,,,,,,,,
@@ -1226,18 +1231,21 @@ ds005841,signalscreen,signalscreen,,,,,,,,,
 ds005841,signalvr,signalvr,,,,,,,,,
 ds005857,ltpdelayrepfrreadonly,ltpDelayRepFRReadOnly,,,,,,,,,
 ds005863,active_visual_oddball,Active Visual Oddball,p300_erp,,,,,,,,
+ds005863,erp_core_tasks_e_g_flanker,ERP CORE tasks (e.g. Flanker),cognitive_task,,,,,,,,
 ds005863,flanker,Flanker,,,,,,,,,"Please see Kappenman, E. S., Farrens, J. L., Zhang, W., Stewart, A. X., & Luck, S. J. (2021). ERP CORE: An open resource for human event-related potential research. NeuroImage, 225, 117465. [ds005863_sidecar]"
 ds005863,passive_auditory_oddball,Passive Auditory Oddball,p300_erp,,,,,,,,
+ds005863,passive_auditory_oddball_and_active_visu,passive auditory oddball and active visual oddball (paper sample),auditory_erp;p300_erp,,,,,,,,
 ds005863,simple_visual_search,Simple Visual Search,,,,,,,,,
-ds005866,flankernear,FlankerNEAR,,,,,,,,,
-ds005868,flankersfar,flankersFAR,,,,,,,,,
+ds005866,flankernear,FlankerNEAR,cognitive_task,,,,,,,,
+ds005868,flankersfar,flankersFAR,cognitive_task,,,,,,,,
 ds005872,dots,dots,,,,,,,,,
-ds005873,szmonitoring,szMonitoring,,,,,,,,,Subjects were monitored with a Video-EEG and the SensorDot (Byteflies). [ds005873_sidecar]
-ds005876,songfamiliarity,songfamiliarity,,,,,,,,,
-ds005907,threearmedbandit,ThreeArmedBandit,,,,,,,,,
+ds005873,szmonitoring,szMonitoring,long_term_monitoring,,,,,,,,Subjects were monitored with a Video-EEG and the SensorDot (Byteflies). [ds005873_sidecar]
+ds005876,songfamiliarity,songfamiliarity,cognitive_task,,,,,,,,
+ds005907,threearmedbandit,ThreeArmedBandit,cognitive_task,,,,,,,,
 ds005931,game,game,,,,,,,,,game. [ds005931_sidecar]
-ds005932,picturewordinterference,PictureWordInterference,,,,,,,,,
-ds005946,picturematching,picturematching,,,,,,,,,"Subjects were presented with a picture either matching or mismatching with a preceding cue: i) another picture (Physical), ii) an adjective prompting mental imagery (Imagery), iii) a literal description (Literal), iv) a metaphorical description (Metaphorical). [ds005946_sidecar]"
+ds005931,game_speed_match,game (Speed Match),cognitive_task,,,,,,,,
+ds005932,picturewordinterference,PictureWordInterference,language;overt_speech,,,,,,,,
+ds005946,picturematching,picturematching,cognitive_task,,,,,,,,"Subjects were presented with a picture either matching or mismatching with a preceding cue: i) another picture (Physical), ii) an adjective prompting mental imagery (Imagery), iii) a literal description (Literal), iv) a metaphorical description (Metaphorical). [ds005946_sidecar]"
 ds005953,visual,visual,,,,,,,,,visual gratings and noise patterns. [ds005953_sidecar]
 ds005960,instcomp,INSTCOMP,,,,,,,,,
 ds006018,active_visual_oddball,Active Visual Oddball,p300_erp,,,,,,,,
