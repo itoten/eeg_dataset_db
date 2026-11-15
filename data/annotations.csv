@@ -371,3 +371,5 @@ zenodo_4688757,clinical_diagnosis,clinical diagnosis gold standard,,,,,,zenodo_4
 zenodo_4699202,class_labels,three motor-imagery classes,,,,,,zenodo_4699203,three-classes motor imagery EEG signals,2026-11-15,claude,
 zenodo_4759102,event_markers,trial onset tags (photodiode / RTBox),,,,,,zenodo_4759102_doc50a1f5,Trial onset times were tagged using a photodiode for patients or an RTBox device,2026-11-15,claude,
 zenodo_4917217,class_labels,mental workload level,,,,,,zenodo_5055046,3 levels of workload were elicited,2026-11-15,claude,
+zenodo_4950614,questionnaires,MoCA at 90 days,,,,,,zenodo_4950615,The Montreal Cognitive Assessment (MoCA) was administered at 90-days post-stroke.,2026-11-15,claude,
+zenodo_4976943,self_report_ratings,confidence rating,,,,,,zenodo_4976944,rated their confidence on each trial,2026-11-15,claude,

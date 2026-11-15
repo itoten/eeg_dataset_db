@@ -159,3 +159,7 @@ zenodo_4245090,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,htt
 zenodo_4245090,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://zenodo.org/records/4245091,
 zenodo_4451998,acquisition_setups:main.device_model,conflicting,Enobio 8,primary,https://zenodo.org/records/4451999,Audit reviewer; scope: enobio recordings
 zenodo_4451998,acquisition_setups:main.device_model,conflicting,OpenBCI board,primary,https://zenodo.org/records/4451999,Audit reviewer; scope: eeglass recordings
+zenodo_4965280,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC5206273/,Audit reviewer; scope: recorded
+zenodo_4965280,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC5206273/,Audit reviewer; scope: after the paper preprocessing; the record says the shared data were preprocessed as described in the manuscript
+zenodo_4995166,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC4718524/,Audit reviewer; scope: paper text; conflicts with the record
+zenodo_4995166,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://zenodo.org/records/4995167,Audit reviewer; scope: record readme text

@@ -4100,6 +4100,21 @@ zenodo_4896633,resting_eeg_before_and_after_tdcs,resting EEG before and after tD
 zenodo_4917217,multi_attribute_task_battery_ii_matb_ii,Multi-Attribute Task Battery-II (MATB-II) at three workload levels,cognitive_task,,,,,,,,
 zenodo_4933374,three_stimuli_concealed_information_lie,three-stimuli concealed-information (lie detection) P300 protocol,p300_erp,,,,,,,,
 zenodo_4933630,motor_imagery_cursor_and_robotic_arm_con,motor-imagery cursor and robotic arm control (reach and grasp),motor_imagery,,,,,,,,
+zenodo_4950614,single_3_min_eyes_closed_resting_state,single 3-min eyes closed resting state,resting_eyes_closed,,,,,,,,
+zenodo_4955172,spontaneous_activity_eyes_closed,"spontaneous activity, eyes closed",resting_eyes_closed,,,,,,,,
+zenodo_4960794,multi_source_interference_task_msit,multi-source interference task (MSIT),cognitive_task,,,,,,,,
+zenodo_4965280,regular_reg_vs_random_rand_tone_pip_sequ,"regular (REG) vs random (RAND) tone-pip sequences, Experiment 1",auditory_erp,,,,,,,,
+zenodo_4974840,left_hand_motor_imagery_with_neurofeedba,left hand motor imagery with neurofeedback,motor_imagery;neurofeedback,,,,,,,,
+zenodo_4974840,rest_condition,rest condition,resting_unspecified,,,,,,,,
+zenodo_4976943,random_dot_direction_discrimination_with,random-dot direction discrimination with confidence rating,cognitive_task,,,,,,,,
+zenodo_4978488,fast_periodic_visual_stimulation_letter,"fast periodic visual stimulation, letter strings in pseudofonts",ssvep,,,,,,,,
+zenodo_4987409,reaching_under_prism_induced_visuo_motor,reaching under prism-induced visuo-motor distortion,motor_execution,,,,,,,,
+zenodo_4990627,bistable_stimulus_replay_stimulus_restin,"bistable stimulus, replay stimulus, resting-state fixation with single-pulse TMS",other;resting_unspecified,,,,,,,,
+zenodo_4995166,resting_state_5_minutes_eyes_closed,"resting state, 5 minutes eyes closed",resting_eyes_closed,,,,,,,,
+zenodo_4997057,iowa_gambling_task_igt,Iowa Gambling Task (IGT),cognitive_task,,,,,,,,
+zenodo_4998289,faces_or_noise_images,faces or noise images,other,,,,,,,,
+zenodo_5002433,watching_silent_videos,watching silent videos,passive_viewing,,,,,,,,
+zenodo_5003712,relaxed_seated_eeg_acquisition,relaxed seated EEG acquisition,resting_unspecified,,,,,,,,
 zenodo_5882499,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7516450,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_7664068,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
