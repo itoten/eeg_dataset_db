@@ -38,6 +38,8 @@ ds003838,behavioral_responses,beh recall correctness,,,,,,ds003838_doc1d5313,beh
 ds003876,other,sleep or awake state,sleep;awake,,,,,ds003876_doc09e342,possibly with sleep or awake state annotated,2026-11-15,claude,
 ds003885,behavioral_responses,alive/not alive,alive;not alive,,,,,ds003885_doc61fd11,"as ""alive"" or ""not alive""",2026-11-15,claude,
 ds004017,event_markers,stimulus events,100;200;10;20,,,,,ds004017_docaddc94,The value of 100 represents letter b stimuli and 200 represents letter d stimuli.,2026-11-15,claude,
+ds004067,behavioral_responses,support for the protestors,,,,,,ds004067_doc6729a7,"After each photo, they indicated their support for the protestors.",2026-11-15,claude,
+ds004100,seizure_annotations,seizure onset channels,,,,,,ds004100_doc871ec0,clinically-determined seizure onset channels are provided,2026-11-15,claude,
 dv_10_18710_d5io4r,behavioral_responses,flanker and AX-CPT behavioural data,,,,,,dv_10_18710_d5io4r_docb247b2,".tsv : Tab separated values file, contain behavioral data",2026-11-15,claude,
 dv_10_18710_d5io4r,event_markers,Stimulus designations (contained in .vmrk files),1 - left congruent;2 - right congruent;3 - left incongruent;4 - right incongruent;5 - left neutral;6 - right neutral;201 - correct response;200 - incorrect response,,,,,dv_10_18710_d5io4r_docb247b2,Stimulus designations (contained in .vmrk files),2026-11-15,claude,
 dv_10_18710_d5io4r,questionnaires,"CRS, IPAQ, LHQ, SFFQ, SNI",,,,,,dv_10_18710_d5io4r_docb247b2,"tasks: restingstateClosedEye, Flanker, CRS, IPAQ, LHQ, SFFQ, SNI",2026-11-15,claude,

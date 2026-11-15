@@ -157,21 +157,20 @@ ds004022,Multimodal EEG and fNIRS Biosignal Acquisition during Motor Imagery Tas
 ds004024,"TMS-EEG-MRI-fMRI-DWI data on paired associative stimulation and connectivity (Shirley Ryan AbilityLab, Chicago, IL)",,scalp_eeg;fmri,,,,CC0-1.0,,,,,,true,,13,,,,1021.22,,,,,,direct_download,open,64,20000,10_20,BrainProducts,other;resting_eyes_open;resting_unspecified,,2026-11-15
 ds004033,Electrode walking study,,scalp_eeg,,university_of_oldenburg,,CC0-1.0,,,,,,true,,18,,,,19.81,,,,,,direct_download,open,64,500,,LiveAmp,auditory_erp;other;resting_eyes_closed;resting_eyes_open,,2026-11-15
 ds004040,Trance channeling EEG study,,scalp_eeg,,insitute_of_noetic_sciences_ions,,CC0-1.0,,,,,,true,,13,,,,11.59,,,,,,direct_download,open,64,,,Biosemi,other;resting_unspecified,,2026-11-15
-ds004043,The time-course of feature-based attention effects dissociated from temporal expectation and target-related processes,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,15.44,,,,,,direct_download,open,63,1000,,,,,2026-11-14
-ds004067,Moral conviction and metacognitive ability shape multiple stages of information processing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,80,,,,100.79,,,,,,direct_download,open,63,2000,,,,,2026-11-14
-ds004075,what_are_we_talking_about,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,7.39,,,,,,direct_download,open,,1000,,,,,2026-11-14
-ds004080,CCEP ECoG dataset across age 4-51,,ieeg,,university_medical_center_utrecht_division_brain_c,,CC0-1.0,,,,,,true,,74,,,,269.11,,,,,,direct_download,open,0,512,,Micromed LTM128 Express,,,2026-11-14
-ds004100,HUP iEEG Epilepsy Dataset,,ieeg,,,,CC0-1.0,,,,,,true,,57,,,,13.22,,,,,,direct_download,open,0,500,,,,,2026-11-14
-ds004105,BCIT Auditory Cueing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,17,,,,20.37,,,,,,direct_download,open,64,1024,,,,,2026-11-14
-ds004106,BCIT Advanced Guard Duty,,scalp_eeg,,,,CC0-1.0,,,,,,true,,27,,,,67.61,,,,,,direct_download,open,256,1024,,,,,2026-11-14
-ds004117,Sternberg Working Memory,,scalp_eeg,,,,CC0-1.0,,,,,,true,,23,,,,5.8,,,,,,direct_download,open,69,250,,,,,2026-11-14
-ds004118,BCIT Calibration Driving,,scalp_eeg,,,,CC0-1.0,,,,,,true,,156,,,,124.34,,,,,,direct_download,open,64,2048,,,,,2026-11-14
-ds004119,BCIT Basic Guard Duty,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,55.14,,,,,,direct_download,open,256,1024,,,,,2026-11-14
-ds004120,BCIT Baseline Driving,,scalp_eeg,,,,CC0-1.0,,,,,,true,,109,,,,302.49,,,,,,direct_download,open,64,2048,,,,,2026-11-14
-ds004121,BCIT Mind Wandering,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,23.91,,,,,,direct_download,open,64,1024,,,,,2026-11-14
-ds004122,BCIT Speed Control,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,36.16,,,,,,direct_download,open,64,1024,,,,,2026-11-14
-ds004123,BCIT Traffic Complexity,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,17.52,,,,,,direct_download,open,64,1024,,,,,2026-11-14
-ds004127,Somatosensory Cortex Rat DISC Data,,ieeg,,,,CC0-1.0,,,,,,true,,8,,,,187.52,,,,,,direct_download,open,,,,,,,2026-11-14
+ds004043,The time-course of feature-based attention effects dissociated from temporal expectation and target-related processes,,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,15.44,,,,,,direct_download,open,63,1000,,,cognitive_task,,2026-11-15
+ds004067,Moral conviction and metacognitive ability shape multiple stages of information processing,,scalp_eeg,,,,CC0-1.0,,,,,,true,,80,,,,100.79,,,,,,direct_download,open,63,2000,,,cognitive_task,,2026-11-15
+ds004075,what_are_we_talking_about,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,7.39,,,,,,direct_download,open,,1000,,,,,2026-11-15
+ds004080,CCEP ECoG dataset across age 4-51,,ieeg_ecog,,university_medical_center_utrecht_division_brain_c,,CC0-1.0,,,,,,true,,74,,,,269.11,,,,,,direct_download,open,0,512,,Micromed LTM128 Express,other,,2026-11-15
+ds004100,HUP iEEG Epilepsy Dataset,,ieeg_ecog;ieeg_seeg,epilepsy,,,CC0-1.0,,,,,,true,,conflicting,,,,13.22,,,,,,direct_download,open,0,500,,,,,2026-11-15
+ds004105,BCIT Auditory Cueing,,eye_tracking,,,,CC0-1.0,,,,,,true,,17,,,,20.37,,,,,,direct_download,open,64,,,BioSemi,auditory_erp,,2026-11-15
+ds004106,BCIT Advanced Guard Duty,,scalp_eeg,,,,CC0-1.0,,,,,,true,,27,,,,67.61,,,,,,direct_download,open,256,1024,,BioSemi,cognitive_task,,2026-11-15
+ds004117,Sternberg Working Memory,,scalp_eeg,,,,CC0-1.0,,,,,,true,,23,,,,5.8,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-15
+ds004118,BCIT Calibration Driving,,scalp_eeg,,,,CC0-1.0,,,,,,true,,156,,,,124.34,,,,,,direct_download,open,,,,BioSemi,cognitive_task,,2026-11-15
+ds004119,BCIT Basic Guard Duty,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,55.14,,,,,,direct_download,open,256,1024,,BioSemi,cognitive_task,,2026-11-15
+ds004120,BCIT Baseline Driving,,scalp_eeg,,,,CC0-1.0,,,,,,true,,109,,,,302.49,,,,,,direct_download,open,,,,BioSemi,cognitive_task,,2026-11-15
+ds004121,BCIT Mind Wandering,,scalp_eeg,,,,CC0-1.0,,,,,,true,,21,,,,23.91,,,,,,direct_download,open,64,,,BioSemi,cognitive_task,,2026-11-15
+ds004122,BCIT Speed Control,,scalp_eeg,,,,CC0-1.0,,,,,,true,,32,,,,36.16,,,,,,direct_download,open,64,,,BioSemi,cognitive_task,,2026-11-15
+ds004123,BCIT Traffic Complexity,,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,17.52,,,,,,direct_download,open,64,,,BioSemi,cognitive_task,,2026-11-15
 ds004147,Average Task Value,,scalp_eeg,,university_of_oxford,,CC0-1.0,,,,,,true,,12,,,,4,,,,,,direct_download,open,31,1000,,Brain Products actiCHamp Plus,,,2026-11-14
 ds004148,A test-retest resting and cognitive state EEG dataset,,scalp_eeg,,southwest_university,,CC0-1.0,,,,,,true,,60,,,,30.67,,,,,,direct_download,open,64,500,,,resting_eyes_closed;resting_eyes_open,,2026-11-14
 ds004151,Effect of obesity on inhibitory control in preadolescents during stop-signal task. An event-related potentials study,,scalp_eeg,,arkansas_children_nutrition_center_university_of_a,,CC0-1.0,,,,,,true,,57,,,,23.14,,,,,,direct_download,open,128,500,10_10,"Geodesic EEG system Geodesic Net Amps 300, Netstation 4.5.2 software",,,2026-11-14

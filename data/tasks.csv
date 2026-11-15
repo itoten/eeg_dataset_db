@@ -251,24 +251,34 @@ ds004033,oddball_task_standing_walking_alone_walk,Oddball task: Standing / Walki
 ds004033,walking_together_natural_control_synchro,Walking together: Natural / Control / Synchronize,other,,,,,,,,
 ds004040,trance,trance,,,,,,,,,
 ds004040,trance_channeling_and_resting_state_bloc,trance channeling and resting state blocks,other;resting_unspecified,,,,,,,,
-ds004043,temporal_expectation,Temporal expectation,,,,,,,,,
-ds004067,sociopolitical_judgment_task,Sociopolitical Judgment Task,,,,,,,,,
+ds004043,temporal_expectation,Temporal expectation,cognitive_task,,,,,,,,
+ds004067,sociopolitical_judgment_task,Sociopolitical Judgment Task,cognitive_task,,,,,,,,
 ds004075,context03,context03,,,,,,,,,
 ds004075,context09,context09,,,,,,,,,
 ds004075,context10,context10,,,,,,,,,
 ds004075,context11,context11,,,,,,,,,
+ds004080,spesclin,SPESclin,other,,,,,,,,
 ds004080,task_spesclin,task-SPESclin,,,,,,,,,"No task, electrical stimulation is performed. Patient is resting with eyes open/closed. The latter is not always specified. [ds004080_sidecar]"
 ds004100,ictal,ictal,,,,,,,,,
 ds004100,interictal,interictal,,,,,,,,,
+ds004105,auditory_cueing_driverandomsound,Auditory Cueing (DriveRandomSound),auditory_erp,,,,,,,,
 ds004105,driverandomsound,DriveRandomSound,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations (a perpendicular force) by steering back toward the center of the lane. [ds004105_sidecar]
+ds004106,guard_duty,Guard Duty,cognitive_task,,,,,,,,
 ds004106,guardduty,GuardDuty,,,,,,,,,"Subjects performed a sustained vigilance task, simulating the role of guard duty for a restricted area. A series of replica ID badges was presented to subjects, each containing eight components or fields that required review for access. These components were: photo, name, date of birth (DOB), date of issue, date of expiration, area access, ID number, bar code and watermark. ID badges were presented along with a photo of the person requesting access. Subjects were required to ensure that the person in the picture requesting access was the same person on the badge, and had access (as specified o [ds004106_sidecar]"
+ds004117,modified_sternberg_working_memory,Modified Sternberg Working Memory,cognitive_task,,,,,,,,
 ds004117,workingmemory,WorkingMemory,,,,,,,,,
+ds004118,calibration_driving,Calibration Driving,cognitive_task,,,,,,,,
 ds004118,drive,Drive,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations perpendicular to lane by steering back toward the center of the lane. [ds004118_sidecar]
+ds004119,guard_duty,Guard Duty,cognitive_task,,,,,,,,
 ds004119,guardduty,GuardDuty,,,,,,,,,"Subjects performed a sustained vigilance task, simulating the role of guard duty for a restricted area. A series of replica ID badges was presented to subjects, each containing eight components or fields that required review for access. These components were: photo, name, date of birth (DOB), date of issue, date of expiration, area access, ID number, bar code and watermark. ID badges were presented along with a photo of the person requesting access. Subjects were required to ensure that the person in the picture requesting access was the same person on the badge, and had access (as specified o [ds004119_sidecar]"
+ds004120,baseline_driving,Baseline Driving,cognitive_task,,,,,,,,
 ds004120,drivewithspeedchange,DriveWithSpeedChange,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations perpendicular to lane by steering back toward the center of the lane. [ds004120_sidecar]
 ds004121,drivewithtaskaudio,DriveWithTaskAudio,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations (a perpendicular force) by steering back toward the center of the lane. Task-related audio (external focus) is played throughout the run. [ds004121_sidecar]
+ds004121,mind_wandering,Mind Wandering,cognitive_task,,,,,,,,
 ds004122,drive,Drive,,,,,,,,,Control simulated vehicle steering only with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations (a perpendicular force) by steering back toward the center of the lane. Cruise control maintains speed. [ds004122_sidecar]
+ds004122,speed_control,Speed Control,cognitive_task,,,,,,,,
 ds004123,drivewithcomplexity,DriveWithComplexity,,,,,,,,,Control simulated vehicle with the objective of maintaining the cruising lane on a virtual road. Respond to perturbations (a perpendicular force) by steering back toward the center of the lane. Maintain speed according to posted speed signs. Maintain awareness of traffic and pedestrians to avoid collisions. [ds004123_sidecar]
+ds004123,traffic_complexity,Traffic Complexity,cognitive_task,,,,,,,,
 ds004147,casinos,casinos,,,,,,,,,
 ds004148,eyes_closed,eyes closed,resting_eyes_closed,,,,,,,,Participants were instructed to close their eyes for five minutes. [ds004148_sidecar]
 ds004148,eyes_open,eyes open,resting_eyes_open,,,,,,,,

@@ -145,6 +145,34 @@ ds004040,acquisition_setups:main.device_model,conflicting,ActiveTwo,primary,http
 ds004040,acquisition_setups:main.device_model,conflicting,Biosemi,primary,https://openneuro.org/crn/datasets/ds004040/objects/788e894a3ef11b7eb6868dadeba54074d46a1d7b?filename=sub-001_ses-01_task-trance_eeg.json,
 ds004040,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6384530/,Audit reviewer; scope: recorded
 ds004040,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://openneuro.org/crn/datasets/ds004040/objects/788e894a3ef11b7eb6868dadeba54074d46a1d7b?filename=sub-001_ses-01_task-trance_eeg.json,
+ds004100,n_subjects_reported,conflicting,57,primary,https://openneuro.org/datasets/ds004100/versions/1.1.3,
+ds004100,n_subjects_reported,conflicting,58,secondary,https://s3.amazonaws.com/openneuro.org/ds004100/README,Audit reviewer; scope: whole dataset
+ds004105,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://s3.amazonaws.com/openneuro.org/ds004105/task-DriveRandomSound_eeg.json?versionId=gXJ8RKyitfBiQG_UBObhAouafM9LKx64,
+ds004105,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://s3.amazonaws.com/openneuro.org/ds004105/README,Audit reviewer; scope: as recorded (readme)
+ds004117,acquisition_setups:main.n_channels_eeg,conflicting,69,secondary,https://s3.amazonaws.com/openneuro.org/ds004117/README,Audit reviewer; scope: not given
+ds004117,acquisition_setups:main.n_channels_eeg,conflicting,69,primary,https://s3.amazonaws.com/openneuro.org/ds004117/sub-001/ses-01/eeg/sub-001_ses-01_task-WorkingMemory_run-1_eeg.json?versionId=cbI.WzyYPiBJ0GJ5MY8.ludvI0tf7wLE,
+ds004117,acquisition_setups:main.n_channels_eeg,conflicting,71,secondary,https://s3.amazonaws.com/openneuro.org/ds004117/README,Audit reviewer; scope: not given
+ds004117,acquisition_setups:main.reference,conflicting,common,primary,https://s3.amazonaws.com/openneuro.org/ds004117/sub-001/ses-01/eeg/sub-001_ses-01_task-WorkingMemory_run-1_eeg.json?versionId=cbI.WzyYPiBJ0GJ5MY8.ludvI0tf7wLE,
+ds004117,acquisition_setups:main.reference,conflicting,right mastoid,secondary,https://s3.amazonaws.com/openneuro.org/ds004117/README,Audit reviewer; scope: not given
+ds004117,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://s3.amazonaws.com/openneuro.org/ds004117/README,Audit reviewer; scope: subjects 1-12
+ds004117,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://s3.amazonaws.com/openneuro.org/ds004117/sub-001/ses-01/eeg/sub-001_ses-01_task-WorkingMemory_run-1_eeg.json?versionId=cbI.WzyYPiBJ0GJ5MY8.ludvI0tf7wLE,
+ds004117,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://s3.amazonaws.com/openneuro.org/ds004117/README,Audit reviewer; scope: subjects 15-24
+ds004118,acquisition_setups:main.n_channels_eeg,conflicting,256,secondary,https://s3.amazonaws.com/openneuro.org/ds004118/README,Audit reviewer; scope: site t3
+ds004118,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004118/README,Audit reviewer; scope: sites t1 and t2
+ds004118,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://s3.amazonaws.com/openneuro.org/ds004118/sub-21/ses-01/eeg/sub-21_ses-01_task-Drive_run-1_eeg.json?versionId=WXr2.w2suhDsMrDwj02M3la2Mg6bhnmO,
+ds004118,acquisition_setups:main.sampling_rate_hz,conflicting,1024,secondary,https://s3.amazonaws.com/openneuro.org/ds004118/README,Audit reviewer; scope: as recorded (readme)
+ds004118,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://s3.amazonaws.com/openneuro.org/ds004118/sub-21/ses-01/eeg/sub-21_ses-01_task-Drive_run-1_eeg.json?versionId=WXr2.w2suhDsMrDwj02M3la2Mg6bhnmO,
+ds004120,acquisition_setups:main.n_channels_eeg,conflicting,256,secondary,https://s3.amazonaws.com/openneuro.org/ds004120/README,Audit reviewer; scope: site t3
+ds004120,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004120/README,Audit reviewer; scope: sites t1 and t2
+ds004120,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://s3.amazonaws.com/openneuro.org/ds004120/sub-22/ses-01/eeg/sub-22_ses-01_task-DriveWithSpeedChange_run-1_eeg.json?versionId=ptahsjlHCIhE.5BkDqI.bVZMYdPE7Gz7,
+ds004120,acquisition_setups:main.sampling_rate_hz,conflicting,1024,secondary,https://s3.amazonaws.com/openneuro.org/ds004120/README,Audit reviewer; scope: as recorded (readme)
+ds004120,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://s3.amazonaws.com/openneuro.org/ds004120/sub-22/ses-01/eeg/sub-22_ses-01_task-DriveWithSpeedChange_run-1_eeg.json?versionId=ptahsjlHCIhE.5BkDqI.bVZMYdPE7Gz7,
+ds004121,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://s3.amazonaws.com/openneuro.org/ds004121/task-DriveWithTaskAudio_eeg.json?versionId=XTphqtJ7TPjx0GQGXAdbKlUDB98lDXgk,
+ds004121,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://s3.amazonaws.com/openneuro.org/ds004121/README,Audit reviewer; scope: as recorded (readme)
+ds004122,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://s3.amazonaws.com/openneuro.org/ds004122/task-Drive_eeg.json?versionId=bwdGo6zO92Zq8Y.2eaAmS7cmxk4KCeWX,
+ds004122,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://s3.amazonaws.com/openneuro.org/ds004122/README,Audit reviewer; scope: as recorded (readme)
+ds004123,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://s3.amazonaws.com/openneuro.org/ds004123/task-DriveWithComplexity_eeg.json?versionId=eh81Yy_NrhsFvSyCfkDF8umZF.n0NcOY,
+ds004123,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://s3.amazonaws.com/openneuro.org/ds004123/README,Audit reviewer; scope: as recorded (readme)
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004574/sub-001/eeg/sub-001_task-Oddball_eeg.json?versionId=Ab5RNBhpIMDrjXkMhMZPSZheoa46Lhq0,
 ds004574,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds004574/README,Audit reviewer; scope: not given
 ds004579,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds004579/sub-001/eeg/sub-001_task-IntervalTiming_eeg.json?versionId=t2OsC3KDFjAMAm9gy0G.5ImsoyjGIs9B,
