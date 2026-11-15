@@ -1,8 +1,12 @@
 dataset_id,quality_no,kind,description,form,source_id,locator,checked_on,checked_by,note
 ds001785,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel).,status column of channels.tsv,ds001785_channels,header row,2026-11-14,script,
 ds001810,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds001810_channels,header row,2026-11-14,script,
+ds001810,2,bad_channel_marks,channels blocked by tDCS electrodes are marked bad in channels.tsv,stated in the document,ds001810_doc13b78f,"They are marked with ""status"" = ""bad"" in each session's _channels.tsv file.",2026-11-15,claude,
+ds001849,1,impedance_threshold,electrode impedances kept below 10 kOhm,stated in the document,ds001849_docd693a4,Electrode impedances were maintained at < 10 kΩ.,2026-11-15,claude,
 ds001971,1,recording_notes,"this is a MOBI dataset recorded during walking, thus movement and EMG artefacts are to be expected",sidecar field SubjectArtefactDescription,ds001971_sidecar,SubjectArtefactDescription,2026-11-14,script,
+ds001971,2,recording_notes,movement and EMG artefacts expected,stated in the document,ds001971_sidecar,"this is a MOBI dataset recorded during walking, thus movement and EMG artefacts are to be expected",2026-11-15,claude,
 ds002034,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel).,status column of channels.tsv,ds002034_channels,header row,2026-11-14,script,
+ds002158,1,other,"preprocessed EEG provided (gradient and BCG artifact removal, ICA)",stated in the document,ds002158_doc6905ba,We also included preprocessed EEG and fMRI data in derivatives/eegprep and derivatives/fmriprep.,2026-11-15,claude,
 ds002720,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds002720_channels,header row,2026-11-14,script,
 ds002720,2,impedance_threshold,impedances below 5 kΩ,stated in the document,ds002720_doc15b568,with impedances below 5 kΩ,2026-11-15,claude,
 ds002721,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds002721_channels,header row,2026-11-14,script,

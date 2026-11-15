@@ -1,4 +1,23 @@
 dataset_id,field,kind,value,source_type,source_ref,note
+ds001785,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://s3.amazonaws.com/openneuro.org/ds001785/README,Audit reviewer; scope: not given
+ds001785,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://openneuro.org/crn/datasets/ds001785/objects/f49ebd20eca11f1a857eb830803eb0f1bbb87601?filename=sub-01_ses-01_task-adapt_eeg.json,
+ds001785,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://openneuro.org/crn/datasets/ds001785/objects/f49ebd20eca11f1a857eb830803eb0f1bbb87601?filename=sub-01_ses-01_task-adapt_eeg.json,
+ds001785,acquisition_setups:main.sampling_rate_hz,conflicting,1024,secondary,https://s3.amazonaws.com/openneuro.org/ds001785/README,Audit reviewer; scope: scalp eeg
+ds001785,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://s3.amazonaws.com/openneuro.org/ds001785/README,Audit reviewer; scope: ecog of the patient
+ds001787,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://s3.amazonaws.com/openneuro.org/ds001787/README,Audit reviewer; scope: original recording
+ds001787,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://s3.amazonaws.com/openneuro.org/ds001787/README,Audit reviewer; scope: distributed data
+ds001787,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://s3.amazonaws.com/openneuro.org/ds001787/sub-023/ses-02/eeg/sub-023_ses-02_task-meditation_eeg.json?versionId=5dBzY3AUz.L.BjNqcQem_fEbzgWOcuHc,
+ds001810,n_subjects_reported,conflicting,40,secondary,https://s3.amazonaws.com/openneuro.org/ds001810/README,Audit reviewer; scope: participants with complete data; total not stated
+ds001810,n_subjects_reported,conflicting,47,secondary,https://openneuro.org/datasets/ds001810/versions/1.1.0,
+ds001971,n_subjects_reported,conflicting,18,secondary,https://s3.amazonaws.com/openneuro.org/ds001971/README,Audit reviewer; scope: not given
+ds001971,n_subjects_reported,conflicting,20,primary,https://openneuro.org/datasets/ds001971/versions/1.1.1,
+ds002034,acquisition_setups:main.reference,conflicting,Linked-ears (channels 63-64),primary,https://s3.amazonaws.com/openneuro.org/ds002034/sub-01/ses-01/eeg/sub-01_ses-01_task-offline_run-01_eeg.json?versionId=RTwUNUm5IpNo_l7d5cyTfL0oWVq3qiCe,
+ds002034,acquisition_setups:main.reference,conflicting,linked ears,secondary,https://s3.amazonaws.com/openneuro.org/ds002034/README,Audit reviewer; scope: not given
+ds002336,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://s3.amazonaws.com/openneuro.org/ds002336/README,Audit reviewer; scope: preprocessed derivatives
+ds002336,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://openneuro.org/crn/datasets/ds002336/objects/1aa4f16d365912d6b8f106b1a1908e591782eaef?filename=task-MIpost_eeg.json,
+ds002336,acquisition_setups:main.sampling_rate_hz,conflicting,5000,secondary,https://s3.amazonaws.com/openneuro.org/ds002336/README,Audit reviewer; scope: raw eeg
+ds002338,acquisition_setups:main.n_channels_eeg,conflicting,63,secondary,https://s3.amazonaws.com/openneuro.org/ds002338/README,Audit reviewer; scope: not given
+ds002338,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://openneuro.org/datasets/ds002338/versions/2.0.2,
 ds002718,acquisition_setups:main.sampling_rate_hz,conflicting,1100,primary,https://www.nature.com/articles/sdata20151,Audit reviewer; scope: original recording
 ds002718,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://openneuro.org/crn/datasets/ds002718/objects/44343931f540fef6864153513bf3ee8d8cd8ca33?filename=sub-002_task-FaceRecognition_eeg.json,
 ds002718,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://s3.amazonaws.com/openneuro.org/ds002718/README,Audit reviewer; scope: distributed (resampled)

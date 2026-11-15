@@ -18,37 +18,41 @@ capslpdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 cho2017,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 cps_dataset_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 dreamt,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
-ds001785,tactile_detection,tactile detection,,,,,,,,,detect a perithreshold tactile stimulation (100ms) during a 2 s window. First-order (felt:yes/no) and second-order (confidence). [ds001785_sidecar]
-ds001787,meditation,meditation,,,,,,,,,
-ds001810,attentional_blink,Attentional blink,,,,,,,,,
+ds001785,tactile_detection,tactile detection,other,,,,,,,,detect a perithreshold tactile stimulation (100ms) during a 2 s window. First-order (felt:yes/no) and second-order (confidence). [ds001785_sidecar]
+ds001787,meditation,meditation,other,,,,,,,,
+ds001810,attentional_blink,Attentional blink,cognitive_task,,,,,,,,
 ds001849,tmseegrest,tmseegrest,,,,,,,,,
-ds001971,audiocuewalkingstudy,AudioCueWalkingStudy,,,,,,,,,"Participants were required to step in time to an auditory tone sequenceand adapt their step length and rate to occasional shifts in tempo of the pacing stimulus (i.e., following shifts to a faster or slower tempo). [ds001971_sidecar]"
-ds002034,task_offline,task-offline,,,,,,,,,Sustain covert visuospatial attention during a 1-5s window to one of two lateral target placeholders while maintaining central fixation. Reaction time was measured with button press as reaction to target appearance at the cued or uncued location (valid/invalid trials). [ds002034_sidecar]
+ds001971,audiocuewalkingstudy,AudioCueWalkingStudy,other,,,,,,,,"Participants were required to step in time to an auditory tone sequenceand adapt their step length and rate to occasional shifts in tempo of the pacing stimulus (i.e., following shifts to a faster or slower tempo). [ds001971_sidecar]"
+ds002034,covert_attention,covert attention,neurofeedback,,,,,,,,
+ds002034,task_offline,task-offline,other,,,,,,,,Sustain covert visuospatial attention during a 1-5s window to one of two lateral target placeholders while maintaining central fixation. Reaction time was measured with button press as reaction to target appearance at the cued or uncued location (valid/invalid trials). [ds002034_sidecar]
 ds002034,task_offlinecatch,task-offlinecatch,,,,,,,,,
 ds002034,task_onlinereal,task-onlinereal,,,,,,,,,
 ds002034,task_onlinesham,task-onlinesham,,,,,,,,,
 ds002094,rest,rest,resting_unspecified,,,,,,,,
 ds002094,tmseeg1,tmseeg1,,,,,,,,,
 ds002094,tmseeg2,tmseeg2,,,,,,,,,
+ds002158,confidence_in_committed_and_observed_dec,confidence in committed and observed decisions,cognitive_task,,,,,,,,
 ds002158,main,main,,,,,,,,,
 ds002158,rest,rest,resting_unspecified,,,,,,,,
-ds002181,baseline,Baseline,,,,,,,,,Subjects were watching computer screen savers. Data were filtered with [1 50] band-pass filter. [ds002181_sidecar]
-ds002218,experiment,Experiment,,,,,,,,,
+ds002181,baseline,Baseline,passive_viewing,,,,,,,,Subjects were watching computer screen savers. Data were filtered with [1 50] band-pass filter. [ds002181_sidecar]
+ds002218,experiment,Experiment,auditory_erp;visual_erp,,,,,,,,
 ds002336,eegfmrinf,eegfmriNF,,,,,,,,,
 ds002336,eegnf,eegNF,,,,,,,,,
 ds002336,fmrinf,fmriNF,,,,,,,,,
 ds002336,mipost,MIpost,,,,,,,,,
 ds002336,mipre,MIpre,,,,,,,,,
+ds002336,motor_imagery_neurofeedback_xp1,motor imagery neurofeedback (XP1),motor_imagery;neurofeedback,,,,,,,,
 ds002336,motorloc,motorloc,,,,,,,,,
 ds002338,mipost,MIpost,,,,,,,,,
 ds002338,mipre,MIpre,,,,,,,,,
 ds002338,t_1dnf,1dNF,,,,,,,,,
+ds002338,t_1dnf_2dnf_bimodal_neurofeedback,1dNF / 2dNF bimodal neurofeedback,motor_imagery;neurofeedback,,,,,,,,
 ds002338,t_1dnf_run_01,1dNF_run-01,,,,,,,,,
 ds002338,t_2dnf,2dNF,,,,,,,,,
 ds002338,t_2dnf_run_02,2dNF_run-02,,,,,,,,,
-ds002578,attention,attention,,,,,,,,,"Subjects participated in visual ""oddball"" paradigm. Five empty squares were presented constantly with the location to attend to marked by a green outline. Filled white disks appeared briefly inside one of the five empty squares. Participants responded to the target by pressing a mouse button with their right hand when the white disk appeared in the attended location. [ds002578_sidecar]"
-ds002680,gonogo,gonogo,,,,,,,,,"Two alternated tasks were presented to participants: a categorization task and a recognition task. Subjects began each block of image flashing by pressing a button. Subjects were instructed to give a go/no-go response by releasing the button as quickly as possible when a target-image was presented and by keeping their finger(s) on the button for non-target images. In the animal categorization task, subjects were instructed to respond if an animal was present in the picture. In the target-image recognition task, participants memorized a given animal during a learning phase that was assigned as  [ds002680_sidecar]"
-ds002691,internalattention,internalattention,,,,,,,,,"All the experiment is performed eyes closed. Relax periods last for about 9 seconds, are then followed by a period of 6 seconds where the participants is asked to ""get ready"" for the trial, followed by a period of 15 seconds of concentration. This sequence is repeated 20 times for each participant. [ds002691_sidecar]"
+ds002578,attention,attention,p300_erp,,,,,,,,"Subjects participated in visual ""oddball"" paradigm. Five empty squares were presented constantly with the location to attend to marked by a green outline. Filled white disks appeared briefly inside one of the five empty squares. Participants responded to the target by pressing a mouse button with their right hand when the white disk appeared in the attended location. [ds002578_sidecar]"
+ds002680,gonogo,gonogo,cognitive_task;visual_erp,,,,,,,,"Two alternated tasks were presented to participants: a categorization task and a recognition task. Subjects began each block of image flashing by pressing a button. Subjects were instructed to give a go/no-go response by releasing the button as quickly as possible when a target-image was presented and by keeping their finger(s) on the button for non-target images. In the animal categorization task, subjects were instructed to respond if an animal was present in the picture. In the target-image recognition task, participants memorized a given animal during a learning phase that was assigned as  [ds002680_sidecar]"
+ds002691,internalattention,internalattention,other,,,,,,,,"All the experiment is performed eyes closed. Relax periods last for about 9 seconds, are then followed by a period of 6 seconds where the participants is asked to ""get ready"" for the trial, followed by a period of 15 seconds of concentration. This sequence is repeated 20 times for each participant. [ds002691_sidecar]"
 ds002718,facerecognition,FaceRecognition,,,,,,,,,"Subjects viewed stimuli on a screen during six, 7.5 minute runs. The stimuli were photographs of either a famous face (known to most of British or a scrambled face, and appeared for a random duration between 800 and 1,000 ms. Subjects were instructed to fixate centrally throughout the experiment. To ensure attention to each stimulus, participants were asked to press one of two keys with either their left or right index finger (assignment counter-balanced across participants). Their key-press was based on how symmetric they regarded each image: pressing one or the other key depending whether th [ds002718_sidecar]"
 ds002720,run,Run,,,,,,,,,
 ds002720,tempo_control_by_motor_imagery,tempo control by motor imagery,motor_imagery,,,,,,,,

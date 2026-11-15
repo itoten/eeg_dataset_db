@@ -4,6 +4,12 @@ bci2020_track2,sleep_stages,sleep stages,,,,,,bci2020_osf,Five sleep stages from
 bci2020_track3,class_labels,classes,Hello;Help me;Stop;Thank you;Yes,,,,,bci2020_osf,"(e.g., ‘Hello’, ‘Help me’, ‘Stop’, ‘Thank you’, and ‘Yes’)",2026-11-14,claude,The wiki lists the words after 'e.g.'
 bci2020_track4,class_labels,grasping tasks,Cylindrical;Spherical;Lumbrical,,,,,bci2020_osf,"Three grasping tasks from a single-hand (‘Cylindrical’, ‘Spherical’, and ‘Lumbrical’)",2026-11-14,claude,
 dreamer,self_report_ratings,self-assessment,valence;arousal;dominance,,trial,participant,,dreamer_zenodo,"participants' self-assessment of their affective state after each stimuli, in terms of valence, arousal, and dominance",2026-11-14,claude,
+ds001785,behavioral_responses,detection report,felt / not felt,,,,,ds001785_doc3d156b,participants were prompted to answer with the keyboard whether they felt the stimulus or not.,2026-11-15,claude,
+ds001785,self_report_ratings,confidence,0 to 1.0 visual analog scale,,,,,ds001785_doc3d156b,participants were asked to report the confidence in their first order response by moving a slider on a visual analog scale,2026-11-15,claude,
+ds001787,self_report_ratings,concentration and mind wandering probes,,,,,,ds001787_docc360e7,to indicate their level of concentration and mind wandering,2026-11-15,claude,
+ds001810,event_markers,event codes,10;23;28;31;32;40;50;60;61;70;71;254,,,,,ds001810_doc13b78f,The event codes (see _events.json and each session's _events.tsv file) are all in the 61000 range.,2026-11-15,claude,
+ds002034,behavioral_responses,button-press reaction time,,,,,,ds002034_sidecar,Reaction time was measured with button press as reaction to target appearance,2026-11-15,claude,
+ds002336,event_markers,EEG markers,R128;S 99;S  2,,,,,ds002336_doc7b3d27,R128 (Response): is the fMRI volume marker to correct for the gradient artifact,2026-11-15,claude,
 ds002718,event_markers,events,,,,,,ds002718_doc74ea48,Extracting events from event channel,2026-11-15,claude,
 ds002721,event_markers,event codes and timings,,,,,,ds002721_doc514e2d,Event codes (JSON) and timings (tsv).,2026-11-15,claude,
 ds002721,self_report_ratings,Likert emotion questions,pleasantness;energy;sadness;anger;tenderness;happiness;fear;tension,,,,,ds002720_doc15b568,"in terms of pleasantness, energy, sadness, anger, tenderness, happiness, fear, and tension",2026-11-15,claude,
