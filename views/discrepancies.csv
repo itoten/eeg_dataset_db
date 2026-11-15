@@ -1,12 +1,26 @@
 dataset_id,field,kind,value,source_type,source_ref,note
+dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
+dv_10_18710_e96an9,acquisition_setups:main.device_model,conflicting,LiveAmp32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9369864/fullTextXML,Audit reviewer; scope: frontiers paper sample
+dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_10,primary,https://dataverse.no/api/access/datafile/295205,Audit reviewer; scope: not given
+dv_10_18710_e96an9,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://dataverse.no/api/access/datafile/285809,Audit reviewer; scope: not given
 dv_10_18710_mwbect,acquisition_setups:main.device_model,conflicting,ActiCHamp,primary,https://dataverse.no/api/access/datafile/290076,Audit reviewer; scope: not given
 dv_10_18710_mwbect,acquisition_setups:main.device_model,conflicting,LiveAmp 32,primary,https://dataverse.no/api/access/datafile/287571,Audit reviewer; scope: not given
+dv_10_18710_mwbect,acquisition_setups:main.n_channels_eeg,conflicting,31,primary,https://dataverse.no/api/access/datafile/290076,Audit reviewer; scope: not given
+dv_10_18710_mwbect,acquisition_setups:main.n_channels_eeg,conflicting,32,primary,https://dataverse.no/api/access/datafile/287571,Audit reviewer; scope: not given
 dv_10_18710_mwbect,acquisition_setups:main.reference,conflicting,unipolar reference placed on Cz,primary,https://dataverse.no/api/access/datafile/290076,Audit reviewer; scope: not given
 dv_10_18710_mwbect,acquisition_setups:main.reference,conflicting,"unipolar, placed on FCz",primary,https://dataverse.no/api/access/datafile/287571,Audit reviewer; scope: not given
 dv_10_18710_mwbect,n_subjects_reported,conflicting,67,primary,https://dataverse.no/api/access/datafile/290076,Audit reviewer; scope: not given
 dv_10_18710_mwbect,n_subjects_reported,conflicting,78,primary,https://dataverse.no/api/datasets/:persistentId/?persistentId=doi:10.18710/MWBECT,Audit reviewer; scope: not given
 dv_10_18710_wvq6wn,n_subjects_reported,conflicting,21,primary,https://dataverse.no/api/access/datafile/290074,Audit reviewer; scope: not given
 dv_10_18710_wvq6wn,n_subjects_reported,conflicting,28,primary,https://dataverse.no/api/datasets/:persistentId/?persistentId=doi:10.18710/WVQ6WN,Audit reviewer; scope: not given
+dv_10_18710_yhj60f,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://dataverse.no/api/access/datafile/288989,Audit reviewer; scope: not given
+dv_10_18710_yhj60f,acquisition_setups:main.device_model,conflicting,actiCHamp,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10292754/fullTextXML,Audit reviewer; scope: frontiers paper sample (grammatical gender task)
+dv_10_18710_yhj60f,acquisition_setups:main.reference,conflicting,left / right mastoids,primary,https://dataverse.no/api/access/datafile/288989,Audit reviewer; scope: flanker and eyes-closed sidecars
+dv_10_18710_yhj60f,acquisition_setups:main.reference,conflicting,"unipolar, placed on FCz",primary,https://dataverse.no/api/access/datafile/288988,Audit reviewer; scope: eyes-open sidecar
+dv_10_26165_juelich_data_t1pknz,acquisition_setups:main.reference,conflicting,common,secondary,https://data.fz-juelich.de/api/access/datafile/2683,Audit reviewer; scope: distributed data (record says average-referenced)
+dv_10_26165_juelich_data_t1pknz,acquisition_setups:main.reference,conflicting,left earlobe,primary,https://www.biorxiv.org/content/10.1101/2020.02.26.966325v3.full,Audit reviewer; scope: recording
+dv_10_26165_juelich_data_t1pknz,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://data.fz-juelich.de/api/access/datafile/2683,"Audit reviewer; scope: distributed (downsampled, epoched)"
+dv_10_26165_juelich_data_t1pknz,acquisition_setups:main.sampling_rate_hz,conflicting,2500,primary,https://www.biorxiv.org/content/10.1101/2020.02.26.966325v3.full,Audit reviewer; scope: recording
 dv_10_48804_3eusts,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://rdr.kuleuven.be/api/access/datafile/365021,Audit reviewer; scope: distributed files
 dv_10_48804_3eusts,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://rdr.kuleuven.be/api/access/datafile/365021,Audit reviewer; scope: recording
 dv_10_48804_3eusts,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://rdr.kuleuven.be/api/access/datafile/302380,Audit reviewer; scope: preprocessed files
