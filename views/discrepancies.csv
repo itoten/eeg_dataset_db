@@ -653,6 +653,14 @@ liu2025_stroke_lower_limb_mi,acquisition_setups:main.sampling_rate_hz,conflictin
 liu2025_stroke_lower_limb_mi,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/s41597-025-04618-4,Audit reviewer; scope: preprocessed data
 ma2020_joints_mi,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://doi.org/10.1038/s41597-020-0535-2,Audit reviewer; scope: raw recording
 ma2020_joints_mi,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://doi.org/10.1038/s41597-020-0535-2,Audit reviewer; scope: preprocessed data
+mendeley_3rrbhbggxz,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,Audit reviewer; scope: experiment 2
+mendeley_3rrbhbggxz,acquisition_setups:main.device_manufacturer,conflicting,Micromed,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,Audit reviewer; scope: experiment 1
+mendeley_3rrbhbggxz,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,Audit reviewer; scope: experiment 2
+mendeley_3rrbhbggxz,acquisition_setups:main.device_model,conflicting,HandyEEG-SystemPLUS Evolution,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,Audit reviewer; scope: experiment 1
+mendeley_3rrbhbggxz,acquisition_setups:main.n_channels_eeg,conflicting,32,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,Audit reviewer; scope: experiment 1
+mendeley_3rrbhbggxz,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,Audit reviewer; scope: experiment 2
+mendeley_3rrbhbggxz,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,"Audit reviewer; scope: experiment 2, recorded"
+mendeley_3rrbhbggxz,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,"Audit reviewer; scope: experiment 1, recorded"
 modma,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/s41597-022-01211-x,Audit reviewer; scope: 128-electrode part
 modma,acquisition_setups:main.sampling_rate_hz,conflicting,44100,primary,https://doi.org/10.1038/s41597-022-01211-x,Audit reviewer; scope: audio recordings
 mpi_lemon,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/sdata.2018.308,Audit reviewer; scope: preprocessed eeg
