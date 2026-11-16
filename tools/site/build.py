@@ -62,7 +62,7 @@ def main():
         for c in sorted(chans[i], key=lambda c: int(c["order"] or 0)):
             ch[c["setup_id"]].append([c["channel_name"], c["channel_type"]])
         D.append({
-            "id": i, "name": d["name"], "full": d["full_title"], "mod": d["modalities"], "dom": d["domains"],
+            "id": i, "cls": d["content_class"], "name": d["name"], "full": d["full_title"], "mod": d["modalities"], "dom": d["domains"],
             "lic": d["license_spdx"], "licn": d["license_note"], "terms": [d["ml_training_terms"], d["commercial_use_terms"], d["derivative_terms"]],
             "termsn": d["terms_note"], "bids": d["is_bids"], "year": d["year_published"],
             "subj": d["n_subjects_reported"], "sess": d["n_sessions_reported"], "rec": d["n_recordings_reported"],

@@ -62,9 +62,11 @@ in this shape (omit keys you have nothing for; never invent):
 ### Verdict
 - `keep / eeg_recordings`: the files contain EEG (scalp, ear, PSG with EEG, ECoG, sEEG) recordings of
   humans, raw or processed signals.
-- `remove`: no EEG signal data is distributed (only code, statistics, features, figures, behavioural
-  data, fNIRS/MEG/EMG only), animals, or the record is one part (one subject, one zip of several) of a
-  larger dataset (`part_of_larger`; give the larger one in `copy_of`). Quote the words that show it.
+- `remove` (the dataset is NOT deleted; it is registered and labelled so readers can tell it apart; see
+  docs/discussions/0003): the release has no EEG signals (only code, statistics, features, connectivity
+  matrices, figures, behavioural data, fNIRS/MEG/EMG only), or its signals are not from living humans
+  (animals, phantom heads, simulations), or the record is one part of a larger dataset
+  (`part_of_larger`; give the larger one in `copy_of`; this one is still usable). Quote the words that show it.
 - `unclear`: the sources do not say enough; explain in `notes`.
 - `copy_of`: only when the record itself says it re-hosts, mirrors, converts or derives from another
   dataset; quote those words.

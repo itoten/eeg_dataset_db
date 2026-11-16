@@ -22,6 +22,7 @@ The design follows `ser_dataset_db` (a database of speech emotion recognition da
 
 - **`data/*.csv` is authoritative.** Everything in `views/` is generated from it.
 - Scope: recordings that are EEG in a broad sense: scalp EEG of any channel count (including consumer and ear devices), the EEG of polysomnography, and intracranial EEG (ECoG, sEEG). MEG-only datasets are out of scope; MEG recorded together with EEG is in.
+- Datasets that cannot be used are still registered: `content_class` says whether a release holds EEG signals, no EEG signals (code, documents, features, matrices), non-human signals (animals, phantoms, simulations) or is not yet released, so that a reader sees at once why it is of no use and nobody repeats the check. An empty value means not yet decided; the shared page hides the unusable ones by default.
 - What a project decides to use, and why, is not here (see `local/`).
 
 ## Where to look first

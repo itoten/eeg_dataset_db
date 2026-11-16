@@ -5,7 +5,7 @@ validate.py regenerates them in memory and fails if the files on disk differ.
 
 - views/datasets_wide.csv   one row per dataset, with source URLs and the stage of checking
 - views/discrepancies.csv   conflicting evidence and reported-vs-release differences
-- views/access_summary.csv  datasets, subjects and hours per access tier and method
+- views/access_summary.csv  datasets, subjects and hours per access tier and method (EEG signals and undecided only)
 """
 
 import csvio
@@ -101,6 +101,8 @@ def _num(v):
 def access_summary(db):
     groups = {}
     for d in db["datasets"][1]:
+        if d["content_class"] not in ("", "eeg_signals"):
+            continue  # a release without usable EEG signals has no access question worth counting
         groups.setdefault((d["access_tier"], d["best_access_method"]), []).append(d)
     tier_order = list(dict.fromkeys(derive.TIER.values())) + [""]
     out = []
