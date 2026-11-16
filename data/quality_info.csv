@@ -518,6 +518,8 @@ nm000398,1,other,several files have many samples at the amplitude limit (saturat
 nm000400,1,bad_channel_marks,"status ""bad"" where the authors' location label is EXCLUDE",stated in the document,nm000400_doc9bfda3,"""bad"" where the authors' location label is EXCLUDE, else ""good"".",2026-11-16,claude,
 nm000401,1,artifact_annotations,censored rows give artifact intervals per channel,stated in the document,nm000401_docaac3c8,plus `censored` rows with the artifact intervals per channel from /censor.,2026-11-16,claude,
 nm000404,1,bad_segment_marks,D.rejected marks rejected samples,stated in the document,nm000404_doc71ef22,D.rejected marks rejected samples,2026-11-16,claude,
+nm000412,1,bad_channel_marks,Channels marked bad in the release metadata are absent from the arrays,stated in the document,nm000412_docd185ef,Channels marked bad in the release metadata are absent.,2026-11-16,claude,
+nm000436,1,artifact_annotations,authors' motion-artifact masks computed for the processed signals,stated in the document,nm000436_doc2ee1ae,motion-artifact masks were computed,2026-11-16,claude,
 zenodo_10004793,1,impedance_threshold,impedances below 5 kΩ,stated in the document,zenodo_10004793_doce821b6,EEG electrode impedances were maintained below 5 kΩ.,2026-11-14,claude,
 zenodo_10026399,1,impedance_threshold,impedance below 50 kΩ,stated in the document,zenodo_10026399_docb9467a,Impedance was kept below 50 kΩ.,2026-11-14,claude,
 zenodo_10034963,1,bad_channel_marks,indices of channels removed during preprocessing,stated in the document,zenodo_10034963_doc361b80,indices of channels removed during preprocessing (removedChannels),2026-11-14,claude,

@@ -874,6 +874,23 @@ nm000404,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,htt
 nm000404,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11385230/fullTextXML,Audit reviewer; scope: distributed epochs
 nm000405,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000405,Audit reviewer; scope: distributed signals
 nm000405,acquisition_setups:main.sampling_rate_hz,conflicting,30000,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9142148/fullTextXML,Audit reviewer; scope: recorded
+nm000412,acquisition_setups:main.device_manufacturer,conflicting,Nihon Kohden,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8887902/,Audit reviewer; scope: uci and cpmc sites
+nm000412,acquisition_setups:main.device_manufacturer,conflicting,Tucker Davis Technologies,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8887902/,Audit reviewer; scope: ucsf site
+nm000412,acquisition_setups:main.sampling_rate_hz,conflicting,3052,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8887902/,"Audit reviewer; scope: ucsf, as recorded"
+nm000412,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8887902/,"Audit reviewer; scope: uci, as recorded"
+nm000424,acquisition_setups:main.sampling_rate_hz,conflicting,20000,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13287684/,"Audit reviewer; scope: original intraoperative mer, as recorded"
+nm000424,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://api.nemar.org/datasets/nm000424,Audit reviewer; scope: distributed files
+nm000433,hours_reported,conflicting,2.72,secondary,https://api.nemar.org/datasets/nm000433,Audit reviewer; scope: not given
+nm000433,hours_reported,conflicting,5.43,secondary,https://nemar.org/dataset/nm000433,
+nm000434,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,secondary,https://api.nemar.org/datasets/nm000434,Audit reviewer; scope: scalp eeg
+nm000434,acquisition_setups:main.device_manufacturer,conflicting,Medtronic,secondary,https://api.nemar.org/datasets/nm000434,Audit reviewer; scope: stn lfp
+nm000434,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000434,Audit reviewer; scope: scalp eeg/emg
+nm000434,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://nemar.org/dataset/nm000434,
+nm000434,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://api.nemar.org/datasets/nm000434,Audit reviewer; scope: stn lfp
+nm000437,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://proceedings.neurips.cc/paper_files/paper/2025/file/bbc6396ae4b4dbf78ce328aa8beafd27-Paper-Datasets_and_Benchmarks_Track.pdf,Audit reviewer; scope: as recorded
+nm000437,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://api.nemar.org/datasets/nm000437,Audit reviewer; scope: distributed feature arrays
+nm000446,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10005762/,Audit reviewer; scope: tmsi porti recordings
+nm000446,acquisition_setups:main.sampling_rate_hz,conflicting,4096,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10005762/,Audit reviewer; scope: tmsi saga32 recordings
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
