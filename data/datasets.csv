@@ -1587,26 +1587,26 @@ osf_fnrd9,Speaker-induced suppression in EEG during a naturalistic reading and l
 osf_fq7xk,"Fork of EEG, fMRI and NODDI dataset",,,scalp_eeg;ecg;fmri,,,2018,,,,,,,,,17,,,,,,,,,,direct_download,open,64,1000,,BrainCap MR,resting_eyes_open,,2026-11-16
 osf_fxb8z,"EEG data of ""Characterising neuro-cognitive impairments in Parkinson’s with Mobile EEG when walking and stepping over obstacles.""",,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,32,,10_20,ANT-neuro,motor_execution,,2026-11-16
 osf_g2jen,Revealing hidden states in visual working memory using electroencephalography,,eeg_signals,scalp_eeg,,,2019,,,,,,,,,24,,,,,,,,,,direct_download,open,61,1000,,Compumedics NeuroScan SynAmps RT,cognitive_task,,2026-11-16
-osf_g6yta,High-Density EEG and Multi-Muscle EMG Dataset during Object Prehension with a sensorized Grasping Box in Humans - scripts and preprocessed data,,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gh6q3,"EEG 21 electrodes - Arithmetic task with eyes closed, rest and breath focus",,,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gstn9,Applied Research Karajá EEG/ERP ET Data,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gwn7r,BIDS-iEEG: an extension to the Brain Imaging Data Structure (BIDS) Specification for intracranial electroencephalography,,,,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gwuy6,Neurocognitive process parameters of cognitive performance - EEG data Session 2 - 1/3,,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gwyqa,Processing of self-related thoughts in experienced users of classic psychedelics and non-users: a source localisation EEG study [DATASET II],,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gx36m,A Continuous Multi-night EEG Sleep Database,,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gx56n,Late EEG information about contextually assigned reply meanings: code and derived data,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gyfpa,"Dataset and scripts associated to the manuscript ""Evaluation of classification approaches for distinguishing brain states predictive of episodic memory performance from electroencephalography"".",,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gyk89,Multivariate pattern analysis identifies potential inter-trial resting-state EEG biomarkers in fibromyalgia,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_gyqah,Microgrid EEG Data,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_h634f,EEG-based Prediction of Successful Memory Formation during Vocabulary Learning,,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_hberu,EEG-fMRI connICA,,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_hd6zk,"THINGS-EEG: Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_hkevu,A perceptual decision making EEG/fMRI data set - Data use agreement,,,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_hqbgt,Analysing sleep EEG data,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_hqkym,An HD-EEG Database to dissect Somatosensory Awareness from Task Relevance and Report,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_hy8v7,Data and code repository - On the reliability of the EEG microstate approach,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_j47mg,Who's Behind the Signal? Quantifying Re-Identification and Membership-Inference Risk in Publicly Shared EEG-BCI Data,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_j9qhb,Electroencephalography (EEG) recordings while listening to drumbeats,,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_g6yta,High-Density EEG and Multi-Muscle EMG Dataset during Object Prehension with a sensorized Grasping Box in Humans - scripts and preprocessed data,,eeg_signals,scalp_eeg;emg;eog,motor,,2025,CC0-1.0,,,,,,,,14,,,,,,,,,,direct_download,open,62,1000,10_20,Brain Products BrainAmp DC,motor_execution,,2026-11-16
+osf_gh6q3,"EEG 21 electrodes - Arithmetic task with eyes closed, rest and breath focus",,eeg_signals,scalp_eeg,cognitive;resting_state,,2018,CC0-1.0,,,,,,,,51,,,,,,,,,,direct_download,open,21,256,10_20,Mind Media Nexus-32,cognitive_task;other;resting_eyes_closed,,2026-11-16
+osf_gstn9,Applied Research Karajá EEG/ERP ET Data,,eeg_signals,scalp_eeg;eye_tracking,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_gwn7r,BIDS-iEEG: an extension to the Brain Imaging Data Structure (BIDS) Specification for intracranial electroencephalography,,no_eeg_signals,,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_gwuy6,Neurocognitive process parameters of cognitive performance - EEG data Session 2 - 1/3,,eeg_signals,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_gwyqa,Processing of self-related thoughts in experienced users of classic psychedelics and non-users: a source localisation EEG study [DATASET II],,eeg_signals,scalp_eeg,cognitive,,2024,,,,,,,,,38,,,,,,,,,,direct_download,open,64,2048,,BioSemi ActiveTwo,cognitive_task,,2026-11-16
+osf_gx36m,A Continuous Multi-night EEG Sleep Database,,eeg_signals,scalp_eeg;eog;emg;psg,sleep,,2024,CC0-1.0,,,,,,,,20,,,,,,,,,,direct_download,open,5,500,10_20,Brain Products actiCHamp,sleep,,2026-11-16
+osf_gx56n,Late EEG information about contextually assigned reply meanings: code and derived data,,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,500,,,,,2026-11-16
+osf_gyfpa,"Dataset and scripts associated to the manuscript ""Evaluation of classification approaches for distinguishing brain states predictive of episodic memory performance from electroencephalography"".",,,scalp_eeg;eog,cognitive,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,32,1024,,BioSemi ActiveTwo,cognitive_task,,2026-11-16
+osf_gyk89,Multivariate pattern analysis identifies potential inter-trial resting-state EEG biomarkers in fibromyalgia,,eeg_signals,scalp_eeg;eog,clinical;resting_state,,2025,CC-BY-NC-4.0,,,,,,,,51,,,,,,,,,,direct_download,open,60,250,10_10,,resting_eyes_open,,2026-11-16
+osf_gyqah,Microgrid EEG Data,,eeg_signals,ieeg_ecog,epilepsy,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,64,420,,,clinical_routine,,2026-11-16
+osf_h634f,EEG-based Prediction of Successful Memory Formation during Vocabulary Learning,,eeg_signals,scalp_eeg,cognitive,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-16
+osf_hberu,EEG-fMRI connICA,,no_eeg_signals,scalp_eeg,,,2020,,,,,,,,,26,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_hd6zk,"THINGS-EEG: Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",,no_eeg_signals,scalp_eeg,,,2021,,,,,,,,,50,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_hkevu,A perceptual decision making EEG/fMRI data set - Data use agreement,,no_eeg_signals,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_hqbgt,Analysing sleep EEG data,,,scalp_eeg,sleep,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_hqkym,An HD-EEG Database to dissect Somatosensory Awareness from Task Relevance and Report,,eeg_signals,scalp_eeg,perception;cognitive,,2025,,,,,,,,,30,,,,,,,,,,direct_download,open,128,500,egi_hydrocel,Electrical Geodesics Inc. Net Amps300,cognitive_task;other,,2026-11-16
+osf_hy8v7,Data and code repository - On the reliability of the EEG microstate approach,,no_eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_j47mg,Who's Behind the Signal? Quantifying Re-Identification and Membership-Inference Risk in Publicly Shared EEG-BCI Data,,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_j9qhb,Electroencephalography (EEG) recordings while listening to drumbeats,,eeg_signals,scalp_eeg,perception,,2022,,,,,,,,,17,,,,,,,,,,direct_download,open,64,,,,other,,2026-11-16
 osf_jbysn,Data for 'Accounting for the complex hierarchical topology of EEG phase-based functional connectivity in network binarisation',,,scalp_eeg,,,2017,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_jpqwc,Tracing conflict-induced cognitive-control adjustments over time using aperiodic EEG activity,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_jrxq7,Effect of TMS current direction and pulse waveform on cortico-cortical connectivity: A registered report TMS-EEG study - PILOT DATA and STAGE 1 RR,,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
