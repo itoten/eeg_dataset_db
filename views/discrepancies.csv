@@ -1061,6 +1061,8 @@ nm000472,acquisition_setups:main.n_channels_eeg,conflicting,100,secondary,https:
 nm000472,acquisition_setups:main.n_channels_eeg,conflicting,102,secondary,https://nemar.org/dataset/nm000472,
 nm000629,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000629,
 nm000629,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://arxiv.org/html/2506.01353,Audit reviewer; scope: not given
+osf_7qzhs,acquisition_setups:main.n_channels_eeg,conflicting,6,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13557387/,Audit reviewer; scope: smart headband (textrodes)
+osf_7qzhs,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13557387/,Audit reviewer; scope: commercial cap
 seed,acquisition_setups:main.device_manufacturer,conflicting,ESI,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,
 seed,acquisition_setups:main.device_manufacturer,conflicting,ESI NeuroScan,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,Audit reviewer; scope: not given
 seed,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,
