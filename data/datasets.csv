@@ -1687,26 +1687,26 @@ osf_wg46a,HBCD EEG Test Data,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_downloa
 osf_wsgzp,Simultaneous stereo-EEG and high-density scalp EEG recordings to study the effects of intracerebral stimulation parameters,,,,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_x5tp8,Mobile EEG in Naturally Moving Children: Example Dataset and Preprocessing Script,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_xgf36,"Time-frequency EEG data related to brushing during spinal cord stimulation (Neuromodulation, doi: 10.1016/j.neurom.2022.11.001),",,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_xh3g5,EEG-semantic-text-relevance,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_xw386,sEEG - Continuous grasping dataset,,,,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_xwt6j,A machine learning model for prediction of individual responses in a social decision-making task based on EEG and Eye-Tracking data,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_xzpdm,"Data for the paper ""Does the Speaker Matter: EEG Evidence on the Influence of Voice Information on Phoneme Learning in Infancy""",,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_xzvtc,Perrone - Empirical support of therapeutic interventions: What can we learn from EEG data?,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_y23k8,"64 electrodes EEG; REST, MEDITATION and PVT task after Mindfulness training",,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_y9hvt,"Augmenting complex and dynamic performance through mindfulness-based cognitive training: an evaluation of training adherence, trait mindfulness, personality and resting-state EEG.",,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_y9pmf,FOODEEG: An open dataset of human electroencephalographic and behavioural responses to food images,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_yabqg,"MEG, EEG and Behavioral Data for: 'Disentangling Hierarchical and Sequential Computations during Sentence Processing'",,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_ycfvr,Auditory rise time processing in children with autism spectrum disorder: EEG data,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_yh8vf,"Extended Data for ""Comparison of EEG pre-processing pipelines for spontaneous EEG data in a large neurodivergent cohort""",,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_yqt7k,Data repository - EEG microstate toolbox,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_yxjga,Single-Channel EEG Dataset: UI Visual Complexity and Cognitive Load,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_z3tx9,"The lame, the blind and the ugly - multimodal data fusion for simultaneous eeg-fMRI",,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_z6w2t,Simultaneous whole-head electrophysiological recordings using EEG and OPM-MEG,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_zbk74,Flanker Task EEG Data,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_zeuhk,"Data and scripts for ""Behavioral and EEG Evidence for Morpheme-Based Semantic Composition in the Processing of Chinese Bimorphemic Nonwords""",,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_zfyd7,"Self-Guided, Beta-Responsive Visual Neurofeedback With a Consumer EEG Headband in a Public Exhibition: Data and Analysis Code",,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_zh8ex,Cognitive Effect Driving Game - Experiment 1 - EEG Data,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_zmvwd,MATLAB Code for the Frequency-Extended Network-Based Statistic Method and a BIDS-Formatted EEG and Eye-Tracking Dataset from a Multiple Object Tracking Task,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_xh3g5,EEG-semantic-text-relevance,,eeg_signals,scalp_eeg,cognitive;perception,,2025,,,,,,,,,15,,,,,,,,,,direct_download,open,32,,,Brain Products QuickAmp USB,language,,2026-11-17
+osf_xw386,sEEG - Continuous grasping dataset,,eeg_signals,ieeg_seeg,epilepsy;motor,,2022,,,,,,,,,8,,,,,,,,,,direct_download,open,,,,Micromed SD LTM,motor_execution;motor_imagery,,2026-11-17
+osf_xwt6j,A machine learning model for prediction of individual responses in a social decision-making task based on EEG and Eye-Tracking data,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_xzpdm,"Data for the paper ""Does the Speaker Matter: EEG Evidence on the Influence of Voice Information on Phoneme Learning in Infancy""",,eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_xzvtc,Perrone - Empirical support of therapeutic interventions: What can we learn from EEG data?,,no_eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_y23k8,"64 electrodes EEG; REST, MEDITATION and PVT task after Mindfulness training",,eeg_signals,scalp_eeg,cognitive,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,64,250,10_20,BrainProducts MR+,other,,2026-11-17
+osf_y9hvt,"Augmenting complex and dynamic performance through mindfulness-based cognitive training: an evaluation of training adherence, trait mindfulness, personality and resting-state EEG.",,eeg_signals,scalp_eeg,cognitive;resting_state,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,32,1000,,Brain Products LiveAmp 32,resting_unspecified,,2026-11-17
+osf_y9pmf,FOODEEG: An open dataset of human electroencephalographic and behavioural responses to food images,,eeg_signals,scalp_eeg,,,2025,,,,,,,,,117,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_yabqg,"MEG, EEG and Behavioral Data for: 'Disentangling Hierarchical and Sequential Computations during Sentence Processing'",,eeg_signals,meg;scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,language,,2026-11-17
+osf_ycfvr,Auditory rise time processing in children with autism spectrum disorder: EEG data,,eeg_signals,scalp_eeg,development;neurology;perception,,2026,,,,,,,,,42,,,,,,,,,,direct_download,open,31,,,,auditory_erp,,2026-11-17
+osf_yh8vf,"Extended Data for ""Comparison of EEG pre-processing pipelines for spontaneous EEG data in a large neurodivergent cohort""",,no_eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_yqt7k,Data repository - EEG microstate toolbox,,eeg_signals,scalp_eeg,resting_state,,2023,,,,,,,,,34,,,,,,,,,,direct_download,open,,,,,resting_eyes_closed;resting_eyes_open,,2026-11-17
+osf_yxjga,Single-Channel EEG Dataset: UI Visual Complexity and Cognitive Load,,eeg_signals,scalp_eeg,cognitive,,2026,,,,,,,,,47,,,,,,,,,,direct_download,open,,512,,NeuroSky MindWave Mobile 2,cognitive_task,,2026-11-17
+osf_z3tx9,"The lame, the blind and the ugly - multimodal data fusion for simultaneous eeg-fMRI",,,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_z6w2t,Simultaneous whole-head electrophysiological recordings using EEG and OPM-MEG,,eeg_signals,scalp_eeg;meg;ecg,motor;resting_state;perception,,2024,,,,,,,,,12,,,,,,,,,,direct_download,open,63,1000,,Brain Products,motor_execution;resting_eyes_closed;resting_eyes_open,,2026-11-17
+osf_zbk74,Flanker Task EEG Data,,eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,28,,,,cognitive_task,,2026-11-17
+osf_zeuhk,"Data and scripts for ""Behavioral and EEG Evidence for Morpheme-Based Semantic Composition in the Processing of Chinese Bimorphemic Nonwords""",,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_zfyd7,"Self-Guided, Beta-Responsive Visual Neurofeedback With a Consumer EEG Headband in a Public Exhibition: Data and Analysis Code",,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,Interaxon Muse 2,neurofeedback,,2026-11-17
+osf_zh8ex,Cognitive Effect Driving Game - Experiment 1 - EEG Data,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,Emotiv Epoc X,,,2026-11-17
+osf_zmvwd,MATLAB Code for the Frequency-Extended Network-Based Statistic Method and a BIDS-Formatted EEG and Eye-Tracking Dataset from a Multiple Object Tracking Task,,eeg_signals,scalp_eeg;eye_tracking,cognitive;perception,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-17
 osf_zpnht,Sync error EEG 2,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_zt82s,Neurocognitive process parameters of cognitive performance - EEG data Session 2 - 2/3,,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_zx4un,EyeSort: an EEGLAB-integrated toolbox for behavioral categorization of eye fixation events in EEG-EM co-registered data,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
