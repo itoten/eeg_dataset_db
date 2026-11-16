@@ -13,8 +13,17 @@ bnci_003_2015,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 bnci_004_2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 bnci_005_2014,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 bnci_008_2014,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+bnci_008_2014,p300_speller_copy_spelling_6_by_6_matrix,"P300 speller (copy spelling, 6 by 6 matrix)",p300_erp,,,,,,,,
+bnci_009_2014,p300_speller_overt_attention_and_geospel,P300 Speller (overt attention) and GeoSpell (covert attention),p300_erp,,,,,,,,
+bnci_009_2015,spatial_auditory_oddball_amuse_speller,spatial auditory oddball / AMUSE speller,auditory_erp,,,,,,,,
+bnci_012_2015,pass2d_auditory_speller_calibration_and,PASS2D auditory speller (calibration and online spelling),auditory_erp,,,,,,,,
+brain_wearable_monitoring,n_back_task_with_music_coffee_perfume_in,n-back task with music / coffee / perfume interventions,cognitive_task,,,,,,,,
 brandl2020_bci_distraction,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+brandl2020_bci_distraction,motor_imagery_under_distraction_calibrat,motor imagery under distraction (calibration + feedback runs with secondary tasks),motor_imagery,,,,,,,,
+cao2019_driving_attention,sustained_attention_driving_task_event_r,sustained-attention driving task (event-related lane-departure paradigm in a VR driving simulator),other,,,,,,,,
 capslpdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+capslpdb,overnight_polysomnography,overnight polysomnography,sleep,,,,,,,,
+chbmit,continuous_clinical_monitoring_after_ant,continuous clinical monitoring after anti-seizure medication withdrawal,long_term_monitoring,,,,,,,,
 cho2017,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 cps_dataset_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 dreamt,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)

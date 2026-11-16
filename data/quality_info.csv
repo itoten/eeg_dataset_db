@@ -1,4 +1,8 @@
 dataset_id,quality_no,kind,description,form,source_id,locator,checked_on,checked_by,note
+bnci_009_2014,1,impedance_threshold,electrode impedance did not exceed 10 kOhm,stated in the document,bnci_009_2014_docbcb5c5,The electrode impedance did not exceed 10 kΩ.,2026-11-16,claude,
+brandl2020_bci_distraction,1,impedance_values,impedance measurements before the experiment are included (cnt_imp),stated in the document,brandl2020_bci_distraction_doc433409,``cnt_imp`` contains the impedance measurements before the experiment.,2026-11-16,claude,
+cao2019_driving_attention,1,impedance_threshold,contact impedance kept under 5 kOhm,stated in the document,cao2019_driving_attention_doc32cb6e,The contact impedance between all electrodes and the skin was kept under 5 kΩ.,2026-11-16,claude,
+chbmit,1,recording_notes,gaps between consecutive .edf files due to hardware limitations; dummy signals named '-',stated in the document,chbmit_page,"Hardware limitations resulted in gaps between consecutively-numbered .edf files, during which the signals were not recorded",2026-11-16,claude,
 ds001785,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel).,status column of channels.tsv,ds001785_channels,header row,2026-11-14,script,
 ds001810,1,bad_channel_marks,The channels file has a status column (BIDS: good or bad per channel) and a status_description column.,status column of channels.tsv,ds001810_channels,header row,2026-11-14,script,
 ds001810,2,bad_channel_marks,channels blocked by tDCS electrodes are marked bad in channels.tsv,stated in the document,ds001810_doc13b78f,"They are marked with ""status"" = ""bad"" in each session's _channels.tsv file.",2026-11-15,claude,

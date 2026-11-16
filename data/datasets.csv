@@ -29,21 +29,21 @@ bnci_005_2014,Auditory oddball during hypnosis (005-2014),,eog;scalp_eeg,,,,CC-B
 bnci_005_2015,Covert shifts of attention (005-2015),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,60,,,,,,2026-11-14
 bnci_006_2014,SCP training in stroke (006-2014),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,2,,,,,,,,,,direct_download,open,1,,,,,,2026-11-14
 bnci_006_2015,Music BCI (006-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,64,,,,,,2026-11-14
-bnci_007_2014,Two-finger gameplay with deliberately failing controller (007-2014),,eda;emg;eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,32,,,,,,2026-11-14
-bnci_007_2015,Motion VEP Speller (007-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,16,,,,,,,,,,direct_download,open,63,,,,,,2026-11-14
-bnci_008_2014,P300 speller with ALS patients (008-2014),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,8,,,,p300_erp,,2026-11-14
-bnci_008_2015,Center Speller (008-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,13,,,,,,,,,,direct_download,open,63,,,,,,2026-11-14
-bnci_009_2014,Covert and overt ERP-based BCI (009-2014),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,16,,,,,,2026-11-14
-bnci_009_2015,AMUSE - an auditory speller based on spatial hearing (009-2015),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,21,,,,,,,,,,direct_download,open,60,,,,,,2026-11-14
-bnci_010_2015,RSVP speller (010-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,12,,,,,,,,,,direct_download,open,63,,,,,,2026-11-14
-bnci_011_2015,ECoG-based BCI based on cognitive control (011-2015),,ieeg_ecog,,,,CC-BY-ND-4.0,,,,,,,,1,,,,,,,,,,direct_download,open,112,,,,,,2026-11-14
-bnci_012_2015,PASS2D - auditory ERP Speller (012-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,12,,,,,,,,,,direct_download,open,63,,,,,,2026-11-14
-bnci_013_2015,Monitoring error-related potentials (013-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,6,,,,,,,,,,direct_download,open,64,,,,,,2026-11-14
-brain_wearable_monitoring,"Regulation of Brain Cognitive States through Auditory, Gustatory, and Olfactory Stimulation with Wearable Monitoring",,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,2.7,,,,,,direct_download,open,,,,,,,2026-11-14
-brandl2020_bci_distraction,BCI under distraction: Motor imagery in a pseudo realistic environment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,motor_imagery,,2026-11-14
-cao2019_driving_attention,Multi-channel EEG recordings during a sustained-attention driving task (raw dataset),,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-capslpdb,CAP Sleep Database,,scalp_eeg;eog;emg,,,,ODC-By-1.0,,,,,,,,,,,,40.1,,,,,,direct_download,open,,,,,,,2026-11-14
-chbmit,CHB-MIT Scalp EEG Database,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,22,,,,42.6,,,,,,direct_download,open,,,,,,,2026-11-14
+bnci_007_2014,Two-finger gameplay with deliberately failing controller (007-2014),,scalp_eeg;eog;emg;eda;respiration,bci;emotion,,,CC-BY-NC-ND-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,32,512,,BioSemi ActiveTwo,,,2026-11-16
+bnci_007_2015,Motion VEP Speller (007-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,16,,,,,,,,,,direct_download,open,63,,,,,,2026-11-16
+bnci_008_2014,P300 speller with ALS patients (008-2014),,scalp_eeg,bci,,,CC-BY-NC-ND-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,8,256,10_10,g.tec g.MOBILAB,p300_erp,,2026-11-16
+bnci_008_2015,Center Speller (008-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,13,,,,,,,,,,direct_download,open,63,,,,,,2026-11-16
+bnci_009_2014,Covert and overt ERP-based BCI (009-2014),,scalp_eeg,bci,,,CC-BY-NC-ND-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,16,256,10_10,g.Tec g.USBamp,p300_erp,,2026-11-16
+bnci_009_2015,AMUSE - an auditory speller based on spatial hearing (009-2015),,scalp_eeg;eog,,,,CC-BY-NC-ND-4.0,,,,,,,,21,,,,,,,,,,direct_download,open,60,1000,,Brain Products,auditory_erp,,2026-11-16
+bnci_010_2015,RSVP speller (010-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,12,,,,,,,,,,direct_download,open,63,,,,,,2026-11-16
+bnci_011_2015,ECoG-based BCI based on cognitive control (011-2015),,ieeg_ecog,bci;epilepsy,,,CC-BY-ND-4.0,,,,,,,,1,,,,,,,,,,direct_download,open,112,,,,,,2026-11-16
+bnci_012_2015,PASS2D - auditory ERP Speller (012-2015),,scalp_eeg,bci,,,CC-BY-NC-ND-4.0,,,,,,,,12,,,,,,,,,,direct_download,open,63,1000,10_20,Brain Products,auditory_erp,,2026-11-16
+bnci_013_2015,Monitoring error-related potentials (013-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,6,,,,,,,,,,direct_download,open,64,512,,Biosemi ActiveTwo,,,2026-11-16
+brain_wearable_monitoring,"Regulation of Brain Cognitive States through Auditory, Gustatory, and Olfactory Stimulation with Wearable Monitoring",,scalp_eeg;eda;other_physiological,cognitive,,,ODC-By-1.0,,,,,,,,,,,,2.7,,,,,,direct_download,open,4,256,,MU-02,cognitive_task,,2026-11-16
+brandl2020_bci_distraction,BCI under distraction: Motor imagery in a pseudo realistic environment,,scalp_eeg,bci,,,,,,,,,,,16,,,,,,,,,,,,63,1000,10_20,BrainProducts BrainAmp,motor_imagery,,2026-11-16
+cao2019_driving_attention,Multi-channel EEG recordings during a sustained-attention driving task (raw dataset),,scalp_eeg,cognitive,,2019,CC-BY-4.0,,,,,,,,27,,,,,,,,,,direct_download,open,30,500,,Compumedics Scan SynAmps2 Express,other,,2026-11-16
+capslpdb,CAP Sleep Database,,psg;scalp_eeg;eog;emg;ecg;respiration,sleep;clinical,,,ODC-By-1.0,,,,,,,,,,,,40.1,,,,,,direct_download,open,,,10_20,,sleep,,2026-11-16
+chbmit,CHB-MIT Scalp EEG Database,,scalp_eeg;ecg,epilepsy;clinical,,,ODC-By-1.0,,,,,,,,22,,,,42.6,,,,,,direct_download,open,23,256,10_20,,long_term_monitoring,,2026-11-16
 chbmp_cuban,CHBMP_database,,,,,2020,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
 chen2023_stroop_eeg_fnirs,Open access dataset integrating EEG and fNIRS during Stroop tasks,,scalp_eeg,,,2023,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 chen2024_deception,An EEG Dataset of Neural Signatures in a Competitive Two-Player Game Encouraging Deceptive Behavior,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
