@@ -891,6 +891,31 @@ nm000437,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,htt
 nm000437,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://api.nemar.org/datasets/nm000437,Audit reviewer; scope: distributed feature arrays
 nm000446,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10005762/,Audit reviewer; scope: tmsi porti recordings
 nm000446,acquisition_setups:main.sampling_rate_hz,conflicting,4096,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10005762/,Audit reviewer; scope: tmsi saga32 recordings
+nm000452,acquisition_setups:main.n_channels_eeg,conflicting,128,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12965882/,Audit reviewer; scope: example hybrid-density grid in paper; the release has 225 columns of which 128 carry signal
+nm000452,acquisition_setups:main.n_channels_eeg,conflicting,225,secondary,https://nemar.org/dataset/nm000452,
+nm000452,acquisition_setups:main.sampling_rate_hz,conflicting,125,secondary,https://api.nemar.org/datasets/nm000452,Audit reviewer; scope: distributed (feature envelope)
+nm000452,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12965882/,Audit reviewer; scope: recorded (paper cohort)
+nm000453,hours_reported,conflicting,22.43,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13254314/,Audit reviewer; scope: whole dataset
+nm000453,hours_reported,conflicting,22.44,secondary,https://nemar.org/dataset/nm000453,
+nm000454,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13582879/,"Audit reviewer; scope: ieeg, per patient"
+nm000454,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13582879/,"Audit reviewer; scope: ieeg, per patient"
+nm000455,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12020874/,Audit reviewer; scope: mount sinai site
+nm000455,acquisition_setups:main.sampling_rate_hz,conflicting,4096,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12020874/,Audit reviewer; scope: yale site (one patient 1024 hz)
+nm000456,acquisition_setups:main.sampling_rate_hz,conflicting,1024,secondary,https://api.nemar.org/datasets/nm000456,Audit reviewer; scope: seeg patients
+nm000456,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.nemar.org/datasets/nm000456,Audit reviewer; scope: scalp eeg patients
+nm000456,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://nemar.org/dataset/nm000456,
+nm000460,acquisition_setups:main.sampling_rate_hz,conflicting,32500,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC4807817/,Audit reviewer; scope: recorded
+nm000460,acquisition_setups:main.sampling_rate_hz,conflicting,930.171,secondary,https://api.nemar.org/datasets/nm000460,Audit reviewer; scope: distributed
+nm000463,acquisition_setups:main.sampling_rate_hz,conflicting,3600,secondary,https://api.nemar.org/datasets/nm000463,Audit reviewer; scope: distributed snippets
+nm000463,acquisition_setups:main.sampling_rate_hz,conflicting,4096,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10881100/,Audit reviewer; scope: recorded
+nm000465,acquisition_setups:main.sampling_rate_hz,conflicting,2000,secondary,https://api.nemar.org/datasets/nm000465,Audit reviewer; scope: not given
+nm000465,acquisition_setups:main.sampling_rate_hz,conflicting,24000,secondary,https://api.nemar.org/datasets/nm000465,Audit reviewer; scope: not given
+nm000469,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://api.nemar.org/datasets/nm000469,Audit reviewer; scope: distributed epochs
+nm000469,acquisition_setups:main.sampling_rate_hz,conflicting,2000,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13443746/,Audit reviewer; scope: recorded
+nm000471,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC8685930/,"Audit reviewer; scope: recorded, 10 patients"
+nm000471,acquisition_setups:main.sampling_rate_hz,conflicting,200,secondary,https://api.nemar.org/datasets/nm000471,Audit reviewer; scope: distributed epochs
+nm000472,acquisition_setups:main.n_channels_eeg,conflicting,100,secondary,https://api.nemar.org/datasets/nm000472,Audit reviewer; scope: not given
+nm000472,acquisition_setups:main.n_channels_eeg,conflicting,102,secondary,https://nemar.org/dataset/nm000472,
 nm000629,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000629,
 nm000629,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://arxiv.org/html/2506.01353,Audit reviewer; scope: not given
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record

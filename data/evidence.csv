@@ -27033,11 +27033,16 @@ nm000446/year_published/01,nm000446,year_published,2026,nm000446_nemar,first_pub
 nm000452/access_routes:nemar.access_method/01,nm000452,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000452/access_routes:nemar.automation_tool/01,nm000452,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000452/access_routes:nemar.human_steps/01,nm000452,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
-nm000452/acquisition_setups:main.n_channels_eeg/01,nm000452,acquisition_setups:main.n_channels_eeg,225,nm000452_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000452/acquisition_setups:main.n_channels_eeg/01,nm000452,acquisition_setups:main.n_channels_eeg,225,nm000452_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,conflicting,
+nm000452/acquisition_setups:main.n_channels_eeg/02,nm000452,acquisition_setups:main.n_channels_eeg,128,nm000452_doc6ed3cf,An example hybrid-density ECoG array with a total of 128 electrodes.,2026-11-16,claude,conflicting,Audit reviewer; scope: example hybrid-density grid in paper; the release has 225 columns of which 128 carry signal
+nm000452/acquisition_setups:main.reference/01,nm000452,acquisition_setups:main.reference,common average reference,nm000452_doc6ed3cf,The mean of a common average reference (across all remaining valid electrodes and time) was subtracted from each individual electrode.,2026-11-16,claude,current,Audit reviewer; scope: paper processing before envelope extraction
+nm000452/acquisition_setups:main.sampling_rate_hz/01,nm000452,acquisition_setups:main.sampling_rate_hz,125,nm000452_docb1bc3d,It contains 125 Hz high-gamma (70-150 Hz) envelope features,2026-11-16,claude,conflicting,Audit reviewer; scope: distributed (feature envelope)
+nm000452/acquisition_setups:main.sampling_rate_hz/02,nm000452,acquisition_setups:main.sampling_rate_hz,2048,nm000452_doc6ed3cf,"We sampled ECoG signals from each electrode at 2,048 Hz and downsampled them to 512 Hz before processing.",2026-11-16,claude,conflicting,Audit reviewer; scope: recorded (paper cohort)
 nm000452/hours_reported/01,nm000452,hours_reported,0.38,nm000452_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000452/is_bids/01,nm000452,is_bids,true,nm000452_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000452/license_spdx/01,nm000452,license_spdx,CC-BY-4.0,nm000452_nemar,License: CC-BY-4.0,2026-11-14,script,current,
-nm000452/modalities/01,nm000452,modalities,ieeg,nm000452_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000452/modalities/01,nm000452,modalities,ieeg,nm000452_nemar,recording modalities: ieeg,2026-11-14,script,superseded,superseded by nm000452/modalities/02
+nm000452/modalities/02,nm000452,modalities,ieeg_ecog;audio,nm000452_docb1bc3d,"It contains 125 Hz high-gamma (70-150 Hz) envelope features recorded with a hybrid-density grid, together with synchronised speech audio",2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000452/n_recordings_reported/01,nm000452,n_recordings_reported,1,nm000452_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000452/n_subjects_reported/01,nm000452,n_subjects_reported,1,nm000452_nemar,subject_count,2026-11-14,script,current,
 nm000452/name/01,nm000452,name,"ECoG_HB_02: hybrid-density ECoG high-gamma features with synchronised speech, one participant (derivative)",nm000452_nemar,Record name,2026-11-14,script,current,
@@ -27047,13 +27052,26 @@ nm000452/year_published/01,nm000452,year_published,2026,nm000452_nemar,first_pub
 nm000453/access_routes:nemar.access_method/01,nm000453,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000453/access_routes:nemar.automation_tool/01,nm000453,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000453/access_routes:nemar.human_steps/01,nm000453,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
-nm000453/hours_reported/01,nm000453,hours_reported,22.44,nm000453_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
+nm000453/acquisition_setups:main.device_manufacturer/01,nm000453,acquisition_setups:main.device_manufacturer,Inomed Medizintechnik GmbH,nm000453_docee7a37,MER recordings were acquired using the ISIS MER system (Inomed Medizintechnik GmbH) with MicroMacro electrodes,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000453/acquisition_setups:main.device_model/01,nm000453,acquisition_setups:main.device_model,ISIS MER system,nm000453_docee7a37,MER recordings were acquired using the ISIS MER system (Inomed Medizintechnik GmbH) with MicroMacro electrodes,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000453/acquisition_setups:main.reference/01,nm000453,acquisition_setups:main.reference,scalp,nm000453_docee7a37,"A reference electrode was placed on the scalp, while the ground electrode was positioned on the patient",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000453/acquisition_setups:main.sampling_rate_hz/01,nm000453,acquisition_setups:main.sampling_rate_hz,20000,nm000453_docee7a37,including a sampling rate of 20 kHz and 16-bit signed-integer quantization,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000453/hours_reported/01,nm000453,hours_reported,22.44,nm000453_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,conflicting,
+nm000453/hours_reported/02,nm000453,hours_reported,22.43,nm000453_docee7a37,Total recording duration 22.43 h,2026-11-16,claude,conflicting,Audit reviewer; scope: whole dataset
 nm000453/is_bids/01,nm000453,is_bids,true,nm000453_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000453/license_spdx/01,nm000453,license_spdx,CC0-1.0,nm000453_nemar,License: CC0-1.0,2026-11-14,script,current,
 nm000453/modalities/01,nm000453,modalities,ieeg,nm000453_nemar,recording modalities: ieeg,2026-11-14,script,current,
 nm000453/n_recordings_reported/01,nm000453,n_recordings_reported,6675,nm000453_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000453/n_subjects_reported/01,nm000453,n_subjects_reported,132,nm000453_nemar,subject_count,2026-11-14,script,current,
+nm000453/n_subjects_reported/02,nm000453,n_subjects_reported,132,nm000453_docee7a37,A total of 132 participants were included in the study,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000453/name/01,nm000453,name,"DBS microelectrode recordings from 132 patients, University Clinical Centre Gdańsk (Osowska, Szymański, Libionka 2026; derivative: authors' band-passed, classifier-selected MER segments)",nm000453_nemar,Record name,2026-11-14,script,current,
+nm000453/participant_groups:all_participants.age_max/01,nm000453,participant_groups:all_participants.age_max,75,nm000453_docee7a37,"A total of 132 participants were included in the study (61 women, 46.2%; 71 men, 53.8%). The mean age was 53.5 ± 14.1 years (range:",2026-11-16,claude,current,
+nm000453/participant_groups:all_participants.age_mean/01,nm000453,participant_groups:all_participants.age_mean,53.5,nm000453_docee7a37,"A total of 132 participants were included in the study (61 women, 46.2%; 71 men, 53.8%). The mean age was 53.5 ± 14.1 years (range:",2026-11-16,claude,current,
+nm000453/participant_groups:all_participants.age_min/01,nm000453,participant_groups:all_participants.age_min,9,nm000453_docee7a37,"A total of 132 participants were included in the study (61 women, 46.2%; 71 men, 53.8%). The mean age was 53.5 ± 14.1 years (range:",2026-11-16,claude,current,
+nm000453/participant_groups:all_participants.age_sd/01,nm000453,participant_groups:all_participants.age_sd,14.1,nm000453_docee7a37,"A total of 132 participants were included in the study (61 women, 46.2%; 71 men, 53.8%). The mean age was 53.5 ± 14.1 years (range:",2026-11-16,claude,current,
+nm000453/participant_groups:all_participants.n_female/01,nm000453,participant_groups:all_participants.n_female,61,nm000453_docee7a37,"A total of 132 participants were included in the study (61 women, 46.2%; 71 men, 53.8%). The mean age was 53.5 ± 14.1 years (range:",2026-11-16,claude,current,
+nm000453/participant_groups:all_participants.n_male/01,nm000453,participant_groups:all_participants.n_male,71,nm000453_docee7a37,"A total of 132 participants were included in the study (61 women, 46.2%; 71 men, 53.8%). The mean age was 53.5 ± 14.1 years (range:",2026-11-16,claude,current,
+nm000453/participant_groups:all_participants.n_subjects/01,nm000453,participant_groups:all_participants.n_subjects,132,nm000453_docee7a37,"A total of 132 participants were included in the study (61 women, 46.2%; 71 men, 53.8%). The mean age was 53.5 ± 14.1 years (range:",2026-11-16,claude,current,
 nm000453/size_gb_reported/01,nm000453,size_gb_reported,50.45,nm000453_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000453/tasks:mer.task_name/01,nm000453,tasks:mer.task_name,mer,nm000453_nemar,tasks,2026-11-14,script,current,
 nm000453/tasks:merannot.task_name/01,nm000453,tasks:merannot.task_name,merannot,nm000453_nemar,tasks,2026-11-14,script,current,
@@ -27061,13 +27079,25 @@ nm000453/year_published/01,nm000453,year_published,2026,nm000453_nemar,first_pub
 nm000454/access_routes:nemar.access_method/01,nm000454,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000454/access_routes:nemar.automation_tool/01,nm000454,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000454/access_routes:nemar.human_steps/01,nm000454,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000454/acquisition_setups:main.sampling_rate_hz/01,nm000454,acquisition_setups:main.sampling_rate_hz,500,nm000454_doca73800,"data were recorded at sampling rates of 500, 512, or 1024 Hz",2026-11-16,claude,conflicting,"Audit reviewer; scope: ieeg, per patient"
+nm000454/acquisition_setups:main.sampling_rate_hz/02,nm000454,acquisition_setups:main.sampling_rate_hz,512,nm000454_doca73800,"data were recorded at sampling rates of 500, 512, or 1024 Hz",2026-11-16,claude,conflicting,"Audit reviewer; scope: ieeg, per patient"
+nm000454/domains/01,nm000454,domains,epilepsy,nm000454_doca73800,structural and functional MRI datasets from 30 patients with drug-resistant focal epilepsy,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000454/hours_reported/01,nm000454,hours_reported,27.66,nm000454_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000454/is_bids/01,nm000454,is_bids,true,nm000454_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000454/license_spdx/01,nm000454,license_spdx,CC-BY-4.0,nm000454_nemar,License: CC-BY-4.0,2026-11-14,script,current,
-nm000454/modalities/01,nm000454,modalities,fmri;ieeg,nm000454_nemar,"recording modalities: anat, func, ieeg",2026-11-14,script,current,
+nm000454/modalities/01,nm000454,modalities,fmri;ieeg,nm000454_nemar,"recording modalities: anat, func, ieeg",2026-11-14,script,superseded,superseded by nm000454/modalities/02
+nm000454/modalities/02,nm000454,modalities,fmri,nm000454_doca73800,structural and functional MRI datasets from 30 patients with drug-resistant focal epilepsy,2026-11-16,claude,superseded,Audit reviewer; replaces a value read from a name or a generic modality field; superseded by nm000454/modalities/03
+nm000454/modalities/03,nm000454,modalities,ieeg_ecog;ieeg_seeg,nm000454_doca73800,"using electrocorticography (ECoG) grids and strips, stereoelectroencephalography (SEEG) depth electrodes, or a combination of both",2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000454/n_recordings_reported/01,nm000454,n_recordings_reported,1261,nm000454_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000454/n_subjects_reported/01,nm000454,n_subjects_reported,30,nm000454_nemar,subject_count,2026-11-14,script,current,
+nm000454/n_subjects_reported/02,nm000454,n_subjects_reported,30,nm000454_doca73800,we acquired paired 3T and 7T structural and functional MRI datasets from 30 patients with drug-resistant focal epilepsy,2026-11-16,claude,current,Audit reviewer; scope: whole dataset (15 have ieeg)
 nm000454/name/01,nm000454,name,"A multimodal epilepsy dataset of paired 3-Tesla and 7-Tesla MRI and intracranial EEG (Penn 3T-7T, Pennsieve 662)",nm000454_nemar,Record name,2026-11-14,script,current,
+nm000454/participant_groups:patients.age_mean/01,nm000454,participant_groups:patients.age_mean,38.8,nm000454_doca73800,"We retrospectively enrolled 30 patients with temporal lobe epilepsy (18 females, 12 males; mean age: 38.8 ± 11.7 years)",2026-11-16,claude,current,
+nm000454/participant_groups:patients.age_sd/01,nm000454,participant_groups:patients.age_sd,11.7,nm000454_doca73800,"We retrospectively enrolled 30 patients with temporal lobe epilepsy (18 females, 12 males; mean age: 38.8 ± 11.7 years)",2026-11-16,claude,current,
+nm000454/participant_groups:patients.condition/01,nm000454,participant_groups:patients.condition,patient,nm000454_doca73800,"We retrospectively enrolled 30 patients with temporal lobe epilepsy (18 females, 12 males; mean age: 38.8 ± 11.7 years)",2026-11-16,claude,current,
+nm000454/participant_groups:patients.n_female/01,nm000454,participant_groups:patients.n_female,18,nm000454_doca73800,"We retrospectively enrolled 30 patients with temporal lobe epilepsy (18 females, 12 males; mean age: 38.8 ± 11.7 years)",2026-11-16,claude,current,
+nm000454/participant_groups:patients.n_male/01,nm000454,participant_groups:patients.n_male,12,nm000454_doca73800,"We retrospectively enrolled 30 patients with temporal lobe epilepsy (18 females, 12 males; mean age: 38.8 ± 11.7 years)",2026-11-16,claude,current,
+nm000454/participant_groups:patients.n_subjects/01,nm000454,participant_groups:patients.n_subjects,30,nm000454_doca73800,"We retrospectively enrolled 30 patients with temporal lobe epilepsy (18 females, 12 males; mean age: 38.8 ± 11.7 years)",2026-11-16,claude,current,
 nm000454/size_gb_reported/01,nm000454,size_gb_reported,213.81,nm000454_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000454/tasks:ictal1002743.task_name/01,nm000454,tasks:ictal1002743.task_name,ictal1002743,nm000454_nemar,tasks,2026-11-14,script,current,
 nm000454/tasks:ictal10046.task_name/01,nm000454,tasks:ictal10046.task_name,ictal10046,nm000454_nemar,tasks,2026-11-14,script,current,
@@ -28330,14 +28360,28 @@ nm000454/year_published/01,nm000454,year_published,2026,nm000454_nemar,first_pub
 nm000455/access_routes:nemar.access_method/01,nm000455,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000455/access_routes:nemar.automation_tool/01,nm000455,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000455/access_routes:nemar.human_steps/01,nm000455,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000455/acquisition_setups:main.device_manufacturer/01,nm000455,acquisition_setups:main.device_manufacturer,Natus,nm000455_doc8b7d09,were recorded with a Natus Neurolink/Braintronics amplifier,2026-11-16,claude,current,Audit reviewer; scope: yale new haven hospital site
+nm000455/acquisition_setups:main.sampling_rate_hz/01,nm000455,acquisition_setups:main.sampling_rate_hz,4096,nm000455_doc8b7d09,"(sampling rate 4096 Hz, bandpass filter with corner frequencies of 0.1 Hz and 1.33 kHz",2026-11-16,claude,conflicting,Audit reviewer; scope: yale site (one patient 1024 hz)
+nm000455/acquisition_setups:main.sampling_rate_hz/02,nm000455,acquisition_setups:main.sampling_rate_hz,2048,nm000455_doc8b7d09,"Recordings at Mt. Sinai were conducted with Natus NeuroWorks (sampling rate 2048 Hz, with bandpass filter with corner frequencies of 0.1 Hz and 670 Hz)",2026-11-16,claude,conflicting,Audit reviewer; scope: mount sinai site
+nm000455/domains/01,nm000455,domains,epilepsy,nm000455_doc2aad8d,intracranial EEG from adults with drug-resistant epilepsy performing an auditory perceptual threshold task,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000455/hours_reported/01,nm000455,hours_reported,4.97,nm000455_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000455/is_bids/01,nm000455,is_bids,true,nm000455_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000455/license_spdx/01,nm000455,license_spdx,CC0-1.0,nm000455_nemar,License: CC0-1.0,2026-11-14,script,current,
 nm000455/modalities/01,nm000455,modalities,ieeg,nm000455_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000455/modalities/02,nm000455,modalities,ieeg,nm000455_doc2aad8d,"Intracranial EEG was recorded from subdural grids, strips and depth electrodes at three clinical sites",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000455/n_recordings_reported/01,nm000455,n_recordings_reported,32,nm000455_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000455/n_subjects_reported/01,nm000455,n_subjects_reported,30,nm000455_nemar,subject_count,2026-11-14,script,current,
+nm000455/n_subjects_reported/02,nm000455,n_subjects_reported,30,nm000455_doc2aad8d,The release contains 2-second grey-matter electrode epochs from 30 participants (32 recordings),2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000455/name/01,nm000455,name,The neural activity of auditory conscious perception: intracranial EEG epochs (Christison-Lagay et al. 2025; derivative: authors' 2-s grey-matter epochs),nm000455_nemar,Record name,2026-11-14,script,current,
+nm000455/participant_groups:enrolled_patients.age_max/01,nm000455,participant_groups:enrolled_patients.age_max,69,nm000455_doc8b7d09,A total of 38 patients were enrolled; females 16; mean age 38.8 (range 16–69) years old.,2026-11-16,claude,current,
+nm000455/participant_groups:enrolled_patients.age_mean/01,nm000455,participant_groups:enrolled_patients.age_mean,38.8,nm000455_doc8b7d09,A total of 38 patients were enrolled; females 16; mean age 38.8 (range 16–69) years old.,2026-11-16,claude,current,
+nm000455/participant_groups:enrolled_patients.age_min/01,nm000455,participant_groups:enrolled_patients.age_min,16,nm000455_doc8b7d09,A total of 38 patients were enrolled; females 16; mean age 38.8 (range 16–69) years old.,2026-11-16,claude,current,
+nm000455/participant_groups:enrolled_patients.condition/01,nm000455,participant_groups:enrolled_patients.condition,patient,nm000455_doc8b7d09,A total of 38 patients were enrolled; females 16; mean age 38.8 (range 16–69) years old.,2026-11-16,claude,current,
+nm000455/participant_groups:enrolled_patients.n_female/01,nm000455,participant_groups:enrolled_patients.n_female,16,nm000455_doc8b7d09,A total of 38 patients were enrolled; females 16; mean age 38.8 (range 16–69) years old.,2026-11-16,claude,current,
+nm000455/participant_groups:enrolled_patients.n_subjects/01,nm000455,participant_groups:enrolled_patients.n_subjects,38,nm000455_doc8b7d09,A total of 38 patients were enrolled; females 16; mean age 38.8 (range 16–69) years old.,2026-11-16,claude,current,
 nm000455/size_gb_reported/01,nm000455,size_gb_reported,58.16,nm000455_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000455/tasks:auditory_perceptual_threshold_task.paradigms/01,nm000455,tasks:auditory_perceptual_threshold_task.paradigms,other,nm000455_doc2aad8d,performing an auditory perceptual threshold task,2026-11-16,claude,current,
+nm000455/tasks:auditory_perceptual_threshold_task.task_name/01,nm000455,tasks:auditory_perceptual_threshold_task.task_name,auditory perceptual threshold task,nm000455_doc2aad8d,performing an auditory perceptual threshold task,2026-11-16,claude,current,
 nm000455/tasks:auditorythreshold.task_name/01,nm000455,tasks:auditorythreshold.task_name,auditorythreshold,nm000455_nemar,tasks,2026-11-14,script,current,
 nm000455/year_published/01,nm000455,year_published,2026,nm000455_nemar,first_published_at,2026-11-14,script,current,
 nm000456/access_routes:nemar.access_method/01,nm000456,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
@@ -28345,58 +28389,75 @@ nm000456/access_routes:nemar.automation_tool/01,nm000456,access_routes:nemar.aut
 nm000456/access_routes:nemar.human_steps/01,nm000456,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
 nm000456/acquisition_setups:main.line_freq_hz/01,nm000456,acquisition_setups:main.line_freq_hz,60,nm000456_nemar,power_line_frequency,2026-11-14,script,current,
 nm000456/acquisition_setups:main.montage_system/01,nm000456,acquisition_setups:main.montage_system,10_10,nm000456_nemar,electrode_system: 10-10,2026-11-14,script,current,
-nm000456/acquisition_setups:main.sampling_rate_hz/01,nm000456,acquisition_setups:main.sampling_rate_hz,256,nm000456_nemar,sampling_frequency,2026-11-14,script,current,
+nm000456/acquisition_setups:main.sampling_rate_hz/01,nm000456,acquisition_setups:main.sampling_rate_hz,256,nm000456_nemar,sampling_frequency,2026-11-14,script,conflicting,
+nm000456/acquisition_setups:main.sampling_rate_hz/02,nm000456,acquisition_setups:main.sampling_rate_hz,256,nm000456_doc624194,Patients were monitored continuously with scalp EEG (256 Hz) or SEEG (1024 Hz),2026-11-16,claude,conflicting,Audit reviewer; scope: scalp eeg patients
+nm000456/acquisition_setups:main.sampling_rate_hz/03,nm000456,acquisition_setups:main.sampling_rate_hz,1024,nm000456_doc624194,Patients were monitored continuously with scalp EEG (256 Hz) or SEEG (1024 Hz),2026-11-16,claude,conflicting,Audit reviewer; scope: seeg patients
+nm000456/domains/01,nm000456,domains,epilepsy,nm000456_doc624194,13 patients undergoing video-EEG monitoring in an epilepsy monitoring unit,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000456/hours_reported/01,nm000456,hours_reported,232.28,nm000456_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000456/is_bids/01,nm000456,is_bids,true,nm000456_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000456/license_spdx/01,nm000456,license_spdx,CC-BY-NC-SA-4.0,nm000456_nemar,License: CC-BY-NC-SA-4.0,2026-11-14,script,current,
-nm000456/modalities/01,nm000456,modalities,ieeg;scalp_eeg,nm000456_nemar,"recording modalities: eeg, ieeg",2026-11-14,script,current,
+nm000456/modalities/01,nm000456,modalities,ieeg;scalp_eeg,nm000456_nemar,"recording modalities: eeg, ieeg",2026-11-14,script,superseded,superseded by nm000456/modalities/02
+nm000456/modalities/02,nm000456,modalities,scalp_eeg;ieeg_seeg,nm000456_doc624194,This dataset contains continuous scalp EEG and stereo-EEG (SEEG) recordings from 13 patients,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000456/n_recordings_reported/01,nm000456,n_recordings_reported,69,nm000456_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000456/n_subjects_reported/01,nm000456,n_subjects_reported,13,nm000456_nemar,subject_count,2026-11-14,script,current,
+nm000456/n_subjects_reported/02,nm000456,n_subjects_reported,13,nm000456_doc624194,This dataset contains continuous scalp EEG and stereo-EEG (SEEG) recordings from 13 patients,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000456/name/01,nm000456,name,Human-AI collaboration for co-managing epilepsy in real time: scalp EEG and SEEG from 13 epilepsy monitoring unit patients,nm000456_nemar,Record name,2026-11-14,script,current,
+nm000456/participant_groups:ieeg_patients.n_subjects/01,nm000456,participant_groups:ieeg_patients.n_subjects,2,nm000456_docaba61a,(scalp EEG n=11; iEEG n=2;,2026-11-16,claude,current,
+nm000456/participant_groups:scalp_eeg_patients.n_subjects/01,nm000456,participant_groups:scalp_eeg_patients.n_subjects,11,nm000456_docaba61a,(scalp EEG n=11; iEEG n=2;,2026-11-16,claude,current,
 nm000456/size_gb_reported/01,nm000456,size_gb_reported,514.44,nm000456_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000456/tasks:monitoring.paradigms/01,nm000456,tasks:monitoring.paradigms,long_term_monitoring,nm000456_docaba61a,for continuous video and scalp or iEEG monitoring,2026-11-16,claude,current,
 nm000456/tasks:monitoring.task_name/01,nm000456,tasks:monitoring.task_name,monitoring,nm000456_nemar,tasks,2026-11-14,script,current,
 nm000456/year_published/01,nm000456,year_published,2026,nm000456_nemar,first_published_at,2026-11-14,script,current,
 nm000460/access_routes:nemar.access_method/01,nm000460,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000460/access_routes:nemar.automation_tool/01,nm000460,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000460/access_routes:nemar.human_steps/01,nm000460,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000460/acquisition_setups:main.device_manufacturer/01,nm000460,acquisition_setups:main.device_manufacturer,NeuraLynx,nm000460_doc8e08e7,using a unity gain HS-9 head-stage amplifier (NeuraLynx),2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000460/acquisition_setups:main.device_model/01,nm000460,acquisition_setups:main.device_model,HS-9 head-stage,nm000460_doc8e08e7,using a unity gain HS-9 head-stage amplifier (NeuraLynx),2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000460/acquisition_setups:main.ground/01,nm000460,acquisition_setups:main.ground,skull-screw ground,nm000460_doc8e08e7,Signals from the microwires were amplified with respect to a skull-screw ground,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000460/acquisition_setups:main.n_channels_eeg/01,nm000460,acquisition_setups:main.n_channels_eeg,6,nm000460_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000460/acquisition_setups:main.sampling_rate_hz/01,nm000460,acquisition_setups:main.sampling_rate_hz,32500,nm000460_doc8e08e7,We digitized and sampled the signal at 32.5 kHz before storing it for later analysis.,2026-11-16,claude,conflicting,Audit reviewer; scope: recorded
+nm000460/acquisition_setups:main.sampling_rate_hz/02,nm000460,acquisition_setups:main.sampling_rate_hz,930.171,nm000460_doc0869cb,all released at FsD = 930.1714 Hz,2026-11-16,claude,conflicting,Audit reviewer; scope: distributed
+nm000460/domains/01,nm000460,domains,epilepsy;perception,nm000460_doc0869cb,of one epilepsy patient,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000460/hours_reported/01,nm000460,hours_reported,1.02,nm000460_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000460/is_bids/01,nm000460,is_bids,true,nm000460_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000460/license_spdx/01,nm000460,license_spdx,CC-BY-4.0,nm000460_nemar,License: CC-BY-4.0,2026-11-14,script,current,
-nm000460/modalities/01,nm000460,modalities,ieeg,nm000460_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000460/modalities/01,nm000460,modalities,ieeg,nm000460_nemar,recording modalities: ieeg,2026-11-14,script,superseded,superseded by nm000460/modalities/02
+nm000460/modalities/02,nm000460,modalities,ieeg_seeg;eye_tracking,nm000460_doc0869cb,Visual stimuli were shown on an LCD with eye tracking by EyeLink,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000460/n_recordings_reported/01,nm000460,n_recordings_reported,7,nm000460_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000460/n_subjects_reported/01,nm000460,n_subjects_reported,1,nm000460_nemar,subject_count,2026-11-14,script,current,
+nm000460/n_subjects_reported/02,nm000460,n_subjects_reported,1,nm000460_doc0869cb,recorded from two microwires in human early visual cortex (V2/V3) of one epilepsy patient,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000460/name/01,nm000460,name,"Spiking activity (MUA) and LFP from two microwires in human V2/V3, one patient, stimulus-locked epochs of 7 visual experiments (Self et al. 2016; derivative)",nm000460_nemar,Record name,2026-11-14,script,current,
+nm000460/participant_groups:patient.age_mean/01,nm000460,participant_groups:patient.age_mean,35,nm000460_doc8e08e7,She was a 35-y-old female with a normal IQ and no reported visual deficits. The patient had late-onset epilepsy,2026-11-16,claude,current,
+nm000460/participant_groups:patient.condition/01,nm000460,participant_groups:patient.condition,patient,nm000460_doc8e08e7,She was a 35-y-old female with a normal IQ and no reported visual deficits. The patient had late-onset epilepsy,2026-11-16,claude,current,
+nm000460/participant_groups:patient.diagnosis/01,nm000460,participant_groups:patient.diagnosis,late-onset epilepsy,nm000460_doc8e08e7,She was a 35-y-old female with a normal IQ and no reported visual deficits. The patient had late-onset epilepsy,2026-11-16,claude,current,
 nm000460/size_gb_reported/01,nm000460,size_gb_reported,0.2,nm000460_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000460/tasks:context.task_name/01,nm000460,tasks:context.task_name,context,nm000460_nemar,tasks,2026-11-14,script,current,
 nm000460/tasks:contrast.task_name/01,nm000460,tasks:contrast.task_name,contrast,nm000460_nemar,tasks,2026-11-14,script,current,
+nm000460/tasks:curve_tracing_task.paradigms/01,nm000460,tasks:curve_tracing_task.paradigms,other,nm000460_doc8e08e7,"we used a curve-tracing task ( Fig 7A ), in which the patient mentally traced a target curve",2026-11-16,claude,current,
+nm000460/tasks:curve_tracing_task.task_name/01,nm000460,tasks:curve_tracing_task.task_name,curve-tracing task,nm000460_doc8e08e7,"we used a curve-tracing task ( Fig 7A ), in which the patient mentally traced a target curve",2026-11-16,claude,current,
 nm000460/tasks:curvetracing.task_name/01,nm000460,tasks:curvetracing.task_name,curvetracing,nm000460_nemar,tasks,2026-11-14,script,current,
 nm000460/tasks:orientation.task_name/01,nm000460,tasks:orientation.task_name,orientation,nm000460_nemar,tasks,2026-11-14,script,current,
 nm000460/tasks:rfmapping.task_name/01,nm000460,tasks:rfmapping.task_name,rfmapping,nm000460_nemar,tasks,2026-11-14,script,current,
 nm000460/tasks:size.task_name/01,nm000460,tasks:size.task_name,size,nm000460_nemar,tasks,2026-11-14,script,current,
 nm000460/tasks:spatialfreq.task_name/01,nm000460,tasks:spatialfreq.task_name,spatialfreq,nm000460_nemar,tasks,2026-11-14,script,current,
 nm000460/year_published/01,nm000460,year_published,2026,nm000460_nemar,first_published_at,2026-11-14,script,current,
-nm000461/access_routes:nemar.access_method/01,nm000461,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
-nm000461/access_routes:nemar.automation_tool/01,nm000461,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
-nm000461/access_routes:nemar.human_steps/01,nm000461,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
-nm000461/is_bids/01,nm000461,is_bids,true,nm000461_nemar,bids_version 1.10.0,2026-11-14,script,current,
-nm000461/license_spdx/01,nm000461,license_spdx,CDLA-Sharing-1.0,nm000461_nemar,License: CDLA-Sharing-1.0,2026-11-14,script,current,
-nm000461/modalities/01,nm000461,modalities,ieeg,nm000461_nemar,recording modalities: ieeg,2026-11-14,script,current,
-nm000461/n_subjects_reported/01,nm000461,n_subjects_reported,148,nm000461_nemar,subject_count,2026-11-14,script,current,
-nm000461/name/01,nm000461,name,"iEEG networks preprocessing study (Shi, Pattnaik et al. 2024; HUP + MUSC): functional-connectivity networks for 2 re-referencing x 24 connectivity pipelines (derivative)",nm000461_nemar,Record name,2026-11-14,script,current,
-nm000461/size_gb_reported/01,nm000461,size_gb_reported,3.9,nm000461_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
-nm000461/tasks:interictal.task_name/01,nm000461,tasks:interictal.task_name,interictal,nm000461_nemar,tasks,2026-11-14,script,current,
-nm000461/year_published/01,nm000461,year_published,2026,nm000461_nemar,first_published_at,2026-11-14,script,current,
 nm000462/access_routes:nemar.access_method/01,nm000462,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000462/access_routes:nemar.automation_tool/01,nm000462,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000462/access_routes:nemar.human_steps/01,nm000462,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000462/acquisition_setups:main.device_manufacturer/01,nm000462,acquisition_setups:main.device_manufacturer,Natus,nm000462_doc1c52d8,Signals were recorded using a Natus Quantum system (sampling rate: 512–2048 Hz),2026-11-16,claude,current,Audit reviewer; scope: source recordings
+nm000462/acquisition_setups:main.device_model/01,nm000462,acquisition_setups:main.device_model,Quantum,nm000462_doc1c52d8,Signals were recorded using a Natus Quantum system (sampling rate: 512–2048 Hz),2026-11-16,claude,current,Audit reviewer; scope: source recordings
+nm000462/acquisition_setups:main.sampling_rate_hz/01,nm000462,acquisition_setups:main.sampling_rate_hz,128,nm000462_doca41a8d,"preprocessed bipolar SEEG, 128 Hz",2026-11-16,claude,current,Audit reviewer; scope: distributed seizure traces
+nm000462/domains/01,nm000462,domains,epilepsy,nm000462_doc1c52d8,We compared 441 low-frequency (1 Hz) stim and spontaneous seizures in a multi-center cohort of 105 patients,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000462/hours_reported/01,nm000462,hours_reported,0.41,nm000462_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000462/is_bids/01,nm000462,is_bids,true,nm000462_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000462/license_spdx/01,nm000462,license_spdx,CC-BY-NC-SA-4.0,nm000462_nemar,License: CC-BY-NC-SA-4.0,2026-11-14,script,current,
-nm000462/modalities/01,nm000462,modalities,ieeg,nm000462_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000462/modalities/01,nm000462,modalities,ieeg,nm000462_nemar,recording modalities: ieeg,2026-11-14,script,superseded,superseded by nm000462/modalities/02
+nm000462/modalities/02,nm000462,modalities,ieeg_seeg,nm000462_doca41a8d,four preprocessed bipolar SEEG seizure traces,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000462/n_recordings_reported/01,nm000462,n_recordings_reported,4,nm000462_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000462/n_subjects_reported/01,nm000462,n_subjects_reported,33,nm000462_nemar,subject_count,2026-11-14,script,current,
 nm000462/name/01,nm000462,name,"stim-seizures (Ojemann et al.; HUP + CHOP): seizure annotations, electrode localisations and preprocessed SEEG seizure traces (derivative)",nm000462_nemar,Record name,2026-11-14,script,current,
+nm000462/participant_groups:patients.condition/01,nm000462,participant_groups:patients.condition,patient,nm000462_doca41a8d,"all 105 patients of the release (55 HUP, 50 CHOP)",2026-11-16,claude,current,
+nm000462/participant_groups:patients.n_subjects/01,nm000462,participant_groups:patients.n_subjects,105,nm000462_doca41a8d,"all 105 patients of the release (55 HUP, 50 CHOP)",2026-11-16,claude,current,
 nm000462/size_gb_reported/01,nm000462,size_gb_reported,0.56,nm000462_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000462/tasks:ictal.task_name/01,nm000462,tasks:ictal.task_name,ictal,nm000462_nemar,tasks,2026-11-14,script,current,
 nm000462/tasks:ictal294225.task_name/01,nm000462,tasks:ictal294225.task_name,ictal294225,nm000462_nemar,tasks,2026-11-14,script,current,
@@ -28404,95 +28465,141 @@ nm000462/year_published/01,nm000462,year_published,2026,nm000462_nemar,first_pub
 nm000463/access_routes:nemar.access_method/01,nm000463,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000463/access_routes:nemar.automation_tool/01,nm000463,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000463/access_routes:nemar.human_steps/01,nm000463,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000463/acquisition_setups:main.device_manufacturer/01,nm000463,acquisition_setups:main.device_manufacturer,Natus Medical Inc.,nm000463_doc2219a4,with a Quantum amplifier (Natus Medical Inc.),2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000463/acquisition_setups:main.device_model/01,nm000463,acquisition_setups:main.device_model,Quantum,nm000463_doc2219a4,with a Quantum amplifier (Natus Medical Inc.),2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000463/acquisition_setups:main.reference/01,nm000463,acquisition_setups:main.reference,lab standard placed between the Fz and Cz,nm000463_doc2219a4,with signals referenced to the lab standard placed between the Fz and Cz,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000463/acquisition_setups:main.sampling_rate_hz/01,nm000463,acquisition_setups:main.sampling_rate_hz,4096,nm000463_doc2219a4,All channels were monitored at a sampling rate of 4096 Hz with a Quantum amplifier (Natus Medical Inc.),2026-11-16,claude,conflicting,Audit reviewer; scope: recorded
+nm000463/acquisition_setups:main.sampling_rate_hz/02,nm000463,acquisition_setups:main.sampling_rate_hz,3600,nm000463_doc920e8d,Snippets of 1441 samples at 3600 Hz around each HFO were filtered at 80-500 Hz,2026-11-16,claude,conflicting,Audit reviewer; scope: distributed snippets
+nm000463/domains/01,nm000463,domains,epilepsy,nm000463_doc920e8d,from two epilepsy surgery patients with good and poor outcomes,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000463/hours_reported/01,nm000463,hours_reported,8.4,nm000463_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000463/is_bids/01,nm000463,is_bids,true,nm000463_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000463/license_spdx/01,nm000463,license_spdx,CC-BY-SA-4.0,nm000463_nemar,License: CC-BY-SA-4.0,2026-11-14,script,current,
 nm000463/modalities/01,nm000463,modalities,ieeg,nm000463_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000463/modalities/02,nm000463,modalities,ieeg,nm000463_doc920e8d,intracranial EEG snippets around interictal high frequency oscillations (HFOs),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000463/n_recordings_reported/01,nm000463,n_recordings_reported,155,nm000463_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000463/n_subjects_reported/01,nm000463,n_subjects_reported,2,nm000463_nemar,subject_count,2026-11-14,script,current,
+nm000463/n_subjects_reported/02,nm000463,n_subjects_reported,2,nm000463_doc920e8d,from two epilepsy surgery patients with good and poor outcomes,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000463/name/01,nm000463,name,"Network dynamics of HFOs (Lin & Stacey; Michigan): filtered and RMS iEEG snippets around interictal HFOs, 2 patients (derivative)",nm000463_nemar,Record name,2026-11-14,script,current,
+nm000463/participant_groups:patients.condition/01,nm000463,participant_groups:patients.condition,patient,nm000463_doc920e8d,from two epilepsy surgery patients with good and poor outcomes,2026-11-16,claude,current,
+nm000463/participant_groups:patients.diagnosis/01,nm000463,participant_groups:patients.diagnosis,epilepsy (surgery patients),nm000463_doc920e8d,from two epilepsy surgery patients with good and poor outcomes,2026-11-16,claude,current,
+nm000463/participant_groups:patients.n_subjects/01,nm000463,participant_groups:patients.n_subjects,2,nm000463_doc920e8d,from two epilepsy surgery patients with good and poor outcomes,2026-11-16,claude,current,
 nm000463/size_gb_reported/01,nm000463,size_gb_reported,203.76,nm000463_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000463/tasks:background.task_name/01,nm000463,tasks:background.task_name,background,nm000463_nemar,tasks,2026-11-14,script,current,
 nm000463/tasks:hfo.task_name/01,nm000463,tasks:hfo.task_name,hfo,nm000463_nemar,tasks,2026-11-14,script,current,
 nm000463/year_published/01,nm000463,year_published,2026,nm000463_nemar,first_published_at,2026-11-14,script,current,
-nm000464/access_routes:nemar.access_method/01,nm000464,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
-nm000464/access_routes:nemar.automation_tool/01,nm000464,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
-nm000464/access_routes:nemar.human_steps/01,nm000464,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
-nm000464/is_bids/01,nm000464,is_bids,true,nm000464_nemar,bids_version 1.10.0,2026-11-14,script,current,
-nm000464/license_spdx/01,nm000464,license_spdx,CC-BY-NC-SA-4.0,nm000464_nemar,License: CC-BY-NC-SA-4.0,2026-11-14,script,current,
-nm000464/modalities/01,nm000464,modalities,ieeg,nm000464_nemar,recording modalities: ieeg,2026-11-14,script,current,
-nm000464/n_subjects_reported/01,nm000464,n_subjects_reported,78,nm000464_nemar,subject_count,2026-11-14,script,current,
-nm000464/name/01,nm000464,name,Vanderbilt BIEN Lab Peri-ictal Dynamics Data (Makhoul et al. 2025): per-seizure SEEG partial directed coherence and imaginary coherence,nm000464_nemar,Record name,2026-11-14,script,current,
-nm000464/size_gb_reported/01,nm000464,size_gb_reported,1664.76,nm000464_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
-nm000464/tasks:periictal.task_name/01,nm000464,tasks:periictal.task_name,periictal,nm000464_nemar,tasks,2026-11-14,script,current,
-nm000464/year_published/01,nm000464,year_published,2026,nm000464_nemar,first_published_at,2026-11-14,script,current,
 nm000465/access_routes:nemar.access_method/01,nm000465,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000465/access_routes:nemar.automation_tool/01,nm000465,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000465/access_routes:nemar.human_steps/01,nm000465,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000465/acquisition_setups:main.device_manufacturer/01,nm000465,acquisition_setups:main.device_manufacturer,Tucker-Davis technologies,nm000465_doca6fdb9,"LFP recordings were made on a Tucker-Davis technologies (Alachua, FL) system",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000465/acquisition_setups:main.sampling_rate_hz/01,nm000465,acquisition_setups:main.sampling_rate_hz,2000,nm000465_doc6aba19,Sampling rates were 2000 and 24000 Hz.,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
+nm000465/acquisition_setups:main.sampling_rate_hz/02,nm000465,acquisition_setups:main.sampling_rate_hz,24000,nm000465_doc6aba19,Sampling rates were 2000 and 24000 Hz.,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 nm000465/hours_reported/01,nm000465,hours_reported,7.33,nm000465_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000465/is_bids/01,nm000465,is_bids,true,nm000465_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000465/license_spdx/01,nm000465,license_spdx,CC0-1.0,nm000465_nemar,License: CC0-1.0,2026-11-14,script,current,
 nm000465/modalities/01,nm000465,modalities,ieeg,nm000465_nemar,recording modalities: ieeg,2026-11-14,script,current,
 nm000465/n_recordings_reported/01,nm000465,n_recordings_reported,47,nm000465_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000465/n_subjects_reported/01,nm000465,n_subjects_reported,23,nm000465_nemar,subject_count,2026-11-14,script,current,
+nm000465/n_subjects_reported/02,nm000465,n_subjects_reported,23,nm000465_doca6fdb9,Twenty-three adult participants were recruited at the University of Iowa Hospitals and Clinics,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000465/name/01,nm000465,name,"Intraoperative STN/thalamic DBS-lead LFP with subgaleal sensorimotor strips during a stop-signal task (Diesburg, Greenlee & Wessel, 2021)",nm000465_nemar,Record name,2026-11-14,script,current,
+nm000465/participant_groups:analysed_participants.age_max/01,nm000465,participant_groups:analysed_participants.age_max,78,nm000465_doca6fdb9,"leaving a sample of 21 participants (nine female, mean age: 67 years, age range: 52–78)",2026-11-16,claude,current,
+nm000465/participant_groups:analysed_participants.age_mean/01,nm000465,participant_groups:analysed_participants.age_mean,67,nm000465_doca6fdb9,"leaving a sample of 21 participants (nine female, mean age: 67 years, age range: 52–78)",2026-11-16,claude,current,
+nm000465/participant_groups:analysed_participants.age_min/01,nm000465,participant_groups:analysed_participants.age_min,52,nm000465_doca6fdb9,"leaving a sample of 21 participants (nine female, mean age: 67 years, age range: 52–78)",2026-11-16,claude,current,
+nm000465/participant_groups:analysed_participants.n_female/01,nm000465,participant_groups:analysed_participants.n_female,9,nm000465_doca6fdb9,"leaving a sample of 21 participants (nine female, mean age: 67 years, age range: 52–78)",2026-11-16,claude,current,
+nm000465/participant_groups:analysed_participants.n_subjects/01,nm000465,participant_groups:analysed_participants.n_subjects,21,nm000465_doca6fdb9,"leaving a sample of 21 participants (nine female, mean age: 67 years, age range: 52–78)",2026-11-16,claude,current,
 nm000465/size_gb_reported/01,nm000465,size_gb_reported,20.68,nm000465_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000465/tasks:auditory_stop_signal_task_and_go_only_lo.paradigms/01,nm000465,tasks:auditory_stop_signal_task_and_go_only_lo.paradigms,other,nm000465_doc6aba19,Twenty-three patients performed an auditory stop-signal task and a go-only localizer.,2026-11-16,claude,current,
+nm000465/tasks:auditory_stop_signal_task_and_go_only_lo.task_name/01,nm000465,tasks:auditory_stop_signal_task_and_go_only_lo.task_name,auditory stop-signal task and go-only localizer,nm000465_doc6aba19,Twenty-three patients performed an auditory stop-signal task and a go-only localizer.,2026-11-16,claude,current,
 nm000465/tasks:localizer.task_name/01,nm000465,tasks:localizer.task_name,localizer,nm000465_nemar,tasks,2026-11-14,script,current,
 nm000465/tasks:stopsignal.task_name/01,nm000465,tasks:stopsignal.task_name,stopsignal,nm000465_nemar,tasks,2026-11-14,script,current,
 nm000465/year_published/01,nm000465,year_published,2026,nm000465_nemar,first_published_at,2026-11-14,script,current,
 nm000469/access_routes:nemar.access_method/01,nm000469,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000469/access_routes:nemar.automation_tool/01,nm000469,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000469/access_routes:nemar.human_steps/01,nm000469,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000469/acquisition_setups:main.device_manufacturer/01,nm000469,acquisition_setups:main.device_manufacturer,Nihon Kohden,nm000469_doc1cb78d,amplified at 2000 Hz using a Nihon Kohden JE-120 amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000469/acquisition_setups:main.device_model/01,nm000469,acquisition_setups:main.device_model,JE-120,nm000469_doc1cb78d,amplified at 2000 Hz using a Nihon Kohden JE-120 amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000469/acquisition_setups:main.n_channels_eeg/01,nm000469,acquisition_setups:main.n_channels_eeg,157,nm000469_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000469/acquisition_setups:main.n_channels_eeg/02,nm000469,acquisition_setups:main.n_channels_eeg,157,nm000469_docc99026,"Epoched stereo-EEG recordings (157 contacts, 200 Hz, 588 trials)",2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000469/acquisition_setups:main.sampling_rate_hz/01,nm000469,acquisition_setups:main.sampling_rate_hz,200,nm000469_docc99026,"Epoched stereo-EEG recordings (157 contacts, 200 Hz, 588 trials)",2026-11-16,claude,conflicting,Audit reviewer; scope: distributed epochs
+nm000469/acquisition_setups:main.sampling_rate_hz/02,nm000469,acquisition_setups:main.sampling_rate_hz,2000,nm000469_doc1cb78d,Local field potential neural activities in SEEG and EEG were simultaneously recorded and amplified at 2000 Hz using a Nihon Kohden JE-120 amplifier,2026-11-16,claude,conflicting,Audit reviewer; scope: recorded
 nm000469/hours_reported/01,nm000469,hours_reported,0.21,nm000469_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000469/is_bids/01,nm000469,is_bids,true,nm000469_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000469/license_spdx/01,nm000469,license_spdx,CC-BY-NC-4.0,nm000469_nemar,License: CC-BY-NC-4.0,2026-11-14,script,current,
-nm000469/modalities/01,nm000469,modalities,ieeg,nm000469_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000469/modalities/01,nm000469,modalities,ieeg,nm000469_nemar,recording modalities: ieeg,2026-11-14,script,superseded,superseded by nm000469/modalities/02
+nm000469/modalities/02,nm000469,modalities,ieeg_seeg,nm000469_docc99026,"Epoched stereo-EEG recordings (157 contacts, 200 Hz, 588 trials)",2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000469/n_recordings_reported/01,nm000469,n_recordings_reported,2,nm000469_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000469/n_subjects_reported/01,nm000469,n_subjects_reported,1,nm000469_nemar,subject_count,2026-11-14,script,current,
 nm000469/name/01,nm000469,name,Xie2026 amygdala ablation PTSD: epoched stereo-EEG of the index patient before and after right amygdala radiofrequency ablation (interpretation-bias task),nm000469_nemar,Record name,2026-11-14,script,current,
+nm000469/participant_groups:index_patient.condition/01,nm000469,participant_groups:index_patient.condition,patient,nm000469_doc1cb78d,a unique prospective case of a male patient with refractory epilepsy and comorbid chronic PTSD,2026-11-16,claude,current,
 nm000469/size_gb_reported/01,nm000469,size_gb_reported,0.17,nm000469_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000469/tasks:face_interpretation_bias_task.paradigms/01,nm000469,tasks:face_interpretation_bias_task.paradigms,other,nm000469_docc99026,performing a face interpretation-bias task,2026-11-16,claude,current,
+nm000469/tasks:face_interpretation_bias_task.task_name/01,nm000469,tasks:face_interpretation_bias_task.task_name,face interpretation-bias task,nm000469_docc99026,performing a face interpretation-bias task,2026-11-16,claude,current,
 nm000469/tasks:interpretation.task_name/01,nm000469,tasks:interpretation.task_name,interpretation,nm000469_nemar,tasks,2026-11-14,script,current,
 nm000469/year_published/01,nm000469,year_published,2026,nm000469_nemar,first_published_at,2026-11-14,script,current,
 nm000471/access_routes:nemar.access_method/01,nm000471,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000471/access_routes:nemar.automation_tool/01,nm000471,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000471/access_routes:nemar.human_steps/01,nm000471,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000471/acquisition_setups:main.sampling_rate_hz/01,nm000471,acquisition_setups:main.sampling_rate_hz,200,nm000471_doc630309,"(22 recordings, about 9 hours of epochs at 200 Hz)",2026-11-16,claude,conflicting,Audit reviewer; scope: distributed epochs
+nm000471/acquisition_setups:main.sampling_rate_hz/02,nm000471,acquisition_setups:main.sampling_rate_hz,1024,nm000471_doc246a3c,"Data were digitized at 512 Hz ( n = 1) or 1,024 Hz ( n = 10).",2026-11-16,claude,conflicting,"Audit reviewer; scope: recorded, 10 patients"
+nm000471/domains/01,nm000471,domains,epilepsy,nm000471_doc630309,Epoched intracranial EEG from 11 epilepsy patients,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000471/hours_reported/01,nm000471,hours_reported,9.03,nm000471_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000471/is_bids/01,nm000471,is_bids,true,nm000471_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000471/license_spdx/01,nm000471,license_spdx,CC0-1.0,nm000471_nemar,License: CC0-1.0,2026-11-14,script,current,
-nm000471/modalities/01,nm000471,modalities,ieeg,nm000471_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000471/modalities/01,nm000471,modalities,ieeg,nm000471_nemar,recording modalities: ieeg,2026-11-14,script,superseded,superseded by nm000471/modalities/02
+nm000471/modalities/02,nm000471,modalities,ieeg_seeg,nm000471_doc246a3c,iEEG was recorded for presurgical epilepsy diagnosis using laterally implanted depth electrodes,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000471/n_recordings_reported/01,nm000471,n_recordings_reported,22,nm000471_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000471/n_subjects_reported/01,nm000471,n_subjects_reported,11,nm000471_nemar,subject_count,2026-11-14,script,current,
+nm000471/n_subjects_reported/02,nm000471,n_subjects_reported,11,nm000471_doc630309,Epoched intracranial EEG from 11 epilepsy patients,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000471/name/01,nm000471,name,Treder2021 hippocampal switchboard: epoched intracranial EEG during object/scene localiser and associative recall (extra-hippocampal channels),nm000471_nemar,Record name,2026-11-14,script,current,
+nm000471/participant_groups:ieeg_patients.age_max/01,nm000471,participant_groups:ieeg_patients.age_max,53,nm000471_doc246a3c,"all suffering from medically intractable epilepsy, volunteered (6 male, 5 female, aged 24 to 53 y, M = 34.45)",2026-11-16,claude,current,
+nm000471/participant_groups:ieeg_patients.age_mean/01,nm000471,participant_groups:ieeg_patients.age_mean,34.45,nm000471_doc246a3c,"all suffering from medically intractable epilepsy, volunteered (6 male, 5 female, aged 24 to 53 y, M = 34.45)",2026-11-16,claude,current,
+nm000471/participant_groups:ieeg_patients.age_min/01,nm000471,participant_groups:ieeg_patients.age_min,24,nm000471_doc246a3c,"all suffering from medically intractable epilepsy, volunteered (6 male, 5 female, aged 24 to 53 y, M = 34.45)",2026-11-16,claude,current,
+nm000471/participant_groups:ieeg_patients.condition/01,nm000471,participant_groups:ieeg_patients.condition,patient,nm000471_doc246a3c,"all suffering from medically intractable epilepsy, volunteered (6 male, 5 female, aged 24 to 53 y, M = 34.45)",2026-11-16,claude,current,
+nm000471/participant_groups:ieeg_patients.diagnosis/01,nm000471,participant_groups:ieeg_patients.diagnosis,medically intractable epilepsy,nm000471_doc246a3c,"all suffering from medically intractable epilepsy, volunteered (6 male, 5 female, aged 24 to 53 y, M = 34.45)",2026-11-16,claude,current,
+nm000471/participant_groups:ieeg_patients.n_female/01,nm000471,participant_groups:ieeg_patients.n_female,5,nm000471_doc246a3c,"all suffering from medically intractable epilepsy, volunteered (6 male, 5 female, aged 24 to 53 y, M = 34.45)",2026-11-16,claude,current,
+nm000471/participant_groups:ieeg_patients.n_male/01,nm000471,participant_groups:ieeg_patients.n_male,6,nm000471_doc246a3c,"all suffering from medically intractable epilepsy, volunteered (6 male, 5 female, aged 24 to 53 y, M = 34.45)",2026-11-16,claude,current,
 nm000471/size_gb_reported/01,nm000471,size_gb_reported,4.29,nm000471_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
 nm000471/tasks:localiser.task_name/01,nm000471,tasks:localiser.task_name,localiser,nm000471_nemar,tasks,2026-11-14,script,current,
+nm000471/tasks:object_scene_localiser_and_associative_r.paradigms/01,nm000471,tasks:object_scene_localiser_and_associative_r.paradigms,other,nm000471_doc630309,recorded during an object/scene localiser task and an associative recall task,2026-11-16,claude,current,
+nm000471/tasks:object_scene_localiser_and_associative_r.task_name/01,nm000471,tasks:object_scene_localiser_and_associative_r.task_name,object/scene localiser and associative recall,nm000471_doc630309,recorded during an object/scene localiser task and an associative recall task,2026-11-16,claude,current,
 nm000471/tasks:recall.task_name/01,nm000471,tasks:recall.task_name,recall,nm000471_nemar,tasks,2026-11-14,script,current,
 nm000471/year_published/01,nm000471,year_published,2026,nm000471_nemar,first_published_at,2026-11-14,script,current,
 nm000472/access_routes:nemar.access_method/01,nm000472,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000472/access_routes:nemar.automation_tool/01,nm000472,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000472/access_routes:nemar.human_steps/01,nm000472,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
-nm000472/acquisition_setups:main.n_channels_eeg/01,nm000472,acquisition_setups:main.n_channels_eeg,102,nm000472_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000472/acquisition_setups:main.n_channels_eeg/01,nm000472,acquisition_setups:main.n_channels_eeg,102,nm000472_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,conflicting,
+nm000472/acquisition_setups:main.n_channels_eeg/02,nm000472,acquisition_setups:main.n_channels_eeg,100,nm000472_doc785904,The recording comprises 100 sEEG contacts across 12 electrodes plus two marker inputs,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
+nm000472/acquisition_setups:main.sampling_rate_hz/01,nm000472,acquisition_setups:main.sampling_rate_hz,256,nm000472_doc785904,sampled at 256 Hz for about 3.9 hours,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000472/domains/01,nm000472,domains,epilepsy,nm000472_doc785904,containing a single clinically confirmed seizure with bilateral tonic-clonic evolution,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000472/hours_reported/01,nm000472,hours_reported,3.92,nm000472_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000472/is_bids/01,nm000472,is_bids,true,nm000472_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000472/license_spdx/01,nm000472,license_spdx,CC-BY-4.0,nm000472_nemar,License: CC-BY-4.0,2026-11-14,script,current,
-nm000472/modalities/01,nm000472,modalities,ieeg,nm000472_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000472/modalities/01,nm000472,modalities,ieeg,nm000472_nemar,recording modalities: ieeg,2026-11-14,script,superseded,superseded by nm000472/modalities/02
+nm000472/modalities/02,nm000472,modalities,ieeg_seeg,nm000472_doc785904,A stereo-EEG (sEEG) recording from one patient undergoing clinical intracranial monitoring,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000472/n_recordings_reported/01,nm000472,n_recordings_reported,1,nm000472_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000472/n_subjects_reported/01,nm000472,n_subjects_reported,1,nm000472_nemar,subject_count,2026-11-14,script,current,
+nm000472/n_subjects_reported/02,nm000472,n_subjects_reported,1,nm000472_doc785904,A stereo-EEG (sEEG) recording from one patient undergoing clinical intracranial monitoring,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000472/name/01,nm000472,name,AIIsOutThere-2026-example,nm000472_nemar,Record name,2026-11-14,script,current,
 nm000472/size_gb_reported/01,nm000472,size_gb_reported,0.69,nm000472_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000472/tasks:seizure.paradigms/01,nm000472,tasks:seizure.paradigms,other,nm000472_doc785904,containing a single clinically confirmed seizure with bilateral tonic-clonic evolution,2026-11-16,claude,current,
 nm000472/tasks:seizure.task_name/01,nm000472,tasks:seizure.task_name,seizure,nm000472_nemar,tasks,2026-11-14,script,current,
 nm000472/year_published/01,nm000472,year_published,2026,nm000472_nemar,first_published_at,2026-11-14,script,current,
 nm000473/access_routes:nemar.access_method/01,nm000473,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000473/access_routes:nemar.automation_tool/01,nm000473,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000473/access_routes:nemar.human_steps/01,nm000473,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000473/domains/01,nm000473,domains,epilepsy,nm000473_doce8c17b,from 10 epilepsy patients (8.7 hours in total),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000473/hours_reported/01,nm000473,hours_reported,8.7,nm000473_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
+nm000473/hours_reported/02,nm000473,hours_reported,8.7,nm000473_doce8c17b,recorded at 1000 Hz from 10 epilepsy patients (8.7 hours in total),2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000473/is_bids/01,nm000473,is_bids,true,nm000473_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000473/license_spdx/01,nm000473,license_spdx,CC-BY-4.0,nm000473_nemar,License: CC-BY-4.0,2026-11-14,script,current,
-nm000473/modalities/01,nm000473,modalities,ieeg,nm000473_nemar,recording modalities: ieeg,2026-11-14,script,current,
+nm000473/modalities/01,nm000473,modalities,ieeg,nm000473_nemar,recording modalities: ieeg,2026-11-14,script,superseded,superseded by nm000473/modalities/02
+nm000473/modalities/02,nm000473,modalities,ieeg_ecog;video,nm000473_doce8c17b,Continuous electrocorticography (ECoG) recorded at 1000 Hz from 10 epilepsy patients (8.7 hours in total) while they watched movies,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 nm000473/n_recordings_reported/01,nm000473,n_recordings_reported,10,nm000473_nemar,recording_count (NEMAR's own measurement),2026-11-14,script,current,
 nm000473/n_subjects_reported/01,nm000473,n_subjects_reported,10,nm000473_nemar,subject_count,2026-11-14,script,current,
+nm000473/n_subjects_reported/02,nm000473,n_subjects_reported,10,nm000473_doce8c17b,Continuous electrocorticography (ECoG) recorded at 1000 Hz from 10 epilepsy patients,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 nm000473/name/01,nm000473,name,Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies,nm000473_nemar,Record name,2026-11-14,script,current,
 nm000473/size_gb_reported/01,nm000473,size_gb_reported,11.21,nm000473_nemar,"file_size in bytes, shown as GB",2026-11-14,script,current,
+nm000473/tasks:action_observation.paradigms/01,nm000473,tasks:action_observation.paradigms,passive_viewing,nm000473_doce8c17b,while they watched movies of sequential actions that were either predictable or unpredictable,2026-11-16,claude,current,
+nm000473/tasks:action_observation.task_name/01,nm000473,tasks:action_observation.task_name,action observation,nm000473_doce8c17b,while they watched movies of sequential actions that were either predictable or unpredictable,2026-11-16,claude,current,
 nm000473/tasks:actionobservation.task_name/01,nm000473,tasks:actionobservation.task_name,actionobservation,nm000473_nemar,tasks,2026-11-14,script,current,
 nm000473/year_published/01,nm000473,year_published,2026,nm000473_nemar,first_published_at,2026-11-14,script,current,
 nm000475/access_routes:nemar.access_method/01,nm000475,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
