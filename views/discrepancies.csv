@@ -665,6 +665,10 @@ mendeley_82pgy2k6sk,n_subjects_reported,conflicting,28,secondary,https://data.me
 mendeley_82pgy2k6sk,n_subjects_reported,conflicting,29,secondary,https://data.mendeley.com/public-api/datasets/82pgy2k6sk,Audit reviewer; scope: not given
 mendeley_ct5vrc4k2t,n_subjects_reported,conflicting,31,primary,https://data.mendeley.com/public-api/datasets/ct5vrc4k2t,Audit reviewer; scope: not given
 mendeley_ct5vrc4k2t,n_subjects_reported,conflicting,32,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10247322/fullTextXML,Audit reviewer; scope: not given
+mendeley_s87jk3p5ws,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://data.mendeley.com/public-api/datasets/s87jk3p5ws,Audit reviewer; scope: ecg
+mendeley_s87jk3p5ws,acquisition_setups:main.sampling_rate_hz,conflicting,2000,secondary,https://data.mendeley.com/public-api/datasets/s87jk3p5ws,Audit reviewer; scope: eeg
+mendeley_sgzbgwjfkr,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10294047/,Audit reviewer; scope: distributed epochs
+mendeley_sgzbgwjfkr,acquisition_setups:main.sampling_rate_hz,conflicting,2000,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10294047/,Audit reviewer; scope: recorded
 modma,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/s41597-022-01211-x,Audit reviewer; scope: 128-electrode part
 modma,acquisition_setups:main.sampling_rate_hz,conflicting,44100,primary,https://doi.org/10.1038/s41597-022-01211-x,Audit reviewer; scope: audio recordings
 mpi_lemon,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/sdata.2018.308,Audit reviewer; scope: preprocessed eeg
