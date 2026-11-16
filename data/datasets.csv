@@ -14,21 +14,21 @@ bnci_001_2016,ECoG-based 1-class motor imagery BCI (001-2016),,ieeg_ecog,bci;epi
 bnci_001_2017,Upper limb movement decoding from EEG (001-2017),,scalp_eeg;eog,bci;motor,,,CC-BY-4.0,,,,,,,,15,,,,,,,,,,direct_download,open,61,512,,g.tec,motor_execution;motor_imagery,,2026-11-16
 bnci_001_2019,Attempted arm and hand movements in persons with spinal cord injury (001-2019),,scalp_eeg;eog,bci;neurology,,,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,61,256,,g.tec medical engineering GmbH g.USBamps,motor_execution;resting_unspecified,,2026-11-16
 bnci_001_2020,"Reach and Grasp movement decoding from EEG with gel, water and dry electrodes (001-2020)",,scalp_eeg;eog,bci;motor,,,CC-BY-4.0,,,,,,,,45,,,,,,,,,,direct_download,open,,,,,motor_execution;resting_unspecified,,2026-11-16
-bnci_001_2022,EEG Correlates of Difficulty Level (001-2022),,eog;scalp_eeg,,,,CC-BY-4.0,,,,,,,,13,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-bnci_001_2024,Handwritten Character Classification from EEG through Continuous Kinematic Decoding (001-2024),,eog;scalp_eeg,,,,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,60,,,,,,2026-11-14
-bnci_001_2025,"Simultaneous encoding of speed, distance, and direction in discrete reaching: an EEG study (001-2025)",,eog;scalp_eeg,,,,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,60,,,,,,2026-11-14
-bnci_002_2014,Two class motor imagery (002-2014),,scalp_eeg,,,,CC-BY-ND-4.0,,,,,,,,14,,,,,,,,,,direct_download,open,15,,,,motor_imagery,,2026-11-14
-bnci_002_2015,Neuroprosthetic control of an EEG/EOG BNCI (002-2015),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,1,,,,,,,,,,direct_download,open,5,,,,,,2026-11-14
-bnci_002_2016,Emergency braking during simulated driving (002-2016),,emg;eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,18,,,,,,,,,,direct_download,open,59,,,,,,2026-11-14
-bnci_002_2020,Spatial attention shifts to colored items - an EEG-based BCI (002-2020),,eog;scalp_eeg,,,,CC-BY-4.0,,,,,,,,18,,,,,,,,,,direct_download,open,29,,,,,,2026-11-14
-bnci_002_2025,Continuous 2D trajectory decoding from attempted movement in able-bodied participants (002-2025),,eog;scalp_eeg,,,,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,60,,,,,,2026-11-14
-bnci_003_2015,Visual P300 speller (003-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,8,,,,p300_erp,,2026-11-14
-bnci_004_2014,Two class motor imagery (004-2014),,eog;scalp_eeg,,,,CC-BY-ND-4.0,,,,,,,,9,,,,,,,,,,direct_download,open,3,,,,motor_imagery,This two class motor imagery data set was originally released as data set 2b of the BCI Competition IV . [bnci_data_sets],2026-11-14
-bnci_004_2015,Individual imagery (004-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,9,,,,,,,,,,direct_download,open,30,,,,,,2026-11-14
-bnci_005_2014,Auditory oddball during hypnosis (005-2014),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,2,,,,,,,,,,direct_download,open,27,,,,p300_erp,,2026-11-14
-bnci_005_2015,Covert shifts of attention (005-2015),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,60,,,,,,2026-11-14
-bnci_006_2014,SCP training in stroke (006-2014),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,2,,,,,,,,,,direct_download,open,1,,,,,,2026-11-14
-bnci_006_2015,Music BCI (006-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,64,,,,,,2026-11-14
+bnci_001_2022,EEG Correlates of Difficulty Level (001-2022),,scalp_eeg;eog,,,,CC-BY-4.0,,,,,,,,13,,,,,,,,,,direct_download,open,64,256,,Biosemi ActiveTwo,other,,2026-11-16
+bnci_001_2024,Handwritten Character Classification from EEG through Continuous Kinematic Decoding (001-2024),,scalp_eeg;eog,,,,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,60,500,,,motor_execution,,2026-11-16
+bnci_001_2025,"Simultaneous encoding of speed, distance, and direction in discrete reaching: an EEG study (001-2025)",,scalp_eeg;eog,,,,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,60,500,,,motor_execution;other,,2026-11-16
+bnci_002_2014,Two class motor imagery (002-2014),,scalp_eeg,,,,CC-BY-ND-4.0,,,,,,,,conflicting,,,,,,,,,,direct_download,open,15,512,,Guger Technologies OG g.USBamp,motor_imagery,,2026-11-16
+bnci_002_2015,Neuroprosthetic control of an EEG/EOG BNCI (002-2015),,scalp_eeg;eog,,,,CC-BY-NC-ND-4.0,,,,,,,,1,,,,,,,,,,direct_download,open,5,200,10_20,BrainProducts GmbH BrainAmp,motor_imagery,,2026-11-16
+bnci_002_2016,Emergency braking during simulated driving (002-2016),,scalp_eeg;eog;emg,,,,CC-BY-NC-ND-4.0,,,,,,,,18,,,,,,,,,,direct_download,open,59,200,,BrainProducts BrainAmp,other,,2026-11-16
+bnci_002_2020,Spatial attention shifts to colored items - an EEG-based BCI (002-2020),,scalp_eeg;eog,,,,CC-BY-4.0,,,,,,,,18,,,,,,,,,,direct_download,open,29,250,,Brain Products GmbH BrainAmp DC,other,,2026-11-16
+bnci_002_2025,Continuous 2D trajectory decoding from attempted movement in able-bodied participants (002-2025),,scalp_eeg;eog,,,,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,60,,,,,,2026-11-16
+bnci_003_2015,Visual P300 speller (003-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,8,,,,p300_erp,,2026-11-16
+bnci_004_2014,Two class motor imagery (004-2014),,scalp_eeg;eog,,,,CC-BY-ND-4.0,,,,,,,,9,,,,,,,,,,direct_download,open,3,250,,,motor_imagery;resting_eyes_closed;resting_eyes_open,This two class motor imagery data set was originally released as data set 2b of the BCI Competition IV . [bnci_data_sets],2026-11-16
+bnci_004_2015,Individual imagery (004-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,9,,,,,,,,,,direct_download,open,30,256,10_20,g.tec GAMMAsys,cognitive_task;motor_imagery,,2026-11-16
+bnci_005_2014,Auditory oddball during hypnosis (005-2014),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,2,,,,,,,,,,direct_download,open,27,512,,g.tec medical engineering,auditory_erp;p300_erp,,2026-11-16
+bnci_005_2015,Covert shifts of attention (005-2015),,scalp_eeg;eog,,,,CC-BY-NC-ND-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,,1000,10_10,Brain Products,other;resting_eyes_closed;resting_eyes_open,,2026-11-16
+bnci_006_2014,SCP training in stroke (006-2014),,eog;scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,2,,,,,,,,,,direct_download,open,1,256,,Mindmedia Nexus-10 MKII DC,neurofeedback,,2026-11-16
+bnci_006_2015,Music BCI (006-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,11,,,,,,,,,,direct_download,open,64,,,,auditory_erp,,2026-11-16
 bnci_007_2014,Two-finger gameplay with deliberately failing controller (007-2014),,scalp_eeg;eog;emg;eda;respiration,bci;emotion,,,CC-BY-NC-ND-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,32,512,,BioSemi ActiveTwo,,,2026-11-16
 bnci_007_2015,Motion VEP Speller (007-2015),,scalp_eeg,,,,CC-BY-NC-ND-4.0,,,,,,,,16,,,,,,,,,,direct_download,open,63,,,,,,2026-11-16
 bnci_008_2014,P300 speller with ALS patients (008-2014),,scalp_eeg,bci,,,CC-BY-NC-ND-4.0,,,,,,,,8,,,,,,,,,,direct_download,open,8,256,10_10,g.tec g.MOBILAB,p300_erp,,2026-11-16

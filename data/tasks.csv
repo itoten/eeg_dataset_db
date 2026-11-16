@@ -31,10 +31,30 @@ bnci_001_2019,attempted_executed_arm_and_hand_movement,attempted/executed arm an
 bnci_001_2019,rest_runs,rest runs,resting_unspecified,,,,,,,,
 bnci_001_2020,rest_recording,rest recording,resting_unspecified,,,,,,,,
 bnci_001_2020,self_initiated_reach_and_grasp_palmar_an,self-initiated reach-and-grasp (palmar and lateral grasp),motor_execution,,,,,,,,
+bnci_001_2022,baseline_eye_closing_and_opening,baseline eye closing and opening,,,,,,,,,
+bnci_001_2022,piloting_a_simulated_drone_through_circu,piloting a simulated drone through circular waypoints,other,,,,,,,,
+bnci_001_2024,handwriting_letters_with_the_index_finge,handwriting letters with the index finger,motor_execution,,,,,,,,
+bnci_001_2025,directional_discrete_hand_movements,directional discrete hand movements,motor_execution,,,,,,,,
+bnci_001_2025,eye_blocks,Eye blocks,other,,,,,,,,
+bnci_002_2014,kinaesthetic_motor_imagery_of_right_hand,kinaesthetic motor imagery of right hand and feet,motor_imagery,,,,,,,,
 bnci_002_2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+bnci_002_2015,imagination_of_movement_vs_relaxation,imagination of movement vs relaxation,motor_imagery,,,,,,,,
+bnci_002_2016,simulated_driving_with_emergency_braking,simulated driving with emergency braking,other,,,,,,,,
+bnci_002_2020,covert_spatial_attention_shifts_to_color,covert spatial attention shifts to colored symbols (yes/no BCI),other,,,,,,,,
+bnci_002_2025,attempted_movement_trajectory_tracking_w,attempted movement trajectory tracking with visual mixing of decoded and target trajectory,,,,,,,,,
 bnci_003_2015,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+bnci_003_2015,visual_p300_spelling_row_column,visual P300 spelling (row/column),p300_erp,,,,,,,,
+bnci_004_2014,cue_based_motor_imagery_of_left_vs_right,cue-based motor imagery of left vs right hand,motor_imagery,,,,,,,,
+bnci_004_2014,eog_estimation_recording,EOG estimation recording,resting_eyes_closed;resting_eyes_open,,,,,,,,
 bnci_004_2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+bnci_004_2015,mental_word_association_subtraction_spat,"mental word association, subtraction, spatial navigation",cognitive_task,,,,,,,,
+bnci_004_2015,right_hand_and_feet_motor_imagery,right hand and feet motor imagery,motor_imagery,,,,,,,,
+bnci_005_2014,active_and_passive_auditory_oddball_befo,"active and passive auditory oddball, before and after hypnosis",auditory_erp,,,,,,,,
 bnci_005_2014,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+bnci_005_2015,cued_covert_shifts_of_visual_attention,cued covert shifts of visual attention,other,,,,,,,,
+bnci_005_2015,relaxation_measurement,relaxation measurement,resting_eyes_closed;resting_eyes_open,,,,,,,,
+bnci_006_2014,slow_cortical_potential_neurofeedback,slow cortical potential neurofeedback,neurofeedback,,,,,,,,
+bnci_006_2015,multi_streamed_oddball_with_attention_to,multi-streamed oddball with attention to one instrument,auditory_erp,,,,,,,,
 bnci_008_2014,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 bnci_008_2014,p300_speller_copy_spelling_6_by_6_matrix,"P300 speller (copy spelling, 6 by 6 matrix)",p300_erp,,,,,,,,
 bnci_009_2014,p300_speller_overt_attention_and_geospel,P300 Speller (overt attention) and GeoSpell (covert attention),p300_erp,,,,,,,,

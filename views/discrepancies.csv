@@ -11,8 +11,12 @@ bnci_001_2020,acquisition_setups:main.device_manufacturer,conflicting,Bitbrain,s
 bnci_001_2020,acquisition_setups:main.device_manufacturer,conflicting,g.tec medical engineering GmbH,secondary,https://bnci-horizon-2020.eu/database/data-sets/001-2020/Dataset_description.pdf,Audit reviewer; scope: gel-based recordings
 bnci_001_2020,acquisition_setups:main.device_model,conflicting,EEG-Hero,secondary,https://bnci-horizon-2020.eu/database/data-sets/001-2020/Dataset_description.pdf,Audit reviewer; scope: dry-electrode recordings
 bnci_001_2020,acquisition_setups:main.device_model,conflicting,EEG-Versatile,secondary,https://bnci-horizon-2020.eu/database/data-sets/001-2020/Dataset_description.pdf,Audit reviewer; scope: water-based recordings
-bnci_001_2020,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://bnci-horizon-2020.eu/database/data-sets,
+bnci_001_2020,acquisition_setups:main.n_channels_eeg,conflicting,32,primary,https://bnci-horizon-2020.eu/database/data-sets,
 bnci_001_2020,acquisition_setups:main.n_channels_eeg,conflicting,58,secondary,https://bnci-horizon-2020.eu/database/data-sets/001-2020/Dataset_description.pdf,Audit reviewer; scope: gel-based recordings
+bnci_002_2014,n_subjects_reported,conflicting,13,secondary,https://bnci-horizon-2020.eu/database/data-sets/002-2014/description.pdf,Audit reviewer; scope: not given
+bnci_002_2014,n_subjects_reported,conflicting,14,primary,https://bnci-horizon-2020.eu/database/data-sets,
+bnci_005_2015,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://bnci-horizon-2020.eu/database/data-sets,
+bnci_005_2015,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114715/,"Audit reviewer; scope: recorded; bnci page lists 60 eeg, 2 eog"
 ds001785,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://s3.amazonaws.com/openneuro.org/ds001785/README,Audit reviewer; scope: not given
 ds001785,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://openneuro.org/crn/datasets/ds001785/objects/f49ebd20eca11f1a857eb830803eb0f1bbb87601?filename=sub-01_ses-01_task-adapt_eeg.json,
 ds001785,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://openneuro.org/crn/datasets/ds001785/objects/f49ebd20eca11f1a857eb830803eb0f1bbb87601?filename=sub-01_ses-01_task-adapt_eeg.json,
