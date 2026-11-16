@@ -102,7 +102,7 @@ def access_summary(db):
     groups = {}
     for d in db["datasets"][1]:
         if d["content_class"] not in ("", "eeg_signals"):
-            continue  # a release without usable EEG signals has no access question worth counting
+            continue  # only releases that hold, or may hold, human EEG signals
         groups.setdefault((d["access_tier"], d["best_access_method"]), []).append(d)
     tier_order = list(dict.fromkeys(derive.TIER.values())) + [""]
     out = []

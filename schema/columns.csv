@@ -2,7 +2,7 @@ table,column,type,nulls,evidence,description
 datasets,dataset_id,slug,-,no,Stable ID. Never changed once committed
 datasets,name,text,conflicting,yes,Name as printed by the dataset authors
 datasets,full_title,text,empty;conflicting,yes,Full title as printed by the dataset authors
-datasets,content_class,enum:content_class,empty,yes,"What the release actually contains: usable EEG signals, or only something that cannot be used as EEG data (the dataset is registered either way)"
+datasets,content_class,enum:content_class,empty,yes,"What the documents say the release holds: human EEG signals, no EEG signals, non-human signals, or nothing released yet (the dataset is registered either way; no judgement of use)"
 datasets,modalities,enumlist:modality,empty;unknown;conflicting,yes,Signals recorded (;-separated): EEG kinds and co-recorded signals
 datasets,domains,enumlist:domain,empty;unknown;conflicting,yes,Research domains the source states (;-separated)
 datasets,provider_ids,list,empty;unknown;conflicting,yes,"Institutions that recorded or distribute the data (providers.csv, ;-separated)"
