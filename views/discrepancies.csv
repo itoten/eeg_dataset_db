@@ -618,6 +618,22 @@ hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflict
 hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://huggingface.co/datasets/MaRez10/EEG_Pain_Perception,Audit reviewer; scope: downsampled (whether the distributed files are at 250 hz is not stated)
 kaya2018,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/sdata2018211,Audit reviewer; scope: 5f paradigm sessions (some)
 kaya2018,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://www.nature.com/articles/sdata2018211,Audit reviewer; scope: most sessions
+liu2025_stroke_lower_limb_mi,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://doi.org/10.1038/s41597-025-04618-4,Audit reviewer; scope: recorded (raw data)
+liu2025_stroke_lower_limb_mi,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/s41597-025-04618-4,Audit reviewer; scope: preprocessed data
+ma2020_joints_mi,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://doi.org/10.1038/s41597-020-0535-2,Audit reviewer; scope: raw recording
+ma2020_joints_mi,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://doi.org/10.1038/s41597-020-0535-2,Audit reviewer; scope: preprocessed data
+modma,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/s41597-022-01211-x,Audit reviewer; scope: 128-electrode part
+modma,acquisition_setups:main.sampling_rate_hz,conflicting,44100,primary,https://doi.org/10.1038/s41597-022-01211-x,Audit reviewer; scope: audio recordings
+mpi_lemon,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/sdata.2018.308,Audit reviewer; scope: preprocessed eeg
+mpi_lemon,acquisition_setups:main.sampling_rate_hz,conflicting,2500,primary,https://doi.org/10.1038/sdata.2018.308,Audit reviewer; scope: raw eeg
+mpi_lemon,n_subjects_reported,conflicting,227,primary,https://doi.org/10.1038/sdata.2018.308,Audit reviewer; scope: whole dataset (paper; differs from page)
+mpi_lemon,n_subjects_reported,conflicting,228,primary,http://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html,
+mssvepdb,acquisition_setups:main.n_channels_eeg,conflicting,14,primary,https://physionet.org/content/mssvepdb/1.0.0/,Audit reviewer; scope: experiment 3
+mssvepdb,acquisition_setups:main.n_channels_eeg,conflicting,256,primary,https://physionet.org/content/mssvepdb/1.0.0/,Audit reviewer; scope: experiments 1 and 2
+mssvepdb,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://physionet.org/content/mssvepdb/1.0.0/,Audit reviewer; scope: experiment 3
+mssvepdb,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://physionet.org/content/mssvepdb/1.0.0/,Audit reviewer; scope: experiments 1 and 2
+nakanishi2015_ssvep,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://doi.org/10.1371/journal.pone.0140703,Audit reviewer; scope: recorded
+nakanishi2015_ssvep,acquisition_setups:main.sampling_rate_hz,conflicting,256,primary,https://github.com/mnakanishi/12JFPM_SSVEP,"Audit reviewer; scope: distributed (epoched, downsampled) data"
 nm000110,n_subjects_reported,conflicting,22,primary,https://physionet.org/content/chbmit/1.0.0/,Audit reviewer; scope: not given
 nm000110,n_subjects_reported,conflicting,24,secondary,https://nemar.org/dataset/nm000110,
 nm000112,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000112,
