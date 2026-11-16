@@ -1527,26 +1527,26 @@ osf_8yxde,"iEEG Session Quality Control: Automated Reports for Brain Recordings,
 osf_8z4rb,Pulse waveform and current direction alter network-level TMS-induced functional connectivity: Evidence from TMS-EEG,,no_eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_8zdwb,Effects of posterior-superior insula rTMS on resting-state EEG alpha features (secondary analysis of data),,no_eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_92mqb,Speaking with the Brain: Decoding of Imagined Speech Spanish Vowels from EEG data using Deep Learning Models.,,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_946w5,ND250 experiment EEG data,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_94c5t,"EEG, fMRI and NODDI dataset",,,scalp_eeg,,,2016,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_9bvgh,Crowdsourced EEG Experiments : Data and Analysis scripts,,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_9cepv,EEG-Based Emotion Recognition: Bibliometric Data and Analysis Materials (2013–2026),,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_9ed24,Decoding the location of touch on the body within and across visual and tactile modalities with multivariate analysis of EEG data,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_9ekbr,"Neural correlates of individual differences in cognition: a behavioral performance, EEG, and MRI dataset",,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_9fa75,Virtual Reality in Weightlessness: EEG Study,,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_9gc2z,How low can you go? Measuring human event-related brain potentials from a two-channel EEG system (2023),,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_9gtcu,The relationship between EEG resting state and children's language skills,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_9x7vm,Methods and Approaches for User Engagement and User Experience Analysis based on EEG Recordings: A Systematic Review,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_a23sx,"Law of Activity Dominancy (LAD) : A complete Theory in Neuroscience , that explain different brain states based on EEG data.",,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_a285v,EEG indices of speech comprehension in noise dataset,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_a7syj,"Data, Materials, and Code for: Repetition Learning Depends on the Explicit Retrieval from Episodic Memory: Evidence from EEG",,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_afq2p,Dual-Brain EEG Hyperscanning Data During Collaborative and Independent Memory Encoding,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_ayhcg,"EEG OHBM Educational Course 2020: The effects of data filtering on automated ICA classifiers, ERP and multivariate analyses",,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_b3ew2,Turkish Imagined Alphabet and Digit EEG Dataset,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_b4h6q,"Dataset - Task and timing effects in argument role sensitivity: Evidence from production, EEG and computational modeling",,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_b6afs,Elderly Adults EEG sleep dataset – Laboratorio de Sueño y Memoria,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_b9wdp,Speech-Brain Phase Locking (EEG dataset),,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_bf6p5,HeartBrain: A dataset of EEG recordings from patients with premature ventricular contractions.,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_946w5,ND250 experiment EEG data,,eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_94c5t,"EEG, fMRI and NODDI dataset",,eeg_signals,ecg,resting_state,,2016,,,,,,,,,,,,,,,,,,,direct_download,open,64,,,BrainCap MR,resting_eyes_open,,2026-11-16
+osf_9bvgh,Crowdsourced EEG Experiments : Data and Analysis scripts,,eeg_signals,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,14,,,EMOTIV,resting_eyes_closed;resting_eyes_open,,2026-11-16
+osf_9cepv,EEG-Based Emotion Recognition: Bibliometric Data and Analysis Materials (2013–2026),,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_9ed24,Decoding the location of touch on the body within and across visual and tactile modalities with multivariate analysis of EEG data,,no_eeg_signals,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,64,2048,,Biosemi,,,2026-11-16
+osf_9ekbr,"Neural correlates of individual differences in cognition: a behavioral performance, EEG, and MRI dataset",,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,215,,,,,,,,,,direct_download,open,,,,,cognitive_task;resting_unspecified,,2026-11-16
+osf_9fa75,Virtual Reality in Weightlessness: EEG Study,,no_eeg_signals,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_9gc2z,How low can you go? Measuring human event-related brain potentials from a two-channel EEG system (2023),,eeg_signals,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,2,,,,p300_erp;visual_erp,,2026-11-16
+osf_9gtcu,The relationship between EEG resting state and children's language skills,,no_eeg_signals,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_9x7vm,Methods and Approaches for User Engagement and User Experience Analysis based on EEG Recordings: A Systematic Review,,no_eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_a23sx,"Law of Activity Dominancy (LAD) : A complete Theory in Neuroscience , that explain different brain states based on EEG data.",,no_eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_a285v,EEG indices of speech comprehension in noise dataset,,eeg_signals,scalp_eeg,,,2026,,,,,,,,,25,,,,,,,,,,direct_download,open,128,1024,,BioSemi,other,,2026-11-16
+osf_a7syj,"Data, Materials, and Code for: Repetition Learning Depends on the Explicit Retrieval from Episodic Memory: Evidence from EEG",,eeg_signals,eog,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,27,250,,Brain Products actiChamp,cognitive_task,,2026-11-16
+osf_afq2p,Dual-Brain EEG Hyperscanning Data During Collaborative and Independent Memory Encoding,,eeg_signals,scalp_eeg,,,2025,,,,,,,,,140,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-16
+osf_ayhcg,"EEG OHBM Educational Course 2020: The effects of data filtering on automated ICA classifiers, ERP and multivariate analyses",,no_eeg_signals,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_b3ew2,Turkish Imagined Alphabet and Digit EEG Dataset,,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,14,128,,Emotiv EPOC X,imagined_speech,,2026-11-16
+osf_b4h6q,"Dataset - Task and timing effects in argument role sensitivity: Evidence from production, EEG and computational modeling",,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,250,,Brain Products,language,,2026-11-16
+osf_b6afs,Elderly Adults EEG sleep dataset – Laboratorio de Sueño y Memoria,,eeg_signals,emg,sleep,,2026,,,,,,,,,14,,,,,,,,,,direct_download,open,6,250,10_20,OpenBCI Cyton,sleep,,2026-11-16
+osf_b9wdp,Speech-Brain Phase Locking (EEG dataset),,eeg_signals,audio,,,2023,,,,,,,,,32,,,,,,,,,,direct_download,open,,,,,language,,2026-11-16
+osf_bf6p5,HeartBrain: A dataset of EEG recordings from patients with premature ventricular contractions.,,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_bfsge,Beyond broadband: towards a spectral decomposition of EEG microstates - Code and Data,,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_bqc4x,"Dataset for ""Semantic distance differently modulates FPVS-EEG responses to words and pictures""",,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_bqs9h,Preprocessed EEG Hyperscanning Data Pt. 1,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
