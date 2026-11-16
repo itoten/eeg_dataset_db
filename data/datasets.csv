@@ -1626,25 +1626,25 @@ osf_mg6zd,Holo-Hilbert spectral analysis on EEG data of visual working memory,,e
 osf_mw35y,"EEG, ECG and respiratory movement recordings during tactile stimulation in preterm human neonates",,eeg_signals,scalp_eeg;ecg;respiration,development,,2026,,,,,,,,,35,,,,,,,,,,direct_download,open,,2000,10_10,Neuroscan SynAmps2,other,,2026-11-16
 osf_mygh9,Comparing Sleep-Based and Retrieval-Mediated Memory Consolidation: Data from an EEG Study,,eeg_signals,scalp_eeg;eog;emg;ecg,cognitive;sleep,,2025,,,,,,,,,30,,,,,,,,,,direct_download,open,64,500,10_20,,cognitive_task;resting_eyes_closed;sleep,,2026-11-16
 osf_n57hx,"Mobile EEG, AR data",,eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_n6up2,Neurocognitive process parameters of cognitive performance - EEG data Session 2 - 3/3,,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_ncyq3,Economical self-objectification EEG dataset,,,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_nrgx6,Dataset of Speech Production in intracranial Electroencephalography,,,,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_nsuhj,crowd-sourcing neuroscience: a classroom EEG study,,,scalp_eeg,,,2016,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_p8n5u,Preprocessed EEG Hyperscanning Data Pt.2,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_pcyrg,Big-Five-EEG-data,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_pk6yh,A possible role of the norepinephrine system during sequential cognitive flexibility – evidence from EEG and pupil diameter data,,,scalp_eeg,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_q45u8,Dynamics of the perception and EEG signals triggered by tonic warm and cool stimulation,,,scalp_eeg,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_qakne,Vocal Emotion Perception and Musicality – Insights from EEG Decoding,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_qds4z,EEG dataset of multiple motor imagery BCI sessions,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_qf2ha,Decoding state rumination in depressed participants from EEG data patterns,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_qnc5h,Data from: Topological analysis of quantile graphs derived from EEG signals for schizophrenia detection,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_qnryf,Data and software for effects of neuronic shutter observed in the EEG alpha rhythm,,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_qt92d,Data for: Influences of Emotional Information on Response Inhibition in Gaming Disorder: Behavioral and EEG Evidence from Go/Nogo Task,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_quvsd,SynapseSet: A Synthetic EEG-to-Text Dataset for Neural Language Model Training,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_qxyzg,"EEG-informed diffusion modeling of socially contextualized deception: data, code, and results",,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_rj647,NSSI Study: Anonymized Psychological Assessment Data and EEG Recordings with HEBM Software,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_rk8gv,Retrieval Rhythm Behavioral and EEG Data,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_rkqbu,DERCo: A Dataset for Human Behaviour in Reading Comprehension Using EEG,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_n6up2,Neurocognitive process parameters of cognitive performance - EEG data Session 2 - 3/3,,eeg_signals,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_ncyq3,Economical self-objectification EEG dataset,,eeg_signals,scalp_eeg,cognitive,,2022,,,,,,,,,13,,,,,,,,,,direct_download,open,19,256,,BrainMaster Technologies Inc. Discovery-24,other;resting_eyes_open,,2026-11-17
+osf_nrgx6,Dataset of Speech Production in intracranial Electroencephalography,,eeg_signals,ieeg;ieeg_seeg;audio,epilepsy,,2022,,,,,,,,,10,,,,,,,,,,direct_download,open,1103,1024,,Micromed SD LTM,overt_speech,,2026-11-17
+osf_nsuhj,crowd-sourcing neuroscience: a classroom EEG study,,eeg_signals,scalp_eeg,,,2016,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,other,,2026-11-17
+osf_p8n5u,Preprocessed EEG Hyperscanning Data Pt.2,,eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,other,,2026-11-17
+osf_pcyrg,Big-Five-EEG-data,,eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,resting_unspecified,,2026-11-17
+osf_pk6yh,A possible role of the norepinephrine system during sequential cognitive flexibility – evidence from EEG and pupil diameter data,,eeg_signals,scalp_eeg;eye_tracking,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_q45u8,Dynamics of the perception and EEG signals triggered by tonic warm and cool stimulation,,eeg_signals,scalp_eeg,perception,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,64,1000,10_10,Advanced Neuro Technologies WaveGuard 64-channel cap,other,,2026-11-17
+osf_qakne,Vocal Emotion Perception and Musicality – Insights from EEG Decoding,,eeg_signals,scalp_eeg;eog,emotion;perception,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,64,250,,BioSemi Active II,auditory_erp,,2026-11-17
+osf_qds4z,EEG dataset of multiple motor imagery BCI sessions,,eeg_signals,scalp_eeg,bci,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-17
+osf_qf2ha,Decoding state rumination in depressed participants from EEG data patterns,,no_eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_qnc5h,Data from: Topological analysis of quantile graphs derived from EEG signals for schizophrenia detection,,eeg_signals,scalp_eeg,psychiatry,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_qnryf,Data and software for effects of neuronic shutter observed in the EEG alpha rhythm,,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_qt92d,Data for: Influences of Emotional Information on Response Inhibition in Gaming Disorder: Behavioral and EEG Evidence from Go/Nogo Task,,no_eeg_signals,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,64,500,,Brain Product,,,2026-11-17
+osf_quvsd,SynapseSet: A Synthetic EEG-to-Text Dataset for Neural Language Model Training,,non_human,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_qxyzg,"EEG-informed diffusion modeling of socially contextualized deception: data, code, and results",,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_rj647,NSSI Study: Anonymized Psychological Assessment Data and EEG Recordings with HEBM Software,,eeg_signals,scalp_eeg,psychiatry,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,512,,TGAM (ThinkGear AM) module,neurofeedback,,2026-11-17
+osf_rk8gv,Retrieval Rhythm Behavioral and EEG Data,,eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,500,,,cognitive_task,,2026-11-17
+osf_rkqbu,DERCo: A Dataset for Human Behaviour in Reading Comprehension Using EEG,,eeg_signals,scalp_eeg,cognitive,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,32,1000,10_20,ActiCHamp,language,,2026-11-17
 osf_rstpu,EEG data for 2 person finger tapping task,,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_rsv4z,High-Density EEG and Multi-Muscle EMG Dataset during Object Prehension with a sensorized Grasping Box in Humans,,eeg_signals,scalp_eeg;emg;eog,motor,,2025,CC0-1.0,,,,,,,,14,,,,,,,,,,direct_download,open,62,1000,10_20,Brain Products BrainAmp DC,motor_execution;resting_unspecified,,2026-11-16
 osf_rzv85,"CREED, A Multi-Stage EEG Dataset from Epileptic Mice with Continuous Long-Term Recording",,non_human,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
