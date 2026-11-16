@@ -47,6 +47,40 @@ h1 { font: 650 clamp(26px, 4vw, 38px)/1.15 var(--f-display); margin: 0; text-wra
 .legend button[aria-pressed="true"] { background: var(--accent-soft); }
 .legend .n { font: 500 13px var(--f-mono); font-variant-numeric: tabular-nums; }
 .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.toolbar input, .toolbar select, .fset select { font: 14px var(--f-body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 7px 10px; min-width: 0; }
+.toolbar input { flex: 1 1 260px; }
+.fbtn { display: none; align-items: center; gap: 6px; font: 600 14px var(--f-body); color: var(--fg); background: var(--panel); border: 1px solid var(--accent); border-radius: 5px; padding: 7px 12px; cursor: pointer; }
+.badge { font: 600 11px var(--f-mono); background: var(--accent); color: var(--panel); border-radius: 9px; padding: 1px 7px; }
+.active { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.achip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; background: var(--accent-soft); border: 1px solid var(--accent); color: var(--fg); border-radius: 14px; padding: 3px 6px 3px 10px; cursor: pointer; }
+.achip b { font-weight: 600; } .achip span.xx { font: 700 13px var(--f-body); color: var(--accent); padding: 0 3px; }
+.link { all: unset; cursor: pointer; font-size: 12px; color: var(--accent); text-decoration: underline; }
+.link:focus-visible, .achip:focus-visible, .fbtn:focus-visible, .fset summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.browse { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 16px; align-items: start; }
+.results { min-width: 0; display: grid; gap: 8px; }
+.facets { position: sticky; top: 12px; max-height: calc(100vh - 24px); display: grid; grid-template-rows: auto minmax(0, 1fr) auto; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; min-width: 0; }
+.fhead { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.fhead h2 { font: 650 15px var(--f-display); margin: 0; flex: 1; }
+.fbody { overflow-y: auto; padding: 4px 0 10px; overscroll-behavior: contain; }
+.fset { border-bottom: 1px solid var(--grid); padding: 0 14px; }
+.fset summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; padding: 10px 0; font: 600 13px var(--f-body); }
+.fset summary::-webkit-details-marker { display: none; }
+.fset summary::before { content: "▸"; color: var(--muted); font-size: 11px; transition: transform .15s; }
+.fset[open] summary::before { transform: rotate(90deg); }
+.fset summary .sel { margin-left: auto; font: 600 11px var(--f-mono); color: var(--accent); }
+.fset .hint { font-size: 11px; color: var(--muted); margin: -4px 0 6px; }
+.opts { display: grid; gap: 1px; padding-bottom: 10px; }
+.opt { display: flex; align-items: center; gap: 8px; font-size: 13px; padding: 3px 4px; border-radius: 4px; cursor: pointer; }
+.opt:hover { background: var(--accent-soft); }
+.opt input { margin: 0; accent-color: var(--accent); flex: none; }
+.opt .lb { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.opt .n { font: 12px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.opt.zero { color: var(--muted); opacity: .55; }
+.rng { display: flex; align-items: center; gap: 6px; padding-bottom: 12px; } .rng select { flex: 1 1 0; padding: 6px 8px; font-size: 13px; }
+.ffoot { padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); }
+.primary { width: 100%; font: 650 15px var(--f-body); color: var(--panel); background: var(--accent); border: 0; border-radius: 6px; padding: 12px; cursor: pointer; }
+.only-m { display: none !important; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .filters input, .filters select { font: 14px var(--f-body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 7px 10px; min-width: 0; }
 .filters input { flex: 1 1 260px; }
@@ -106,6 +140,15 @@ footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-widt
 .card .kv { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 12px; color: var(--muted); }
 .card .kv b { color: var(--fg); font-weight: 500; font-family: var(--f-mono); }
 .more-cards { display: none; }
+@media (max-width: 900px) {
+  .browse { grid-template-columns: minmax(0, 1fr); }
+  .fbtn { display: inline-flex; }
+  .facets { display: none; position: fixed; inset: 0; top: 0; max-height: none; z-index: 30; border-radius: 0; border: 0;
+    padding-top: env(safe-area-inset-top, 0px); padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
+  .facets.open { display: grid; }
+  .only-m { display: block !important; } .fhead .only-m { display: inline-block !important; }
+  .toolbar #sort { flex: 1 1 auto; }
+}
 @media (max-width: 720px) {
   dl { grid-template-columns: 1fr; } dt { padding-top: 6px; }
   .ev, .ev tbody, .ev tr, .ev td { display: block; width: auto; }
@@ -143,25 +186,31 @@ footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-widt
     <div class="legend" id="legend"></div>
   </section>
 
-  <section class="filters">
+  <section class="toolbar">
     <input id="q" type="search" autocomplete="off" aria-label="Search">
-    <select id="f-repo" aria-label="Repository"></select>
-    <select id="f-mod" aria-label="Modality"></select>
-    <select id="f-par" aria-label="Paradigm"></select>
-    <select id="f-dom" aria-label="Domain"></select>
-    <select id="f-lic" aria-label="License"></select>
-    <label class="toggle"><input type="checkbox" id="f-all"><span id="f-all-l"></span></label>
+    <button id="open-f" class="fbtn" type="button"><span id="open-f-l"></span><span class="badge" id="nf" hidden></span></button>
+    <select id="sort" aria-label="Sort"></select>
     <span class="count" id="count"></span>
   </section>
+  <div class="active" id="active" hidden></div>
 
-  <div class="cards" id="cards"></div>
-  <div class="more more-cards" id="more2" hidden><button id="more-b2" type="button" data-i="more"></button></div>
-  <div class="tablebox" id="tablebox">
-    <table>
-      <thead id="thead"></thead>
-      <tbody id="rows"></tbody>
-    </table>
-    <div class="more" id="more" hidden><button id="more-b" type="button" data-i="more"></button></div>
+  <div class="browse">
+    <div class="facets" id="facets" aria-labelledby="fh">
+      <div class="fhead"><h2 id="fh"></h2><button type="button" class="link" id="f-clear"></button><button type="button" class="x only-m" id="f-close"></button></div>
+      <div class="fbody" id="fbody"></div>
+      <div class="ffoot only-m"><button type="button" class="primary" id="f-done"></button></div>
+    </div>
+    <div class="results">
+      <div class="cards" id="cards"></div>
+      <div class="more more-cards" id="more2" hidden><button id="more-b2" type="button" data-i="more"></button></div>
+      <div class="tablebox" id="tablebox">
+        <table>
+          <thead id="thead"></thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <div class="more" id="more" hidden><button id="more-b" type="button" data-i="more"></button></div>
+      </div>
+    </div>
   </div>
 
   <footer>
@@ -192,6 +241,20 @@ const L = {
     cls_why: { no_eeg_signals: "このデータセットは EEG の信号を配っていません(コード、文書、論文、特徴量・統計・行列、EEG 以外のデータだけ)。EEG モデルの学習には使えません。",
       non_human: "このデータセットの信号は生きた人のものではありません(動物、ファントム、シミュレーション)。人の EEG の学習には使えません。",
       not_released: "このデータセットは公開が予告されていますが、まだ手に入りません。" },
+    filter_btn: "絞り込み", filter_h: "条件で絞り込む", clear: "すべてクリア", show_n: n => `${n} 件を表示`, more_opts: n => `ほかの ${n} 件を表示`, fewer: "閉じる",
+    any_min: "下限なし", any_max: "上限なし", range_hint: "値が書かれていないデータセットは除きます", data_h: "データの中身",
+    fac: { tier: "入手のしやすさ", mod: "信号の種類(モダリティ)", par: "課題(パラダイム)", dom: "研究分野", subj: "被験者数", hours: "合計時間 (h)", nch: "EEG チャネル数",
+      fs: "サンプリング周波数 (Hz)", gb: "サイズ (GB)", mont: "電極配置", maker: "計測機器のメーカー", elec: "電極の種類", ann: "ラベル・アノテーション", cond: "被験者",
+      repo: "リポジトリ", lic: "ライセンス", com: "商用利用", feat: "こだわり条件" },
+    sorts: { subj: "被験者数が多い順", hours: "合計時間が長い順", nch: "チャネル数が多い順", fs: "サンプリングが高い順", gb: "サイズが大きい順", year: "公開年が新しい順", name: "名前順" },
+    val: { mod: { scalp_eeg: "頭皮 EEG", ear_eeg: "耳 EEG", ieeg: "頭蓋内 EEG", ieeg_ecog: "皮質脳波 (ECoG)", ieeg_seeg: "定位脳波 (SEEG)", psg: "睡眠ポリグラフ", meg: "MEG", eog: "眼電図", ecg: "心電図", emg: "筋電図", eye_tracking: "視線計測", fnirs: "fNIRS", fmri: "fMRI", eda: "皮膚電気", respiration: "呼吸", video: "映像", audio: "音声", other_physiological: "その他の生体信号" },
+      par: { resting_eyes_open: "安静(開眼)", resting_eyes_closed: "安静(閉眼)", resting_unspecified: "安静", motor_imagery: "運動想起", motor_execution: "運動実行", p300_erp: "P300", ssvep: "SSVEP", auditory_erp: "聴覚 ERP", visual_erp: "視覚 ERP", emotion_induction: "感情喚起", imagined_speech: "発話想起", overt_speech: "発話", language: "言語", cognitive_task: "認知課題", passive_viewing: "受動視聴", sleep: "睡眠", clinical_routine: "臨床検査", long_term_monitoring: "長時間モニタリング", anesthesia: "麻酔", neurofeedback: "ニューロフィードバック", other: "その他" },
+      dom: { clinical: "臨床", epilepsy: "てんかん", sleep: "睡眠", bci: "BCI", emotion: "感情", cognitive: "認知", perception: "知覚", motor: "運動", resting_state: "安静時", development: "発達", psychiatry: "精神医学", neurology: "神経学", other: "その他" },
+      ann: { event_markers: "イベントマーカー", class_labels: "クラスラベル", self_report_ratings: "主観評価", clinical_diagnosis: "診断", clinical_report: "臨床レポート", normal_abnormal: "正常 / 異常", seizure_annotations: "発作の注釈", event_annotations: "臨床イベント", sleep_stages: "睡眠段階", artifact_annotations: "アーチファクトの印", behavioral_responses: "行動反応", questionnaires: "質問紙", other: "その他" },
+      cond: { healthy: "健常者を含む", patient: "患者を含む", mixed: "患者と健常者" },
+      elec: { wet_gel: "ゲル(湿式)", saline: "生理食塩水", dry: "乾式", intracranial: "頭蓋内", mixed: "混在" },
+      com: { allowed: "可", allowed_with_conditions: "条件つきで可", prohibited: "不可", not_stated: "記載なし" },
+      feat: { bids: "BIDS 形式", chnames: "チャネル名あり", agesex: "年齢・性別の記載あり", quality: "品質情報あり", tasks: "課題の記載あり", paper: "論文あり", doc: "一次資料で確認済み" } },
     count: (a, b) => `${a} / ${b} 件`, more: "さらに表示", close: "閉じる", not_checked: "未確認",
     foot1: "空欄 = まだ確認していない。<span class=\"mono\">unknown</span> = 資料の全文を読んだが書いていない。<span class=\"mono\">conflicting</span> = 資料が食い違う(両方が各データセットの根拠に出ます)。表は横にスクロールできます。",
     foot2: "ライセンスは記載された条件の分類で、法的助言ではありません。このカタログは、データセットを使うべきかどうかを判断しません。",
@@ -224,6 +287,15 @@ const L = {
     cls_why: { no_eeg_signals: "This dataset does not distribute EEG signals (only code, documents, papers, features, statistics, matrices, or non-EEG data). It cannot be used to train an EEG model.",
       non_human: "The signals in this dataset are not from living humans (animals, phantom heads, simulations). It cannot be used to train a model on human EEG.",
       not_released: "This dataset's release is announced but its data are not yet available." },
+    filter_btn: "Filters", filter_h: "Filter", clear: "Clear all", show_n: n => `Show ${n} datasets`, more_opts: n => `Show ${n} more`, fewer: "Show fewer",
+    any_min: "No minimum", any_max: "No maximum", range_hint: "Datasets that do not state the value are left out", data_h: "What the release holds",
+    fac: { tier: "Ease of access", mod: "Signals (modality)", par: "Task (paradigm)", dom: "Research domain", subj: "Subjects", hours: "Total hours", nch: "EEG channels",
+      fs: "Sampling rate (Hz)", gb: "Size (GB)", mont: "Montage", maker: "Device maker", elec: "Electrode type", ann: "Labels and annotations", cond: "Participants",
+      repo: "Repository", lic: "License", com: "Commercial use", feat: "Must have" },
+    sorts: { subj: "Most subjects", hours: "Longest recordings", nch: "Most channels", fs: "Highest sampling rate", gb: "Largest", year: "Newest", name: "Name" },
+    val: { mod: {}, par: {}, dom: {}, ann: {}, cond: { healthy: "Includes healthy", patient: "Includes patients", mixed: "Patients and controls" }, elec: { wet_gel: "Gel (wet)", saline: "Saline", dry: "Dry", intracranial: "Intracranial", mixed: "Mixed" },
+      com: { allowed: "Allowed", allowed_with_conditions: "Allowed with conditions", prohibited: "Prohibited", not_stated: "Not stated" },
+      feat: { bids: "BIDS", chnames: "Channel names", agesex: "Age and sex stated", quality: "Quality information", tasks: "Task described", paper: "Has a paper", doc: "Checked in a primary source" } },
     count: (a, b) => `${a} of ${b}`, more: "Show more", close: "Close", not_checked: "not checked",
     foot1: "Empty cell = not checked yet. <span class=\"mono\">unknown</span> = the whole source was read and does not say. <span class=\"mono\">conflicting</span> = sources disagree; both are listed in the dataset's evidence. The table scrolls sideways.",
     foot2: "Licenses are a classification of the stated terms, not legal advice. The catalogue does not judge whether a dataset should be used.",
@@ -270,10 +342,8 @@ D.forEach(d => {
   svg.innerHTML = `<path d="${p}" fill="none" stroke="var(--trace)" stroke-width="1.4" vector-effect="non-scaling-stroke"/>`; })();
 
 const usable = d => !d.cls || d.cls === "eeg_signals";
-const state = { all: false, q: "", tier: null, repo: "", mod: "", par: "", dom: "", lic: "", sort: ["subj", -1], shown: 100, open: null };
+const state = { all: false, q: "", f: {}, r: {}, sort: ["subj", -1], shown: 100, open: null, more: {} };
 const tierCount = {}; D.filter(usable).forEach(d => tierCount[d.tier] = (tierCount[d.tier] || 0) + 1);
-const tally = f => { const c = {}; D.forEach(d => f(d).forEach(v => c[v] = (c[v] || 0) + 1)); return Object.entries(c).sort((a, b) => b[1] - a[1]); };
-const TALLY = { "f-repo": tally(d => [d.repo]), "f-mod": tally(d => semi(d.mod)), "f-par": tally(d => semi(d.par)), "f-dom": tally(d => semi(d.dom)), "f-lic": tally(d => [d.lic || ""]) };
 
 const ageSex = g => { if (!g) return ""; const t = T().f; const a = [];
   if (g.age_min && g.age_max) a.push(`${g.age_min}–${g.age_max}`); if (g.age_mean) a.push(`${t.mean} ${g.age_mean}`);
@@ -314,14 +384,14 @@ function applyLang() {
   document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
   document.getElementById("meta").textContent = T().meta(D.length, S.length, DATA.meta.built, DATA.meta.commit);
   document.getElementById("q").placeholder = T().search;
-  document.getElementById("f-all-l").textContent = T().show_all(D.filter(d => !usable(d)).length);
-  const opts = (id, label) => { const el = document.getElementById(id); const cur = el.value;
-    el.innerHTML = `<option value="">${esc(label)}</option>` + TALLY[id].map(([v, n]) => `<option value="${esc(v)}">${esc(v || T().not_checked)} (${n})</option>`).join(""); el.value = cur; };
-  opts("f-repo", T().all_repo); opts("f-mod", T().all_mod); opts("f-par", T().all_par); opts("f-dom", T().all_dom); opts("f-lic", T().all_lic);
+  document.getElementById("open-f-l").textContent = T().filter_btn; document.getElementById("fh").textContent = T().filter_h;
+  document.getElementById("f-clear").textContent = T().clear; document.getElementById("f-close").textContent = T().close;
+  document.getElementById("sort").innerHTML = Object.entries(T().sorts).map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join("");
+  document.getElementById("sort").value = state.sort[0] in T().sorts ? state.sort[0] : "subj";
   document.getElementById("bar").innerHTML = TIERS.filter(t => tierCount[t[0]]).map(t =>
     `<span style="width:${100 * tierCount[t[0]] / D.filter(usable).length}%;background:${t[1]}" title="${esc(T().tiers[t[0]][0])}: ${tierCount[t[0]]}"></span>`).join("");
   document.getElementById("legend").innerHTML = TIERS.filter(t => tierCount[t[0]]).map(t =>
-    `<button type="button" data-t="${t[0]}" aria-pressed="${state.tier === t[0]}" title="${esc(T().tiers[t[0]][1])}"><span class="dot" style="background:${t[1]}"></span>${esc(T().tiers[t[0]][0])} <span class="n">${tierCount[t[0]]}</span></button>`).join("");
+    `<button type="button" data-t="${t[0]}" aria-pressed="${!!(state.f.tier && state.f.tier.has(t[0]))}" title="${esc(T().tiers[t[0]][1])}"><span class="dot" style="background:${t[1]}"></span>${esc(T().tiers[t[0]][0])} <span class="n">${tierCount[t[0]]}</span></button>`).join("");
   const groups = []; COLS.forEach(c => { const last = groups[groups.length - 1]; if (last && last[0] === c.g) last[1]++; else groups.push([c.g, 1]); });
   document.getElementById("thead").innerHTML = `<tr>${groups.map(([g, n]) => `<th class="grp" colspan="${n}">${esc(T().groups[g])}</th>`).join("")}</tr>
     <tr class="cols">${COLS.map(c => `<th data-k="${c.k}" tabindex="0">${esc(T().cols[c.k])}</th>`).join("")}</tr>`;
@@ -331,31 +401,112 @@ function applyLang() {
 document.querySelector(".lang").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
   lang = b.dataset.lang; try { localStorage.setItem("lang", lang); } catch (err) {} applyLang(); });
 
-document.getElementById("legend").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return;
-  state.tier = state.tier === b.dataset.t ? null : b.dataset.t;
-  document.querySelectorAll("#legend button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.t === state.tier)));
-  state.shown = 100; render(); });
-const bind = (id, key) => document.getElementById(id).addEventListener("input", e => { state[key] = e.target.value; state.shown = 100; render(); });
-document.getElementById("f-all").addEventListener("input", e => { state.all = e.target.checked; state.shown = 100; render(); });
-bind("q", "q"); bind("f-repo", "repo"); bind("f-mod", "mod"); bind("f-par", "par"); bind("f-dom", "dom"); bind("f-lic", "lic");
+document.getElementById("legend").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; toggle("tier", b.dataset.t); });
+document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; state.shown = 100; render(); });
+document.getElementById("sort").addEventListener("input", e => { const k = e.target.value; state.sort = [k, k === "name" ? 1 : -1]; render(); });
 const sortBy = k => { const textual = ["name", "repo", "mod", "dom", "mont", "dev", "parent", "lic", "com"].includes(k);
   state.sort = [k, state.sort[0] === k ? -state.sort[1] : (textual ? 1 : -1)]; render(); };
 document.getElementById("thead").addEventListener("click", e => { const th = e.target.closest("th[data-k]"); if (th) sortBy(th.dataset.k); });
 document.getElementById("thead").addEventListener("keydown", e => { const th = e.target.closest("th[data-k]"); if (th && e.key === "Enter") sortBy(th.dataset.k); });
 document.getElementById("more-b").addEventListener("click", () => { state.shown += 200; render(); });
 
+// ---- faceted search: OR within a facet, AND across facets; counts leave out the facet's own choice ----
+const maxOf = a => a.length ? Math.max(...a.map(Number).filter(x => !isNaN(x))) : null;
+D.forEach(d => {
+  d._maker = [...new Set(d.setups.map(x => x.device_manufacturer).filter(Boolean))];
+  d._elec = [...new Set(d.setups.map(x => x.electrode_type).filter(Boolean))];
+  d._ann = [...new Set(d.ann.map(a => a[0]))];
+  d._cond = [...new Set(d.groups.map(g => g.condition).filter(Boolean))];
+  d._feat = [d.bids === "true" && "bids", Object.keys(d.ch).length && "chnames", d.groups.some(g => g.age_min || g.age_mean || g.n_female || g.n_male) && "agesex",
+    d.qual.length && "quality", d.tasks.length && "tasks", d.links.some(l => l[0] === "paper") && "paper", d.doc && "doc"].filter(Boolean);
+  d._r = { subj: num(d.subj), hours: num(d.hours), nch: maxOf(semi(d.nch)), fs: maxOf(semi(d.fs)), gb: num(d.gb) };
+});
+const CHECK = {
+  tier: { get: d => [d.tier || ""], label: v => (T().tiers[v] || T().tiers[""])[0], order: v => TIERS.findIndex(t => t[0] === v), open: true },
+  mod: { get: d => semi(d.mod), open: true }, par: { get: d => semi(d.par), open: true, top: 10 }, dom: { get: d => semi(d.dom) },
+  ann: { get: d => d._ann }, cond: { get: d => d._cond }, mont: { get: d => semi(d.mont) }, maker: { get: d => d._maker, top: 8 }, elec: { get: d => d._elec },
+  repo: { get: d => [d.repo], top: 8 }, lic: { get: d => [d.lic || ""], top: 8 }, com: { get: d => [d.terms[1] || ""] }, feat: { get: d => d._feat, open: true },
+};
+const RANGE = { subj: [5, 10, 20, 30, 50, 100, 200, 500, 1000, 5000], hours: [1, 5, 10, 50, 100, 500, 1000, 10000], nch: [1, 2, 4, 8, 16, 19, 32, 64, 128, 256],
+  fs: [100, 128, 200, 250, 256, 500, 512, 1000, 2000, 5000], gb: [0.1, 1, 5, 10, 50, 100, 500, 1000] };
+const ORDER = ["tier", "mod", "par", "subj", "nch", "fs", "hours", "gb", "dom", "ann", "cond", "mont", "elec", "maker", "lic", "com", "repo", "feat"];
+const vlabel = (k, v) => CHECK[k].label ? CHECK[k].label(v) : ((T().val[k] || {})[v] || v || T().not_checked);
+const passCheck = (d, k) => { const sel = state.f[k]; return !sel || !sel.size || CHECK[k].get(d).some(v => sel.has(v)); };
+const passRange = (d, k) => { const r = state.r[k]; if (!r || (r[0] === "" && r[1] === "")) return true; const x = d._r[k]; if (x === null || x === undefined || isNaN(x)) return false;
+  return (r[0] === "" || x >= +r[0]) && (r[1] === "" || x <= +r[1]); };
+const qWords = () => state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+const passAll = (d, skip) => { const q = qWords(); if (!(state.all || usable(d))) return false; if (!q.every(w => hay(d).includes(w))) return false;
+  for (const k in CHECK) if (k !== skip && !passCheck(d, k)) return false;
+  for (const k in RANGE) if (k !== skip && !passRange(d, k)) return false; return true; };
+const nActive = () => Object.values(state.f).reduce((a, s) => a + s.size, 0) + Object.values(state.r).filter(r => r && (r[0] !== "" || r[1] !== "")).length + (state.all ? 1 : 0);
+function toggle(k, v) { const s = (state.f[k] ??= new Set()); s.has(v) ? s.delete(v) : s.add(v); state.shown = 100; render(); }
+const fmtN = x => x >= 1000 ? (x / 1000) + "k" : String(x);
+function renderFacets() {
+  const t = T(), body = [];
+  body.push(`<details class="fset" open><summary>${esc(t.data_h)}${state.all ? `<span class="sel">1</span>` : ""}</summary><div class="opts">
+    <label class="opt"><input type="checkbox" id="f-all" ${state.all ? "checked" : ""}><span class="lb">${esc(t.show_all(D.filter(d => !usable(d)).length))}</span></label></div></details>`);
+  for (const k of ORDER) {
+    if (RANGE[k]) { const r = state.r[k] || ["", ""]; const o = (sel, first) => `<option value="">${esc(first)}</option>` + RANGE[k].map(v => `<option value="${v}" ${String(sel) === String(v) ? "selected" : ""}>${fmtN(v)}</option>`).join("");
+      const on = r[0] !== "" || r[1] !== "";
+      body.push(`<details class="fset" data-k="${k}" ${on || ["subj", "nch"].includes(k) ? "open" : ""}><summary>${esc(t.fac[k])}${on ? `<span class="sel">●</span>` : ""}</summary>
+        <div class="rng"><select data-r="${k}" data-i0="0" aria-label="${esc(t.fac[k])} min">${o(r[0], t.any_min)}</select><span>〜</span><select data-r="${k}" data-i0="1" aria-label="${esc(t.fac[k])} max">${o(r[1], t.any_max)}</select></div>
+        ${on ? `<div class="hint">${esc(t.range_hint)}</div>` : ""}</details>`); continue; }
+    const c = CHECK[k], sel = state.f[k] || new Set(), cnt = {};
+    D.forEach(d => { if (passAll(d, k)) c.get(d).forEach(v => cnt[v] = (cnt[v] || 0) + 1); });
+    const all = new Set([...D.flatMap(d => (state.all || usable(d)) ? c.get(d) : []), ...sel]);
+    let vals = [...all].sort((a, b) => c.order ? c.order(a) - c.order(b) : ((cnt[b] || 0) - (cnt[a] || 0)) || String(a).localeCompare(String(b)));
+    if (!vals.length) continue;
+    const top = c.top && !state.more[k] ? c.top : Infinity, hiddenN = Math.max(0, vals.length - top);
+    vals = vals.filter((v, i) => i < top || sel.has(v));
+    body.push(`<details class="fset" data-k="${k}" ${c.open || sel.size ? "open" : ""}><summary>${esc(t.fac[k])}${sel.size ? `<span class="sel">${sel.size}</span>` : ""}</summary><div class="opts">
+      ${vals.map(v => `<label class="opt${cnt[v] || sel.has(v) ? "" : " zero"}"><input type="checkbox" data-k="${k}" value="${esc(v)}" ${sel.has(v) ? "checked" : ""} ${cnt[v] || sel.has(v) ? "" : "disabled"}><span class="lb">${esc(vlabel(k, v))}</span><span class="n">${cnt[v] || 0}</span></label>`).join("")}
+      ${c.top && vals.length + hiddenN > c.top ? `<button type="button" class="link" data-more="${k}">${esc(state.more[k] ? t.fewer : t.more_opts(hiddenN))}</button>` : ""}</div></details>`);
+  }
+  const fb = document.getElementById("fbody"), sc = fb.scrollTop;
+  const openNow = new Set([...fb.querySelectorAll("details.fset[open]")].map(x => x.dataset.k));
+  fb.innerHTML = body.join("");
+  if (openNow.size) fb.querySelectorAll("details.fset[data-k]").forEach(x => { if (openNow.has(x.dataset.k)) x.open = true; });
+  fb.scrollTop = sc;
+  // active chips
+  const chips = [];
+  if (state.all) chips.push(`<button type="button" class="achip" data-x="all">${esc(t.show_all(D.filter(d => !usable(d)).length))}<span class="xx">×</span></button>`);
+  for (const k of ORDER) {
+    if (RANGE[k]) { const r = state.r[k]; if (r && (r[0] !== "" || r[1] !== "")) chips.push(`<button type="button" class="achip" data-x="r:${k}"><b>${esc(t.fac[k])}</b> ${r[0] !== "" ? fmtN(+r[0]) : ""}〜${r[1] !== "" ? fmtN(+r[1]) : ""}<span class="xx">×</span></button>`); continue; }
+    (state.f[k] || new Set()).forEach(v => chips.push(`<button type="button" class="achip" data-x="f:${k}:${esc(v)}"><b>${esc(t.fac[k])}</b> ${esc(vlabel(k, v))}<span class="xx">×</span></button>`));
+  }
+  const n = nActive(), act = document.getElementById("active");
+  act.innerHTML = chips.join("") + (n ? `<button type="button" class="link" data-x="clear">${esc(t.clear)}</button>` : ""); act.hidden = !n;
+  const nf = document.getElementById("nf"); nf.textContent = n; nf.hidden = !n;
+}
+document.getElementById("fbody").addEventListener("change", e => { const el = e.target;
+  if (el.id === "f-all") { state.all = el.checked; state.shown = 100; render(); return; }
+  if (el.dataset.r) { const r = (state.r[el.dataset.r] ??= ["", ""]); r[+el.dataset.i0] = el.value;
+    if (r[0] !== "" && r[1] !== "" && +r[0] > +r[1]) r[el.dataset.i0 === "0" ? 1 : 0] = el.value; state.shown = 100; render(); return; }
+  if (el.dataset.k) toggle(el.dataset.k, el.value); });
+document.getElementById("fbody").addEventListener("click", e => { const b = e.target.closest("[data-more]"); if (!b) return; state.more[b.dataset.more] = !state.more[b.dataset.more]; renderFacets(); });
+const clearAll = () => { state.f = {}; state.r = {}; state.all = false; state.shown = 100; render(); };
+document.getElementById("f-clear").addEventListener("click", clearAll);
+document.getElementById("active").addEventListener("click", e => { const b = e.target.closest("[data-x]"); if (!b) return; const x = b.dataset.x;
+  if (x === "clear") return clearAll(); if (x === "all") state.all = false;
+  else if (x.startsWith("r:")) delete state.r[x.slice(2)]; else { const [, k, ...v] = x.split(":"); state.f[k]?.delete(v.join(":")); }
+  state.shown = 100; render(); });
+const facetsEl = document.getElementById("facets");
+const openF = on => { facetsEl.classList.toggle("open", on); document.body.style.overflow = on ? "hidden" : ""; };
+document.getElementById("open-f").addEventListener("click", () => openF(true));
+document.getElementById("f-close").addEventListener("click", () => openF(false));
+document.getElementById("f-done").addEventListener("click", () => openF(false));
 const hay = d => (d._hay ??= [d.id, d.name, d.full, d.dev, d.mod, d.dom, d.par, d.repo, d.tasks.map(t => t[1]).join(" "), d.alias.map(a => a[0]).join(" ")].join(" ").toLowerCase());
 function render() {
-  const q = state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  const list = D.filter(d => (state.all || usable(d)) && (state.tier === null || d.tier === state.tier) && (!state.repo || d.repo === state.repo)
-    && (!state.mod || semi(d.mod).includes(state.mod)) && (!state.par || semi(d.par).includes(state.par)) && (!state.dom || semi(d.dom).includes(state.dom))
-    && (!state.lic || (d.lic || "") === state.lic) && q.every(w => hay(d).includes(w)));
+  const list = D.filter(d => passAll(d, null));
   const [k, dir] = state.sort; const col = COLS.find(c => c.k === k);
   list.sort((a, b) => { const x = col.s(a), y = col.s(b);
     const ex = x === null || x === "" || x === undefined, ey = y === null || y === "" || y === undefined;
     if (ex && ey) return 0; if (ex) return 1; if (ey) return -1; return x < y ? -dir : x > y ? dir : 0; });
   document.querySelectorAll("th[data-k]").forEach(th => th.setAttribute("aria-sort", th.dataset.k === k ? (dir > 0 ? "ascending" : "descending") : "none"));
   document.getElementById("count").textContent = T().count(list.length, state.all ? D.length : D.filter(usable).length);
+  document.getElementById("f-done").textContent = T().show_n(list.length);
+  document.querySelectorAll("#legend button").forEach(x => x.setAttribute("aria-pressed", String(!!(state.f.tier && state.f.tier.has(x.dataset.t)))));
+  renderFacets();
   document.getElementById("rows").innerHTML = list.slice(0, state.shown).map(d =>
     `<tr tabindex="0" class="${usable(d) ? "" : "unusable"}" data-id="${esc(d.id)}">${COLS.map(c => `<td class="${c.cls}">${c.v(d)}</td>`).join("")}</tr>`).join("");
   document.getElementById("more").hidden = list.length <= state.shown;
