@@ -36688,48 +36688,97 @@ osf_bf6p5/year_published/01,osf_bf6p5,year_published,2024,osf_bf6p5_osf,Publishe
 osf_bfsge/access_routes:osf.access_method/01,osf_bfsge,access_routes:osf.access_method,direct_download,osf_bfsge_osf,Public record with files (API),2026-11-16,script,current,
 osf_bfsge/access_routes:osf.automation_tool/01,osf_bfsge,access_routes:osf.automation_tool,osf-api,osf_bfsge_osf,Files listed in the record API,2026-11-16,script,current,
 osf_bfsge/access_routes:osf.human_steps/01,osf_bfsge,access_routes:osf.human_steps,none,osf_bfsge_osf,Public record with files (API),2026-11-16,script,current,
+osf_bfsge/content_class/01,osf_bfsge,content_class,no_eeg_signals,osf_bfsge_doc94aa46,This directory includes only outputs files used to obtains results.,2026-11-16,claude,current,
 osf_bfsge/modalities/01,osf_bfsge,modalities,scalp_eeg,osf_bfsge_osf,Beyond broadband: towards a spectral decomposition of EEG microstates - Code and Data,2026-11-16,claude,current,
 osf_bfsge/name/01,osf_bfsge,name,Beyond broadband: towards a spectral decomposition of EEG microstates - Code and Data,osf_bfsge_osf,Record title,2026-11-16,script,current,
 osf_bfsge/year_published/01,osf_bfsge,year_published,2020,osf_bfsge_osf,Published 2020-11-05,2026-11-16,script,current,
 osf_bqc4x/access_routes:osf.access_method/01,osf_bqc4x,access_routes:osf.access_method,direct_download,osf_bqc4x_osf,Public record with files (API),2026-11-16,script,current,
 osf_bqc4x/access_routes:osf.automation_tool/01,osf_bqc4x,access_routes:osf.automation_tool,osf-api,osf_bqc4x_osf,Files listed in the record API,2026-11-16,script,current,
 osf_bqc4x/access_routes:osf.human_steps/01,osf_bqc4x,access_routes:osf.human_steps,none,osf_bqc4x_osf,Public record with files (API),2026-11-16,script,current,
-osf_bqc4x/modalities/01,osf_bqc4x,modalities,scalp_eeg,osf_bqc4x_osf,"Dataset for ""Semantic distance differently modulates FPVS-EEG responses to words and pictures""",2026-11-16,claude,current,
+osf_bqc4x/acquisition_setups:main.device_manufacturer/01,osf_bqc4x,acquisition_setups:main.device_manufacturer,ANT Neuro,osf_bqc4x_docc432a5,"""Manufacturer"": ""ANT Neuro""",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_bqc4x/acquisition_setups:main.device_model/01,osf_bqc4x,acquisition_setups:main.device_model,eego mylab,osf_bqc4x_docc432a5,"""ManufacturersModelName"": ""eego mylab""",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_bqc4x/acquisition_setups:main.ground/01,osf_bqc4x,acquisition_setups:main.ground,left collar bone,osf_bqc4x_docc432a5,"""EEGGround"": ""left collar bone""",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_bqc4x/acquisition_setups:main.line_freq_hz/01,osf_bqc4x,acquisition_setups:main.line_freq_hz,50,osf_bqc4x_docc432a5,"""PowerLineFrequency"": 50",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_bqc4x/acquisition_setups:main.n_channels_eeg/01,osf_bqc4x,acquisition_setups:main.n_channels_eeg,61,osf_bqc4x_docc432a5,"""EEGChannelCount"": 61",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_bqc4x/acquisition_setups:main.reference/01,osf_bqc4x,acquisition_setups:main.reference,5Z,osf_bqc4x_docc432a5,"""EEGReference"": ""5Z""",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_bqc4x/acquisition_setups:main.sampling_rate_hz/01,osf_bqc4x,acquisition_setups:main.sampling_rate_hz,512,osf_bqc4x_docc432a5,"""SamplingFrequency"": 512",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_bqc4x/content_class/01,osf_bqc4x,content_class,eeg_signals,osf_bqc4x_docf96030,Behavioral and raw EEG data associated with the manuscript,2026-11-16,claude,current,
+osf_bqc4x/domains/01,osf_bqc4x,domains,perception;cognitive,osf_bqc4x_docf96030,Semantic distance differently modulates FPVS-EEG responses to words and pictures,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_bqc4x/modalities/01,osf_bqc4x,modalities,scalp_eeg,osf_bqc4x_osf,"Dataset for ""Semantic distance differently modulates FPVS-EEG responses to words and pictures""",2026-11-16,claude,superseded,superseded by osf_bqc4x/modalities/02
+osf_bqc4x/modalities/02,osf_bqc4x,modalities,scalp_eeg;eog,osf_bqc4x_docc432a5,"""EEGChannelCount"": 61",2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 osf_bqc4x/name/01,osf_bqc4x,name,"Dataset for ""Semantic distance differently modulates FPVS-EEG responses to words and pictures""",osf_bqc4x_osf,Record title,2026-11-16,script,current,
+osf_bqc4x/tasks:fpvs_semantic_distance.paradigms/01,osf_bqc4x,tasks:fpvs_semantic_distance.paradigms,other,osf_bqc4x_docc432a5,Pictures or words from various semantic categories were presented at a frequency of 4Hz,2026-11-16,claude,current,
+osf_bqc4x/tasks:fpvs_semantic_distance.task_name/01,osf_bqc4x,tasks:fpvs_semantic_distance.task_name,FPVS Semantic Distance,osf_bqc4x_docc432a5,Pictures or words from various semantic categories were presented at a frequency of 4Hz,2026-11-16,claude,current,
 osf_bqc4x/year_published/01,osf_bqc4x,year_published,2026,osf_bqc4x_osf,Published 2026-01-05,2026-11-16,script,current,
 osf_bqs9h/access_routes:osf.access_method/01,osf_bqs9h,access_routes:osf.access_method,direct_download,osf_bqs9h_osf,Public record with files (API),2026-11-16,script,current,
 osf_bqs9h/access_routes:osf.automation_tool/01,osf_bqs9h,access_routes:osf.automation_tool,osf-api,osf_bqs9h_osf,Files listed in the record API,2026-11-16,script,current,
 osf_bqs9h/access_routes:osf.human_steps/01,osf_bqs9h,access_routes:osf.human_steps,none,osf_bqs9h_osf,Public record with files (API),2026-11-16,script,current,
+osf_bqs9h/content_class/01,osf_bqs9h,content_class,eeg_signals,osf_bqs9h_doc340d05,This project contains preprocessed EEG hyperscanning data from the Perceptual Crossing Experiment (Experiment 1 to 28),2026-11-16,claude,current,
 osf_bqs9h/modalities/01,osf_bqs9h,modalities,scalp_eeg,osf_bqs9h_osf,Preprocessed EEG Hyperscanning Data Pt,2026-11-16,claude,current,
+osf_bqs9h/modalities/02,osf_bqs9h,modalities,scalp_eeg,osf_bqs9h_doc340d05,preprocessed EEG hyperscanning data,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_bqs9h/name/01,osf_bqs9h,name,Preprocessed EEG Hyperscanning Data Pt. 1,osf_bqs9h_osf,Record title,2026-11-16,script,current,
+osf_bqs9h/tasks:perceptual_crossing_experiment.paradigms/01,osf_bqs9h,tasks:perceptual_crossing_experiment.paradigms,other,osf_bqs9h_doc340d05,preprocessed EEG hyperscanning data from the Perceptual Crossing Experiment,2026-11-16,claude,current,
+osf_bqs9h/tasks:perceptual_crossing_experiment.task_name/01,osf_bqs9h,tasks:perceptual_crossing_experiment.task_name,Perceptual Crossing Experiment,osf_bqs9h_doc340d05,preprocessed EEG hyperscanning data from the Perceptual Crossing Experiment,2026-11-16,claude,current,
 osf_bqs9h/year_published/01,osf_bqs9h,year_published,2024,osf_bqs9h_osf,Published 2024-02-29,2026-11-16,script,current,
 osf_btvc5/access_routes:osf.access_method/01,osf_btvc5,access_routes:osf.access_method,direct_download,osf_btvc5_osf,Public record with files (API),2026-11-16,script,current,
 osf_btvc5/access_routes:osf.automation_tool/01,osf_btvc5,access_routes:osf.automation_tool,osf-api,osf_btvc5_osf,Files listed in the record API,2026-11-16,script,current,
 osf_btvc5/access_routes:osf.human_steps/01,osf_btvc5,access_routes:osf.human_steps,none,osf_btvc5_osf,Public record with files (API),2026-11-16,script,current,
+osf_btvc5/content_class/01,osf_btvc5,content_class,no_eeg_signals,osf_btvc5_doc9b116e,"Here we present an extension to BIDS for electroencephalography (EEG) data, BIDS-EEG, along with tools and references to a series of public EEG datasets",2026-11-16,claude,current,
 osf_btvc5/modalities/01,osf_btvc5,modalities,scalp_eeg,osf_btvc5_osf,BIDS-EEG: an extension to the Brain Imaging Data Structure (BIDS) Specification for elec,2026-11-16,claude,current,
 osf_btvc5/name/01,osf_btvc5,name,BIDS-EEG: an extension to the Brain Imaging Data Structure (BIDS) Specification for electroencephalography,osf_btvc5_osf,Record title,2026-11-16,script,current,
 osf_btvc5/year_published/01,osf_btvc5,year_published,2018,osf_btvc5_osf,Published 2018-12-06,2026-11-16,script,current,
 osf_c689u/access_routes:osf.access_method/01,osf_c689u,access_routes:osf.access_method,direct_download,osf_c689u_osf,Public record with files (API),2026-11-16,script,current,
 osf_c689u/access_routes:osf.automation_tool/01,osf_c689u,access_routes:osf.automation_tool,osf-api,osf_c689u_osf,Files listed in the record API,2026-11-16,script,current,
 osf_c689u/access_routes:osf.human_steps/01,osf_c689u,access_routes:osf.human_steps,none,osf_c689u_osf,Public record with files (API),2026-11-16,script,current,
+osf_c689u/acquisition_setups:main.device_manufacturer/01,osf_c689u,acquisition_setups:main.device_manufacturer,g.tec,osf_c689u_doc2652c4,"using a g.USBamp amplifier (g.tec Medical Engineering, GmbH, Austria)",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c689u/acquisition_setups:main.device_model/01,osf_c689u,acquisition_setups:main.device_model,g.USBamp,osf_c689u_doc2652c4,"using a g.USBamp amplifier (g.tec Medical Engineering, GmbH, Austria)",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c689u/acquisition_setups:main.ground/01,osf_c689u,acquisition_setups:main.ground,FCz,osf_c689u_doc2652c4,The ground electrode was positioned at FCz,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c689u/acquisition_setups:main.montage_system/01,osf_c689u,acquisition_setups:main.montage_system,10_20,osf_c689u_doc2652c4,arranged according to the international standard 10–20 system,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c689u/acquisition_setups:main.n_channels_eeg/01,osf_c689u,acquisition_setups:main.n_channels_eeg,5,osf_c689u_doc2652c4,from 5 active Ag/AgCl scalp electrodes arranged according to the international standard 10–20 system,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c689u/acquisition_setups:main.reference/01,osf_c689u,acquisition_setups:main.reference,active Ag/AgCl earclip electrode,osf_c689u_doc2652c4,an active Ag/AgCl earclip electrode was used as the reference,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c689u/acquisition_setups:main.sampling_rate_hz/01,osf_c689u,acquisition_setups:main.sampling_rate_hz,1200,osf_c689u_doc2652c4,EEG data were sampled at 1200 Hz using a g.USBamp amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c689u/content_class/01,osf_c689u,content_class,eeg_signals,osf_c689u_doc2652c4,classify feature-based attention using single-trial EEG data,2026-11-16,claude,current,
+osf_c689u/domains/01,osf_c689u,domains,bci;cognitive;perception,osf_c689u_doc2652c4,classify feature-based attention using single-trial EEG data,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_c689u/modalities/01,osf_c689u,modalities,scalp_eeg,osf_c689u_osf,Optimising the classification of feature-based attention in frequency-tagged electroencephalography data,2026-11-16,claude,current,
+osf_c689u/modalities/02,osf_c689u,modalities,scalp_eeg,osf_c689u_doc2652c4,from 5 active Ag/AgCl scalp electrodes arranged according to the international standard 10–20 system,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c689u/n_subjects_reported/01,osf_c689u,n_subjects_reported,30,osf_c689u_doc2652c4,The data repository contains data from 30 participants (7.8 GB),2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_c689u/name/01,osf_c689u,name,Optimising the classification of feature-based attention in frequency-tagged electroencephalography data,osf_c689u_osf,Record title,2026-11-16,script,current,
+osf_c689u/participant_groups:healthy_adult_participants_rec.age_mean/01,osf_c689u,participant_groups:healthy_adult_participants_rec.age_mean,23.43,osf_c689u_doc2652c4,"Thirty-two healthy adult participants (16 males, age M = 23.43 years, SD = 5.44 years)",2026-11-16,claude,current,
+osf_c689u/participant_groups:healthy_adult_participants_rec.age_sd/01,osf_c689u,participant_groups:healthy_adult_participants_rec.age_sd,5.44,osf_c689u_doc2652c4,"Thirty-two healthy adult participants (16 males, age M = 23.43 years, SD = 5.44 years)",2026-11-16,claude,current,
+osf_c689u/participant_groups:healthy_adult_participants_rec.condition/01,osf_c689u,participant_groups:healthy_adult_participants_rec.condition,healthy,osf_c689u_doc2652c4,"Thirty-two healthy adult participants (16 males, age M = 23.43 years, SD = 5.44 years)",2026-11-16,claude,current,
+osf_c689u/participant_groups:healthy_adult_participants_rec.n_male/01,osf_c689u,participant_groups:healthy_adult_participants_rec.n_male,16,osf_c689u_doc2652c4,"Thirty-two healthy adult participants (16 males, age M = 23.43 years, SD = 5.44 years)",2026-11-16,claude,current,
+osf_c689u/participant_groups:healthy_adult_participants_rec.n_subjects/01,osf_c689u,participant_groups:healthy_adult_participants_rec.n_subjects,32,osf_c689u_doc2652c4,"Thirty-two healthy adult participants (16 males, age M = 23.43 years, SD = 5.44 years)",2026-11-16,claude,current,
+osf_c689u/tasks:feature_based_motion_discrimination_task.paradigms/01,osf_c689u,tasks:feature_based_motion_discrimination_task.paradigms,ssvep,osf_c689u_doc0ca4ed,a feature-based motion discrimination task on frequency tagged visual stimuli,2026-11-16,claude,current,
+osf_c689u/tasks:feature_based_motion_discrimination_task.task_name/01,osf_c689u,tasks:feature_based_motion_discrimination_task.task_name,feature-based motion discrimination task,osf_c689u_doc0ca4ed,a feature-based motion discrimination task on frequency tagged visual stimuli,2026-11-16,claude,current,
 osf_c689u/year_published/01,osf_c689u,year_published,2021,osf_c689u_osf,Published 2021-04-03,2026-11-16,script,current,
 osf_c7m6z/access_routes:osf.access_method/01,osf_c7m6z,access_routes:osf.access_method,direct_download,osf_c7m6z_osf,Public record with files (API),2026-11-16,script,current,
 osf_c7m6z/access_routes:osf.automation_tool/01,osf_c7m6z,access_routes:osf.automation_tool,osf-api,osf_c7m6z_osf,Files listed in the record API,2026-11-16,script,current,
 osf_c7m6z/access_routes:osf.human_steps/01,osf_c7m6z,access_routes:osf.human_steps,none,osf_c7m6z_osf,Public record with files (API),2026-11-16,script,current,
+osf_c7m6z/content_class/01,osf_c7m6z,content_class,eeg_signals,osf_c7m6z_doc03fde8,EEG data and NASA Task Load indeX (NASA-TLX) were used to assess changes in objective and subjective MWL,2026-11-16,claude,current,
+osf_c7m6z/domains/01,osf_c7m6z,domains,cognitive,osf_c7m6z_doc03fde8,A cognitive task based on the n-back test was proposed,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_c7m6z/modalities/01,osf_c7m6z,modalities,scalp_eeg,osf_c7m6z_osf,A Multimodal Approach Exploiting EEG to Investigate the Effects of VR Environment on Mental Workload - DATASET,2026-11-16,claude,current,
+osf_c7m6z/modalities/02,osf_c7m6z,modalities,scalp_eeg,osf_c7m6z_doc03fde8,EEG data and NASA Task Load indeX (NASA-TLX) were used to assess changes in objective and subjective MWL,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_c7m6z/n_subjects_reported/01,osf_c7m6z,n_subjects_reported,27,osf_c7m6z_doc03fde8,27 healthy participants were enrolled in this study,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_c7m6z/name/01,osf_c7m6z,name,A Multimodal Approach Exploiting EEG to Investigate the Effects of VR Environment on Mental Workload - DATASET,osf_c7m6z_osf,Record title,2026-11-16,script,current,
+osf_c7m6z/participant_groups:healthy_participants.condition/01,osf_c7m6z,participant_groups:healthy_participants.condition,healthy,osf_c7m6z_doc03fde8,27 healthy participants were enrolled in this study,2026-11-16,claude,current,
+osf_c7m6z/participant_groups:healthy_participants.n_subjects/01,osf_c7m6z,participant_groups:healthy_participants.n_subjects,27,osf_c7m6z_doc03fde8,27 healthy participants were enrolled in this study,2026-11-16,claude,current,
+osf_c7m6z/tasks:n_back_test_hmd_vr_vs_desktop.paradigms/01,osf_c7m6z,tasks:n_back_test_hmd_vr_vs_desktop.paradigms,cognitive_task,osf_c7m6z_doc03fde8,A cognitive task based on the n-back test was proposed to compare the performance and MWL of participants who used either a head-mounted display (HMD),2026-11-16,claude,current,
+osf_c7m6z/tasks:n_back_test_hmd_vr_vs_desktop.task_name/01,osf_c7m6z,tasks:n_back_test_hmd_vr_vs_desktop.task_name,n-back test (HMD VR vs desktop),osf_c7m6z_doc03fde8,A cognitive task based on the n-back test was proposed to compare the performance and MWL of participants who used either a head-mounted display (HMD),2026-11-16,claude,current,
 osf_c7m6z/year_published/01,osf_c7m6z,year_published,2023,osf_c7m6z_osf,Published 2023-07-24,2026-11-16,script,current,
 osf_ct2xw/access_routes:osf.access_method/01,osf_ct2xw,access_routes:osf.access_method,direct_download,osf_ct2xw_osf,Public record with files (API),2026-11-16,script,current,
 osf_ct2xw/access_routes:osf.automation_tool/01,osf_ct2xw,access_routes:osf.automation_tool,osf-api,osf_ct2xw_osf,Files listed in the record API,2026-11-16,script,current,
 osf_ct2xw/access_routes:osf.human_steps/01,osf_ct2xw,access_routes:osf.human_steps,none,osf_ct2xw_osf,Public record with files (API),2026-11-16,script,current,
+osf_ct2xw/acquisition_setups:main.n_channels_eeg/01,osf_ct2xw,acquisition_setups:main.n_channels_eeg,1,osf_ct2xw_doc6af506,Number of channels: 1,2026-11-16,claude,current,Audit reviewer; scope: 1.vhdr only
+osf_ct2xw/acquisition_setups:main.sampling_rate_hz/01,osf_ct2xw,acquisition_setups:main.sampling_rate_hz,500,osf_ct2xw_doc6af506,Sampling Rate [Hz]: 500,2026-11-16,claude,current,Audit reviewer; scope: 1.vhdr only
+osf_ct2xw/domains/01,osf_ct2xw,domains,development,osf_ct2xw_doc992eec,Developmental changes in individual alpha frequency,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_ct2xw/modalities/01,osf_ct2xw,modalities,scalp_eeg,osf_ct2xw_osf,Recording EEG data during public engagement events,2026-11-16,claude,current,
+osf_ct2xw/modalities/02,osf_ct2xw,modalities,scalp_eeg,osf_ct2xw_doc6af506,Number of channels: 1,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_ct2xw/name/01,osf_ct2xw,name,Recording EEG data during public engagement events,osf_ct2xw_osf,Record title,2026-11-16,script,current,
 osf_ct2xw/year_published/01,osf_ct2xw,year_published,2022,osf_ct2xw_osf,Published 2022-11-07,2026-11-16,script,current,
 osf_cte94/access_routes:osf.access_method/01,osf_cte94,access_routes:osf.access_method,direct_download,osf_cte94_osf,Public record with files (API),2026-11-16,script,current,
 osf_cte94/access_routes:osf.automation_tool/01,osf_cte94,access_routes:osf.automation_tool,osf-api,osf_cte94_osf,Files listed in the record API,2026-11-16,script,current,
 osf_cte94/access_routes:osf.human_steps/01,osf_cte94,access_routes:osf.human_steps,none,osf_cte94_osf,Public record with files (API),2026-11-16,script,current,
+osf_cte94/content_class/01,osf_cte94,content_class,no_eeg_signals,osf_cte94_docf8b5e9,This repository contains the data and code associated with:,2026-11-16,claude,current,
 osf_cte94/modalities/01,osf_cte94,modalities,scalp_eeg,osf_cte94_osf,Open Data: Decoding chromaticity and luminance from patterns of EEG activity,2026-11-16,claude,current,
 osf_cte94/name/01,osf_cte94,name,Open Data: Decoding chromaticity and luminance from patterns of EEG activity,osf_cte94_osf,Record title,2026-11-16,script,current,
 osf_cte94/year_published/01,osf_cte94,year_published,2018,osf_cte94_osf,Published 2018-06-05,2026-11-16,script,current,
@@ -36742,68 +36791,128 @@ osf_cze3p/year_published/01,osf_cze3p,year_published,2021,osf_cze3p_osf,Publishe
 osf_d5yrf/access_routes:osf.access_method/01,osf_d5yrf,access_routes:osf.access_method,direct_download,osf_d5yrf_osf,Public record with files (API),2026-11-16,script,current,
 osf_d5yrf/access_routes:osf.automation_tool/01,osf_d5yrf,access_routes:osf.automation_tool,osf-api,osf_d5yrf_osf,Files listed in the record API,2026-11-16,script,current,
 osf_d5yrf/access_routes:osf.human_steps/01,osf_d5yrf,access_routes:osf.human_steps,none,osf_d5yrf_osf,Public record with files (API),2026-11-16,script,current,
-osf_d5yrf/modalities/01,osf_d5yrf,modalities,scalp_eeg,osf_d5yrf_osf,"""NERD"" = ""Neuroimaging EEG and fNIRS Dataset""",2026-11-16,claude,current,
+osf_d5yrf/acquisition_setups:main.device_model/01,osf_d5yrf,acquisition_setups:main.device_model,Unicorn Hybrid Black,osf_d5yrf_doc753eef,The data was recorded using Unicorn Hybrid Black (EEG) and Cortivision (fNIRS).,2026-11-16,claude,current,Audit reviewer; scope: eeg device
+osf_d5yrf/content_class/01,osf_d5yrf,content_class,eeg_signals,osf_d5yrf_doc753eef,30 fNIRS and 31 EEG,2026-11-16,claude,current,
+osf_d5yrf/modalities/01,osf_d5yrf,modalities,scalp_eeg,osf_d5yrf_osf,"""NERD"" = ""Neuroimaging EEG and fNIRS Dataset""",2026-11-16,claude,superseded,superseded by osf_d5yrf/modalities/02
+osf_d5yrf/modalities/02,osf_d5yrf,modalities,scalp_eeg;fnirs,osf_d5yrf_doc753eef,The data was recorded using Unicorn Hybrid Black (EEG) and Cortivision (fNIRS).,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 osf_d5yrf/name/01,osf_d5yrf,name,"""NERD"" = ""Neuroimaging EEG and fNIRS Dataset""",osf_d5yrf_osf,Record title,2026-11-16,script,current,
+osf_d5yrf/tasks:positive_and_negative_images.paradigms/01,osf_d5yrf,tasks:positive_and_negative_images.paradigms,passive_viewing,osf_d5yrf_doc753eef,"The subjects were seeing positive and negative images, while their brain reaction was recorded (fNIRS and EEG).",2026-11-16,claude,current,
+osf_d5yrf/tasks:positive_and_negative_images.task_name/01,osf_d5yrf,tasks:positive_and_negative_images.task_name,positive and negative images,osf_d5yrf_doc753eef,"The subjects were seeing positive and negative images, while their brain reaction was recorded (fNIRS and EEG).",2026-11-16,claude,current,
 osf_d5yrf/year_published/01,osf_d5yrf,year_published,2024,osf_d5yrf_osf,Published 2024-03-22,2026-11-16,script,current,
 osf_d7frw/access_routes:osf.access_method/01,osf_d7frw,access_routes:osf.access_method,direct_download,osf_d7frw_osf,Public record with files (API),2026-11-16,script,current,
 osf_d7frw/access_routes:osf.automation_tool/01,osf_d7frw,access_routes:osf.automation_tool,osf-api,osf_d7frw_osf,Files listed in the record API,2026-11-16,script,current,
 osf_d7frw/access_routes:osf.human_steps/01,osf_d7frw,access_routes:osf.human_steps,none,osf_d7frw_osf,Public record with files (API),2026-11-16,script,current,
-osf_d7frw/modalities/01,osf_d7frw,modalities,scalp_eeg,osf_d7frw_osf,ZuCo Reading Task Classification Benchmark using EEG and Eye-Tracking Data,2026-11-16,claude,current,
+osf_d7frw/acquisition_setups:main.montage_system/01,osf_d7frw,acquisition_setups:main.montage_system,egi_hydrocel,osf_d7frw_doc0bdffc,Each number represents the electrode number of the 128 channel HydroCel Geodesic Sensor Net,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_d7frw/acquisition_setups:main.n_channels_eeg/01,osf_d7frw,acquisition_setups:main.n_channels_eeg,105,osf_d7frw_doc695d48,For each electrode (105) power is averaged across the sentence duration.,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_d7frw/content_class/01,osf_d7frw,content_class,eeg_signals,osf_d7frw_doc695d48,"The Column ""rawData"" refers to the full (preprocessed) EEG data acquired while the sentence was presented (electrodes x samples).",2026-11-16,claude,current,
+osf_d7frw/domains/01,osf_d7frw,domains,cognitive,osf_d7frw_doc695d48,normal reading (NR) and task-specific reading (TSR),2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_d7frw/modalities/01,osf_d7frw,modalities,scalp_eeg,osf_d7frw_osf,ZuCo Reading Task Classification Benchmark using EEG and Eye-Tracking Data,2026-11-16,claude,superseded,superseded by osf_d7frw/modalities/02
+osf_d7frw/modalities/02,osf_d7frw,modalities,scalp_eeg;eye_tracking,osf_d7frw_doc695d48,each file corresponds to one participant and contains both eye tracking and EEG brain activity data,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 osf_d7frw/name/01,osf_d7frw,name,ZuCo Reading Task Classification Benchmark using EEG and Eye-Tracking Data,osf_d7frw_osf,Record title,2026-11-16,script,current,
+osf_d7frw/tasks:normal_reading_nr.paradigms/01,osf_d7frw,tasks:normal_reading_nr.paradigms,language,osf_d7frw_doc695d48,normal reading (NR) and task-specific reading (TSR),2026-11-16,claude,current,
+osf_d7frw/tasks:normal_reading_nr.task_name/01,osf_d7frw,tasks:normal_reading_nr.task_name,normal reading (NR),osf_d7frw_doc695d48,normal reading (NR) and task-specific reading (TSR),2026-11-16,claude,current,
+osf_d7frw/tasks:task_specific_reading_tsr.paradigms/01,osf_d7frw,tasks:task_specific_reading_tsr.paradigms,language,osf_d7frw_doc695d48,normal reading (NR) and task-specific reading (TSR),2026-11-16,claude,current,
+osf_d7frw/tasks:task_specific_reading_tsr.task_name/01,osf_d7frw,tasks:task_specific_reading_tsr.task_name,task-specific reading (TSR),osf_d7frw_doc695d48,normal reading (NR) and task-specific reading (TSR),2026-11-16,claude,current,
 osf_d7frw/year_published/01,osf_d7frw,year_published,2021,osf_d7frw_osf,Published 2021-07-23,2026-11-16,script,current,
 osf_de9p6/access_routes:osf.access_method/01,osf_de9p6,access_routes:osf.access_method,direct_download,osf_de9p6_osf,Public record with files (API),2026-11-16,script,current,
 osf_de9p6/access_routes:osf.automation_tool/01,osf_de9p6,access_routes:osf.automation_tool,osf-api,osf_de9p6_osf,Files listed in the record API,2026-11-16,script,current,
 osf_de9p6/access_routes:osf.human_steps/01,osf_de9p6,access_routes:osf.human_steps,none,osf_de9p6_osf,Public record with files (API),2026-11-16,script,current,
+osf_de9p6/acquisition_setups:main.device_manufacturer/01,osf_de9p6,acquisition_setups:main.device_manufacturer,NeuroScan,osf_de9p6_doc660fb5,"with a NeuroScan amplifier (SynAmp II, NeuroScan, Compumedics, USA)",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_de9p6/acquisition_setups:main.device_model/01,osf_de9p6,acquisition_setups:main.device_model,SynAmp II,osf_de9p6_doc660fb5,"with a NeuroScan amplifier (SynAmp II, NeuroScan, Compumedics, USA)",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_de9p6/acquisition_setups:main.ground/01,osf_de9p6,acquisition_setups:main.ground,forehead ground at FZ,osf_de9p6_doc660fb5,with a forehead ground at FZ,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_de9p6/acquisition_setups:main.n_channels_eeg/01,osf_de9p6,acquisition_setups:main.n_channels_eeg,60,osf_de9p6_doc660fb5,EEG signals were recorded from 60 channels,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_de9p6/acquisition_setups:main.reference/01,osf_de9p6,acquisition_setups:main.reference,an electrode between CZ and CPZ,osf_de9p6_doc660fb5,referenced to an electrode between CZ and CPZ,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_de9p6/acquisition_setups:main.sampling_rate_hz/01,osf_de9p6,acquisition_setups:main.sampling_rate_hz,1000,osf_de9p6_doc660fb5,at a sampling rate of 1000 Hz,2026-11-16,claude,conflicting,Audit reviewer; scope: recorded
+osf_de9p6/acquisition_setups:main.sampling_rate_hz/02,osf_de9p6,acquisition_setups:main.sampling_rate_hz,128,osf_de9p6_doc660fb5,Down-sampled to 128 Hz,2026-11-16,claude,conflicting,Audit reviewer; scope: distributed preprocessed data
+osf_de9p6/content_class/01,osf_de9p6,content_class,eeg_signals,osf_de9p6_doc660fb5,EEG signals were recorded from 60 channels with a NeuroScan amplifier,2026-11-16,claude,current,
+osf_de9p6/domains/01,osf_de9p6,domains,perception;cognitive,osf_de9p6_doc660fb5,Naturalistic Speech Perception in Noisy Environment,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_de9p6/modalities/01,osf_de9p6,modalities,scalp_eeg,osf_de9p6_osf,EEG recording during Naturalistic Speech Perception in Noisy Environment,2026-11-16,claude,current,
+osf_de9p6/modalities/02,osf_de9p6,modalities,scalp_eeg,osf_de9p6_doc660fb5,EEG signals were recorded from 60 channels with a NeuroScan amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_de9p6/name/01,osf_de9p6,name,EEG recording during Naturalistic Speech Perception in Noisy Environment,osf_de9p6_osf,Record title,2026-11-16,script,current,
+osf_de9p6/tasks:naturalistic_speech_perception_in_noise.paradigms/01,osf_de9p6,tasks:naturalistic_speech_perception_in_noise.paradigms,language,osf_de9p6_doc660fb5,"EEG data on the delta and theta band at the no-noise (NN), low-noise (LN, SNR = 3 dB), and highnoise (HN, SNR = -3 dB)",2026-11-16,claude,current,
+osf_de9p6/tasks:naturalistic_speech_perception_in_noise.task_name/01,osf_de9p6,tasks:naturalistic_speech_perception_in_noise.task_name,Naturalistic speech perception in noise,osf_de9p6_doc660fb5,"EEG data on the delta and theta band at the no-noise (NN), low-noise (LN, SNR = 3 dB), and highnoise (HN, SNR = -3 dB)",2026-11-16,claude,current,
 osf_de9p6/year_published/01,osf_de9p6,year_published,2023,osf_de9p6_osf,Published 2023-04-16,2026-11-16,script,current,
 osf_dex2p/access_routes:osf.access_method/01,osf_dex2p,access_routes:osf.access_method,direct_download,osf_dex2p_osf,Public record with files (API),2026-11-16,script,current,
 osf_dex2p/access_routes:osf.automation_tool/01,osf_dex2p,access_routes:osf.automation_tool,osf-api,osf_dex2p_osf,Files listed in the record API,2026-11-16,script,current,
 osf_dex2p/access_routes:osf.human_steps/01,osf_dex2p,access_routes:osf.human_steps,none,osf_dex2p_osf,Public record with files (API),2026-11-16,script,current,
+osf_dex2p/acquisition_setups:main.device_model/01,osf_dex2p,acquisition_setups:main.device_model,STARSTIM,osf_dex2p_docdc50b0,Device class: STARSTIM (EEG only mode),2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_dex2p/acquisition_setups:main.n_channels_eeg/01,osf_dex2p,acquisition_setups:main.n_channels_eeg,20,osf_dex2p_docdc50b0,Number of EEG channels: 20,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_dex2p/acquisition_setups:main.sampling_rate_hz/01,osf_dex2p,acquisition_setups:main.sampling_rate_hz,500,osf_dex2p_docdc50b0,EEG sampling rate: 500 Samples/second,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_dex2p/content_class/01,osf_dex2p,content_class,eeg_signals,osf_dex2p_docdc50b0,Number of EEG channels: 20,2026-11-16,claude,current,
 osf_dex2p/modalities/01,osf_dex2p,modalities,scalp_eeg,osf_dex2p_osf,Data to practice EEG data analysis,2026-11-16,claude,current,
+osf_dex2p/modalities/02,osf_dex2p,modalities,scalp_eeg,osf_dex2p_docdc50b0,Number of EEG channels: 20,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_dex2p/name/01,osf_dex2p,name,Data to practice EEG data analysis,osf_dex2p_osf,Record title,2026-11-16,script,current,
 osf_dex2p/year_published/01,osf_dex2p,year_published,2025,osf_dex2p_osf,Published 2025-12-15,2026-11-16,script,current,
 osf_dg2e6/access_routes:osf.access_method/01,osf_dg2e6,access_routes:osf.access_method,direct_download,osf_dg2e6_osf,Public record with files (API),2026-11-16,script,current,
 osf_dg2e6/access_routes:osf.automation_tool/01,osf_dg2e6,access_routes:osf.automation_tool,osf-api,osf_dg2e6_osf,Files listed in the record API,2026-11-16,script,current,
 osf_dg2e6/access_routes:osf.human_steps/01,osf_dg2e6,access_routes:osf.human_steps,none,osf_dg2e6_osf,Public record with files (API),2026-11-16,script,current,
+osf_dg2e6/content_class/01,osf_dg2e6,content_class,no_eeg_signals,osf_dg2e6_doc2a71ca,eeg-data-analysis (1).ipynb,2026-11-16,claude,current,
 osf_dg2e6/modalities/01,osf_dg2e6,modalities,scalp_eeg,osf_dg2e6_osf,Mental Health Monitoring And Intervention Using Unsupervised Deep Learning On EEG Data,2026-11-16,claude,current,
 osf_dg2e6/name/01,osf_dg2e6,name,Mental Health Monitoring And Intervention Using Unsupervised Deep Learning On EEG Data,osf_dg2e6_osf,Record title,2026-11-16,script,current,
 osf_dg2e6/year_published/01,osf_dg2e6,year_published,2025,osf_dg2e6_osf,Published 2025-06-12,2026-11-16,script,current,
 osf_dqmnk/access_routes:osf.access_method/01,osf_dqmnk,access_routes:osf.access_method,direct_download,osf_dqmnk_osf,Public record with files (API),2026-11-16,script,current,
 osf_dqmnk/access_routes:osf.automation_tool/01,osf_dqmnk,access_routes:osf.automation_tool,osf-api,osf_dqmnk_osf,Files listed in the record API,2026-11-16,script,current,
 osf_dqmnk/access_routes:osf.human_steps/01,osf_dqmnk,access_routes:osf.human_steps,none,osf_dqmnk_osf,Public record with files (API),2026-11-16,script,current,
-osf_dqmnk/modalities/01,osf_dqmnk,modalities,scalp_eeg,osf_dqmnk_osf,ManusBCI: A Simultaneous EEG Motor Movement and Hand Posture Video Dataset,2026-11-16,claude,current,
+osf_dqmnk/content_class/01,osf_dqmnk,content_class,eeg_signals,osf_dqmnk_docbee837,ManusBCI: A Simultaneous EEG Motor Movement and Hand Posture Video Dataset,2026-11-16,claude,current,
+osf_dqmnk/domains/01,osf_dqmnk,domains,bci;motor,osf_dqmnk_docbee837,ManusBCI: A Simultaneous EEG Motor Movement and Hand Posture Video Dataset,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_dqmnk/modalities/01,osf_dqmnk,modalities,scalp_eeg,osf_dqmnk_osf,ManusBCI: A Simultaneous EEG Motor Movement and Hand Posture Video Dataset,2026-11-16,claude,superseded,superseded by osf_dqmnk/modalities/02
+osf_dqmnk/modalities/02,osf_dqmnk,modalities,scalp_eeg;video,osf_dqmnk_docbee837,ManusBCI: A Simultaneous EEG Motor Movement and Hand Posture Video Dataset,2026-11-16,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
 osf_dqmnk/name/01,osf_dqmnk,name,ManusBCI: A Simultaneous EEG Motor Movement and Hand Posture Video Dataset,osf_dqmnk_osf,Record title,2026-11-16,script,current,
+osf_dqmnk/tasks:eeg_motor_movement_and_hand_posture.paradigms/01,osf_dqmnk,tasks:eeg_motor_movement_and_hand_posture.paradigms,motor_execution,osf_dqmnk_docbee837,A Simultaneous EEG Motor Movement and Hand Posture Video Dataset,2026-11-16,claude,current,
+osf_dqmnk/tasks:eeg_motor_movement_and_hand_posture.task_name/01,osf_dqmnk,tasks:eeg_motor_movement_and_hand_posture.task_name,EEG motor movement and hand posture,osf_dqmnk_docbee837,A Simultaneous EEG Motor Movement and Hand Posture Video Dataset,2026-11-16,claude,current,
 osf_dqmnk/year_published/01,osf_dqmnk,year_published,2023,osf_dqmnk_osf,Published 2023-05-09,2026-11-16,script,current,
 osf_dsp65/access_routes:osf.access_method/01,osf_dsp65,access_routes:osf.access_method,direct_download,osf_dsp65_osf,Public record with files (API),2026-11-16,script,current,
 osf_dsp65/access_routes:osf.automation_tool/01,osf_dsp65,access_routes:osf.automation_tool,osf-api,osf_dsp65_osf,Files listed in the record API,2026-11-16,script,current,
 osf_dsp65/access_routes:osf.human_steps/01,osf_dsp65,access_routes:osf.human_steps,none,osf_dsp65_osf,Public record with files (API),2026-11-16,script,current,
+osf_dsp65/content_class/01,osf_dsp65,content_class,no_eeg_signals,osf_dsp65_docadfe64,"Contains derived EEG/fNIRS features, MNE source-space analyses, paper-aligned NIRS preprocessing, strict nested-CV machine learning, permutation tests, SSCI statistical tables, figures, and a manuscript draft",2026-11-16,claude,current,
 osf_dsp65/modalities/01,osf_dsp65,modalities,scalp_eeg,osf_dsp65_osf,"Source-space EEG markers, fNIRS data quality, and language outcomes in children with cochlear im",2026-11-16,claude,current,
 osf_dsp65/name/01,osf_dsp65,name,"Source-space EEG markers, fNIRS data quality, and language outcomes in children with cochlear implants: A multimodal machine-learning study",osf_dsp65_osf,Record title,2026-11-16,script,current,
 osf_dsp65/year_published/01,osf_dsp65,year_published,2026,osf_dsp65_osf,Published 2026-08-09,2026-11-16,script,current,
 osf_dvmu6/access_routes:osf.access_method/01,osf_dvmu6,access_routes:osf.access_method,direct_download,osf_dvmu6_osf,Public record with files (API),2026-11-16,script,current,
 osf_dvmu6/access_routes:osf.automation_tool/01,osf_dvmu6,access_routes:osf.automation_tool,osf-api,osf_dvmu6_osf,Files listed in the record API,2026-11-16,script,current,
 osf_dvmu6/access_routes:osf.human_steps/01,osf_dvmu6,access_routes:osf.human_steps,none,osf_dvmu6_osf,Public record with files (API),2026-11-16,script,current,
+osf_dvmu6/content_class/01,osf_dvmu6,content_class,no_eeg_signals,osf_dvmu6_doc3192fa,This is an .xlsx file with 4 sheets.,2026-11-16,claude,current,
 osf_dvmu6/modalities/01,osf_dvmu6,modalities,scalp_eeg,osf_dvmu6_osf,ctivity in adults with ASD when inferring others’ intentions using both TMS and EEG,2026-11-16,claude,current,
 osf_dvmu6/name/01,osf_dvmu6,name,Investigating mirror system activity in adults with ASD when inferring others’ intentions using both TMS and EEG,osf_dvmu6_osf,Record title,2026-11-16,script,current,
+osf_dvmu6/participant_groups:asd.condition/01,osf_dvmu6,participant_groups:asd.condition,patient,osf_dvmu6_doc3192fa,ASD=Diagnosis of Autism,2026-11-16,claude,current,
+osf_dvmu6/participant_groups:asd.diagnosis/01,osf_dvmu6,participant_groups:asd.diagnosis,Diagnosis of Autism,osf_dvmu6_doc3192fa,ASD=Diagnosis of Autism,2026-11-16,claude,current,
+osf_dvmu6/participant_groups:td.condition/01,osf_dvmu6,participant_groups:td.condition,healthy,osf_dvmu6_doc3192fa,TD=Typically Developing,2026-11-16,claude,current,
+osf_dvmu6/participant_groups:td.diagnosis/01,osf_dvmu6,participant_groups:td.diagnosis,Typically Developing,osf_dvmu6_doc3192fa,TD=Typically Developing,2026-11-16,claude,current,
 osf_dvmu6/year_published/01,osf_dvmu6,year_published,2018,osf_dvmu6_osf,Published 2018-01-03,2026-11-16,script,current,
 osf_dxj5p/access_routes:osf.access_method/01,osf_dxj5p,access_routes:osf.access_method,direct_download,osf_dxj5p_osf,Public record with files (API),2026-11-16,script,current,
 osf_dxj5p/access_routes:osf.automation_tool/01,osf_dxj5p,access_routes:osf.automation_tool,osf-api,osf_dxj5p_osf,Files listed in the record API,2026-11-16,script,current,
 osf_dxj5p/access_routes:osf.human_steps/01,osf_dxj5p,access_routes:osf.human_steps,none,osf_dxj5p_osf,Public record with files (API),2026-11-16,script,current,
+osf_dxj5p/content_class/01,osf_dxj5p,content_class,eeg_signals,osf_dxj5p_doce6213c,"You should have downloaded the data accompanying the scripts on OSF (EEG datasets, metadata and normalization coefficients for Study 1 and 2 as well as",2026-11-16,claude,current,
+osf_dxj5p/domains/01,osf_dxj5p,domains,perception,osf_dxj5p_doc922294,gradients of generative mechanisms for the MMN response,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_dxj5p/modalities/01,osf_dxj5p,modalities,scalp_eeg,osf_dxj5p_osf,Time-resolved dynamic computational modeling of human EEG recordings reveals gradients of generative mechanisms for the MMN response,2026-11-16,claude,current,
+osf_dxj5p/modalities/02,osf_dxj5p,modalities,scalp_eeg,osf_dxj5p_doc922294,human EEG recordings,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_dxj5p/name/01,osf_dxj5p,name,Time-resolved dynamic computational modeling of human EEG recordings reveals gradients of generative mechanisms for the MMN response,osf_dxj5p_osf,Record title,2026-11-16,script,current,
+osf_dxj5p/tasks:mmn_paradigm.paradigms/01,osf_dxj5p,tasks:mmn_paradigm.paradigms,auditory_erp,osf_dxj5p_doc922294,gradients of generative mechanisms for the MMN response,2026-11-16,claude,current,
+osf_dxj5p/tasks:mmn_paradigm.task_name/01,osf_dxj5p,tasks:mmn_paradigm.task_name,MMN paradigm,osf_dxj5p_doc922294,gradients of generative mechanisms for the MMN response,2026-11-16,claude,current,
 osf_dxj5p/year_published/01,osf_dxj5p,year_published,2023,osf_dxj5p_osf,Published 2023-07-11,2026-11-16,script,current,
 osf_e2azx/access_routes:osf.access_method/01,osf_e2azx,access_routes:osf.access_method,direct_download,osf_e2azx_osf,Public record with files (API),2026-11-16,script,current,
 osf_e2azx/access_routes:osf.automation_tool/01,osf_e2azx,access_routes:osf.automation_tool,osf-api,osf_e2azx_osf,Files listed in the record API,2026-11-16,script,current,
 osf_e2azx/access_routes:osf.human_steps/01,osf_e2azx,access_routes:osf.human_steps,none,osf_e2azx_osf,Public record with files (API),2026-11-16,script,current,
+osf_e2azx/content_class/01,osf_e2azx,content_class,no_eeg_signals,osf_e2azx_doc37bff6,Data (see Files section) processed with filters (see Data Analyses section) for Reaction Time measures.,2026-11-16,claude,current,
 osf_e2azx/modalities/01,osf_e2azx,modalities,scalp_eeg,osf_e2azx_osf,Data for: A High-Definition tDCS and EEG study on attention and vigilance: Brain stimulation mitigates the executive but,2026-11-16,claude,current,
 osf_e2azx/name/01,osf_e2azx,name,Data for: A High-Definition tDCS and EEG study on attention and vigilance: Brain stimulation mitigates the executive but not the arousal vigilance decrement,osf_e2azx_osf,Record title,2026-11-16,script,current,
 osf_e2azx/year_published/01,osf_e2azx,year_published,2019,osf_e2azx_osf,Published 2019-05-14,2026-11-16,script,current,
 osf_e2pkt/access_routes:osf.access_method/01,osf_e2pkt,access_routes:osf.access_method,direct_download,osf_e2pkt_osf,Public record with files (API),2026-11-16,script,current,
 osf_e2pkt/access_routes:osf.automation_tool/01,osf_e2pkt,access_routes:osf.automation_tool,osf-api,osf_e2pkt_osf,Files listed in the record API,2026-11-16,script,current,
 osf_e2pkt/access_routes:osf.human_steps/01,osf_e2pkt,access_routes:osf.human_steps,none,osf_e2pkt_osf,Public record with files (API),2026-11-16,script,current,
+osf_e2pkt/acquisition_setups:main.device_manufacturer/01,osf_e2pkt,acquisition_setups:main.device_manufacturer,MegaElectronics,osf_e2pkt_doca952d0,"(NeurOne Tesla, MegaElectronics)",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_e2pkt/acquisition_setups:main.device_model/01,osf_e2pkt,acquisition_setups:main.device_model,NeurOne Tesla,osf_e2pkt_doca952d0,"(NeurOne Tesla, MegaElectronics)",2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_e2pkt/acquisition_setups:main.n_channels_eeg/01,osf_e2pkt,acquisition_setups:main.n_channels_eeg,64,osf_e2pkt_doca952d0,simultaneous 64-channel EEG recording,2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_e2pkt/content_class/01,osf_e2pkt,content_class,eeg_signals,osf_e2pkt_doca952d0,simultaneous 64-channel EEG recording (NeurOne Tesla,2026-11-16,claude,current,
 osf_e2pkt/modalities/01,osf_e2pkt,modalities,scalp_eeg,osf_e2pkt_osf,Hypnosis TMS-EEG dataset,2026-11-16,claude,current,
+osf_e2pkt/modalities/02,osf_e2pkt,modalities,scalp_eeg,osf_e2pkt_doca952d0,simultaneous 64-channel EEG recording,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_e2pkt/name/01,osf_e2pkt,name,Hypnosis TMS-EEG dataset,osf_e2pkt_osf,Record title,2026-11-16,script,current,
+osf_e2pkt/participant_groups:highly_hypnotizable_51_year_ol.age_max/01,osf_e2pkt,participant_groups:highly_hypnotizable_51_year_ol.age_max,51,osf_e2pkt_doca952d0,Highly hypnotizable 51 year-old female,2026-11-16,claude,current,
+osf_e2pkt/participant_groups:highly_hypnotizable_51_year_ol.age_min/01,osf_e2pkt,participant_groups:highly_hypnotizable_51_year_ol.age_min,51,osf_e2pkt_doca952d0,Highly hypnotizable 51 year-old female,2026-11-16,claude,current,
+osf_e2pkt/tasks:auditory_stimuli_responsiveness_control.paradigms/01,osf_e2pkt,tasks:auditory_stimuli_responsiveness_control.paradigms,auditory_erp,osf_e2pkt_doca952d0,Auditory stimuli were used as a control measure to evaluate the responsiveness of the participant.,2026-11-16,claude,current,
+osf_e2pkt/tasks:auditory_stimuli_responsiveness_control.task_name/01,osf_e2pkt,tasks:auditory_stimuli_responsiveness_control.task_name,auditory stimuli (responsiveness control),osf_e2pkt_doca952d0,Auditory stimuli were used as a control measure to evaluate the responsiveness of the participant.,2026-11-16,claude,current,
+osf_e2pkt/tasks:rest_and_hypnosis_with_tms_to_v1.paradigms/01,osf_e2pkt,tasks:rest_and_hypnosis_with_tms_to_v1.paradigms,resting_eyes_closed,osf_e2pkt_doca952d0,sat at rest eyes closed with simultaneous 64-channel EEG recording,2026-11-16,claude,current,
+osf_e2pkt/tasks:rest_and_hypnosis_with_tms_to_v1.task_name/01,osf_e2pkt,tasks:rest_and_hypnosis_with_tms_to_v1.task_name,rest and hypnosis with TMS to V1,osf_e2pkt_doca952d0,sat at rest eyes closed with simultaneous 64-channel EEG recording,2026-11-16,claude,current,
 osf_e2pkt/year_published/01,osf_e2pkt,year_published,2018,osf_e2pkt_osf,Published 2018-09-15,2026-11-16,script,current,
 osf_e57pc/access_routes:osf.access_method/01,osf_e57pc,access_routes:osf.access_method,direct_download,osf_e57pc_osf,Public record with files (API),2026-11-16,script,current,
 osf_e57pc/access_routes:osf.automation_tool/01,osf_e57pc,access_routes:osf.automation_tool,osf-api,osf_e57pc_osf,Files listed in the record API,2026-11-16,script,current,

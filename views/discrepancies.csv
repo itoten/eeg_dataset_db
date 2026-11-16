@@ -1066,6 +1066,8 @@ osf_7qzhs,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://
 osf_94c5t,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://api.osf.io/v2/wikis/ejkbx/content/,"Audit reviewer; scope: native (recorded) rate, wiki text"
 osf_94c5t,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4831788/,"Audit reviewer; scope: native (recorded) rate, paper"
 osf_94c5t,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://osf.io/download/rmuje/,"Audit reviewer; scope: native rate, readme.md file of the record (disagrees with wiki and paper)"
+osf_de9p6,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://osf.io/download/7z4uw/,Audit reviewer; scope: recorded
+osf_de9p6,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://osf.io/download/7z4uw/,Audit reviewer; scope: distributed preprocessed data
 seed,acquisition_setups:main.device_manufacturer,conflicting,ESI,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,
 seed,acquisition_setups:main.device_manufacturer,conflicting,ESI NeuroScan,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,Audit reviewer; scope: not given
 seed,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,
