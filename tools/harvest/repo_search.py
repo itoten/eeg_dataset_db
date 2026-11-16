@@ -93,9 +93,8 @@ def kaggle():
         for page in range(1, 200):
             items = get(f"https://www.kaggle.com/api/v1/datasets/list?search={urllib.parse.quote(q)}&page={page}")
             for it in items:
-                hits[it["refNullable"]] = dict(title=it.get("titleNullable", ""), desc=it.get("subtitleNullable") or "", url=it.get("urlNullable", ""),
-                                               date=(it.get("lastUpdatedNullable") or "")[:10], license=it.get("licenseNameNullable", ""),
-                                               bytes=it.get("totalBytesNullable"))
+                hits[it["ref"]] = dict(title=it.get("title", ""), desc=it.get("subtitle") or "", url=it.get("url", ""),
+                                       date=str(it.get("lastUpdated") or "")[:10], license=it.get("licenseName", ""), bytes=it.get("totalBytes"))
             if len(items) < 20:
                 break
             time.sleep(1)
