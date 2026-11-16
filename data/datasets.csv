@@ -1647,25 +1647,25 @@ osf_qxyzg,"EEG-informed diffusion modeling of socially contextualized deception:
 osf_rj647,NSSI Study: Anonymized Psychological Assessment Data and EEG Recordings with HEBM Software,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_rk8gv,Retrieval Rhythm Behavioral and EEG Data,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_rkqbu,DERCo: A Dataset for Human Behaviour in Reading Comprehension Using EEG,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_rstpu,EEG data for 2 person finger tapping task,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_rsv4z,High-Density EEG and Multi-Muscle EMG Dataset during Object Prehension with a sensorized Grasping Box in Humans,,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_rzv85,"CREED, A Multi-Stage EEG Dataset from Epileptic Mice with Continuous Long-Term Recording",,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_s74qf,Data from: Quantile Graphs for EEG-Based Diagnosis of Alzheimer's Disease,,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_s7jdk,Le Petit Prince (LPP) Multi-talker: Naturalistic 7T fMRI and EEG Dataset,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_rstpu,EEG data for 2 person finger tapping task,,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_rsv4z,High-Density EEG and Multi-Muscle EMG Dataset during Object Prehension with a sensorized Grasping Box in Humans,,eeg_signals,scalp_eeg;emg;eog,motor,,2025,CC0-1.0,,,,,,,,14,,,,,,,,,,direct_download,open,62,1000,10_20,Brain Products BrainAmp DC,motor_execution;resting_unspecified,,2026-11-16
+osf_rzv85,"CREED, A Multi-Stage EEG Dataset from Epileptic Mice with Continuous Long-Term Recording",,non_human,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_s74qf,Data from: Quantile Graphs for EEG-Based Diagnosis of Alzheimer's Disease,,eeg_signals,scalp_eeg,neurology;clinical;resting_state,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,19,128,10_20,Biologic Systems Brain Atlas III Plus,resting_eyes_closed;resting_eyes_open,,2026-11-16
+osf_s7jdk,Le Petit Prince (LPP) Multi-talker: Naturalistic 7T fMRI and EEG Dataset,,no_eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,500,,Brain Products,,,2026-11-16
 osf_s7zb8,Dundas_ADA_Poster_436: Multivariate decoding of EEG data reveals similar mechanisms mediate perceptual adaptation and spontaneous perceptual reversals,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_sc5v2,NeuroPose: A Multimodal EEG-HRV-Pose Dataset for Cognitive and Physiological Analysis,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_sf7bc,Behavioural and EEG data from controlled experiment on pedestrian crossing,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_sc5v2,NeuroPose: A Multimodal EEG-HRV-Pose Dataset for Cognitive and Physiological Analysis,,non_human,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_sf7bc,Behavioural and EEG data from controlled experiment on pedestrian crossing,,eeg_signals,scalp_eeg;eog,cognitive,,2025,,,,,,,,,16,,,,,,,,,,direct_download,open,64,1024,10_20,BioSemi ActiveTwo,cognitive_task,,2026-11-16
 osf_sf8pv,The impact of 1/f activity and baseline correction on the results and interpretation of time-frequency analyses of EEG/MEG data: A cautionary tale,,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_srfnz,"Fire Kasina Neurophenomenology EEG Project Aug-Sept 2023, with Added Data from late 2023 early 2024, 2025",,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_t6nfa,A comprehensive EEG dataset for investigating visual touch perception,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_t6nfa,A comprehensive EEG dataset for investigating visual touch perception,,,scalp_eeg,,,2025,,,,,,,,,80,,,,,,,,,,direct_download,open,64,2048,10_20,BioSemi Active-Two,,,2026-11-16
 osf_t6rnv,The interactive regulation of working memory updating by the phonological and visual features of Chinese characters: Evidence from behavioral and EEG data,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_taed5,Time-frequency analysis methods and their application in developmental EEG data,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_taed5,Time-frequency analysis methods and their application in developmental EEG data,,,scalp_eeg,development,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_tc5g3,Decoding visible and invisible perceptual stimuli from EEG data using Machine Learning,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_tcmnr,Example Data - EEG-Eyetracking,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_tgzew,Effectiveness of spatial PCA on MVPA of EEG data,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_th2g6,Artifact-reference multivariate backward regression (ARMBR): a novel method for EEG blink artifact removal with minimal data requirements,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_tq4u8,Introducing an In-Ear EEG Dataset Recorded During a Binary Motor Imagery Task,,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_twevm,MOBILE EEG RECORDINGS OF MUSICAL (JAZZ) IMPROVISATION,,,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_th2g6,Artifact-reference multivariate backward regression (ARMBR): a novel method for EEG blink artifact removal with minimal data requirements,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,128,512,,BioSemi,,,2026-11-16
+osf_tq4u8,Introducing an In-Ear EEG Dataset Recorded During a Binary Motor Imagery Task,,eeg_signals,ear_eeg;scalp_eeg;emg,bci;motor,,2026,,,,,,,,,26,,,,,,,,,,direct_download,open,2,500,,ScienceBeam eWave,motor_imagery;resting_eyes_closed;resting_eyes_open,,2026-11-16
+osf_twevm,MOBILE EEG RECORDINGS OF MUSICAL (JAZZ) IMPROVISATION,,eeg_signals,scalp_eeg,,,2022,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,1000,10_20,Brain Products,,,2026-11-16
 osf_u4qtc,Sync error EEG 1,,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_u6v2t,"Dataset for ""EEG responses to parity with Arabic digits and number words across font manipulations""",,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_u7mgs,"EEG dataset on consumer responses to ""extreme"" versus ""traditional"" social media videos",,,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
