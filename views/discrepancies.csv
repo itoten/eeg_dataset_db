@@ -866,6 +866,14 @@ nm000376,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,http
 nm000380,n_subjects_reported,conflicting,17,secondary,https://api.nemar.org/datasets/nm000380,Audit reviewer; scope: this dataset
 nm000380,n_subjects_reported,conflicting,17,secondary,https://nemar.org/dataset/nm000380,
 nm000380,n_subjects_reported,conflicting,25,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.cub.2018.10.026%22&format=json&resultType=core,Audit reviewer; scope: paper cohort; the dataset has 17
+nm000399,acquisition_setups:main.sampling_rate_hz,conflicting,30000,primary,https://www.biorxiv.org/content/10.1101/2020.07.30.229898v2.full,Audit reviewer; scope: dbs-lead recordings (7 subjects)
+nm000399,acquisition_setups:main.sampling_rate_hz,conflicting,44000,primary,https://www.biorxiv.org/content/10.1101/2020.07.30.229898v2.full,Audit reviewer; scope: mapping-electrode recordings (4 subjects)
+nm000401,n_subjects_reported,conflicting,14,secondary,https://nemar.org/dataset/nm000401,
+nm000401,n_subjects_reported,conflicting,15,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5703842/fullTextXML,Audit reviewer; scope: not given
+nm000404,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11385230/fullTextXML,Audit reviewer; scope: recorded
+nm000404,acquisition_setups:main.sampling_rate_hz,conflicting,512,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11385230/fullTextXML,Audit reviewer; scope: distributed epochs
+nm000405,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://api.nemar.org/datasets/nm000405,Audit reviewer; scope: distributed signals
+nm000405,acquisition_setups:main.sampling_rate_hz,conflicting,30000,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9142148/fullTextXML,Audit reviewer; scope: recorded
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
