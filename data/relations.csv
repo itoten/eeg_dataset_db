@@ -13,6 +13,7 @@ ds007314,possibly_same_as,ds007315,ds007314_record,Both print the same name; whe
 ds007666,possibly_same_as,ds007667,ds007666_record,Both print the same name; whether they are the same data is not checked
 ds007895,possibly_same_as,ds007949,ds007895_record,Both print the same name; whether they are the same data is not checked
 ds008867,possibly_same_as,ds009033,ds008867_record,Both print the same name; whether they are the same data is not checked
+dv_10_7910_dvn_dkekbh,subset_of,dv_10_7910_dvn_k5edb4,dv_10_7910_dvn_dkekbh_dataverse,"The record says it is part of the other dataset (audit, quote checked)"
 dv_10_7910_dvn_nzcjw1,possibly_same_as,dv_10_7910_dvn_ykhxha,dv_10_7910_dvn_nzcjw1_dataverse,Both print the same name; whether they are the same data is not checked
 dv_10_7910_dvn_ykhxha,possibly_same_as,dv_10_7910_dvn_nzcjw1,dv_10_7910_dvn_ykhxha_dataverse,Both print the same name; whether they are the same data is not checked
 figshare_14273687,derived_from,cao2019_driving_attention,figshare_14273687_doc0c12a0,"The record says its data come from the other dataset (audit, quote checked)"
@@ -30,7 +31,9 @@ nm000115,derived_from,zhou2016,nm000115_nemar,NEMAR lists 10.1371/journal.pone.0
 nm000115,possibly_same_as,zhou2016,nm000115_nemar,Both print the same name; whether they are the same data is not checked
 nm000125,subset_of,figshare_13604078,figshare_13604078_paper_a,"The record says it is part of the other dataset (audit, quote checked)"
 nm000130,derived_from,eldbeta,nm000130_nemar,NEMAR lists 10.1038/s41597-022-01372-9 as IsDerivedFrom this record
+nm000135,derived_from,bnci_004_2014,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000137,derived_from,kaya2018,nm000137_nemar,NEMAR lists 10.1038/sdata.2018.211 as IsDerivedFrom this record
+nm000139,derived_from,bnci_001_2014,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000146,derived_from,weibo2014,nm000146_nemar,NEMAR lists 10.1371/journal.pone.0114853 as IsDerivedFrom this record
 nm000148,derived_from,dv_10_7910_dvn_28932,dv_10_7910_dvn_28932_paper_a,"The record says its data come from the other dataset (audit, quote checked)"
 nm000157,derived_from,bigp3bci,nm000157_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
@@ -42,6 +45,8 @@ nm000167,derived_from,ma2020_joints_mi,nm000167_nemar,NEMAR lists 10.1038/s41597
 nm000173,derived_from,zenodo_834975,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000176,derived_from,bigp3bci,nm000176_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000176,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
+nm000178,derived_from,bnci_001_2020,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
+nm000179,derived_from,mpi_lemon,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000185,derived_from,sleep_edfx,nm000185_nemar,NEMAR lists 10.13026/C2X676 as IsDerivedFrom this record
 nm000186,derived_from,bigp3bci,nm000186_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000186,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
@@ -57,10 +62,12 @@ nm000216,derived_from,zenodo_3266929,nm000216_nemar,NEMAR lists 10.5281/zenodo.3
 nm000217,derived_from,zenodo_3266929,nm000217_nemar,NEMAR lists 10.5281/zenodo.3266930 as IsDerivedFrom this record
 nm000218,derived_from,bigp3bci,nm000218_nemar,NEMAR lists 10.13026/0byy-ry86 as IsDerivedFrom this record
 nm000218,subset_of,bigp3bci,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
+nm000220,derived_from,nm000274,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000227,subset_of,nm000136,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
 nm000233,derived_from,nm000184,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000235,subset_of,nm000136,nemar_download_guide,"The record says it is part of the other dataset (audit, quote checked)"
 nm000238,derived_from,sparrkulee,nm000238_nemar,NEMAR lists 10.48804/K3VSND as IsDerivedFrom this record
+nm000243,derived_from,bnci_002_2016,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000244,derived_from,zenodo_3266222,nm000244_nemar,NEMAR lists 10.5281/zenodo.3266223 as IsDerivedFrom this record
 nm000245,derived_from,cho2017,nm000245_nemar,NEMAR lists 10.5524/100295 as IsDerivedFrom this record
 nm000246,derived_from,wbcic_mi_yang2025,nm000246_nemar,NEMAR lists 10.1038/s41597-025-04826-y as IsDerivedFrom this record
@@ -70,6 +77,7 @@ nm000248,derived_from,bigp3bci,nm000248_nemar,NEMAR lists 10.13026/0byy-ry86 as 
 nm000248,subset_of,bigp3bci,bigp3bci_page,"The record says it is part of the other dataset (audit, quote checked)"
 nm000250,derived_from,zenodo_7516450,nm000250_nemar,NEMAR lists 10.5281/zenodo.8089820 as IsDerivedFrom this record
 nm000251,derived_from,zenodo_14049894,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
+nm000252,derived_from,nm000224,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000254,derived_from,natview_eeg_fmri,nm000254_nemar,NEMAR lists 10.1038/s41597-023-02458-8 as IsDerivedFrom this record
 nm000257,derived_from,nm000224,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000261,derived_from,nm000224,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
@@ -138,6 +146,7 @@ nm000355,derived_from,zenodo_1201559,nemar_download_guide,"The record says its d
 nm000356,derived_from,zenodo_7876018,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000376,derived_from,zenodo_13712627,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000385,derived_from,siena_scalp_eeg,nm000385_nemar,NEMAR lists 10.13026/5d4a-j060 as IsDerivedFrom this record
+nm000390,derived_from,zenodo_8088072,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000472,derived_from,zenodo_21967992,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 tuar,subset_of,tuab,tuh_eeg_downloads,"The record says it is part of the other dataset (audit, quote checked)"
 tuar,subset_of,tueg,tuh_eeg_downloads,TUAR entry: This subset of TUEG
@@ -149,6 +158,7 @@ tusl,subset_of,tuab,tuh_eeg_downloads,"The record says it is part of the other d
 tusl,subset_of,tueg,tuh_eeg_downloads,TUSL entry: This is another subset of TUEG
 zenodo_10259995,derived_from,chbmit,zenodo_10259995_doccaf443,"The record says its data come from the other dataset (audit, quote checked)"
 zenodo_10301898,possibly_same_as,zenodo_8370355,zenodo_10301899,Both print the same name; whether they are the same data is not checked
+zenodo_10640761,derived_from,nm000385,siena_scalp_eeg_page,"The record says its data come from the other dataset (audit, quote checked)"
 zenodo_10640761,derived_from,siena_scalp_eeg,siena_scalp_eeg_page,"The record says its data come from the other dataset (audit, quote checked)"
 zenodo_11010554,possibly_same_as,zenodo_17535641,zenodo_11010555,Both print the same name; whether they are the same data is not checked
 zenodo_1185066,possibly_same_as,zenodo_1237653,zenodo_1185067,Both print the same name; whether they are the same data is not checked
@@ -178,12 +188,21 @@ zenodo_17535641,possibly_same_as,zenodo_11010554,zenodo_17535642,Both print the 
 zenodo_17631682,possibly_same_as,figshare_8091242,zenodo_17631683,Both print the same name; whether they are the same data is not checked
 zenodo_17631682,possibly_same_as,zenodo_14568950,zenodo_17631683,Both print the same name; whether they are the same data is not checked
 zenodo_17631682,possibly_same_as,zenodo_7221843,zenodo_17631683,Both print the same name; whether they are the same data is not checked
+zenodo_18686052,possibly_same_as,ds007427,zenodo_18686053,Both print the same name; whether they are the same data is not checked
 zenodo_19440996,possibly_same_as,nm000280,zenodo_20848097,Both print the same name; whether they are the same data is not checked
 zenodo_20501466,possibly_same_as,zenodo_22829925,zenodo_20501467,Both print the same name; whether they are the same data is not checked
+zenodo_20933808,possibly_same_as,zenodo_23240773,zenodo_20933809,Both print the same name; whether they are the same data is not checked
+zenodo_21819898,subset_of,sparrkulee,zenodo_21819898_doc3275cc,"The record says it is part of the other dataset (audit, quote checked)"
+zenodo_22288290,derived_from,chbmit,zenodo_22288290_doce6b6e0,"The record says its data come from the other dataset (audit, quote checked)"
+zenodo_22313521,derived_from,zenodo_7620807,zenodo_22313521_doc6ba76a,"The record says its data come from the other dataset (audit, quote checked)"
+zenodo_22782182,possibly_same_as,zenodo_22892407,zenodo_22782183,Both print the same name; whether they are the same data is not checked
 zenodo_22829925,possibly_same_as,zenodo_20501466,zenodo_22829926,Both print the same name; whether they are the same data is not checked
+zenodo_22892407,possibly_same_as,zenodo_22782182,zenodo_22892408,Both print the same name; whether they are the same data is not checked
+zenodo_23240773,possibly_same_as,zenodo_20933808,zenodo_23240774,Both print the same name; whether they are the same data is not checked
 zenodo_3840614,subset_of,zenodo_3837212,zenodo_15572614,"The record says it is part of the other dataset (audit, quote checked)"
 zenodo_3840616,subset_of,zenodo_3837212,zenodo_15581491,"The record says it is part of the other dataset (audit, quote checked)"
 zenodo_7189460,derived_from,ds002718,ds003645_paper,"The record says its data come from the other dataset (audit, quote checked)"
+zenodo_7189460,subset_of,ds002718,ds003645_paper,"The record says it is part of the other dataset (audit, quote checked)"
 zenodo_7221843,possibly_same_as,figshare_8091242,zenodo_7221844,Both print the same name; whether they are the same data is not checked
 zenodo_7221843,possibly_same_as,zenodo_14568950,zenodo_7221844,Both print the same name; whether they are the same data is not checked
 zenodo_7221843,possibly_same_as,zenodo_17631682,zenodo_7221844,Both print the same name; whether they are the same data is not checked

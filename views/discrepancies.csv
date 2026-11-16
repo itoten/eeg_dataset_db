@@ -360,6 +360,26 @@ ds005574,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https:
 ds005574,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://www.nature.com/articles/s41597-025-05462-2,"Audit reviewer; scope: nicoletone c64 recordings; the other amplifier (neuroworks quantum) was recorded at 2,048 hz; raw data above 512 hz was downsampled to 512 hz in preprocessing"
 ds005586,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://s3.amazonaws.com/openneuro.org/ds005586/sub-001/eeg/sub-001_task-PassiveViewing_eeg.json?versionId=JICUzTNB34JxiwgOYLnDTsuQZ0lAVgWp,
 ds005586,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC7617299/,Audit reviewer; scope: not given
+ds005620,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,primary,https://s3.amazonaws.com/openneuro.org/ds005620/sub-1057/eeg/sub-1057_task-awake_acq-EO_eeg.json?versionId=nrWdYnPPDfGnIFF9WgMFiFAAl6uVTqGm,
+ds005620,acquisition_setups:main.device_manufacturer,conflicting,BrainProducts GmbH,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12460656/,Audit reviewer; scope: not given
+ds005620,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12460656/,Audit reviewer; scope: paper text
+ds005620,acquisition_setups:main.n_channels_eeg,conflicting,65,primary,https://s3.amazonaws.com/openneuro.org/ds005620/sub-1057/eeg/sub-1057_task-awake_acq-EO_eeg.json?versionId=nrWdYnPPDfGnIFF9WgMFiFAAl6uVTqGm,
+ds005624,acquisition_setups:main.n_channels_eeg,conflicting,0,primary,https://s3.amazonaws.com/openneuro.org/ds005624/sub-HUP133/ses-0/ieeg/sub-HUP133_ses-0_task-CCDT_ieeg.json?versionId=2Br.9el3aXQvMmpzGEieYtZ7PVjJEiLb,
+ds005624,acquisition_setups:main.n_channels_eeg,conflicting,74,secondary,https://s3.amazonaws.com/openneuro.org/ds005624/sub-HUP133/ses-0/ieeg/sub-HUP133_ses-0_task-CCDT_ieeg.json,Audit reviewer; scope: sub-hup133 ses-0 file only; ieeg channels
+ds005628,n_subjects_reported,conflicting,102,primary,https://openneuro.org/datasets/ds005628/versions/1.0.0,
+ds005628,n_subjects_reported,conflicting,51,secondary,https://s3.amazonaws.com/openneuro.org/ds005628/README,Audit reviewer; scope: not given
+ds005670,acquisition_setups:main.n_channels_eeg,conflicting,0,primary,https://s3.amazonaws.com/openneuro.org/ds005670/sub-01/ieeg/sub-01_task-rest_ieeg.json?versionId=3FwaKD8mA_HuFMeXHslBzdyvNw5gvMbD,
+ds005670,acquisition_setups:main.n_channels_eeg,conflicting,238,secondary,https://s3.amazonaws.com/openneuro.org/ds005670/sub-01/ieeg/sub-01_task-rest_ieeg.json,Audit reviewer; scope: sub-01 file
+ds005672,acquisition_setups:main.hardware_filter,conflicting,0.1 Hz - 100 Hz,secondary,https://s3.amazonaws.com/openneuro.org/ds005672/sub-s1/eeg/sub-s1_task-PerceiveImagine_eeg.json,Audit reviewer; scope: not given
+ds005672,acquisition_setups:main.hardware_filter,conflicting,"{""FilterDescription"": {""Description"": ""0.1 Hz - 100 Hz""}}",primary,https://s3.amazonaws.com/openneuro.org/ds005672/sub-s1/eeg/sub-s1_task-PerceiveImagine_eeg.json?versionId=5hSr0Tb4ImjAFxCcAXQgw.CJuAOQDour,
+ds005691,acquisition_setups:main.ground,conflicting,an extra wire twisted around the wire for the sixth contact (counted from the most caudal contact),primary,https://s3.amazonaws.com/openneuro.org/ds005691/sub-01/ieeg/sub-01_task-countingDeviants_ieeg.json?versionId=A0eZWUUJN6mlxgEFoWbhXoy2i4bsejwA,
+ds005691,acquisition_setups:main.ground,conflicting,extra wire twisted around the wire for the sixth contact,secondary,https://s3.amazonaws.com/openneuro.org/ds005691/README,Audit reviewer; scope: not given
+ds005691,acquisition_setups:main.reference,conflicting,fourth contact (counted from the most caudal contact),secondary,https://s3.amazonaws.com/openneuro.org/ds005691/README,Audit reviewer; scope: not given
+ds005691,acquisition_setups:main.reference,conflicting,fourth contact (counted from the most caudal contact) on a Boston Scientific; SC-2218 70 cm Linear ST Percutaneous Lead,primary,https://s3.amazonaws.com/openneuro.org/ds005691/sub-01/ieeg/sub-01_task-countingDeviants_ieeg.json?versionId=A0eZWUUJN6mlxgEFoWbhXoy2i4bsejwA,
+ds005697,n_subjects_reported,conflicting,52,secondary,https://openneuro.org/datasets/ds005697/versions/1.0.2,
+ds005697,n_subjects_reported,conflicting,54,secondary,https://s3.amazonaws.com/openneuro.org/ds005697/README,Audit reviewer; scope: not given
+ds005779,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC11867860/,Audit reviewer; scope: paper
+ds005779,acquisition_setups:main.n_channels_eeg,conflicting,70,primary,https://s3.amazonaws.com/openneuro.org/ds005779/sub-01/eeg/sub-01_task-resting_eeg.json?versionId=YX_6.VXATS2bM7GoGgP1qrWP8U3JND35,
 ds005795,acquisition_setups:main.n_channels_eeg,conflicting,63,secondary,https://s3.amazonaws.com/openneuro.org/ds005795/README,"Audit reviewer; scope: readme; sidecar says 72, see notes"
 ds005795,acquisition_setups:main.n_channels_eeg,conflicting,72,primary,https://s3.amazonaws.com/openneuro.org/ds005795/sub-05/eeg/sub-05_task-learning_eeg.json?versionId=YmqXNaeDBCC0Zm9FuC367nR0uRKWqJho,
 ds005795,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://s3.amazonaws.com/openneuro.org/ds005795/sub-05/eeg/sub-05_task-learning_eeg.json?versionId=YmqXNaeDBCC0Zm9FuC367nR0uRKWqJho,
@@ -457,6 +477,16 @@ ds006848,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s
 ds006848,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds006848/README,Audit reviewer; scope: not given
 ds006850,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://s3.amazonaws.com/openneuro.org/ds006850/README,Audit reviewer; scope: not given
 ds006850,acquisition_setups:main.n_channels_eeg,conflicting,66,primary,https://s3.amazonaws.com/openneuro.org/ds006850/sub-02/ses-a/eeg/sub-02_ses-a_task-UrbanAppraisal_eeg.json?versionId=3zQZl8ouqfoFKOOEk7.SES2EWPLkj7aU,
+ds006861,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://openneuro.org/datasets/ds006861,Audit reviewer; scope: not given
+ds006861,acquisition_setups:main.n_channels_eeg,conflicting,34,primary,https://s3.amazonaws.com/openneuro.org/ds006861/sub-001/ses-1/eeg/sub-001_ses-1_task-EmotionProcessingandRegulationtask_eeg.json?versionId=30OZYqk5Bk1rIQFO2q3S_hcF_QDm.HtV,
+ds006923,acquisition_setups:main.device_model,conflicting,ActiveTwo,primary,https://openneuro.org/datasets/ds006923,Audit reviewer; scope: not given
+ds006923,acquisition_setups:main.device_model,conflicting,Biosemi ActiveTwo system,primary,https://s3.amazonaws.com/openneuro.org/ds006923/sub-2082cg/eeg/sub-2082cg_task-restingstate_acq-epochs_eeg.json?versionId=BAbE_i3PDSp9ErvixKMOSSEVLK70jWir,
+ds006923,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://s3.amazonaws.com/openneuro.org/ds006923/sub-2082cg/eeg/sub-2082cg_task-restingstate_acq-epochs_eeg.json?versionId=BAbE_i3PDSp9ErvixKMOSSEVLK70jWir,
+ds006923,acquisition_setups:main.sampling_rate_hz,conflicting,2048,primary,https://openneuro.org/datasets/ds006923,Audit reviewer; scope: recorded; distributed epochs/preprocessed files are 128 hz
+ds006945,acquisition_setups:main.device_manufacturer,conflicting,Brain Products GmbH,secondary,https://openneuro.org/datasets/ds006945,Audit reviewer; scope: not given
+ds006945,acquisition_setups:main.device_manufacturer,conflicting,BrainVision,primary,https://s3.amazonaws.com/openneuro.org/ds006945/sub-01/ses-01/eeg/sub-01_ses-01_task-baseline_eeg.json?versionId=_uZrraviPjBD3rd0Sh5J1QQDdoGA8dMt,
+ds006979,acquisition_setups:main.reference,conflicting,CMS/DRL,secondary,https://s3.amazonaws.com/openneuro.org/ds006979/README,Audit reviewer; scope: not given
+ds006979,acquisition_setups:main.reference,conflicting,CMS/DRL (BioSemi Common Mode Sense and Driven Right Leg active electrodes) during recording; re-referenced offline to the average of the left and right mastoids,primary,https://s3.amazonaws.com/openneuro.org/ds006979/task-visualworkingmemorytask_eeg.json?versionId=zLLKL_tBaFaP4BOVPZnAP6gQgnK28ztx,
 ds007358,acquisition_setups:main.n_channels_eeg,conflicting,16,secondary,https://www.eneuro.org/content/12/7/ENEURO.0006-25.2025.full,Audit reviewer; scope: paper: recording montage; the sidecar of one recording says 50 (eegchannelcount)
 ds007358,acquisition_setups:main.n_channels_eeg,conflicting,50,primary,https://s3.amazonaws.com/openneuro.org/ds007358/sub-WIJU6055/eeg/sub-WIJU6055_task-ec_eeg.json?versionId=ldibvl5KzEbVNuObN.o9kkR2t2zb_ywc,
 ds007358,acquisition_setups:main.sampling_rate_hz,conflicting,128,primary,https://s3.amazonaws.com/openneuro.org/ds007358/sub-WIJU6055/eeg/sub-WIJU6055_task-ec_eeg.json?versionId=ldibvl5KzEbVNuObN.o9kkR2t2zb_ywc,
@@ -526,6 +556,21 @@ ds008302,acquisition_setups:main.device_model,conflicting,Brain Products actiCHa
 ds008302,acquisition_setups:main.device_model,conflicting,actiCHamp,primary,https://www.biorxiv.org/content/10.64898/2026.11.01.763481v1.full,Audit reviewer; scope: not given
 ds008302,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://s3.amazonaws.com/openneuro.org/ds008302/sub-002/eeg/sub-002_task-memory_eeg.json?versionId=uvKRAtnzU4tlWlVNMcKHei9DHCU7pDsN,
 ds008302,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://www.biorxiv.org/content/10.64898/2026.11.01.763481v1.full,Audit reviewer; scope: not given
+ds008701,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://s3.amazonaws.com/openneuro.org/ds008701/sub-20/ses-t30/eeg/sub-20_ses-t30_task-music_eeg.json?versionId=aCFIdXp0qtqCscIz5ijSFeR373DPGbEV,
+ds008701,acquisition_setups:main.montage_system,conflicting,egi_hydrocel,secondary,https://s3.amazonaws.com/openneuro.org/ds008701/README,Audit reviewer; scope: not given
+ds008711,acquisition_setups:main.hardware_filter,conflicting,DC-200Hz,secondary,https://s3.amazonaws.com/openneuro.org/ds008711/sub-1/eeg/sub-1_task-unnamed_eeg.json,Audit reviewer; scope: not given
+ds008711,acquisition_setups:main.hardware_filter,conflicting,"{""FilterDescription"": {""Description"": ""DC-200Hz""}}",primary,https://s3.amazonaws.com/openneuro.org/ds008711/sub-1/eeg/sub-1_task-unnamed_eeg.json?versionId=yvDdTR.gHQu4SRO.Zz2dfHbxMEPYDNYf,
+ds008834,acquisition_setups:main.device_manufacturer,conflicting,Compumedics Neuroscan,primary,https://s3.amazonaws.com/openneuro.org/ds008834/sub-01/ses-day1/eeg/sub-01_ses-day1_task-audio_eeg.json?versionId=MXwydU2aPmcLSkfFAzhu3M9A18Kg1aDC,
+ds008834,acquisition_setups:main.device_manufacturer,conflicting,NeuroScan,secondary,https://s3.amazonaws.com/openneuro.org/ds008834/README,Audit reviewer; scope: days 1 and 2
+ds008834,acquisition_setups:main.n_channels_eeg,conflicting,59,secondary,https://s3.amazonaws.com/openneuro.org/ds008834/README,Audit reviewer; scope: day 3
+ds008834,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://s3.amazonaws.com/openneuro.org/ds008834/README,Audit reviewer; scope: days 1 and 2 (62 scalp eeg channels)
+ds008834,acquisition_setups:main.n_channels_eeg,conflicting,62,primary,https://s3.amazonaws.com/openneuro.org/ds008834/sub-01/ses-day1/eeg/sub-01_ses-day1_task-audio_eeg.json?versionId=MXwydU2aPmcLSkfFAzhu3M9A18Kg1aDC,
+ds008837,n_subjects_reported,conflicting,16,secondary,https://doi.org/10.64898/2026.09.24.754154,Audit reviewer; scope: participants in the paper; dataset count not stated (db has 18)
+ds008837,n_subjects_reported,conflicting,18,primary,https://openneuro.org/datasets/ds008837/versions/1.1.3,
+ds008851,acquisition_setups:main.device_model,conflicting,FlexCap,secondary,https://openneuro.org/datasets/ds008851,Audit reviewer; scope: not given
+ds008851,acquisition_setups:main.device_model,conflicting,FlexCap (8-channel EEG),primary,https://s3.amazonaws.com/openneuro.org/ds008851/sub-60/ses-03/eeg/sub-60_ses-03_task-cuereactivity_eeg.json?versionId=eHMWL0FQQ5L6g5bhaZPJms5ybPIocySl,
+ds008859,acquisition_setups:main.device_model,conflicting,Cyton,primary,https://s3.amazonaws.com/openneuro.org/ds008859/sub-01/eeg/sub-01_task-motorimagery_eeg.json?versionId=cmzbFRZlRbb2JclM.H0wyIJjdiEZDKaD,
+ds008859,acquisition_setups:main.device_model,conflicting,Ultracortex Mark IV,secondary,https://openneuro.org/datasets/ds008859,Audit reviewer; scope: not given
 ds008940,acquisition_setups:main.hardware_filter,conflicting,"0.16-43 Hz bandwidth, 5th-order sinc filter, 50/60 Hz notch",secondary,https://s3.amazonaws.com/openneuro.org/ds008940/README,Audit reviewer; scope: not given
 ds008940,acquisition_setups:main.hardware_filter,conflicting,"{""BuiltInBandwidth"": {""Description"": ""Manufacturer specification: 0.16-43 Hz bandwidth, built-in digital 5th-order sinc filter, digital notch filters at 50 Hz and 60 Hz.""}}",primary,https://s3.amazonaws.com/openneuro.org/ds008940/sub-01/eeg/sub-01_task-foodcat_eeg.json?versionId=QIzCUzYBBK8q0xRp7sGb7l9zxlmQpAdC,
 ds009081,acquisition_setups:main.hardware_filter,conflicting,effective bandwidth about 0.5-35 Hz (amplifier filtering),secondary,https://s3.amazonaws.com/openneuro.org/ds009081/README,Audit reviewer; scope: not given
@@ -1048,6 +1093,8 @@ zenodo_19333248,acquisition_setups:main.n_channels_eeg,conflicting,18,primary,ht
 zenodo_19333248,acquisition_setups:main.n_channels_eeg,conflicting,19,primary,https://zenodo.org/records/19333249,Audit reviewer; scope: original recordings; distributed data has 18 derived bipolar channels
 zenodo_21709854,domains,conflicting,psychiatry,primary,https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.30.711922,Audit reviewer; scope: not given
 zenodo_21709854,domains,conflicting,resting_state,primary,https://api.biorxiv.org/details/biorxiv/10.64898/2026.03.30.711922,Audit reviewer; scope: not given
+zenodo_21805982,license_spdx,conflicting,CC-BY-4.0,secondary,https://zenodo.org/records/21944149,
+zenodo_21805982,license_spdx,conflicting,CC-BY-4.0;MIT,secondary,https://api.datacite.org/dois/10.5281/zenodo.21944149,Audit reviewer; scope: not given
 zenodo_22227355,acquisition_setups:main.n_channels_eeg,conflicting,61,secondary,https://api.datacite.org/dois/10.5281/zenodo.22227356,Audit reviewer; scope: retained set: 61 scalp + 2 mastoid + 1 eog
 zenodo_22227355,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://zenodo.org/records/22227356,
 zenodo_23464851,acquisition_setups:main.sampling_rate_hz,conflicting,1024,secondary,https://zenodo.org/records/23464852,Audit reviewer; scope: distributed (downsampled)

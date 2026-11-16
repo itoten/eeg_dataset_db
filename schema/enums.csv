@@ -23,6 +23,10 @@ modality,respiration,Respiration
 modality,video,Video
 modality,audio,Audio
 modality,other_physiological,Other physiological signals
+content_class,eeg_signals,"The release holds EEG, iEEG, ECoG or PSG-with-EEG signals recorded from humans: raw or processed (filtered, epoched, averaged, spectrograms, band-power series)"
+content_class,no_eeg_signals,"No EEG signals in the release: only code, documents, literature, features, statistics, matrices, or non-EEG data"
+content_class,non_human,"The signals are not from living humans: animals, phantom heads or simulations"
+content_class,not_released,The record announces data that is not yet available
 domain,clinical,Clinical recordings or patients
 domain,epilepsy,Epilepsy and seizures
 domain,sleep,Sleep

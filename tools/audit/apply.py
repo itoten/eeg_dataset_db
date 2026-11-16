@@ -9,8 +9,8 @@ value must also appear in the quote. Nothing a reviewer says is registered witho
 
 Applied when checked: facts (datasets columns and the recording setup), tasks with paradigms, participant
 groups, annotations, quality information, the paper as a source, and whether the record is the dataset
-authors' own (source_type). Removal verdicts and copies are not applied here: they are written to
-cache/audit/decisions/<batch>.json for a person (or a second check) to decide.
+authors' own (source_type). The verdict is applied as the dataset's content_class when its quote checks; verdicts, copies and relations are also written to
+cache/audit/decisions/<batch>.json for decide.py.
 A report of accepted and rejected items goes to cache/audit/reports/<batch>.json.
 """
 import datetime, hashlib, html, json, re, subprocess, sys, unicodedata, urllib.parse
@@ -178,6 +178,23 @@ def enum_ok(fld, v, quote):
     return True if fld not in ENUM_WORDS else bool(pat and re.search(pat, quote, re.I))
 
 
+# what the release holds, from the reviewer's verdict and the quote that shows it
+EEGWORD = re.compile(r"EEG|electroenceph|iEEG|ECoG|SEEG|electrocortico|polysomno|\bPSG\b", re.I)
+NONHUMAN = re.compile(r"phantom|simulat|synthetic|surrogate|computational model|in silico|\brats?\b|\bmice\b|\bmouse\b|monkey|macaque|\bpigs?\b|\bdogs?\b|canine|rodent|\bsheep\b|zebrafish|elegans|reindeer|animal", re.I)
+
+
+def content_class(it, ve):
+    """(class, [evidence candidates]) from the reviewer's verdict. EEG signals need a quote that names EEG:
+    the verdict's own, or else the first fact the reviewer quoted that does."""
+    v, r = it.get("verdict"), it.get("verdict_reason") or ""
+    if v == "keep" or (v == "remove" and r == "part_of_larger"):
+        cands = [c for c in [ve] + list(it.get("facts") or []) if c.get("quote") and EEGWORD.search(c["quote"])]
+        return "eeg_signals", cands
+    if v == "remove" and r in ("animal", "other", "not_eeg_recordings", "code_or_results_only", "no_data_files") and ve.get("quote"):
+        return ("non_human" if r == "animal" or NONHUMAN.search(ve["quote"]) else "no_eeg_signals"), [ve]
+    return None, []
+
+
 def fmt(kind, v):
     v = str(v).strip()
     if kind == "int":
@@ -253,6 +270,11 @@ def main():
                 s = next(x for x in B.db["sources"][1] if x["source_id"] == ln["source_id"])
                 if s["kind"] == "repository_record" and s["source_id"].startswith(did.split("_")[0]):
                     s.update(publisher="authors" if record_primary else "third_party", source_type="primary" if record_primary else "secondary")
+        cls, cands = content_class(it, ve)
+        for c in cands:
+            if check(did, "content_class", c.get("url"), c.get("quote")):
+                R.ev("content_class", cls, src_for(R, B, c["url"], record_primary), " ".join(str(c["quote"]).split()[:25]), "claude")
+                break
         p = it.get("paper") or {}
         if p.get("doi") and p.get("read") in ("full_text", "abstract_only"):
             doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", p["doi"]).strip()
