@@ -3,7 +3,8 @@
 Usage: python3 tools/harvest/repo_register.py ENTRIES_JSON [YYYY-MM-DD]
 
 ENTRIES_JSON is a list of {"dataset_id", "repo", "id"} where repo is figshare_article,
-figshare_collection, dataverse (id = "<host>|<doi>"), osf, mendeley or synapse. Metadata is
+figshare_collection, dataverse (id = "<host>|<doi>"), osf, mendeley, dryad (id = "doi:..."), kaggle
+(id = "<owner>/<slug>"; read from cache/kaggle/search.json, the list API's record) or synapse. Metadata is
 read through each repository's public API into cache/repos/. Values: name (the record title),
 license, publication year, modality when the title or description says EEG, and the access
 route. Synapse downloads go through a login (Synapse's download documentation).
@@ -15,6 +16,7 @@ import json
 import re
 import subprocess
 import sys
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -28,6 +30,7 @@ LIC = [(r"^cc[- ]?by[- ]?4\.0|creativecommons\.org/licenses/by/4\.0|^cc-by-4\.0"
        (r"^cc[- ]?by[- ]?sa[- ]?4\.0|by-sa/4\.0", "CC-BY-SA-4.0"), (r"^mit$", "MIT"), (r"^apache[- ]2\.0", "Apache-2.0")]
 EEG = re.compile(r"[^.]{0,80}\b(EEG|electroencephalogra\w*)\b[^.]{0,80}", re.I)
 IEEG = re.compile(r"\b(intracranial|ECoG|electrocorticogra\w*|sEEG|stereo-?EEG)", re.I)
+KAGGLE_DOC = "https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md"
 SYNAPSE_DOC = "https://help.synapse.org/docs/Downloading-Data-Programmatically.2003796248.html"
 
 
@@ -89,6 +92,14 @@ def read(e):
         d = curl(f"https://data.mendeley.com/public-api/datasets/{i}")
         m = dict(title=d["name"], desc=text(d.get("description")), license=(d.get("data_licence") or {}).get("short_name", ""),
                  date=d.get("publish_date", ""), url=f"https://data.mendeley.com/datasets/{i}", doi=(d.get("doi") or {}).get("id", ""), public=True)
+    elif r == "dryad":
+        d = curl("https://datadryad.org/api/v2/datasets/" + urllib.parse.quote(i, safe=""))
+        lic = d.get("license", "")
+        m = dict(title=d["title"], desc=text(d.get("abstract")), license="cc0-1.0" if "CC0" in lic else lic, date=d.get("publicationDate", ""),
+                 url="https://doi.org/" + i.replace("doi:", ""), doi=i.replace("doi:", ""), public=d.get("visibility") == "public")
+    elif r == "kaggle":
+        d = json.loads((ROOT / "cache" / "kaggle" / "search.json").read_text())[i]
+        m = dict(title=d["title"], desc=d["desc"], license=d["license"], date=d["date"], url=d["url"], doi="", public=None, login="kaggle")
     elif r == "synapse":
         d = curl(f"https://repo-prod.prod.sagebase.org/repo/v1/entity/{i}")
         ar = curl(f"https://repo-prod.prod.sagebase.org/repo/v1/entity/{i}/accessRequirement")
@@ -153,6 +164,14 @@ def main():
                  note="The documented download examples log in first")
             R.ev(f"access_routes:{kind}.human_steps", "Create a Synapse account and log in", doc, "synLogin(email=..., password=...)")
             R.ev(f"access_routes:{kind}.automation_tool", "synapseclient", doc, "synapse get -r syn2390898")
+        elif m.get("login") == "kaggle":
+            doc = R.source("kaggle_api_doc", KAGGLE_DOC, "distribution_page", "authors",
+                           title="Kaggle API documentation (kaggle-api README)", identity_basis="Documentation of the repository that holds the data",
+                           note="Repository-wide documentation")
+            R.ev(f"access_routes:{kind}.access_method", "free_account_required", doc, "First, you will need a Kaggle account.",
+                 note="Kaggle's API downloads need an account's API token")
+            R.ev(f"access_routes:{kind}.human_steps", "Create a Kaggle account and an API token", doc, 'clicking on the "Generate New Token" button')
+            R.ev(f"access_routes:{kind}.automation_tool", "kaggle", doc, "kaggle datasets download <DATASET> [options]")
         elif m.get("terms_of_access"):  # some files restricted; the terms say how to ask
             R.ev(f"access_routes:{kind}.access_method", "request_form_or_email", src, "Terms of Access: " + " ".join(m["terms_of_access"].split()[:18]), "script")
             R.ev(f"access_routes:{kind}.human_steps", m["terms_of_access"][:300], src, "Terms of Access", "script")
