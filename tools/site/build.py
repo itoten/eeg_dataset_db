@@ -3,7 +3,8 @@
 Usage: python3 tools/site/build.py
 
 The page embeds the data of data/*.csv (datasets, their child rows, evidence and sources) as
-JSON in tools/site/template.html. Nothing from local/ is included.
+JSON in tools/site/template.html. From local/, only local/paper_usage/three_fm_papers.tsv (which
+datasets the CBraMod, REVE and SingLEM papers used) is included, as the paper filter.
 """
 
 import csv
@@ -42,7 +43,18 @@ def repo_of(url):
     return "Other"
 
 
+def paper_usage():
+    out = defaultdict(list)
+    path = ROOT / "local" / "paper_usage" / "three_fm_papers.tsv"
+    if path.exists():
+        for r in csv.DictReader(open(path, encoding="utf-8"), delimiter="\t"):
+            if r["dataset_id"] and f"{r['paper']}:{r['role']}" not in out[r["dataset_id"]]:
+                out[r["dataset_id"]].append(f"{r['paper']}:{r['role']}")
+    return out
+
+
 def main():
+    used = paper_usage()
     wide = {r["dataset_id"]: r for r in rows("datasets")}
     view = {r["dataset_id"]: r for r in csv.DictReader(open(ROOT / "views" / "datasets_wide.csv", encoding="utf-8"))}
     srcs = rows("sources")
@@ -84,7 +96,7 @@ def main():
             "qual": [[r["kind"], r["description"], r["form"], sidx.get(r["source_id"], -1)] for r in quality[i]],
             "rel": [[r["relation"], r["other_dataset_id"], r["note"]] for r in rels[i]],
             "alias": [[r["alias"], r["alias_type"]] for r in aliases[i]],
-            "ch": ch,
+            "ch": ch, "papers": used.get(i, []),
         })
     commit = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--short=12", "HEAD"], capture_output=True, text=True).stdout.strip()
     data = {"meta": {"commit": commit, "built": datetime.date.today().isoformat()}, "S": S, "D": D}
@@ -92,6 +104,9 @@ def main():
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/").replace("\ufffd", "\\ufffd")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(page.replace("__DATA__", blob), encoding="utf-8")
+    missing = sorted(set(used) - set(wide))
+    if missing:
+        print("paper usage ids not in the DB:", missing)
     print(f"wrote {OUT.relative_to(ROOT)} ({OUT.stat().st_size / 1e6:.1f} MB, {len(D)} datasets)")
 
 
