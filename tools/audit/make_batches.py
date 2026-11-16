@@ -1,7 +1,7 @@
 """Write audit batches (cache/audit/batches/<name>_<n>.json) for reviewers who read the sources.
 
 Usage: python3 tools/audit/make_batches.py GROUP SIZE
-GROUP: a dataset_id prefix (zenodo_, figshare_, dv_, hf_, ds, nm) or "other" (everything else).
+GROUP: a dataset_id prefix (zenodo_, figshare_, dv_, hf_, dryad_, mendeley_, osf_, kaggle_, ds, nm) or "other" (everything else).
 Each item carries the dataset's current values and its linked sources, so a reviewer can check them.
 """
 import csv, json, sys
@@ -9,7 +9,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-PREFIXES = ("zenodo_", "figshare_", "dv_", "hf_", "ds", "nm")
+PREFIXES = ("zenodo_", "figshare_", "dv_", "hf_", "dryad_", "mendeley_", "osf_", "kaggle_", "ds", "nm")
 
 
 def group_of(i):

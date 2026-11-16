@@ -16,7 +16,12 @@ copy numbers as written). "Not stated" is a good answer.
    `https://<host>/api/datasets/:persistentId/?persistentId=doi:<doi>`, Hugging Face card
    `https://huggingface.co/datasets/<id>/raw/main/README.md`, OpenNeuro `https://openneuro.org/crn/graphql`
    (or the S3 file `https://s3.amazonaws.com/openneuro.org/<ds>/README` and `.../dataset_description.json`),
-   NEMAR `https://api.nemar.org/datasets/<id>`.
+   NEMAR `https://api.nemar.org/datasets/<id>`, Dryad `https://datadryad.org/api/v2/datasets/<url-encoded doi:...>`
+   (files: its `stash:version` link, then `/files`), Mendeley Data `https://data.mendeley.com/public-api/datasets/<id>`
+   (the dataset page itself is JavaScript; cite the API URL), OSF `https://api.osf.io/v2/nodes/<id>/` (wiki:
+   `/wikis/`, files: `/files/osfstorage/`), Kaggle: the dataset page needs JavaScript; the record values are in
+   `cache/kaggle/search.json` of the repository (cite the dataset URL; read the description through
+   `https://www.kaggle.com/api/v1/datasets/view/<owner>/<slug>` if it answers).
 2. The README or description file in the release when the record links one you can open without logging in.
 3. The paper that describes the dataset (data descriptor / article named by the record, e.g. a DOI in
    related identifiers or "please cite"). Read the full text when it is open access (publisher HTML,
