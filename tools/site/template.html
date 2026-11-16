@@ -250,6 +250,7 @@ const L = {
       not_released: "資料によると、このデータセットは公開が予告されていますが、まだ配布されていません。" },
     filter_btn: "絞り込み", filter_h: "条件で絞り込む", clear: "すべてクリア", show_n: n => `${n} 件を表示`, more_opts: n => `ほかの ${n} 件を表示`, fewer: "閉じる",
     lic_hint: "ライセンスの表記(CC の記号など)から分けています。独自ライセンスの条件は各データセットの資料で確かめてください。",
+    ids_show: "含まれるライセンスを見る", ids_hide: "ライセンス名を隠す",
     any_min: "下限なし", any_max: "上限なし", range_hint: "値が書かれていないデータセットは除きます", data_h: "データの中身",
     fac: { tier: "入手のしやすさ", mod: "信号の種類(モダリティ)", par: "課題(パラダイム)", dom: "研究分野", subj: "被験者数", hours: "合計時間 (h)", nch: "EEG チャネル数",
       fs: "サンプリング周波数 (Hz)", gb: "サイズ (GB)", mont: "電極配置", maker: "計測機器のメーカー", elec: "電極の種類", ann: "ラベル・アノテーション", cond: "被験者",
@@ -302,6 +303,7 @@ const L = {
       not_released: "According to its documents, this dataset is announced but its data are not yet distributed." },
     filter_btn: "Filters", filter_h: "Filter", clear: "Clear all", show_n: n => `Show ${n} datasets`, more_opts: n => `Show ${n} more`, fewer: "Show fewer",
     lic_hint: "Grouped by the license identifier (the CC elements and the like). Check custom licenses in each dataset's documents.",
+    ids_show: "Show the licenses in each group", ids_hide: "Hide license names",
     any_min: "No minimum", any_max: "No maximum", range_hint: "Datasets that do not state the value are left out", data_h: "What the release holds",
     fac: { tier: "Ease of access", mod: "Signals (modality)", par: "Task (paradigm)", dom: "Research domain", subj: "Subjects", hours: "Total hours", nch: "EEG channels",
       fs: "Sampling rate (Hz)", gb: "Size (GB)", mont: "Montage", maker: "Device maker", elec: "Electrode type", ann: "Labels and annotations", cond: "Participants",
@@ -484,7 +486,8 @@ function renderFacets() {
     const top = c.top && !state.more[k] ? c.top : Infinity, hiddenN = Math.max(0, vals.length - top);
     vals = vals.filter((v, i) => i < top || sel.has(v));
     body.push(`<details class="fset" data-k="${k}" ${c.open || sel.size ? "open" : ""}><summary>${esc(t.fac[k])}${sel.size ? `<span class="sel">${sel.size}</span>` : ""}</summary><div class="opts">
-      ${vals.map(v => `<label class="opt${cnt[v] || sel.has(v) ? "" : " zero"}"><input type="checkbox" data-k="${k}" value="${esc(v)}" ${sel.has(v) ? "checked" : ""} ${cnt[v] || sel.has(v) ? "" : "disabled"}><span class="lb">${esc(vlabel(k, v))}${k === "licfam" && LICS[v] ? `<span class="ids">${[...LICS[v]].sort().map(esc).join(" · ")}</span>` : ""}</span><span class="n">${cnt[v] || 0}</span></label>`).join("")}
+      ${vals.map(v => `<label class="opt${cnt[v] || sel.has(v) ? "" : " zero"}"><input type="checkbox" data-k="${k}" value="${esc(v)}" ${sel.has(v) ? "checked" : ""} ${cnt[v] || sel.has(v) ? "" : "disabled"}><span class="lb">${esc(vlabel(k, v))}${k === "licfam" && state.licIds && LICS[v] ? `<span class="ids">${[...LICS[v]].sort().map(esc).join(" · ")}</span>` : ""}</span><span class="n">${cnt[v] || 0}</span></label>`).join("")}
+      ${k === "licfam" ? `<button type="button" class="link" data-ids="1">${esc(state.licIds ? t.ids_hide : t.ids_show)}</button>` : ""}
       ${c.top && vals.length + hiddenN > c.top ? `<button type="button" class="link" data-more="${k}">${esc(state.more[k] ? t.fewer : t.more_opts(hiddenN))}</button>` : ""}</div></details>`);
   }
   const fb = document.getElementById("fbody"), sc = fb.scrollTop;
@@ -508,7 +511,8 @@ document.getElementById("fbody").addEventListener("change", e => { const el = e.
   if (el.dataset.r) { const r = (state.r[el.dataset.r] ??= ["", ""]); r[+el.dataset.i0] = el.value;
     if (r[0] !== "" && r[1] !== "" && +r[0] > +r[1]) r[el.dataset.i0 === "0" ? 1 : 0] = el.value; state.shown = 100; render(); return; }
   if (el.dataset.k) toggle(el.dataset.k, el.value); });
-document.getElementById("fbody").addEventListener("click", e => { const b = e.target.closest("[data-more]"); if (!b) return; state.more[b.dataset.more] = !state.more[b.dataset.more]; renderFacets(); });
+document.getElementById("fbody").addEventListener("click", e => { if (e.target.closest("[data-ids]")) { state.licIds = !state.licIds; renderFacets(); return; }
+  const b = e.target.closest("[data-more]"); if (!b) return; state.more[b.dataset.more] = !state.more[b.dataset.more]; renderFacets(); });
 const clearAll = () => { state.f = {}; state.r = {}; state.all = false; state.shown = 100; render(); };
 document.getElementById("f-clear").addEventListener("click", clearAll);
 document.getElementById("active").addEventListener("click", e => { const b = e.target.closest("[data-x]"); if (!b) return; const x = b.dataset.x;
