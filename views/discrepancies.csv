@@ -661,6 +661,8 @@ mendeley_3rrbhbggxz,acquisition_setups:main.n_channels_eeg,conflicting,32,primar
 mendeley_3rrbhbggxz,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,Audit reviewer; scope: experiment 2
 mendeley_3rrbhbggxz,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,"Audit reviewer; scope: experiment 2, recorded"
 mendeley_3rrbhbggxz,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12506570/,"Audit reviewer; scope: experiment 1, recorded"
+mendeley_82pgy2k6sk,n_subjects_reported,conflicting,28,secondary,https://data.mendeley.com/public-api/datasets/82pgy2k6sk,Audit reviewer; scope: not given
+mendeley_82pgy2k6sk,n_subjects_reported,conflicting,29,secondary,https://data.mendeley.com/public-api/datasets/82pgy2k6sk,Audit reviewer; scope: not given
 modma,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/s41597-022-01211-x,Audit reviewer; scope: 128-electrode part
 modma,acquisition_setups:main.sampling_rate_hz,conflicting,44100,primary,https://doi.org/10.1038/s41597-022-01211-x,Audit reviewer; scope: audio recordings
 mpi_lemon,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://doi.org/10.1038/sdata.2018.308,Audit reviewer; scope: preprocessed eeg
