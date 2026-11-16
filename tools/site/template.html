@@ -100,9 +100,11 @@ th { font: 600 11px var(--f-body); letter-spacing: 0.04em; color: var(--muted); 
 th[aria-sort="ascending"]::after { content: " ↑"; } th[aria-sort="descending"]::after { content: " ↓"; }
 th.grp { cursor: default; text-align: center; border-bottom: none; color: var(--fg); top: 0; }
 thead tr.cols th { top: 26px; }
-th:first-child, td:first-child { position: sticky; left: 0; background: var(--panel); z-index: 1; }
-th:first-child { z-index: 3; }
-td:first-child { width: 280px; min-width: 220px; max-width: 320px; white-space: normal; }
+td.fx, th.fx { position: sticky; background: var(--panel); z-index: 1; box-sizing: border-box; }
+td.fx.mono, td.fx.num { white-space: normal; }
+th.fx { z-index: 3; }
+.fx.edge { box-shadow: inset -1px 0 0 var(--line); }
+td.fx { white-space: normal; overflow-wrap: anywhere; }
 tbody tr { cursor: pointer; }
 tbody tr:hover td { background: var(--accent-soft); }
 td { max-width: 260px; }
@@ -234,13 +236,13 @@ const S = DATA.S, D = DATA.D;
 const L = {
   ja: {
     title: "EEG データセット・カタログ",
-    quote: "「信頼せよ、されど確認せよ」(Trust, but verify)", quote_src: "出典: Wikipedia「Trust, but verify」",
+    quote: "「信頼せよ、されど検証せよ」", quote_src: "出典: Wikipedia「Trust, but verify」",
     lede: "公開されている EEG データセット(頭皮・耳・睡眠ポリグラフ・頭蓋内)の一覧です。すべての値は、読んだ<b>一次資料</b>と結びついています。このページは資料への案内で、資料の代わりではありません。値を使う前に出典を確かめてください。",
     meta: (n, s, b, c) => `${n} データセット · 出典 ${s} 件 · ${b} 作成(commit ${c})`,
     access_h: "データの入手のしやすさ",
     search: "名前・ID・機器・課題で検索…", all_repo: "すべてのリポジトリ", all_mod: "すべてのモダリティ", all_par: "すべての課題(パラダイム)", all_dom: "すべての研究分野", all_lic: "すべてのライセンス",
     show_all: n => `人の EEG 信号を含まないものも表示(${n}件)`,
-    hidden_def: "既定では、資料が「EEG の信号を含まない」「人以外(動物・ファントム・シミュレーション)の記録」「まだ公開されていない」と書いているデータセットを隠しています。どれも登録はしてあり、使うかどうかの判断はしていません。",
+    hidden_def: "既定では、資料が「EEG の信号を含まない」「人以外(動物・ファントム・シミュレーション)の記録」「まだ公開されていない」と書いているデータセットを隠しています。",
     cls: { eeg_signals: "EEG 信号あり", no_eeg_signals: "EEG 信号なし", non_human: "人のデータではない", not_released: "未公開", "": "未判定" },
     cls_why: { no_eeg_signals: "資料によると、このデータセットの配布物には EEG の信号が含まれていません(コード、文書、論文、特徴量・統計・行列、EEG 以外のデータなど)。根拠は下の「根拠」の content_class の行にあります。",
       non_human: "資料によると、このデータセットの信号は生きた人のものではありません(動物、ファントム、シミュレーション)。根拠は下の「根拠」の content_class の行にあります。",
@@ -264,13 +266,13 @@ const L = {
     count: (a, b) => `${a} / ${b} 件`, more: "さらに表示", close: "閉じる", not_checked: "未確認",
     foot1: "空欄 = まだ確認していない。<span class=\"mono\">unknown</span> = 資料の全文を読んだが書いていない。<span class=\"mono\">conflicting</span> = 資料が食い違う(両方が各データセットの根拠に出ます)。表は横にスクロールできます。",
     foot2: "ライセンスは記載された条件の分類で、法的助言ではありません。このカタログは、データセットを使うべきかどうかを判断しません。",
-    groups: { id: "データセット", rec: "規模", setup: "計測条件(チャネル配置)", task: "課題", people: "被験者", qual: "品質情報", rights: "ライセンス・入手" },
+    groups: { key: "要点", id: "データセット", rec: "規模", setup: "計測条件(チャネル配置)", task: "課題", people: "被験者", qual: "品質情報", rights: "ライセンス・入手" },
     cols: { name: "名前 / ID", repo: "リポジトリ", mod: "モダリティ", dom: "研究分野", year: "公開年", subj: "被験者数", sess: "セッション数", rec: "記録数", hours: "時間 (h)", gb: "サイズ (GB)",
       nch: "EEG ch 数", mont: "電極配置", fs: "サンプリング (Hz)", dev: "計測機器", tasks: "課題 / パラダイム", age: "年齢・性別", pf: "参加者表の項目", qual: "品質情報", parent: "親データセット",
       lic: "ライセンス", com: "商用利用", tier: "入手" },
-    tiers: { open: ["人の作業なし", "直接ダウンロード(URL・API・S3)"], one_time_human: ["サイトごとに1回", "無料アカウント・トークン、またはサイト共通の同意が1回"],
-      per_dataset_human: ["データセットごとに同意", "データセットごとに規約へ同意"], approval: ["提供者の承認", "申請・資格審査・署名つきの契約"], unavailable: ["配布なし", "入手の方法が示されていない"], "": ["未確認", "入手方法をまだ記録していない"] },
-    method: { direct_download: "直接ダウンロード", free_account_required: "無料アカウント・トークン", site_terms_agreement: "サイト共通の同意(1回)", gated_click_through: "データセットごとに同意",
+    tiers: { open: ["そのままダウンロード", "登録も同意も要らない(URL・API・S3)"], one_time_human: ["無料登録・規約への同意が要る", "リポジトリに一度登録(無料アカウント・トークン)するか規約に同意すれば、そのリポジトリのデータセットはすべて取れる"],
+      per_dataset_human: ["データセットごとに同意", "データセットごとに規約へ同意"], approval: ["申請・承認が要る", "申請、資格審査、署名つきの契約のどれか"], unavailable: ["配布なし", "入手の方法が示されていない"], "": ["未確認", "入手方法をまだ記録していない"] },
+    method: { direct_download: "直接ダウンロード", free_account_required: "無料アカウント・トークン", site_terms_agreement: "リポジトリの規約に同意(一度)", gated_click_through: "データセットごとに同意",
       request_form_or_email: "申請(フォーム・メール)", credentialed_training: "資格審査と研修", signed_agreement: "署名つきの契約", paid_or_membership: "有料・会員", unavailable: "配布なし" },
     sec: { summary: "概要", routes: "データの入手", setup: "計測条件", tasks: "課題", people: "被験者", pf: "配布物の参加者表の項目", ann: "ラベル・アノテーション", qual: "品質情報", iss: "配布物の問題", rel: "関係するデータセット", docs: "資料", ev: "各値の出典" },
     f: { access: "入手", repo: "リポジトリ", mod: "モダリティ", dom: "研究分野", subj: "被験者数", sess: "セッション数", rec: "記録数", hours: "時間", gb: "サイズ", nch: "EEG ch 数", fs: "サンプリング", dev: "機器", par: "パラダイム", year: "公開年", bids: "BIDS", lic: "ライセンス", licn: "ライセンスの注記", terms: "利用条件", termsn: "利用条件の注記", checked: "確認した資料", alias: "別名", notes: "メモ", upd: "更新日",
@@ -289,7 +291,7 @@ const L = {
     access_h: "How the data can be obtained",
     search: "Search name, ID, device, task…", all_repo: "All repositories", all_mod: "All modalities", all_par: "All paradigms", all_dom: "All research domains", all_lic: "All licenses",
     show_all: n => `Also show datasets without human EEG signals (${n})`,
-    hidden_def: "By default, datasets whose documents say the release holds no EEG signals, holds non-human recordings (animals, phantoms, simulations) or is not yet released are hidden. They are all registered; the catalogue does not judge whether to use them.",
+    hidden_def: "By default, datasets whose documents say the release holds no EEG signals, holds non-human recordings (animals, phantoms, simulations) or is not yet released are hidden.",
     cls: { eeg_signals: "EEG signals", no_eeg_signals: "No EEG signals", non_human: "Not human data", not_released: "Not released", "": "Not decided" },
     cls_why: { no_eeg_signals: "According to its documents, this release holds no EEG signals (code, documents, papers, features, statistics, matrices or non-EEG data). The evidence is the content_class row under Evidence below.",
       non_human: "According to its documents, the signals in this dataset are not from living humans (animals, phantom heads, simulations). The evidence is the content_class row under Evidence below.",
@@ -308,12 +310,12 @@ const L = {
     count: (a, b) => `${a} of ${b}`, more: "Show more", close: "Close", not_checked: "not checked",
     foot1: "Empty cell = not checked yet. <span class=\"mono\">unknown</span> = the whole source was read and does not say. <span class=\"mono\">conflicting</span> = sources disagree; both are listed in the dataset's evidence. The table scrolls sideways.",
     foot2: "Licenses are a classification of the stated terms, not legal advice. The catalogue does not judge whether a dataset should be used.",
-    groups: { id: "Dataset", rec: "Size", setup: "Recording setup (channel layout)", task: "Tasks", people: "Participants", qual: "Quality", rights: "License and access" },
+    groups: { key: "Key facts", id: "Dataset", rec: "Size", setup: "Recording setup (channel layout)", task: "Tasks", people: "Participants", qual: "Quality", rights: "License and access" },
     cols: { name: "Name / ID", repo: "Repository", mod: "Modality", dom: "Research domain", year: "Year", subj: "Subjects", sess: "Sessions", rec: "Recordings", hours: "Hours", gb: "Size (GB)",
       nch: "EEG ch.", mont: "Placement", fs: "Rate (Hz)", dev: "Device", tasks: "Tasks / paradigms", age: "Age, sex", pf: "Participant variables", qual: "Quality info", parent: "Parent dataset",
       lic: "License", com: "Commercial use", tier: "Access" },
-    tiers: { open: ["No human step", "Direct download (URL, API, S3)"], one_time_human: ["One step per site", "A free account, token or one site-wide agreement"],
-      per_dataset_human: ["Agreement per dataset", "Accept terms for each dataset"], approval: ["Provider approval", "Request, credentialing or a signed agreement"], unavailable: ["Not offered", "No way to obtain is offered"], "": ["Not checked", "Access not recorded yet"] },
+    tiers: { open: ["Direct download", "No account or agreement (URL, API, S3)"], one_time_human: ["Free sign-up or site terms", "One free account, token or site-wide agreement covers every dataset on that repository"],
+      per_dataset_human: ["Agreement per dataset", "Accept terms for each dataset"], approval: ["Request and approval", "A request, credentialing or a signed agreement"], unavailable: ["Not offered", "No way to obtain is offered"], "": ["Not checked", "Access not recorded yet"] },
     method: { direct_download: "Direct download", free_account_required: "Free account or token", site_terms_agreement: "One site-wide agreement", gated_click_through: "Accept terms per dataset",
       request_form_or_email: "Request (form or e-mail)", credentialed_training: "Credentialing with training", signed_agreement: "Signed agreement", paid_or_membership: "Paid or membership", unavailable: "Not offered" },
     sec: { summary: "Summary", routes: "Getting the data", setup: "Recording setup", tasks: "Tasks", people: "Participants", pf: "Participant variables in the release", ann: "Labels and annotations", qual: "Quality information", iss: "Problems in the release", rel: "Related datasets", docs: "Documents", ev: "Where each value comes from" },
@@ -359,15 +361,16 @@ const ageSex = g => { if (!g) return ""; const t = T().f; const a = [];
   return [a.join(", "), s].filter(Boolean).join(" · "); };
 const flag = d => d.cls === "eeg_signals" ? "" : `<span class="flag${d.cls ? "" : " undecided"}">${esc(T().cls[d.cls || ""])}</span>`;
 const COLS = [
-  { k: "name", g: "id", cls: "", v: d => `${flag(d)}<div class="nm">${esc(d.name || d.id)}</div><div class="sub mono">${esc(d.id)}</div>`, s: d => (d.name || "").toLowerCase() },
+  { k: "name", g: "key", fx: 0, w: 250, cls: "", v: d => `${flag(d)}<div class="nm">${esc(d.name || d.id)}</div><div class="sub mono">${esc(d.id)}</div>`, s: d => (d.name || "").toLowerCase() },
+  { k: "subj", g: "key", fx: 250, w: 76, cls: "num", v: d => esc(d.subj) || dash, s: d => num(d.subj) },
+  { k: "hours", g: "key", fx: 326, w: 84, cls: "num", v: d => esc(d.hours) || dash, s: d => num(d.hours) },
+  { k: "lic", g: "key", fx: 410, w: 140, edge: 1, cls: "mono", v: d => esc(d.lic) || dash, s: d => d.lic },
   { k: "repo", g: "id", cls: "", v: d => esc(d.repo), s: d => d.repo },
   { k: "mod", g: "id", cls: "", v: d => semi(d.mod).map(m => `<span class="tag">${esc(m)}</span>`).join("") || dash, s: d => d.mod },
   { k: "dom", g: "id", cls: "", v: d => semi(d.dom).map(m => `<span class="tag">${esc(m)}</span>`).join("") || dash, s: d => d.dom },
   { k: "year", g: "id", cls: "num", v: d => esc(d.year) || dash, s: d => num(d.year) },
-  { k: "subj", g: "rec", cls: "num", v: d => esc(d.subj) || dash, s: d => num(d.subj) },
   { k: "sess", g: "rec", cls: "num", v: d => esc(d.sess) || dash, s: d => num(d.sess) },
   { k: "rec", g: "rec", cls: "num", v: d => esc(d.rec) || dash, s: d => num(d.rec) },
-  { k: "hours", g: "rec", cls: "num", v: d => esc(d.hours) || dash, s: d => num(d.hours) },
   { k: "gb", g: "rec", cls: "num", v: d => esc(d.gb) || dash, s: d => num(d.gb) },
   { k: "nch", g: "setup", cls: "num", v: d => esc(semi(d.nch).join(", ")) || dash, s: d => num(semi(d.nch).pop()) },
   { k: "mont", g: "setup", cls: "mono", v: d => esc(semi(d.mont).join(", ")) || dash, s: d => d.mont },
@@ -380,7 +383,6 @@ const COLS = [
   { k: "pf", g: "people", cls: "wrapc", v: d => d.pf.length ? `<span class="sub">${esc(T().n_items(d.pf.length))}</span> ${[...new Set(d.pf.map(p => p[1]).filter(c => c !== "other"))].map(c => `<span class="tag">${esc(c)}</span>`).join("")}` : dash, s: d => d.pf.length },
   { k: "qual", g: "qual", cls: "wrapc", v: d => d.qual.length ? [...new Set(d.qual.map(q => q[0]))].map(c => `<span class="tag">${esc(c)}</span>`).join("") : dash, s: d => d.qual.length },
   { k: "parent", g: "qual", cls: "mono", v: d => d._parent.map(p => esc((byId[p] || {}).name || p)).join(", ") || dash, s: d => d._parent.join() },
-  { k: "lic", g: "rights", cls: "mono", v: d => esc(d.lic) || dash, s: d => d.lic },
   { k: "com", g: "rights", cls: "mono", v: d => esc(d.terms[1]) || dash, s: d => d.terms[1] },
   { k: "tier", g: "rights", cls: "", v: d => `<span class="pill"><span class="dot" style="background:${TCOL[d.tier] || TCOL[""]}"></span>${esc((T().tiers[d.tier] || T().tiers[""])[0])}</span>`,
     s: d => TIERS.findIndex(t => t[0] === d.tier) },
@@ -397,8 +399,8 @@ function applyLang() {
   document.getElementById("sort").innerHTML = Object.entries(T().sorts).map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join("");
   document.getElementById("sort").value = state.sort[0] in T().sorts ? state.sort[0] : "subj";
   const groups = []; COLS.forEach(c => { const last = groups[groups.length - 1]; if (last && last[0] === c.g) last[1]++; else groups.push([c.g, 1]); });
-  document.getElementById("thead").innerHTML = `<tr>${groups.map(([g, n]) => `<th class="grp" colspan="${n}">${esc(T().groups[g])}</th>`).join("")}</tr>
-    <tr class="cols">${COLS.map(c => `<th data-k="${c.k}" tabindex="0">${esc(T().cols[c.k])}</th>`).join("")}</tr>`;
+  document.getElementById("thead").innerHTML = `<tr>${groups.map(([g, n]) => `<th class="grp${g === "key" ? " fx edge" : ""}" colspan="${n}"${g === "key" ? ` style="left:0"` : ""}>${esc(T().groups[g])}</th>`).join("")}</tr>
+    <tr class="cols">${COLS.map(c => `<th data-k="${c.k}" tabindex="0" class="${c.fx !== undefined ? `fx${c.edge ? " edge" : ""}` : ""}"${c.fx !== undefined ? ` style="left:${c.fx}px;width:${c.w}px;min-width:${c.w}px;max-width:${c.w}px"` : ""}>${esc(T().cols[c.k])}</th>`).join("")}</tr>`;
   render();
   if (state.open) openD(state.open);
 }
@@ -516,7 +518,7 @@ function render() {
       + tile("subj", tot("subj"), t.u_subj) + tile("hours", tot("hours"), t.u_hours) + tile("gb", tot("gb"), t.u_gb) + `<div class="sumnote">${esc(t.note)}</div>`; }
   renderFacets();
   document.getElementById("rows").innerHTML = list.slice(0, state.shown).map(d =>
-    `<tr tabindex="0" class="${usable(d) ? "" : "unusable"}" data-id="${esc(d.id)}">${COLS.map(c => `<td class="${c.cls}">${c.v(d)}</td>`).join("")}</tr>`).join("");
+    `<tr tabindex="0" class="${usable(d) ? "" : "unusable"}" data-id="${esc(d.id)}">${COLS.map(c => `<td class="${c.cls}${c.fx !== undefined ? ` fx${c.edge ? " edge" : ""}` : ""}"${c.fx !== undefined ? ` style="left:${c.fx}px;width:${c.w}px;min-width:${c.w}px;max-width:${c.w}px"` : ""}>${c.v(d)}</td>`).join("")}</tr>`).join("");
   document.getElementById("more").hidden = list.length <= state.shown;
   document.getElementById("more2").hidden = list.length <= state.shown;
   const f = T().cols;
@@ -525,7 +527,7 @@ function render() {
     `<div class="card${usable(d) ? "" : " unusable"}" tabindex="0" data-id="${esc(d.id)}">${flag(d)}<div class="nm">${esc(d.name || d.id)}</div>
      <div class="sub mono">${esc(d.id)} · ${esc(d.repo)}</div>
      <div>${semi(d.mod).map(m => `<span class="tag">${esc(m)}</span>`).join("")}${semi(d.par).map(m => `<span class="tag">${esc(m)}</span>`).join("")}</div>
-     <div class="kv">${kv(f.subj, d.subj)}${kv(f.nch, semi(d.nch).join(", "))}${kv(f.fs, semi(d.fs).join(", "))}${kv(f.gb, d.gb)}${kv(f.lic, d.lic)}</div>
+     <div class="kv">${kv(f.subj, d.subj)}${kv(f.hours, d.hours)}${kv(f.lic, d.lic)}${kv(f.nch, semi(d.nch).join(", "))}${kv(f.fs, semi(d.fs).join(", "))}${kv(f.gb, d.gb)}</div>
      <div><span class="pill"><span class="dot" style="background:${TCOL[d.tier] || TCOL[""]}"></span>${esc((T().tiers[d.tier] || T().tiers[""])[0])}</span></div></div>`).join("");
 }
 const cardsEl = document.getElementById("cards");
