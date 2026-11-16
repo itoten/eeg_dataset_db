@@ -2043,7 +2043,11 @@ eeg_power_anesthesia,anesthetic_unconsciousness,anesthetic unconsciousness,anest
 eeg_power_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 eegmat,background_eeg_before_task,background EEG (before task),resting_unspecified,,,,,,,,
 eegmat,mental_arithmetic,mental arithmetic,cognitive_task,,,,,,,,
+eegmmidb,baseline_runs,baseline runs,resting_eyes_closed;resting_eyes_open,,,,,,,,
+eegmmidb,real_and_imagined_fist_feet_movement,real and imagined fist/feet movement,motor_execution;motor_imagery,,,,,,,,
 eldbeta,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
+eldbeta,t_9_target_ssvep_bci_speller,9-target SSVEP-BCI speller,ssvep,,,,,,,,
+faced,emotion_elicitation_video_watching,emotion-elicitation video watching,emotion_induction,,,,,,,,
 figshare_12636731,resting_state,Resting state,resting_eyes_open,,,,,,,,
 figshare_12636731,ssaep,SSAEP,auditory_erp,,,,,,,,
 figshare_12636731,ssvep,SSVEP,visual_erp,,,,,,,,
@@ -2163,7 +2167,9 @@ figshare_8091242,counting,counting,p300_erp,,,,,,,,
 figshare_8091242,passive_erp,passive ERP,p300_erp;visual_erp,,,,,,,,
 figshare_8091242,pitch_imagery,pitch imagery,other;p300_erp,,,,,,,,
 figshare_9033983,listening_to_continuous_narratives_audio,listening to continuous narratives (audiobooks),language,,,,,,,,
+gu2024_ssvep_1_60hz,flickering_stimulus_fixation_1_60_hz_two,"flickering stimulus fixation (1-60 Hz, two modulation depths)",ssvep,,,,,,,,
 gu2024_ssvep_1_60hz,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
+he2025_remote_sensing,remote_sensing_object_airplane_search,remote sensing object (airplane) search,other,,,,,,,,
 hf_alexeykashevnik_eegmeditation,external_concentration_task_4,External concentration (Task 4),cognitive_task,,,,,,,,
 hf_alexeykashevnik_eegmeditation,internal_concentration_task_3,Internal concentration (Task 3),cognitive_task,,,,,,,,
 hf_alexeykashevnik_eegmeditation,mind_wandering_task_2,Mind-wandering (Task 2),cognitive_task;resting_eyes_closed,,,,,,,,
@@ -2172,9 +2178,17 @@ hf_alexeykashevnik_eegmeditation,resting_state_task_5,Resting state (Task 5),res
 hf_lasfk_eeg_fnirs_based_handwriting_trajectory_dataset,imagined_handwriting_4_class,imagined handwriting (4-class),motor_imagery,,,,,,,,
 hf_neurofusion_eeg_restingstate,eyes_closed,Eyes closed,resting_eyes_closed,,,,,,,,
 hf_yefllower_eegfacesem,rsvp_semantic_target_detection_8_tasks_f,"RSVP semantic target detection (8 tasks: female, male, blond, darkhaired, smiles, nosmile, old, young)",p300_erp;visual_erp,,,,,,,,
+high_gamma_dataset,imagined_or_executed_movements,imagined or executed movements,motor_imagery,,,,,,,,
 hmc_sleep_staging,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+hmc_sleep_staging,whole_night_polysomnography,whole-night polysomnography,sleep,,,,,,,,
+i_care,continuous_icu_eeg_monitoring_after_card,continuous ICU EEG monitoring after cardiac arrest,long_term_monitoring,,,,,,,,
+isruc_sleep,full_night_polysomnography,full-night polysomnography,sleep,,,,,,,,
 isruc_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+ji2024_stroop_high_altitude,facial_expression_stroop,facial expression Stroop,cognitive_task,,,,,,,,
+jsmf_access,intraoperative_anaesthesia_and_emergence,intraoperative anaesthesia and emergence,anesthesia,,,,,,,,
 kaya2018,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+kaya2018,motor_imagery_bci_interaction_cla_halt_5,"motor imagery BCI interaction (CLA, HaLT, 5F, FreeForm, NoMT)",motor_imagery,,,,,,,,
+liu2024_acute_stroke_mi,left_right_hand_grip_motor_imagery,left/right hand-grip motor imagery,motor_imagery,,,,,,,,
 liu2025_stroke_lower_limb_mi,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 ma2020_joints_mi,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 mssvepdb,main,,ssvep,,,,,,,,Paradigm stated by the dataset name

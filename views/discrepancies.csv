@@ -582,6 +582,10 @@ eeg_gaba_anesthesia,acquisition_setups:main.sampling_rate_hz,conflicting,178,pri
 eeg_gaba_anesthesia,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://physionet.org/content/eeg-gaba-anesthesia/1.0.0/,"Audit reviewer; scope: volunteer subject, as recorded"
 eeg_power_anesthesia,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://physionet.org/content/eeg-power-anesthesia/1.0.0/,"Audit reviewer; scope: or cohort, as recorded"
 eeg_power_anesthesia,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://physionet.org/content/eeg-power-anesthesia/1.0.0/,"Audit reviewer; scope: volunteer cohort, as recorded"
+eldbeta,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/s41597-022-01372-9,Audit reviewer; scope: recorded
+eldbeta,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://www.nature.com/articles/s41597-022-01372-9,Audit reviewer; scope: distributed epoch (.mat) data
+faced,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/s41597-023-02650-w,"Audit reviewer; scope: recorded, some subjects"
+faced,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://www.nature.com/articles/s41597-023-02650-w,"Audit reviewer; scope: recorded, some subjects (cohort 1 initially)"
 figshare_13604078,acquisition_setups:main.device_manufacturer,conflicting,Brain Product GmbH,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: scalp-eeg
 figshare_13604078,acquisition_setups:main.device_manufacturer,conflicting,mBrainTrain,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: ear-eeg
 figshare_13604078,acquisition_setups:main.device_model,conflicting,BrainAmp,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: scalp-eeg
@@ -608,8 +612,12 @@ figshare_33440344,acquisition_setups:main.n_channels_eeg,conflicting,14,secondar
 figshare_33440344,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://figshare.com/articles/dataset/A_multi-paradigm_EEG_dataset_for_visual_motor_imagery_of_driving_home_automation_and_hand_movement_for_BCI/33440344,
 figshare_9033983,modalities,conflicting,scalp_eeg,primary,https://figshare.com/articles/dataset/EEG_recordings_and_stimuli/9033983,
 figshare_9033983,modalities,conflicting,scalp_eeg;audio,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9355803/fullTextXML,Audit reviewer; scope: not given
+gu2024_ssvep_1_60hz,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/s41597-024-03023-7,Audit reviewer; scope: recorded
+gu2024_ssvep_1_60hz,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://www.nature.com/articles/s41597-024-03023-7,Audit reviewer; scope: distributed epoch (.mat) data
 hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://huggingface.co/datasets/MaRez10/EEG_Pain_Perception,Audit reviewer; scope: recorded
 hf_marez10_eeg_pain_perception,acquisition_setups:main.sampling_rate_hz,conflicting,250,secondary,https://huggingface.co/datasets/MaRez10/EEG_Pain_Perception,Audit reviewer; scope: downsampled (whether the distributed files are at 250 hz is not stated)
+kaya2018,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/sdata2018211,Audit reviewer; scope: 5f paradigm sessions (some)
+kaya2018,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://www.nature.com/articles/sdata2018211,Audit reviewer; scope: most sessions
 nm000110,n_subjects_reported,conflicting,22,primary,https://physionet.org/content/chbmit/1.0.0/,Audit reviewer; scope: not given
 nm000110,n_subjects_reported,conflicting,24,secondary,https://nemar.org/dataset/nm000110,
 nm000112,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000112,

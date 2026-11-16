@@ -689,9 +689,9 @@ eeg_eye_gaze_for_fls_tasks,Integration of Electroencephalogram and Eye-Gaze Data
 eeg_gaba_anesthesia,Electroencephalogram dynamics during unconsciousness mediated by GABAergic-anesthetics,,scalp_eeg,clinical,,,LicenseRef-physionet-contributor-review,,,,,,,,4,,,,,,,,,,request_form_or_email,approval,,,,,anesthesia,,2026-11-16
 eeg_power_anesthesia,Multitaper spectra recorded during GABAergic anesthetic unconsciousness,,scalp_eeg,clinical,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,anesthesia,,2026-11-16
 eegmat,EEG During Mental Arithmetic Tasks,,scalp_eeg,cognitive,,,ODC-By-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,10_20,XAI-MEDICA Neurocom EEG 23-channel system,cognitive_task;resting_unspecified,,2026-11-16
-eegmmidb,EEG Motor Movement/Imagery Dataset,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,,,,,3.4,,,,,,direct_download,open,,,,,,,2026-11-14
-eldbeta,eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for the Aging Population,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
-faced,FACED,,,,,2023,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-14
+eegmmidb,EEG Motor Movement/Imagery Dataset,,scalp_eeg,bci;motor,,,ODC-By-1.0,,,,,,,,,,,,3.4,,,,,,direct_download,open,64,160,10_10,,motor_execution;motor_imagery;resting_eyes_closed;resting_eyes_open,,2026-11-16
+eldbeta,eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for the Aging Population,,scalp_eeg,bci,,2022,CC-BY-4.0,,,,,,,,100,,,,,,,,,,direct_download,open,64,,10_20,Neuroscan SynAmps2,ssvep,,2026-11-16
+faced,FACED,,scalp_eeg,emotion,,2023,,,,,,,,,123,,,,,,,,,,free_account_required,one_time_human,32,,10_20,Neuracle NeuSen.W32,emotion_induction,,2026-11-16
 figshare_12236966,EEG 128E example dataset ANT CNT,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
 figshare_12636731,Ultra high-density EEG recording of interictal migraine and controls: sensory and rest,,scalp_eeg,neurology;perception;resting_state,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,128,512,custom,BioSemi ActiveTwo,auditory_erp;resting_eyes_open;visual_erp,,2026-11-15
 figshare_13604078,"Mobile BCI dataset of scalp- and ear-EEG with ERP and SSVEP paradigms during standing, walking, and running",,conflicting,bci,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,500,10_20,,ssvep;visual_erp,,2026-11-15
@@ -775,8 +775,8 @@ figshare_5537338,Myogenic Artifact Dry EEG Datasets,,scalp_eeg,other,,2018,CC-BY
 figshare_7666055,Multi-channel EEG recordings during a sustained-attention driving task (pre-processed dataset),,scalp_eeg,cognitive;bci,,2019,CC-BY-4.0,,,,,,,,27,,,,,,,,,,direct_download,open,30,,10_20,Scan NuAmps Express,cognitive_task,,2026-11-15
 figshare_8091242,EEG dataset,,scalp_eeg,bci,,2019,,,,,,,,,14,,,,,,,,,,direct_download,open,32,1000,10_20,Brain Products ActiCap,other;p300_erp;visual_erp,,2026-11-15
 figshare_9033983,EEG recordings and stimuli,,conflicting,cognitive;perception,,2019,CC0-1.0,,,,,,,,13,,,,,,,,,,direct_download,open,64,125,,BrainProducts actiCHamp,language,,2026-11-15
-gu2024_ssvep_1_60hz,An open dataset for human SSVEPs in the frequency range of 1-60 Hz,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-14
-he2025_remote_sensing,EEGET-RSOD,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+gu2024_ssvep_1_60hz,An open dataset for human SSVEPs in the frequency range of 1-60 Hz,,scalp_eeg,bci,,2024,CC0-1.0,,,,,,,,30,,,,,,,,,,direct_download,open,64,,10_20,Neuroscan Synamps2,ssvep,,2026-11-16
+he2025_remote_sensing,EEGET-RSOD,,scalp_eeg;eye_tracking,,,2026,CC-BY-4.0,,,,,,,,38,,,,,,,,,,direct_download,open,32,500,10_20,NE Enobio 32,other,,2026-11-16
 hf_alexeykashevnik_eegmeditation,EEGMeditation,,scalp_eeg;ecg;video,cognitive;resting_state,,2025,,,,,,,,,33,,,,,,,,,,gated_click_through,per_dataset_human,64,2048,10_10,ANT Neuro eego mylab (EE-225),cognitive_task;resting_eyes_closed;resting_eyes_open,,2026-11-15
 hf_lasfk_eeg_fnirs_based_handwriting_trajectory_dataset,EEG-fNIRS-based Handwriting Trajectory Dataset,,scalp_eeg;fnirs,bci,,2026,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,gated_click_through,per_dataset_human,,,,,motor_imagery,,2026-11-15
 hf_marez10_eeg_pain_perception,EEG_Pain_Perception,,scalp_eeg,perception,,2025,,,,,,,,,,,,,,,,,,,gated_click_through,per_dataset_human,64,,10_20,,,,2026-11-15
@@ -784,16 +784,16 @@ hf_neurofusion_eeg_restingstate,eeg-restingstate,,scalp_eeg,resting_state,,2023,
 hf_synapse_ear_eeg_synapse,Synapse,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
 hf_tqxg2022_eeg3d,EEG3D,,scalp_eeg,,,2024,Apache-2.0,,,,,,,,5,,,,,,,,,,direct_download,open,,,,,,,2026-11-15
 hf_yefllower_eegfacesem,EEGFaceSem,,scalp_eeg;eog,bci;perception,,2026,CC-BY-4.0,,,,,,,,30,,,,,,,,,,direct_download,open,32,1000,10_20,BrainProducts GmbH QuickAmp USB,p300_erp;visual_erp,,2026-11-15
-high_gamma_dataset,High Gamma Dataset,,,,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-hmc_sleep_staging,Haaglanden Medisch Centrum sleep staging database,,psg;scalp_eeg;eog;emg;ecg,,,,CC-BY-4.0,,,,,,,,,,,,15.7,,,,,,direct_download,open,,,,,,,2026-11-14
-hms_harmful_brain_activity,HMS - Harmful Brain Activity Classification,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
-i_care,I-CARE: International Cardiac Arrest REsearch consortium Database,,scalp_eeg;ecg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-isruc_sleep,ISRUC-Sleep,,psg,sleep,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-14
-ji2024_stroop_high_altitude,EEG and fNIRS Datasets Based on Stroop Task during Two Weeks of High-Altitude Exposure in New Immigrants,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-jsmf_access,JSMF ACCESS intraoperative derived EEG data set,,scalp_eeg,,,,LicenseRef-physionet-restricted,,,,,,,,,,,,,,,,,,signed_agreement,approval,,,,,,,2026-11-14
-kaya2018,A large electroencephalographic motor imagery dataset for electroencephalographic brain computer interfaces,,scalp_eeg,,,2018,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
-lin2025_ied,An EEG dataset for interictal epileptiform discharge with spatial distribution information,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
-liu2024_acute_stroke_mi,EEG datasets of stroke patients,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
+high_gamma_dataset,High Gamma Dataset,,,,,,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-16
+hmc_sleep_staging,Haaglanden Medisch Centrum sleep staging database,,psg;scalp_eeg;eog;emg;ecg,sleep;clinical,,,CC-BY-4.0,,,,,,,,151,,,,15.7,,,,,,direct_download,open,4,256,,"SOMNOmedics SOMNOscreen PSG, PSG+, and EEG 10-20",sleep,,2026-11-16
+hms_harmful_brain_activity,HMS - Harmful Brain Activity Classification,,scalp_eeg;ecg,,,,,,,,,,,,,,,,,,,,,,,,,200,,,,,2026-11-16
+i_care,I-CARE: International Cardiac Arrest REsearch consortium Database,,scalp_eeg;ecg,clinical;neurology,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,direct_download,open,19,,10_20,,long_term_monitoring,,2026-11-16
+isruc_sleep,ISRUC-Sleep,,psg;scalp_eeg;eog;emg;ecg,sleep,,,,,,,,,,,,,,,,,,,,,,,,,,,sleep,,2026-11-16
+ji2024_stroop_high_altitude,EEG and fNIRS Datasets Based on Stroop Task during Two Weeks of High-Altitude Exposure in New Immigrants,,scalp_eeg;fnirs,cognitive,,2024,CC0-1.0,,,,,,,,80,,,,,,,,,,direct_download,open,64,,,G.tec g.Nautilus Research,cognitive_task,,2026-11-16
+jsmf_access,JSMF ACCESS intraoperative derived EEG data set,,scalp_eeg,,,,LicenseRef-physionet-restricted,,,,,,,,646,,,,,,,,,,signed_agreement,approval,,,,,anesthesia,,2026-11-16
+kaya2018,A large electroencephalographic motor imagery dataset for electroencephalographic brain computer interfaces,,scalp_eeg,bci;motor,,2018,CC0-1.0,,,,,,,,13,,,60,,,,,,,direct_download,open,19,,10_20,Nihon Kohden EEG-1200 JE-921A,motor_imagery,,2026-11-16
+lin2025_ied,An EEG dataset for interictal epileptiform discharge with spatial distribution information,,scalp_eeg;ecg;emg,clinical;epilepsy,,2025,,,,,,,,,84,,,28,,,,,,,direct_download,open,,500,10_20,Nihon Kohden EEG-1200C,,,2026-11-16
+liu2024_acute_stroke_mi,EEG datasets of stroke patients,,scalp_eeg;eog,clinical;bci;motor,,2023,CC-BY-4.0,,,,,,,,50,,,,,,,,,,direct_download,open,,500,10_10,"Xi’an ZhenTec Intelligence Technology Co., Ltd. ZhenTec NT1",motor_imagery,,2026-11-16
 liu2025_stroke_lower_limb_mi,Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients,,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
 ltrsvp,EEG Signals from an RSVP Task,,scalp_eeg,,,,ODC-By-1.0,,,,,,,,11,,,,,,,,,,direct_download,open,,,,,,,2026-11-14
 ma2020_joints_mi,Multi-channel EEG recording during motor imagery of different joints from the same limb,,scalp_eeg,,,2020,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_imagery,,2026-11-14
