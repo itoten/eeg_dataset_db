@@ -4389,14 +4389,33 @@ seed_olf,odor_stimulation,odor stimulation,emotion_induction,,,,,,,,
 seed_v,stimulus_material_viewing,stimulus material viewing,emotion_induction,,,,,,,,
 seed_vig,simulated_driving,simulated driving,other,,,,,,,,
 seed_vii,video_clip_viewing,video clip viewing,emotion_induction,,,,,,,,
+seed_vla,simulated_driving_laboratory,simulated driving (laboratory),other,,,,,,,,
+seed_vrw,real_world_driving_passenger_seat_with_s,real-world driving (passenger seat with steering wheel and pedals installed),other,,,,,,,,
 shhpsgdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
-shin2018_eeg_nirs_cognitive,dsr,discrimination/selection response task (DSR),,,,,,,,,
-shin2018_eeg_nirs_cognitive,nback,"n-back (0-, 2- and 3-back)",,,,,,,,,
-shin2018_eeg_nirs_cognitive,wg,word generation (WG),,,,,,,,,
+shhpsgdb,unattended_home_polysomnography,unattended home polysomnography,sleep,,,,,,,,
+shin2017_eeg_nirs,left_vs_right_hand_motor_imagery,left vs. right hand motor imagery,motor_imagery,,,,,,,,
+shin2017_eeg_nirs,mental_arithmetic_vs_resting_state,mental arithmetic vs. resting state,cognitive_task;resting_unspecified,,,,,,,,
+shin2018_eeg_nirs_cognitive,dsr,discrimination/selection response task (DSR),cognitive_task,,,,,,,,
+shin2018_eeg_nirs_cognitive,nback,"n-back (0-, 2- and 3-back)",cognitive_task,,,,,,,,
+shin2018_eeg_nirs_cognitive,wg,word generation (WG),cognitive_task,,,,,,,,
+shu_mi_ma2022,left_hand_right_hand_motor_imagery,left-hand / right-hand motor imagery,motor_imagery,,,,,,,,
+siena_scalp_eeg,video_eeg_monitoring,video-EEG monitoring,clinical_routine,,,,,,,,
 sleep_edf,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+sleep_edf,sleep_recordings,sleep recordings,sleep,,,,,,,,
 sleep_edfx,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+sleep_edfx,sleep_cassette_study_home_20_hours,"sleep cassette study (home, ~20 hours)",sleep,,,,,,,,
+sleep_edfx,sleep_telemetry_study_temazepam_vs_place,sleep telemetry study (temazepam vs placebo),sleep,,,,,,,,
 slpdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+slpdb,overnight_polysomnography,overnight polysomnography,sleep,,,,,,,,
+sosulski2019_auditory_oddball,auditory_oddball_under_various_soas,auditory oddball under various SOAs,auditory_erp,,,,,,,,
 sosulski2019_auditory_oddball,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+sosulski2019_auditory_oddball,resting_eyes_closed,"resting, eyes closed",resting_eyes_closed,,,,,,,,
+sosulski2019_auditory_oddball,resting_eyes_open,"resting, eyes open",resting_eyes_open,,,,,,,,
+sparrkulee,listening_to_natural_speech,listening to natural speech,other,,,,,,,,
+stieger2021_smr_bci,smr_bci_cursor_control_lr_ud_2d,"SMR-BCI cursor control (LR, UD, 2D)",motor_imagery,,,,,,,,
+tao2024_driving_mpdb,simulated_driving_behaviours,simulated driving behaviours,other,,,,,,,,
+tdbrain,eyes_closed_resting,eyes closed resting,resting_eyes_closed,,,,,,,,
+tdbrain,eyes_open_resting,eyes open resting,resting_eyes_open,,,,,,,,
 ucddb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 wbcic_mi_yang2025,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 weibo2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
