@@ -4416,10 +4416,19 @@ stieger2021_smr_bci,smr_bci_cursor_control_lr_ud_2d,"SMR-BCI cursor control (LR,
 tao2024_driving_mpdb,simulated_driving_behaviours,simulated driving behaviours,other,,,,,,,,
 tdbrain,eyes_closed_resting,eyes closed resting,resting_eyes_closed,,,,,,,,
 tdbrain,eyes_open_resting,eyes open resting,resting_eyes_open,,,,,,,,
+things_eeg2,resting_state,resting state,resting_unspecified,,,,,,,,
+things_eeg2,rsvp_of_object_images_with_an_orthogonal,RSVP of object images with an orthogonal target detection task,other,,,,,,,,
 ucddb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+ucddb,overnight_polysomnography,overnight polysomnography,sleep,,,,,,,,
 wbcic_mi_yang2025,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+wbcic_mi_yang2025,two_class_and_three_class_mi,two-class and three-class MI,motor_imagery,,,,,,,,
 weibo2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+weibo2014,simple_and_compound_limb_motor_imagery,simple and compound limb motor imagery,motor_imagery,,,,,,,,
+won2022_rsvp_p300,eyes_open_closed_resting_state,eyes open/closed resting state,resting_eyes_closed;resting_eyes_open,,,,,,,,
 won2022_rsvp_p300,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+won2022_rsvp_p300,p300_speller,P300 speller,p300_erp,,,,,,,,
+won2022_rsvp_p300,rsvp,RSVP,visual_erp,,,,,,,,
+yi2025_eeg_fnirs_joints,eight_mi_tasks_of_four_joints,eight MI tasks of four joints,motor_imagery,,,,,,,,
 yi2025_eeg_fnirs_joints,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_10004793,tms_eeg_blocks_mpfc_ag_sma_active_and_sh,"TMS–EEG blocks (mPFC, AG, SMA; active and sham TMS)",other,,,,,,,,
 zenodo_10026399,face_gender_classification,face-gender classification,cognitive_task;visual_erp,,,,,,,,
@@ -5007,3 +5016,5 @@ zenodo_841763,cybathlon_bci_race_training_and_competit,Cybathlon BCI race (train
 zenodo_8429739,subconscious_decision_making_key_press_t,subconscious decision-making key-press task with letter recall,cognitive_task,,,,,,,,
 zenodo_8431450,emotion_eliciting_film_clips_baseline_an,"emotion-eliciting film clips (baseline, anger, sadness, happiness, fear)",emotion_induction,,,,,,,,
 zhou2016,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+zhou2016,three_class_motor_imagery,three-class motor imagery,motor_imagery,,,,,,,,
+zuco,natural_sentence_reading_two_normal_read,natural sentence reading (two normal reading tasks and one task-specific reading task),language,,,,,,,,

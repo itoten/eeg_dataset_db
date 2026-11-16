@@ -591,6 +591,8 @@ sosulski2019_auditory_oddball,1,impedance_values,impedances prepared to around 2
 stieger2021_smr_bci,1,impedance_threshold,electrode impedance below 5 kΩ (excluding rare dead electrodes),stated in the document,stieger2021_smr_bci_docd0c871,remained below 5 kΩ,2026-11-16,claude,
 tao2024_driving_mpdb,1,impedance_threshold,impedance of each electrode below 20 kΩ,stated in the document,tao2024_driving_mpdb_doc6a5754,we ensured that the impedance of each electrode was lower than 20 k Ω,2026-11-16,claude,
 tdbrain,1,impedance_threshold,skin resistance kept below 10 kΩ,stated in the document,tdbrain_doc0ede4b,skin resistance was kept below 10 kΩ,2026-11-16,claude,
+wbcic_mi_yang2025,1,impedance_threshold,"impedance kept as low as possible, preferably below 5 kΩ",stated in the document,wbcic_mi_yang2025_doce59b72,"the impedance for all channels is kept as low as possible, preferably below 5 kΩ",2026-11-16,claude,
+yi2025_eeg_fnirs_joints,1,impedance_threshold,electrode impedances below 10 kΩ,stated in the document,nm000160_doc2c3389,electrode impedances were maintained below 10 kΩ throughout the experiment,2026-11-16,claude,
 zenodo_10004793,1,impedance_threshold,impedances below 5 kΩ,stated in the document,zenodo_10004793_doce821b6,EEG electrode impedances were maintained below 5 kΩ.,2026-11-14,claude,
 zenodo_10026399,1,impedance_threshold,impedance below 50 kΩ,stated in the document,zenodo_10026399_docb9467a,Impedance was kept below 50 kΩ.,2026-11-14,claude,
 zenodo_10034963,1,bad_channel_marks,indices of channels removed during preprocessing,stated in the document,zenodo_10034963_doc361b80,indices of channels removed during preprocessing (removedChannels),2026-11-14,claude,
@@ -775,3 +777,4 @@ zenodo_821566,1,rejected_trials,Trials with eye movement artifacts or amplitude 
 zenodo_8255617,1,impedance_threshold,impedances brought below 25 kOhm before recording,stated in the document,zenodo_8255618,The electrode impedances were brought below 25kOhm before the recording.,2026-11-15,claude,
 zenodo_8332197,1,signal_check_procedure,EEG acquisition started after channel/signal quality indicators were stable (green) in Emotiv Pro,stated in the document,zenodo_8332197_doc22ec38,"After the channel and EEG signal quality indicators reach a stable state (indicated by a green color in the Emotiv Pro software), the EEG data",2026-11-15,claude,
 zenodo_8429739,1,other,per-sample sensor quality column (HSI),stated in the document,zenodo_8429740,"HSI: sensor quality, the closer to 1 the better the quality.",2026-11-15,claude,
+zuco,1,impedance_threshold,impedance kept below 40 kOhm,stated in the document,nm000278_doc82d0b0,was kept below 40 kOhm,2026-11-16,claude,

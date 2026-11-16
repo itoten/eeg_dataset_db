@@ -986,6 +986,8 @@ seed_olf,acquisition_setups:main.device_manufacturer,conflicting,ESI,primary,htt
 seed_olf,acquisition_setups:main.device_manufacturer,conflicting,ESI NeuroScan,primary,https://bcmi.sjtu.edu.cn/home/seed/seed-OLF.html,Audit reviewer; scope: not given
 seed_v,acquisition_setups:main.device_manufacturer,conflicting,ESI,primary,https://bcmi.sjtu.edu.cn/home/seed/seed-v.html,
 seed_v,acquisition_setups:main.device_manufacturer,conflicting,ESI NeuroScan,primary,https://bcmi.sjtu.edu.cn/home/seed/seed-v.html,Audit reviewer; scope: not given
+wbcic_mi_yang2025,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://www.nature.com/articles/s41597-025-04826-y,Audit reviewer; scope: recorded; preprocessed data were down-sampled to 250 hz
+wbcic_mi_yang2025,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://www.nature.com/articles/s41597-025-04826-y,Audit reviewer; scope: preprocessed data
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.10640762,Audit reviewer; scope: as stated by the bids record
 zenodo_10640761,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://physionet.org/content/siena-scalp-eeg/1.0.0/,Audit reviewer; scope: original physionet recordings
 zenodo_11058710,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://api.datacite.org/dois/10.5281/zenodo.11058711,Audit reviewer; scope: distributed (preprocessed)
