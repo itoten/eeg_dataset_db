@@ -773,9 +773,24 @@ nm000206,acquisition_setups:main.n_channels_eeg,conflicting,61,secondary,https:/
 nm000206,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://api.nemar.org/datasets/nm000206,Audit reviewer; scope: not given
 nm000208,n_subjects_reported,conflicting,14,secondary,https://nemar.org/dataset/nm000208,
 nm000208,n_subjects_reported,conflicting,15,secondary,https://api.nemar.org/datasets/nm000208,Audit reviewer; scope: not given
+nm000209,acquisition_setups:main.device_manufacturer,conflicting,Compumedics Neuroscan,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC10803074/,Audit reviewer; scope: not given
+nm000209,acquisition_setups:main.device_manufacturer,conflicting,Neuroscan,secondary,https://api.nemar.org/datasets/nm000209,Audit reviewer; scope: not given
+nm000211,acquisition_setups:main.reference,conflicting,CPz,secondary,https://nemar.org/dataset/nm000211,
+nm000211,acquisition_setups:main.reference,conflicting,Cpz,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC12185715/,Audit reviewer; scope: not given
+nm000214,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://api.nemar.org/datasets/nm000214,Audit reviewer; scope: record methods_description (paper not opened)
+nm000214,acquisition_setups:main.device_manufacturer,conflicting,Biosemi,secondary,https://api.nemar.org/datasets/nm000214,Audit reviewer; scope: not given
 nm000217,n_subjects_reported,conflicting,44,secondary,https://api.nemar.org/datasets/nm000217,Audit reviewer; scope: not given
 nm000217,n_subjects_reported,conflicting,44,secondary,https://nemar.org/dataset/nm000217,
 nm000217,n_subjects_reported,conflicting,50,secondary,https://api.nemar.org/datasets/nm000217,Audit reviewer; scope: not given
+nm000218,acquisition_setups:main.device_manufacturer,conflicting,g.tec,secondary,https://api.nemar.org/datasets/nm000218,Audit reviewer; scope: not given
+nm000218,acquisition_setups:main.device_manufacturer,conflicting,g.tec medical engineering GmbH,primary,https://physionet.org/content/bigp3bci/1.0.0/,Audit reviewer; scope: whole collection
+nm000219,acquisition_setups:main.device_model,conflicting,BrainAmp DC,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC7736242/,Audit reviewer; scope: not given
+nm000219,acquisition_setups:main.device_model,conflicting,BrainAmp DC Amplifier,secondary,https://api.nemar.org/datasets/nm000219,Audit reviewer; scope: not given
+nm000219,acquisition_setups:main.n_channels_eeg,conflicting,29,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC7736242/,Audit reviewer; scope: paper
+nm000219,acquisition_setups:main.n_channels_eeg,conflicting,30,secondary,https://api.nemar.org/datasets/nm000219,Audit reviewer; scope: not given
+nm000219,acquisition_setups:main.n_channels_eeg,conflicting,30,secondary,https://nemar.org/dataset/nm000219,
+nm000221,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000221,
+nm000221,acquisition_setups:main.montage_system,conflicting,10_20,secondary,https://api.datacite.org/dois/10.5281/zenodo.2348892,Audit reviewer; scope: not given
 nm000222,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000222,
 nm000222,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10867822/,Audit reviewer; scope: not given
 nm000223,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000223,
