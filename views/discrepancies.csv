@@ -1068,6 +1068,12 @@ osf_94c5t,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,http
 osf_94c5t,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://osf.io/download/rmuje/,"Audit reviewer; scope: native rate, readme.md file of the record (disagrees with wiki and paper)"
 osf_de9p6,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://osf.io/download/7z4uw/,Audit reviewer; scope: recorded
 osf_de9p6,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://osf.io/download/7z4uw/,Audit reviewer; scope: distributed preprocessed data
+osf_jbysn,acquisition_setups:main.n_channels_eeg,conflicting,129,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC5650149/,Audit reviewer; scope: nbt eyes-open/closed resting dataset
+osf_jbysn,acquisition_setups:main.n_channels_eeg,conflicting,16,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC5650149/,Audit reviewer; scope: alzheimer's dataset
+osf_m45j2,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,primary,https://osf.io/download/wvuh8/,Audit reviewer; scope: per readme (conflicts with wiki)
+osf_m45j2,acquisition_setups:main.device_manufacturer,conflicting,Cognionics Inc.,primary,https://api.osf.io/v2/wikis/cvfjt/content/,Audit reviewer; scope: per wiki
+osf_m45j2,acquisition_setups:main.device_model,conflicting,CGX Quick-32r,primary,https://api.osf.io/v2/wikis/cvfjt/content/,Audit reviewer; scope: per wiki
+osf_m45j2,acquisition_setups:main.device_model,conflicting,CGX-32,primary,https://osf.io/download/wvuh8/,Audit reviewer; scope: per readme (conflicts with wiki)
 seed,acquisition_setups:main.device_manufacturer,conflicting,ESI,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,
 seed,acquisition_setups:main.device_manufacturer,conflicting,ESI NeuroScan,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,Audit reviewer; scope: not given
 seed,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,
