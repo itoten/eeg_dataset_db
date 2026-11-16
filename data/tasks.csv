@@ -1,13 +1,36 @@
 dataset_id,task_id,task_name,paradigms,stimulus_modalities,response_required,n_classes,n_trials_per_session,run_duration_s,n_runs_per_session,setup_id,description
 anphy_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+anphy_sleep,overnight_sleep,overnight sleep,sleep,,,,,,,,
+auditory_eeg,listening_to_a_native_language_song_with,listening to a native-language song with in-ear headphones,other,,,,,,,,
+auditory_eeg,resting_state_eyes_closed,"resting-state, eyes closed",resting_eyes_closed,,,,,,,,
+auditory_eeg,resting_state_eyes_open,"resting-state, eyes open",resting_eyes_open,,,,,,,,
 bci2020_track1,main,Few-shot EEG learning,motor_imagery,,,,,,,,
+bci2020_track1,right_left_hand_motor_imagery,right/left hand motor imagery,motor_imagery,,,,,,,,
 bci2020_track2,main,Microsleep detection from single-channel EEG,,,,,,,,,
+bci2020_track2,simulated_driving_with_kss_ratings_valid,simulated driving with KSS ratings (validation/test),other,,,,,,,,
+bci2020_track2,whole_night_sleep_sleep_edf_training,"whole-night sleep (Sleep-EDF, training)",sleep,,,,,,,,
+bci2020_track3,five_class_imagined_speech,five-class imagined speech,imagined_speech,,,,,,,,
 bci2020_track3,main,Imagined speech classification,imagined_speech,,,,,,,,
 bci2020_track4,main,Upper-limb movements decoding in a single-arm,,,,,,,,,
+bci2020_track4,three_imagined_grasps_cylindrical_spheri,"three imagined grasps (cylindrical, spherical, lumbrical)",motor_imagery,,,,,,,,
+bci2020_track5,erp_paradigm_while_walking_at_1_6_m_s,ERP paradigm while walking at 1.6 m/s,p300_erp,,,,,,,,
 bci2020_track5,main,EEG(+Ear-EEG)-based ERP detection during walking,,,,,,,,,
+bci2020_track5,standing_on_the_treadmill,standing on the treadmill,other,,,,,,,,
 bigp3bci,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
+bigp3bci,p300_speller_copy_spelling,P300 speller copy-spelling,p300_erp,,,,,,,,
+bnci_001_2014,eog_recording_block_eyes_closed,EOG recording block: eyes closed,resting_eyes_closed,,,,,,,,
+bnci_001_2014,eog_recording_block_eyes_open,EOG recording block: eyes open,resting_eyes_open,,,,,,,,
+bnci_001_2014,four_class_motor_imagery,four-class motor imagery,motor_imagery,,,,,,,,
 bnci_001_2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+bnci_001_2015,right_hand_vs_both_feet_motor_imagery_wi,right hand vs both feet motor imagery with online feedback,motor_imagery,,,,,,,,
 bnci_001_2016,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+bnci_001_2016,t_1_d_two_target_cursor_box_task_by_motor,1-D two-target cursor box task by motor imagery,motor_imagery,,,,,,,,
+bnci_001_2017,motor_execution_session,motor execution session,motor_execution,,,,,,,,
+bnci_001_2017,motor_imagination_session,motor imagination session,motor_imagery,,,,,,,,
+bnci_001_2019,attempted_executed_arm_and_hand_movement,attempted/executed arm and hand movements (offline paradigm),motor_execution,,,,,,,,
+bnci_001_2019,rest_runs,rest runs,resting_unspecified,,,,,,,,
+bnci_001_2020,rest_recording,rest recording,resting_unspecified,,,,,,,,
+bnci_001_2020,self_initiated_reach_and_grasp_palmar_an,self-initiated reach-and-grasp (palmar and lateral grasp),motor_execution,,,,,,,,
 bnci_002_2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 bnci_003_2015,main,,p300_erp,,,,,,,,Paradigm stated by the dataset name
 bnci_004_2014,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
