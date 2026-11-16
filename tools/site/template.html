@@ -75,6 +75,7 @@ h1 { font: 650 clamp(26px, 4vw, 38px)/1.15 var(--f-display); margin: 0; text-wra
 .opt:hover { background: var(--accent-soft); }
 .opt input { margin: 0; accent-color: var(--accent); flex: none; }
 .opt .lb { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.opt .ids { display: block; font: 10.5px/1.35 var(--f-mono); color: var(--muted); margin-top: 1px; }
 .opt .n { font: 12px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
 .opt.zero { color: var(--muted); opacity: .55; }
 .rng { display: flex; align-items: center; gap: 6px; padding-bottom: 12px; } .rng select { flex: 1 1 0; padding: 6px 8px; font-size: 13px; }
@@ -426,6 +427,7 @@ const licTags = l => { if (!l) return ["unk"]; if (l === "conflicting") return [
   if (/^(CC0|PDDL)/.test(l)) return ["pd"]; const t = [];
   if (/-NC/.test(l)) t.push("nc"); if (/-SA|ODbL|CDLA-Sharing|CERN-OHL-S/.test(l)) t.push("sa"); if (/-ND/.test(l)) t.push("nd"); return t.length ? t : ["attr"]; };
 const LICX = { nc: d => d._lt.includes("nc"), sa: d => d._lt.includes("sa"), nd: d => d._lt.includes("nd"), other: d => d._lt.some(t => ["custom", "conf", "unk"].includes(t)) };
+const LICS = {}; D.forEach(d => { if (d.lic && d.lic !== "conflicting") licTags(d.lic).forEach(t => (LICS[t] ??= new Set()).add(d.lic)); });
 const maxOf = a => a.length ? Math.max(...a.map(Number).filter(x => !isNaN(x))) : null;
 D.forEach(d => {
   d._maker = [...new Set(d.setups.map(x => x.device_manufacturer).filter(Boolean))];
@@ -482,7 +484,7 @@ function renderFacets() {
     const top = c.top && !state.more[k] ? c.top : Infinity, hiddenN = Math.max(0, vals.length - top);
     vals = vals.filter((v, i) => i < top || sel.has(v));
     body.push(`<details class="fset" data-k="${k}" ${c.open || sel.size ? "open" : ""}><summary>${esc(t.fac[k])}${sel.size ? `<span class="sel">${sel.size}</span>` : ""}</summary><div class="opts">
-      ${vals.map(v => `<label class="opt${cnt[v] || sel.has(v) ? "" : " zero"}"><input type="checkbox" data-k="${k}" value="${esc(v)}" ${sel.has(v) ? "checked" : ""} ${cnt[v] || sel.has(v) ? "" : "disabled"}><span class="lb">${esc(vlabel(k, v))}</span><span class="n">${cnt[v] || 0}</span></label>`).join("")}
+      ${vals.map(v => `<label class="opt${cnt[v] || sel.has(v) ? "" : " zero"}"><input type="checkbox" data-k="${k}" value="${esc(v)}" ${sel.has(v) ? "checked" : ""} ${cnt[v] || sel.has(v) ? "" : "disabled"}><span class="lb">${esc(vlabel(k, v))}${k === "licfam" && LICS[v] ? `<span class="ids">${[...LICS[v]].sort().map(esc).join(" · ")}</span>` : ""}</span><span class="n">${cnt[v] || 0}</span></label>`).join("")}
       ${c.top && vals.length + hiddenN > c.top ? `<button type="button" class="link" data-more="${k}">${esc(state.more[k] ? t.fewer : t.more_opts(hiddenN))}</button>` : ""}</div></details>`);
   }
   const fb = document.getElementById("fbody"), sc = fb.scrollTop;
