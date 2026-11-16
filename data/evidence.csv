@@ -1351,7 +1351,7 @@ ds002218/access_routes:openneuro.access_method/01,ds002218,access_routes:openneu
 ds002218/access_routes:openneuro.automation_tool/01,ds002218,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds002218_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds002218/access_routes:openneuro.human_steps/01,ds002218,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds002218_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds002218/acquisition_setups:main.line_freq_hz/01,ds002218,acquisition_setups:main.line_freq_hz,0,ds002218_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds002218/acquisition_setups:main.n_channels_eeg/01,ds002218,acquisition_setups:main.n_channels_eeg,0,ds002218_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds002218/acquisition_setups:main.n_channels_eeg/01,ds002218,acquisition_setups:main.n_channels_eeg,0,ds002218_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds002218/acquisition_setups:main.reference/01,ds002218,acquisition_setups:main.reference,common,ds002218_sidecar,EEGReference,2026-11-14,script,current,
 ds002218/acquisition_setups:main.sampling_rate_hz/01,ds002218,acquisition_setups:main.sampling_rate_hz,256,ds002218_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds002218/content_class/01,ds002218,content_class,eeg_signals,ds002218_doc4e3c3f,This EEG dataset was recorded as part of a study of the predictive mechanisms of rhythm perception by using an omission paradigm,2026-11-16,claude,current,
@@ -1457,7 +1457,7 @@ ds002680/access_routes:openneuro.automation_tool/01,ds002680,access_routes:openn
 ds002680/access_routes:openneuro.human_steps/01,ds002680,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds002680_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds002680/acquisition_setups:main.device_model/01,ds002680,acquisition_setups:main.device_model,Neuroscan Synamps 1 (model 5083),ds002680_sidecar,ManufacturersModelName,2026-11-14,script,current,
 ds002680/acquisition_setups:main.line_freq_hz/01,ds002680,acquisition_setups:main.line_freq_hz,50,ds002680_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds002680/acquisition_setups:main.n_channels_eeg/01,ds002680,acquisition_setups:main.n_channels_eeg,0,ds002680_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds002680/acquisition_setups:main.n_channels_eeg/01,ds002680,acquisition_setups:main.n_channels_eeg,0,ds002680_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds002680/acquisition_setups:main.reference/01,ds002680,acquisition_setups:main.reference,common,ds002680_sidecar,EEGReference,2026-11-14,script,current,
 ds002680/acquisition_setups:main.sampling_rate_hz/01,ds002680,acquisition_setups:main.sampling_rate_hz,1000,ds002680_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds002680/is_bids/01,ds002680,is_bids,true,ds002680_record,dataset_description.json BIDSVersion v1.2.1,2026-11-14,script,current,
@@ -1900,7 +1900,8 @@ ds003029/access_routes:openneuro.access_method/01,ds003029,access_routes:openneu
 ds003029/access_routes:openneuro.automation_tool/01,ds003029,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds003029_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds003029/access_routes:openneuro.human_steps/01,ds003029,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds003029_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds003029/acquisition_setups:main.line_freq_hz/01,ds003029,acquisition_setups:main.line_freq_hz,60,ds003029_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds003029/acquisition_setups:main.n_channels_eeg/01,ds003029,acquisition_setups:main.n_channels_eeg,0,ds003029_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds003029/acquisition_setups:main.n_channels_eeg/01,ds003029,acquisition_setups:main.n_channels_eeg,0,ds003029_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds003029/acquisition_setups:main.n_channels_eeg/02,ds003029,acquisition_setups:main.n_channels_eeg,126,ds003029_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds003029/acquisition_setups:main.sampling_rate_hz/01,ds003029,acquisition_setups:main.sampling_rate_hz,1000,ds003029_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003029/content_class/01,ds003029,content_class,eeg_signals,ds003029_doc596d65,Acquisitions include ECoG and SEEG.,2026-11-16,claude,current,
 ds003029/domains/01,ds003029,domains,epilepsy,ds003029_doc596d65,"For seizure sessions, this means that each run is a EEG snapshot around a different seizure event.",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -1985,8 +1986,8 @@ ds003190/access_routes:openneuro.human_steps/01,ds003190,access_routes:openneuro
 ds003190/acquisition_setups:main.ground/01,ds003190,acquisition_setups:main.ground,AFz,ds003190_doc3f3857,grounded to AFz channel,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds003190/acquisition_setups:main.line_freq_hz/01,ds003190,acquisition_setups:main.line_freq_hz,60,ds003190_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds003190/acquisition_setups:main.montage_system/01,ds003190,acquisition_setups:main.montage_system,10_20,ds003190_doc3f3857,according to the 10-20 EEG electrode placement standard,2026-11-15,claude,current,Audit reviewer; scope: not given
-ds003190/acquisition_setups:main.n_channels_eeg/01,ds003190,acquisition_setups:main.n_channels_eeg,0,ds003190_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
-ds003190/acquisition_setups:main.n_channels_eeg/02,ds003190,acquisition_setups:main.n_channels_eeg,8,ds003190_doc3f3857,"There are 10 rows, 1 to 8 for each EEG electrode (in descending order Fz, Cz, P3, Pz, P4, PO7, PO8 and Oz)",2026-11-15,claude,conflicting,Audit reviewer; scope: not given
+ds003190/acquisition_setups:main.n_channels_eeg/01,ds003190,acquisition_setups:main.n_channels_eeg,0,ds003190_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds003190/acquisition_setups:main.n_channels_eeg/02,ds003190,acquisition_setups:main.n_channels_eeg,8,ds003190_doc3f3857,"There are 10 rows, 1 to 8 for each EEG electrode (in descending order Fz, Cz, P3, Pz, P4, PO7, PO8 and Oz)",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds003190/acquisition_setups:main.reference/01,ds003190,acquisition_setups:main.reference,M2,ds003190_sidecar,EEGReference,2026-11-14,script,conflicting,
 ds003190/acquisition_setups:main.reference/02,ds003190,acquisition_setups:main.reference,right mastoid (M2),ds003190_doc3f3857,referenced to right mastoid (M2),2026-11-15,claude,conflicting,Audit reviewer; scope: not given
 ds003190/acquisition_setups:main.sampling_rate_hz/01,ds003190,acquisition_setups:main.sampling_rate_hz,256,ds003190_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -2106,7 +2107,8 @@ ds003374/acquisition_setups:main.device_manufacturer/01,ds003374,acquisition_set
 ds003374/acquisition_setups:main.device_model/01,ds003374,acquisition_setups:main.device_model,Neuralynx ATLAS,ds003374_sidecar,ManufacturersModelName,2026-11-14,script,current,
 ds003374/acquisition_setups:main.hardware_filter/01,ds003374,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.5}, ""LowpassFilter"": {""CutoffFrequency"": 5000}}",ds003374_sidecar,HardwareFilters,2026-11-14,script,current,
 ds003374/acquisition_setups:main.line_freq_hz/01,ds003374,acquisition_setups:main.line_freq_hz,50,ds003374_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds003374/acquisition_setups:main.n_channels_eeg/01,ds003374,acquisition_setups:main.n_channels_eeg,0,ds003374_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds003374/acquisition_setups:main.n_channels_eeg/01,ds003374,acquisition_setups:main.n_channels_eeg,0,ds003374_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds003374/acquisition_setups:main.n_channels_eeg/02,ds003374,acquisition_setups:main.n_channels_eeg,4,ds003374_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds003374/acquisition_setups:main.reference/01,ds003374,acquisition_setups:main.reference,"intracranial depth electrode, not included with data",ds003374_sidecar,iEEGReference,2026-11-14,script,current,
 ds003374/acquisition_setups:main.sampling_rate_hz/01,ds003374,acquisition_setups:main.sampling_rate_hz,2000,ds003374_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003374/content_class/01,ds003374,content_class,eeg_signals,ds003374_doc041fcb,"We provide the recordings of intracranial EEG (iEEG) and metadata related to the task, subjects, sessions and electrodes in the BIDS standard.",2026-11-16,claude,current,
@@ -2322,7 +2324,8 @@ ds003498/acquisition_setups:main.device_manufacturer/02,ds003498,acquisition_set
 ds003498/acquisition_setups:main.hardware_filter/01,ds003498,acquisition_setups:main.hardware_filter,"{""Bandpass RC filter"": {""low cutoff (Hz)"": 1000, ""high cutoff (Hz)"": 0.5}}",ds003498_sidecar,HardwareFilters,2026-11-14,script,conflicting,
 ds003498/acquisition_setups:main.hardware_filter/02,ds003498,acquisition_setups:main.hardware_filter,0.5–1000 Hz pass-band,ds003498_doc98a929,"ATLAS recording system (0.5–1000 Hz pass-band, Neuralynx",2026-11-15,claude,conflicting,Audit reviewer; scope: not given
 ds003498/acquisition_setups:main.line_freq_hz/01,ds003498,acquisition_setups:main.line_freq_hz,50,ds003498_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds003498/acquisition_setups:main.n_channels_eeg/01,ds003498,acquisition_setups:main.n_channels_eeg,0,ds003498_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds003498/acquisition_setups:main.n_channels_eeg/01,ds003498,acquisition_setups:main.n_channels_eeg,0,ds003498_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds003498/acquisition_setups:main.n_channels_eeg/02,ds003498,acquisition_setups:main.n_channels_eeg,50,ds003498_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds003498/acquisition_setups:main.sampling_rate_hz/01,ds003498,acquisition_setups:main.sampling_rate_hz,2000,ds003498_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003498/acquisition_setups:main.sampling_rate_hz/02,ds003498,acquisition_setups:main.sampling_rate_hz,2000,ds003498_doc98a929,"acquired at 4000 Hz sampling frequency with an ATLAS recording system (0.5–1000 Hz pass-band, Neuralynx, www.neuralynx.com ) and down-sampled to 2000 Hz for HFO analysis",2026-11-15,claude,current,"Audit reviewer; scope: paper: acquired at 4000 hz, down-sampled to 2000 hz for hfo analysis; the rate of the distributed files is not stated in readme"
 ds003498/domains/01,ds003498,domains,epilepsy,ds003498_doc98a929,We analysed long-term invasive recordings of 20 consecutive patients who subsequently underwent epilepsy surgery.,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -3017,7 +3020,7 @@ ds003708/acquisition_setups:main.device_manufacturer/01,ds003708,acquisition_set
 ds003708/acquisition_setups:main.device_manufacturer/02,ds003708,acquisition_setups:main.device_manufacturer,Natus Medical Inc,ds003708_docaf57bf,"""Manufacturer"": ""Natus Medical Inc""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds003708/acquisition_setups:main.hardware_filter/01,ds003708,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.01}, ""LowpassFilter"": {""CutoffFrequency"": 878}}",ds003708_sidecar,HardwareFilters,2026-11-14,script,current,
 ds003708/acquisition_setups:main.line_freq_hz/01,ds003708,acquisition_setups:main.line_freq_hz,60,ds003708_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds003708/acquisition_setups:main.n_channels_eeg/01,ds003708,acquisition_setups:main.n_channels_eeg,0,ds003708_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds003708/acquisition_setups:main.n_channels_eeg/01,ds003708,acquisition_setups:main.n_channels_eeg,0,ds003708_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds003708/acquisition_setups:main.reference/01,ds003708,acquisition_setups:main.reference,intracranial,ds003708_sidecar,iEEGReference,2026-11-14,script,current,
 ds003708/acquisition_setups:main.sampling_rate_hz/01,ds003708,acquisition_setups:main.sampling_rate_hz,2048,ds003708_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003708/acquisition_setups:main.sampling_rate_hz/02,ds003708,acquisition_setups:main.sampling_rate_hz,2048,ds003708_docaf57bf,"""SamplingFrequency"": 2048",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -3485,7 +3488,8 @@ ds003844/acquisition_setups:main.device_model/01,ds003844,acquisition_setups:mai
 ds003844/acquisition_setups:main.ground/01,ds003844,acquisition_setups:main.ground,top of forehead or mastoid,ds003844_sidecar,iEEGGround,2026-11-14,script,current,
 ds003844/acquisition_setups:main.hardware_filter/01,ds003844,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.15}, ""LowpassFilter"": {""CutoffFrequency"": 538}}",ds003844_sidecar,HardwareFilters,2026-11-14,script,current,
 ds003844/acquisition_setups:main.line_freq_hz/01,ds003844,acquisition_setups:main.line_freq_hz,50,ds003844_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds003844/acquisition_setups:main.n_channels_eeg/01,ds003844,acquisition_setups:main.n_channels_eeg,0,ds003844_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds003844/acquisition_setups:main.n_channels_eeg/01,ds003844,acquisition_setups:main.n_channels_eeg,0,ds003844_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds003844/acquisition_setups:main.n_channels_eeg/02,ds003844,acquisition_setups:main.n_channels_eeg,26,ds003844_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds003844/acquisition_setups:main.reference/01,ds003844,acquisition_setups:main.reference,probably mastoid,ds003844_sidecar,iEEGReference,2026-11-14,script,current,
 ds003844/acquisition_setups:main.sampling_rate_hz/01,ds003844,acquisition_setups:main.sampling_rate_hz,2048,ds003844_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003844/content_class/01,ds003844,content_class,eeg_signals,ds003844_doc0701af,This dataset is part of a bigger dataset of intracranial EEG (iEEG) called RESPect (Registry for Epilepsy Surgery Patients),2026-11-16,claude,current,
@@ -3541,7 +3545,8 @@ ds003848/acquisition_setups:main.device_model/01,ds003848,acquisition_setups:mai
 ds003848/acquisition_setups:main.ground/01,ds003848,acquisition_setups:main.ground,top of forehead or mastoid,ds003848_sidecar,iEEGGround,2026-11-14,script,current,
 ds003848/acquisition_setups:main.hardware_filter/01,ds003848,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.15}, ""LowpassFilter"": {""CutoffFrequency"": 468}}",ds003848_sidecar,HardwareFilters,2026-11-14,script,current,
 ds003848/acquisition_setups:main.line_freq_hz/01,ds003848,acquisition_setups:main.line_freq_hz,50,ds003848_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds003848/acquisition_setups:main.n_channels_eeg/01,ds003848,acquisition_setups:main.n_channels_eeg,0,ds003848_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds003848/acquisition_setups:main.n_channels_eeg/01,ds003848,acquisition_setups:main.n_channels_eeg,0,ds003848_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds003848/acquisition_setups:main.n_channels_eeg/02,ds003848,acquisition_setups:main.n_channels_eeg,64,ds003848_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds003848/acquisition_setups:main.reference/01,ds003848,acquisition_setups:main.reference,probably mastoid,ds003848_sidecar,iEEGReference,2026-11-14,script,current,
 ds003848/acquisition_setups:main.sampling_rate_hz/01,ds003848,acquisition_setups:main.sampling_rate_hz,2048,ds003848_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003848/content_class/01,ds003848,content_class,eeg_signals,ds003848_doc698c75,This dataset is part of a bigger dataset of intracranial EEG (iEEG) called RESPect (Registry for Epilepsy Surgery Patients),2026-11-16,claude,current,
@@ -3572,7 +3577,8 @@ ds003876/access_routes:openneuro.access_method/01,ds003876,access_routes:openneu
 ds003876/access_routes:openneuro.automation_tool/01,ds003876,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds003876_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds003876/access_routes:openneuro.human_steps/01,ds003876,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds003876_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds003876/acquisition_setups:main.line_freq_hz/01,ds003876,acquisition_setups:main.line_freq_hz,60,ds003876_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds003876/acquisition_setups:main.n_channels_eeg/01,ds003876,acquisition_setups:main.n_channels_eeg,0,ds003876_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds003876/acquisition_setups:main.n_channels_eeg/01,ds003876,acquisition_setups:main.n_channels_eeg,0,ds003876_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds003876/acquisition_setups:main.n_channels_eeg/02,ds003876,acquisition_setups:main.n_channels_eeg,186,ds003876_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds003876/acquisition_setups:main.sampling_rate_hz/01,ds003876,acquisition_setups:main.sampling_rate_hz,1024,ds003876_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003876/content_class/01,ds003876,content_class,eeg_signals,ds003876_doc09e342,This dataset comprises of de-identified subjects with interictal iEEG recordings possibly with sleep or awake state annotated.,2026-11-16,claude,current,
 ds003876/domains/01,ds003876,domains,epilepsy,ds003876_doc09e342,Epilepsy Interictal Dataset,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -4134,7 +4140,8 @@ ds004080/acquisition_setups:main.electrode_type/01,ds004080,acquisition_setups:m
 ds004080/acquisition_setups:main.ground/01,ds004080,acquisition_setups:main.ground,top of forehead or mastoid,ds004080_sidecar,iEEGGround,2026-11-14,script,current,
 ds004080/acquisition_setups:main.hardware_filter/01,ds004080,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.15}, ""LowpassFilter"": {""CutoffFrequency"": 232}}",ds004080_sidecar,HardwareFilters,2026-11-14,script,current,
 ds004080/acquisition_setups:main.line_freq_hz/01,ds004080,acquisition_setups:main.line_freq_hz,50,ds004080_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds004080/acquisition_setups:main.n_channels_eeg/01,ds004080,acquisition_setups:main.n_channels_eeg,0,ds004080_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004080/acquisition_setups:main.n_channels_eeg/01,ds004080,acquisition_setups:main.n_channels_eeg,0,ds004080_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds004080/acquisition_setups:main.n_channels_eeg/02,ds004080,acquisition_setups:main.n_channels_eeg,104,ds004080_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds004080/acquisition_setups:main.reference/01,ds004080,acquisition_setups:main.reference,probably mastoid,ds004080_sidecar,iEEGReference,2026-11-14,script,current,
 ds004080/acquisition_setups:main.sampling_rate_hz/01,ds004080,acquisition_setups:main.sampling_rate_hz,512,ds004080_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004080/content_class/01,ds004080,content_class,eeg_signals,ds004080_doc52f451,This dataset consists of 74 patients age 4-51 years old where Cortico-Cortical Evoked Potentials (CCEPs) were measured with Electro-CorticoGraphy (ECoG) during single pulse electrical stimulation.,2026-11-16,claude,current,
@@ -4157,7 +4164,8 @@ ds004100/access_routes:openneuro.access_method/01,ds004100,access_routes:openneu
 ds004100/access_routes:openneuro.automation_tool/01,ds004100,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds004100_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds004100/access_routes:openneuro.human_steps/01,ds004100,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds004100_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds004100/acquisition_setups:main.line_freq_hz/01,ds004100,acquisition_setups:main.line_freq_hz,60,ds004100_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds004100/acquisition_setups:main.n_channels_eeg/01,ds004100,acquisition_setups:main.n_channels_eeg,0,ds004100_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004100/acquisition_setups:main.n_channels_eeg/01,ds004100,acquisition_setups:main.n_channels_eeg,0,ds004100_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds004100/acquisition_setups:main.n_channels_eeg/02,ds004100,acquisition_setups:main.n_channels_eeg,59,ds004100_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds004100/acquisition_setups:main.sampling_rate_hz/01,ds004100,acquisition_setups:main.sampling_rate_hz,500,ds004100_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004100/content_class/01,ds004100,content_class,eeg_signals,ds004100_doc871ec0,"Each of the 58 subjects underwent intracranial EEG with subdural grid, strip, and depth electrodes (ECoG) or purely stereotactically-placed depth electrodes (SEEG).",2026-11-16,claude,current,
 ds004100/domains/01,ds004100,domains,epilepsy,ds004100_doc871ec0,collected as part of surgical treatment for drug resistant epilepsy at the Hospital of the University of Pennsylvania,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -5077,7 +5085,8 @@ ds004370/acquisition_setups:main.device_model/01,ds004370,acquisition_setups:mai
 ds004370/acquisition_setups:main.ground/01,ds004370,acquisition_setups:main.ground,top of forehead or mastoid,ds004370_sidecar,iEEGGround,2026-11-14,script,current,
 ds004370/acquisition_setups:main.hardware_filter/01,ds004370,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.15}, ""LowpassFilter"": {""CutoffFrequency"": 468}}",ds004370_sidecar,HardwareFilters,2026-11-14,script,current,
 ds004370/acquisition_setups:main.line_freq_hz/01,ds004370,acquisition_setups:main.line_freq_hz,50,ds004370_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds004370/acquisition_setups:main.n_channels_eeg/01,ds004370,acquisition_setups:main.n_channels_eeg,0,ds004370_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004370/acquisition_setups:main.n_channels_eeg/01,ds004370,acquisition_setups:main.n_channels_eeg,0,ds004370_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds004370/acquisition_setups:main.n_channels_eeg/02,ds004370,acquisition_setups:main.n_channels_eeg,48,ds004370_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds004370/acquisition_setups:main.reference/01,ds004370,acquisition_setups:main.reference,probably mastoid,ds004370_sidecar,iEEGReference,2026-11-14,script,current,
 ds004370/acquisition_setups:main.sampling_rate_hz/01,ds004370,acquisition_setups:main.sampling_rate_hz,2048,ds004370_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004370/content_class/01,ds004370,content_class,eeg_signals,ds004370_doc3a3a85,"These data include intraoperative electrocorticography recordings from six patients, long-term electrocorticography recordings from three patients and stereo-encephalography recordings from three patients.",2026-11-16,claude,current,
@@ -5458,7 +5467,8 @@ ds004473/access_routes:nemar.human_steps/01,ds004473,access_routes:nemar.human_s
 ds004473/access_routes:openneuro.access_method/01,ds004473,access_routes:openneuro.access_method,site_terms_agreement,ds004473_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds004473/access_routes:openneuro.automation_tool/01,ds004473,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds004473_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds004473/access_routes:openneuro.human_steps/01,ds004473,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds004473_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
-ds004473/acquisition_setups:main.n_channels_eeg/01,ds004473,acquisition_setups:main.n_channels_eeg,0,ds004473_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004473/acquisition_setups:main.n_channels_eeg/01,ds004473,acquisition_setups:main.n_channels_eeg,0,ds004473_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds004473/acquisition_setups:main.n_channels_eeg/02,ds004473,acquisition_setups:main.n_channels_eeg,129,ds004473_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds004473/acquisition_setups:main.sampling_rate_hz/01,ds004473,acquisition_setups:main.sampling_rate_hz,999.4121105232217,ds004473_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004473/content_class/01,ds004473,content_class,eeg_signals,ds004473_docd30bdb,stereoelectroencephalography data from a forced two-choice response task collected in the epilepsy monitoring unit at Oregon Health & Science University,2026-11-16,claude,current,
 ds004473/domains/01,ds004473,domains,epilepsy,ds004473_doce36f3c,Eight patients with medically intractable focal epilepsy were surgically implanted with sEEG electrodes,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -6426,7 +6436,8 @@ ds004642/acquisition_setups:main.device_model/02,ds004642,acquisition_setups:mai
 ds004642/acquisition_setups:main.hardware_filter/01,ds004642,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.5}, ""LowpassFilter"": {""CutoffFrequency"": 5000}}",ds004642_sidecar,HardwareFilters,2026-11-14,script,current,
 ds004642/acquisition_setups:main.line_freq_hz/01,ds004642,acquisition_setups:main.line_freq_hz,50,ds004642_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds004642/acquisition_setups:main.line_freq_hz/02,ds004642,acquisition_setups:main.line_freq_hz,50,ds004642_doc2c3d95,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
-ds004642/acquisition_setups:main.n_channels_eeg/01,ds004642,acquisition_setups:main.n_channels_eeg,0,ds004642_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004642/acquisition_setups:main.n_channels_eeg/01,ds004642,acquisition_setups:main.n_channels_eeg,0,ds004642_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds004642/acquisition_setups:main.n_channels_eeg/02,ds004642,acquisition_setups:main.n_channels_eeg,8,ds004642_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds004642/acquisition_setups:main.reference/01,ds004642,acquisition_setups:main.reference,dura needle,ds004642_sidecar,iEEGReference,2026-11-14,script,current,
 ds004642/acquisition_setups:main.reference/02,ds004642,acquisition_setups:main.reference,dura needle,ds004642_doc2c3d95,"""iEEGReference"": ""dura needle""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds004642/acquisition_setups:main.sampling_rate_hz/01,ds004642,acquisition_setups:main.sampling_rate_hz,20000,ds004642_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -6538,7 +6549,7 @@ ds004696/access_routes:openneuro.human_steps/01,ds004696,access_routes:openneuro
 ds004696/acquisition_setups:main.hardware_filter/01,ds004696,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.01}, ""LowpassFilter"": {""CutoffFrequency"": 878}}",ds004696_sidecar,HardwareFilters,2026-11-14,script,current,
 ds004696/acquisition_setups:main.line_freq_hz/01,ds004696,acquisition_setups:main.line_freq_hz,60,ds004696_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds004696/acquisition_setups:main.line_freq_hz/02,ds004696,acquisition_setups:main.line_freq_hz,60,ds004696_docaec502,"""PowerLineFrequency"": 60",2026-11-15,claude,current,Audit reviewer; scope: not given
-ds004696/acquisition_setups:main.n_channels_eeg/01,ds004696,acquisition_setups:main.n_channels_eeg,0,ds004696_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004696/acquisition_setups:main.n_channels_eeg/01,ds004696,acquisition_setups:main.n_channels_eeg,0,ds004696_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds004696/acquisition_setups:main.reference/01,ds004696,acquisition_setups:main.reference,intracranial,ds004696_sidecar,iEEGReference,2026-11-14,script,current,
 ds004696/acquisition_setups:main.sampling_rate_hz/01,ds004696,acquisition_setups:main.sampling_rate_hz,2048,ds004696_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004696/acquisition_setups:main.sampling_rate_hz/02,ds004696,acquisition_setups:main.sampling_rate_hz,2048,ds004696_docaec502,"""SamplingFrequency"": 2048",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -6568,7 +6579,8 @@ ds004703/acquisition_setups:main.ground/01,ds004703,acquisition_setups:main.grou
 ds004703/acquisition_setups:main.ground/02,ds004703,acquisition_setups:main.ground,"scalp electrode, not included with data",ds004703_doc752dc1,"""iEEGGround"": ""scalp electrode, not included with data""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds004703/acquisition_setups:main.line_freq_hz/01,ds004703,acquisition_setups:main.line_freq_hz,60,ds004703_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds004703/acquisition_setups:main.line_freq_hz/02,ds004703,acquisition_setups:main.line_freq_hz,60,ds004703_doc752dc1,"""PowerLineFrequency"": 60",2026-11-15,claude,current,Audit reviewer; scope: not given
-ds004703/acquisition_setups:main.n_channels_eeg/01,ds004703,acquisition_setups:main.n_channels_eeg,0,ds004703_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004703/acquisition_setups:main.n_channels_eeg/01,ds004703,acquisition_setups:main.n_channels_eeg,0,ds004703_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds004703/acquisition_setups:main.n_channels_eeg/02,ds004703,acquisition_setups:main.n_channels_eeg,110,ds004703_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds004703/acquisition_setups:main.reference/01,ds004703,acquisition_setups:main.reference,"scalp electrode, not included with data",ds004703_sidecar,iEEGReference,2026-11-14,script,current,
 ds004703/acquisition_setups:main.reference/02,ds004703,acquisition_setups:main.reference,"scalp electrode, not included with data",ds004703_doc752dc1,"""iEEGReference"": ""scalp electrode, not included with data""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds004703/acquisition_setups:main.sampling_rate_hz/01,ds004703,acquisition_setups:main.sampling_rate_hz,1024,ds004703_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -6824,7 +6836,7 @@ ds004789/access_routes:openneuro.access_method/01,ds004789,access_routes:openneu
 ds004789/access_routes:openneuro.automation_tool/01,ds004789,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds004789_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds004789/access_routes:openneuro.human_steps/01,ds004789,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds004789_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds004789/acquisition_setups:main.line_freq_hz/01,ds004789,acquisition_setups:main.line_freq_hz,60,ds004789_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds004789/acquisition_setups:main.n_channels_eeg/01,ds004789,acquisition_setups:main.n_channels_eeg,0,ds004789_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004789/acquisition_setups:main.n_channels_eeg/01,ds004789,acquisition_setups:main.n_channels_eeg,0,ds004789_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds004789/acquisition_setups:main.reference/01,ds004789,acquisition_setups:main.reference,bipolar,ds004789_sidecar,iEEGReference,2026-11-14,script,current,
 ds004789/acquisition_setups:main.sampling_rate_hz/01,ds004789,acquisition_setups:main.sampling_rate_hz,500,ds004789_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004789/domains/01,ds004789,domains,cognitive,ds004789_doc03a649,"participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -6906,7 +6918,7 @@ ds004809/access_routes:openneuro.access_method/01,ds004809,access_routes:openneu
 ds004809/access_routes:openneuro.automation_tool/01,ds004809,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds004809_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds004809/access_routes:openneuro.human_steps/01,ds004809,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds004809_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds004809/acquisition_setups:main.line_freq_hz/01,ds004809,acquisition_setups:main.line_freq_hz,60,ds004809_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds004809/acquisition_setups:main.n_channels_eeg/01,ds004809,acquisition_setups:main.n_channels_eeg,0,ds004809_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004809/acquisition_setups:main.n_channels_eeg/01,ds004809,acquisition_setups:main.n_channels_eeg,0,ds004809_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds004809/acquisition_setups:main.reference/01,ds004809,acquisition_setups:main.reference,bipolar,ds004809_sidecar,iEEGReference,2026-11-14,script,current,
 ds004809/acquisition_setups:main.sampling_rate_hz/01,ds004809,acquisition_setups:main.sampling_rate_hz,1600,ds004809_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004809/domains/01,ds004809,domains,cognitive,ds004809_doc5391c7,"participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -7269,7 +7281,7 @@ ds004865/access_routes:openneuro.automation_tool/01,ds004865,access_routes:openn
 ds004865/access_routes:openneuro.human_steps/01,ds004865,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds004865_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds004865/acquisition_setups:main.line_freq_hz/01,ds004865,acquisition_setups:main.line_freq_hz,60,ds004865_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds004865/acquisition_setups:main.line_freq_hz/02,ds004865,acquisition_setups:main.line_freq_hz,60,ds004865_docac7591,"""PowerLineFrequency"": 60.0",2026-11-15,claude,current,Audit reviewer; scope: sub-tj005 ses-5 bipolar recording
-ds004865/acquisition_setups:main.n_channels_eeg/01,ds004865,acquisition_setups:main.n_channels_eeg,0,ds004865_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004865/acquisition_setups:main.n_channels_eeg/01,ds004865,acquisition_setups:main.n_channels_eeg,0,ds004865_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds004865/acquisition_setups:main.reference/01,ds004865,acquisition_setups:main.reference,bipolar,ds004865_sidecar,iEEGReference,2026-11-14,script,current,
 ds004865/acquisition_setups:main.sampling_rate_hz/01,ds004865,acquisition_setups:main.sampling_rate_hz,400,ds004865_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004865/acquisition_setups:main.sampling_rate_hz/02,ds004865,acquisition_setups:main.sampling_rate_hz,400,ds004865_docac7591,"""SamplingFrequency"": 400.0",2026-11-15,claude,current,Audit reviewer; scope: sub-tj005 ses-5 bipolar recording
@@ -7415,7 +7427,8 @@ ds004944/acquisition_setups:main.hardware_filter/01,ds004944,acquisition_setups:
 ds004944/acquisition_setups:main.hardware_filter/02,ds004944,acquisition_setups:main.hardware_filter,1–800 Hz pass band,ds004944_docf8b344,"sampling rate 2 kHz, 1–800 Hz pass band",2026-11-15,claude,conflicting,Audit reviewer; scope: not given
 ds004944/acquisition_setups:main.line_freq_hz/01,ds004944,acquisition_setups:main.line_freq_hz,50,ds004944_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds004944/acquisition_setups:main.line_freq_hz/02,ds004944,acquisition_setups:main.line_freq_hz,50,ds004944_doc76f8ae,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
-ds004944/acquisition_setups:main.n_channels_eeg/01,ds004944,acquisition_setups:main.n_channels_eeg,0,ds004944_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004944/acquisition_setups:main.n_channels_eeg/01,ds004944,acquisition_setups:main.n_channels_eeg,0,ds004944_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds004944/acquisition_setups:main.n_channels_eeg/02,ds004944,acquisition_setups:main.n_channels_eeg,28,ds004944_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds004944/acquisition_setups:main.reference/01,ds004944,acquisition_setups:main.reference,common intracranial reference,ds004944_sidecar,iEEGReference,2026-11-14,script,current,
 ds004944/acquisition_setups:main.reference/02,ds004944,acquisition_setups:main.reference,common intracranial reference,ds004944_doc76f8ae,"""iEEGReference"": ""common intracranial reference""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds004944/acquisition_setups:main.sampling_rate_hz/01,ds004944,acquisition_setups:main.sampling_rate_hz,2000,ds004944_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -7554,7 +7567,7 @@ ds004993/access_routes:openneuro.access_method/01,ds004993,access_routes:openneu
 ds004993/access_routes:openneuro.automation_tool/01,ds004993,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds004993_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds004993/access_routes:openneuro.human_steps/01,ds004993,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds004993_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds004993/acquisition_setups:main.line_freq_hz/01,ds004993,acquisition_setups:main.line_freq_hz,60,ds004993_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds004993/acquisition_setups:main.n_channels_eeg/01,ds004993,acquisition_setups:main.n_channels_eeg,0,ds004993_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds004993/acquisition_setups:main.n_channels_eeg/01,ds004993,acquisition_setups:main.n_channels_eeg,0,ds004993_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds004993/acquisition_setups:main.sampling_rate_hz/01,ds004993,acquisition_setups:main.sampling_rate_hz,512,ds004993_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004993/domains/01,ds004993,domains,epilepsy,ds004993_doc6e8ad7,some examples of seizure-related activity and vagus nerve stimulator (VNS) artifact,2026-11-15,claude,current,Audit reviewer; scope: whole dataset
 ds004993/is_bids/01,ds004993,is_bids,true,ds004993_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
@@ -7717,7 +7730,7 @@ ds005059/access_routes:openneuro.access_method/01,ds005059,access_routes:openneu
 ds005059/access_routes:openneuro.automation_tool/01,ds005059,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005059_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005059/access_routes:openneuro.human_steps/01,ds005059,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005059_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005059/acquisition_setups:main.line_freq_hz/01,ds005059,acquisition_setups:main.line_freq_hz,60,ds005059_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds005059/acquisition_setups:main.n_channels_eeg/01,ds005059,acquisition_setups:main.n_channels_eeg,0,ds005059_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005059/acquisition_setups:main.n_channels_eeg/01,ds005059,acquisition_setups:main.n_channels_eeg,0,ds005059_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005059/acquisition_setups:main.reference/01,ds005059,acquisition_setups:main.reference,bipolar,ds005059_sidecar,iEEGReference,2026-11-14,script,current,
 ds005059/acquisition_setups:main.sampling_rate_hz/01,ds005059,acquisition_setups:main.sampling_rate_hz,500,ds005059_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005059/domains/01,ds005059,domains,cognitive,ds005059_doc71d8a4,paired associates memory task,2026-11-15,claude,current,Audit reviewer; scope: whole dataset
@@ -8382,7 +8395,8 @@ ds005169/acquisition_setups:main.ground/01,ds005169,acquisition_setups:main.grou
 ds005169/acquisition_setups:main.ground/02,ds005169,acquisition_setups:main.ground,intracranial white matter electrode,ds005169_doc82be3b,"""iEEGGround"": ""intracranial white matter electrode""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005169/acquisition_setups:main.line_freq_hz/01,ds005169,acquisition_setups:main.line_freq_hz,50,ds005169_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds005169/acquisition_setups:main.line_freq_hz/02,ds005169,acquisition_setups:main.line_freq_hz,50,ds005169_doc82be3b,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
-ds005169/acquisition_setups:main.n_channels_eeg/01,ds005169,acquisition_setups:main.n_channels_eeg,0,ds005169_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005169/acquisition_setups:main.n_channels_eeg/01,ds005169,acquisition_setups:main.n_channels_eeg,0,ds005169_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005169/acquisition_setups:main.n_channels_eeg/02,ds005169,acquisition_setups:main.n_channels_eeg,29,ds005169_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds005169/acquisition_setups:main.reference/01,ds005169,acquisition_setups:main.reference,intracranial white matter electrode,ds005169_sidecar,iEEGReference,2026-11-14,script,current,
 ds005169/acquisition_setups:main.reference/02,ds005169,acquisition_setups:main.reference,intracranial white matter electrode,ds005169_doc82be3b,"""iEEGReference"": ""intracranial white matter electrode""",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005169/acquisition_setups:main.sampling_rate_hz/01,ds005169,acquisition_setups:main.sampling_rate_hz,4096,ds005169_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -9169,7 +9183,8 @@ ds005398/access_routes:nemar.human_steps/01,ds005398,access_routes:nemar.human_s
 ds005398/access_routes:openneuro.access_method/01,ds005398,access_routes:openneuro.access_method,site_terms_agreement,ds005398_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005398/access_routes:openneuro.automation_tool/01,ds005398,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005398_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005398/access_routes:openneuro.human_steps/01,ds005398,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005398_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
-ds005398/acquisition_setups:main.n_channels_eeg/01,ds005398,acquisition_setups:main.n_channels_eeg,0,ds005398_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005398/acquisition_setups:main.n_channels_eeg/01,ds005398,acquisition_setups:main.n_channels_eeg,0,ds005398_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005398/acquisition_setups:main.n_channels_eeg/02,ds005398,acquisition_setups:main.n_channels_eeg,116,ds005398_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds005398/acquisition_setups:main.sampling_rate_hz/01,ds005398,acquisition_setups:main.sampling_rate_hz,1000,ds005398_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005398/content_class/01,ds005398,content_class,eeg_signals,ds005398_docc674a0,iEEGs collected from 185 subjects during sleep,2026-11-16,claude,current,
 ds005398/domains/01,ds005398,domains,epilepsy,ds005398_docc674a0,Self-supervised data-driven approach defines pathological high-frequency oscillations in epilepsy.,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -9290,7 +9305,8 @@ ds005411/access_routes:openneuro.automation_tool/01,ds005411,access_routes:openn
 ds005411/access_routes:openneuro.human_steps/01,ds005411,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005411_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005411/acquisition_setups:main.device_manufacturer/01,ds005411,acquisition_setups:main.device_manufacturer,Blackrock,ds005411_sidecar,Manufacturer,2026-11-14,script,current,
 ds005411/acquisition_setups:main.line_freq_hz/01,ds005411,acquisition_setups:main.line_freq_hz,60,ds005411_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds005411/acquisition_setups:main.n_channels_eeg/01,ds005411,acquisition_setups:main.n_channels_eeg,0,ds005411_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005411/acquisition_setups:main.n_channels_eeg/01,ds005411,acquisition_setups:main.n_channels_eeg,0,ds005411_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005411/acquisition_setups:main.n_channels_eeg/02,ds005411,acquisition_setups:main.n_channels_eeg,108,ds005411_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds005411/acquisition_setups:main.reference/01,ds005411,acquisition_setups:main.reference,bipolar,ds005411_sidecar,iEEGReference,2026-11-14,script,conflicting,
 ds005411/acquisition_setups:main.reference/02,ds005411,acquisition_setups:main.reference,typically a mastoid reference,ds005411_doc9b9675,"The monopolar recordings are referenced (typically a mastoid reference), but should always be re-referenced before analysis.",2026-11-15,claude,conflicting,Audit reviewer; scope: monopolar recordings only
 ds005411/acquisition_setups:main.sampling_rate_hz/01,ds005411,acquisition_setups:main.sampling_rate_hz,1000,ds005411_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -9310,7 +9326,8 @@ ds005415/access_routes:nemar.human_steps/01,ds005415,access_routes:nemar.human_s
 ds005415/access_routes:openneuro.access_method/01,ds005415,access_routes:openneuro.access_method,site_terms_agreement,ds005415_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005415/access_routes:openneuro.automation_tool/01,ds005415,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005415_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005415/access_routes:openneuro.human_steps/01,ds005415,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005415_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
-ds005415/acquisition_setups:main.n_channels_eeg/01,ds005415,acquisition_setups:main.n_channels_eeg,0,ds005415_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005415/acquisition_setups:main.n_channels_eeg/01,ds005415,acquisition_setups:main.n_channels_eeg,0,ds005415_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005415/acquisition_setups:main.n_channels_eeg/02,ds005415,acquisition_setups:main.n_channels_eeg,188,ds005415_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds005415/acquisition_setups:main.sampling_rate_hz/01,ds005415,acquisition_setups:main.sampling_rate_hz,1000,ds005415_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005415/content_class/01,ds005415,content_class,eeg_signals,ds005415_doc0c6a07,These data were collected using stereoelectroencephalography recordings of epilepsy patients,2026-11-16,claude,current,
 ds005415/is_bids/01,ds005415,is_bids,true,ds005415_record,dataset_description.json BIDSVersion 1.9.9,2026-11-14,script,current,
@@ -9414,7 +9431,8 @@ ds005448/acquisition_setups:main.ground/02,ds005448,acquisition_setups:main.grou
 ds005448/acquisition_setups:main.hardware_filter/01,ds005448,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.15}, ""LowpassFilter"": {""CutoffFrequency"": 468}}",ds005448_sidecar,HardwareFilters,2026-11-14,script,current,
 ds005448/acquisition_setups:main.line_freq_hz/01,ds005448,acquisition_setups:main.line_freq_hz,50,ds005448_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds005448/acquisition_setups:main.line_freq_hz/02,ds005448,acquisition_setups:main.line_freq_hz,50,ds005448_doc52e224,"""PowerLineFrequency"": 50",2026-11-15,claude,current,Audit reviewer; scope: not given
-ds005448/acquisition_setups:main.n_channels_eeg/01,ds005448,acquisition_setups:main.n_channels_eeg,0,ds005448_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005448/acquisition_setups:main.n_channels_eeg/01,ds005448,acquisition_setups:main.n_channels_eeg,0,ds005448_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005448/acquisition_setups:main.n_channels_eeg/02,ds005448,acquisition_setups:main.n_channels_eeg,112,ds005448_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds005448/acquisition_setups:main.reference/01,ds005448,acquisition_setups:main.reference,probably mastoid,ds005448_sidecar,iEEGReference,2026-11-14,script,conflicting,
 ds005448/acquisition_setups:main.reference/02,ds005448,acquisition_setups:main.reference,extracranial reference electrode on the scalp vertex or mastoid,ds005448_doc699fb7,extracranial reference electrode on the scalp vertex or mastoid,2026-11-15,claude,conflicting,Audit reviewer; scope: not given
 ds005448/acquisition_setups:main.sampling_rate_hz/01,ds005448,acquisition_setups:main.sampling_rate_hz,2048,ds005448_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -9488,7 +9506,7 @@ ds005489/access_routes:openneuro.automation_tool/01,ds005489,access_routes:openn
 ds005489/access_routes:openneuro.human_steps/01,ds005489,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005489_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005489/acquisition_setups:main.line_freq_hz/01,ds005489,acquisition_setups:main.line_freq_hz,60,ds005489_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds005489/acquisition_setups:main.line_freq_hz/02,ds005489,acquisition_setups:main.line_freq_hz,60,ds005489_docf07d0a,"""PowerLineFrequency"": 60.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1001p
-ds005489/acquisition_setups:main.n_channels_eeg/01,ds005489,acquisition_setups:main.n_channels_eeg,0,ds005489_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005489/acquisition_setups:main.n_channels_eeg/01,ds005489,acquisition_setups:main.n_channels_eeg,0,ds005489_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005489/acquisition_setups:main.reference/01,ds005489,acquisition_setups:main.reference,bipolar,ds005489_sidecar,iEEGReference,2026-11-14,script,current,
 ds005489/acquisition_setups:main.sampling_rate_hz/01,ds005489,acquisition_setups:main.sampling_rate_hz,500,ds005489_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005489/acquisition_setups:main.sampling_rate_hz/02,ds005489,acquisition_setups:main.sampling_rate_hz,500,ds005489_docf07d0a,"""SamplingFrequency"": 500.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1001p
@@ -9508,7 +9526,8 @@ ds005491/access_routes:openneuro.automation_tool/01,ds005491,access_routes:openn
 ds005491/access_routes:openneuro.human_steps/01,ds005491,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005491_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005491/acquisition_setups:main.line_freq_hz/01,ds005491,acquisition_setups:main.line_freq_hz,60,ds005491_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds005491/acquisition_setups:main.line_freq_hz/02,ds005491,acquisition_setups:main.line_freq_hz,60,ds005491_doc5929d4,"""PowerLineFrequency"": 60.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1016m
-ds005491/acquisition_setups:main.n_channels_eeg/01,ds005491,acquisition_setups:main.n_channels_eeg,0,ds005491_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005491/acquisition_setups:main.n_channels_eeg/01,ds005491,acquisition_setups:main.n_channels_eeg,0,ds005491_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005491/acquisition_setups:main.n_channels_eeg/02,ds005491,acquisition_setups:main.n_channels_eeg,177,ds005491_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds005491/acquisition_setups:main.reference/01,ds005491,acquisition_setups:main.reference,bipolar,ds005491_sidecar,iEEGReference,2026-11-14,script,current,
 ds005491/acquisition_setups:main.sampling_rate_hz/01,ds005491,acquisition_setups:main.sampling_rate_hz,500,ds005491_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005491/acquisition_setups:main.sampling_rate_hz/02,ds005491,acquisition_setups:main.sampling_rate_hz,500,ds005491_doc5929d4,"""SamplingFrequency"": 500.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1016m
@@ -9529,7 +9548,7 @@ ds005494/access_routes:openneuro.automation_tool/01,ds005494,access_routes:openn
 ds005494/access_routes:openneuro.human_steps/01,ds005494,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005494_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005494/acquisition_setups:main.line_freq_hz/01,ds005494,acquisition_setups:main.line_freq_hz,60,ds005494_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds005494/acquisition_setups:main.line_freq_hz/02,ds005494,acquisition_setups:main.line_freq_hz,60,ds005494_docce6fc8,"""PowerLineFrequency"": 60.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1003p
-ds005494/acquisition_setups:main.n_channels_eeg/01,ds005494,acquisition_setups:main.n_channels_eeg,0,ds005494_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005494/acquisition_setups:main.n_channels_eeg/01,ds005494,acquisition_setups:main.n_channels_eeg,0,ds005494_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005494/acquisition_setups:main.reference/01,ds005494,acquisition_setups:main.reference,bipolar,ds005494_sidecar,iEEGReference,2026-11-14,script,current,
 ds005494/acquisition_setups:main.sampling_rate_hz/01,ds005494,acquisition_setups:main.sampling_rate_hz,500,ds005494_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005494/acquisition_setups:main.sampling_rate_hz/02,ds005494,acquisition_setups:main.sampling_rate_hz,500,ds005494_docce6fc8,"""SamplingFrequency"": 500.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1003p
@@ -10076,7 +10095,7 @@ ds005522/access_routes:openneuro.access_method/01,ds005522,access_routes:openneu
 ds005522/access_routes:openneuro.automation_tool/01,ds005522,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005522_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005522/access_routes:openneuro.human_steps/01,ds005522,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005522_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005522/acquisition_setups:main.line_freq_hz/01,ds005522,acquisition_setups:main.line_freq_hz,60,ds005522_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds005522/acquisition_setups:main.n_channels_eeg/01,ds005522,acquisition_setups:main.n_channels_eeg,0,ds005522_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005522/acquisition_setups:main.n_channels_eeg/01,ds005522,acquisition_setups:main.n_channels_eeg,0,ds005522_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005522/acquisition_setups:main.reference/01,ds005522,acquisition_setups:main.reference,bipolar,ds005522_sidecar,iEEGReference,2026-11-14,script,current,
 ds005522/acquisition_setups:main.sampling_rate_hz/01,ds005522,acquisition_setups:main.sampling_rate_hz,500,ds005522_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005522/is_bids/01,ds005522,is_bids,true,ds005522_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
@@ -10096,7 +10115,7 @@ ds005523/access_routes:openneuro.access_method/01,ds005523,access_routes:openneu
 ds005523/access_routes:openneuro.automation_tool/01,ds005523,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005523_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005523/access_routes:openneuro.human_steps/01,ds005523,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005523_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005523/acquisition_setups:main.line_freq_hz/01,ds005523,acquisition_setups:main.line_freq_hz,60,ds005523_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds005523/acquisition_setups:main.n_channels_eeg/01,ds005523,acquisition_setups:main.n_channels_eeg,0,ds005523_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005523/acquisition_setups:main.n_channels_eeg/01,ds005523,acquisition_setups:main.n_channels_eeg,0,ds005523_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005523/acquisition_setups:main.reference/01,ds005523,acquisition_setups:main.reference,bipolar,ds005523_sidecar,iEEGReference,2026-11-14,script,current,
 ds005523/acquisition_setups:main.sampling_rate_hz/01,ds005523,acquisition_setups:main.sampling_rate_hz,500,ds005523_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005523/is_bids/01,ds005523,is_bids,true,ds005523_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
@@ -10222,7 +10241,8 @@ ds005557/access_routes:openneuro.automation_tool/01,ds005557,access_routes:openn
 ds005557/access_routes:openneuro.human_steps/01,ds005557,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005557_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005557/acquisition_setups:main.device_manufacturer/01,ds005557,acquisition_setups:main.device_manufacturer,Blackrock,ds005557_sidecar,Manufacturer,2026-11-14,script,current,
 ds005557/acquisition_setups:main.line_freq_hz/01,ds005557,acquisition_setups:main.line_freq_hz,60,ds005557_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds005557/acquisition_setups:main.n_channels_eeg/01,ds005557,acquisition_setups:main.n_channels_eeg,0,ds005557_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005557/acquisition_setups:main.n_channels_eeg/01,ds005557,acquisition_setups:main.n_channels_eeg,0,ds005557_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005557/acquisition_setups:main.n_channels_eeg/02,ds005557,acquisition_setups:main.n_channels_eeg,109,ds005557_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds005557/acquisition_setups:main.reference/01,ds005557,acquisition_setups:main.reference,bipolar,ds005557_sidecar,iEEGReference,2026-11-14,script,current,
 ds005557/acquisition_setups:main.sampling_rate_hz/01,ds005557,acquisition_setups:main.sampling_rate_hz,1000,ds005557_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005557/is_bids/01,ds005557,is_bids,true,ds005557_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
@@ -10243,7 +10263,7 @@ ds005558/access_routes:openneuro.automation_tool/01,ds005558,access_routes:openn
 ds005558/access_routes:openneuro.human_steps/01,ds005558,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005558_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005558/acquisition_setups:main.device_manufacturer/01,ds005558,acquisition_setups:main.device_manufacturer,Blackrock,ds005558_sidecar,Manufacturer,2026-11-14,script,current,
 ds005558/acquisition_setups:main.line_freq_hz/01,ds005558,acquisition_setups:main.line_freq_hz,60,ds005558_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds005558/acquisition_setups:main.n_channels_eeg/01,ds005558,acquisition_setups:main.n_channels_eeg,0,ds005558_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds005558/acquisition_setups:main.n_channels_eeg/01,ds005558,acquisition_setups:main.n_channels_eeg,0,ds005558_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005558/acquisition_setups:main.reference/01,ds005558,acquisition_setups:main.reference,bipolar,ds005558_sidecar,iEEGReference,2026-11-14,script,current,
 ds005558/acquisition_setups:main.sampling_rate_hz/01,ds005558,acquisition_setups:main.sampling_rate_hz,1000,ds005558_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005558/is_bids/01,ds005558,is_bids,true,ds005558_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
@@ -10488,8 +10508,9 @@ ds005624/access_routes:openneuro.automation_tool/01,ds005624,access_routes:openn
 ds005624/access_routes:openneuro.human_steps/01,ds005624,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005624_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds005624/acquisition_setups:main.device_manufacturer/01,ds005624,acquisition_setups:main.device_manufacturer,Elekta,ds005624_sidecar,Manufacturer,2026-11-14,script,current,
 ds005624/acquisition_setups:main.device_manufacturer/02,ds005624,acquisition_setups:main.device_manufacturer,Elekta,ds005624_doc59ce2e,"""Manufacturer"": ""Elekta"",",2026-11-16,claude,current,Audit reviewer; scope: not given
-ds005624/acquisition_setups:main.n_channels_eeg/01,ds005624,acquisition_setups:main.n_channels_eeg,0,ds005624_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
-ds005624/acquisition_setups:main.n_channels_eeg/02,ds005624,acquisition_setups:main.n_channels_eeg,74,ds005624_doc59ce2e,"""SEEGChannelCount"": 74,",2026-11-16,claude,conflicting,Audit reviewer; scope: sub-hup133 ses-0 file only; ieeg channels
+ds005624/acquisition_setups:main.n_channels_eeg/01,ds005624,acquisition_setups:main.n_channels_eeg,0,ds005624_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005624/acquisition_setups:main.n_channels_eeg/02,ds005624,acquisition_setups:main.n_channels_eeg,74,ds005624_doc59ce2e,"""SEEGChannelCount"": 74,",2026-11-16,claude,current,Audit reviewer; scope: sub-hup133 ses-0 file only; ieeg channels
+ds005624/acquisition_setups:main.n_channels_eeg/03,ds005624,acquisition_setups:main.n_channels_eeg,74,ds005624_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds005624/acquisition_setups:main.sampling_rate_hz/01,ds005624,acquisition_setups:main.sampling_rate_hz,512,ds005624_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005624/acquisition_setups:main.sampling_rate_hz/02,ds005624,acquisition_setups:main.sampling_rate_hz,512,ds005624_doc59ce2e,"""SamplingFrequency"": 512.0,",2026-11-16,claude,current,Audit reviewer; scope: sub-hup133 ses-0
 ds005624/content_class/01,ds005624,content_class,eeg_signals,ds005624_doc59ce2e,"""SEEGChannelCount"": 74,",2026-11-16,claude,current,
@@ -10642,8 +10663,9 @@ ds005670/access_routes:openneuro.human_steps/01,ds005670,access_routes:openneuro
 ds005670/acquisition_setups:main.electrode_type/01,ds005670,acquisition_setups:main.electrode_type,intracranial,ds005670_doccdcf04,The depth electrodes used in this dataset are Sinovation SDE-08 medical-grade stainless steel electrodes,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds005670/acquisition_setups:main.line_freq_hz/01,ds005670,acquisition_setups:main.line_freq_hz,50,ds005670_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds005670/acquisition_setups:main.line_freq_hz/02,ds005670,acquisition_setups:main.line_freq_hz,50,ds005670_doc7b76af,"""PowerLineFrequency"": 50,",2026-11-16,claude,current,Audit reviewer; scope: not given
-ds005670/acquisition_setups:main.n_channels_eeg/01,ds005670,acquisition_setups:main.n_channels_eeg,0,ds005670_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
-ds005670/acquisition_setups:main.n_channels_eeg/02,ds005670,acquisition_setups:main.n_channels_eeg,238,ds005670_doc7b76af,"""SEEGChannelCount"": 238,",2026-11-16,claude,conflicting,Audit reviewer; scope: sub-01 file
+ds005670/acquisition_setups:main.n_channels_eeg/01,ds005670,acquisition_setups:main.n_channels_eeg,0,ds005670_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005670/acquisition_setups:main.n_channels_eeg/02,ds005670,acquisition_setups:main.n_channels_eeg,238,ds005670_doc7b76af,"""SEEGChannelCount"": 238,",2026-11-16,claude,current,Audit reviewer; scope: sub-01 file
+ds005670/acquisition_setups:main.n_channels_eeg/03,ds005670,acquisition_setups:main.n_channels_eeg,238,ds005670_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds005670/acquisition_setups:main.reference/01,ds005670,acquisition_setups:main.reference,AR5-AR6,ds005670_sidecar,iEEGReference,2026-11-14,script,current,
 ds005670/acquisition_setups:main.reference/02,ds005670,acquisition_setups:main.reference,AR5-AR6,ds005670_doc7b76af,"""iEEGReference"": ""AR5-AR6"",",2026-11-16,claude,current,Audit reviewer; scope: sub-01 file
 ds005670/acquisition_setups:main.sampling_rate_hz/01,ds005670,acquisition_setups:main.sampling_rate_hz,2000,ds005670_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -11348,8 +11370,9 @@ ds005953/acquisition_setups:main.device_manufacturer/02,ds005953,acquisition_set
 ds005953/acquisition_setups:main.hardware_filter/01,ds005953,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 0.5}, ""LowpassFilter"": {""CutoffFrequency"": 300}}",ds005953_sidecar,HardwareFilters,2026-11-14,script,current,
 ds005953/acquisition_setups:main.line_freq_hz/01,ds005953,acquisition_setups:main.line_freq_hz,60,ds005953_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds005953/acquisition_setups:main.line_freq_hz/02,ds005953,acquisition_setups:main.line_freq_hz,60,ds005953_doc0194ff,"""PowerLineFrequency"": 60",2026-11-16,claude,current,Audit reviewer; scope: sub-01 file
-ds005953/acquisition_setups:main.n_channels_eeg/01,ds005953,acquisition_setups:main.n_channels_eeg,0,ds005953_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
-ds005953/acquisition_setups:main.n_channels_eeg/02,ds005953,acquisition_setups:main.n_channels_eeg,118,ds005953_doc0194ff,"""ECOGChannelCount"": 118",2026-11-16,claude,conflicting,Audit reviewer; scope: sub-01 visual run-01 file
+ds005953/acquisition_setups:main.n_channels_eeg/01,ds005953,acquisition_setups:main.n_channels_eeg,0,ds005953_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds005953/acquisition_setups:main.n_channels_eeg/02,ds005953,acquisition_setups:main.n_channels_eeg,118,ds005953_doc0194ff,"""ECOGChannelCount"": 118",2026-11-16,claude,current,Audit reviewer; scope: sub-01 visual run-01 file
+ds005953/acquisition_setups:main.n_channels_eeg/03,ds005953,acquisition_setups:main.n_channels_eeg,118,ds005953_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds005953/acquisition_setups:main.reference/01,ds005953,acquisition_setups:main.reference,intracranial channel not included with data,ds005953_sidecar,iEEGReference,2026-11-14,script,current,
 ds005953/acquisition_setups:main.reference/02,ds005953,acquisition_setups:main.reference,intracranial channel not included with data,ds005953_doc0194ff,"""iEEGReference"": ""intracranial channel not included with data""",2026-11-16,claude,current,Audit reviewer; scope: sub-01 file
 ds005953/acquisition_setups:main.sampling_rate_hz/01,ds005953,acquisition_setups:main.sampling_rate_hz,3051.76,ds005953_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -11706,7 +11729,8 @@ ds006136/access_routes:nemar.human_steps/01,ds006136,access_routes:nemar.human_s
 ds006136/access_routes:openneuro.access_method/01,ds006136,access_routes:openneuro.access_method,site_terms_agreement,ds006136_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds006136/access_routes:openneuro.automation_tool/01,ds006136,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds006136_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds006136/access_routes:openneuro.human_steps/01,ds006136,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds006136_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
-ds006136/acquisition_setups:main.n_channels_eeg/01,ds006136,acquisition_setups:main.n_channels_eeg,0,ds006136_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds006136/acquisition_setups:main.n_channels_eeg/01,ds006136,acquisition_setups:main.n_channels_eeg,0,ds006136_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds006136/acquisition_setups:main.n_channels_eeg/02,ds006136,acquisition_setups:main.n_channels_eeg,6,ds006136_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds006136/acquisition_setups:main.reference/01,ds006136,acquisition_setups:main.reference,bipolar,ds006136_sidecar,iEEGReference,2026-11-14,script,current,
 ds006136/acquisition_setups:main.sampling_rate_hz/01,ds006136,acquisition_setups:main.sampling_rate_hz,1000,ds006136_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds006136/content_class/01,ds006136,content_class,eeg_signals,ds006136_doc4d60a2,"The dataset contains processed intracranial EEG recordings from frontal (LMFG, RMFG) and temporal (LMTG, RMTG) areas of 13 subjects (epilepsy patients)",2026-11-16,claude,current,
@@ -12372,8 +12396,9 @@ ds006519/acquisition_setups:main.ground/01,ds006519,acquisition_setups:main.grou
 ds006519/acquisition_setups:main.ground/02,ds006519,acquisition_setups:main.ground,intracranial white matter electrode,ds006519_docdbc399,"""iEEGGround"": ""intracranial white matter electrode""",2026-11-16,claude,current,Audit reviewer; scope: ieeg.json of sub-01 ses-01 task-dcs
 ds006519/acquisition_setups:main.line_freq_hz/01,ds006519,acquisition_setups:main.line_freq_hz,50,ds006519_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds006519/acquisition_setups:main.line_freq_hz/02,ds006519,acquisition_setups:main.line_freq_hz,50,ds006519_docdbc399,"""PowerLineFrequency"": 50",2026-11-16,claude,current,Audit reviewer; scope: ieeg.json of sub-01 ses-01 task-dcs
-ds006519/acquisition_setups:main.n_channels_eeg/01,ds006519,acquisition_setups:main.n_channels_eeg,0,ds006519_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
-ds006519/acquisition_setups:main.n_channels_eeg/02,ds006519,acquisition_setups:main.n_channels_eeg,31,ds006519_docdbc399,"""SEEGChannelCount"": 31",2026-11-16,claude,conflicting,Audit reviewer; scope: ieeg.json of sub-01 ses-01 task-dcs
+ds006519/acquisition_setups:main.n_channels_eeg/01,ds006519,acquisition_setups:main.n_channels_eeg,0,ds006519_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds006519/acquisition_setups:main.n_channels_eeg/02,ds006519,acquisition_setups:main.n_channels_eeg,31,ds006519_docdbc399,"""SEEGChannelCount"": 31",2026-11-16,claude,current,Audit reviewer; scope: ieeg.json of sub-01 ses-01 task-dcs
+ds006519/acquisition_setups:main.n_channels_eeg/03,ds006519,acquisition_setups:main.n_channels_eeg,31,ds006519_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds006519/acquisition_setups:main.reference/01,ds006519,acquisition_setups:main.reference,intracranial white matter electrode,ds006519_sidecar,iEEGReference,2026-11-14,script,current,
 ds006519/acquisition_setups:main.reference/02,ds006519,acquisition_setups:main.reference,intracranial white matter electrode,ds006519_docdbc399,"""iEEGReference"": ""intracranial white matter electrode""",2026-11-16,claude,current,Audit reviewer; scope: ieeg.json of sub-01 ses-01 task-dcs
 ds006519/acquisition_setups:main.sampling_rate_hz/01,ds006519,acquisition_setups:main.sampling_rate_hz,4096,ds006519_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -13138,7 +13163,8 @@ ds006890/acquisition_setups:main.device_model/01,ds006890,acquisition_setups:mai
 ds006890/acquisition_setups:main.ground/01,ds006890,acquisition_setups:main.ground,Upper back,ds006890_sidecar,iEEGGround,2026-11-14,script,current,
 ds006890/acquisition_setups:main.hardware_filter/01,ds006890,acquisition_setups:main.hardware_filter,"{""HighpassFilter"": {""CutoffFrequency"": 2}, ""LowpassFilter"": {""CutoffFrequency"": 325}}",ds006890_sidecar,HardwareFilters,2026-11-14,script,current,
 ds006890/acquisition_setups:main.line_freq_hz/01,ds006890,acquisition_setups:main.line_freq_hz,60,ds006890_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds006890/acquisition_setups:main.n_channels_eeg/01,ds006890,acquisition_setups:main.n_channels_eeg,0,ds006890_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds006890/acquisition_setups:main.n_channels_eeg/01,ds006890,acquisition_setups:main.n_channels_eeg,0,ds006890_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds006890/acquisition_setups:main.n_channels_eeg/02,ds006890,acquisition_setups:main.n_channels_eeg,32,ds006890_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds006890/acquisition_setups:main.reference/01,ds006890,acquisition_setups:main.reference,"The electrode arrays [CH11, CH27] were positioned into subdural space over the sensorimotor cortex on both hemispheres.",ds006890_sidecar,iEEGReference,2026-11-14,script,current,
 ds006890/acquisition_setups:main.sampling_rate_hz/01,ds006890,acquisition_setups:main.sampling_rate_hz,1000,ds006890_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds006890/content_class/01,ds006890,content_class,non_human,ds006890_doce5442c,Each subject corresponds to an individual monkey,2026-11-16,claude,current,
@@ -14373,8 +14399,9 @@ ds007445/access_routes:openneuro.human_steps/01,ds007445,access_routes:openneuro
 ds007445/acquisition_setups:main.device_manufacturer/01,ds007445,acquisition_setups:main.device_manufacturer,Nihon Kohden,ds007445_doc51caf7,SEEG recordings were obtained using a Nihon Kohden JE-120A amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds007445/acquisition_setups:main.device_model/01,ds007445,acquisition_setups:main.device_model,JE-120A,ds007445_doc51caf7,SEEG recordings were obtained using a Nihon Kohden JE-120A amplifier,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds007445/acquisition_setups:main.hardware_filter/01,ds007445,acquisition_setups:main.hardware_filter,high-pass filter above 0.01 Hz,ds007445_doc51caf7,with a high-pass filter above 0.01 Hz,2026-11-16,claude,current,Audit reviewer; scope: not given
-ds007445/acquisition_setups:main.n_channels_eeg/01,ds007445,acquisition_setups:main.n_channels_eeg,0,ds007445_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
-ds007445/acquisition_setups:main.n_channels_eeg/02,ds007445,acquisition_setups:main.n_channels_eeg,112,ds007445_doc5aa30c,"""SEEGChannelCount"": 112",2026-11-16,claude,conflicting,Audit reviewer; scope: sidecar of sub-001 ses-sz1 only
+ds007445/acquisition_setups:main.n_channels_eeg/01,ds007445,acquisition_setups:main.n_channels_eeg,0,ds007445_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds007445/acquisition_setups:main.n_channels_eeg/02,ds007445,acquisition_setups:main.n_channels_eeg,112,ds007445_doc5aa30c,"""SEEGChannelCount"": 112",2026-11-16,claude,current,Audit reviewer; scope: sidecar of sub-001 ses-sz1 only
+ds007445/acquisition_setups:main.n_channels_eeg/03,ds007445,acquisition_setups:main.n_channels_eeg,112,ds007445_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds007445/acquisition_setups:main.sampling_rate_hz/01,ds007445,acquisition_setups:main.sampling_rate_hz,2000,ds007445_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds007445/acquisition_setups:main.sampling_rate_hz/02,ds007445,acquisition_setups:main.sampling_rate_hz,2000,ds007445_doc5aa30c,"""SamplingFrequency"": 2000.0",2026-11-16,claude,current,Audit reviewer; scope: sidecar of sub-001 ses-sz1
 ds007445/acquisition_setups:main.sampling_rate_hz/03,ds007445,acquisition_setups:main.sampling_rate_hz,2000,ds007445_doc51caf7,"at sampling frequencies of 200 Hz or 2,000 Hz",2026-11-16,claude,current,Audit reviewer; scope: paper: recording; some recordings at 200 hz
@@ -15699,8 +15726,8 @@ ds008003/acquisition_setups:main.device_model/01,ds008003,acquisition_setups:mai
 ds008003/acquisition_setups:main.device_model/02,ds008003,acquisition_setups:main.device_model,ActiveTwo,ds008003_doc7f8d7d,70-channel BioSemi ActiveTwo system,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 ds008003/acquisition_setups:main.line_freq_hz/01,ds008003,acquisition_setups:main.line_freq_hz,60,ds008003_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds008003/acquisition_setups:main.line_freq_hz/02,ds008003,acquisition_setups:main.line_freq_hz,60,ds008003_doc24c971,"""PowerLineFrequency"": 60",2026-11-16,claude,current,Audit reviewer; scope: not given
-ds008003/acquisition_setups:main.n_channels_eeg/01,ds008003,acquisition_setups:main.n_channels_eeg,0,ds008003_sidecar,EEGChannelCount,2026-11-14,script,conflicting,
-ds008003/acquisition_setups:main.n_channels_eeg/02,ds008003,acquisition_setups:main.n_channels_eeg,64,ds008003_doc7f8d7d,including 64 EEG channels and 6 external channels,2026-11-16,claude,conflicting,Audit reviewer; scope: not given
+ds008003/acquisition_setups:main.n_channels_eeg/01,ds008003,acquisition_setups:main.n_channels_eeg,0,ds008003_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds008003/acquisition_setups:main.n_channels_eeg/02,ds008003,acquisition_setups:main.n_channels_eeg,64,ds008003_doc7f8d7d,including 64 EEG channels and 6 external channels,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008003/acquisition_setups:main.reference/01,ds008003,acquisition_setups:main.reference,average,ds008003_sidecar,EEGReference,2026-11-14,script,conflicting,
 ds008003/acquisition_setups:main.reference/02,ds008003,acquisition_setups:main.reference,average reference,ds008003_doc7f8d7d,re-referenced to the average reference,2026-11-16,claude,conflicting,Audit reviewer; scope: distributed data
 ds008003/acquisition_setups:main.sampling_rate_hz/01,ds008003,acquisition_setups:main.sampling_rate_hz,256,ds008003_sidecar,SamplingFrequency,2026-11-14,script,current,
@@ -16240,7 +16267,8 @@ ds008610/acquisition_setups:main.device_model/01,ds008610,acquisition_setups:mai
 ds008610/acquisition_setups:main.ground/01,ds008610,acquisition_setups:main.ground,"Skull screw, grounded to surgery table.",ds008610_sidecar,iEEGGround,2026-11-14,script,current,
 ds008610/acquisition_setups:main.hardware_filter/01,ds008610,acquisition_setups:main.hardware_filter,"{""Lowpass"": {""CutoffFrequency"": 250}}",ds008610_sidecar,HardwareFilters,2026-11-14,script,current,
 ds008610/acquisition_setups:main.line_freq_hz/01,ds008610,acquisition_setups:main.line_freq_hz,60,ds008610_sidecar,PowerLineFrequency,2026-11-14,script,current,
-ds008610/acquisition_setups:main.n_channels_eeg/01,ds008610,acquisition_setups:main.n_channels_eeg,0,ds008610_sidecar,EEGChannelCount,2026-11-14,script,current,
+ds008610/acquisition_setups:main.n_channels_eeg/01,ds008610,acquisition_setups:main.n_channels_eeg,0,ds008610_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
+ds008610/acquisition_setups:main.n_channels_eeg/02,ds008610,acquisition_setups:main.n_channels_eeg,32,ds008610_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds008610/acquisition_setups:main.reference/01,ds008610,acquisition_setups:main.reference,TODO,ds008610_sidecar,iEEGReference,2026-11-14,script,current,
 ds008610/acquisition_setups:main.sampling_rate_hz/01,ds008610,acquisition_setups:main.sampling_rate_hz,1000,ds008610_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds008610/content_class/01,ds008610,content_class,non_human,ds008610_paper,Using the macaque monkey thalamus and insular cortex as a model system,2026-11-16,claude,current,

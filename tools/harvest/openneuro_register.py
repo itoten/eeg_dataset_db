@@ -196,7 +196,7 @@ def register(B, c):
                 if v and v.lower() not in ("n/a", "na", "unknown"):
                     R.ev(f + col, v[:200], sid, key, BY)
             n = num(j.get("EEGChannelCount"), True)
-            if n:
+            if n and n != "0":  # 0 in an iEEG sidecar means no scalp channels
                 R.ev(f + "n_channels_eeg", n, sid, "EEGChannelCount", BY)
             else:
                 ec, se = num(j.get("ECOGChannelCount"), True), num(j.get("SEEGChannelCount"), True)
