@@ -1061,6 +1061,8 @@ nm000472,acquisition_setups:main.n_channels_eeg,conflicting,100,secondary,https:
 nm000472,acquisition_setups:main.n_channels_eeg,conflicting,102,secondary,https://nemar.org/dataset/nm000472,
 nm000629,acquisition_setups:main.montage_system,conflicting,10_10,secondary,https://nemar.org/dataset/nm000629,
 nm000629,acquisition_setups:main.montage_system,conflicting,10_20,primary,https://arxiv.org/html/2506.01353,Audit reviewer; scope: not given
+osf_236ax,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC6286357/,Audit reviewer; scope: recorded
+osf_236ax,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://api.osf.io/v2/wikis/yh2fg/content/,Audit reviewer; scope: distributed .set/.fdt files
 osf_7qzhs,acquisition_setups:main.n_channels_eeg,conflicting,6,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13557387/,Audit reviewer; scope: smart headband (textrodes)
 osf_7qzhs,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://pmc.ncbi.nlm.nih.gov/articles/PMC13557387/,Audit reviewer; scope: commercial cap
 osf_94c5t,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://api.osf.io/v2/wikis/ejkbx/content/,"Audit reviewer; scope: native (recorded) rate, wiki text"
