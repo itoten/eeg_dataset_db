@@ -67,9 +67,22 @@ cao2019_driving_attention,sustained_attention_driving_task_event_r,sustained-att
 capslpdb,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 capslpdb,overnight_polysomnography,overnight polysomnography,sleep,,,,,,,,
 chbmit,continuous_clinical_monitoring_after_ant,continuous clinical monitoring after anti-seizure medication withdrawal,long_term_monitoring,,,,,,,,
+chbmp_cuban,eyes_closed_eyes_open_hyperventilation_r,eyes closed / eyes open / hyperventilation / recovery,resting_eyes_closed;resting_eyes_open,,,,,,,,
+chen2023_stroop_eeg_fnirs,chinese_colour_word_match_stroop_task,Chinese colour-word match Stroop task,cognitive_task,,,,,,,,
+chen2024_deception,competitive_two_player_card_game_eliciti,competitive two-player card game eliciting deception,other,,,,,,,,
+cho2017,left_right_hand_motor_imagery,left/right hand motor imagery,motor_imagery,,,,,,,,
 cho2017,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
+cho2017,non_task_related_eeg,non-task-related EEG,resting_unspecified,,,,,,,,
+choi2024_voice_emotion,voice_user_interface_interaction,voice user interface interaction,emotion_induction,,,,,,,,
+consumer_grade_wearables,baseline,baseline,resting_unspecified,,,,,,,,
+consumer_grade_wearables,stroop_test_cognitive_load,Stroop test (cognitive load),cognitive_task,,,,,,,,
+cps_dataset_sleep,diagnostic_polysomnography,diagnostic polysomnography,clinical_routine;sleep,,,,,,,,
 cps_dataset_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+cuevas_romero2022_tinnitus,listening_to_acoustic_therapy_auditory_s,listening to acoustic therapy / auditory stimulation (passive and active),other,,,,,,,,
+cuevas_romero2022_tinnitus,rest,rest,resting_unspecified,,,,,,,,
+dreamer,affect_elicitation_with_audio_visual_sti,affect elicitation with audio-visual stimuli,emotion_induction,,,,,,,,
 dreamt,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+dreamt,overnight_polysomnography,overnight polysomnography,sleep,,,,,,,,
 ds001785,tactile_detection,tactile detection,other,,,,,,,,detect a perithreshold tactile stimulation (100ms) during a 2 s window. First-order (felt:yes/no) and second-order (confidence). [ds001785_sidecar]
 ds001787,meditation,meditation,other,,,,,,,,
 ds001810,attentional_blink,Attentional blink,cognitive_task,,,,,,,,
@@ -2022,8 +2035,14 @@ dv_10_7910_dvn_vpriy7,covert_picture_naming,covert picture naming,cognitive_task
 dv_10_7910_dvn_yd7ppu,audio_visual_fission_and_fusion_illusion,audio-visual fission and fusion illusion (flash/beep counting),cognitive_task,,,,,,,,
 dv_10_7910_dvn_ztcwpg,viewing_robot_faces,viewing robot faces,passive_viewing;visual_erp,,,,,,,,
 dv_10_7910_dvn_zxpj8c,go_no_go_task,Go/No-Go task,cognitive_task;visual_erp,,,,,,,,
+eeg_eye_gaze_data,da_vinci_skills_simulator_tasks,da Vinci Skills Simulator tasks,other,,,,,,,,
+eeg_eye_gaze_for_fls_tasks,fundamentals_of_laparoscopic_surgery_fls,Fundamentals of Laparoscopic Surgery (FLS) tasks,other,,,,,,,,
+eeg_gaba_anesthesia,general_anesthesia_with_propofol_or_sevo,general anesthesia with propofol or sevoflurane,anesthesia,,,,,,,,
 eeg_gaba_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+eeg_power_anesthesia,anesthetic_unconsciousness,anesthetic unconsciousness,anesthesia,,,,,,,,
 eeg_power_anesthesia,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
+eegmat,background_eeg_before_task,background EEG (before task),resting_unspecified,,,,,,,,
+eegmat,mental_arithmetic,mental arithmetic,cognitive_task,,,,,,,,
 eldbeta,main,,ssvep,,,,,,,,Paradigm stated by the dataset name
 figshare_12636731,resting_state,Resting state,resting_eyes_open,,,,,,,,
 figshare_12636731,ssaep,SSAEP,auditory_erp,,,,,,,,

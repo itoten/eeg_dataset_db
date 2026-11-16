@@ -17,6 +17,10 @@ bnci_002_2014,n_subjects_reported,conflicting,13,secondary,https://bnci-horizon-
 bnci_002_2014,n_subjects_reported,conflicting,14,primary,https://bnci-horizon-2020.eu/database/data-sets,
 bnci_005_2015,acquisition_setups:main.n_channels_eeg,conflicting,60,primary,https://bnci-horizon-2020.eu/database/data-sets,
 bnci_005_2015,acquisition_setups:main.n_channels_eeg,conflicting,64,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114715/,"Audit reviewer; scope: recorded; bnci page lists 60 eeg, 2 eog"
+cuevas_romero2022_tinnitus,acquisition_setups:main.n_channels_eeg,conflicting,16,primary,https://www.nature.com/articles/s41597-022-01622-w,Audit reviewer; scope: not given
+cuevas_romero2022_tinnitus,acquisition_setups:main.n_channels_eeg,conflicting,17,secondary,https://data.mendeley.com/datasets/kj443jc4yc,Audit reviewer; scope: not given
+dreamt,acquisition_setups:main.sampling_rate_hz,conflicting,100,primary,https://physionet.org/content/dreamt/2.2.0/,Audit reviewer; scope: distributed data_100hz
+dreamt,acquisition_setups:main.sampling_rate_hz,conflicting,200,primary,https://physionet.org/content/dreamt/2.2.0/,"Audit reviewer; scope: psg, as originally recorded"
 ds001785,acquisition_setups:main.n_channels_eeg,conflicting,62,secondary,https://s3.amazonaws.com/openneuro.org/ds001785/README,Audit reviewer; scope: not given
 ds001785,acquisition_setups:main.n_channels_eeg,conflicting,63,primary,https://openneuro.org/crn/datasets/ds001785/objects/f49ebd20eca11f1a857eb830803eb0f1bbb87601?filename=sub-01_ses-01_task-adapt_eeg.json,
 ds001785,acquisition_setups:main.sampling_rate_hz,conflicting,1024,primary,https://openneuro.org/crn/datasets/ds001785/objects/f49ebd20eca11f1a857eb830803eb0f1bbb87601?filename=sub-01_ses-01_task-adapt_eeg.json,
@@ -572,6 +576,12 @@ dv_10_7910_dvn_5rm3ot,acquisition_setups:main.sampling_rate_hz,conflicting,1024,
 dv_10_7910_dvn_5rm3ot,acquisition_setups:main.sampling_rate_hz,conflicting,1200,primary,https://arxiv.org/pdf/2606.01264,"Audit reviewer; scope: g.pangolin, recorded"
 dv_10_7910_dvn_gh74zg,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/GH74ZG,Audit reviewer; scope: recorded
 dv_10_7910_dvn_gh74zg,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/GH74ZG,Audit reviewer; scope: distributed
+eeg_gaba_anesthesia,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,primary,https://physionet.org/content/eeg-gaba-anesthesia/1.0.0/,Audit reviewer; scope: volunteer subject
+eeg_gaba_anesthesia,acquisition_setups:main.device_manufacturer,conflicting,Masimo,primary,https://physionet.org/content/eeg-gaba-anesthesia/1.0.0/,Audit reviewer; scope: surgical patients
+eeg_gaba_anesthesia,acquisition_setups:main.sampling_rate_hz,conflicting,178,primary,https://physionet.org/content/eeg-gaba-anesthesia/1.0.0/,"Audit reviewer; scope: propofol surgical patients, as recorded"
+eeg_gaba_anesthesia,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://physionet.org/content/eeg-gaba-anesthesia/1.0.0/,"Audit reviewer; scope: volunteer subject, as recorded"
+eeg_power_anesthesia,acquisition_setups:main.sampling_rate_hz,conflicting,250,primary,https://physionet.org/content/eeg-power-anesthesia/1.0.0/,"Audit reviewer; scope: or cohort, as recorded"
+eeg_power_anesthesia,acquisition_setups:main.sampling_rate_hz,conflicting,5000,primary,https://physionet.org/content/eeg-power-anesthesia/1.0.0/,"Audit reviewer; scope: volunteer cohort, as recorded"
 figshare_13604078,acquisition_setups:main.device_manufacturer,conflicting,Brain Product GmbH,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: scalp-eeg
 figshare_13604078,acquisition_setups:main.device_manufacturer,conflicting,mBrainTrain,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: ear-eeg
 figshare_13604078,acquisition_setups:main.device_model,conflicting,BrainAmp,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8688416/fullTextXML,Audit reviewer; scope: scalp-eeg
