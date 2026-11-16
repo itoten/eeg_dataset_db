@@ -47,7 +47,8 @@ def main():
             t = re.sub(r"^https?://(dx\.)?doi\.org/", "", t)
             other = by_key.get(t) or by_key.get("https://doi.org/" + t)
             if other and other != d["dataset_id"]:
-                rel.append((d["dataset_id"], other, "subset_of" if part else "derived_from"))
+                sub = part or re.search(r"\b(subset of|part of|portion of)\b", str(d["copy_of"].get("quote", "")), re.I)
+                rel.append((d["dataset_id"], other, "subset_of" if sub else "derived_from"))
     for did, why in sorted(remove.items()):
         print(f"remove {did}: {why}")
     for a, b, k in rel:
