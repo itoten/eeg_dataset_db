@@ -81,8 +81,8 @@ tr.unusable td, .card.unusable { opacity: .72; }
 .more { text-align: center; padding: 10px; }
 .more button, .x { font: 500 13px var(--f-body); color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 5px; padding: 6px 14px; cursor: pointer; }
 .scrim { position: fixed; inset: 0; background: rgb(0 0 0 / 0.25); z-index: 20; }
-aside { position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100%); background: var(--bg); border-left: 1px solid var(--line); z-index: 21; overflow-y: auto;
-  padding: calc(18px + env(safe-area-inset-top, 0px)) max(18px, env(safe-area-inset-right, 0px)) calc(32px + env(safe-area-inset-bottom, 0px)) 18px; display: grid; gap: 16px; align-content: start; }
+aside { box-sizing: border-box; position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100%); background: var(--bg); border-left: 1px solid var(--line); z-index: 21; overflow-y: auto;
+  padding: calc(18px + env(safe-area-inset-top, 0px)) max(18px, env(safe-area-inset-right, 0px)) calc(32px + env(safe-area-inset-bottom, 0px)) 18px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-content: start; overflow-x: hidden; }
 aside h3 { font: 650 22px/1.25 var(--f-display); margin: 0; text-wrap: balance; }
 .dhead { display: flex; gap: 12px; align-items: start; justify-content: space-between; }
 .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; display: grid; gap: 8px; min-width: 0; }
@@ -108,6 +108,11 @@ footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-widt
 .more-cards { display: none; }
 @media (max-width: 720px) {
   dl { grid-template-columns: 1fr; } dt { padding-top: 6px; }
+  .ev, .ev tbody, .ev tr, .ev td { display: block; width: auto; }
+  .ev tr { padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .ev td { border: 0; padding: 1px 0; overflow-wrap: anywhere; }
+  .ev td:first-child { white-space: normal; }
+  .panel { padding: 10px 12px; } aside { padding-left: 14px; }
   .tablebox { display: none; } .cards { display: grid; } .more-cards:not([hidden]) { display: block; }
   h1 { font-size: 26px; } .quote p { font-size: 17px; }
   .filters input, .filters select { flex: 1 1 100%; }
