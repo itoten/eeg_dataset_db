@@ -81,6 +81,13 @@ h1 { font: 650 clamp(26px, 4vw, 38px)/1.15 var(--f-display); margin: 0; text-wra
 .ffoot { padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); }
 .primary { width: 100%; font: 650 15px var(--f-body); color: var(--panel); background: var(--accent); border: 0; border-radius: 6px; padding: 12px; cursor: pointer; }
 .only-m { display: none !important; }
+.sumbar { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.sumbar .tile { background: var(--panel); padding: 10px 12px; display: grid; gap: 2px; min-width: 0; }
+.sumbar .k { font: 600 11px var(--f-body); letter-spacing: 0.04em; color: var(--muted); }
+.sumbar .v { font: 600 20px var(--f-mono); font-variant-numeric: tabular-nums; }
+.sumbar .v small { font: 12px var(--f-body); color: var(--muted); margin-left: 3px; }
+.sumbar .c { font-size: 11px; color: var(--muted); }
+.sumnote { font-size: 11px; color: var(--muted); grid-column: 1 / -1; background: var(--panel); padding: 6px 12px; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .filters input, .filters select { font: 14px var(--f-body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 7px 10px; min-width: 0; }
 .filters input { flex: 1 1 260px; }
@@ -201,6 +208,7 @@ footer { color: var(--muted); font-size: 12px; display: grid; gap: 4px; max-widt
       <div class="ffoot only-m"><button type="button" class="primary" id="f-done"></button></div>
     </div>
     <div class="results">
+      <div class="sumbar" id="sumbar"></div>
       <div class="cards" id="cards"></div>
       <div class="more more-cards" id="more2" hidden><button id="more-b2" type="button" data-i="more"></button></div>
       <div class="tablebox" id="tablebox">
@@ -255,6 +263,8 @@ const L = {
       elec: { wet_gel: "ゲル(湿式)", saline: "生理食塩水", dry: "乾式", intracranial: "頭蓋内", mixed: "混在" },
       com: { allowed: "可", allowed_with_conditions: "条件つきで可", prohibited: "不可", not_stated: "記載なし" },
       feat: { bids: "BIDS 形式", chnames: "チャネル名あり", agesex: "年齢・性別の記載あり", quality: "品質情報あり", tasks: "課題の記載あり", paper: "論文あり", doc: "一次資料で確認済み" } },
+    sum: { ds: "データセット", subj: "被験者数の合計", hours: "記録時間の合計", gb: "サイズの合計", open: "すぐダウンロードできる", stated: (n, m) => `記載あり ${n} / ${m} 件の合計`,
+      u_subj: "人", u_hours: "時間", u_gb: "GB", u_ds: "件", note: "合計は、各データセットの資料が書いている値を足したものです。値のないデータセットは入りません。同じデータの派生版や一部を含むことがあり、その分は重複して数えています。" },
     count: (a, b) => `${a} / ${b} 件`, more: "さらに表示", close: "閉じる", not_checked: "未確認",
     foot1: "空欄 = まだ確認していない。<span class=\"mono\">unknown</span> = 資料の全文を読んだが書いていない。<span class=\"mono\">conflicting</span> = 資料が食い違う(両方が各データセットの根拠に出ます)。表は横にスクロールできます。",
     foot2: "ライセンスは記載された条件の分類で、法的助言ではありません。このカタログは、データセットを使うべきかどうかを判断しません。",
@@ -296,6 +306,8 @@ const L = {
     val: { mod: {}, par: {}, dom: {}, ann: {}, cond: { healthy: "Includes healthy", patient: "Includes patients", mixed: "Patients and controls" }, elec: { wet_gel: "Gel (wet)", saline: "Saline", dry: "Dry", intracranial: "Intracranial", mixed: "Mixed" },
       com: { allowed: "Allowed", allowed_with_conditions: "Allowed with conditions", prohibited: "Prohibited", not_stated: "Not stated" },
       feat: { bids: "BIDS", chnames: "Channel names", agesex: "Age and sex stated", quality: "Quality information", tasks: "Task described", paper: "Has a paper", doc: "Checked in a primary source" } },
+    sum: { ds: "Datasets", subj: "Subjects in total", hours: "Recording hours in total", gb: "Size in total", open: "Direct download", stated: (n, m) => `sum of ${n} of ${m} that state it`,
+      u_subj: "", u_hours: "h", u_gb: "GB", u_ds: "", note: "Totals add the values each dataset's documents state; datasets without a value are left out. Derived versions and parts of the same data can be included, and are then counted twice." },
     count: (a, b) => `${a} of ${b}`, more: "Show more", close: "Close", not_checked: "not checked",
     foot1: "Empty cell = not checked yet. <span class=\"mono\">unknown</span> = the whole source was read and does not say. <span class=\"mono\">conflicting</span> = sources disagree; both are listed in the dataset's evidence. The table scrolls sideways.",
     foot2: "Licenses are a classification of the stated terms, not legal advice. The catalogue does not judge whether a dataset should be used.",
@@ -505,6 +517,12 @@ function render() {
   document.querySelectorAll("th[data-k]").forEach(th => th.setAttribute("aria-sort", th.dataset.k === k ? (dir > 0 ? "ascending" : "descending") : "none"));
   document.getElementById("count").textContent = T().count(list.length, state.all ? D.length : D.filter(usable).length);
   document.getElementById("f-done").textContent = T().show_n(list.length);
+  { const t = T().sum, fmt = x => x >= 100 ? Math.round(x).toLocaleString() : (Math.round(x * 10) / 10).toLocaleString();
+    const tot = k => { const v = list.map(d => num(d[k])).filter(x => x !== null); return [v.reduce((a, b) => a + b, 0), v.length]; };
+    const tile = (k, [v, n], u) => `<div class="tile"><span class="k">${esc(t[k])}</span><span class="v">${n ? fmt(v) : "—"}<small>${esc(u)}</small></span><span class="c">${esc(t.stated(n.toLocaleString(), list.length.toLocaleString()))}</span></div>`;
+    const open = list.filter(d => d.tier === "open").length;
+    document.getElementById("sumbar").innerHTML = `<div class="tile"><span class="k">${esc(t.ds)}</span><span class="v">${list.length.toLocaleString()}<small>${esc(t.u_ds)}</small></span><span class="c">${esc(t.open)}: ${open.toLocaleString()}</span></div>`
+      + tile("subj", tot("subj"), t.u_subj) + tile("hours", tot("hours"), t.u_hours) + tile("gb", tot("gb"), t.u_gb) + `<div class="sumnote">${esc(t.note)}</div>`; }
   document.querySelectorAll("#legend button").forEach(x => x.setAttribute("aria-pressed", String(!!(state.f.tier && state.f.tier.has(x.dataset.t)))));
   renderFacets();
   document.getElementById("rows").innerHTML = list.slice(0, state.shown).map(d =>
