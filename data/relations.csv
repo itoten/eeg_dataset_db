@@ -156,9 +156,6 @@ nm000376,derived_from,zenodo_13712627,nemar_download_guide,"The record says its 
 nm000385,derived_from,siena_scalp_eeg,nm000385_nemar,NEMAR lists 10.13026/5d4a-j060 as IsDerivedFrom this record
 nm000390,derived_from,zenodo_8088072,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
 nm000472,derived_from,zenodo_21967992,nemar_download_guide,"The record says its data come from the other dataset (audit, quote checked)"
-osf_3jk45,possibly_same_as,figshare_18470912,osf_3jk45_osf,Both print the same name; whether they are the same data is not checked
-osf_3jk45,possibly_same_as,things_eeg2,osf_3jk45_osf,Both print the same name; whether they are the same data is not checked
-osf_q3zws,possibly_same_as,zuco,osf_q3zws_osf,Both print the same name; whether they are the same data is not checked
 osf_s7jdk,possibly_same_as,ds005345,osf_s7jdk_osf,Both print the same name; whether they are the same data is not checked
 osf_t6nfa,possibly_same_as,ds005662,osf_t6nfa_osf,Both print the same name; whether they are the same data is not checked
 osf_y9pmf,possibly_same_as,ds007012,osf_y9pmf_osf,Both print the same name; whether they are the same data is not checked

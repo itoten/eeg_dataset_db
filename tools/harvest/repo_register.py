@@ -116,7 +116,8 @@ def main():
     entries = json.loads(Path(sys.argv[1]).read_text())
     today = sys.argv[2] if len(sys.argv) > 2 else datetime.date.today().isoformat()
     B = Batch(today)
-    seen_urls, kept = {s["doi"].lower() for s in B.db["sources"][1] if s["doi"]}, []
+    seen_urls = {s["doi"].lower() for s in B.db["sources"][1] if s["doi"]} | {s["url"] for s in B.db["sources"][1] if s["url"]}
+    kept = []
     for e in entries:
         try:
             m = read(e)
