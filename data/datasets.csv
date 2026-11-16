@@ -937,26 +937,26 @@ mendeley_5pc2j46cbc,Epileptic EEG Dataset,,eeg_signals,scalp_eeg,,,2021,CC-BY-4.
 mendeley_5r3chsd873,EEG-MI数据集,,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 mendeley_5wtxz793my,"Real-time, automatic, open-source sleep stage classification system using single EEG",,non_human,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,128,,,,,2026-11-16
 mendeley_63m5gy9n5h,EA-PN-TEC: EEG Evoked activity and psychoacoustic monitoring of pink noise exposure,,eeg_signals,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,24,,,,,,,,,,direct_download,open,24,250,10_20,SMARTING EEG Bluetooth amplifier,other,,2026-11-16
-mendeley_66ndcswhr2,EEG sensor system development,,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_67ydg6htxj,EEG-data for processing auditorily code-switching from L2 German into L1 Russian at nouns and prepositions,,,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_68ycn9sgbr,Flexible 3D printed EEG electrodes,,,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_6cpkc7kbsy,Conservative method for vertical electrooculogram attenuation based on local suppression of ongoing EEG artifact templates,,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_6hx2smc7nw,Resting-State interictal EEG recordings of refractory epilepsy patients,,,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_6jcnrr9v58,EEG Microstate Sequence Analysis Dataset — Sequential Syntax of Inhibitory Control (Go/NoGo Task),,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_6jhz2vpxtt,Tactile Stimulation in a Healthy Mexican Sample: An EEG Database,,,scalp_eeg,,,2024,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_6jn36v666s,raw data-Abnormalities of resting-state EEG in patients with prodromal and overt dementia with Lewy bodies: Relation to clinical symptoms,,,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_6k4g25fhzg,"A Dataset of EEG Signals from Adults with ADHD and Healthy Controls: Resting State, Cognitive function, and Sound Listening Paradigm",,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+mendeley_66ndcswhr2,EEG sensor system development,,eeg_signals,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,500,,,ssvep,,2026-11-16
+mendeley_67ydg6htxj,EEG-data for processing auditorily code-switching from L2 German into L1 Russian at nouns and prepositions,,eeg_signals,scalp_eeg,,,2018,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,26,250,,,auditory_erp;language,,2026-11-16
+mendeley_68ycn9sgbr,Flexible 3D printed EEG electrodes,,no_eeg_signals,scalp_eeg,,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+mendeley_6cpkc7kbsy,Conservative method for vertical electrooculogram attenuation based on local suppression of ongoing EEG artifact templates,,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+mendeley_6hx2smc7nw,Resting-State interictal EEG recordings of refractory epilepsy patients,,eeg_signals,scalp_eeg,resting_state,,2019,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,resting_unspecified,,2026-11-16
+mendeley_6jcnrr9v58,EEG Microstate Sequence Analysis Dataset — Sequential Syntax of Inhibitory Control (Go/NoGo Task),,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,30,,,,,,,,,,direct_download,open,19,500,,,cognitive_task,,2026-11-16
+mendeley_6jhz2vpxtt,Tactile Stimulation in a Healthy Mexican Sample: An EEG Database,,eeg_signals,scalp_eeg,perception,,2024,CC0-1.0,,,,,,,,34,,,,,,,,,,direct_download,open,,,,,other,,2026-11-16
+mendeley_6jn36v666s,raw data-Abnormalities of resting-state EEG in patients with prodromal and overt dementia with Lewy bodies: Relation to clinical symptoms,,eeg_signals,scalp_eeg,,,2021,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+mendeley_6k4g25fhzg,"A Dataset of EEG Signals from Adults with ADHD and Healthy Controls: Resting State, Cognitive function, and Sound Listening Paradigm",,eeg_signals,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,79,,,,,,,,,,direct_download,open,5,256,,,cognitive_task;resting_eyes_closed;resting_eyes_open,,2026-11-16
 mendeley_6s6jdkjyng,EEG procrastination,,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_6wx4n25h4v,Polysomnographic records of patients with disorders of consciousness,,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_72k5vcwk7n,4/24 Extended Wake EEG and Pupillometry,,,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_73g4fw884c,EEGIS - Electroencephalogram Imagined Speech dataset,,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_78x5pr8sh3,Supplementary Results for Single-Channel EEG Wake Detection,,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_79y2rgnkdz,Spectral EEG Dataset for Motor Intention Classification and Cognitive State Analysis 2,,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_7byy6n8fwr,"Overnight Polysomnographic Records of Patients with Chronic Disorders of Consciousness, Part 1",,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_7bzjts53xv,Data for: EEG-responses to mood induction interact with seasonality,,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_7cdyp2r5cz,EEG Dataset for Second Language Acquisition Arbic and Hindi,,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_7j7n2r2zcm,EEG dataset of children with learning disabilities (LD),,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-mendeley_7mkwr8k8cd,EEG and Behavioral dataset Lobo et al. study,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+mendeley_6wx4n25h4v,Polysomnographic records of patients with disorders of consciousness,,eeg_signals,psg;scalp_eeg;eog;emg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,SOMNOScreen Plus,,,2026-11-16
+mendeley_72k5vcwk7n,4/24 Extended Wake EEG and Pupillometry,,eeg_signals,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,18,,,,,,,,,,direct_download,open,123,1000,egi_hydrocel,EGI,auditory_erp,,2026-11-16
+mendeley_73g4fw884c,EEGIS - Electroencephalogram Imagined Speech dataset,,eeg_signals,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,14,128,,Emotiv EPOC+,imagined_speech,,2026-11-16
+mendeley_78x5pr8sh3,Supplementary Results for Single-Channel EEG Wake Detection,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+mendeley_79y2rgnkdz,Spectral EEG Dataset for Motor Intention Classification and Cognitive State Analysis 2,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,Emotiv,other,,2026-11-16
+mendeley_7byy6n8fwr,"Overnight Polysomnographic Records of Patients with Chronic Disorders of Consciousness, Part 1",,eeg_signals,psg;scalp_eeg;eog;emg;ecg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,6,,,,,,2026-11-16
+mendeley_7bzjts53xv,Data for: EEG-responses to mood induction interact with seasonality,,no_eeg_signals,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,114,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+mendeley_7cdyp2r5cz,EEG Dataset for Second Language Acquisition Arbic and Hindi,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,20,,,,,,,,,,direct_download,open,,256,10_20,Allengers Virgo EEG system,language;passive_viewing,,2026-11-16
+mendeley_7j7n2r2zcm,EEG dataset of children with learning disabilities (LD),,no_eeg_signals,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,19,250,,Brainmarker,resting_eyes_closed,,2026-11-16
+mendeley_7mkwr8k8cd,EEG and Behavioral dataset Lobo et al. study,,,scalp_eeg,,,2021,,,,,,,,,38,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 mendeley_7r4z3p3g4m,N&C-TEC: ECG and EEG files,,,scalp_eeg,,,2020,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 mendeley_7s4scspj2w,"Cognitive evaluation, baseline-EEG, and EEG features extraction in people living with HIV",,,scalp_eeg,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 mendeley_7s5svj6m9n,"Analyzed ERP data of Experiments for ""The modulating effect of musical expertise on lexical semantic prediction in speech-in-noise comprehension: evidence from an EEG study""",,,scalp_eeg,,,2024,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
