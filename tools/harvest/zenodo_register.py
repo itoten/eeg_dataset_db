@@ -22,6 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / ".claude/skills/maintaining-eeg-dataset-db/scripts"))
 from reglib import Batch  # noqa: E402
+import zenodo_client  # noqa: E402
 
 CACHE = ROOT / "cache" / "zenodo"
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}
@@ -44,20 +45,7 @@ IEEG = re.compile(r"\b(intracranial|ECoG|electrocorticogra\w*|sEEG|stereo-?EEG|d
 
 
 def fetch(rid):
-    f = CACHE / f"{rid}.json"
-    if f.exists():
-        return json.loads(f.read_text())
-    for i in range(5):
-        try:
-            d = json.load(urllib.request.urlopen(urllib.request.Request(f"https://zenodo.org/api/records/{rid}", headers=UA), timeout=90))
-            f.write_text(json.dumps(d))
-            time.sleep(1)
-            return d
-        except Exception as e:
-            err = e
-            time.sleep(5 * (i + 1))
-    print("FAIL", rid, err)
-    return None
+    return zenodo_client.record(rid)
 
 
 RIGHTS = {"open": "info:eu-repo/semantics/openAccess", "restricted": "info:eu-repo/semantics/restrictedAccess"}

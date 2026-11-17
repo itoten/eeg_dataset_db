@@ -6,8 +6,8 @@ A script checks every quote on its page; a quote not found verbatim at its URL i
 Report only what a source says in so many words; never infer from names or counts alone.
 
 Read, for both datasets: the record or page in `sources` (repository API where one exists: Zenodo
-`https://zenodo.org/api/records/<id>` — if zenodo.org refuses, read the saved copy in
-`cache/zenodo/<id>.json` and cite the API URL; figshare `https://api.figshare.com/v2/articles/<id>`;
+— read only the saved copy `cache/zenodo/<id>.json` (never request zenodo.org) and cite
+`https://zenodo.org/records/<id>`; figshare `https://api.figshare.com/v2/articles/<id>`;
 Mendeley `https://data.mendeley.com/public-api/datasets/<id>`; OSF `https://api.osf.io/v2/nodes/<id>/`;
 OpenNeuro `https://s3.amazonaws.com/openneuro.org/<ds>/README`; NEMAR `https://api.nemar.org/datasets/<id>`),
 and the paper either one names. One request at a time; wait 2 seconds between requests to one host.

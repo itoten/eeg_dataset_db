@@ -6,6 +6,7 @@ The search API returns each record in full (title, description, license, access 
 request covers 25 records. Records already cached are kept.
 """
 import json, time, urllib.parse, urllib.request
+import zenodo_client
 from pathlib import Path
 
 CACHE = Path(__file__).resolve().parents[2] / "cache" / "zenodo"
@@ -15,14 +16,7 @@ QUERIES = ["EEG", "electroencephalography", "electroencephalogram", "polysomnogr
 
 
 def get(u):
-    err = None
-    for i in range(6):
-        try:
-            return json.load(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=90))
-        except Exception as e:
-            err = e
-            time.sleep(8 * (i + 1))
-    raise RuntimeError(f"{u} {err}")
+    return zenodo_client.get(u)  # spacing, User-Agent and stopping on 403/429 live there
 
 
 def main():
@@ -40,7 +34,6 @@ def main():
             if len(hits) < 25 or page * 25 >= d["hits"]["total"] or page >= 400:
                 break
             page += 1
-            time.sleep(1.2)
         print(q, n, d["hits"]["total"], flush=True)
 
 

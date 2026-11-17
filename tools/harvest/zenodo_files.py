@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / ".claude/skills/maintaining-eeg-dataset-db/scripts"))
 from reglib import Batch  # noqa: E402
+import zenodo_client  # noqa: E402
 
 CACHE = ROOT / "cache" / "zenodo"
 EXT = {".edf": "edf", ".bdf": "bdf", ".vhdr": "brainvision", ".set": "eeglab_set", ".fif": "fif", ".gdf": "gdf", ".cnt": "cnt", ".mefd": "mef"}
@@ -26,11 +27,10 @@ ACCESS = {"open": ("direct_download", "none"), "restricted": ("request_form_or_e
 
 
 def refetch(rid):
-    out = subprocess.run(["curl", "-s", "-m", "60", "-A", "Mozilla/5.0 (X11; Linux x86_64)", f"https://zenodo.org/api/records/{rid}"], capture_output=True, text=True).stdout
-    time.sleep(2)
     try:
-        d = json.loads(out)
-    except ValueError:
+        d = zenodo_client.get(f"https://zenodo.org/api/records/{rid}")
+    except Exception as e:
+        print("zenodo:", rid, e)
         return None
     return d if "metadata" in d else None
 

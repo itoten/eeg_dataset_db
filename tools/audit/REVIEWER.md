@@ -11,7 +11,7 @@ copy numbers as written). "Not stated" is a good answer.
 
 ## What to read, for every dataset
 
-1. The record (repository page / API): Zenodo `https://zenodo.org/api/records/<id>` (description is HTML),
+1. The record (repository page / API): Zenodo — read the saved copy `cache/zenodo/<id>.json` (do not request zenodo.org yourself; cite `https://zenodo.org/records/<id>`; description is HTML),
    figshare `https://api.figshare.com/v2/articles/<id>` or `/collections/<id>`, Dataverse
    `https://<host>/api/datasets/:persistentId/?persistentId=doi:<doi>`, Hugging Face card
    `https://huggingface.co/datasets/<id>/raw/main/README.md`, OpenNeuro `https://openneuro.org/crn/graphql`
@@ -124,8 +124,9 @@ rejected_trials, recording_notes, signal_check_procedure, other.
 - Finish with a one-paragraph summary of what you could not open or decide.
 
 ## Practical notes
-- zenodo.org may answer 403: read `https://api.datacite.org/dois/10.5281/zenodo.<id>` instead and cite it;
-  file lists are in the DB's cache `cache/zenodo/<id>.json` (read-only). Use curl/Python, not WebFetch.
+- Never send requests to zenodo.org (Zenodo limits traffic from this network; tools/harvest/zenodo_client.py is the
+  only client). Read `cache/zenodo/<id>.json` (read-only); if it is missing, read
+  `https://api.datacite.org/dois/10.5281/zenodo.<id>` and cite it.
 - Leave out inferred values: montage from channel names, `healthy` the quote does not say, device_fixed or
   custom montages, line frequency from notch filters, gel from "wet".
 - Rates written in kHz are fine (give Hz). Give no year_published.

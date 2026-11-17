@@ -19,6 +19,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / ".claude/skills/maintaining-eeg-dataset-db/scripts"))
 from reglib import Batch  # noqa: E402
+sys.path.insert(0, str(ROOT / "tools" / "harvest"))
+import zenodo_client  # noqa: E402
 
 PAGES = ROOT / "cache/audit/pages"
 DATASET_FIELDS = {"n_subjects_reported": "int", "hours_reported": "num", "modalities": "enum", "domains": "enum", "year_published": "int", "license_spdx": "enum"}
@@ -49,6 +51,9 @@ def strip_html(t):
     return html.unescape(re.sub(r"<[^>]+>", " ", t))
 
 
+ZENODO = re.compile(r"https?://(?:zenodo\.org/(?:api/)?(?:records?|uploads)/|(?:dx\.)?doi\.org/10\.5281/zenodo\.)(\d+)")
+
+
 def curl(url, out):
     r = subprocess.run(["curl", "-sL", "-m", "90", "-A", "Mozilla/5.0", "-o", str(out), "-w", "%{http_code} %{content_type}", url], capture_output=True, text=True)
     return r.stdout
@@ -61,17 +66,23 @@ def fetch(url):
     f = PAGES / f"{key}.txt"
     if f.exists():
         return f.read_text()
+    m = ZENODO.match(url)
+    if m:
+        # zenodo.org is read only through its API, politely (tools/harvest/zenodo_client.py); never its HTML pages
+        d = zenodo_client.record(m.group(1))
+        text = " ".join(strip_html(flatten(d)).split()) if d else ""
+        if text:
+            f.write_text(text)
+            (PAGES / f"{key}.url").write_text(url)
+        return text
+    if re.match(r"https?://(www\.)?zenodo\.org/", url):
+        return ""  # other zenodo.org pages (search, communities) are not scraped
     raw = PAGES / f"{key}.raw"
     info = curl(url, raw)
     if not info.startswith("2"):  # some hosts (figshare downloads) refuse a browser user agent
         r = subprocess.run(["curl", "-sL", "-m", "90", "-o", str(raw), "-w", "%{http_code} %{content_type}", url], capture_output=True, text=True)
         info = r.stdout
     data = raw.read_bytes() if raw.exists() else b""
-    m = re.match(r"https?://zenodo\.org/(?:api/)?records?/(\d+)", url)
-    zc = ROOT / "cache" / "zenodo" / f"{m.group(1)}.json" if m else None
-    if not info.startswith("2") and zc and zc.exists():
-        # zenodo.org refuses this network at times; use the copy of the same API record fetched at registration
-        data, info = zc.read_bytes(), "200 application/json"
     text = ""
     if data[:5] == b"%PDF-" or "pdf" in info:
         text = subprocess.run(["pdftotext", "-q", str(raw), "-"], capture_output=True, text=True).stdout
