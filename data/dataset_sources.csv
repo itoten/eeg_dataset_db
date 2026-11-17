@@ -267,7 +267,6 @@ ds002034,ds002034_channels,other
 ds002034,ds002034_docb07f97,other
 ds002034,ds002034_nemar,mirror
 ds002034,ds002034_paper,other
-ds002034,ds002034_paper,paper
 ds002034,ds002034_participants_json,other
 ds002034,ds002034_record,distribution
 ds002034,ds002034_sidecar,other
@@ -281,7 +280,6 @@ ds002158,ds002158_doc644dd0,other
 ds002158,ds002158_doc6905ba,other
 ds002158,ds002158_nemar,mirror
 ds002158,ds002158_paper,other
-ds002158,ds002158_paper,paper
 ds002158,ds002158_participants_json,other
 ds002158,ds002158_record,distribution
 ds002158,nemar_download_guide,other
@@ -344,7 +342,6 @@ ds002718,ds002718_nemar,mirror
 ds002718,ds002718_record,distribution
 ds002718,ds002718_sidecar,other
 ds002718,ds003645_paper,other
-ds002718,ds003645_paper,paper
 ds002718,nemar_download_guide,other
 ds002720,ds002720_channels,other
 ds002720,ds002720_doc0f8f40,other
@@ -446,7 +443,6 @@ ds003004,ds003004_doc31dbba,other
 ds003004,ds003004_doc4db26d,paper
 ds003004,ds003004_nemar,mirror
 ds003004,ds003004_paper,other
-ds003004,ds003004_paper,paper
 ds003004,ds003004_paper_2,other
 ds003004,ds003004_participants_json,other
 ds003004,ds003004_record,distribution
@@ -586,7 +582,6 @@ ds003505,ds003505_doc3bf2e4,paper
 ds003505,ds003505_docb5460b,other
 ds003505,ds003505_nemar,mirror
 ds003505,ds003505_paper,other
-ds003505,ds003505_paper,paper
 ds003505,ds003505_participants_json,other
 ds003505,ds003505_record,distribution
 ds003505,ds003505_sidecar,other
@@ -610,7 +605,6 @@ ds003516,ds003516_doc055c44,other
 ds003516,ds003516_doc7dee71,paper
 ds003516,ds003516_nemar,mirror
 ds003516,ds003516_paper,other
-ds003516,ds003516_paper,paper
 ds003516,ds003516_participants_json,other
 ds003516,ds003516_record,distribution
 ds003516,ds003516_sidecar,other
@@ -689,7 +683,6 @@ ds003620,ds003620_doc7f8ffe,other
 ds003620,ds003620_doc8c435a,paper
 ds003620,ds003620_nemar,mirror
 ds003620,ds003620_paper,other
-ds003620,ds003620_paper,paper
 ds003620,ds003620_participants_json,other
 ds003620,ds003620_participants_tsv,other
 ds003620,ds003620_record,distribution
@@ -713,7 +706,6 @@ ds003645,ds002718_docac340e,paper
 ds003645,ds003645_doc7676d7,other
 ds003645,ds003645_nemar,mirror
 ds003645,ds003645_paper,other
-ds003645,ds003645_paper,paper
 ds003645,ds003645_paper_2,other
 ds003645,ds003645_participants_tsv,other
 ds003645,ds003645_record,distribution
@@ -724,7 +716,6 @@ ds003655,ds003655_docd3529f,other
 ds003655,ds003655_docd6119b,paper
 ds003655,ds003655_nemar,mirror
 ds003655,ds003655_paper,other
-ds003655,ds003655_paper,paper
 ds003655,ds003655_paper_2,other
 ds003655,ds003655_participants_json,other
 ds003655,ds003655_record,distribution
@@ -762,7 +753,6 @@ ds003702,ds003702_doc1faa8f,other
 ds003702,ds003702_doc9d9d8b,other
 ds003702,ds003702_nemar,mirror
 ds003702,ds003702_paper,other
-ds003702,ds003702_paper,paper
 ds003702,ds003702_participants_json,other
 ds003702,ds003702_record,distribution
 ds003702,ds003702_sidecar,other
@@ -789,7 +779,6 @@ ds003739,ds003739_docbe459b,other
 ds003739,ds003739_nemar,mirror
 ds003739,ds003739_paper,other
 ds003739,ds003739_paper_2,other
-ds003739,ds003739_paper_2,paper
 ds003739,ds003739_participants_json,other
 ds003739,ds003739_record,distribution
 ds003739,ds003739_sidecar,other
@@ -813,7 +802,6 @@ ds003766,ds003766_doc2d685e,other
 ds003766,ds003766_doc9b62da,paper
 ds003766,ds003766_nemar,mirror
 ds003766,ds003766_paper,other
-ds003766,ds003766_paper,paper
 ds003766,ds003766_participants_json,other
 ds003766,ds003766_record,distribution
 ds003766,ds003766_sidecar,other
@@ -823,7 +811,6 @@ ds003768,ds003768_doc52b320,other
 ds003768,ds003768_docfb63f0,other
 ds003768,ds003768_nemar,mirror
 ds003768,ds003768_paper,other
-ds003768,ds003768_paper,paper
 ds003768,ds003768_paper_2,other
 ds003768,ds003768_record,distribution
 ds003768,ds003768_sidecar,other
@@ -885,7 +872,6 @@ ds003825,ds003825_doc55c6d5,other
 ds003825,ds003825_doc98dc3f,paper
 ds003825,ds003825_nemar,mirror
 ds003825,ds003825_paper,other
-ds003825,ds003825_paper,paper
 ds003825,ds003825_participants_json,other
 ds003825,ds003825_record,distribution
 ds003825,ds003825_sidecar,other
@@ -894,7 +880,6 @@ ds003838,ds003838_doc1d5313,other
 ds003838,ds003838_doca80b77,paper
 ds003838,ds003838_nemar,mirror
 ds003838,ds003838_paper,other
-ds003838,ds003838_paper,paper
 ds003838,ds003838_paper_2,other
 ds003838,ds003838_participants_json,other
 ds003838,ds003838_record,distribution
@@ -961,7 +946,6 @@ ds003969,ds003969_doc88cb41,other
 ds003969,ds003969_docda8b9e,paper
 ds003969,ds003969_nemar,mirror
 ds003969,ds003969_paper,other
-ds003969,ds003969_paper,paper
 ds003969,ds003969_participants_json,other
 ds003969,ds003969_record,distribution
 ds003969,ds003969_sidecar,other
@@ -985,7 +969,6 @@ ds004010,ds004010_doc78d78d,other
 ds004010,ds004010_doceda332,other
 ds004010,ds004010_nemar,mirror
 ds004010,ds004010_paper,other
-ds004010,ds004010_paper,paper
 ds004010,ds004010_participants_json,other
 ds004010,ds004010_record,distribution
 ds004010,ds004010_sidecar,other
@@ -995,7 +978,6 @@ ds004015,ds004015_doc27a094,paper
 ds004015,ds004015_doc2b2083,other
 ds004015,ds004015_nemar,mirror
 ds004015,ds004015_paper,other
-ds004015,ds004015_paper,paper
 ds004015,ds004015_participants_json,other
 ds004015,ds004015_record,distribution
 ds004015,ds004015_sidecar,other
@@ -1184,7 +1166,6 @@ ds004151,ds004151_doc79b9b9,other
 ds004151,ds004151_docf2fbf0,other
 ds004151,ds004151_nemar,mirror
 ds004151,ds004151_paper,other
-ds004151,ds004151_paper,paper
 ds004151,ds004151_participants_json,other
 ds004151,ds004151_record,distribution
 ds004151,ds004151_sidecar,other
@@ -1203,7 +1184,6 @@ ds004166,nemar_download_guide,other
 ds004194,ds004194_docbeeaad,other
 ds004194,ds004194_nemar,mirror
 ds004194,ds004194_paper,other
-ds004194,ds004194_paper,paper
 ds004194,ds004194_paper_2,other
 ds004194,ds004194_participants_json,other
 ds004194,ds004194_record,distribution
@@ -1295,7 +1275,6 @@ ds004347,ds004347_channels,other
 ds004347,ds004347_docda6521,other
 ds004347,ds004347_nemar,mirror
 ds004347,ds004347_paper,other
-ds004347,ds004347_paper,paper
 ds004347,ds004347_participants_json,other
 ds004347,ds004347_record,distribution
 ds004347,ds004347_sidecar,other
@@ -1321,7 +1300,6 @@ ds004356,ds004356_doc2f6f00,paper
 ds004356,ds004356_doc657589,other
 ds004356,ds004356_nemar,mirror
 ds004356,ds004356_paper,other
-ds004356,ds004356_paper,paper
 ds004356,ds004356_participants_json,other
 ds004356,ds004356_record,distribution
 ds004356,ds004356_sidecar,other
@@ -1449,7 +1427,6 @@ ds004460,ds004460_doc99b032,other
 ds004460,ds004460_doce5a0a6,paper
 ds004460,ds004460_nemar,mirror
 ds004460,ds004460_paper,other
-ds004460,ds004460_paper,paper
 ds004460,ds004460_participants_json,other
 ds004460,ds004460_record,distribution
 ds004460,ds004460_sidecar,other
@@ -1468,7 +1445,6 @@ ds004475,ds004475_doca4642b,paper
 ds004475,ds004475_doced3c61,other
 ds004475,ds004475_nemar,mirror
 ds004475,ds004475_paper,other
-ds004475,ds004475_paper,paper
 ds004475,ds004475_participants_json,other
 ds004475,ds004475_record,distribution
 ds004475,ds004475_sidecar,other
@@ -1574,7 +1550,6 @@ ds004554,ds004554_channels,other
 ds004554,ds004554_doc6cf1f4,other
 ds004554,ds004554_nemar,mirror
 ds004554,ds004554_paper,other
-ds004554,ds004554_paper,paper
 ds004554,ds004554_record,distribution
 ds004554,ds004554_sidecar,other
 ds004554,nemar_download_guide,other
@@ -1716,7 +1691,6 @@ ds004635,ds004635_doc22767b,other
 ds004635,ds004635_doc6f2f4c,other
 ds004635,ds004635_nemar,mirror
 ds004635,ds004635_paper,other
-ds004635,ds004635_paper,paper
 ds004635,ds004635_participants_json,other
 ds004635,ds004635_record,distribution
 ds004635,ds004635_sidecar,other
@@ -1793,7 +1767,6 @@ ds004752,ds004752_doc3b415e,other
 ds004752,ds004752_doca4e7d2,other
 ds004752,ds004752_nemar,mirror
 ds004752,ds004752_paper,other
-ds004752,ds004752_paper,paper
 ds004752,ds004752_participants_json,other
 ds004752,ds004752_record,distribution
 ds004752,ds004752_sidecar,other
@@ -1822,7 +1795,6 @@ ds004784,ds004784_doc427063,paper
 ds004784,ds004784_doc527d67,other
 ds004784,ds004784_nemar,mirror
 ds004784,ds004784_paper,other
-ds004784,ds004784_paper,paper
 ds004784,ds004784_participants_json,other
 ds004784,ds004784_record,distribution
 ds004784,ds004784_sidecar,other
@@ -1868,13 +1840,11 @@ ds004816,ds004816_participants_tsv,other
 ds004816,ds004816_record,distribution
 ds004816,ds004816_sidecar,other
 ds004816,ds004817_paper,other
-ds004816,ds004817_paper,paper
 ds004816,nemar_download_guide,other
 ds004817,ds004816_doc7027be,other
 ds004817,ds004817_doc706682,other
 ds004817,ds004817_nemar,mirror
 ds004817,ds004817_paper,other
-ds004817,ds004817_paper,paper
 ds004817,ds004817_participants_tsv,other
 ds004817,ds004817_record,distribution
 ds004817,ds004817_sidecar,other
@@ -2001,7 +1971,6 @@ ds004902,nemar_download_guide,other
 ds004917,ds004917_doce8d67f,paper
 ds004917,ds004917_nemar,mirror
 ds004917,ds004917_paper,other
-ds004917,ds004917_paper,paper
 ds004917,ds004917_participants_json,other
 ds004917,ds004917_record,distribution
 ds004917,nemar_download_guide,other
@@ -2034,7 +2003,6 @@ ds004952,ds004952_docee5c56,paper
 ds004952,ds004952_docf30cce,other
 ds004952,ds004952_nemar,mirror
 ds004952,ds004952_paper,other
-ds004952,ds004952_paper,paper
 ds004952,ds004952_participants_json,other
 ds004952,ds004952_record,distribution
 ds004952,ds004952_sidecar,other
@@ -2066,7 +2034,6 @@ ds004993,nemar_download_guide,other
 ds004995,ds004995_doc31215f,other
 ds004995,ds004995_nemar,mirror
 ds004995,ds004995_paper,other
-ds004995,ds004995_paper,paper
 ds004995,ds004995_record,distribution
 ds004995,nemar_download_guide,other
 ds005007,ds005007_channels,other
@@ -2102,7 +2069,6 @@ ds005048,ds005048_doc632b88,other
 ds005048,ds005048_docee1c5d,paper
 ds005048,ds005048_nemar,mirror
 ds005048,ds005048_paper,other
-ds005048,ds005048_paper,paper
 ds005048,ds005048_paper_2,other
 ds005048,ds005048_participants_json,other
 ds005048,ds005048_record,distribution
@@ -2154,7 +2120,6 @@ ds005106,ds005106_doc9c1c26,other
 ds005106,ds005106_nemar,mirror
 ds005106,ds005106_paper,other
 ds005106,ds005106_paper_2,other
-ds005106,ds005106_paper_2,paper
 ds005106,ds005106_participants_json,other
 ds005106,ds005106_record,distribution
 ds005106,ds005106_sidecar,other
@@ -2200,7 +2165,6 @@ ds005169,ds005169_doc82be3b,other
 ds005169,ds005169_doc8e4839,other
 ds005169,ds005169_nemar,mirror
 ds005169,ds005169_paper,other
-ds005169,ds005169_paper,paper
 ds005169,ds005169_participants_json,other
 ds005169,ds005169_record,distribution
 ds005169,ds005169_sidecar,other
@@ -2272,7 +2236,6 @@ ds005284,ds005284_docca840a,other
 ds005284,ds005284_doceb1a98,other
 ds005284,ds005284_nemar,mirror
 ds005284,ds005284_paper,other
-ds005284,ds005284_paper,paper
 ds005284,ds005284_participants_json,other
 ds005284,ds005284_record,distribution
 ds005284,ds005284_sidecar,other
@@ -2283,7 +2246,6 @@ ds005285,ds005285_docace774,other
 ds005285,ds005285_docc3d1ad,other
 ds005285,ds005285_nemar,mirror
 ds005285,ds005285_paper,other
-ds005285,ds005285_paper,paper
 ds005285,ds005285_participants_json,other
 ds005285,ds005285_record,distribution
 ds005285,ds005285_sidecar,other
@@ -2361,7 +2323,6 @@ ds005340,ds005340_doca69e5e,other
 ds005340,ds005340_docf21733,other
 ds005340,ds005340_nemar,mirror
 ds005340,ds005340_paper,other
-ds005340,ds005340_paper,paper
 ds005340,ds005340_participants_json,other
 ds005340,ds005340_record,distribution
 ds005340,ds005340_sidecar,other
@@ -2372,7 +2333,6 @@ ds005342,ds005342_doca908ab,other
 ds005342,ds005342_docc8ebfd,other
 ds005342,ds005342_nemar,mirror
 ds005342,ds005342_paper,other
-ds005342,ds005342_paper,paper
 ds005342,ds005342_participants_json,other
 ds005342,ds005342_record,distribution
 ds005342,ds005342_sidecar,other
@@ -2407,7 +2367,6 @@ ds005385,ds005385_channels,other
 ds005385,ds005385_doc5dbe92,paper
 ds005385,ds005385_nemar,mirror
 ds005385,ds005385_paper,other
-ds005385,ds005385_paper,paper
 ds005385,ds005385_participants_json,other
 ds005385,ds005385_record,distribution
 ds005385,ds005385_sidecar,other
@@ -2443,7 +2402,6 @@ ds005408,ds005408_doc4a7b06,paper
 ds005408,ds005408_doc793716,other
 ds005408,ds005408_nemar,mirror
 ds005408,ds005408_paper,other
-ds005408,ds005408_paper,paper
 ds005408,ds005408_participants_json,other
 ds005408,ds005408_record,distribution
 ds005408,ds005408_sidecar,other
@@ -2501,7 +2459,6 @@ ds005473,ds005473_channels,other
 ds005473,ds005473_doca0a0ec,other
 ds005473,ds005473_nemar,mirror
 ds005473,ds005473_paper,other
-ds005473,ds005473_paper,paper
 ds005473,ds005473_participants_json,other
 ds005473,ds005473_record,distribution
 ds005473,ds005473_sidecar,other
@@ -2545,7 +2502,6 @@ ds005505,ds005505_participants_tsv,other
 ds005505,ds005505_record,distribution
 ds005505,ds005505_sidecar,other
 ds005505,ds005507_paper,other
-ds005505,ds005507_paper,paper
 ds005505,ds005507_paper_2,other
 ds005505,nemar_download_guide,other
 ds005506,ds005506_doc52f537,other
@@ -2556,14 +2512,12 @@ ds005506,ds005506_participants_tsv,other
 ds005506,ds005506_record,distribution
 ds005506,ds005506_sidecar,other
 ds005506,ds005507_paper,other
-ds005506,ds005507_paper,paper
 ds005506,ds005507_paper_2,other
 ds005506,nemar_download_guide,other
 ds005507,ds005507_doc86c388,other
 ds005507,ds005507_doc999ed6,other
 ds005507,ds005507_nemar,mirror
 ds005507,ds005507_paper,other
-ds005507,ds005507_paper,paper
 ds005507,ds005507_paper_2,other
 ds005507,ds005507_participants_json,other
 ds005507,ds005507_participants_tsv,other
@@ -2571,7 +2525,6 @@ ds005507,ds005507_record,distribution
 ds005507,ds005507_sidecar,other
 ds005507,nemar_download_guide,other
 ds005508,ds005507_paper,other
-ds005508,ds005507_paper,paper
 ds005508,ds005507_paper_2,other
 ds005508,ds005508_docb1fac3,other
 ds005508,ds005508_docf33cd2,other
@@ -2582,7 +2535,6 @@ ds005508,ds005508_record,distribution
 ds005508,ds005508_sidecar,other
 ds005508,nemar_download_guide,other
 ds005509,ds005507_paper,other
-ds005509,ds005507_paper,paper
 ds005509,ds005507_paper_2,other
 ds005509,ds005509_docd1b230,other
 ds005509,ds005509_doce49177,other
@@ -2593,7 +2545,6 @@ ds005509,ds005509_record,distribution
 ds005509,ds005509_sidecar,other
 ds005509,nemar_download_guide,other
 ds005510,ds005507_paper,other
-ds005510,ds005507_paper,paper
 ds005510,ds005507_paper_2,other
 ds005510,ds005510_doc8fde62,other
 ds005510,ds005510_doca60444,other
@@ -2604,7 +2555,6 @@ ds005510,ds005510_record,distribution
 ds005510,ds005510_sidecar,other
 ds005510,nemar_download_guide,other
 ds005511,ds005507_paper,other
-ds005511,ds005507_paper,paper
 ds005511,ds005507_paper_2,other
 ds005511,ds005511_doc8c2f4e,other
 ds005511,ds005511_doc938e19,other
@@ -2615,7 +2565,6 @@ ds005511,ds005511_record,distribution
 ds005511,ds005511_sidecar,other
 ds005511,nemar_download_guide,other
 ds005512,ds005507_paper,other
-ds005512,ds005507_paper,paper
 ds005512,ds005507_paper_2,other
 ds005512,ds005512_doc3ad168,other
 ds005512,ds005512_docade948,other
@@ -2626,7 +2575,6 @@ ds005512,ds005512_record,distribution
 ds005512,ds005512_sidecar,other
 ds005512,nemar_download_guide,other
 ds005514,ds005507_paper,other
-ds005514,ds005507_paper,paper
 ds005514,ds005507_paper_2,other
 ds005514,ds005514_doc6bb4a3,other
 ds005514,ds005514_doc8be36d,other
@@ -2637,7 +2585,6 @@ ds005514,ds005514_record,distribution
 ds005514,ds005514_sidecar,other
 ds005514,nemar_download_guide,other
 ds005515,ds005507_paper,other
-ds005515,ds005507_paper,paper
 ds005515,ds005507_paper_2,other
 ds005515,ds005515_docdb53be,other
 ds005515,ds005515_docee2ee1,other
@@ -2647,7 +2594,6 @@ ds005515,ds005515_record,distribution
 ds005515,ds005515_sidecar,other
 ds005515,nemar_download_guide,other
 ds005516,ds005507_paper,other
-ds005516,ds005507_paper,paper
 ds005516,ds005507_paper_2,other
 ds005516,ds005516_doc05bbd9,other
 ds005516,ds005516_docfbc756,other
@@ -2734,7 +2680,6 @@ ds005565,nemar_download_guide,other
 ds005571,ds005571_doc34f191,paper
 ds005571,ds005571_nemar,mirror
 ds005571,ds005571_paper,other
-ds005571,ds005571_paper,paper
 ds005571,ds005571_participants_json,other
 ds005571,ds005571_record,distribution
 ds005571,nemar_download_guide,other
@@ -3006,7 +2951,6 @@ ds005960,ds005960_doc2865af,paper
 ds005960,ds005960_doc63b9a1,other
 ds005960,ds005960_nemar,mirror
 ds005960,ds005960_paper,other
-ds005960,ds005960_paper,paper
 ds005960,ds005960_participants_json,other
 ds005960,ds005960_record,distribution
 ds005960,ds005960_sidecar,other
@@ -3107,7 +3051,6 @@ ds006171,ds006171_channels,other
 ds006171,ds006171_doca4c928,other
 ds006171,ds006171_nemar,mirror
 ds006171,ds006171_paper,other
-ds006171,ds006171_paper,paper
 ds006171,ds006171_participants_tsv,other
 ds006171,ds006171_record,distribution
 ds006171,ds006171_sidecar,other
@@ -3255,13 +3198,11 @@ ds006466,ds006466_doca970e2,other
 ds006466,ds006466_docd513bb,other
 ds006466,ds006466_nemar,mirror
 ds006466,ds006466_paper,other
-ds006466,ds006466_paper,paper
 ds006466,ds006466_record,distribution
 ds006466,ds006466_sidecar,other
 ds006466,nemar_download_guide,other
 ds006480,ds006466_doc345a90,paper
 ds006480,ds006466_paper,other
-ds006480,ds006466_paper,paper
 ds006480,ds006480_channels,other
 ds006480,ds006480_doc54040a,other
 ds006480,ds006480_doce983b8,other
@@ -3282,7 +3223,6 @@ ds006525,ds006525_doc369dc1,other
 ds006525,ds006525_doc8fef02,other
 ds006525,ds006525_nemar,mirror
 ds006525,ds006525_paper,other
-ds006525,ds006525_paper,paper
 ds006525,ds006525_paper_2,other
 ds006525,ds006525_participants_json,other
 ds006525,ds006525_record,distribution
@@ -3346,7 +3286,6 @@ ds006695,ds006695_doc54c32e,other
 ds006695,ds006695_docfda187,paper
 ds006695,ds006695_nemar,mirror
 ds006695,ds006695_paper,other
-ds006695,ds006695_paper,paper
 ds006695,ds006695_participants_json,other
 ds006695,ds006695_record,distribution
 ds006695,ds006695_sidecar,other
@@ -3361,7 +3300,6 @@ ds006735,nemar_download_guide,other
 ds006761,ds006761_doc753d87,paper
 ds006761,ds006761_nemar,mirror
 ds006761,ds006761_paper,other
-ds006761,ds006761_paper,paper
 ds006761,ds006761_participants_json,other
 ds006761,ds006761_record,distribution
 ds006761,ds006761_sidecar,other
@@ -3388,7 +3326,6 @@ ds006801,nemar_download_guide,other
 ds006802,ds006802_docf116a4,paper
 ds006802,ds006802_nemar,mirror
 ds006802,ds006802_paper,other
-ds006802,ds006802_paper,paper
 ds006802,ds006802_participants_json,other
 ds006802,ds006802_record,distribution
 ds006802,ds006802_sidecar,other
@@ -3716,7 +3653,6 @@ ds007314,ds007314_participants_json,other
 ds007314,ds007314_record,distribution
 ds007314,ds007314_sidecar,other
 ds007314,ds007315_paper,other
-ds007314,ds007315_paper,paper
 ds007314,nemar_download_guide,other
 ds007315,ds007314_channels,other
 ds007315,ds007314_doca9c2cc,paper
@@ -3725,7 +3661,6 @@ ds007315,ds007314_sidecar,other
 ds007315,ds007315_doc279cda,other
 ds007315,ds007315_nemar,mirror
 ds007315,ds007315_paper,other
-ds007315,ds007315_paper,paper
 ds007315,ds007315_participants_json,other
 ds007315,ds007315_record,distribution
 ds007315,nemar_download_guide,other
@@ -3771,7 +3706,6 @@ ds007358,ds007358_doc8622d9,other
 ds007358,ds007358_docddf93f,other
 ds007358,ds007358_nemar,mirror
 ds007358,ds007358_paper,other
-ds007358,ds007358_paper,paper
 ds007358,ds007358_participants_json,other
 ds007358,ds007358_record,distribution
 ds007358,ds007358_sidecar,other
@@ -3898,7 +3832,6 @@ ds007605,nemar_download_guide,other
 ds007609,ds007609_doc8e5c66,other
 ds007609,ds007609_nemar,mirror
 ds007609,ds007609_paper,other
-ds007609,ds007609_paper,paper
 ds007609,ds007609_participants_json,other
 ds007609,ds007609_record,distribution
 ds007609,ds007609_sidecar,other
@@ -3971,7 +3904,6 @@ ds007720,ds007720_sidecar,other
 ds007720,nemar_download_guide,other
 ds007721,ds007721_doccf3f45,other
 ds007721,ds007721_paper,other
-ds007721,ds007721_paper,paper
 ds007721,ds007721_participants_json,other
 ds007721,ds007721_record,distribution
 ds007721,ds007721_sidecar,other
@@ -4019,7 +3951,7 @@ ds007823,ds007823_nemar,mirror
 ds007823,ds007823_participants_json,other
 ds007823,ds007823_record,distribution
 ds007823,ds007823_sidecar,other
-ds007823,ds008082_paper,paper
+ds007823,ds008082_paper,other
 ds007823,nemar_download_guide,other
 ds007827,ds007827_channels,other
 ds007827,ds007827_doca48809,other
@@ -4108,7 +4040,6 @@ ds008037,ds008037_sidecar,other
 ds008065,ds008065_docf60266,other
 ds008065,ds008065_nemar,mirror
 ds008065,ds008065_paper,other
-ds008065,ds008065_paper,paper
 ds008065,ds008065_paper_2,other
 ds008065,ds008065_participants_json,other
 ds008065,ds008065_record,distribution
@@ -4124,7 +4055,6 @@ ds008082,ds007823_sidecar,other
 ds008082,ds008082_doc01a75d,other
 ds008082,ds008082_nemar,mirror
 ds008082,ds008082_paper,other
-ds008082,ds008082_paper,paper
 ds008082,ds008082_participants_json,other
 ds008082,ds008082_record,distribution
 ds008082,nemar_download_guide,other
@@ -4150,7 +4080,6 @@ ds008104,ds008104_sidecar,other
 ds008115,ds008115_channels,other
 ds008115,ds008115_docb5f191,other
 ds008115,ds008115_paper,other
-ds008115,ds008115_paper,paper
 ds008115,ds008115_participants_json,other
 ds008115,ds008115_record,distribution
 ds008115,ds008115_sidecar,other
@@ -4174,7 +4103,6 @@ ds008302,ds008302_docab2e34,other
 ds008302,ds008302_doce38978,paper
 ds008302,ds008302_nemar,mirror
 ds008302,ds008302_paper,other
-ds008302,ds008302_paper,paper
 ds008302,ds008302_participants_json,other
 ds008302,ds008302_record,distribution
 ds008302,ds008302_sidecar,other
@@ -4210,7 +4138,6 @@ ds008496,nemar_download_guide,other
 ds008610,ds008610_channels,other
 ds008610,ds008610_nemar,mirror
 ds008610,ds008610_paper,other
-ds008610,ds008610_paper,paper
 ds008610,ds008610_participants_json,other
 ds008610,ds008610_record,distribution
 ds008610,ds008610_sidecar,other
@@ -4254,13 +4181,11 @@ ds008834,ds008834_sidecar,other
 ds008836,ds008836_doc05cd2b,other
 ds008836,ds008836_docf80e01,paper
 ds008836,ds008836_paper,other
-ds008836,ds008836_paper,paper
 ds008836,ds008836_participants_json,other
 ds008836,ds008836_record,distribution
 ds008836,ds008836_sidecar,other
 ds008837,ds008837_docf9e4f0,other
 ds008837,ds008837_paper,other
-ds008837,ds008837_paper,paper
 ds008837,ds008837_record,distribution
 ds008851,ds008851_doc02bdf0,other
 ds008851,ds008851_participants_json,other
@@ -4756,7 +4681,7 @@ figshare_16586957,figshare_16586957_doc9ea0ac,other
 figshare_16586957,figshare_16586957_figshare,distribution
 figshare_16783987,figshare_16783987_doc23ceca,other
 figshare_16783987,figshare_16783987_figshare,distribution
-figshare_17029712,ds003825_paper,paper
+figshare_17029712,ds003825_paper,other
 figshare_17029712,figshare_17029712_doc5c9938,other
 figshare_17029712,figshare_17029712_figshare,distribution
 figshare_18470912,figshare_18470912_doc59849f,other
@@ -7249,7 +7174,7 @@ neuro_stress_resilience_hci,neuro_stress_resilience_hci_page,other
 ngo2024_als_spelling,ngo2024_als_spelling_docb26ab0,other
 ngo2024_als_spelling,ngo2024_als_spelling_figshare,distribution
 ngo2024_als_spelling,ngo2024_als_spelling_paper,paper
-nm000103,ds005507_paper_2,paper
+nm000103,ds005507_paper_2,other
 nm000103,nemar_download_guide,other
 nm000103,nm000103_doc2a89c3,other
 nm000103,nm000103_nemar,distribution
@@ -7345,7 +7270,7 @@ nm000131,nemar_download_guide,other
 nm000131,nm000131_doc8ae1dc,other
 nm000131,nm000131_nemar,distribution
 nm000131,nm000131_paper_a,paper
-nm000132,ds007056_paper,paper
+nm000132,ds007056_paper,other
 nm000132,nemar_download_guide,other
 nm000132,nm000132_doc342f5e,paper
 nm000132,nm000132_doc4640ad,other
@@ -9588,7 +9513,7 @@ zenodo_1252140,zenodo_1252140_paper_a,paper
 zenodo_1252140,zenodo_1252141,distribution
 zenodo_12723991,zenodo_12723991_paper_a,paper
 zenodo_12723991,zenodo_12723992,distribution
-zenodo_12734986,ds005342_paper,paper
+zenodo_12734986,ds005342_paper,other
 zenodo_12734986,zenodo_12734986_docca1ebc,other
 zenodo_12734986,zenodo_12734987,distribution
 zenodo_12754928,zenodo_12754928_doc23e0c1,other
@@ -11169,7 +11094,7 @@ zenodo_6512425,zenodo_6512426,distribution
 zenodo_6536456,zenodo_6536456_doc745d22,paper
 zenodo_6536456,zenodo_6536456_paper_a,paper
 zenodo_6536456,zenodo_6536457,distribution
-zenodo_654223,ds003969_paper,paper
+zenodo_654223,ds003969_paper,other
 zenodo_654223,zenodo_57911,distribution
 zenodo_654223,zenodo_654223_doc7092cd,other
 zenodo_654223,zenodo_654223_docc27550,paper
@@ -11251,7 +11176,7 @@ zenodo_7186298,zenodo_7186298_docfa7e1f,paper
 zenodo_7186298,zenodo_7186298_paper_a,paper
 zenodo_7186298,zenodo_7186299,distribution
 zenodo_7186298,zenodo_7186299,other
-zenodo_7189460,ds003645_paper,paper
+zenodo_7189460,ds003645_paper,other
 zenodo_7189460,zenodo_7189460_doc25a4e4,paper
 zenodo_7189460,zenodo_7189460_paper_2,paper
 zenodo_7189460,zenodo_7410278,distribution
