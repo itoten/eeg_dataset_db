@@ -1116,6 +1116,8 @@ zenodo_13598206,acquisition_setups:main.reference,conflicting,CMS (Fpz) and DRL 
 zenodo_13598206,acquisition_setups:main.reference,conflicting,FCz,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: liveamp and brainamp
 zenodo_13598206,acquisition_setups:main.sampling_rate_hz,conflicting,128,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: epoc flex native rate
 zenodo_13598206,acquisition_setups:main.sampling_rate_hz,conflicting,500,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12782033/fullTextXML,Audit reviewer; scope: liveamp native rate
+zenodo_13626921,acquisition_setups:main.device_model,conflicting,EPOC Flex (Model 1.0),secondary,https://assets-eu.researchsquare.com/files/rs-4268007/v1_covered_dac18893-d01c-4a6d-bb5b-83092a27c35b.pdf,Audit reviewer; scope: not given
+zenodo_13626921,acquisition_setups:main.device_model,conflicting,Emotiv EPOC Flex (Model 1.0),secondary,https://zenodo.org/api/records/13626922,Audit reviewer; scope: not given
 zenodo_13909753,acquisition_setups:main.ground,conflicting,AFz,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12290828/fullTextXML,Audit reviewer; scope: participants 15 to 33
 zenodo_13909753,acquisition_setups:main.ground,conflicting,below occipital electrode Oz,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12290828/fullTextXML,Audit reviewer; scope: participants 1 to 14
 zenodo_13909753,acquisition_setups:main.sampling_rate_hz,conflicting,1000,secondary,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12290828/fullTextXML,Audit reviewer; scope: recorded; distributed files are preprocessed
