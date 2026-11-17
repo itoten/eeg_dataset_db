@@ -864,6 +864,7 @@ zenodo_5907008,1,impedance_threshold,impedance below 20 kOhm before recording,st
 zenodo_6027334,1,impedance_threshold,impedance below 20 kOhm,stated in the document,zenodo_6027334_doc9b5215,Electrode impedance was kept below 20 kΩ.,2026-11-15,claude,
 zenodo_606506,1,impedance_threshold,impedances below 20 KOhm,stated in the document,zenodo_606506_doc413126,Electrode impedances were kept below 20 KΩ.,2026-11-15,claude,
 zenodo_618914,1,impedance_threshold,impedance below 6 kOhm for all channels,stated in the document,zenodo_618914_doc8288c9,Impedance for all channels was kept below 6 kΩ.,2026-11-15,claude,
+zenodo_6385767,1,other,"Cleaned data: bad channels interpolated (no more than 5% per subject), movement-artifact segments excluded",stated in the document,zenodo_6385767_docce92ae,interpolated bad channels (no more than 5% per subject),2026-11-17,claude,
 zenodo_6395563,1,impedance_threshold,impedances kept below 5 kΩ,stated in the document,zenodo_6395563_doce933dd,Electrode impedances were kept below 5 kΩ.,2026-11-15,claude,
 zenodo_6395563,2,rejected_trials,share of trials rejected as artifacts,stated in the document,zenodo_6395563_doce933dd,Approximate 24% of ordered trials and 31% of random trials were rejected as artifacts.,2026-11-15,claude,
 zenodo_6512425,1,impedance_threshold,inter-electrode impedance below 10 kΩ,stated in the document,zenodo_6512425_doc22632d,The recording started only if inter-electrodes impedance was kept below 10kΩ.,2026-11-15,claude,

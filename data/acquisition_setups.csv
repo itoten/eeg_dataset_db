@@ -1658,6 +1658,7 @@ zenodo_5907008,main,As stated in the documents cited for each value,Brain Produc
 zenodo_600531,main,As stated in the documents cited for each value,BioSemi,Active-Two,,64,,,,active common mode sense (CMS),passive driven right leg (DRL),512,,,,
 zenodo_602109,main,As stated in the documents cited for each value,BioSemi,Active-Two,,64,,,,active common mode sense (CMS),passive driven right leg (DRL),512,,,,
 zenodo_6027334,main,As stated in the documents cited for each value,Micromed,SystemPlus Evolution,,128,,,,FPz,AFFz,1024,,,,
+zenodo_605853,main,As stated in the documents cited for each value,,,,,,,,,,1000,,,,
 zenodo_606506,main,As stated in the documents cited for each value,,,,,,,,left mastoid,,500,,bandpass filter of. 02 to 250 Hz with a 10 second time constant,,
 zenodo_616772,main,As stated in the documents cited for each value,,,,19,,,,,,,,,,
 zenodo_618914,main,As stated in the documents cited for each value,Neuroscan,,,32,,,,linked earlobes,AFz,1000,,between 0.05 and 200 Hz,,
