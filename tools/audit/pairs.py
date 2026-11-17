@@ -50,7 +50,9 @@ def main():
         note = "Pair review (audit, quote checked): " + " ".join(str(ok["quote"]).split()[:30])
         R.relation(ans, b, sid, note)
         if ans in MIRROR:
-            B.dataset(b).relation(MIRROR[ans], a, sid, note)
+            Rb = B.dataset(b)
+            Rb.link(sid, "other")
+            Rb.relation(MIRROR[ans], a, sid, note)
         if not names[a] & names[b]:
             rels[:] = [r for r in rels if not (r["relation"] == "possibly_same_as" and {r["dataset_id"], r["other_dataset_id"]} == {a, b})]
         applied.append((a, b, ans))

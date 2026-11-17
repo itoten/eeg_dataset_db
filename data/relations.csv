@@ -4,6 +4,8 @@ bci2020_track2,subset_of,bci2020,bci2020_osf,Folder Track 2 of the competition p
 bci2020_track3,subset_of,bci2020,bci2020_osf,Folder Track 3 of the competition project
 bci2020_track4,subset_of,bci2020,bci2020_osf,Folder Track 4 of the competition project
 bci2020_track5,subset_of,bci2020,bci2020_osf,Folder Track 5 of the competition project
+chen2023_stroop_eeg_fnirs,contains,figshare_24032265,figshare_24032265_doca6c6af,"Pair review (audit, quote checked): ""title"": ""Open access dataset integrating EEG and fNIRS during Stroop tasks"", ""doi"": ""10.6084/m9.figshare.24032265.v1"""
+ds004362,derived_from,eegmmidb,ds004362_docbcc526,"Pair review (audit, quote checked): To access the initial publication of this dataset, please visit this link to PhysioBank: https://physionet.org/content/eegmmidb/1.0.0/"
 ds004362,possibly_same_as,eegmmidb,ds004362_record,Both print the same name; whether they are the same data is not checked
 ds004595,possibly_same_as,ds005907,ds004595_record,Both print the same name; whether they are the same data is not checked
 ds005545,possibly_same_as,ds006234,ds005545_record,Both print the same name; whether they are the same data is not checked
@@ -20,8 +22,11 @@ figshare_14273687,derived_from,cao2019_driving_attention,figshare_14273687_doc0c
 figshare_16586957,derived_from,cao2019_driving_attention,figshare_14273687_paper_a,"The record says its data come from the other dataset (audit, quote checked)"
 figshare_18470912,possibly_same_as,things_eeg2,figshare_18470912_figshare,Both print the same name; whether they are the same data is not checked
 figshare_24032265,possibly_same_as,chen2023_stroop_eeg_fnirs,figshare_24032265_figshare,Both print the same name; whether they are the same data is not checked
+figshare_24032265,subset_of,chen2023_stroop_eeg_fnirs,figshare_24032265_doca6c6af,"Pair review (audit, quote checked): ""title"": ""Open access dataset integrating EEG and fNIRS during Stroop tasks"", ""doi"": ""10.6084/m9.figshare.24032265.v1"""
 figshare_24803499,possibly_same_as,ji2024_stroop_high_altitude,figshare_24803499_figshare,Both print the same name; whether they are the same data is not checked
+figshare_24803499,subset_of,ji2024_stroop_high_altitude,figshare_24803499_doc84e1dd,"Pair review (audit, quote checked): ""title"": ""EEG and fNIRS Datasets Based on Stroop Task during Two Weeks of High-Altitude Exposure in New Immigrants"", ""doi"": ""10.6084/m9.figshare.24803499.v1"""
 figshare_28736903,possibly_same_as,ds007788,figshare_28736903_figshare,Both print the same name; whether they are the same data is not checked
+ji2024_stroop_high_altitude,contains,figshare_24803499,figshare_24803499_doc84e1dd,"Pair review (audit, quote checked): ""title"": ""EEG and fNIRS Datasets Based on Stroop Task during Two Weeks of High-Altitude Exposure in New Immigrants"", ""doi"": ""10.6084/m9.figshare.24803499.v1"""
 kaggle_abhishekinnvonix_seizure_epilepcy_chb_mit_eeg_dataset_pediatric,possibly_same_as,kaggle_artemmineev13_seizure_epilepcy_chb_mit_eeg_dataset_pediatric,kaggle_abhishekinnvonix_seizure_epilepcy_chb_mit_eeg_dataset_pediatric_kaggle,Both print the same name; whether they are the same data is not checked
 kaggle_abwahi_eeg_data,possibly_same_as,kaggle_ahmedfaroukksiu_eeg_data,kaggle_abwahi_eeg_data_kaggle,Both print the same name; whether they are the same data is not checked
 kaggle_abwahi_eeg_data,possibly_same_as,kaggle_aliaaalaaeldin_eeg_daata,kaggle_abwahi_eeg_data_kaggle,Both print the same name; whether they are the same data is not checked
