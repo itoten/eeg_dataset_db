@@ -5025,6 +5025,7 @@ zenodo_17240373,mi_binary_speller_with_error_potential_d,MI binary speller with 
 zenodo_17240464,ssvep_left_right_flickering_stimuli_7_5,"SSVEP left/right flickering stimuli (7.5, 9, 10, 12, 15, 20 Hz)",ssvep,,,,,,,,
 zenodo_17240622,offline_bar_feedback_mi_protocol_right_h,"offline bar-feedback MI protocol (right hand, left hand, feet, rest)",motor_imagery,,,,,,,,
 zenodo_17250465,p300,P300,p300_erp,,,,,,,,
+zenodo_17263936,relaxation,relaxation,resting_unspecified,,,,,,,,
 zenodo_17305329,motor_imagery,Motor Imagery,motor_imagery,,,,,,,,
 zenodo_17306880,restingstate,RestingState,resting_eyes_closed;resting_eyes_open,,,,,,,,
 zenodo_17314288,sustained_attention_to_response_task_sar,Sustained Attention to Response Task (SART) with thought-probes,cognitive_task,,,,,,,,
@@ -5040,6 +5041,7 @@ zenodo_17471747,cooperative_and_competitive_table_tennis,cooperative and competi
 zenodo_17504089,ssvep_led_focusing,SSVEP LED focusing,ssvep,,,,,,,,
 zenodo_17527064,auditory_statistical_learning_task,auditory statistical learning task,other,,,,,,,,
 zenodo_17527064,baseline_resting_state_silent_video,baseline (resting-state) silent video,passive_viewing,,,,,,,,
+zenodo_17527064,resting_state_and_auditory_task_conditio,resting-state and auditory task conditions,passive_viewing,,,,,,,,
 zenodo_17535641,t_11,11种生物声音刺激,other,,,,,,,,
 zenodo_17561968,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 zenodo_17561968,sit_to_stand_and_stand_to_sit_transition,sit-to-stand and stand-to-sit transitions (ME and MI),motor_execution;motor_imagery,,,,,,,,
@@ -5080,6 +5082,7 @@ zenodo_19063664,citybase_citytask_hwaybase_hwaytask_driv,Citybase / Citytask / H
 zenodo_19063903,median_nerve_electrical_stimulation_sep,Median nerve electrical stimulation SEP,other,,,,,,,,
 zenodo_19081764,ssvep_overt_and_covert_attention,SSVEP overt and covert attention,ssvep,,,,,,,,
 zenodo_19121105,sleep_staging,Sleep staging,sleep,,,,,,,,
+zenodo_19233061,reading_sentences_and_acceptability_judg,reading sentences and acceptability judgement,language,,,,,,,,
 zenodo_19233061,sentence_reading_with_acceptability_judg,Sentence reading with acceptability judgement,language,,,,,,,,
 zenodo_19329127,visual_search,Visual search,cognitive_task,,,,,,,,
 zenodo_19333248,seizure_recordings,seizure recordings,clinical_routine,,,,,,,,
