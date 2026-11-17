@@ -38423,6 +38423,7 @@ osf_w2dc6/year_published/01,osf_w2dc6,year_published,2022,osf_w2dc6_osf,Publishe
 osf_w63vy/access_routes:osf.access_method/01,osf_w63vy,access_routes:osf.access_method,direct_download,osf_w63vy_osf,Public record with files (API),2026-11-16,script,current,
 osf_w63vy/access_routes:osf.automation_tool/01,osf_w63vy,access_routes:osf.automation_tool,osf-api,osf_w63vy_osf,Files listed in the record API,2026-11-16,script,current,
 osf_w63vy/access_routes:osf.human_steps/01,osf_w63vy,access_routes:osf.human_steps,none,osf_w63vy_osf,Public record with files (API),2026-11-16,script,current,
+osf_w63vy/content_class/01,osf_w63vy,content_class,eeg_signals,osf_w63vy_doceb4df7,"Because the original EEG data of formal experiment is large and the database has a limitation on the upload space, so it is uploaded in",2026-11-17,script,current,Audit reviewer's verdict: keep; the quote was picked by tools/audit/class_from_record.py
 osf_w63vy/modalities/01,osf_w63vy,modalities,scalp_eeg,osf_w63vy_osf,First part of original EEG data for formal experiment,2026-11-16,claude,current,
 osf_w63vy/name/01,osf_w63vy,name,First part of original EEG data for formal experiment,osf_w63vy_osf,Record title,2026-11-16,script,current,
 osf_w63vy/year_published/01,osf_w63vy,year_published,2023,osf_w63vy_osf,Published 2023-02-19,2026-11-16,script,current,
