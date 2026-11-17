@@ -99,7 +99,7 @@ def read(e):
                  url="https://doi.org/" + i.replace("doi:", ""), doi=i.replace("doi:", ""), public=d.get("visibility") == "public")
     elif r == "kaggle":
         d = json.loads((ROOT / "cache" / "kaggle" / "search.json").read_text())[i]
-        m = dict(title=d["title"], desc=d["desc"], license=d["license"], date=d["date"], url=d["url"], doi="", public=None, login="kaggle")
+        m = dict(title=d["title"], desc=d["desc"], license=d["license"], date="", url=d["url"], doi="", public=None, login="kaggle")  # the list API gives the last update, not the release date
     elif r == "synapse":
         d = curl(f"https://repo-prod.prod.sagebase.org/repo/v1/entity/{i}")
         ar = curl(f"https://repo-prod.prod.sagebase.org/repo/v1/entity/{i}/accessRequirement")
@@ -183,11 +183,11 @@ def main():
     import collections
     norm = collections.defaultdict(list)
     for d in B.db["datasets"][1]:
-        norm[re.sub(r"\W", "", d["name"].casefold())].append(d["dataset_id"])
-        norm[re.sub(r"\W", "", d["dataset_id"].casefold())].append(d["dataset_id"])
+        norm[re.sub(r"[\W_]", "", d["name"].casefold())].append(d["dataset_id"])
+        norm[re.sub(r"[\W_]", "", d["dataset_id"].casefold())].append(d["dataset_id"])
     for r in B.db["aliases"][1]:
         if r["alias_type"] != "catalogue_id":
-            norm[re.sub(r"\W", "", r["alias"].casefold())].append(r["dataset_id"])
+            norm[re.sub(r"[\W_]", "", r["alias"].casefold())].append(r["dataset_id"])
     mine = {e["dataset_id"] for e in entries}
     for ids in norm.values():
         ids = sorted(set(ids))

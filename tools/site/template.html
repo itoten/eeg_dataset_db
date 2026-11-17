@@ -244,8 +244,9 @@ const L = {
     meta: (n, s, b, c) => `${n} データセット · 出典 ${s} 件 · ${b} 作成(commit ${c})`,
     access_h: "データの入手のしやすさ",
     search: "名前・ID・機器・課題で検索…", all_repo: "すべてのリポジトリ", all_mod: "すべてのモダリティ", all_par: "すべての課題(パラダイム)", all_dom: "すべての研究分野", all_lic: "すべてのライセンス",
-    show_all: n => `人の EEG 信号を含まないものも表示(${n}件)`,
-    hidden_def: "既定では、資料が「EEG の信号を含まない」「人以外(動物・ファントム・シミュレーション)の記録」「まだ公開されていない」と書いているデータセットを隠しています。",
+    show_all: n => `隠しているものも表示(${n}件)`,
+    prov: "仮登録", prov_why: "Kaggle の検索で見つけて登録しただけで、中身はまだ確かめていません。ほかのデータセットの再アップロードかどうか、投稿者がデータを作った人かどうかも未確認です。",
+    hidden_def: "既定では、資料が「EEG の信号を含まない」「人以外(動物・ファントム・シミュレーション)の記録」「まだ公開されていない」と書いているデータセットを隠しています。Kaggle の検索で見つけて仮登録しただけのもの(中身も、既存データセットの再アップロードかどうかも未確認)も隠しています。",
     cls: { eeg_signals: "EEG 信号あり", no_eeg_signals: "EEG 信号なし", non_human: "人のデータではない", not_released: "未公開", "": "未判定" },
     cls_why: { no_eeg_signals: "資料によると、このデータセットの配布物には EEG の信号が含まれていません(コード、文書、論文、特徴量・統計・行列、EEG 以外のデータなど)。根拠は下の「根拠」の content_class の行にあります。",
       non_human: "資料によると、このデータセットの信号は生きた人のものではありません(動物、ファントム、シミュレーション)。根拠は下の「根拠」の content_class の行にあります。",
@@ -303,8 +304,9 @@ const L = {
     meta: (n, s, b, c) => `${n} datasets · ${s} source documents · built ${b} from commit ${c}`,
     access_h: "How the data can be obtained",
     search: "Search name, ID, device, task…", all_repo: "All repositories", all_mod: "All modalities", all_par: "All paradigms", all_dom: "All research domains", all_lic: "All licenses",
-    show_all: n => `Also show datasets without human EEG signals (${n})`,
-    hidden_def: "By default, datasets whose documents say the release holds no EEG signals, holds non-human recordings (animals, phantoms, simulations) or is not yet released are hidden.",
+    show_all: n => `Also show hidden datasets (${n})`,
+    prov: "Provisional", prov_why: "Registered from a Kaggle search only; nothing has been checked yet, including whether it re-uploads another dataset and whether the uploader made the data.",
+    hidden_def: "By default, datasets whose documents say the release holds no EEG signals, holds non-human recordings (animals, phantoms, simulations) or is not yet released are hidden. Kaggle records registered from a search only (contents and whether they re-upload another dataset not checked) are hidden too.",
     cls: { eeg_signals: "EEG signals", no_eeg_signals: "No EEG signals", non_human: "Not human data", not_released: "Not released", "": "Not decided" },
     cls_why: { no_eeg_signals: "According to its documents, this release holds no EEG signals (code, documents, papers, features, statistics, matrices or non-EEG data). The evidence is the content_class row under Evidence below.",
       non_human: "According to its documents, the signals in this dataset are not from living humans (animals, phantom heads, simulations). The evidence is the content_class row under Evidence below.",
@@ -375,14 +377,15 @@ D.forEach(d => {
     p += (x ? " L" : "M") + x + " " + y.toFixed(1); }
   svg.innerHTML = `<path d="${p}" fill="none" stroke="var(--trace)" stroke-width="1.4" vector-effect="non-scaling-stroke"/>`; })();
 
-const usable = d => !d.cls || d.cls === "eeg_signals";
+const prov = d => d.id.startsWith("kaggle_") && !d.cls;  // registered from a search only; nothing checked yet
+const usable = d => (!d.cls || d.cls === "eeg_signals") && !prov(d);
 const state = { all: false, q: "", f: {}, r: {}, sort: ["subj", -1], shown: 100, open: null, more: {} };
 
 const ageSex = g => { if (!g) return ""; const t = T().f; const a = [];
   if (g.age_min && g.age_max) a.push(`${g.age_min}–${g.age_max}`); if (g.age_mean) a.push(`${t.mean} ${g.age_mean}`);
   const s = [g.n_female ? `${t.female} ${g.n_female}` : "", g.n_male ? `${t.male} ${g.n_male}` : ""].filter(Boolean).join(" / ");
   return [a.join(", "), s].filter(Boolean).join(" · "); };
-const flag = d => d.cls === "eeg_signals" ? "" : `<span class="flag${d.cls ? "" : " undecided"}">${esc(T().cls[d.cls || ""])}</span>`;
+const flag = d => d.cls === "eeg_signals" ? "" : `<span class="flag${d.cls ? "" : " undecided"}">${esc(prov(d) ? T().prov : T().cls[d.cls || ""])}</span>`;
 const COLS = [
   { k: "name", g: "key", fx: 0, w: 250, edge: 1, cls: "", v: d => `${flag(d)}<div class="nm">${esc(d.name || d.id)}</div><div class="sub mono">${esc(d.id)}</div>`, s: d => (d.name || "").toLowerCase() },
   { k: "subj", g: "key", cls: "num", v: d => esc(d.subj) || dash, s: d => num(d.subj) },
@@ -608,6 +611,7 @@ function openD(id) {
   const ev = d.ev.length ? `<div class="inner"><table class="ev"><tbody>${d.ev.map(e => `<tr><td>${esc(e[0])}</td><td>${esc(e[1])}${e[6] === "conflicting" ? ` <span class="warn">${esc(t.conflicting)}</span>` : ""}<div class="sub">${srcLink(e[2])}${e[3] ? " — “" + esc(e[3]) + "”" : ""}</div><div class="sub">${esc(f.checked_on(e[4], who(e[5])))}</div></td></tr>`).join("")}</tbody></table></div>` : "";
   const docs = d.links.map(l => `<div><span class="tag">${esc(l[0])}</span> ${srcLink(l[1])}</div>`).join("");
   drawer.innerHTML = `<div class="dhead"><div><div class="sub mono">${esc(d.id)}</div><h3 id="d-title">${esc(d.name || d.id)}</h3>${d.full && d.full !== d.name ? `<div class="sub">${esc(d.full)}</div>` : ""}</div><button class="x" type="button" id="close">${esc(t.close)}</button></div>
+    ${prov(d) ? `<div class="noteBox"><span class="flag">${esc(t.prov)}</span>${esc(t.prov_why)}</div>` : ""}
     ${d.cls && d.cls !== "eeg_signals" ? `<div class="noteBox"><span class="flag">${esc(t.cls[d.cls])}</span>${esc(t.cls_why[d.cls] || "")}</div>` : ""}
     ${sec(t.sec.summary, `<dl>${row(f.access, `<span class="pill"><span class="dot" style="background:${TCOL[d.tier] || TCOL[""]}"></span>${esc(tier[0])}</span>${d.best ? ` <span class="sub">${esc(t.method[d.best] || d.best)}</span>` : ""}`)}
       ${row(f.repo, esc(d.repo))}${row(f.mod, esc(semi(d.mod).join(", ")))}${row(f.dom, esc(semi(d.dom).join(", ")))}${row(f.subj, esc(d.subj))}
