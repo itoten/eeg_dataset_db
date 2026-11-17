@@ -2790,7 +2790,7 @@ zenodo_17639962,Selective Auditory Attention Decoding for Bilateral Cochlear Imp
 zenodo_17699259,Atari Games Challenge Pilot Dataset,,eeg_signals,scalp_eeg;eye_tracking,cognitive;emotion,,2025,CC-BY-4.0,,,,,,,,19,,,,,,,,,,direct_download,open,63,256,10_20,,other,,2026-11-17
 zenodo_17773124,DEJA-VU: A multimodal dataset for emotional transition analysis in virtual reality,,eeg_signals,scalp_eeg;ecg;emg;eda,emotion,,2025,CC-BY-4.0,,,,,,,,28,,,,,,,,,,direct_download,open,,300,10_20,Wearable Sensing DSI-7-Flex,emotion_induction,,2026-11-17
 zenodo_17831862,Eegle Data Examples,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
-zenodo_17834565,Example Data for SENSI EEG PREPROC - Bad Channel Detection Module,,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-17
+zenodo_17834565,Example Data for SENSI EEG PREPROC - Bad Channel Detection Module,,,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,unavailable,unavailable,,,,,,,2026-11-17
 zenodo_17927766,Attention Decoding at the Cocktail Party: Hearing Aid Users,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,29,,,,,,,,,,direct_download,open,32,1000,,BrainProducts actiCHamp,other,,2026-11-17
 zenodo_17949130,AuditoryMotorPianoEEG,,eeg_signals,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,motor_execution;other,,2026-11-17
 zenodo_17952230,Attention Decoding at the Cocktail Party: Typical Hearing Individuals,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,29,,,,,,,,,,direct_download,open,32,1000,,BrainProducts actiCHamp,other,,2026-11-17
@@ -2800,7 +2800,7 @@ zenodo_17975303,EEG Measurement on Physical Phantom,,non_human,scalp_eeg,,,2025,
 zenodo_17980607,EEG Motor Intention Dataset for Rehabilitation Oriented Brain Computer Interfaces,,eeg_signals,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,30,,,,,,,,,,direct_download,open,32,,10_20,,motor_execution,,2026-11-17
 zenodo_18029535,"ASEEG: Atieh Schizophrenia EEG, a novel high-quality dataset designed to advance biomarker research",,eeg_signals,scalp_eeg,psychiatry,,2025,CC-BY-4.0,,,,,,,,101,,,,,,,,,,direct_download,open,19,500,10_20,,resting_eyes_closed;resting_eyes_open,,2026-11-17
 zenodo_18032056,Error-Related Potential in static and motion conditions during gait control with an exoskeleton,,eeg_signals,scalp_eeg;eog,bci;neurology,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,28,250,,,motor_imagery;other,,2026-11-17
-zenodo_18076145,neuroTUM-BCI: Cybathlon dataset,,eeg_signals,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,24,,,mBrainTrain Smarting,motor_imagery,,2026-11-17
+zenodo_18076145,neuroTUM-BCI: Cybathlon dataset,,eeg_signals,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,unavailable,unavailable,24,,,mBrainTrain Smarting,motor_imagery,,2026-11-17
 zenodo_18085459,GEMSTONE Research Data: EEG Recordings from Chemogenetic Applications on GAERS,,non_human,scalp_eeg,,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
 zenodo_18087805,neuroTUM-BCI: Cybathlon Dataset,,eeg_signals,scalp_eeg,bci,,2025,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,24,,,mBrainTrain Smarting,motor_imagery,,2026-11-17
 zenodo_18143740,EEG waves and fMRI Signals during REM Sleep,,no_eeg_signals,scalp_eeg,,,2023,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
@@ -2892,7 +2892,7 @@ zenodo_20023200,"EnvironBrainBase: a living database of EEG studies on architect
 zenodo_20037229,Two-tone image presentation and recording using EEG in adults,,,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,request_form_or_email,approval,,,,,,,2026-11-17
 zenodo_20044,Cortical Correlates Of A Translating Point-Light Walker; An Event-Related Potentials Study,,eeg_signals,scalp_eeg,,,2015,CC0-1.0,,,,,,,brainvision,,,,,,,,,,,direct_download,open,,,,,visual_erp,,2026-11-17
 zenodo_20055412,How Benign Sensory Events Become Aversive: Self-Fulfilling Expectations in Affective Experience,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
-zenodo_20078054,Labelled corpus and qualitative-subset extraction tables for A Survey of EEG Applications in Transport: A Taxonomy and Critical Analysis,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-17
+zenodo_20078054,Labelled corpus and qualitative-subset extraction tables for A Survey of EEG Applications in Transport: A Taxonomy and Critical Analysis,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,unavailable,unavailable,,,,,,,2026-11-17
 zenodo_20078450,Labelled corpus and qualitative-subset extraction tables for A Survey of EEG Applications in Transport: A Taxonomy and Critical Analysis,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
 zenodo_20089289,EEG Dataset for Nonlinear Dynamics-Based Characterization of Cognitive States in Engineering Students,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,4,256,,Muse 2,cognitive_task,,2026-11-17
 zenodo_20145134,"COVID-19 Puebla EEG Database: Electroencephalographic Signals of Post-COVID Subjects from Puebla, Mexico",,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,edf,26,,,,,,,,,,direct_download,open,,200,,Contec Medical Systems KT88-2400,resting_unspecified,,2026-11-17
@@ -3081,7 +3081,7 @@ zenodo_24046851,"Video-Guided Hand Gesture Dataset with Simultaneous sEMG and EE
 zenodo_24081948,EEG Character Imagery Dataset for X-LSTM Enhanced Transformer,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,10,,,,,,,,,,direct_download,open,32,,,,other,,2026-11-17
 zenodo_24104006,Residual visual responsivity and network reactivity in Retinitis Pigmentosa - SSVEP,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,eeglab_set,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-17
 zenodo_24109366,Residual visual responsivity and network reactivity in Retinitis Pigmentosa - TMS-EEG,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,other,,2026-11-17
-zenodo_24113577,Benchmark results: The limits of imagined-speech decoding from EEG,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-17
+zenodo_24113577,Benchmark results: The limits of imagined-speech decoding from EEG,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,unavailable,unavailable,,,,,,,2026-11-17
 zenodo_24117685,The limits of imagined-speech decoding from EEG – Benchmark results,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-17
 zenodo_24131369,"EEG Dataset for Classification of Tourette Syndrome, ADHD, and Their Comorbidity in Children",,eeg_signals,scalp_eeg,neurology;psychiatry;development,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,32,,,,,,2026-11-17
 zenodo_24132366,EEG-100: Eyes-Open EEG Recordings from 100 Participants,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,100,,,,,,,,,,direct_download,open,21,500,,NEURON-SPECTRUM-4/P,resting_eyes_open,,2026-11-17

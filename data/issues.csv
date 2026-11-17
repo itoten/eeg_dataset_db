@@ -1,2 +1,6 @@
 dataset_id,issue_no,type,description,n,source_id,locator,checked_on
 bci2020,1,missing_or_mismatched_label,The organizing committee decided not to open the labels of the test data to the public.,,bci2020_osf,we decided not to open the label for the test dataset to the public,2026-11-14
+zenodo_17834565,1,removed_by_provider,Zenodo deleted the record (reason given: retracted; date: 2025-12-27).,,zenodo_17834565_tombstone,"""message"": ""Record deleted"", removal_reason: retracted, removal_date: 2025-12-27",2026-11-17
+zenodo_18076145,1,removed_by_provider,Zenodo deleted the record (reason given: test-record; date: 2025-12-29).,,zenodo_18076145_tombstone,"""message"": ""Record deleted"", removal_reason: test-record, removal_date: 2025-12-29",2026-11-17
+zenodo_20078054,1,removed_by_provider,Zenodo deleted the record (reason given: test-record; date: 2026-05-08).,,zenodo_20078054_tombstone,"""message"": ""Record deleted"", removal_reason: test-record, removal_date: 2026-05-08",2026-11-17
+zenodo_24113577,1,removed_by_provider,Zenodo deleted the record (reason given: retracted; date: 2026-11-10).,,zenodo_24113577_tombstone,"""message"": ""Record deleted"", removal_reason: retracted, removal_date: 2026-11-10",2026-11-17

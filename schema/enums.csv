@@ -249,6 +249,7 @@ issue_type,missing_or_mismatched_label,
 issue_type,differs_from_documentation,
 issue_type,missing_channels_or_metadata,
 issue_type,unusual_signal,"Flat, clipped or otherwise unusual signals"
+issue_type,removed_by_provider,"The distributor removed the record (e.g. a Zenodo tombstone). The dataset stays registered, with what was known before"
 issue_type,other,
 source_kind,paper,Paper or technical report
 source_kind,distribution_page,Page where the data is distributed or described

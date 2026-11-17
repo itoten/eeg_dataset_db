@@ -47974,6 +47974,7 @@ zenodo_17831862/modalities/01,zenodo_17831862,modalities,scalp_eeg,zenodo_182152
 zenodo_17831862/modalities/02,zenodo_17831862,modalities,scalp_eeg,zenodo_17831862_doc757f2a,The folder contains example EEG data to be used in examples and tutorials.,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_17831862/name/01,zenodo_17831862,name,Eegle Data Examples,zenodo_18215269,Record title,2026-11-14,script,current,
 zenodo_17831862/year_published/01,zenodo_17831862,year_published,2026,zenodo_18215269,Published 2026-01-11,2026-11-14,script,current,
+zenodo_17834565/access_routes:zenodo.access_method/01,zenodo_17834565,access_routes:zenodo.access_method,unavailable,zenodo_17834565_tombstone,"""message"": ""Record deleted"", removal_reason: retracted, removal_date: 2025-12-27",2026-11-17,script,current,
 zenodo_17834565/license_spdx/01,zenodo_17834565,license_spdx,CC-BY-4.0,zenodo_17834565,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_17834565/modalities/01,zenodo_17834565,modalities,scalp_eeg,zenodo_17834565,Example Data for SENSI EEG PREPROC - Bad Channel Detection Module,2026-11-17,claude,current,
 zenodo_17834565/name/01,zenodo_17834565,name,Example Data for SENSI EEG PREPROC - Bad Channel Detection Module,zenodo_17834565,Record title,2026-11-17,script,current,
@@ -48120,6 +48121,7 @@ zenodo_18032056/name/01,zenodo_18032056,name,Error-Related Potential in static a
 zenodo_18032056/tasks:errp_static_and_motion_conditions_with_e.paradigms/01,zenodo_18032056,tasks:errp_static_and_motion_conditions_with_e.paradigms,motor_imagery;other,zenodo_18032057,experiments designed to evoke Error-Related Potentials (ErrP) under static and motion conditions,2026-11-15,claude,current,
 zenodo_18032056/tasks:errp_static_and_motion_conditions_with_e.task_name/01,zenodo_18032056,tasks:errp_static_and_motion_conditions_with_e.task_name,ErrP static and motion conditions with exoskeleton (relax / motor imagery),zenodo_18032057,experiments designed to evoke Error-Related Potentials (ErrP) under static and motion conditions,2026-11-15,claude,current,
 zenodo_18032056/year_published/01,zenodo_18032056,year_published,2025,zenodo_18032057,Published 2025-12-23,2026-11-14,script,current,
+zenodo_18076145/access_routes:zenodo.access_method/01,zenodo_18076145,access_routes:zenodo.access_method,unavailable,zenodo_18076145_tombstone,"""message"": ""Record deleted"", removal_reason: test-record, removal_date: 2025-12-29",2026-11-17,script,current,
 zenodo_18076145/acquisition_setups:main.device_manufacturer/01,zenodo_18076145,acquisition_setups:main.device_manufacturer,mBrainTrain,zenodo_18076145,Recorded using an mBrainTrain Smarting EEG.,2026-11-17,claude,current,Audit reviewer; scope: whole dataset
 zenodo_18076145/acquisition_setups:main.device_model/01,zenodo_18076145,acquisition_setups:main.device_model,Smarting,zenodo_18076145,Recorded using an mBrainTrain Smarting EEG.,2026-11-17,claude,current,Audit reviewer; scope: whole dataset
 zenodo_18076145/acquisition_setups:main.n_channels_eeg/01,zenodo_18076145,acquisition_setups:main.n_channels_eeg,24,zenodo_18087805_doc549a18,the commercial 24-channel Smarting mobi EEG device from mBrainTrain,2026-11-17,claude,current,Audit reviewer; scope: paper
@@ -49074,6 +49076,7 @@ zenodo_20055412/license_spdx/01,zenodo_20055412,license_spdx,CC-BY-4.0,zenodo_20
 zenodo_20055412/modalities/01,zenodo_20055412,modalities,scalp_eeg,zenodo_20055413,"eproduce the behavioral and physiological (Study 1: Heart Period, SCR; Study 2: EEG, Heart Period) findings of Study 1 and Study 2",2026-11-14,claude,current,
 zenodo_20055412/name/01,zenodo_20055412,name,How Benign Sensory Events Become Aversive: Self-Fulfilling Expectations in Affective Experience,zenodo_20055413,Record title,2026-11-14,script,current,
 zenodo_20055412/year_published/01,zenodo_20055412,year_published,2026,zenodo_20055413,Published 2026-05-28,2026-11-14,script,current,
+zenodo_20078054/access_routes:zenodo.access_method/01,zenodo_20078054,access_routes:zenodo.access_method,unavailable,zenodo_20078054_tombstone,"""message"": ""Record deleted"", removal_reason: test-record, removal_date: 2026-05-08",2026-11-17,script,current,
 zenodo_20078054/content_class/01,zenodo_20078054,content_class,no_eeg_signals,zenodo_20078054,This deposit contains the four data files that underpin a 2026 survey of 261 EEG-in-transport publications (2020–2026).,2026-11-17,claude,current,
 zenodo_20078054/license_spdx/01,zenodo_20078054,license_spdx,CC-BY-4.0,zenodo_20078054,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_20078054/modalities/01,zenodo_20078054,modalities,scalp_eeg,zenodo_20078054,Labelled corpus and qualitative-subset extraction tables for A Survey of EEG Applications in Transport: A Taxonomy and Critical Analysis,2026-11-17,claude,current,
@@ -51313,6 +51316,7 @@ zenodo_24109366/participant_groups:patients_with_retinitis_pigmen.n_subjects/01,
 zenodo_24109366/tasks:tms_eeg.paradigms/01,zenodo_24109366,tasks:tms_eeg.paradigms,other,zenodo_24109366_docce304c,This dataset contains TMS-EEG recordings,2026-11-17,claude,current,
 zenodo_24109366/tasks:tms_eeg.task_name/01,zenodo_24109366,tasks:tms_eeg.task_name,TMS-EEG,zenodo_24109366_docce304c,This dataset contains TMS-EEG recordings,2026-11-17,claude,current,
 zenodo_24109366/year_published/01,zenodo_24109366,year_published,2026,zenodo_24109367,Published 2026-11-10,2026-11-17,script,current,
+zenodo_24113577/access_routes:zenodo.access_method/01,zenodo_24113577,access_routes:zenodo.access_method,unavailable,zenodo_24113577_tombstone,"""message"": ""Record deleted"", removal_reason: retracted, removal_date: 2026-11-10",2026-11-17,script,current,
 zenodo_24113577/content_class/01,zenodo_24113577,content_class,no_eeg_signals,zenodo_24113577,The record contains the outputs of the benchmark and no EEG data.,2026-11-17,claude,current,
 zenodo_24113577/license_spdx/01,zenodo_24113577,license_spdx,CC-BY-4.0,zenodo_24113577,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_24113577/modalities/01,zenodo_24113577,modalities,scalp_eeg,zenodo_24113577,Benchmark results: The limits of imagined-speech decoding from EEG,2026-11-17,claude,current,
