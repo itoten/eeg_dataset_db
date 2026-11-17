@@ -1692,6 +1692,7 @@ zenodo_10640761,derived_from,nm000385,siena_scalp_eeg_page,"The record says its 
 zenodo_10640761,derived_from,siena_scalp_eeg,siena_scalp_eeg_page,"The record says its data come from the other dataset (audit, quote checked)"
 zenodo_11010554,possibly_same_as,zenodo_17535641,zenodo_11010555,Both print the same name; whether they are the same data is not checked
 zenodo_1185066,possibly_same_as,zenodo_1237653,zenodo_1185067,Both print the same name; whether they are the same data is not checked
+zenodo_1185066,shares_subjects_with,zenodo_1237653,zenodo_1185066_doc5dc8a2,"Pair review (audit, quote checked): Thus, only data from the remaining 18 participants are reported"
 zenodo_1237653,possibly_same_as,zenodo_1185066,zenodo_1237654,Both print the same name; whether they are the same data is not checked
 zenodo_12734986,possibly_same_as,ds005342,zenodo_12734987,Both print the same name; whether they are the same data is not checked
 zenodo_1295935,possibly_same_as,figshare_2068677,zenodo_1295936,Both print the same name; whether they are the same data is not checked
