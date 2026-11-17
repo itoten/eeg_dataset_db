@@ -46,3 +46,42 @@ Zenodo と Hugging Face の候補が多く(合わせて 2,500 件以上)、1 件
 - 本文の正規表現による抽出は、最初の版で標本の約 3 分の 1 が誤りだったため、厳しいパターンに直し、装置メーカーは自由文から読まないことにした。
 - まだ空欄が多い: 研究分野・時間・電極配置・機器(Zenodo・figshare・Dataverse・Hugging Face はほぼ全件)、パラダイム、被験者群、課題の手順。これらは論文や README の全文を読まないと確実に埋められない。`python3 tools/gaps.py` で数字を見る。
 - 未着手の情報源: OSF・Kaggle・Dryad・Mendeley Data の検索、Zenodo の検索語(brain-computer interface 以降)。
+
+## 5. 2026-11-17 時点の状況(§1 の表はこの節で上書き)
+
+DB は 3,372 件。全件を、資料を読む照合担当(AI)の結果と、引用をページで確かめるスクリプト(`tools/audit/`)に通した。例外は下の「照合していないもの」。
+
+| 配布元(ID の先頭) | 件数 | EEG 信号あり | EEG 信号なし | 人以外 | 未判定 |
+|---|---|---|---|---|---|
+| OpenNeuro(`ds`) | 551 | 498 | 1 | 11 | 41 |
+| NEMAR(`nm`) | 315 | 296 | 5 | 0 | 14 |
+| Zenodo | 869 | 531 | 136 | 18 | 184 |
+| figshare | 142 | 92 | 35 | 8 | 7 |
+| Dataverse(`dv_`) | 102 | 82 | 13 | 1 | 6 |
+| Mendeley Data | 242 | 143 | 61 | 9 | 29 |
+| OSF | 241 | 121 | 68 | 5 | 47 |
+| Dryad | 18 | 6 | 4 | 5 | 3 |
+| Hugging Face(`hf_`) | 7 | 6 | 0 | 0 | 1 |
+| Kaggle(仮登録) | 751 | 0 | 0 | 0 | 751 |
+| その他(PhysioNet・BNCI・TUH・SEED・個別) | 134 | 130 | 0 | 0 | 4 |
+
+- 検索した配布元: OpenNeuro、NEMAR、PhysioNet、BNCI、Zenodo、figshare、Dataverse、Hugging Face、Dryad、Mendeley Data(DataCite 経由)、OSF、Kaggle。道具は `tools/harvest/`(`repo_search.py`・`repo_register.py`・`zenodo_datacite.py` を 11-16〜17 に追加)。
+- OSF は、題名に EEG の語がある 1,244 件のうち、区分が data か、題名に data・dataset・recordings などがある 243 件だけを登録した。残りは `cache/osf/search.json` にある。
+- Dryad は 47 件が該当し、うち 29 件は Zenodo の複製が登録済みだったので足していない。
+- Zenodo は、zenodo.org がこのネットワークを拒否する(403)ので、残りの検索語は DataCite の API で流した(35 件を追加)。DataCite にはファイル一覧がなく、新しい記録には公開・制限の別もないので、その入手方法は空欄。
+
+照合していないもの:
+
+- Kaggle の 751 件(仮登録。[discussions/0003](../discussions/0003-register-unusable-datasets.md) §6)。
+- DataCite 経由で足した Zenodo の 35 件(バッチ `zdc_000`・`zdc_001`。照合担当が利用上限で止まった)。
+
+残っていること:
+
+- 未判定(Kaggle 以外で約 340 件)。大半は、照合担当が「資料からは判断がつかない」としたもの。
+- 「同じかもしれない」(`possibly_same_as`)の関係のうち Kaggle 以外の 57 組。どれも資料で確かめていない。
+- Zenodo のファイル一覧の確認(zenodo.org が開けるネットワークか、maintainer のブラウザが要る)。
+- こちらから開けなかった配布ページ: DEAP、EPFLP300、ISRUC、HMS、NMT、NATVIEW、Sosulski、Brandl、MODMA。
+- 資料の食い違い(`views/discrepancies.csv`)は、両方の値を出典つきで残してあり、DB としては直さない。
+- maintainer の判断待ち: 範囲の線引き(脊髄の記録、DBS の単一ニューロン、Neuropixels、図用の配列だけのもの)、中身のない置き場所のデータセット、動物の EEG を探すかどうか(`cache/audit/state.json` の `for_maintainer`)。
+
+11-16〜17 に直した誤り: iEEG のメタデータの `EEGChannelCount: 0` を「EEG 0 チャネル」と読んでいた 44 件、ReferencesAndLinks に載っているだけの論文をデータセットの論文としていた 82 件、既存データセット(THINGS-EEG2・ZuCo)と同じ配布ページの OSF の 2 件。
