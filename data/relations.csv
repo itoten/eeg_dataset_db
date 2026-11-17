@@ -1728,6 +1728,7 @@ zenodo_17631682,possibly_same_as,zenodo_7221843,zenodo_17631683,Both print the s
 zenodo_17980607,possibly_same_as,osf_583vx,zenodo_17980608,Both print the same name; whether they are the same data is not checked
 zenodo_18076145,possibly_same_as,zenodo_18087805,zenodo_18076145,Both print the same name; whether they are the same data is not checked
 zenodo_18087805,possibly_same_as,zenodo_18076145,zenodo_18087805_doc549a18,Both print the same name; whether they are the same data is not checked
+zenodo_18686052,derived_from,ds007427,zenodo_18686052_doce4ad13,"Pair review (audit, quote checked): Raw EEG data are publicly available in their original repositories and are referenced in the associated manuscript."
 zenodo_18686052,possibly_same_as,ds007427,zenodo_18686053,Both print the same name; whether they are the same data is not checked
 zenodo_19440996,possibly_same_as,nm000280,zenodo_20848097,Both print the same name; whether they are the same data is not checked
 zenodo_20078054,possibly_same_as,zenodo_20078450,zenodo_20078054,Both print the same name; whether they are the same data is not checked
