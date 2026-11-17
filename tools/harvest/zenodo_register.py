@@ -60,6 +60,9 @@ def fetch(rid):
     return None
 
 
+RIGHTS = {"open": "info:eu-repo/semantics/openAccess", "restricted": "info:eu-repo/semantics/restrictedAccess"}
+
+
 def text(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
@@ -87,7 +90,7 @@ def main():
         if m.get("resource_type", {}).get("type") != "dataset":
             skipped.append((d["id"], "not a dataset record"))
             continue
-        if m.get("access_right") not in ("open", "restricted"):
+        if m.get("access_right") not in ("open", "restricted") and not (d.get("_datacite") and not m.get("access_right")):
             skipped.append((d["id"], "not open or restricted"))
             continue
         if re.search(r"re-?host|re-?upload|mirror of|copy of|converted (?:from|to)|BIDS (?:version|conversion|format) of", title + " " + desc, re.I):
@@ -102,9 +105,11 @@ def main():
             continue
         R = B.dataset(f"zenodo_{c}")
         url = f"https://zenodo.org/records/{d['id']}"
-        src = R.source(f"zenodo_{d['id']}", url, "repository_record", "authors", title=title, doi=d.get("doi") or "",
+        dc = d.get("_datacite")  # read from DataCite (zenodo_datacite.py): cite the record a reader can open there
+        src = R.source(f"zenodo_{d['id']}", f"https://api.datacite.org/dois/{d['doi']}" if dc else url, "repository_record", "authors", title=title, doi=d.get("doi") or "",
                        describes_version=f"version {m.get('version') or d['id']}",
-                       identity_basis=f"Zenodo record {d['id']} (concept {c})", note="Read through the Zenodo API; the record creators were not compared with the authors of a paper")
+                       identity_basis=f"Zenodo record {d['id']} (concept {c})", note=("Read through the DataCite API (the DOI record of the Zenodo deposit)" if dc else "Read through the Zenodo API")
+                       + "; the record creators were not compared with the authors of a paper")
         R.link(src, "distribution")
         R.alias(f"zenodo:{c}", "catalogue_id", src)
         R.ev("name", title, src, "Record title", "script")
@@ -116,11 +121,13 @@ def main():
         if (m.get("publication_date") or "")[:4].isdigit():
             R.ev("year_published", m["publication_date"][:4], src, f"Published {m['publication_date']}", "script")
         acc = m.get("access_right")
+        if dc and not acc:  # DataCite does not say whether the files are open
+            R.child("access_routes", "zenodo", route_kind="repository", url=url)
         if acc in ACCESS:
             R.child("access_routes", "zenodo", route_kind="repository", url=url)
-            R.ev("access_routes:zenodo.access_method", ACCESS[acc][0], src, f"access_right: {acc}", "script")
-            R.ev("access_routes:zenodo.human_steps", ACCESS[acc][1], src, f"access_right: {acc}", "script")
-            if acc == "open":
+            R.ev("access_routes:zenodo.access_method", ACCESS[acc][0], src, f"{RIGHTS[acc] if dc else 'access_right: ' + acc}", "script")
+            R.ev("access_routes:zenodo.human_steps", ACCESS[acc][1], src, f"{RIGHTS[acc] if dc else 'access_right: ' + acc}", "script")
+            if acc == "open" and not dc:
                 R.ev("access_routes:zenodo.automation_tool", "zenodo-api", src, "Files listed in the record API with download links", "script")
     import collections
     norm = collections.defaultdict(list)

@@ -1,7 +1,8 @@
 """Write audit batches (cache/audit/batches/<name>_<n>.json) for reviewers who read the sources.
 
-Usage: python3 tools/audit/make_batches.py GROUP SIZE
+Usage: python3 tools/audit/make_batches.py GROUP SIZE [TAG IDS_JSON]
 GROUP: a dataset_id prefix (zenodo_, figshare_, dv_, hf_, dryad_, mendeley_, osf_, kaggle_, ds, nm) or "other" (everything else).
+With TAG and IDS_JSON (a JSON list of dataset_ids), only those datasets are written, as <TAG>_<n>.json.
 Each item carries the dataset's current values and its linked sources, so a reviewer can check them.
 """
 import csv, json, sys
@@ -35,9 +36,12 @@ def main():
             "montage_systems", "paradigms", "hours_reported", "size_gb_reported", "best_access_method"]
     items = [{"dataset_id": r["dataset_id"], **{k: r[k] for k in keys}, "relations": rel[r["dataset_id"]], "sources": links[r["dataset_id"]]}
              for r in wide if group_of(r["dataset_id"]) == group]
+    only = set(json.loads(Path(sys.argv[4]).read_text())) if len(sys.argv) > 4 else None
+    if only is not None:
+        items = [x for x in items if x["dataset_id"] in only]
     out = ROOT / "cache/audit/batches"
     out.mkdir(parents=True, exist_ok=True)
-    tag = group.rstrip("_")
+    tag = sys.argv[3] if len(sys.argv) > 3 else group.rstrip("_")
     for n in range(0, len(items), size):
         (out / f"{tag}_{n // size:03d}.json").write_text(json.dumps(items[n:n + size], ensure_ascii=False, indent=1))
     print(len(items), "items in", (len(items) + size - 1) // size, "batches")
