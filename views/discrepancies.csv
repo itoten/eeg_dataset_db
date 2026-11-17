@@ -1078,6 +1078,8 @@ osf_m45j2,acquisition_setups:main.device_model,conflicting,CGX Quick-32r,primary
 osf_m45j2,acquisition_setups:main.device_model,conflicting,CGX-32,primary,https://osf.io/download/wvuh8/,Audit reviewer; scope: per readme (conflicts with wiki)
 osf_tq4u8,acquisition_setups:main.electrode_type,conflicting,dry,secondary,https://osf.io/download/dh5wb/,Audit reviewer; scope: in-ear electrodes
 osf_tq4u8,acquisition_setups:main.electrode_type,conflicting,wet_gel,secondary,https://osf.io/download/dh5wb/,Audit reviewer; scope: three scalp channels
+osf_ue9dk,acquisition_setups:main.sampling_rate_hz,conflicting,10000,primary,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5281636/,Audit reviewer; scope: recorded
+osf_ue9dk,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://osf.io/download/h4qr2/,Audit reviewer; scope: distributed
 seed,acquisition_setups:main.device_manufacturer,conflicting,ESI,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,
 seed,acquisition_setups:main.device_manufacturer,conflicting,ESI NeuroScan,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,Audit reviewer; scope: not given
 seed,acquisition_setups:main.sampling_rate_hz,conflicting,1000,primary,https://bcmi.sjtu.edu.cn/home/seed/seed.html,
