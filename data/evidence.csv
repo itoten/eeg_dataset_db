@@ -43756,6 +43756,8 @@ zenodo_10068095/license_spdx/01,zenodo_10068095,license_spdx,CC-BY-4.0,zenodo_10
 zenodo_10068095/modalities/01,zenodo_10068095,modalities,scalp_eeg,zenodo_10068096,Data for EEG Electrode Localization with 3D iPhone Scanning Using Point-Cloud Electrode Sele,2026-11-14,claude,current,
 zenodo_10068095/name/01,zenodo_10068095,name,Data for EEG Electrode Localization with 3D iPhone Scanning Using Point-Cloud Electrode Selection (PC-ES),zenodo_10068096,Record title,2026-11-14,script,current,
 zenodo_10068095/year_published/01,zenodo_10068095,year_published,2023,zenodo_10068096,Published 2023-11-03,2026-11-14,script,current,
+zenodo_10074197/access_routes:zenodo.access_method/01,zenodo_10074197,access_routes:zenodo.access_method,request_form_or_email,zenodo_10136565,access_right: restricted,2026-11-17,script,current,
+zenodo_10074197/access_routes:zenodo.human_steps/01,zenodo_10074197,access_routes:zenodo.human_steps,Request access on the Zenodo record page; the uploader approves requests,zenodo_10136565,access_right: restricted,2026-11-17,script,current,
 zenodo_10074197/license_spdx/01,zenodo_10074197,license_spdx,CC-BY-4.0,zenodo_10136565,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_10074197/modalities/01,zenodo_10074197,modalities,scalp_eeg,zenodo_10136565,Drive with Your Brain: Personalized Intelligent Driving with DR-EEG Decoding and Situational Embeddings,2026-11-17,claude,current,
 zenodo_10074197/name/01,zenodo_10074197,name,Drive with Your Brain: Personalized Intelligent Driving with DR-EEG Decoding and Situational Embeddings,zenodo_10136565,Record title,2026-11-17,script,current,
@@ -44231,6 +44233,7 @@ zenodo_10797878/access_routes:zenodo.automation_tool/01,zenodo_10797878,access_r
 zenodo_10797878/access_routes:zenodo.human_steps/01,zenodo_10797878,access_routes:zenodo.human_steps,none,zenodo_10797879,access_right: open,2026-11-14,script,current,
 zenodo_10797878/content_class/01,zenodo_10797878,content_class,eeg_signals,zenodo_10797878_doc9db5fa,"This study constructed a Mandarin-Speech EEG (MSEEG) dataset including imagined, intended, and spoken speech modalities from 10 native speakers.",2026-11-16,claude,current,
 zenodo_10797878/domains/01,zenodo_10797878,domains,bci,zenodo_10797878_doc9db5fa,MSEEG: An EEG-based Dataset for Mandarin Imagined Speech BCI,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_10797878/file_formats/01,zenodo_10797878,file_formats,eeglab_set,zenodo_10797879,files: S9-mono-0.5-70 ICA ALL.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_10797878/license_spdx/01,zenodo_10797878,license_spdx,CC-BY-4.0,zenodo_10797879,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_10797878/modalities/01,zenodo_10797878,modalities,scalp_eeg,zenodo_10797879,MSEEG: An EEG-based Dataset for Mandarin Imagined Speech BCI,2026-11-14,claude,current,
 zenodo_10797878/modalities/02,zenodo_10797878,modalities,scalp_eeg,zenodo_10797878_doc9db5fa,This study constructed a Mandarin-Speech EEG (MSEEG) dataset,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -44707,6 +44710,7 @@ zenodo_1237653/acquisition_setups:main.n_channels_eeg/01,zenodo_1237653,acquisit
 zenodo_1237653/acquisition_setups:main.reference/01,zenodo_1237653,acquisition_setups:main.reference,Cz electrode,zenodo_1237653_docb262fd,with active electrodes positioned according to the 10-20 EEG International System and referenced to the Cz electrode,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_1237653/acquisition_setups:main.sampling_rate_hz/01,zenodo_1237653,acquisition_setups:main.sampling_rate_hz,1000,zenodo_1237653_docb262fd,"EEG data were recorded at 1000 Hz using a 30-channel actiCHamp System (Brain Products GmbH, Munich, Germany)",2026-11-15,claude,current,Audit reviewer; scope: recorded
 zenodo_1237653/domains/01,zenodo_1237653,domains,cognitive;resting_state,zenodo_1237653_docb262fd,We used a modified version of the Eriksen flanker task based on that reported in Eriksen and Eriksen (1974).,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_1237653/file_formats/01,zenodo_1237653,file_formats,eeglab_set,zenodo_1237654,files: 902_CA_Preprocessed.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_1237653/license_spdx/01,zenodo_1237653,license_spdx,CC-BY-4.0,zenodo_1237654,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_1237653/modalities/01,zenodo_1237653,modalities,scalp_eeg,zenodo_1237654,EEG recording and analysis EEG data were recorded at 1000 Hz using a 30-channel actiCHamp System (Brain Produc,2026-11-14,claude,superseded,superseded by zenodo_1237653/modalities/02
 zenodo_1237653/modalities/02,zenodo_1237653,modalities,scalp_eeg;eog,zenodo_1237653_docb262fd,Horizontal electrooculograms (EOG) were recorded by bipolar external electrodes for the offline detection of ocular artifacts.,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -44803,6 +44807,7 @@ zenodo_1280683/access_routes:zenodo.automation_tool/01,zenodo_1280683,access_rou
 zenodo_1280683/access_routes:zenodo.human_steps/01,zenodo_1280683,access_routes:zenodo.human_steps,none,zenodo_4940267,access_right: open,2026-11-14,script,current,
 zenodo_1280683/content_class/01,zenodo_1280683,content_class,eeg_signals,zenodo_1280683_doc33aff3,This dataset contains EEG recordings from human neonates and the visual interpretation of the EEG by the human expert.,2026-11-16,claude,current,
 zenodo_1280683/domains/01,zenodo_1280683,domains,clinical;epilepsy;development,zenodo_1280683_doc33aff3,EEGs were annotated by three experts for the presence of seizures.,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_1280683/file_formats/01,zenodo_1280683,file_formats,edf,zenodo_4940267,files: eeg23.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_1280683/license_spdx/01,zenodo_1280683,license_spdx,CC-BY-4.0,zenodo_4940267,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_1280683/modalities/01,zenodo_1280683,modalities,scalp_eeg,zenodo_4940267,A dataset of neonatal EEG recordings with seizures annotations,2026-11-14,claude,current,
 zenodo_1280683/n_subjects_reported/01,zenodo_1280683,n_subjects_reported,79,zenodo_1280683_doc33aff3,Multi-channel EEG was recorded from 79 term neonates admitted to the neonatal intensive care unit (NICU) at the Helsinki University Hospital.,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -44859,6 +44864,7 @@ zenodo_1308614/access_routes:zenodo.access_method/01,zenodo_1308614,access_route
 zenodo_1308614/access_routes:zenodo.automation_tool/01,zenodo_1308614,access_routes:zenodo.automation_tool,zenodo-api,zenodo_1308615,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_1308614/access_routes:zenodo.human_steps/01,zenodo_1308614,access_routes:zenodo.human_steps,none,zenodo_1308615,access_right: open,2026-11-14,script,current,
 zenodo_1308614/domains/01,zenodo_1308614,domains,cognitive,zenodo_1308614_docb95c36,to test whether sustained attention would be impaired during cycling after tramadol intake (Experiment 2),2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_1308614/file_formats/01,zenodo_1308614,file_formats,eeglab_set,zenodo_1308615,files: 08TRAWADA_TRA.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_1308614/license_spdx/01,zenodo_1308614,license_spdx,CC-BY-4.0,zenodo_1308615,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_1308614/modalities/01,zenodo_1308614,modalities,scalp_eeg,zenodo_1308615,Electroencephalography measures (EEG) were recorded throughout the session,2026-11-14,claude,current,
 zenodo_1308614/modalities/02,zenodo_1308614,modalities,scalp_eeg,zenodo_1308614_docb95c36,Electroencephalography measures (EEG) were recorded throughout the session.,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -45027,6 +45033,7 @@ zenodo_13626921/acquisition_setups:main.electrode_type/01,zenodo_13626921,acquis
 zenodo_13626921/acquisition_setups:main.montage_system/01,zenodo_13626921,acquisition_setups:main.montage_system,10_20,zenodo_13626921_docd9cb2b,Electrodes were positioned according to the international 10–20 system.,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_13626921/acquisition_setups:main.reference/01,zenodo_13626921,acquisition_setups:main.reference,CMS/DRL references were placed at P9/P10 locations,zenodo_13626921_docd9cb2b,"CMS/DRL references were placed at P9/P10 locations, respectively.",2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_13626921/domains/01,zenodo_13626921,domains,bci;motor,zenodo_13626921_docd9cb2b,"between the brain and mobile devices, which can be named as brain–mobile phone",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_13626921/file_formats/01,zenodo_13626921,file_formats,eeglab_set,zenodo_13626922,files: D04_s1.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_13626921/modalities/01,zenodo_13626921,modalities,scalp_eeg,zenodo_13626922,The raw EEG signals were recorded using the Emotiv EPOC Flex (Model 1,2026-11-14,claude,current,
 zenodo_13626921/modalities/02,zenodo_13626921,modalities,scalp_eeg,zenodo_13626921_docd9cb2b,The raw EEG signals were recorded using the Emotiv EPOC Flex (Model 1.0),2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_13626921/n_subjects_reported/01,zenodo_13626921,n_subjects_reported,8,zenodo_13626921_docd9cb2b,The data were taken from 8 subjects (abbreviated as D01 to D08) between the,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -45299,6 +45306,7 @@ zenodo_1404655/acquisition_setups:main.reference/01,zenodo_1404655,acquisition_s
 zenodo_1404655/acquisition_setups:main.sampling_rate_hz/01,zenodo_1404655,acquisition_setups:main.sampling_rate_hz,1000,zenodo_1404655_docc4a563,EEG data were recorded at 1000 Hz,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_1404655/content_class/01,zenodo_1404655,content_class,eeg_signals,zenodo_1404655_docc4a563,The EEG and behavioral data are available at the ZENODO repository: https://zenodo.org/record/1404656#.W4ZeM5P-jOQ.,2026-11-16,claude,current,
 zenodo_1404655/domains/01,zenodo_1404655,domains,cognitive,zenodo_1404655_doc09baa0,participants performed an oddball task for 20’ while pedalling,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_1404655/file_formats/01,zenodo_1404655,file_formats,brainvision,zenodo_1404656,files: 31EEG_CA.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_1404655/license_spdx/01,zenodo_1404655,license_spdx,CC-BY-4.0,zenodo_1404656,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_1404655/modalities/01,zenodo_1404655,modalities,scalp_eeg,zenodo_1404656,"Furthermore, they are able to keep a fixed posture over time, which reduces EEG movement artifacts considerably",2026-11-14,claude,current,
 zenodo_1404655/modalities/02,zenodo_1404655,modalities,scalp_eeg,zenodo_1404655_docc4a563,EEG data were recorded at 1000 Hz using a 30-channel acti-CHamp System,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -45506,6 +45514,7 @@ zenodo_14506178/access_routes:zenodo.access_method/01,zenodo_14506178,access_rou
 zenodo_14506178/access_routes:zenodo.automation_tool/01,zenodo_14506178,access_routes:zenodo.automation_tool,zenodo-api,zenodo_14506179,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_14506178/access_routes:zenodo.human_steps/01,zenodo_14506178,access_routes:zenodo.human_steps,none,zenodo_14506179,access_right: open,2026-11-14,script,current,
 zenodo_14506178/content_class/01,zenodo_14506178,content_class,eeg_signals,zenodo_14506178_docb790fd,"gs_vpXX_prepro.set: Raw EEG data after start and end trigger correction (GS00), but before preprocessing.",2026-11-16,claude,current,
+zenodo_14506178/file_formats/01,zenodo_14506178,file_formats,eeglab_set,zenodo_14506179,files: gs_vp19_prep.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_14506178/license_spdx/01,zenodo_14506178,license_spdx,CC-BY-4.0,zenodo_14506179,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_14506178/modalities/01,zenodo_14506178,modalities,scalp_eeg,zenodo_14506179,How do humans process audiovisual cues for task-switching whilst walking? An EEG/ERP study,2026-11-14,claude,current,
 zenodo_14506178/modalities/02,zenodo_14506178,modalities,scalp_eeg,zenodo_14506178_docb790fd,"gs_vpXX_prepro.set: Raw EEG data after start and end trigger correction (GS00), but before preprocessing.",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -45542,6 +45551,8 @@ zenodo_14590636/participant_groups:healthy_individuals.n_subjects/01,zenodo_1459
 zenodo_14590636/tasks:listening_to_songs_spoken_and_hummed_ver.paradigms/01,zenodo_14590636,tasks:listening_to_songs_spoken_and_hummed_ver.paradigms,language;passive_viewing,zenodo_14590636_doc882f0d,"It includes EEG recordings collected while participants listened to 18 songs, together with their spoken and hummed versions.",2026-11-15,claude,current,
 zenodo_14590636/tasks:listening_to_songs_spoken_and_hummed_ver.task_name/01,zenodo_14590636,tasks:listening_to_songs_spoken_and_hummed_ver.task_name,"listening to songs, spoken and hummed versions",zenodo_14590636_doc882f0d,"It includes EEG recordings collected while participants listened to 18 songs, together with their spoken and hummed versions.",2026-11-15,claude,current,
 zenodo_14590636/year_published/01,zenodo_14590636,year_published,2024,zenodo_14590637,Published 2024-03-03,2026-11-14,script,current,
+zenodo_14615095/access_routes:zenodo.access_method/01,zenodo_14615095,access_routes:zenodo.access_method,request_form_or_email,zenodo_14615096,access_right: restricted,2026-11-17,script,current,
+zenodo_14615095/access_routes:zenodo.human_steps/01,zenodo_14615095,access_routes:zenodo.human_steps,Request access on the Zenodo record page; the uploader approves requests,zenodo_14615096,access_right: restricted,2026-11-17,script,current,
 zenodo_14615095/license_spdx/01,zenodo_14615095,license_spdx,CC-BY-NC-4.0,zenodo_14615096,License: cc-by-nc-4.0,2026-11-17,script,current,
 zenodo_14615095/modalities/01,zenodo_14615095,modalities,scalp_eeg,zenodo_14615096,The effect of DMN stimulation will be assessed with rs-fMRI and TMS-EEG,2026-11-17,claude,current,
 zenodo_14615095/name/01,zenodo_14615095,name,"Dataset for the project ""Targeting default mode network dysfunction in persons at risk of Alzheimer's disease with noninvasive techniques"" (GR-2018-12368250)",zenodo_14615096,Record title,2026-11-17,script,current,
@@ -45840,6 +45851,7 @@ zenodo_14967040/acquisition_setups:main.n_channels_eeg/02,zenodo_14967040,acquis
 zenodo_14967040/acquisition_setups:main.sampling_rate_hz/01,zenodo_14967040,acquisition_setups:main.sampling_rate_hz,1000,zenodo_14967041,"Description: SET format (.set files), derived from 128-channel EEG data (sampled at 1000 Hz) and localized to 68 cortical nodes of the Desikan-Killiany atlas using a",2026-11-14,script,current,
 zenodo_14967040/acquisition_setups:main.sampling_rate_hz/02,zenodo_14967040,acquisition_setups:main.sampling_rate_hz,1000,zenodo_14967040_doc61b904,derived from 128-channel EEG data (sampled at 1000 Hz),2026-11-15,claude,current,Audit reviewer; scope: recorded
 zenodo_14967040/content_class/01,zenodo_14967040,content_class,eeg_signals,zenodo_14967040_doc61b904,This dataset contains deidentified raw source-localized electroencephalography (EEG) tracings,2026-11-16,claude,current,
+zenodo_14967040/file_formats/01,zenodo_14967040,file_formats,eeglab_set,zenodo_14967041,files: D1409_chirp-ST_postcomp.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_14967040/license_spdx/01,zenodo_14967040,license_spdx,CC-BY-4.0,zenodo_14967041,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_14967040/modalities/01,zenodo_14967040,modalities,scalp_eeg,zenodo_14967041,"This dataset contains deidentified raw source-localized electroencephalography (EEG) tracings from the study ""Frontal Cortex Hyperactivation and Gamma Desynchrony",2026-11-14,claude,current,
 zenodo_14967040/name/01,zenodo_14967040,name,Frontal Cortex Hyperactivation and Gamma Desynchrony in Fragile X Syndrome: Correlates of Auditory Hypersensitivity,zenodo_14967041,Record title,2026-11-14,script,current,
@@ -45908,6 +45920,8 @@ zenodo_15010967/participant_groups:hc.n_subjects/01,zenodo_15010967,participant_
 zenodo_15010967/tasks:heart_evoked_potential_task_interoceptio.paradigms/01,zenodo_15010967,tasks:heart_evoked_potential_task_interoceptio.paradigms,other,zenodo_15010967_doccce72d,participants had to focus either on their own heartbeat (interoception condition) or on a sound (exteroception condition),2026-11-15,claude,current,
 zenodo_15010967/tasks:heart_evoked_potential_task_interoceptio.task_name/01,zenodo_15010967,tasks:heart_evoked_potential_task_interoceptio.task_name,Heart Evoked Potential task (interoception / exteroception),zenodo_15010967_doccce72d,participants had to focus either on their own heartbeat (interoception condition) or on a sound (exteroception condition),2026-11-15,claude,current,
 zenodo_15010967/year_published/01,zenodo_15010967,year_published,2025,zenodo_15010968,Published 2025-03-12,2026-11-14,script,current,
+zenodo_15016472/access_routes:zenodo.access_method/01,zenodo_15016472,access_routes:zenodo.access_method,request_form_or_email,zenodo_15016473,access_right: restricted,2026-11-17,script,current,
+zenodo_15016472/access_routes:zenodo.human_steps/01,zenodo_15016472,access_routes:zenodo.human_steps,Request access on the Zenodo record page; the uploader approves requests,zenodo_15016473,access_right: restricted,2026-11-17,script,current,
 zenodo_15016472/license_spdx/01,zenodo_15016472,license_spdx,CC-BY-4.0,zenodo_15016473,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_15016472/modalities/01,zenodo_15016472,modalities,scalp_eeg,zenodo_15016473,EEG data analysis repository for Shalu et al,2026-11-17,claude,current,
 zenodo_15016472/name/01,zenodo_15016472,name,EEG data analysis repository for Shalu et al. Similar but different: ERP evidence on the processing of mental and physical experiencer verbs in Malayalam.,zenodo_15016473,Record title,2026-11-17,script,current,
@@ -45945,6 +45959,7 @@ zenodo_15086710/acquisition_setups:main.reference/01,zenodo_15086710,acquisition
 zenodo_15086710/acquisition_setups:main.sampling_rate_hz/01,zenodo_15086710,acquisition_setups:main.sampling_rate_hz,2048,zenodo_15086710_docd7e3d1,Original Sampling Rate: 2048 Hz,2026-11-15,claude,conflicting,Audit reviewer; scope: recorded
 zenodo_15086710/acquisition_setups:main.sampling_rate_hz/02,zenodo_15086710,acquisition_setups:main.sampling_rate_hz,256,zenodo_15086710_docd7e3d1,Downsample to 256 Hz,2026-11-15,claude,conflicting,Audit reviewer; scope: distributed (preprocessed epochs)
 zenodo_15086710/content_class/01,zenodo_15086710,content_class,eeg_signals,zenodo_15086710_docd7e3d1,This repository contains EEG data,2026-11-16,claude,current,
+zenodo_15086710/file_formats/01,zenodo_15086710,file_formats,fif,zenodo_15086711,files: mk17p.fif,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_15086710/license_spdx/01,zenodo_15086710,license_spdx,CC-BY-4.0,zenodo_15086711,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_15086710/modalities/01,zenodo_15086710,modalities,scalp_eeg,zenodo_15086711,EEG Dataset on the Effects of Interoception in Music Listening and Recall,2026-11-14,claude,current,
 zenodo_15086710/n_subjects_reported/01,zenodo_15086710,n_subjects_reported,22,zenodo_15086710_docd7e3d1,Participants: 22 in total,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -46076,6 +46091,7 @@ zenodo_15332757/access_routes:zenodo.automation_tool/01,zenodo_15332757,access_r
 zenodo_15332757/access_routes:zenodo.human_steps/01,zenodo_15332757,access_routes:zenodo.human_steps,none,zenodo_15332758,access_right: open,2026-11-14,script,current,
 zenodo_15332757/content_class/01,zenodo_15332757,content_class,eeg_signals,zenodo_15332757_docfd2fdd,The structure and labeling of stimulus triggers embedded in the EEG recordings are critical for interpreting the dataset and replicating our findings.,2026-11-16,claude,current,
 zenodo_15332757/domains/01,zenodo_15332757,domains,bci,zenodo_15332757_docfd2fdd,Auditory Tagging: Improving Performance of Auditory Brain-Computer Interfaces by Modulating Stimuli,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_15332757/file_formats/01,zenodo_15332757,file_formats,brainvision,zenodo_15332758,files: sub-06_ses-01_2.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_15332757/license_spdx/01,zenodo_15332757,license_spdx,CC-BY-4.0,zenodo_15332758,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_15332757/modalities/01,zenodo_15332757,modalities,scalp_eeg,zenodo_15332758,The structure and labeling of stimulus triggers embedded in the EEG recordings are critical for interpreting the dataset and replicating our findin,2026-11-14,claude,current,
 zenodo_15332757/modalities/02,zenodo_15332757,modalities,scalp_eeg,zenodo_15332757_docfd2fdd,stimulus triggers embedded in the EEG recordings,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -46094,6 +46110,7 @@ zenodo_15341473/acquisition_setups:main.n_channels_eeg/01,zenodo_15341473,acquis
 zenodo_15341473/acquisition_setups:main.sampling_rate_hz/01,zenodo_15341473,acquisition_setups:main.sampling_rate_hz,2048,zenodo_15341473_doc98ecd4,The sampling frequency is 2048 Hz.,2026-11-15,claude,current,Audit reviewer; scope: recorded
 zenodo_15341473/content_class/01,zenodo_15341473,content_class,eeg_signals,zenodo_15341473_doc98ecd4,"This dataset contains raw, anonymised EEG data collected from 35 healthy participants that took part in an auditory roving oddball task.",2026-11-16,claude,current,
 zenodo_15341473/domains/01,zenodo_15341473,domains,perception,zenodo_15341473_doc98ecd4,took part in an auditory roving oddball task,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_15341473/file_formats/01,zenodo_15341473,file_formats,bdf,zenodo_15341474,files: hm_303.bdf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_15341473/license_spdx/01,zenodo_15341473,license_spdx,CC-BY-4.0,zenodo_15341474,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_15341473/modalities/01,zenodo_15341473,modalities,scalp_eeg,zenodo_15341474,"This dataset contains raw, anonymised EEG data collected from 35 healthy participants that took part in an auditory rovin",2026-11-14,claude,superseded,superseded by zenodo_15341473/modalities/02
 zenodo_15341473/modalities/02,zenodo_15341473,modalities,scalp_eeg;eog,zenodo_15341473_doc98ecd4,"Data was collected with an active BioSemi EEG, using 64 scalp channels and 2 EOG channels.",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -46348,6 +46365,7 @@ zenodo_15599285/acquisition_setups:main.device_model/01,zenodo_15599285,acquisit
 zenodo_15599285/acquisition_setups:main.sampling_rate_hz/01,zenodo_15599285,acquisition_setups:main.sampling_rate_hz,1000,zenodo_15599285_doc8a49ad,"channels POz, PO3, PO4, Oz, O9, and O10 at a sampling rate of 1000 Hz using a Brain Products EasyCap and",2026-11-15,claude,current,Audit reviewer; scope: recorded
 zenodo_15599285/content_class/01,zenodo_15599285,content_class,eeg_signals,zenodo_15599285_doc9fc579,"subjectX.eeg, subjectX.vhdr, subjectX.vmrk the raw EEG recordings of the experiment",2026-11-16,claude,current,
 zenodo_15599285/domains/01,zenodo_15599285,domains,bci,zenodo_15599285_doc8a49ad,Brain-Computer Interfaces (BCIs) are systems that give their users communication and control channels,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_15599285/file_formats/01,zenodo_15599285,file_formats,brainvision,zenodo_15599286,files: subject1.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_15599285/license_spdx/01,zenodo_15599285,license_spdx,CC-BY-4.0,zenodo_15599286,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_15599285/modalities/01,zenodo_15599285,modalities,scalp_eeg,zenodo_15599286,"eeg , subjectX",2026-11-14,claude,current,
 zenodo_15599285/n_subjects_reported/01,zenodo_15599285,n_subjects_reported,5,zenodo_15599285_doc9fc579,"Five subjects were recorded: subject1, subject2, subject3, subject4, and subject5.",2026-11-15,claude,current,Audit reviewer; scope: whole dataset
@@ -46381,6 +46399,7 @@ zenodo_15665659/access_routes:zenodo.human_steps/01,zenodo_15665659,access_route
 zenodo_15665659/acquisition_setups:main.n_channels_eeg/01,zenodo_15665659,acquisition_setups:main.n_channels_eeg,64,zenodo_15665659_docfee4dd,Electrode montage: 64-channel + 8 external,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_15665659/acquisition_setups:main.sampling_rate_hz/01,zenodo_15665659,acquisition_setups:main.sampling_rate_hz,2048,zenodo_15665659_docfee4dd,Sampling rate: 2048 Hz,2026-11-15,claude,current,Audit reviewer; scope: distributed continuous recordings
 zenodo_15665659/content_class/01,zenodo_15665659,content_class,eeg_signals,zenodo_15665659_docfee4dd,This dataset contains anonymized EEG recordings from 22 participants who completed a sequential visuospatial working memory task.,2026-11-16,claude,current,
+zenodo_15665659/file_formats/01,zenodo_15665659,file_formats,eeglab_set,zenodo_15665660,files: CM190319.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_15665659/license_spdx/01,zenodo_15665659,license_spdx,CC-BY-4.0,zenodo_15665660,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_15665659/modalities/01,zenodo_15665659,modalities,scalp_eeg,zenodo_15665660,This dataset contains anonymized EEG recordings from 22 participants who completed a sequential visuospatial working,2026-11-14,claude,current,
 zenodo_15665659/n_subjects_reported/01,zenodo_15665659,n_subjects_reported,22,zenodo_15665659_docfee4dd,This dataset contains anonymized EEG recordings from 22 participants,2026-11-15,claude,current,Audit reviewer; scope: whole dataset
@@ -46400,6 +46419,7 @@ zenodo_15744485/access_routes:zenodo.access_method/01,zenodo_15744485,access_rou
 zenodo_15744485/access_routes:zenodo.automation_tool/01,zenodo_15744485,access_routes:zenodo.automation_tool,zenodo-api,zenodo_15744486,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_15744485/access_routes:zenodo.human_steps/01,zenodo_15744485,access_routes:zenodo.human_steps,none,zenodo_15744486,access_right: open,2026-11-14,script,current,
 zenodo_15744485/content_class/01,zenodo_15744485,content_class,eeg_signals,zenodo_15744485_doc8ea4e0,Preprocessed EEG data is stored in files,2026-11-16,claude,current,
+zenodo_15744485/file_formats/01,zenodo_15744485,file_formats,fif,zenodo_15744486,files: Prob1_fixed_ICA_prep_raw.fif,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_15744485/license_spdx/01,zenodo_15744485,license_spdx,CC-BY-4.0,zenodo_15744486,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_15744485/modalities/01,zenodo_15744485,modalities,scalp_eeg,zenodo_15744486,EEG/MEG recordings using german audio book,2026-11-14,claude,superseded,superseded by zenodo_15744485/modalities/02
 zenodo_15744485/modalities/02,zenodo_15744485,modalities,scalp_eeg;meg,zenodo_15744485_doc8ea4e0,"Preprocessed EEG data is stored in files ""Prob..._EEGData_raw.fif"".Preprocessed MEG data is stored in files",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -46430,6 +46450,7 @@ zenodo_15760253/year_published/01,zenodo_15760253,year_published,2025,zenodo_157
 zenodo_15762522/access_routes:zenodo.access_method/01,zenodo_15762522,access_routes:zenodo.access_method,direct_download,zenodo_15762523,access_right: open,2026-11-14,script,current,
 zenodo_15762522/access_routes:zenodo.automation_tool/01,zenodo_15762522,access_routes:zenodo.automation_tool,zenodo-api,zenodo_15762523,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_15762522/access_routes:zenodo.human_steps/01,zenodo_15762522,access_routes:zenodo.human_steps,none,zenodo_15762523,access_right: open,2026-11-14,script,current,
+zenodo_15762522/file_formats/01,zenodo_15762522,file_formats,edf,zenodo_15762523,files: sub015_s0.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_15762522/license_spdx/01,zenodo_15762522,license_spdx,CC-BY-4.0,zenodo_15762523,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_15762522/modalities/01,zenodo_15762522,modalities,scalp_eeg,zenodo_15762523,Impact of Regulation-Focused Psychotherapy on EEG Microstate Dynamics in Adolescents with Externalizing Behavior Disorders,2026-11-14,claude,current,
 zenodo_15762522/name/01,zenodo_15762522,name,Impact of Regulation-Focused Psychotherapy on EEG Microstate Dynamics in Adolescents with Externalizing Behavior Disorders,zenodo_15762523,Record title,2026-11-14,script,current,
@@ -46627,14 +46648,21 @@ zenodo_15860203/name/01,zenodo_15860203,name,EEG Data for Cognitive Performance 
 zenodo_15860203/tasks:fast_paced_game_and_slow_paced_game.paradigms/01,zenodo_15860203,tasks:fast_paced_game_and_slow_paced_game.paradigms,cognitive_task,zenodo_15860203_doc63b0dc,engaged in two distinct video game pacing conditions: a Fast-Paced Game and a Slow-Paced Game,2026-11-15,claude,current,
 zenodo_15860203/tasks:fast_paced_game_and_slow_paced_game.task_name/01,zenodo_15860203,tasks:fast_paced_game_and_slow_paced_game.task_name,Fast-Paced Game and Slow-Paced Game,zenodo_15860203_doc63b0dc,engaged in two distinct video game pacing conditions: a Fast-Paced Game and a Slow-Paced Game,2026-11-15,claude,current,
 zenodo_15860203/year_published/01,zenodo_15860203,year_published,2025,zenodo_15860204,Published 2025-07-11,2026-11-14,script,current,
+zenodo_15866600/access_routes:zenodo.access_method/01,zenodo_15866600,access_routes:zenodo.access_method,direct_download,zenodo_15871308,access_right: open,2026-11-17,script,current,
+zenodo_15866600/access_routes:zenodo.automation_tool/01,zenodo_15866600,access_routes:zenodo.automation_tool,zenodo-api,zenodo_15871308,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_15866600/access_routes:zenodo.human_steps/01,zenodo_15866600,access_routes:zenodo.human_steps,none,zenodo_15871308,access_right: open,2026-11-17,script,current,
 zenodo_15866600/license_spdx/01,zenodo_15866600,license_spdx,CC-BY-NC-ND-4.0,zenodo_15871308,License: cc-by-nc-nd-4.0,2026-11-17,script,current,
 zenodo_15866600/modalities/01,zenodo_15866600,modalities,scalp_eeg,zenodo_15871308,gned to offer AI uplift while remaining testable and scientifically valid under EEG-falsifiable render collapse equations Falsifiability Statement: This archive in,2026-11-17,claude,current,
 zenodo_15866600/name/01,zenodo_15866600,name,RCQM—RFT Consciousness + Quantum Mechanics Archive,zenodo_15871308,Record title,2026-11-17,script,current,
 zenodo_15866600/year_published/01,zenodo_15866600,year_published,2025,zenodo_15871308,Published 2025-07,2026-11-17,script,current,
+zenodo_15868662/access_routes:zenodo.access_method/01,zenodo_15868662,access_routes:zenodo.access_method,request_form_or_email,zenodo_15868663,access_right: restricted,2026-11-17,script,current,
+zenodo_15868662/access_routes:zenodo.human_steps/01,zenodo_15868662,access_routes:zenodo.human_steps,Request access on the Zenodo record page; the uploader approves requests,zenodo_15868663,access_right: restricted,2026-11-17,script,current,
 zenodo_15868662/license_spdx/01,zenodo_15868662,license_spdx,CC-BY-4.0,zenodo_15868663,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_15868662/modalities/01,zenodo_15868662,modalities,scalp_eeg,zenodo_15868663,"Then, an experiment with 63 participants was conducted, in which the data of EEG, GSR, PPG, and face video were collected when they watched the",2026-11-17,claude,current,
 zenodo_15868662/name/01,zenodo_15868662,name,Multimodal Dataset for Personality Prediction,zenodo_15868663,Record title,2026-11-17,script,current,
 zenodo_15868662/year_published/01,zenodo_15868662,year_published,2025,zenodo_15868663,Published 2025-08-12,2026-11-17,script,current,
+zenodo_15870703/access_routes:zenodo.access_method/01,zenodo_15870703,access_routes:zenodo.access_method,request_form_or_email,zenodo_15870704,access_right: restricted,2026-11-17,script,current,
+zenodo_15870703/access_routes:zenodo.human_steps/01,zenodo_15870703,access_routes:zenodo.human_steps,Request access on the Zenodo record page; the uploader approves requests,zenodo_15870704,access_right: restricted,2026-11-17,script,current,
 zenodo_15870703/license_spdx/01,zenodo_15870703,license_spdx,CC-BY-4.0,zenodo_15870704,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_15870703/modalities/01,zenodo_15870703,modalities,scalp_eeg,zenodo_15870704,Physiological Signals (56 participants): EEG data was recorded using 2-channel forehead placement at 1000Hz sampling rate wi,2026-11-17,claude,current,
 zenodo_15870703/name/01,zenodo_15870703,name,AMUSED: Affective Metrics & Usability Smell Evaluation Dataset,zenodo_15870704,Record title,2026-11-17,script,current,
@@ -46746,6 +46774,9 @@ zenodo_16536440/participant_groups:participants.n_subjects/01,zenodo_16536440,pa
 zenodo_16536440/tasks:selective_auditory_attention_decoding.paradigms/01,zenodo_16536440,tasks:selective_auditory_attention_decoding.paradigms,cognitive_task,zenodo_16536440_docda302e,Fifteen normal-hearing participants were recorded while attending to one of two simultaneously presented speech streams,2026-11-15,claude,current,
 zenodo_16536440/tasks:selective_auditory_attention_decoding.task_name/01,zenodo_16536440,tasks:selective_auditory_attention_decoding.task_name,selective auditory attention decoding,zenodo_16536440_docda302e,Fifteen normal-hearing participants were recorded while attending to one of two simultaneously presented speech streams,2026-11-15,claude,current,
 zenodo_16536440/year_published/01,zenodo_16536440,year_published,2025,zenodo_16536441,Published 2025-07-28,2026-11-14,script,current,
+zenodo_16561049/access_routes:zenodo.access_method/01,zenodo_16561049,access_routes:zenodo.access_method,direct_download,zenodo_16561050,access_right: open,2026-11-17,script,current,
+zenodo_16561049/access_routes:zenodo.automation_tool/01,zenodo_16561049,access_routes:zenodo.automation_tool,zenodo-api,zenodo_16561050,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_16561049/access_routes:zenodo.human_steps/01,zenodo_16561049,access_routes:zenodo.human_steps,none,zenodo_16561050,access_right: open,2026-11-17,script,current,
 zenodo_16561049/license_spdx/01,zenodo_16561049,license_spdx,CC-BY-4.0,zenodo_16561050,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_16561049/modalities/01,zenodo_16561049,modalities,scalp_eeg,zenodo_16561050,Distinct electroencephalography biomarker for tinnitus,2026-11-17,claude,current,
 zenodo_16561049/name/01,zenodo_16561049,name,Distinct electroencephalography biomarker for tinnitus,zenodo_16561050,Record title,2026-11-17,script,current,
@@ -47468,6 +47499,7 @@ zenodo_17383585/year_published/01,zenodo_17383585,year_published,2025,zenodo_173
 zenodo_17386372/access_routes:zenodo.access_method/01,zenodo_17386372,access_routes:zenodo.access_method,direct_download,zenodo_17386373,access_right: open,2026-11-14,script,current,
 zenodo_17386372/access_routes:zenodo.automation_tool/01,zenodo_17386372,access_routes:zenodo.automation_tool,zenodo-api,zenodo_17386373,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_17386372/access_routes:zenodo.human_steps/01,zenodo_17386372,access_routes:zenodo.human_steps,none,zenodo_17386373,access_right: open,2026-11-14,script,current,
+zenodo_17386372/file_formats/01,zenodo_17386372,file_formats,eeglab_set,zenodo_17386373,files: SG2608_Neg_MCtrl_se.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_17386372/license_spdx/01,zenodo_17386372,license_spdx,CC-BY-4.0,zenodo_17386373,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_17386372/modalities/01,zenodo_17386372,modalities,scalp_eeg,zenodo_17386373,EEG microstate dynamics reveal trait-like differences in large-scale brain networks,2026-11-14,claude,current,
 zenodo_17386372/name/01,zenodo_17386372,name,EEG microstate dynamics reveal trait-like differences in large-scale brain networks between ASMR responders and non-responders,zenodo_17386373,Record title,2026-11-14,script,current,
@@ -47483,6 +47515,9 @@ zenodo_17393864/name/01,zenodo_17393864,name,16 channel Three speaker dynamic sw
 zenodo_17393864/tasks:three_speaker_dynamic_switch_auditory_at.paradigms/01,zenodo_17393864,tasks:three_speaker_dynamic_switch_auditory_at.paradigms,other,zenodo_17393864_doc62e33b,16 channel Three speaker dynamic switch cEEGrid Auditory Attention Decoding Dataset Nanjing University,2026-11-15,claude,current,
 zenodo_17393864/tasks:three_speaker_dynamic_switch_auditory_at.task_name/01,zenodo_17393864,tasks:three_speaker_dynamic_switch_auditory_at.task_name,three-speaker dynamic switch auditory attention decoding,zenodo_17393864_doc62e33b,16 channel Three speaker dynamic switch cEEGrid Auditory Attention Decoding Dataset Nanjing University,2026-11-15,claude,current,
 zenodo_17393864/year_published/01,zenodo_17393864,year_published,2025,zenodo_17393865,Published 2025-10-20,2026-11-14,script,current,
+zenodo_17409782/access_routes:zenodo.access_method/01,zenodo_17409782,access_routes:zenodo.access_method,direct_download,zenodo_17409783,access_right: open,2026-11-17,script,current,
+zenodo_17409782/access_routes:zenodo.automation_tool/01,zenodo_17409782,access_routes:zenodo.automation_tool,zenodo-api,zenodo_17409783,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_17409782/access_routes:zenodo.human_steps/01,zenodo_17409782,access_routes:zenodo.human_steps,none,zenodo_17409783,access_right: open,2026-11-17,script,current,
 zenodo_17409782/license_spdx/01,zenodo_17409782,license_spdx,CC-BY-4.0,zenodo_17409783,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_17409782/modalities/01,zenodo_17409782,modalities,scalp_eeg,zenodo_17409783,"EEG data organized in BIDS format, for Dynamics of Hierarchical Task Representation",2026-11-17,claude,current,
 zenodo_17409782/name/01,zenodo_17409782,name,Dynamics of Hierarchical Task Representations,zenodo_17409783,Record title,2026-11-17,script,current,
@@ -47658,6 +47693,9 @@ zenodo_17561968/tasks:main.paradigms/01,zenodo_17561968,tasks:main.paradigms,mot
 zenodo_17561968/tasks:sit_to_stand_and_stand_to_sit_transition.paradigms/01,zenodo_17561968,tasks:sit_to_stand_and_stand_to_sit_transition.paradigms,motor_execution;motor_imagery,zenodo_17561968_doc8306a2,explicitly targeting sit-to-stand and stand-to-sit transitions during both motor execution (ME) and motor imagery (MI) tasks,2026-11-15,claude,current,
 zenodo_17561968/tasks:sit_to_stand_and_stand_to_sit_transition.task_name/01,zenodo_17561968,tasks:sit_to_stand_and_stand_to_sit_transition.task_name,sit-to-stand and stand-to-sit transitions (ME and MI),zenodo_17561968_doc8306a2,explicitly targeting sit-to-stand and stand-to-sit transitions during both motor execution (ME) and motor imagery (MI) tasks,2026-11-15,claude,current,
 zenodo_17561968/year_published/01,zenodo_17561968,year_published,2025,zenodo_20348444,Published 2025,2026-11-14,script,current,
+zenodo_17567434/access_routes:zenodo.access_method/01,zenodo_17567434,access_routes:zenodo.access_method,direct_download,zenodo_17567435,access_right: open,2026-11-17,script,current,
+zenodo_17567434/access_routes:zenodo.automation_tool/01,zenodo_17567434,access_routes:zenodo.automation_tool,zenodo-api,zenodo_17567435,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_17567434/access_routes:zenodo.human_steps/01,zenodo_17567434,access_routes:zenodo.human_steps,none,zenodo_17567435,access_right: open,2026-11-17,script,current,
 zenodo_17567434/license_spdx/01,zenodo_17567434,license_spdx,CC-BY-4.0,zenodo_17567435,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_17567434/modalities/01,zenodo_17567434,modalities,scalp_eeg,zenodo_17567435,"ACL Framework: Real EEG Validation of Semantic Operators (∘, ⊗, ↻) — Derived Metrics and Reproducible A",2026-11-17,claude,current,
 zenodo_17567434/name/01,zenodo_17567434,name,"ACL Framework: Real EEG Validation of Semantic Operators (∘, ⊗, ↻) — Derived Metrics and Reproducible Analysis Package",zenodo_17567435,Record title,2026-11-17,script,current,
@@ -47703,6 +47741,7 @@ zenodo_17614094/year_published/01,zenodo_17614094,year_published,2025,zenodo_176
 zenodo_17619582/access_routes:zenodo.access_method/01,zenodo_17619582,access_routes:zenodo.access_method,direct_download,zenodo_17619583,access_right: open,2026-11-14,script,current,
 zenodo_17619582/access_routes:zenodo.automation_tool/01,zenodo_17619582,access_routes:zenodo.automation_tool,zenodo-api,zenodo_17619583,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_17619582/access_routes:zenodo.human_steps/01,zenodo_17619582,access_routes:zenodo.human_steps,none,zenodo_17619583,access_right: open,2026-11-14,script,current,
+zenodo_17619582/file_formats/01,zenodo_17619582,file_formats,gdf,zenodo_17619583,files: A01E.gdf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_17619582/license_spdx/01,zenodo_17619582,license_spdx,CC-BY-4.0,zenodo_17619583,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_17619582/modalities/01,zenodo_17619582,modalities,scalp_eeg,zenodo_17619583,Results for EEG Wave conversion to classical binary stream and back,2026-11-14,claude,current,
 zenodo_17619582/name/01,zenodo_17619582,name,Results for EEG Wave conversion to classical binary stream and back.,zenodo_17619583,Record title,2026-11-14,script,current,
@@ -47894,6 +47933,9 @@ zenodo_17975303/license_spdx/01,zenodo_17975303,license_spdx,CC-BY-4.0,zenodo_17
 zenodo_17975303/modalities/01,zenodo_17975303,modalities,scalp_eeg,zenodo_17975304,EEG Measurement on Physical Phantom,2026-11-14,claude,current,
 zenodo_17975303/name/01,zenodo_17975303,name,EEG Measurement on Physical Phantom,zenodo_17975304,Record title,2026-11-14,script,current,
 zenodo_17975303/year_published/01,zenodo_17975303,year_published,2025,zenodo_17975304,Published 2025-12-18,2026-11-14,script,current,
+zenodo_17980607/access_routes:zenodo.access_method/01,zenodo_17980607,access_routes:zenodo.access_method,direct_download,zenodo_17980608,access_right: open,2026-11-17,script,current,
+zenodo_17980607/access_routes:zenodo.automation_tool/01,zenodo_17980607,access_routes:zenodo.automation_tool,zenodo-api,zenodo_17980608,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_17980607/access_routes:zenodo.human_steps/01,zenodo_17980607,access_routes:zenodo.human_steps,none,zenodo_17980608,access_right: open,2026-11-17,script,current,
 zenodo_17980607/license_spdx/01,zenodo_17980607,license_spdx,CC-BY-4.0,zenodo_17980608,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_17980607/modalities/01,zenodo_17980607,modalities,scalp_eeg,zenodo_17980608,EEG Motor Intention Dataset for Rehabilitation Oriented Brain Computer Interfaces,2026-11-17,claude,current,
 zenodo_17980607/name/01,zenodo_17980607,name,EEG Motor Intention Dataset for Rehabilitation Oriented Brain Computer Interfaces,zenodo_17980608,Record title,2026-11-17,script,current,
@@ -47977,6 +48019,7 @@ zenodo_18186379/access_routes:zenodo.access_method/01,zenodo_18186379,access_rou
 zenodo_18186379/access_routes:zenodo.automation_tool/01,zenodo_18186379,access_routes:zenodo.automation_tool,zenodo-api,zenodo_18186380,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_18186379/access_routes:zenodo.human_steps/01,zenodo_18186379,access_routes:zenodo.human_steps,none,zenodo_18186380,access_right: open,2026-11-14,script,current,
 zenodo_18186379/content_class/01,zenodo_18186379,content_class,eeg_signals,zenodo_18186380,Preprocessed EEG data is stored in files,2026-11-16,claude,current,
+zenodo_18186379/file_formats/01,zenodo_18186379,file_formats,fif,zenodo_18186380,files: Prob24_EEGdata_raw.fif,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_18186379/license_spdx/01,zenodo_18186379,license_spdx,CC-BY-4.0,zenodo_18186380,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_18186379/modalities/01,zenodo_18186379,modalities,scalp_eeg,zenodo_18186380,Zwickertone EEG Study,2026-11-14,claude,current,
 zenodo_18186379/name/01,zenodo_18186379,name,Zwickertone EEG Study,zenodo_18186380,Record title,2026-11-14,script,current,
@@ -48023,6 +48066,8 @@ zenodo_18300923/participant_groups:mother_infant_dyads.n_subjects/01,zenodo_1830
 zenodo_18300923/tasks:face_to_face_still_face_ffsf_procedure.paradigms/01,zenodo_18300923,tasks:face_to_face_still_face_ffsf_procedure.paradigms,other,zenodo_18300924,participated in the well-validated Face-to-Face Still-Face (FFSF) procedure combined with a dual-EEG recordings,2026-11-15,claude,current,
 zenodo_18300923/tasks:face_to_face_still_face_ffsf_procedure.task_name/01,zenodo_18300923,tasks:face_to_face_still_face_ffsf_procedure.task_name,Face-to-Face Still-Face (FFSF) procedure,zenodo_18300924,participated in the well-validated Face-to-Face Still-Face (FFSF) procedure combined with a dual-EEG recordings,2026-11-15,claude,current,
 zenodo_18300923/year_published/01,zenodo_18300923,year_published,2026,zenodo_18300924,Published 2026-01-19,2026-11-14,script,current,
+zenodo_18307866/access_routes:zenodo.access_method/01,zenodo_18307866,access_routes:zenodo.access_method,request_form_or_email,zenodo_18307867,access_right: restricted,2026-11-17,script,current,
+zenodo_18307866/access_routes:zenodo.human_steps/01,zenodo_18307866,access_routes:zenodo.human_steps,Request access on the Zenodo record page; the uploader approves requests,zenodo_18307867,access_right: restricted,2026-11-17,script,current,
 zenodo_18307866/license_spdx/01,zenodo_18307866,license_spdx,CC-BY-4.0,zenodo_18307867,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_18307866/name/01,zenodo_18307866,name,"Data for ""Acoustic regularities define perceptual and cortical representations of voice-likeness""",zenodo_18307867,Record title,2026-11-17,script,current,
 zenodo_18307866/year_published/01,zenodo_18307866,year_published,2026,zenodo_18307867,Published 2026-01-20,2026-11-17,script,current,
@@ -48174,6 +48219,9 @@ zenodo_18689866/license_spdx/01,zenodo_18689866,license_spdx,CC-BY-4.0,zenodo_18
 zenodo_18689866/modalities/01,zenodo_18689866,modalities,scalp_eeg,zenodo_18689867,threshold from cortical speech tracking: development in MEG-SCANS and external EEG validation in hearing loss titlepage,2026-11-14,claude,current,
 zenodo_18689866/name/01,zenodo_18689866,name,Transferable neurometric speech reception threshold from cortical speech tracking: development in MEG-SCANS and external EEG validation in hearing loss titlepage,zenodo_18689867,Record title,2026-11-14,script,current,
 zenodo_18689866/year_published/01,zenodo_18689866,year_published,2026,zenodo_18689867,Published 2026-02-19,2026-11-14,script,current,
+zenodo_18725150/access_routes:zenodo.access_method/01,zenodo_18725150,access_routes:zenodo.access_method,direct_download,zenodo_18725151,access_right: open,2026-11-17,script,current,
+zenodo_18725150/access_routes:zenodo.automation_tool/01,zenodo_18725150,access_routes:zenodo.automation_tool,zenodo-api,zenodo_18725151,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_18725150/access_routes:zenodo.human_steps/01,zenodo_18725150,access_routes:zenodo.human_steps,none,zenodo_18725151,access_right: open,2026-11-17,script,current,
 zenodo_18725150/license_spdx/01,zenodo_18725150,license_spdx,CC-BY-4.0,zenodo_18725151,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_18725150/modalities/01,zenodo_18725150,modalities,scalp_eeg,zenodo_18725151,Dataset containing several examples of 1 minute recordings of raw sleep EEG+EMG data,2026-11-17,claude,current,
 zenodo_18725150/name/01,zenodo_18725150,name,Small sample dataset for Global Context Integration for Pharmacology-Robust Preclinical Sleep Stage Classification,zenodo_18725151,Record title,2026-11-17,script,current,
@@ -48182,6 +48230,7 @@ zenodo_18746363/access_routes:zenodo.access_method/01,zenodo_18746363,access_rou
 zenodo_18746363/access_routes:zenodo.automation_tool/01,zenodo_18746363,access_routes:zenodo.automation_tool,zenodo-api,zenodo_23192855,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_18746363/access_routes:zenodo.human_steps/01,zenodo_18746363,access_routes:zenodo.human_steps,none,zenodo_23192855,access_right: open,2026-11-14,script,current,
 zenodo_18746363/content_class/01,zenodo_18746363,content_class,eeg_signals,zenodo_18746363_doc4d1c41,This repository contains the EEG data of the experiment using questions.,2026-11-16,claude,current,
+zenodo_18746363/file_formats/01,zenodo_18746363,file_formats,brainvision,zenodo_23192855,files: coco_0099.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_18746363/license_spdx/01,zenodo_18746363,license_spdx,CC-BY-4.0,zenodo_23192855,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_18746363/modalities/01,zenodo_18746363,modalities,scalp_eeg,zenodo_23192855,Raw EEG data of Schoknecht and Vasishth (2026),2026-11-14,claude,current,
 zenodo_18746363/modalities/02,zenodo_18746363,modalities,scalp_eeg,zenodo_18746363_doc4d1c41,Raw EEG data of Schoknecht and Vasishth (2026),2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -48249,6 +48298,7 @@ zenodo_18865604/access_routes:zenodo.access_method/01,zenodo_18865604,access_rou
 zenodo_18865604/access_routes:zenodo.automation_tool/01,zenodo_18865604,access_routes:zenodo.automation_tool,zenodo-api,zenodo_18865605,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_18865604/access_routes:zenodo.human_steps/01,zenodo_18865604,access_routes:zenodo.human_steps,none,zenodo_18865605,access_right: open,2026-11-14,script,current,
 zenodo_18865604/content_class/01,zenodo_18865604,content_class,eeg_signals,zenodo_18865604_docd4f627,It is composed by 23 .set files (raw EEG datasets imported in EEGLAB),2026-11-16,claude,current,
+zenodo_18865604/file_formats/01,zenodo_18865604,file_formats,eeglab_set,zenodo_18865605,files: 07_2000-500.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_18865604/license_spdx/01,zenodo_18865604,license_spdx,CC-BY-4.0,zenodo_18865605,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_18865604/modalities/01,zenodo_18865604,modalities,scalp_eeg,zenodo_18865605,EEG dataset_Bonfanti et al 2026_Neuroscience of Consciousness,2026-11-14,claude,current,
 zenodo_18865604/modalities/02,zenodo_18865604,modalities,scalp_eeg,zenodo_18865604_docd4f627,23 .set files (raw EEG datasets imported in EEGLAB),2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -48296,6 +48346,9 @@ zenodo_18961127/name/01,zenodo_18961127,name,Wu2020 — Ear-EEG motor execution 
 zenodo_18961127/tasks:motor_execution_fist_clenching.paradigms/01,zenodo_18961127,tasks:motor_execution_fist_clenching.paradigms,motor_execution,zenodo_18961128,Motor execution (fist clenching). Subjects physically clenched their left or right fist in response to visual arrow cues.,2026-11-15,claude,current,
 zenodo_18961127/tasks:motor_execution_fist_clenching.task_name/01,zenodo_18961127,tasks:motor_execution_fist_clenching.task_name,Motor execution (fist clenching),zenodo_18961128,Motor execution (fist clenching). Subjects physically clenched their left or right fist in response to visual arrow cues.,2026-11-15,claude,current,
 zenodo_18961127/year_published/01,zenodo_18961127,year_published,2026,zenodo_18961128,Published 2026-03-11,2026-11-14,script,current,
+zenodo_18971796/access_routes:zenodo.access_method/01,zenodo_18971796,access_routes:zenodo.access_method,direct_download,zenodo_19450296,access_right: open,2026-11-17,script,current,
+zenodo_18971796/access_routes:zenodo.automation_tool/01,zenodo_18971796,access_routes:zenodo.automation_tool,zenodo-api,zenodo_19450296,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_18971796/access_routes:zenodo.human_steps/01,zenodo_18971796,access_routes:zenodo.human_steps,none,zenodo_19450296,access_right: open,2026-11-17,script,current,
 zenodo_18971796/license_spdx/01,zenodo_18971796,license_spdx,CC-BY-4.0,zenodo_19450296,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_18971796/name/01,zenodo_18971796,name,"TSA (Théorie de la Spirale Autoréférentielle v8.4) : Modèle mathématique unifié (Kuramoto × Φ × Boucle récurrente autoréférentielle) + Biomarqueur spectral cardiaque. La conscience est mécanistique : C'est ""le mécanisme"" de survit poussé à l'extrême !",zenodo_19450296,Record title,2026-11-17,script,current,
 zenodo_18971796/year_published/01,zenodo_18971796,year_published,2026,zenodo_19450296,Published 2026-04-07,2026-11-17,script,current,
@@ -48409,6 +48462,9 @@ zenodo_19045957/license_spdx/01,zenodo_19045957,license_spdx,CC-BY-4.0,zenodo_21
 zenodo_19045957/modalities/01,zenodo_19045957,modalities,scalp_eeg,zenodo_21770157,Example EEG Datasets for EegFun,2026-11-14,claude,current,
 zenodo_19045957/name/01,zenodo_19045957,name,Example EEG Datasets for EegFun.jl Tutorials,zenodo_21770157,Record title,2026-11-14,script,current,
 zenodo_19045957/year_published/01,zenodo_19045957,year_published,2026,zenodo_21770157,Published 2026-08-03,2026-11-14,script,current,
+zenodo_19051640/access_routes:zenodo.access_method/01,zenodo_19051640,access_routes:zenodo.access_method,direct_download,zenodo_19217373,access_right: open,2026-11-17,script,current,
+zenodo_19051640/access_routes:zenodo.automation_tool/01,zenodo_19051640,access_routes:zenodo.automation_tool,zenodo-api,zenodo_19217373,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_19051640/access_routes:zenodo.human_steps/01,zenodo_19051640,access_routes:zenodo.human_steps,none,zenodo_19217373,access_right: open,2026-11-17,script,current,
 zenodo_19051640/license_spdx/01,zenodo_19051640,license_spdx,CC-BY-4.0,zenodo_19217373,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_19051640/name/01,zenodo_19051640,name,Biological Data Bus v4 — Multi-protocol neural communication framework & Cardiac Gating of the Biological Data Bus: Heart Phase Modulates Temporal→Insula Communication in Human iEEG,zenodo_19217373,Record title,2026-11-17,script,current,
 zenodo_19051640/year_published/01,zenodo_19051640,year_published,2026,zenodo_19217373,Published 2026-03-25,2026-11-17,script,current,
@@ -48643,6 +48699,7 @@ zenodo_19599465/acquisition_setups:main.n_channels_eeg/01,zenodo_19599465,acquis
 zenodo_19599465/acquisition_setups:main.sampling_rate_hz/01,zenodo_19599465,acquisition_setups:main.sampling_rate_hz,1000,zenodo_19599466,"Description: acquired using a 64-channel system (10–20 international system) at a sampling rate of 1000 Hz. Recordings were conducted under resting-state conditions (eyes closed, 5 minutes)",2026-11-14,script,current,
 zenodo_19599465/content_class/01,zenodo_19599465,content_class,eeg_signals,zenodo_19599466,This dataset includes electroencephalographic (EEG) recordings and clinical data from a cohort of chronic ischaemic left AMC stroke patients and healthy controls.,2026-11-16,claude,current,
 zenodo_19599465/domains/01,zenodo_19599465,domains,clinical;neurology;motor,zenodo_19599466,EEG measurements were collected before and after a rehabilitation intervention.,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_19599465/file_formats/01,zenodo_19599465,file_formats,brainvision;eeglab_set,zenodo_19599466,"files: CONTROL05.vhdr, PAC03-POST.set",2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_19599465/license_spdx/01,zenodo_19599465,license_spdx,CC-BY-4.0,zenodo_19599466,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_19599465/modalities/01,zenodo_19599465,modalities,scalp_eeg,zenodo_19599466,ring a motor task following Rehabilitation in Chronic MCA Stroke: Insights from EEG,2026-11-14,claude,current,
 zenodo_19599465/name/01,zenodo_19599465,name,Mu and Beta Oscillatory Changes during a motor task following Rehabilitation in Chronic MCA Stroke: Insights from EEG,zenodo_19599466,Record title,2026-11-14,script,current,
@@ -48724,6 +48781,9 @@ zenodo_19686842/license_spdx/01,zenodo_19686842,license_spdx,CC-BY-4.0,zenodo_19
 zenodo_19686842/modalities/01,zenodo_19686842,modalities,scalp_eeg,zenodo_19686983,itational-wave event-centered representations Cross-domain replication in sleep EEG data Independent-shuffle null tests demonstrating that the dynamical relation i,2026-11-14,claude,current,
 zenodo_19686842/name/01,zenodo_19686842,name,Data for the Bhasin Entropy–Confinement Law (BEL): Dynamical Coupling Between Entropy Rate and Attractor Structure in Coarse-Grained Systems,zenodo_19686983,Record title,2026-11-14,script,current,
 zenodo_19686842/year_published/01,zenodo_19686842,year_published,2026,zenodo_19686983,Published 2026,2026-11-14,script,current,
+zenodo_19693757/access_routes:zenodo.access_method/01,zenodo_19693757,access_routes:zenodo.access_method,direct_download,zenodo_19693758,access_right: open,2026-11-17,script,current,
+zenodo_19693757/access_routes:zenodo.automation_tool/01,zenodo_19693757,access_routes:zenodo.automation_tool,zenodo-api,zenodo_19693758,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_19693757/access_routes:zenodo.human_steps/01,zenodo_19693757,access_routes:zenodo.human_steps,none,zenodo_19693758,access_right: open,2026-11-17,script,current,
 zenodo_19693757/license_spdx/01,zenodo_19693757,license_spdx,CC-BY-4.0,zenodo_19693758,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_19693757/modalities/01,zenodo_19693757,modalities,scalp_eeg,zenodo_19693758,EEG data for DCM/PEB analysis: https://www,2026-11-17,claude,current,
 zenodo_19693757/name/01,zenodo_19693757,name,Drowsiness DCM/PEB,zenodo_19693758,Record title,2026-11-17,script,current,
@@ -48755,6 +48815,9 @@ zenodo_19745686/name/01,zenodo_19745686,name,The shape of attention reflects fle
 zenodo_19745686/tasks:speech_comprehension_vs_sound_identifica.paradigms/01,zenodo_19745686,tasks:speech_comprehension_vs_sound_identifica.paradigms,language,zenodo_19745687,different listening goals (speech comprehension vs. sound identification),2026-11-15,claude,current,
 zenodo_19745686/tasks:speech_comprehension_vs_sound_identifica.task_name/01,zenodo_19745686,tasks:speech_comprehension_vs_sound_identifica.task_name,speech comprehension vs. sound identification,zenodo_19745687,different listening goals (speech comprehension vs. sound identification),2026-11-15,claude,current,
 zenodo_19745686/year_published/01,zenodo_19745686,year_published,2026,zenodo_19745687,Published 2026-04-24,2026-11-14,script,current,
+zenodo_19893950/access_routes:zenodo.access_method/01,zenodo_19893950,access_routes:zenodo.access_method,direct_download,zenodo_23111171,access_right: open,2026-11-17,script,current,
+zenodo_19893950/access_routes:zenodo.automation_tool/01,zenodo_19893950,access_routes:zenodo.automation_tool,zenodo-api,zenodo_23111171,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_19893950/access_routes:zenodo.human_steps/01,zenodo_19893950,access_routes:zenodo.human_steps,none,zenodo_23111171,access_right: open,2026-11-17,script,current,
 zenodo_19893950/license_spdx/01,zenodo_19893950,license_spdx,CC-BY-4.0,zenodo_23111171,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_19893950/modalities/01,zenodo_19893950,modalities,scalp_eeg,zenodo_23111171,"A within-participant 2 × 2 study (N = 19) recorded brain (EEG/EOG), peripheral physiology (ECG, EDA, respiration) and time-resolved retrospec",2026-11-17,claude,current,
 zenodo_19893950/name/01,zenodo_19893950,name,"Multimodal brain, autonomic and phenomenological data for the acute effects of N,N-dimethyltryptamine (DMT)",zenodo_23111171,Record title,2026-11-17,script,current,
@@ -48816,6 +48879,7 @@ zenodo_20037229/name/01,zenodo_20037229,name,Two-tone image presentation and rec
 zenodo_20037229/year_published/01,zenodo_20037229,year_published,2026,zenodo_20037230,Published 2026-05-05,2026-11-14,script,current,
 zenodo_20044/access_routes:zenodo.access_method/01,zenodo_20044,access_routes:zenodo.access_method,direct_download,zenodo_20044,info:eu-repo/semantics/openAccess,2026-11-17,script,current,
 zenodo_20044/access_routes:zenodo.human_steps/01,zenodo_20044,access_routes:zenodo.human_steps,none,zenodo_20044,info:eu-repo/semantics/openAccess,2026-11-17,script,current,
+zenodo_20044/file_formats/01,zenodo_20044,file_formats,brainvision,zenodo_20044,files: S12.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_20044/license_spdx/01,zenodo_20044,license_spdx,CC0-1.0,zenodo_20044,License: cc0-1.0,2026-11-17,script,current,
 zenodo_20044/modalities/01,zenodo_20044,modalities,scalp_eeg,zenodo_20044,"EEG recordings for all subjects (S1-S13) considered in the study ""Cortical correlat",2026-11-17,claude,current,
 zenodo_20044/name/01,zenodo_20044,name,Cortical Correlates Of A Translating Point-Light Walker; An Event-Related Potentials Study,zenodo_20044,Record title,2026-11-17,script,current,
@@ -48862,6 +48926,7 @@ zenodo_20145134/acquisition_setups:main.device_model/01,zenodo_20145134,acquisit
 zenodo_20145134/acquisition_setups:main.hardware_filter/01,zenodo_20145134,acquisition_setups:main.hardware_filter,1–50 Hz band-pass filter with a rectangular window configuration,zenodo_20145135,using a 1–50 Hz band-pass filter with a rectangular window configuration,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_20145134/acquisition_setups:main.sampling_rate_hz/01,zenodo_20145134,acquisition_setups:main.sampling_rate_hz,200,zenodo_20145135,Signals were sampled at 200 Hz during 10-minute sessions,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_20145134/content_class/01,zenodo_20145134,content_class,eeg_signals,zenodo_20145135,"This dataset contains electroencephalographic (EEG) recordings acquired from 26 adult volunteers from Puebla, Mexico",2026-11-16,claude,current,
+zenodo_20145134/file_formats/01,zenodo_20145134,file_formats,edf,zenodo_20145135,files: P10COV_23.EDF,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_20145134/license_spdx/01,zenodo_20145134,license_spdx,CC-BY-4.0,zenodo_20145135,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_20145134/modalities/01,zenodo_20145134,modalities,scalp_eeg,zenodo_20145135,"COVID-19 Puebla EEG Database: Electroencephalographic Signals of Post-COVID Subjects from Puebla, Mexico",2026-11-14,claude,current,
 zenodo_20145134/n_subjects_reported/01,zenodo_20145134,n_subjects_reported,26,zenodo_20145135,"acquired from 26 adult volunteers from Puebla, Mexico, who previously suffered COVID-19 infection",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -48877,6 +48942,7 @@ zenodo_20163071/access_routes:zenodo.automation_tool/01,zenodo_20163071,access_r
 zenodo_20163071/access_routes:zenodo.human_steps/01,zenodo_20163071,access_routes:zenodo.human_steps,none,zenodo_20163072,access_right: open,2026-11-14,script,current,
 zenodo_20163071/acquisition_setups:main.montage_system/01,zenodo_20163071,acquisition_setups:main.montage_system,10_20,zenodo_20163072,Electrode configuration based on the international 10–20 EEG system.,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_20163071/content_class/01,zenodo_20163071,content_class,eeg_signals,zenodo_20163072,This dataset contains 45 electroencephalographic (EEG) recordings acquired during an experimental protocol designed to induce stress corresponding to 15 subjects.,2026-11-16,claude,current,
+zenodo_20163071/file_formats/01,zenodo_20163071,file_formats,edf,zenodo_20163072,files: ruido4raw.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_20163071/license_spdx/01,zenodo_20163071,license_spdx,CC-BY-4.0,zenodo_20163072,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_20163071/modalities/01,zenodo_20163071,modalities,scalp_eeg,zenodo_20163072,Electroencephalographic (EEG) Dataset of Stress-Induced Auditory Stimulation for Event-Related Oscillation A,2026-11-14,claude,current,
 zenodo_20163071/n_subjects_reported/01,zenodo_20163071,n_subjects_reported,15,zenodo_20163072,designed to induce stress corresponding to 15 subjects,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -49353,6 +49419,7 @@ zenodo_21470307/year_published/01,zenodo_21470307,year_published,2026,zenodo_214
 zenodo_21470455/access_routes:zenodo.access_method/01,zenodo_21470455,access_routes:zenodo.access_method,direct_download,zenodo_21470456,access_right: open,2026-11-14,script,current,
 zenodo_21470455/access_routes:zenodo.automation_tool/01,zenodo_21470455,access_routes:zenodo.automation_tool,zenodo-api,zenodo_21470456,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_21470455/access_routes:zenodo.human_steps/01,zenodo_21470455,access_routes:zenodo.human_steps,none,zenodo_21470456,access_right: open,2026-11-14,script,current,
+zenodo_21470455/file_formats/01,zenodo_21470455,file_formats,cnt,zenodo_21470456,files: S1-GWY-2.cnt,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_21470455/license_spdx/01,zenodo_21470455,license_spdx,CC-BY-4.0,zenodo_21470456,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_21470455/modalities/01,zenodo_21470455,modalities,scalp_eeg,zenodo_21470456,EEG Dataset for Grip-Force-Level Motor Imagery,2026-11-14,claude,current,
 zenodo_21470455/modalities/02,zenodo_21470455,modalities,scalp_eeg,zenodo_21470455_docd55787,EEG Dataset for Grip-Force-Level Motor Imagery,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -49694,6 +49761,7 @@ zenodo_21932327/access_routes:zenodo.access_method/01,zenodo_21932327,access_rou
 zenodo_21932327/access_routes:zenodo.automation_tool/01,zenodo_21932327,access_routes:zenodo.automation_tool,zenodo-api,zenodo_21932328,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_21932327/access_routes:zenodo.human_steps/01,zenodo_21932327,access_routes:zenodo.human_steps,none,zenodo_21932328,access_right: open,2026-11-14,script,current,
 zenodo_21932327/content_class/01,zenodo_21932327,content_class,eeg_signals,zenodo_21932327_doc39d2c1,This repository contains the preprocessed EEG data associated with the study,2026-11-16,claude,current,
+zenodo_21932327/file_formats/01,zenodo_21932327,file_formats,eeglab_set,zenodo_21932328,files: VP16_cleaned_cue_erp.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_21932327/license_spdx/01,zenodo_21932327,license_spdx,CC-BY-4.0,zenodo_21932328,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_21932327/modalities/01,zenodo_21932327,modalities,scalp_eeg,zenodo_21932328,This repository contains the preprocessed EEG data associated with the study “Transient and Sustained Effects of Agency Disru,2026-11-14,claude,current,
 zenodo_21932327/modalities/02,zenodo_21932327,modalities,scalp_eeg,zenodo_21932327_doc39d2c1,"The dataset contains preprocessed, cue-locked EEG epochs used for the electrophysiological analyses reported in the manuscript.",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -49728,6 +49796,7 @@ zenodo_21967992/access_routes:zenodo.automation_tool/01,zenodo_21967992,access_r
 zenodo_21967992/access_routes:zenodo.human_steps/01,zenodo_21967992,access_routes:zenodo.human_steps,none,zenodo_22150094,access_right: open,2026-11-14,script,current,
 zenodo_21967992/content_class/01,zenodo_21967992,content_class,eeg_signals,zenodo_21967992_doc15c913,"# Dataset info: 'sEEG-HFOs-8.edf': seizure 17:27:11, clinicaly confirmed 17:27:14 MRI T1 and T2",2026-11-16,claude,current,
 zenodo_21967992/domains/01,zenodo_21967992,domains,epilepsy,zenodo_21967992_doc15c913,"'sEEG-HFOs-8.edf': seizure 17:27:11, clinicaly confirmed 17:27:14",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_21967992/file_formats/01,zenodo_21967992,file_formats,edf,zenodo_22150094,files: sEEG-HFOs-8.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_21967992/license_spdx/01,zenodo_21967992,license_spdx,CC-BY-4.0,zenodo_22150094,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_21967992/modalities/01,zenodo_21967992,modalities,ieeg;ieeg_seeg,zenodo_21967992_doc15c913,example sEEG (stereo EEG is a specific subtype of intracranial EEG + MRI),2026-11-15,claude,current,"Audit reviewer; scope: mri t1 and t2 named as accompanying images, not distributed-signal modality"
 zenodo_21967992/name/01,zenodo_21967992,name,example sEEG (stereo EEG is a specific subtype of intracranial EEG + MRI) with clinical confirmed one seizure,zenodo_22150094,Record title,2026-11-14,script,current,
@@ -50225,6 +50294,9 @@ zenodo_23027666/license_spdx/01,zenodo_23027666,license_spdx,CC-BY-4.0,zenodo_23
 zenodo_23027666/modalities/01,zenodo_23027666,modalities,scalp_eeg,zenodo_23027667,"etes across two emotional working memory experiments using behavioral measures, EEG time–frequency analysis, and representational similarity analysis (RSA)",2026-11-14,claude,current,
 zenodo_23027666/name/01,zenodo_23027666,name,Neural representations of emotional working memory in athletes,zenodo_23027667,Record title,2026-11-14,script,current,
 zenodo_23027666/year_published/01,zenodo_23027666,year_published,2026,zenodo_23027667,Published 2026-09-29,2026-11-14,script,current,
+zenodo_23034959/access_routes:zenodo.access_method/01,zenodo_23034959,access_routes:zenodo.access_method,direct_download,zenodo_23034960,access_right: open,2026-11-17,script,current,
+zenodo_23034959/access_routes:zenodo.automation_tool/01,zenodo_23034959,access_routes:zenodo.automation_tool,zenodo-api,zenodo_23034960,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_23034959/access_routes:zenodo.human_steps/01,zenodo_23034959,access_routes:zenodo.human_steps,none,zenodo_23034960,access_right: open,2026-11-17,script,current,
 zenodo_23034959/license_spdx/01,zenodo_23034959,license_spdx,CC-BY-4.0,zenodo_23034960,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_23034959/modalities/01,zenodo_23034959,modalities,scalp_eeg,zenodo_23034960,f neural complexity or information integration?- Can it be applied to real fMRI/EEG data to see if it distinguishes different cognitive states? We invite neuroscie,2026-11-17,claude,current,
 zenodo_23034959/name/01,zenodo_23034959,name,Anomalous Patterns in Quantum Constraint Systems and Large-Scale Structure: Observations Inviting Further Investigation,zenodo_23034960,Record title,2026-11-17,script,current,
@@ -50300,6 +50372,7 @@ zenodo_23123735/acquisition_setups:main.device_model/01,zenodo_23123735,acquisit
 zenodo_23123735/acquisition_setups:main.n_channels_eeg/01,zenodo_23123735,acquisition_setups:main.n_channels_eeg,64,zenodo_23123735_doce42c70,EEG data were recorded from 64 Ag/AgCl electrodes using an ActiveTwo amplifier,2026-11-15,claude,current,Audit reviewer; scope: experiment 1
 zenodo_23123735/acquisition_setups:main.sampling_rate_hz/01,zenodo_23123735,acquisition_setups:main.sampling_rate_hz,512,zenodo_23123735_doce42c70,system (Biosemi) at a sampling rate of 512Hz,2026-11-15,claude,current,Audit reviewer; scope: experiment 1
 zenodo_23123735/content_class/01,zenodo_23123735,content_class,eeg_signals,zenodo_23123736,raw EEG data for experiment 1,2026-11-16,claude,current,
+zenodo_23123735/file_formats/01,zenodo_23123735,file_formats,bdf,zenodo_23123736,files: P012.bdf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_23123735/license_spdx/01,zenodo_23123735,license_spdx,CC-BY-4.0,zenodo_23123736,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_23123735/modalities/01,zenodo_23123735,modalities,scalp_eeg,zenodo_23123736,michail89/predictive-coding-EEG-mixed-linear-models: Late Event Related Potentials as prediction error signals,2026-11-14,claude,current,
 zenodo_23123735/modalities/02,zenodo_23123735,modalities,scalp_eeg,zenodo_23123735_doce42c70,EEG data were recorded from 64 Ag/AgCl electrodes using an ActiveTwo amplifier,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -50315,6 +50388,7 @@ zenodo_23124591/access_routes:zenodo.access_method/01,zenodo_23124591,access_rou
 zenodo_23124591/access_routes:zenodo.automation_tool/01,zenodo_23124591,access_routes:zenodo.automation_tool,zenodo-api,zenodo_23124592,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_23124591/access_routes:zenodo.human_steps/01,zenodo_23124591,access_routes:zenodo.human_steps,none,zenodo_23124592,access_right: open,2026-11-14,script,current,
 zenodo_23124591/content_class/01,zenodo_23124591,content_class,eeg_signals,zenodo_23124592,EXP2 raw EEG Data,2026-11-16,claude,current,
+zenodo_23124591/file_formats/01,zenodo_23124591,file_formats,bdf,zenodo_23124592,files: RecordingP12.bdf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_23124591/license_spdx/01,zenodo_23124591,license_spdx,CC-BY-4.0,zenodo_23124592,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_23124591/modalities/01,zenodo_23124591,modalities,scalp_eeg,zenodo_23124592,michail89/predictive-coding-EEG-mixed-linear-models: Late Event Related Potentials as prediction error signals,2026-11-14,claude,current,
 zenodo_23124591/modalities/02,zenodo_23124591,modalities,scalp_eeg,zenodo_23123735_doce42c70,EEG data were recorded from 64 Ag/AgCl electrodes using an ActiveTwo amplifier,2026-11-15,claude,current,Audit reviewer; scope: experiment 1 acquisition; experiment 2 says 'similar to experiment 1'
@@ -50363,6 +50437,7 @@ zenodo_23335155/acquisition_setups:main.reference/01,zenodo_23335155,acquisition
 zenodo_23335155/acquisition_setups:main.sampling_rate_hz/01,zenodo_23335155,acquisition_setups:main.sampling_rate_hz,500,zenodo_23335156,"The sampling rate was 500 Hz, and electrode impedances were kept below 10 kΩ.",2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_23335155/content_class/01,zenodo_23335155,content_class,eeg_signals,zenodo_23335156,simultaneous electroencephalography (EEG) and surface electromyography (sEMG) recordings from 15 healthy right-handed adults,2026-11-16,claude,current,
 zenodo_23335155/domains/01,zenodo_23335155,domains,motor,zenodo_23335156,performing a right-hand grip force task under three different visual feedback (VF) conditions,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_23335155/file_formats/01,zenodo_23335155,file_formats,cnt,zenodo_23335156,files: WQ_GU_2024-07-28_15-25-54.cnt,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_23335155/license_spdx/01,zenodo_23335155,license_spdx,CC-BY-4.0,zenodo_23335156,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_23335155/modalities/01,zenodo_23335155,modalities,scalp_eeg,zenodo_23335156,EEG and EMG dataset of grip force tasks under different visual feedback modalities,2026-11-14,claude,superseded,superseded by zenodo_23335155/modalities/02
 zenodo_23335155/modalities/02,zenodo_23335155,modalities,scalp_eeg;emg,zenodo_23335156,simultaneous electroencephalography (EEG) and surface electromyography (sEMG) recordings,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -50459,6 +50534,9 @@ zenodo_23458776/name/01,zenodo_23458776,name,"SYNAPSE: cognitive performance, EE
 zenodo_23458776/tasks:computerised_tasks_n_back_stroop_visual.paradigms/01,zenodo_23458776,tasks:computerised_tasks_n_back_stroop_visual.paradigms,cognitive_task,zenodo_23458777,"they performed two rounds of computerised tasks (n-back, Stroop, visual counting or shape comparison, flanker)",2026-11-15,claude,current,
 zenodo_23458776/tasks:computerised_tasks_n_back_stroop_visual.task_name/01,zenodo_23458776,tasks:computerised_tasks_n_back_stroop_visual.task_name,"computerised tasks (n-back, Stroop, visual counting or shape comparison, flanker)",zenodo_23458777,"they performed two rounds of computerised tasks (n-back, Stroop, visual counting or shape comparison, flanker)",2026-11-15,claude,current,
 zenodo_23458776/year_published/01,zenodo_23458776,year_published,2026,zenodo_23458777,Published 2026-10-18,2026-11-14,script,current,
+zenodo_23461592/access_routes:zenodo.access_method/01,zenodo_23461592,access_routes:zenodo.access_method,direct_download,zenodo_23461593,access_right: open,2026-11-17,script,current,
+zenodo_23461592/access_routes:zenodo.automation_tool/01,zenodo_23461592,access_routes:zenodo.automation_tool,zenodo-api,zenodo_23461593,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_23461592/access_routes:zenodo.human_steps/01,zenodo_23461592,access_routes:zenodo.human_steps,none,zenodo_23461593,access_right: open,2026-11-17,script,current,
 zenodo_23461592/license_spdx/01,zenodo_23461592,license_spdx,CC-BY-4.0,zenodo_23461593,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_23461592/modalities/01,zenodo_23461592,modalities,scalp_eeg,zenodo_23461593,elf-Injury During Mindfulness-Based Intervention: A Longitudinal Single-Channel EEG Study,2026-11-17,claude,current,
 zenodo_23461592/name/01,zenodo_23461592,name,Tracking Neurophysiological Trajectories in Adolescent Non-Suicidal Self-Injury During Mindfulness-Based Intervention: A Longitudinal Single-Channel EEG Study,zenodo_23461593,Record title,2026-11-17,script,current,
@@ -50726,6 +50804,7 @@ zenodo_23764503/access_routes:zenodo.automation_tool/01,zenodo_23764503,access_r
 zenodo_23764503/access_routes:zenodo.human_steps/01,zenodo_23764503,access_routes:zenodo.human_steps,none,zenodo_23764504,access_right: open,2026-11-14,script,current,
 zenodo_23764503/content_class/01,zenodo_23764503,content_class,eeg_signals,zenodo_23764504,This dataset contains preprocessed EEG data from 33 participants in a visual working-memory experiment,2026-11-16,claude,current,
 zenodo_23764503/domains/01,zenodo_23764503,domains,cognitive,zenodo_23764504,a visual working-memory experiment examining attended and unattended representations under different memory loads,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_23764503/file_formats/01,zenodo_23764503,file_formats,eeglab_set,zenodo_23764504,files: 4yb.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_23764503/license_spdx/01,zenodo_23764503,license_spdx,CC-BY-4.0,zenodo_23764504,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_23764503/modalities/01,zenodo_23764503,modalities,scalp_eeg,zenodo_23764504,This dataset contains preprocessed EEG data from 33 participants in a visual working-memory experiment examining atten,2026-11-14,claude,current,
 zenodo_23764503/n_subjects_reported/01,zenodo_23764503,n_subjects_reported,33,zenodo_23764504,This dataset contains preprocessed EEG data from 33 participants in a visual working-memory experiment,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -50841,6 +50920,7 @@ zenodo_2392978/acquisition_setups:main.n_channels_eeg/01,zenodo_2392978,acquisit
 zenodo_2392978/acquisition_setups:main.sampling_rate_hz/01,zenodo_2392978,acquisition_setups:main.sampling_rate_hz,256,zenodo_2392979,The g.Mobilab+ device is used for recording EEG at 256 Hz on 8 channels.,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_2392978/content_class/01,zenodo_2392978,content_class,eeg_signals,zenodo_2392979,The g.Mobilab+ device is used for recording EEG at 256 Hz on 8 channels.,2026-11-16,claude,current,
 zenodo_2392978/domains/01,zenodo_2392978,domains,bci,zenodo_2392979,This dataset gathers SSVEP-based BCI recordings,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_2392978/file_formats/01,zenodo_2392978,file_formats,fif,zenodo_2392979,files: subject12_run3_raw.fif,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_2392978/license_spdx/01,zenodo_2392978,license_spdx,CC-BY-4.0,zenodo_2392979,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_2392978/modalities/01,zenodo_2392978,modalities,scalp_eeg,zenodo_2392979,Mobilab+ device is used for recording EEG at 256 Hz on 8 channels,2026-11-14,claude,current,
 zenodo_2392978/n_subjects_reported/01,zenodo_2392978,n_subjects_reported,12,zenodo_2392979,"The datasets contains 12 directories, containing recording from 12 male and female subjects aged between 20 and 28 years.",2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -50856,6 +50936,7 @@ zenodo_23932991/access_routes:zenodo.access_method/01,zenodo_23932991,access_rou
 zenodo_23932991/access_routes:zenodo.automation_tool/01,zenodo_23932991,access_routes:zenodo.automation_tool,zenodo-api,zenodo_23932992,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_23932991/access_routes:zenodo.human_steps/01,zenodo_23932991,access_routes:zenodo.human_steps,none,zenodo_23932992,access_right: open,2026-11-14,script,current,
 zenodo_23932991/content_class/01,zenodo_23932991,content_class,eeg_signals,zenodo_23932992,EEG Raw EEG data and corresponding mat files.,2026-11-16,claude,current,
+zenodo_23932991/file_formats/01,zenodo_23932991,file_formats,brainvision,zenodo_23932992,files: S12.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_23932991/license_spdx/01,zenodo_23932991,license_spdx,CC-BY-4.0,zenodo_23932992,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_23932991/modalities/01,zenodo_23932991,modalities,scalp_eeg,zenodo_23932992,EEG Raw EEG data and corresponding mat files,2026-11-14,claude,superseded,superseded by zenodo_23932991/modalities/02
 zenodo_23932991/modalities/02,zenodo_23932991,modalities,scalp_eeg;fmri,zenodo_23932992,fMRI Processed 7T fMRI data for performing pRF mapping on experimental runs.,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -50880,6 +50961,7 @@ zenodo_23954544/acquisition_setups:main.sampling_rate_hz/01,zenodo_23954544,acqu
 zenodo_23954544/acquisition_setups:main.sampling_rate_hz/02,zenodo_23954544,acquisition_setups:main.sampling_rate_hz,500,zenodo_23954545,Original sampling frequency: 500 Hz,2026-11-15,claude,conflicting,Audit reviewer; scope: original recording
 zenodo_23954544/content_class/01,zenodo_23954544,content_class,eeg_signals,zenodo_23954545,The current release contains EEG from 17 university students.,2026-11-16,claude,current,
 zenodo_23954544/domains/01,zenodo_23954544,domains,cognitive,zenodo_23954545,"support the study of attention-, confusion-, and cognitive-load-related EEG variation in a continuous learning setting",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_23954544/file_formats/01,zenodo_23954544,file_formats,fif,zenodo_23954545,files: sub01-01.fif,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_23954544/hours_reported/01,zenodo_23954544,hours_reported,3.851,zenodo_23954545,The total retained EEG duration is approximately 3.851 hours.,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_23954544/license_spdx/01,zenodo_23954544,license_spdx,CC-BY-4.0,zenodo_23954545,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_23954544/modalities/01,zenodo_23954544,modalities,scalp_eeg,zenodo_23954545,TEAC: Teaching EEG Assessment Corpus,2026-11-14,claude,current,
@@ -50976,10 +51058,17 @@ zenodo_24081948/participant_groups:subjects.n_subjects/01,zenodo_24081948,partic
 zenodo_24081948/tasks:character_imagery_task.paradigms/01,zenodo_24081948,tasks:character_imagery_task.paradigms,other,zenodo_24081949,during a character imagery task. It covers 29 classes (26 English letters and 3 control symbols),2026-11-15,claude,current,
 zenodo_24081948/tasks:character_imagery_task.task_name/01,zenodo_24081948,tasks:character_imagery_task.task_name,character imagery task,zenodo_24081949,during a character imagery task. It covers 29 classes (26 English letters and 3 control symbols),2026-11-15,claude,current,
 zenodo_24081948/year_published/01,zenodo_24081948,year_published,2026,zenodo_24081949,Published 2026-11-09,2026-11-14,script,current,
+zenodo_24104006/access_routes:zenodo.access_method/01,zenodo_24104006,access_routes:zenodo.access_method,direct_download,zenodo_24104007,access_right: open,2026-11-17,script,current,
+zenodo_24104006/access_routes:zenodo.automation_tool/01,zenodo_24104006,access_routes:zenodo.automation_tool,zenodo-api,zenodo_24104007,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_24104006/access_routes:zenodo.human_steps/01,zenodo_24104006,access_routes:zenodo.human_steps,none,zenodo_24104007,access_right: open,2026-11-17,script,current,
+zenodo_24104006/file_formats/01,zenodo_24104006,file_formats,eeglab_set,zenodo_24104007,files: P02_SSVEP_FIR.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_24104006/license_spdx/01,zenodo_24104006,license_spdx,CC-BY-4.0,zenodo_24104007,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_24104006/modalities/01,zenodo_24104006,modalities,scalp_eeg,zenodo_24104007,Description This dataset contains steady-state visual evoked potential (SSVEP) EEG recordings collected from patients with Retinitis Pigmentosa (RP) and from heal,2026-11-17,claude,current,
 zenodo_24104006/name/01,zenodo_24104006,name,Residual visual responsivity and network reactivity in Retinitis Pigmentosa - SSVEP,zenodo_24104007,Record title,2026-11-17,script,current,
 zenodo_24104006/year_published/01,zenodo_24104006,year_published,2026,zenodo_24104007,Published 2026-11-10,2026-11-17,script,current,
+zenodo_24109366/access_routes:zenodo.access_method/01,zenodo_24109366,access_routes:zenodo.access_method,direct_download,zenodo_24109367,access_right: open,2026-11-17,script,current,
+zenodo_24109366/access_routes:zenodo.automation_tool/01,zenodo_24109366,access_routes:zenodo.automation_tool,zenodo-api,zenodo_24109367,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_24109366/access_routes:zenodo.human_steps/01,zenodo_24109366,access_routes:zenodo.human_steps,none,zenodo_24109367,access_right: open,2026-11-17,script,current,
 zenodo_24109366/license_spdx/01,zenodo_24109366,license_spdx,CC-BY-4.0,zenodo_24109367,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_24109366/modalities/01,zenodo_24109366,modalities,scalp_eeg,zenodo_24109367,sidual visual responsivity and network reactivity in Retinitis Pigmentosa - TMS-EEG,2026-11-17,claude,current,
 zenodo_24109366/name/01,zenodo_24109366,name,Residual visual responsivity and network reactivity in Retinitis Pigmentosa - TMS-EEG,zenodo_24109367,Record title,2026-11-17,script,current,
@@ -51059,6 +51148,9 @@ zenodo_24164718/license_spdx/01,zenodo_24164718,license_spdx,CC-BY-4.0,zenodo_24
 zenodo_24164718/modalities/01,zenodo_24164718,modalities,scalp_eeg,zenodo_24164719,BMIM II: Derived EEG–Pupillometry Gain Estimates and Illustrative Network Results for 44 Participant,2026-11-14,claude,current,
 zenodo_24164718/name/01,zenodo_24164718,name,BMIM II: Derived EEG–Pupillometry Gain Estimates and Illustrative Network Results for 44 Participants and 309 Windows,zenodo_24164719,Record title,2026-11-14,script,current,
 zenodo_24164718/year_published/01,zenodo_24164718,year_published,2026,zenodo_24164719,Published 2026-11-12,2026-11-14,script,current,
+zenodo_24247973/access_routes:zenodo.access_method/01,zenodo_24247973,access_routes:zenodo.access_method,direct_download,zenodo_24247974,access_right: open,2026-11-17,script,current,
+zenodo_24247973/access_routes:zenodo.automation_tool/01,zenodo_24247973,access_routes:zenodo.automation_tool,zenodo-api,zenodo_24247974,Files listed in the record API with download links,2026-11-17,script,current,
+zenodo_24247973/access_routes:zenodo.human_steps/01,zenodo_24247973,access_routes:zenodo.human_steps,none,zenodo_24247974,access_right: open,2026-11-17,script,current,
 zenodo_24247973/license_spdx/01,zenodo_24247973,license_spdx,CC-BY-4.0,zenodo_24247974,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_24247973/modalities/01,zenodo_24247973,modalities,scalp_eeg,zenodo_24247974,"a for ""Neurithm: a BCI-based deep learning algorithm that generates speech from EEG signals""",2026-11-17,claude,current,
 zenodo_24247973/name/01,zenodo_24247973,name,"Neurithm – Extended data for ""Neurithm: a BCI-based deep learning algorithm that generates speech from EEG signals""",zenodo_24247974,Record title,2026-11-17,script,current,
@@ -51535,6 +51627,7 @@ zenodo_3875158/acquisition_setups:main.sampling_rate_hz/01,zenodo_3875158,acquis
 zenodo_3875158/acquisition_setups:main.sampling_rate_hz/02,zenodo_3875158,acquisition_setups:main.sampling_rate_hz,512,zenodo_3875159,down-sampled offline to 512 Hz using the Biosemi decimator tool,2026-11-15,claude,conflicting,Audit reviewer; scope: distributed
 zenodo_3875158/content_class/01,zenodo_3875158,content_class,eeg_signals,zenodo_3875159,"Raw EEG recordings of resting-state brain activity (six one minute baseline recordings, alternating eyes-closed and eyes-open for one minute each)",2026-11-16,claude,current,
 zenodo_3875158/domains/01,zenodo_3875158,domains,resting_state;development,zenodo_3875159,Resting-state EEG recordings in 20-30-year-old and 65-75-year-old healthy humans,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_3875158/file_formats/01,zenodo_3875158,file_formats,brainvision,zenodo_3875159,files: 360_RS-Deci_Jabesetal.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_3875158/license_spdx/01,zenodo_3875158,license_spdx,CC-BY-4.0,zenodo_3875159,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_3875158/modalities/01,zenodo_3875158,modalities,scalp_eeg,zenodo_3875159,Resting-state EEG recordings in 20-30-year-old and 65-75-year-old healthy humans,2026-11-14,claude,superseded,superseded by zenodo_3875158/modalities/02
 zenodo_3875158/modalities/02,zenodo_3875158,modalities,scalp_eeg;eog,zenodo_3875158_doc27e230,"Right, left, and middle-orbital flat electrodes were used to monitor eye movements and blinks.",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -51559,6 +51652,7 @@ zenodo_3885754/access_routes:zenodo.automation_tool/01,zenodo_3885754,access_rou
 zenodo_3885754/access_routes:zenodo.human_steps/01,zenodo_3885754,access_routes:zenodo.human_steps,none,zenodo_3885755,access_right: open,2026-11-14,script,current,
 zenodo_3885754/content_class/01,zenodo_3885754,content_class,eeg_signals,zenodo_3885754_docbdbf60,Individual deidentified EEG-EMG data in European Data format with annotated seizures will be shared,2026-11-16,claude,current,
 zenodo_3885754/domains/01,zenodo_3885754,domains,epilepsy;clinical,zenodo_3885755,in patients admitted to long-term video-EEG monitoring,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_3885754/file_formats/01,zenodo_3885754,file_formats,edf,zenodo_3885755,files: P14.4.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_3885754/license_spdx/01,zenodo_3885754,license_spdx,CC0-1.0,zenodo_3885755,License: cc-zero,2026-11-14,script,current,
 zenodo_3885754/modalities/01,zenodo_3885754,modalities,scalp_eeg,zenodo_3885755,ata from: Ictal quantitative surface electromyography correlates with postictal EEG suppression,2026-11-14,claude,superseded,superseded by zenodo_3885754/modalities/02
 zenodo_3885754/modalities/02,zenodo_3885754,modalities,scalp_eeg;emg;video,zenodo_3885754_docbdbf60,"We have analyzed video-EEG recordings, including surface EMGs from deltoid and biceps muscles",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -51713,6 +51807,7 @@ zenodo_3992358/acquisition_setups:main.reference/01,zenodo_3992358,acquisition_s
 zenodo_3992358/acquisition_setups:main.sampling_rate_hz/01,zenodo_3992358,acquisition_setups:main.sampling_rate_hz,500,zenodo_3992358_doc25eff0,"sampling rate = 500 Hz, 0–250 Hz pass-band",2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_3992358/content_class/01,zenodo_3992358,content_class,eeg_signals,zenodo_3992359,"Raw EEG data (DMT, eyes open and eyes closed) and psychometric scales for the 35 participants",2026-11-16,claude,current,
 zenodo_3992358/domains/01,zenodo_3992358,domains,other,zenodo_3992358_doc25eff0,to study the acute effects of inhaled DMT in 35 participants in natural settings,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_3992358/file_formats/01,zenodo_3992358,file_formats,bdf,zenodo_3992359,files: S33-DMT.bdf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_3992358/license_spdx/01,zenodo_3992358,license_spdx,CC-BY-4.0,zenodo_3992359,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_3992358/modalities/01,zenodo_3992358,modalities,scalp_eeg,zenodo_3992359,"Raw EEG data (DMT, eyes open and eyes closed) and psychometric scales for the 35 partic",2026-11-14,claude,current,
 zenodo_3992358/modalities/02,zenodo_3992358,modalities,scalp_eeg,zenodo_3992358_doc25eff0,EEG data were recorded with a 24-channel mobile system,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -51733,6 +51828,7 @@ zenodo_4019709/acquisition_setups:main.reference/01,zenodo_4019709,acquisition_s
 zenodo_4019709/acquisition_setups:main.sampling_rate_hz/01,zenodo_4019709,acquisition_setups:main.sampling_rate_hz,1000,zenodo_4019709_docf255f7,EEG signals were sampled at 1000 Hz from 32 Ag/AgCl electrodes,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_4019709/content_class/01,zenodo_4019709,content_class,eeg_signals,zenodo_4385970,"EEG data presented in the paper Grammar, lexical category and the neural processing of phrases",2026-11-16,claude,current,
 zenodo_4019709/domains/01,zenodo_4019709,domains,cognitive,zenodo_4385970,we record EEG from human participants as they listen to isochronous streams of monosyllabic words,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_4019709/file_formats/01,zenodo_4019709,file_formats,brainvision,zenodo_4385970,files: P16_12_2018.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_4019709/license_spdx/01,zenodo_4019709,license_spdx,CC-BY-4.0,zenodo_4385970,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_4019709/modalities/01,zenodo_4019709,modalities,scalp_eeg,zenodo_4385970,Grammatical category and the neural processing of phrases - EEG data,2026-11-14,claude,current,
 zenodo_4019709/modalities/02,zenodo_4019709,modalities,scalp_eeg,zenodo_4019709_docf255f7,EEG signals were sampled at 1000 Hz from 32 Ag/AgCl electrodes,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -51872,6 +51968,7 @@ zenodo_4264853/acquisition_setups:main.ground/01,zenodo_4264853,acquisition_setu
 zenodo_4264853/acquisition_setups:main.montage_system/01,zenodo_4264853,acquisition_setups:main.montage_system,10_20,zenodo_4264853_docef49a2,mounted in an elastic cap (actiCAP) following the extended international 10–20 system,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_4264853/acquisition_setups:main.sampling_rate_hz/01,zenodo_4264853,acquisition_setups:main.sampling_rate_hz,500,zenodo_4264853_docef49a2,EEG data were continuously recorded at a sampling rate of 500 Hz with a system equipped with 32 Ag–AgCl active electrodes,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_4264853/content_class/01,zenodo_4264853,content_class,eeg_signals,zenodo_4264854,The data represent the raw EEG datasets generated and analysed during the current study,2026-11-16,claude,current,
+zenodo_4264853/file_formats/01,zenodo_4264853,file_formats,brainvision,zenodo_4264854,files: bk_topdown_streg_s05.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_4264853/license_spdx/01,zenodo_4264853,license_spdx,CC-BY-4.0,zenodo_4264854,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_4264853/modalities/01,zenodo_4264853,modalities,scalp_eeg,zenodo_4264854,"The data represent the raw EEG datasets generated and analysed during the current study, along with the Princi",2026-11-14,claude,superseded,superseded by zenodo_4264853/modalities/02
 zenodo_4264853/modalities/02,zenodo_4264853,modalities,scalp_eeg;eog,zenodo_4264853_docef49a2,three electrodes were used to record EOG activity,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -51972,6 +52069,7 @@ zenodo_4451998/acquisition_setups:main.device_model/02,zenodo_4451998,acquisitio
 zenodo_4451998/acquisition_setups:main.reference/01,zenodo_4451998,acquisition_setups:main.reference,Common average reference (CAR),zenodo_4451999,Re-referencing: Common average reference (CAR),2026-11-15,claude,current,Audit reviewer; scope: applied in pre-processing of the distributed .set files
 zenodo_4451998/content_class/01,zenodo_4451998,content_class,eeg_signals,zenodo_4451999,All datasets have been pre-processessed in EEGlab and exported as .set files.,2026-11-16,claude,current,
 zenodo_4451998/domains/01,zenodo_4451998,domains,bci,zenodo_4451999,EEGlass eyeware prototype for ubiquitous brain-computer interaction,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_4451998/file_formats/01,zenodo_4451998,file_formats,eeglab_set,zenodo_4451999,files: EOG_D_EEGlass.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_4451998/license_spdx/01,zenodo_4451998,license_spdx,CC-BY-4.0,zenodo_4451999,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_4451998/modalities/01,zenodo_4451998,modalities,scalp_eeg,zenodo_4451999,Pilot acquisition of EEG data during motor-imagery and resting state (eyes-closed) from EEGlass eyeware,2026-11-14,claude,superseded,superseded by zenodo_4451998/modalities/02
 zenodo_4451998/modalities/02,zenodo_4451998,modalities,scalp_eeg;eog,zenodo_4451999,"In addition, the EOG activity from four eye movements (up,down;left;right) from EEGlass are included.",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -51987,6 +52085,7 @@ zenodo_4453395/access_routes:zenodo.human_steps/01,zenodo_4453395,access_routes:
 zenodo_4453395/acquisition_setups:main.device_model/01,zenodo_4453395,acquisition_setups:main.device_model,OpenBCI board,zenodo_4453396,EEGlass is equipped with an OpenBCI board,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_4453395/acquisition_setups:main.reference/01,zenodo_4453395,acquisition_setups:main.reference,Common average reference (CAR),zenodo_4453396,Re-referencing: Common average reference (CAR),2026-11-15,claude,current,Audit reviewer; scope: filtered file eeglass_pctasks_preproc only
 zenodo_4453395/content_class/01,zenodo_4453395,content_class,eeg_signals,zenodo_4453396,This dataset includes 1 hour-long EEG data from EEGlass recording during casual computer tasks,2026-11-16,claude,current,
+zenodo_4453395/file_formats/01,zenodo_4453395,file_formats,eeglab_set,zenodo_4453396,files: eeglass_pctasks.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_4453395/hours_reported/01,zenodo_4453395,hours_reported,1,zenodo_4453396,This dataset includes 1 hour-long EEG data from EEGlass recording,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_4453395/license_spdx/01,zenodo_4453395,license_spdx,CC-BY-4.0,zenodo_4453396,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_4453395/modalities/01,zenodo_4453395,modalities,scalp_eeg,zenodo_4453396,Hour-long EEG data recording from EEGlass,2026-11-14,claude,current,
@@ -52120,6 +52219,7 @@ zenodo_4659713/acquisition_setups:main.montage_system/01,zenodo_4659713,acquisit
 zenodo_4659713/acquisition_setups:main.reference/01,zenodo_4659713,acquisition_setups:main.reference,posterior CMS-DLR electrode combination,zenodo_4659714,this system contained a posterior CMS-DLR electrode combination,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_4659713/content_class/01,zenodo_4659713,content_class,eeg_signals,zenodo_4659714,This dataset contains the raw EEG data collected in a study investigating the neural signatures of extensive training.,2026-11-16,claude,current,
 zenodo_4659713/domains/01,zenodo_4659713,domains,cognitive,zenodo_4659714,30 subjects performed a simple stimulus-action association task in which they learned to respond with one out of two key presses to a stimulus presented,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_4659713/file_formats/01,zenodo_4659713,file_formats,bdf,zenodo_4659714,files: sub-22.bdf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_4659713/license_spdx/01,zenodo_4659713,license_spdx,CC-BY-4.0,zenodo_4659714,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_4659713/modalities/01,zenodo_4659713,modalities,scalp_eeg,zenodo_4659714,This dataset contains the raw EEG data collected in a study investigating the neural signatures of extensive trai,2026-11-14,claude,superseded,superseded by zenodo_4659713/modalities/02
 zenodo_4659713/modalities/02,zenodo_4659713,modalities,scalp_eeg;eog,zenodo_4659714,six external electrodes were used to measure eye activity,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -52133,6 +52233,7 @@ zenodo_4688757/access_routes:zenodo.automation_tool/01,zenodo_4688757,access_rou
 zenodo_4688757/access_routes:zenodo.human_steps/01,zenodo_4688757,access_routes:zenodo.human_steps,none,zenodo_4688758,access_right: open,2026-11-14,script,current,
 zenodo_4688757/content_class/01,zenodo_4688757,content_class,eeg_signals,zenodo_4688758,Seven raters reviewed EEG segments containing sharp waveforms from 100 patients with and without epilepsy.,2026-11-16,claude,current,
 zenodo_4688757/domains/01,zenodo_4688757,domains,epilepsy;clinical,zenodo_4688758,"Criteria yielding high specificity are needed because EEG ""over-reading"" is a common cause of epilepsy misdiagnosis.",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_4688757/file_formats/01,zenodo_4688757,file_formats,edf,zenodo_4688758,files: S27.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_4688757/license_spdx/01,zenodo_4688757,license_spdx,CC0-1.0,zenodo_4688758,License: cc-zero,2026-11-14,script,current,
 zenodo_4688757/modalities/01,zenodo_4688757,modalities,scalp_eeg,zenodo_4688758,Criteria for defining interictal epileptiform discharges in EEG: a clinical validation study,2026-11-14,claude,current,
 zenodo_4688757/name/01,zenodo_4688757,name,Criteria for defining interictal epileptiform discharges in EEG: a clinical validation study,zenodo_4688758,Record title,2026-11-14,script,current,
@@ -52151,6 +52252,7 @@ zenodo_4697025/acquisition_setups:main.device_manufacturer/01,zenodo_4697025,acq
 zenodo_4697025/acquisition_setups:main.device_model/01,zenodo_4697025,acquisition_setups:main.device_model,BrainAmp,zenodo_4697026,Brainvision BrainAmp with 64 Channels,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_4697025/content_class/01,zenodo_4697025,content_class,eeg_signals,zenodo_4697026,These electroencephalography (EEG) data files were collected in a virtual T-maze paradigm.,2026-11-16,claude,current,
 zenodo_4697025/domains/01,zenodo_4697025,domains,cognitive,zenodo_4697026,This sample dataset was chosen for demonstration EPOS as this chain has be developped to investigate event related frequency responses,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_4697025/file_formats/01,zenodo_4697025,file_formats,brainvision,zenodo_4697026,files: VP_34.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_4697025/license_spdx/01,zenodo_4697025,license_spdx,CC-BY-4.0,zenodo_4697026,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_4697025/modalities/01,zenodo_4697025,modalities,scalp_eeg,zenodo_4697026,Virtual T-maze paradigm including resting EEG: Example dataset,2026-11-14,claude,current,
 zenodo_4697025/name/01,zenodo_4697025,name,Virtual T-maze paradigm including resting EEG: Example dataset,zenodo_4697026,Record title,2026-11-14,script,current,
@@ -52859,6 +52961,7 @@ zenodo_5172961/acquisition_setups:main.n_channels_eeg/01,zenodo_5172961,acquisit
 zenodo_5172961/acquisition_setups:main.n_channels_eeg/02,zenodo_5172961,acquisition_setups:main.n_channels_eeg,39,zenodo_5931539,we selected a subset of 39 spatially-distributed channels in the baseline EEG files,2026-11-15,claude,conflicting,Audit reviewer; scope: simulated .set files
 zenodo_5172961/acquisition_setups:main.sampling_rate_hz/01,zenodo_5172961,acquisition_setups:main.sampling_rate_hz,1000,zenodo_5931539,sampled at 1000Hz with an online reference to channel CZ,2026-11-15,claude,current,Audit reviewer; scope: original gaba recordings
 zenodo_5172961/content_class/01,zenodo_5172961,content_class,eeg_signals,zenodo_5931539,we selected a subset of 39 spatially-distributed channels in the baseline EEG files,2026-11-16,claude,current,
+zenodo_5172961/file_formats/01,zenodo_5172961,file_formats,eeglab_set,zenodo_5931539,files: sim-good_h.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_5172961/license_spdx/01,zenodo_5172961,license_spdx,CC-BY-4.0,zenodo_5931539,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_5172961/modalities/01,zenodo_5172961,modalities,scalp_eeg,zenodo_5931539,HAPPE+ER software was optimized for developmental data using a subset of EEG files from 4-month and 10-month old infants in the General Anesthesia and Brain,2026-11-14,claude,current,
 zenodo_5172961/name/01,zenodo_5172961,name,Visual-Evoked Potential (VEP) Event-Related Files from the General Anesthesia and Brain Activity (GABA) Study and Infant Sibling Project (ISP),zenodo_5931539,Record title,2026-11-14,script,current,
@@ -52871,6 +52974,7 @@ zenodo_5233655/access_routes:zenodo.access_method/01,zenodo_5233655,access_route
 zenodo_5233655/access_routes:zenodo.automation_tool/01,zenodo_5233655,access_routes:zenodo.automation_tool,zenodo-api,zenodo_5233656,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_5233655/access_routes:zenodo.human_steps/01,zenodo_5233655,access_routes:zenodo.human_steps,none,zenodo_5233656,access_right: open,2026-11-14,script,current,
 zenodo_5233655/content_class/01,zenodo_5233655,content_class,eeg_signals,zenodo_5233656,EEG data were recorded with Brain Vision Recorder and analyzed with Matlab and EEGlab.,2026-11-16,claude,current,
+zenodo_5233655/file_formats/01,zenodo_5233655,file_formats,brainvision,zenodo_5233656,files: H13.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_5233655/license_spdx/01,zenodo_5233655,license_spdx,CC-BY-4.0,zenodo_5233656,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_5233655/modalities/01,zenodo_5233655,modalities,scalp_eeg,zenodo_5233656,tested 24 highly suggestible participants in two experimental conditions in an EEG study,2026-11-14,claude,current,
 zenodo_5233655/n_subjects_reported/01,zenodo_5233655,n_subjects_reported,24,zenodo_5233656,We tested 24 highly suggestible participants in two experimental conditions in an EEG study.,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -52994,6 +53098,7 @@ zenodo_5547290/acquisition_setups:main.device_model/01,zenodo_5547290,acquisitio
 zenodo_5547290/acquisition_setups:main.sampling_rate_hz/01,zenodo_5547290,acquisition_setups:main.sampling_rate_hz,512,zenodo_5547290_doc6f71c0,EEG data were collected with a 512 Hz sampling frequency using a Nicolet vEEG 5.94 system,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_5547290/content_class/01,zenodo_5547290,content_class,eeg_signals,zenodo_5547290_doc454a89,Raw EEG data in european data format (EDF) format.,2026-11-16,claude,current,
 zenodo_5547290/domains/01,zenodo_5547290,domains,development;resting_state,zenodo_5547290_doc6f71c0,"resting-state EEG and its association with motor impairment indices, in blind subjects and in sighted controls between 0 and 11 years of age",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_5547290/file_formats/01,zenodo_5547290,file_formats,edf,zenodo_5547291,files: S164.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_5547290/license_spdx/01,zenodo_5547290,license_spdx,CC-BY-4.0,zenodo_5547291,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_5547290/modalities/01,zenodo_5547290,modalities,scalp_eeg,zenodo_5547291,Raw EEG data in european data format (EDF) format,2026-11-14,claude,current,
 zenodo_5547290/name/01,zenodo_5547290,name,Dataset for the study Sensitive period for the plasticity of alpha activity in humans,zenodo_5547291,Record title,2026-11-14,script,current,
@@ -53127,6 +53232,7 @@ zenodo_5907008/acquisition_setups:main.n_channels_eeg/01,zenodo_5907008,acquisit
 zenodo_5907008/acquisition_setups:main.reference/01,zenodo_5907008,acquisition_setups:main.reference,FCz,zenodo_5907009,all electrodes were referenced to FCz electrode,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_5907008/acquisition_setups:main.sampling_rate_hz/01,zenodo_5907008,acquisition_setups:main.sampling_rate_hz,500,zenodo_5907009,The signal was acquired at a rate of 500Hz,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_5907008/content_class/01,zenodo_5907008,content_class,eeg_signals,zenodo_5907009,Data are in .set/.fdt format from EEGLab.,2026-11-16,claude,current,
+zenodo_5907008/file_formats/01,zenodo_5907008,file_formats,eeglab_set,zenodo_5907009,files: P4_high_80.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_5907008/license_spdx/01,zenodo_5907008,license_spdx,CC-BY-NC-SA-4.0,zenodo_5907009,License: cc-by-nc-sa-4.0,2026-11-14,script,current,
 zenodo_5907008/modalities/01,zenodo_5907008,modalities,scalp_eeg,zenodo_5907009,# EEG data acquisition EEG data was recorded from 32 electrodes fitted in an elastic cap according to the,2026-11-14,claude,current,
 zenodo_5907008/name/01,zenodo_5907008,name,Low amplitude depths and high frequencies SSVEp stimuli for reactive BCI,zenodo_5907009,Record title,2026-11-14,script,current,
@@ -53282,6 +53388,7 @@ zenodo_616772/access_routes:zenodo.automation_tool/01,zenodo_616772,access_route
 zenodo_616772/access_routes:zenodo.human_steps/01,zenodo_616772,access_routes:zenodo.human_steps,none,zenodo_30084,access_right: open,2026-11-14,script,current,
 zenodo_616772/acquisition_setups:main.n_channels_eeg/01,zenodo_616772,acquisition_setups:main.n_channels_eeg,19,zenodo_30084,Number of channels: 19,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_616772/content_class/01,zenodo_616772,content_class,eeg_signals,zenodo_30084,These EEG signals were recorded during a P300 speller paradigm.,2026-11-16,claude,current,
+zenodo_616772/file_formats/01,zenodo_616772,file_formats,eeglab_set,zenodo_30084,files: Subject01_session01.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_616772/license_spdx/01,zenodo_616772,license_spdx,CC0-1.0,zenodo_30084,License: cc-zero,2026-11-14,script,current,
 zenodo_616772/modalities/01,zenodo_616772,modalities,scalp_eeg,zenodo_30084,EEG data for P300 speller,2026-11-14,claude,current,
 zenodo_616772/n_subjects_reported/01,zenodo_616772,n_subjects_reported,10,zenodo_30084,Number of subjects: 10,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -53299,6 +53406,7 @@ zenodo_618914/acquisition_setups:main.n_channels_eeg/01,zenodo_618914,acquisitio
 zenodo_618914/acquisition_setups:main.reference/01,zenodo_618914,acquisition_setups:main.reference,linked earlobes,zenodo_618914_doc8288c9,The online data were referenced to linked earlobes,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_618914/acquisition_setups:main.sampling_rate_hz/01,zenodo_618914,acquisition_setups:main.sampling_rate_hz,1000,zenodo_618914_doc8288c9,"The electroencephalograph (EEG) was recorded at 1,000 Hz",2026-11-15,claude,current,Audit reviewer; scope: recorded; the record distributes cleaned epoched data
 zenodo_618914/content_class/01,zenodo_618914,content_class,eeg_signals,zenodo_33432,The cleaned and group ICA resting state data in EEGLAB format.,2026-11-16,claude,current,
+zenodo_618914/file_formats/01,zenodo_618914,file_formats,eeglab_set,zenodo_33432,files: GrpICA.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_618914/license_spdx/01,zenodo_618914,license_spdx,CC-BY-NC-SA-4.0,zenodo_33432,License: cc-by-nc-sa-4.0,2026-11-14,script,current,
 zenodo_618914/modalities/01,zenodo_618914,modalities,scalp_eeg,zenodo_33432,The effects of dexamphetamine on the resting state electroencephalogram and functional connectivity,2026-11-14,claude,superseded,superseded by zenodo_618914/modalities/02
 zenodo_618914/modalities/02,zenodo_618914,modalities,scalp_eeg;eog,zenodo_618914_doc8288c9,"recorded at 1,000 Hz with a Neuroscan 32‐channel system according to the extended 10–20 system using an Ag/AgCl electrode cap that included vertical and horizontal",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -53373,6 +53481,7 @@ zenodo_6385767/acquisition_setups:main.device_model/01,zenodo_6385767,acquisitio
 zenodo_6385767/acquisition_setups:main.montage_system/01,zenodo_6385767,acquisition_setups:main.montage_system,egi_hydrocel,zenodo_6385767_doc93ab3d,"with a 128-channel HydroCel electrode net (Magstim/EGI, Eugene, OR)",2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_6385767/acquisition_setups:main.n_channels_eeg/01,zenodo_6385767,acquisition_setups:main.n_channels_eeg,128,zenodo_6385767_doc93ab3d,"Recordings were collected at a 1000 Hz sampling rate with an EGI NetAmp 400 with a 128-channel HydroCel electrode net (Magstim/EGI, Eugene, OR)",2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_6385767/acquisition_setups:main.sampling_rate_hz/01,zenodo_6385767,acquisition_setups:main.sampling_rate_hz,1000,zenodo_6385767_doc93ab3d,Recordings were collected at a 1000 Hz sampling rate,2026-11-15,claude,current,Audit reviewer; scope: recorded; the record distributes cleaned data
+zenodo_6385767/file_formats/01,zenodo_6385767,file_formats,eeglab_set,zenodo_7149276,files: D01_112_rest_postcomp.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_6385767/license_spdx/01,zenodo_6385767,license_spdx,CC-BY-4.0,zenodo_7149276,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_6385767/modalities/01,zenodo_6385767,modalities,scalp_eeg,zenodo_7149276,ical Modulation of Neuronal Hyperexcitability contribute to Fragile X Syndrome: EEG Data,2026-11-14,claude,current,
 zenodo_6385767/name/01,zenodo_6385767,name,Neocortical Localization and Thalamocortical Modulation of Neuronal Hyperexcitability contribute to Fragile X Syndrome: EEG Data,zenodo_7149276,Record title,2026-11-14,script,current,
@@ -53528,6 +53637,7 @@ zenodo_655365/access_routes:zenodo.access_method/01,zenodo_655365,access_routes:
 zenodo_655365/access_routes:zenodo.automation_tool/01,zenodo_655365,access_routes:zenodo.automation_tool,zenodo-api,zenodo_160118,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_655365/access_routes:zenodo.human_steps/01,zenodo_655365,access_routes:zenodo.human_steps,none,zenodo_160118,access_right: open,2026-11-14,script,current,
 zenodo_655365/content_class/01,zenodo_655365,content_class,non_human,zenodo_655365_doc050f29,"Young-adult male wild-type C57BL/6J mice (RRID:IMSR_JAX:000664), were obtained from Envigo",2026-11-16,claude,current,
+zenodo_655365/file_formats/01,zenodo_655365,file_formats,edf,zenodo_160118,files: EEG_D.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_655365/license_spdx/01,zenodo_655365,license_spdx,CC0-1.0,zenodo_160118,License: cc-zero,2026-11-14,script,current,
 zenodo_655365/modalities/01,zenodo_655365,modalities,scalp_eeg,zenodo_160118,"The raw EEG data, 4 files (EEG_A to D), in European data format (",2026-11-14,claude,current,
 zenodo_655365/name/01,zenodo_655365,name,"The raw EEG data, 4 files (EEG_A to D), in European data format (.edf)",zenodo_160118,Record title,2026-11-14,script,current,
@@ -53537,6 +53647,7 @@ zenodo_6555701/access_routes:zenodo.automation_tool/01,zenodo_6555701,access_rou
 zenodo_6555701/access_routes:zenodo.human_steps/01,zenodo_6555701,access_routes:zenodo.human_steps,none,zenodo_8425759,access_right: open,2026-11-14,script,current,
 zenodo_6555701/content_class/01,zenodo_6555701,content_class,eeg_signals,zenodo_6555701_doca6e52d,"Raw EEG data for project 137_2020_GVA_EEG (decoding of children's working memory content) in .bdf format, before any preprocessing.",2026-11-16,claude,current,
 zenodo_6555701/domains/01,zenodo_6555701,domains,cognitive,zenodo_6555701_doca6e52d,decoding of children's working memory content,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_6555701/file_formats/01,zenodo_6555701,file_formats,bdf,zenodo_8425759,files: 20211110_137_6417.bdf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_6555701/license_spdx/01,zenodo_6555701,license_spdx,CC-BY-4.0,zenodo_8425759,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_6555701/modalities/01,zenodo_6555701,modalities,scalp_eeg,zenodo_8425759,Raw EEG data for project 137_2020_GVA_EEG (decoding of children's working memory conten,2026-11-14,claude,current,
 zenodo_6555701/name/01,zenodo_6555701,name,137_Raw-data_EEG,zenodo_8425759,Record title,2026-11-14,script,current,
@@ -53556,6 +53667,7 @@ zenodo_6580004/access_routes:zenodo.automation_tool/01,zenodo_6580004,access_rou
 zenodo_6580004/access_routes:zenodo.human_steps/01,zenodo_6580004,access_routes:zenodo.human_steps,none,zenodo_8425851,access_right: open,2026-11-14,script,current,
 zenodo_6580004/content_class/01,zenodo_6580004,content_class,eeg_signals,zenodo_6580004_docc7e5d8,"Data are in .set format, which can be read by EEGLAB (Matlab).",2026-11-16,claude,current,
 zenodo_6580004/domains/01,zenodo_6580004,domains,cognitive,zenodo_6580004_docc7e5d8,decoding of children's working memory content,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_6580004/file_formats/01,zenodo_6580004,file_formats,eeglab_set,zenodo_8425851,files: 20220331_137_4759_downsampled_aref_1-40bandpass_interpolated_epochs_badepochsrejected_ICA_badcomprejected_BC_EOGremoved.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_6580004/license_spdx/01,zenodo_6580004,license_spdx,CC-BY-4.0,zenodo_8425851,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_6580004/modalities/01,zenodo_6580004,modalities,scalp_eeg,zenodo_8425851,EEG data for project 137_2020_GVA_EEG (decoding of children's working memory conten,2026-11-14,claude,current,
 zenodo_6580004/name/01,zenodo_6580004,name,137_Clean-data_EEG,zenodo_8425851,Record title,2026-11-14,script,current,
@@ -53603,6 +53715,7 @@ zenodo_6606500/acquisition_setups:main.reference/01,zenodo_6606500,acquisition_s
 zenodo_6606500/acquisition_setups:main.sampling_rate_hz/01,zenodo_6606500,acquisition_setups:main.sampling_rate_hz,1000,zenodo_6606500_doc1ccd97,were digitized at a sampling rate of 1000 Hz (except for one participant (500 Hz) due to experimental error),2026-11-15,claude,current,Audit reviewer; scope: all participants but one
 zenodo_6606500/content_class/01,zenodo_6606500,content_class,eeg_signals,zenodo_6606500_doca64124,EEG files : Brainvision *.dat; *.edf : eeg files of the experimental nap,2026-11-16,claude,current,
 zenodo_6606500/domains/01,zenodo_6606500,domains,sleep;motor;cognitive,zenodo_6606500_doc1ccd97,Participants were then offered a 90-min nap that was monitored with polysomnography.,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_6606500/file_formats/01,zenodo_6606500,file_formats,brainvision;edf,zenodo_6642860,"files: OL_24.vhdr, OL_24.edf",2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_6606500/license_spdx/01,zenodo_6606500,license_spdx,CC-BY-4.0,zenodo_6642860,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_6606500/modalities/01,zenodo_6606500,modalities,scalp_eeg,zenodo_6642860,Reinstate Motor Memory Depending on their Temporal Coordination with Slow Waves EEG files : Brainvision *,2026-11-14,claude,superseded,superseded by zenodo_6606500/modalities/02
 zenodo_6606500/modalities/02,zenodo_6606500,modalities,scalp_eeg;eog;emg;psg,zenodo_6606500_doc1ccd97,Bipolar submental electromyogram (EMG) recordings were made from the chin.,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -53653,6 +53766,7 @@ zenodo_6801530/acquisition_setups:main.n_channels_eeg/01,zenodo_6801530,acquisit
 zenodo_6801530/acquisition_setups:main.sampling_rate_hz/01,zenodo_6801530,acquisition_setups:main.sampling_rate_hz,250,zenodo_6801530_doc813489,data were sampled at 250 Hz,2026-11-15,claude,current,Audit reviewer; scope: recorded
 zenodo_6801530/content_class/01,zenodo_6801530,content_class,eeg_signals,zenodo_6801530_doc06822d,EEG data in EEGLAB’s format,2026-11-16,claude,current,
 zenodo_6801530/domains/01,zenodo_6801530,domains,development;perception,zenodo_6801530_doc813489,event-related potentials (ERPs) previously implicated in face processing in 7-month-old infants (N290) and adults (N170),2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_6801530/file_formats/01,zenodo_6801530,file_formats,eeglab_set,zenodo_6801531,files: 13_f3_2_adult.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_6801530/license_spdx/01,zenodo_6801530,license_spdx,CC-BY-4.0,zenodo_6801531,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_6801530/modalities/01,zenodo_6801530,modalities,scalp_eeg,zenodo_6801531,"sav *EEG data in EEGLAB’s format, Filenames indicate type of data with: 1) Initial numer",2026-11-14,claude,current,
 zenodo_6801530/modalities/02,zenodo_6801530,modalities,scalp_eeg,zenodo_6801530_doc813489,EEG was recorded during stimulus presentation by using a high-density EGI HydroCel 128-electrode net,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -53744,6 +53858,7 @@ zenodo_6992084/acquisition_setups:main.montage_system/01,zenodo_6992084,acquisit
 zenodo_6992084/acquisition_setups:main.n_channels_eeg/01,zenodo_6992084,acquisition_setups:main.n_channels_eeg,32,zenodo_6992084_doc26c50b,EEG was recorded from 32 scalp sites by means of AgAgCl active electrodes mounted in an elastic electrode cap at the standard 10–20 system,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_6992084/acquisition_setups:main.sampling_rate_hz/01,zenodo_6992084,acquisition_setups:main.sampling_rate_hz,512,zenodo_6992084_doc26c50b,EEG and electrooculography was recorded with a TMSi Refa amplifier with active shielding at a sampling rate of 512 Hz and a low-pass filter of,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_6992084/content_class/01,zenodo_6992084,content_class,eeg_signals,zenodo_6992085,This repository contains the raw EEG data for the above-named paper.,2026-11-16,claude,current,
+zenodo_6992084/file_formats/01,zenodo_6992084,file_formats,brainvision,zenodo_6992085,files: 42.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_6992084/license_spdx/01,zenodo_6992084,license_spdx,CC-BY-4.0,zenodo_6992085,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_6992084/modalities/01,zenodo_6992084,modalities,scalp_eeg,zenodo_6992085,"Raw EEG data for the experiment reported in ""Understanding the effects of constraint an",2026-11-14,claude,superseded,superseded by zenodo_6992084/modalities/02
 zenodo_6992084/modalities/02,zenodo_6992084,modalities,scalp_eeg;eog,zenodo_6992084_doc26c50b,Eye movements and blinks were monitored with bipolar electrodes next to the left and right outer canthus as well as below and above the right,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -54003,6 +54118,7 @@ zenodo_7315009/acquisition_setups:main.n_channels_eeg/01,zenodo_7315009,acquisit
 zenodo_7315009/acquisition_setups:main.reference/01,zenodo_7315009,acquisition_setups:main.reference,linked mastoids,zenodo_7315009_doc6f3e16,The online reference used in this system is the linked mastoids.,2026-11-15,claude,current,Audit reviewer; scope: original recordings
 zenodo_7315009/acquisition_setups:main.sampling_rate_hz/01,zenodo_7315009,acquisition_setups:main.sampling_rate_hz,1000,zenodo_7315009_doc6f3e16,with a sampling frequency of 1000 Hz,2026-11-15,claude,current,Audit reviewer; scope: original recordings (the denoised copy may differ)
 zenodo_7315009/content_class/01,zenodo_7315009,content_class,eeg_signals,zenodo_7315010,Denoised and Preprocessed data from EEG: First Episode Psychosis vs. Control Resting Task 1,2026-11-16,claude,current,
+zenodo_7315009/file_formats/01,zenodo_7315009,file_formats,fif,zenodo_7315010,files: sub-2020.fif,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_7315009/license_spdx/01,zenodo_7315009,license_spdx,CC-BY-4.0,zenodo_7315010,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_7315009/modalities/01,zenodo_7315009,modalities,scalp_eeg,zenodo_7315010,"Dataset from ""Power Spectral Density-Based Resting-State EEG Classification of First-Episode Psychosis""",2026-11-14,claude,current,
 zenodo_7315009/n_subjects_reported/01,zenodo_7315009,n_subjects_reported,72,zenodo_7315009_doc6f3e16,MEG data was recorded for 53 participants while EEG data was collected for 72 participants,2026-11-15,claude,current,Audit reviewer; scope: original dataset ds003944 as used in the paper (the zenodo record itself gives no count)
@@ -54088,6 +54204,7 @@ zenodo_7397907/tasks:watching_16_short_emotional_videos.task_name/01,zenodo_7397
 zenodo_7397907/year_published/01,zenodo_7397907,year_published,2022,zenodo_7398263,Published 2022-12-05,2026-11-14,script,current,
 zenodo_7440441/access_routes:zenodo.access_method/01,zenodo_7440441,access_routes:zenodo.access_method,direct_download,zenodo_7440442,info:eu-repo/semantics/openAccess,2026-11-17,script,current,
 zenodo_7440441/access_routes:zenodo.human_steps/01,zenodo_7440441,access_routes:zenodo.human_steps,none,zenodo_7440442,info:eu-repo/semantics/openAccess,2026-11-17,script,current,
+zenodo_7440441/file_formats/01,zenodo_7440441,file_formats,brainvision,zenodo_7440442,files: ec_EEG_s01_d1.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_7440441/license_spdx/01,zenodo_7440441,license_spdx,CC-BY-4.0,zenodo_7440442,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_7440441/modalities/01,zenodo_7440441,modalities,scalp_eeg,zenodo_7440442,(2023) : 1- raw EEG and kinematics data files; Structure of the data and other relevant details: Ra,2026-11-17,claude,current,
 zenodo_7440441/name/01,zenodo_7440441,name,Strategy-based motor learning decreases the post-movement β power,zenodo_7440442,Record title,2026-11-17,script,current,
@@ -54560,6 +54677,7 @@ zenodo_806022/acquisition_setups:main.device_model/01,zenodo_806022,acquisition_
 zenodo_806022/acquisition_setups:main.n_channels_eeg/01,zenodo_806022,acquisition_setups:main.n_channels_eeg,16,zenodo_806023,Data have been recorded at 512Hz with 16 wet electrodes,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_806022/acquisition_setups:main.sampling_rate_hz/01,zenodo_806022,acquisition_setups:main.sampling_rate_hz,512,zenodo_806023,Data have been recorded at 512Hz with 16 wet electrodes,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_806022/content_class/01,zenodo_806022,content_class,eeg_signals,zenodo_806023,This Dataset contains EEG recordings from 8 subjects,2026-11-16,claude,current,
+zenodo_806022/file_formats/01,zenodo_806022,file_formats,fif,zenodo_806023,files: subject8.raw.fif,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_806022/license_spdx/01,zenodo_806022,license_spdx,CC-BY-SA-4.0,zenodo_806023,License: cc-by-sa-4.0,2026-11-14,script,current,
 zenodo_806022/modalities/01,zenodo_806022,modalities,scalp_eeg,zenodo_806023,"EEG Motor Imagery Dataset from the PhD Thesis ""Commande robuste d'un effecteur par",2026-11-14,claude,current,
 zenodo_806022/n_subjects_reported/01,zenodo_806022,n_subjects_reported,8,zenodo_806023,This Dataset contains EEG recordings from 8 subjects,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -54661,6 +54779,7 @@ zenodo_8130404/access_routes:zenodo.access_method/01,zenodo_8130404,access_route
 zenodo_8130404/access_routes:zenodo.automation_tool/01,zenodo_8130404,access_routes:zenodo.automation_tool,zenodo-api,zenodo_8130405,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_8130404/access_routes:zenodo.human_steps/01,zenodo_8130404,access_routes:zenodo.human_steps,none,zenodo_8130405,access_right: open,2026-11-14,script,current,
 zenodo_8130404/content_class/01,zenodo_8130404,content_class,eeg_signals,zenodo_8130405,"In Study I, 45 resting EEG files are included for the Active (N = 24) and Inactive (N = 21) groups",2026-11-16,claude,current,
+zenodo_8130404/file_formats/01,zenodo_8130404,file_formats,eeglab_set,zenodo_8130405,files: SED_40_Rcl.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_8130404/license_spdx/01,zenodo_8130404,license_spdx,CC-BY-4.0,zenodo_8130405,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_8130404/modalities/01,zenodo_8130404,modalities,scalp_eeg,zenodo_8130405,"In Study I, 45 resting EEG files are included for the Active (N = 24) and Inactive (N = 21) groups, both f",2026-11-14,claude,current,
 zenodo_8130404/name/01,zenodo_8130404,name,Delving into the relationship between regular physical exercise and cardiac interoception in two cross-sectional studies.,zenodo_8130405,Record title,2026-11-14,script,current,
@@ -54858,6 +54977,7 @@ zenodo_834975/acquisition_setups:main.n_channels_eeg/01,zenodo_834975,acquisitio
 zenodo_834975/acquisition_setups:main.reference/01,zenodo_834975,acquisition_setups:main.reference,right mastoid,zenodo_834975_docc74515,"Reference was placed on the right mastoid, ground on AFz.",2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_834975/acquisition_setups:main.sampling_rate_hz/01,zenodo_834975,acquisition_setups:main.sampling_rate_hz,512,zenodo_834975_docc74515,We used an 8 th order Chebyshev bandpass filter from 0.01 Hz to 200 Hz and sampled with 512 Hz.,2026-11-15,claude,current,Audit reviewer; scope: recorded; analysis used 256 hz data
 zenodo_834975/content_class/01,zenodo_834975,content_class,eeg_signals,zenodo_834975_docc74515,"The EEG was measured from 61 channels covering frontal, central, parietal and temporal areas using active electrodes",2026-11-16,claude,current,
+zenodo_834975/file_formats/01,zenodo_834975,file_formats,gdf,zenodo_834976,files: motorexecution_subject12_run7.gdf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_834975/license_spdx/01,zenodo_834975,license_spdx,CC-BY-4.0,zenodo_834976,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_834975/modalities/01,zenodo_834975,modalities,scalp_eeg,zenodo_834976,Upper limb movements can be decoded from the time-domain of low-frequency EEG,2026-11-14,claude,current,
 zenodo_834975/n_subjects_reported/01,zenodo_834975,n_subjects_reported,15,zenodo_834975_docc74515,We measured 15 healthy subjects in two separate ME and MI sessions.,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -54918,6 +55038,7 @@ zenodo_8370355/access_routes:zenodo.access_method/01,zenodo_8370355,access_route
 zenodo_8370355/access_routes:zenodo.automation_tool/01,zenodo_8370355,access_routes:zenodo.automation_tool,zenodo-api,zenodo_8370356,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_8370355/access_routes:zenodo.human_steps/01,zenodo_8370355,access_routes:zenodo.human_steps,none,zenodo_8370356,access_right: open,2026-11-14,script,current,
 zenodo_8370355/content_class/01,zenodo_8370355,content_class,eeg_signals,zenodo_8370356,"We investigated how naturalistic actions in a highly immersive, multimodal, interactive 3D virtual reality (VR) environment may enhance word encoding by recording EEG in a",2026-11-16,claude,current,
+zenodo_8370355/file_formats/01,zenodo_8370355,file_formats,bdf;eeglab_set,zenodo_8370356,"files: S29VB.bdf, CS24MMP_ready-allblocks-mismatch_verb-epoched.set",2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_8370355/license_spdx/01,zenodo_8370355,license_spdx,CC-BY-4.0,zenodo_8370356,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_8370355/modalities/01,zenodo_8370355,modalities,scalp_eeg,zenodo_8370356,tive 3D virtual reality (VR) environment may enhance word encoding by recording EEG in a pre/post-test learning paradigm,2026-11-14,claude,current,
 zenodo_8370355/name/01,zenodo_8370355,name,The neural correlates of embodied L2 learning Does embodied L2 verb learning affect representation and retention?,zenodo_8370356,Record title,2026-11-14,script,current,
@@ -54978,6 +55099,7 @@ zenodo_8407715/acquisition_setups:main.device_model/01,zenodo_8407715,acquisitio
 zenodo_8407715/acquisition_setups:main.montage_system/01,zenodo_8407715,acquisition_setups:main.montage_system,10_20,zenodo_8407715_doc00cf4e,positions of the international 10–20 system,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_8407715/acquisition_setups:main.sampling_rate_hz/01,zenodo_8407715,acquisition_setups:main.sampling_rate_hz,500,zenodo_8407715_doc00cf4e,Electrical signal was recorded at 500 Hz and referenced online to the Fpz electrode.,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_8407715/content_class/01,zenodo_8407715,content_class,eeg_signals,zenodo_8407716,"The dataset contains EEG recordings pre- (with the presleep tag), during (with the sleep tag) and post- (with the postsleep tag) sleep during a evening",2026-11-16,claude,current,
+zenodo_8407715/file_formats/01,zenodo_8407715,file_formats,brainvision,zenodo_8407716,files: EMO_Sleep_Subject_13_EXP_postsleep_50Hz.vhdr,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_8407715/license_spdx/01,zenodo_8407715,license_spdx,CC-BY-4.0,zenodo_8407716,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_8407715/modalities/01,zenodo_8407715,modalities,scalp_eeg,zenodo_8407716,"The dataset contains EEG recordings pre- (with the presleep tag), during (with the sleep tag) and post-",2026-11-14,claude,superseded,superseded by zenodo_8407715/modalities/02
 zenodo_8407715/modalities/02,zenodo_8407715,modalities,scalp_eeg;eog;emg;psg,zenodo_8407715_doc00cf4e,"Sleep was scored by 2 experienced scorers who visually classified the polysomnographic signal (consisting of EEG, EOG and EMG signal)",2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
