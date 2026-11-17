@@ -908,6 +908,7 @@ zenodo_15241990,class_labels,responder classification labels,,,,,,zenodo_1524199
 zenodo_15332757,event_markers,stimulus triggers,,,,,,zenodo_15332757_docfd2fdd,The structure and labeling of stimulus triggers embedded in the EEG recordings are critical for interpreting the dataset,2026-11-15,claude,
 zenodo_15382396,class_labels,depression severity labels,,,,,,zenodo_15382396_doc5239be,Depression severity labels were derived from a fused score combining BDI-II and PHQ-9 responses.,2026-11-15,claude,
 zenodo_15382396,questionnaires,BDI-II and PHQ-9,,,,,,zenodo_15382396_doc5239be,Each participant completed two validated depression questionnaires (BDI-II and PHQ-9),2026-11-15,claude,
+zenodo_15388167,questionnaires,questionnaire responses,self-other integration;agency;shared agency;flow;pleasure;arousal,,,,,zenodo_15388167_doccc2a81,Questionnaire responses were collected after each interaction from individuals,2026-11-17,claude,
 zenodo_15399489,event_markers,S1–S6 event markers,,,,,,zenodo_15399489_doc4243fa,"annotated with precise time stamps and event labels indicating cue presentation, movement onset, and resting phases",2026-11-15,claude,
 zenodo_15437727,clinical_diagnosis,Demographic and clinical data,,,,,,zenodo_15437727_docc5dc64,- Demographic and clinical data,2026-11-15,claude,
 zenodo_15454354,behavioral_responses,Trial Outcomes,,,,,,zenodo_15454354_doc6e7aca,"Trial Outcomes: Hit, Miss, Timeout",2026-11-15,claude,

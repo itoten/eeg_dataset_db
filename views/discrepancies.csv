@@ -1146,8 +1146,16 @@ zenodo_15086710,acquisition_setups:main.sampling_rate_hz,conflicting,2048,second
 zenodo_15086710,acquisition_setups:main.sampling_rate_hz,conflicting,256,secondary,https://api.datacite.org/dois/10.5281/zenodo.15086711,Audit reviewer; scope: distributed (preprocessed epochs)
 zenodo_15454354,acquisition_setups:main.n_channels_eeg,conflicting,32,secondary,https://api.datacite.org/dois/10.5281/zenodo.15454355,Audit reviewer; scope: healthy participants
 zenodo_15454354,acquisition_setups:main.n_channels_eeg,conflicting,64,secondary,https://api.datacite.org/dois/10.5281/zenodo.15454355,Audit reviewer; scope: sci and subgroup participants
+zenodo_15795284,acquisition_setups:main.device_manufacturer,conflicting,Compumedics,primary,https://www.nature.com/articles/s42003-025-08540-8,"Audit reviewer; scope: experiment 2 (sessions 1 and 3), experiments 3 and 4"
+zenodo_15795284,acquisition_setups:main.device_manufacturer,conflicting,Neuracle,primary,https://www.nature.com/articles/s42003-025-08540-8,Audit reviewer; scope: experiment 2 (sessions 2 and 4) and experiment 5
+zenodo_15795284,domains,conflicting,clinical,primary,https://www.nature.com/articles/s42003-025-08540-8,Audit reviewer; scope: not given
+zenodo_15795284,domains,conflicting,perception;clinical,primary,https://www.nature.com/articles/s42003-025-08540-8,Audit reviewer; scope: whole
 zenodo_16536440,acquisition_setups:main.n_channels_eeg,conflicting,19,secondary,https://api.datacite.org/dois/10.5281/zenodo.16536441,Audit reviewer; scope: around-the-ear eeg
 zenodo_16536440,acquisition_setups:main.n_channels_eeg,conflicting,29,secondary,https://api.datacite.org/dois/10.5281/zenodo.16536441,Audit reviewer; scope: scalp eeg
+zenodo_16850207,acquisition_setups:main.n_channels_eeg,conflicting,13,primary,https://www.nature.com/articles/s41598-026-36434-0,Audit reviewer; scope: sleep/nfle subset
+zenodo_16850207,acquisition_setups:main.n_channels_eeg,conflicting,19,primary,https://www.nature.com/articles/s41598-026-36434-0,Audit reviewer; scope: comatose subset
+zenodo_16850207,acquisition_setups:main.sampling_rate_hz,conflicting,500,primary,https://www.nature.com/articles/s41598-026-36434-0,Audit reviewer; scope: mental arithmetic subset (calculia)
+zenodo_16850207,acquisition_setups:main.sampling_rate_hz,conflicting,512,primary,https://www.nature.com/articles/s41598-026-36434-0,Audit reviewer; scope: sleep (cap database) subset
 zenodo_17314288,acquisition_setups:main.device_manufacturer,conflicting,BioSemi,secondary,https://api.datacite.org/dois/10.5281/zenodo.23592484,Audit reviewer; scope: recording (protocol section)
 zenodo_17314288,acquisition_setups:main.device_manufacturer,conflicting,Brain Products,secondary,https://api.datacite.org/dois/10.5281/zenodo.23592484,Audit reviewer; scope: mne-bids generated summary
 zenodo_17314288,acquisition_setups:main.sampling_rate_hz,conflicting,2048,secondary,https://api.datacite.org/dois/10.5281/zenodo.23592484,Audit reviewer; scope: recorded
