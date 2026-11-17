@@ -48819,6 +48819,7 @@ zenodo_19440996/year_published/01,zenodo_19440996,year_published,2026,zenodo_208
 zenodo_19453771/access_routes:zenodo.access_method/01,zenodo_19453771,access_routes:zenodo.access_method,direct_download,zenodo_19453772,access_right: open,2026-11-14,script,current,
 zenodo_19453771/access_routes:zenodo.automation_tool/01,zenodo_19453771,access_routes:zenodo.automation_tool,zenodo-api,zenodo_19453772,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_19453771/access_routes:zenodo.human_steps/01,zenodo_19453771,access_routes:zenodo.human_steps,none,zenodo_19453772,access_right: open,2026-11-14,script,current,
+zenodo_19453771/content_class/01,zenodo_19453771,content_class,eeg_signals,zenodo_19453771_doc42569c,B_results-thorpe-schnepf/ # new - main analysis EEG data,2026-11-17,claude,current,
 zenodo_19453771/license_spdx/01,zenodo_19453771,license_spdx,CC-BY-4.0,zenodo_19453772,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_19453771/modalities/01,zenodo_19453771,modalities,scalp_eeg,zenodo_19453772,How Early is Early? EEG Classification of Objects in Ultra-Rapid Tasks,2026-11-14,claude,current,
 zenodo_19453771/name/01,zenodo_19453771,name,How Early is Early? EEG Classification of Objects in Ultra-Rapid Tasks,zenodo_19453772,Record title,2026-11-14,script,current,
@@ -48930,6 +48931,7 @@ zenodo_19634085/year_published/01,zenodo_19634085,year_published,2026,zenodo_196
 zenodo_19680424/access_routes:zenodo.access_method/01,zenodo_19680424,access_routes:zenodo.access_method,direct_download,zenodo_19689189,access_right: open,2026-11-14,script,current,
 zenodo_19680424/access_routes:zenodo.automation_tool/01,zenodo_19680424,access_routes:zenodo.automation_tool,zenodo-api,zenodo_19689189,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_19680424/access_routes:zenodo.human_steps/01,zenodo_19680424,access_routes:zenodo.human_steps,none,zenodo_19689189,access_right: open,2026-11-14,script,current,
+zenodo_19680424/content_class/01,zenodo_19680424,content_class,eeg_signals,zenodo_19680424_docac4ba2,EEG-OpenBCI-Participants-Last-V2.xlsx,2026-11-17,claude,current,
 zenodo_19680424/license_spdx/01,zenodo_19680424,license_spdx,CC-BY-4.0,zenodo_19689189,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_19680424/modalities/01,zenodo_19680424,modalities,scalp_eeg,zenodo_19689189,A Low-Cost Wearable SSVEP-EEG System with LLM-Driven Interpretable Glaucoma Screening,2026-11-14,claude,current,
 zenodo_19680424/name/01,zenodo_19680424,name,A Low-Cost Wearable SSVEP-EEG System with LLM-Driven Interpretable Glaucoma Screening,zenodo_19689189,Record title,2026-11-14,script,current,
@@ -48961,6 +48963,7 @@ zenodo_19696129/year_published/01,zenodo_19696129,year_published,2026,zenodo_196
 zenodo_19733755/access_routes:zenodo.access_method/01,zenodo_19733755,access_routes:zenodo.access_method,direct_download,zenodo_22856873,access_right: open,2026-11-14,script,current,
 zenodo_19733755/access_routes:zenodo.automation_tool/01,zenodo_19733755,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22856873,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_19733755/access_routes:zenodo.human_steps/01,zenodo_19733755,access_routes:zenodo.human_steps,none,zenodo_22856873,access_right: open,2026-11-14,script,current,
+zenodo_19733755/content_class/01,zenodo_19733755,content_class,no_eeg_signals,zenodo_19733755_doc997da1,EEG frontal alpha asymmetry (FAI) as a marker of neural efficiency,2026-11-17,claude,current,
 zenodo_19733755/license_spdx/01,zenodo_19733755,license_spdx,CC-BY-4.0,zenodo_22856873,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_19733755/modalities/01,zenodo_19733755,modalities,scalp_eeg,zenodo_22856873,EEG Biofeedback and Multimodal Neuro-Physiological Monitoring in Elite Male Judokas,2026-11-14,claude,current,
 zenodo_19733755/name/01,zenodo_19733755,name,"EEG Biofeedback and Multimodal Neuro-Physiological Monitoring in Elite Male Judokas: Neural Efficiency, Peak Power Preservation, and Strength Recovery under Hypoxia and Normoxia",zenodo_22856873,Record title,2026-11-14,script,current,
@@ -49131,6 +49134,7 @@ zenodo_20163071/year_published/01,zenodo_20163071,year_published,2026,zenodo_201
 zenodo_20168528/access_routes:zenodo.access_method/01,zenodo_20168528,access_routes:zenodo.access_method,direct_download,zenodo_20168529,access_right: open,2026-11-14,script,current,
 zenodo_20168528/access_routes:zenodo.automation_tool/01,zenodo_20168528,access_routes:zenodo.automation_tool,zenodo-api,zenodo_20168529,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_20168528/access_routes:zenodo.human_steps/01,zenodo_20168528,access_routes:zenodo.human_steps,none,zenodo_20168529,access_right: open,2026-11-14,script,current,
+zenodo_20168528/content_class/01,zenodo_20168528,content_class,no_eeg_signals,zenodo_20168528_doc431a9b,EEG_Mean_Electrode_Power.xlsx,2026-11-17,claude,current,
 zenodo_20168528/license_spdx/01,zenodo_20168528,license_spdx,CC-BY-4.0,zenodo_20168529,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_20168528/modalities/01,zenodo_20168528,modalities,scalp_eeg,zenodo_20168529,and Adult Semi-Skilled Soccer Players During Execution of the Passing Skill: An EEG Study,2026-11-14,claude,current,
 zenodo_20168528/name/01,zenodo_20168528,name,Cortical Dynamics of Adolescent and Adult Semi-Skilled Soccer Players During Execution of the Passing Skill: An EEG Study,zenodo_20168529,Record title,2026-11-14,script,current,
@@ -49212,8 +49216,10 @@ zenodo_20350996/year_published/01,zenodo_20350996,year_published,2026,zenodo_203
 zenodo_20391696/access_routes:zenodo.access_method/01,zenodo_20391696,access_routes:zenodo.access_method,request_form_or_email,zenodo_20391697,access_right: restricted,2026-11-14,script,current,
 zenodo_20391696/access_routes:zenodo.human_steps/01,zenodo_20391696,access_routes:zenodo.human_steps,Request access through the record's form; the record owners decide,zenodo_20391697,access_right: restricted,2026-11-14,script,current,
 zenodo_20391696/acquisition_setups:main.device_manufacturer/01,zenodo_20391696,acquisition_setups:main.device_manufacturer,M&I,zenodo_20391696_doc1f516e,"Resting-state EEG was recorded using a Brainscope amplifier (M&I, Czech Republic) from 21 electrodes",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_20391696/acquisition_setups:main.montage_system/01,zenodo_20391696,acquisition_setups:main.montage_system,10_20,zenodo_20391696_doc1f516e,placed according to the international 10–20 system,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_20391696/acquisition_setups:main.n_channels_eeg/01,zenodo_20391696,acquisition_setups:main.n_channels_eeg,21,zenodo_20391696_doc1f516e,"Resting-state EEG was recorded using a Brainscope amplifier (M&I, Czech Republic) from 21 electrodes",2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_20391696/acquisition_setups:main.sampling_rate_hz/01,zenodo_20391696,acquisition_setups:main.sampling_rate_hz,1000,zenodo_20391696_doc1f516e,"(sampling rate: 1 kHz, band-pass: 0.1–200 Hz)",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_20391696/content_class/01,zenodo_20391696,content_class,eeg_signals,zenodo_20391696_doc1f516e,"Resting-state EEG was recorded using a Brainscope amplifier (M&I, Czech Republic) from 21 electrodes",2026-11-17,claude,current,
 zenodo_20391696/license_spdx/01,zenodo_20391696,license_spdx,CC-BY-4.0,zenodo_20391697,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_20391696/modalities/01,zenodo_20391696,modalities,scalp_eeg,zenodo_20391697,"Data for ""Bright light exposure reduces negative affect and modulates EEG activity in sleep-deprived and well-rested adolescents""",2026-11-14,claude,current,
 zenodo_20391696/n_subjects_reported/01,zenodo_20391696,n_subjects_reported,55,zenodo_20391696_doc1f516e,Fifty-five healthy adolescents participated aged 15–21 years were enrolled in the study.,2026-11-15,claude,current,Audit reviewer; scope: not given
@@ -49422,6 +49428,7 @@ zenodo_20933808/year_published/01,zenodo_20933808,year_published,2026,zenodo_209
 zenodo_21032698/access_routes:zenodo.access_method/01,zenodo_21032698,access_routes:zenodo.access_method,direct_download,zenodo_21032699,access_right: open,2026-11-14,script,current,
 zenodo_21032698/access_routes:zenodo.automation_tool/01,zenodo_21032698,access_routes:zenodo.automation_tool,zenodo-api,zenodo_21032699,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_21032698/access_routes:zenodo.human_steps/01,zenodo_21032698,access_routes:zenodo.human_steps,none,zenodo_21032699,access_right: open,2026-11-14,script,current,
+zenodo_21032698/content_class/01,zenodo_21032698,content_class,no_eeg_signals,zenodo_21032698_doc7116fb,"it provides the imported, defaced structural MRIs, the derived Brainstorm anatomical surfaces, and the manually-tagged helix-tragus-junction (HTJ) ground-truth fiducials",2026-11-17,claude,current,
 zenodo_21032698/license_spdx/01,zenodo_21032698,license_spdx,CC-BY-4.0,zenodo_21032699,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_21032698/modalities/01,zenodo_21032698,modalities,scalp_eeg,zenodo_21032699,GFEX-EEG Validation Database: Brainstorm-tagged head models with manual helix-tragus-jun,2026-11-14,claude,current,
 zenodo_21032698/name/01,zenodo_21032698,name,GFEX-EEG Validation Database: Brainstorm-tagged head models with manual helix-tragus-junction fiducials,zenodo_21032699,Record title,2026-11-14,script,current,
@@ -49802,10 +49809,12 @@ zenodo_21709854/tasks:resting_state_eeg_eyes_open_and_eyes_clo.task_name/01,zeno
 zenodo_21709854/year_published/01,zenodo_21709854,year_published,2026,zenodo_21709855,Published 2026-04-02,2026-11-14,script,current,
 zenodo_21715567/access_routes:zenodo.access_method/01,zenodo_21715567,access_routes:zenodo.access_method,request_form_or_email,zenodo_21715568,access_right: restricted,2026-11-14,script,current,
 zenodo_21715567/access_routes:zenodo.human_steps/01,zenodo_21715567,access_routes:zenodo.human_steps,Request access through the record's form; the record owners decide,zenodo_21715568,access_right: restricted,2026-11-14,script,current,
+zenodo_21715567/content_class/01,zenodo_21715567,content_class,no_eeg_signals,zenodo_21715567_doc9ac4c7,Measures of accuracy and reaction times were collected and compared across conditions.,2026-11-17,claude,current,
 zenodo_21715567/domains/01,zenodo_21715567,domains,cognitive,zenodo_21715567_doc0beac7,behavioral tasks requiring them to make inference about others,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_21715567/license_spdx/01,zenodo_21715567,license_spdx,CC-BY-4.0,zenodo_21715568,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_21715567/modalities/01,zenodo_21715567,modalities,scalp_eeg,zenodo_21715568,Different effects of EEG-guided cerebellar gamma High-Definition transcranial alternate current stimulat,2026-11-14,claude,current,
 zenodo_21715567/n_subjects_reported/01,zenodo_21715567,n_subjects_reported,56,zenodo_21715567_doc0beac7,fifty-six (28 per experiment) male and female participants completed three sessions,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_21715567/n_subjects_reported/02,zenodo_21715567,n_subjects_reported,56,zenodo_21715567_doc9ac4c7,fifty-six (28 per experiment) male and female participants completed three sessions,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_21715567/name/01,zenodo_21715567,name,Different effects of EEG-guided cerebellar gamma High-Definition transcranial alternate current stimulation (HD-tACS) on social-cognitive operations,zenodo_21715568,Record title,2026-11-14,script,current,
 zenodo_21715567/participant_groups:healthy_adults_two_experiments.condition/01,zenodo_21715567,participant_groups:healthy_adults_two_experiments.condition,healthy,zenodo_21715567_doc0beac7,we reported behavioral data of healthy adults receiving EEG-guided transcranial alternate current stimulation,2026-11-15,claude,current,
 zenodo_21715567/tasks:socio_cognitive_inference_tasks_during_c.paradigms/01,zenodo_21715567,tasks:socio_cognitive_inference_tasks_during_c.paradigms,cognitive_task,zenodo_21715567_doc0beac7,behavioral tasks requiring them to make inference about others,2026-11-15,claude,current,
@@ -49814,6 +49823,7 @@ zenodo_21715567/year_published/01,zenodo_21715567,year_published,2026,zenodo_217
 zenodo_21754263/access_routes:zenodo.access_method/01,zenodo_21754263,access_routes:zenodo.access_method,direct_download,zenodo_24048111,access_right: open,2026-11-14,script,current,
 zenodo_21754263/access_routes:zenodo.automation_tool/01,zenodo_21754263,access_routes:zenodo.automation_tool,zenodo-api,zenodo_24048111,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_21754263/access_routes:zenodo.human_steps/01,zenodo_21754263,access_routes:zenodo.human_steps,none,zenodo_24048111,access_right: open,2026-11-14,script,current,
+zenodo_21754263/content_class/01,zenodo_21754263,content_class,eeg_signals,zenodo_21754263_docd40c99,derived_windows_20261004.zip: exact canonical EEG window arrays and metadata (about 2.06 GB).,2026-11-17,claude,current,
 zenodo_21754263/domains/01,zenodo_21754263,domains,perception,zenodo_21754263_doc582a0f,cued and uncued music imagery decoding,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_21754263/license_spdx/01,zenodo_21754263,license_spdx,CC-BY-4.0,zenodo_24048111,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_21754263/modalities/01,zenodo_21754263,modalities,scalp_eeg,zenodo_24048111,erived inputs and saved results for a secondary analysis of the public OpenMIIR EEG corpus (Stober et al,2026-11-14,claude,current,
@@ -49833,6 +49843,7 @@ zenodo_21769817/name/01,zenodo_21769817,name,"Data and source values for ""Multi
 zenodo_21769817/year_published/01,zenodo_21769817,year_published,2026,zenodo_21769818,Published 2026-08-03,2026-11-14,script,current,
 zenodo_21781853/access_routes:zenodo.access_method/01,zenodo_21781853,access_routes:zenodo.access_method,request_form_or_email,zenodo_21781854,access_right: restricted,2026-11-14,script,current,
 zenodo_21781853/access_routes:zenodo.human_steps/01,zenodo_21781853,access_routes:zenodo.human_steps,Request access through the record's form; the record owners decide,zenodo_21781854,access_right: restricted,2026-11-14,script,current,
+zenodo_21781853/content_class/01,zenodo_21781853,content_class,no_eeg_signals,zenodo_21781853_doc76bbda,A Systematic Review on Effectiveness in Digital Advertising Campaigns,2026-11-17,claude,current,
 zenodo_21781853/license_spdx/01,zenodo_21781853,license_spdx,CC-BY-4.0,zenodo_21781854,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_21781853/modalities/01,zenodo_21781853,modalities,scalp_eeg,zenodo_21781854,Electroencephalography and Eye Tracking in the Application of Neuromarketing: A Systematic Review on E,2026-11-14,claude,current,
 zenodo_21781853/name/01,zenodo_21781853,name,Electroencephalography and Eye Tracking in the Application of Neuromarketing: A Systematic Review on Effectiveness in Digital Advertising Campaigns,zenodo_21781854,Record title,2026-11-14,script,current,
