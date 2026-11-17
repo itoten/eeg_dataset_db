@@ -75,6 +75,8 @@ h1 { font: 650 clamp(26px, 4vw, 38px)/1.15 var(--f-display); margin: 0; text-wra
 .opt:hover { background: var(--accent-soft); }
 .opt input { margin: 0; accent-color: var(--accent); flex: none; }
 .opt .lb { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.opt .desc { display: block; font-size: 11px; line-height: 1.4; color: var(--muted); margin-top: 1px; }
+.opt:has(.desc) { align-items: flex-start; } .opt:has(.desc) input { margin-top: 3px; }
 .opt .ids { display: block; font: 10.5px/1.35 var(--f-mono); color: var(--muted); margin-top: 1px; }
 .opt .n { font: 12px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
 .opt.zero { color: var(--muted); opacity: .55; }
@@ -251,6 +253,11 @@ const L = {
     filter_btn: "絞り込み", filter_h: "条件で絞り込む", clear: "すべてクリア", show_n: n => `${n} 件を表示`, more_opts: n => `ほかの ${n} 件を表示`, fewer: "閉じる",
     lic_hint: "ライセンスの表記(CC の記号など)から分けています。独自ライセンスの条件は各データセットの資料で確かめてください。",
     roles: { pretraining: "事前学習", downstream: "下流タスクの評価" },
+    feat_hint: "チェックした条件をすべて満たすデータセットだけを表示します。どれも「DB にその情報が登録されているか」で判定していて、登録がないことは、データセットにその情報がないことを意味しません(まだ調べていないだけの場合があります)。",
+    featd: { doc: "論文・配布ページ・リポジトリの記録など、データを作った人や配布元の資料を出典とする値が、1 つ以上ある",
+      paper: "そのデータセットを説明する論文が、出典として結び付けてある", bids: "配布物が BIDS(脳計測データの標準のフォルダ構成)に従っていると、資料に書かれている",
+      chnames: "電極(チャネル)の名前の一覧が登録されている。電極の位置をそろえて使いたいときに要る", tasks: "記録中に被験者が行った課題の説明が登録されている",
+      agesex: "被験者の年齢(範囲か平均)、または男女の人数が、資料に書かれている", quality: "インピーダンス、不良チャネルの印、アーチファクトの印など、記録の品質についての情報を配布元が出している" },
     ids_show: "含まれるライセンスを見る", ids_hide: "ライセンス名を隠す",
     any_min: "下限なし", any_max: "上限なし", range_hint: "値が書かれていないデータセットは除きます", data_h: "データの中身",
     fac: { paper: "論文で使われたデータ", tier: "入手のしやすさ", mod: "信号の種類(モダリティ)", par: "課題(パラダイム)", dom: "研究分野", subj: "被験者数", hours: "合計時間 (h)", nch: "EEG チャネル数",
@@ -305,6 +312,11 @@ const L = {
     filter_btn: "Filters", filter_h: "Filter", clear: "Clear all", show_n: n => `Show ${n} datasets`, more_opts: n => `Show ${n} more`, fewer: "Show fewer",
     lic_hint: "Grouped by the license identifier (the CC elements and the like). Check custom licenses in each dataset's documents.",
     roles: { pretraining: "pretraining", downstream: "downstream evaluation" },
+    feat_hint: "Shows only datasets that meet every ticked condition. Each one asks whether the DB holds that information; a missing entry does not mean the dataset lacks it (it may not have been looked up yet).",
+    featd: { doc: "At least one value is sourced from a document by the people who made or distribute the data (paper, distribution page, repository record)",
+      paper: "A paper describing the dataset is linked as a source", bids: "The documents say the release follows BIDS (the standard folder layout for brain recordings)",
+      chnames: "The list of electrode (channel) names is registered; needed to align electrode positions", tasks: "A description of what participants did during recording is registered",
+      agesex: "The documents state the participants' age (range or mean) or the numbers of women and men", quality: "The provider gives information on recording quality: impedances, bad-channel marks, artifact marks and the like" },
     ids_show: "Show the licenses in each group", ids_hide: "Hide license names",
     any_min: "No minimum", any_max: "No maximum", range_hint: "Datasets that do not state the value are left out", data_h: "What the release holds",
     fac: { paper: "Used in a paper", tier: "Ease of access", mod: "Signals (modality)", par: "Task (paradigm)", dom: "Research domain", subj: "Subjects", hours: "Total hours", nch: "EEG channels",
@@ -449,13 +461,13 @@ const CHECK = {
   mod: { get: d => semi(d.mod), open: true }, par: { get: d => semi(d.par), open: true, top: 10 }, dom: { get: d => semi(d.dom) },
   ann: { get: d => d._ann }, cond: { get: d => d._cond }, mont: { get: d => semi(d.mont) }, maker: { get: d => d._maker, top: 8 }, elec: { get: d => d._elec },
   licfam: { get: d => d._lt, order: v => ["pd", "attr", "sa", "nc", "nd", "custom", "conf", "unk"].indexOf(v), open: true },
-  repo: { get: d => [d.repo], top: 8 }, lic: { get: d => [d.lic || ""], top: 8 }, com: { get: d => [d.terms[1] || ""] }, feat: { get: d => d._feat, open: true },
+  repo: { get: d => [d.repo], top: 8 }, lic: { get: d => [d.lic || ""], top: 8 }, com: { get: d => [d.terms[1] || ""] }, feat: { get: d => d._feat, open: true, all: true, order: v => ["doc", "paper", "bids", "chnames", "tasks", "agesex", "quality"].indexOf(v) },
 };
 const RANGE = { subj: [5, 10, 20, 30, 50, 100, 200, 500, 1000, 5000], hours: [1, 5, 10, 50, 100, 500, 1000, 10000], nch: [1, 2, 4, 8, 16, 19, 32, 64, 128, 256],
   fs: [100, 128, 200, 250, 256, 500, 512, 1000, 2000, 5000], gb: [0.1, 1, 5, 10, 50, 100, 500, 1000] };
 const ORDER = ["paper", "tier", "mod", "par", "subj", "nch", "fs", "hours", "gb", "dom", "ann", "cond", "mont", "elec", "maker", "licfam", "licx", "lic", "com", "repo", "feat"];
 const vlabel = (k, v) => CHECK[k] && CHECK[k].label ? CHECK[k].label(v) : ((T().val[k] || {})[v] || v || T().not_checked);
-const passCheck = (d, k) => { const sel = state.f[k]; return !sel || !sel.size || CHECK[k].get(d).some(v => sel.has(v)); };
+const passCheck = (d, k) => { const sel = state.f[k]; if (!sel || !sel.size) return true; const g = CHECK[k].get(d); return CHECK[k].all ? [...sel].every(v => g.includes(v)) : g.some(v => sel.has(v)); };
 const passRange = (d, k) => { const r = state.r[k]; if (!r || (r[0] === "" && r[1] === "")) return true; const x = d._r[k]; if (x === null || x === undefined || isNaN(x)) return false;
   return (r[0] === "" || x >= +r[0]) && (r[1] === "" || x <= +r[1]); };
 const qWords = () => state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -482,14 +494,15 @@ function renderFacets() {
           return `<label class="opt"><input type="checkbox" data-k="licx" value="${v}" ${sel.has(v) ? "checked" : ""}><span class="lb">${esc(t.val.licx[v])}</span><span class="n">${n}</span></label>`; }).join("")}
         <div class="hint">${esc(t.lic_hint)}</div></div></details>`); continue; }
     const c = CHECK[k], sel = state.f[k] || new Set(), cnt = {};
-    D.forEach(d => { if (passAll(d, k)) c.get(d).forEach(v => cnt[v] = (cnt[v] || 0) + 1); });
+    D.forEach(d => { if (passAll(d, c.all ? null : k)) c.get(d).forEach(v => cnt[v] = (cnt[v] || 0) + 1); });
     const all = new Set([...D.flatMap(d => (state.all || usable(d)) ? c.get(d) : []), ...sel]);
     let vals = [...all].sort((a, b) => c.order ? c.order(a) - c.order(b) : ((cnt[b] || 0) - (cnt[a] || 0)) || String(a).localeCompare(String(b)));
     if (!vals.length) continue;
     const top = c.top && !state.more[k] ? c.top : Infinity, hiddenN = Math.max(0, vals.length - top);
     vals = vals.filter((v, i) => i < top || sel.has(v));
     body.push(`<details class="fset" data-k="${k}" ${c.open || sel.size ? "open" : ""}><summary>${esc(t.fac[k])}${sel.size ? `<span class="sel">${sel.size}</span>` : ""}</summary><div class="opts">
-      ${vals.map(v => `<label class="opt${cnt[v] || sel.has(v) ? "" : " zero"}"><input type="checkbox" data-k="${k}" value="${esc(v)}" ${sel.has(v) ? "checked" : ""} ${cnt[v] || sel.has(v) ? "" : "disabled"}><span class="lb">${esc(vlabel(k, v))}${k === "licfam" && state.licIds && LICS[v] ? `<span class="ids">${[...LICS[v]].sort().map(esc).join(" · ")}</span>` : ""}</span><span class="n">${cnt[v] || 0}</span></label>`).join("")}
+      ${vals.map(v => `<label class="opt${cnt[v] || sel.has(v) ? "" : " zero"}"><input type="checkbox" data-k="${k}" value="${esc(v)}" ${sel.has(v) ? "checked" : ""} ${cnt[v] || sel.has(v) ? "" : "disabled"}><span class="lb">${esc(vlabel(k, v))}${k === "licfam" && state.licIds && LICS[v] ? `<span class="ids">${[...LICS[v]].sort().map(esc).join(" · ")}</span>` : ""}${k === "feat" && t.featd[v] ? `<span class="desc">${esc(t.featd[v])}</span>` : ""}</span><span class="n">${cnt[v] || 0}</span></label>`).join("")}
+      ${k === "feat" ? `<div class="hint">${esc(t.feat_hint)}</div>` : ""}
       ${k === "licfam" ? `<button type="button" class="link" data-ids="1">${esc(state.licIds ? t.ids_hide : t.ids_show)}</button>` : ""}
       ${c.top && vals.length + hiddenN > c.top ? `<button type="button" class="link" data-more="${k}">${esc(state.more[k] ? t.fewer : t.more_opts(hiddenN))}</button>` : ""}</div></details>`);
   }
