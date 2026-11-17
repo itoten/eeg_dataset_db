@@ -49913,8 +49913,12 @@ zenodo_21849995/year_published/01,zenodo_21849995,year_published,2026,zenodo_218
 zenodo_21851415/access_routes:zenodo.access_method/01,zenodo_21851415,access_routes:zenodo.access_method,direct_download,zenodo_21851416,access_right: open,2026-11-14,script,current,
 zenodo_21851415/access_routes:zenodo.automation_tool/01,zenodo_21851415,access_routes:zenodo.automation_tool,zenodo-api,zenodo_21851416,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_21851415/access_routes:zenodo.human_steps/01,zenodo_21851415,access_routes:zenodo.human_steps,none,zenodo_21851416,access_right: open,2026-11-14,script,current,
+zenodo_21851415/content_class/01,zenodo_21851415,content_class,eeg_signals,zenodo_21851415_doc169b4a,during which EEG signals were collected synchronously,2026-11-17,claude,current,
 zenodo_21851415/modalities/01,zenodo_21851415,modalities,scalp_eeg,zenodo_21851416,"The target Guofeng Art Toy image was then presented for 15 s, during which EEG signals were collected synchronously",2026-11-14,claude,current,
+zenodo_21851415/modalities/02,zenodo_21851415,modalities,scalp_eeg,zenodo_21851415_doc169b4a,during which EEG signals were collected synchronously,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_21851415/name/01,zenodo_21851415,name,Guofeng Art Toy dataset (GAT),zenodo_21851416,Record title,2026-11-14,script,current,
+zenodo_21851415/tasks:guofeng_art_toy_image_presentation.paradigms/01,zenodo_21851415,tasks:guofeng_art_toy_image_presentation.paradigms,passive_viewing,zenodo_21851415_doc169b4a,The target Guofeng Art Toy image was then presented for 15 s,2026-11-17,claude,current,
+zenodo_21851415/tasks:guofeng_art_toy_image_presentation.task_name/01,zenodo_21851415,tasks:guofeng_art_toy_image_presentation.task_name,Guofeng Art Toy image presentation,zenodo_21851415_doc169b4a,The target Guofeng Art Toy image was then presented for 15 s,2026-11-17,claude,current,
 zenodo_21851415/tasks:guofeng_art_toy_image_viewing.paradigms/01,zenodo_21851415,tasks:guofeng_art_toy_image_viewing.paradigms,passive_viewing,zenodo_21851415_doc90f7f7,"The target Guofeng Art Toy image was then presented for 15 s, during which EEG signals were collected synchronously.",2026-11-15,claude,current,
 zenodo_21851415/tasks:guofeng_art_toy_image_viewing.task_name/01,zenodo_21851415,tasks:guofeng_art_toy_image_viewing.task_name,Guofeng art toy image viewing,zenodo_21851415_doc90f7f7,"The target Guofeng Art Toy image was then presented for 15 s, during which EEG signals were collected synchronously.",2026-11-15,claude,current,
 zenodo_21851415/year_published/01,zenodo_21851415,year_published,2026,zenodo_21851416,Published 2026-08-08,2026-11-14,script,current,
@@ -49961,6 +49965,7 @@ zenodo_21932327/year_published/01,zenodo_21932327,year_published,2026,zenodo_219
 zenodo_21933273/access_routes:zenodo.access_method/01,zenodo_21933273,access_routes:zenodo.access_method,direct_download,zenodo_21933274,access_right: open,2026-11-14,script,current,
 zenodo_21933273/access_routes:zenodo.automation_tool/01,zenodo_21933273,access_routes:zenodo.automation_tool,zenodo-api,zenodo_21933274,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_21933273/access_routes:zenodo.human_steps/01,zenodo_21933273,access_routes:zenodo.human_steps,none,zenodo_21933274,access_right: open,2026-11-14,script,current,
+zenodo_21933273/content_class/01,zenodo_21933273,content_class,eeg_signals,zenodo_21933273_doc184b52,EEG_WM_distraction_subj_6.mat,2026-11-17,claude,current,
 zenodo_21933273/license_spdx/01,zenodo_21933273,license_spdx,CC-BY-4.0,zenodo_21933274,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_21933273/modalities/01,zenodo_21933273,modalities,scalp_eeg,zenodo_21933274,Distinct EEG Connectivity Signatures of Working Memory Distraction,2026-11-14,claude,current,
 zenodo_21933273/name/01,zenodo_21933273,name,Distinct EEG Connectivity Signatures of Working Memory Distraction,zenodo_21933274,Record title,2026-11-14,script,current,
@@ -50028,9 +50033,12 @@ zenodo_22042623/year_published/01,zenodo_22042623,year_published,2026,zenodo_220
 zenodo_22059395/access_routes:zenodo.access_method/01,zenodo_22059395,access_routes:zenodo.access_method,direct_download,zenodo_22059396,access_right: open,2026-11-14,script,current,
 zenodo_22059395/access_routes:zenodo.automation_tool/01,zenodo_22059395,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22059396,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22059395/access_routes:zenodo.human_steps/01,zenodo_22059395,access_routes:zenodo.human_steps,none,zenodo_22059396,access_right: open,2026-11-14,script,current,
+zenodo_22059395/content_class/01,zenodo_22059395,content_class,eeg_signals,zenodo_22059395_doc61d28b,eeg signals for 3 subjects,2026-11-17,claude,current,
 zenodo_22059395/license_spdx/01,zenodo_22059395,license_spdx,CC-BY-4.0,zenodo_22059396,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_22059395/modalities/01,zenodo_22059395,modalities,scalp_eeg,zenodo_22059396,eeg signals,2026-11-14,claude,current,
+zenodo_22059395/modalities/02,zenodo_22059395,modalities,scalp_eeg,zenodo_22059395_doc61d28b,eeg signals for 3 subjects,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22059395/n_subjects_reported/01,zenodo_22059395,n_subjects_reported,3,zenodo_22059395_doc909886,eeg signals for 3 subjects,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_22059395/n_subjects_reported/02,zenodo_22059395,n_subjects_reported,3,zenodo_22059395_doc61d28b,eeg signals for 3 subjects,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22059395/name/01,zenodo_22059395,name,eeg signals,zenodo_22059396,Record title,2026-11-14,script,current,
 zenodo_22059395/year_published/01,zenodo_22059395,year_published,2026,zenodo_22059396,Published 2026-08-22,2026-11-14,script,current,
 zenodo_22093535/access_routes:zenodo.access_method/01,zenodo_22093535,access_routes:zenodo.access_method,direct_download,zenodo_22093536,access_right: open,2026-11-14,script,current,
@@ -50119,9 +50127,11 @@ zenodo_22131007/year_published/01,zenodo_22131007,year_published,2026,zenodo_221
 zenodo_22172516/access_routes:zenodo.access_method/01,zenodo_22172516,access_routes:zenodo.access_method,direct_download,zenodo_22215537,access_right: open,2026-11-14,script,current,
 zenodo_22172516/access_routes:zenodo.automation_tool/01,zenodo_22172516,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22215537,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22172516/access_routes:zenodo.human_steps/01,zenodo_22172516,access_routes:zenodo.human_steps,none,zenodo_22215537,access_right: open,2026-11-14,script,current,
+zenodo_22172516/content_class/01,zenodo_22172516,content_class,no_eeg_signals,zenodo_22172516_doc34078d,This is data and code accompanying our scientific paper with the same title.,2026-11-17,claude,current,
 zenodo_22172516/license_spdx/01,zenodo_22172516,license_spdx,CC-BY-4.0,zenodo_22215537,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_22172516/modalities/01,zenodo_22172516,modalities,scalp_eeg,zenodo_22215537,Bidirectional links between food intake and sleep: a naturalistic mobile EEG study,2026-11-14,claude,current,
 zenodo_22172516/modalities/02,zenodo_22172516,modalities,scalp_eeg,zenodo_22172516_docd1a30a,"sleep, recorded by mobile EEGs and morning questionnaires",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_22172516/modalities/03,zenodo_22172516,modalities,scalp_eeg,zenodo_22172516_doc5fede1,recorded by mobile EEGs and morning questionnaires,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22172516/name/01,zenodo_22172516,name,Bidirectional links between food intake and sleep: a naturalistic mobile EEG study,zenodo_22215537,Record title,2026-11-14,script,current,
 zenodo_22172516/tasks:naturalistic_sleep_recording_at_home.paradigms/01,zenodo_22172516,tasks:naturalistic_sleep_recording_at_home.paradigms,sleep,zenodo_22172516_docd1a30a,"sleep, recorded by mobile EEGs and morning questionnaires",2026-11-15,claude,current,
 zenodo_22172516/tasks:naturalistic_sleep_recording_at_home.task_name/01,zenodo_22172516,tasks:naturalistic_sleep_recording_at_home.task_name,naturalistic sleep recording at home,zenodo_22172516_docd1a30a,"sleep, recorded by mobile EEGs and morning questionnaires",2026-11-15,claude,current,
@@ -50175,6 +50185,7 @@ zenodo_22307402/access_routes:zenodo.access_method/01,zenodo_22307402,access_rou
 zenodo_22307402/access_routes:zenodo.automation_tool/01,zenodo_22307402,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22307403,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22307402/access_routes:zenodo.human_steps/01,zenodo_22307402,access_routes:zenodo.human_steps,none,zenodo_22307403,access_right: open,2026-11-14,script,current,
 zenodo_22307402/license_spdx/01,zenodo_22307402,license_spdx,CC0-1.0,zenodo_22307403,License: cc-zero,2026-11-14,script,current,
+zenodo_22307402/license_spdx/02,zenodo_22307402,license_spdx,CC0-1.0,zenodo_22307402_doc1dac43,Source licence: CC0.,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22307402/modalities/01,zenodo_22307402,modalities,scalp_eeg,zenodo_22307403,MoveAtlas harmonized release: Rest and treadmill-walking EEG in Parkinson's disease (OpenNeuro ds007526),2026-11-14,claude,current,
 zenodo_22307402/name/01,zenodo_22307402,name,MoveAtlas harmonized release: Rest and treadmill-walking EEG in Parkinson's disease (OpenNeuro ds007526),zenodo_22307403,Record title,2026-11-14,script,current,
 zenodo_22307402/year_published/01,zenodo_22307402,year_published,2026,zenodo_22307403,Published 2026-09-15,2026-11-14,script,current,
@@ -50198,6 +50209,7 @@ zenodo_22313544/access_routes:zenodo.access_method/01,zenodo_22313544,access_rou
 zenodo_22313544/access_routes:zenodo.automation_tool/01,zenodo_22313544,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22313545,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22313544/access_routes:zenodo.human_steps/01,zenodo_22313544,access_routes:zenodo.human_steps,none,zenodo_22313545,access_right: open,2026-11-14,script,current,
 zenodo_22313544/license_spdx/01,zenodo_22313544,license_spdx,CC0-1.0,zenodo_22313545,License: cc-zero,2026-11-14,script,current,
+zenodo_22313544/license_spdx/02,zenodo_22313544,license_spdx,CC0-1.0,zenodo_22313544_doc36f9a1,Source licence: CC0.,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22313544/modalities/01,zenodo_22313544,modalities,scalp_eeg,zenodo_22313545,MoveAtlas harmonized release: UC San Diego resting-state EEG in Parkinson's disease (OpenNeuro ds002778),2026-11-14,claude,current,
 zenodo_22313544/name/01,zenodo_22313544,name,MoveAtlas harmonized release: UC San Diego resting-state EEG in Parkinson's disease (OpenNeuro ds002778),zenodo_22313545,Record title,2026-11-14,script,current,
 zenodo_22313544/year_published/01,zenodo_22313544,year_published,2026,zenodo_22313545,Published 2026-09-15,2026-11-14,script,current,
@@ -50241,6 +50253,7 @@ zenodo_22642959/access_routes:zenodo.automation_tool/01,zenodo_22642959,access_r
 zenodo_22642959/access_routes:zenodo.human_steps/01,zenodo_22642959,access_routes:zenodo.human_steps,none,zenodo_22642960,access_right: open,2026-11-14,script,current,
 zenodo_22642959/license_spdx/01,zenodo_22642959,license_spdx,CC-BY-4.0,zenodo_22642960,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_22642959/modalities/01,zenodo_22642959,modalities,scalp_eeg,zenodo_22642960,This dataset contains EEG and postural balance data collected from older adults to investigate the effect,2026-11-14,claude,current,
+zenodo_22642959/modalities/02,zenodo_22642959,modalities,scalp_eeg,zenodo_22642959_doc430816,EEG data were acquired during postural balance assessment,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22642959/name/01,zenodo_22642959,name,Dataset on the Effects of Cognitive and Muscular Fatigue on Brain Function and Dynamic Postural Balance in Older Adults,zenodo_22642960,Record title,2026-11-14,script,current,
 zenodo_22642959/tasks:postural_balance_assessment_after_cognit.paradigms/01,zenodo_22642959,tasks:postural_balance_assessment_after_cognit.paradigms,other,zenodo_22642959_doc8c985a,"The dataset includes measurements collected under different visual and fatigue conditions, including eyes-open and eyes-closed conditions following cognitive and muscular fatigue protocols.",2026-11-15,claude,current,
 zenodo_22642959/tasks:postural_balance_assessment_after_cognit.task_name/01,zenodo_22642959,tasks:postural_balance_assessment_after_cognit.task_name,postural balance assessment after cognitive and muscular fatigue,zenodo_22642959_doc8c985a,"The dataset includes measurements collected under different visual and fatigue conditions, including eyes-open and eyes-closed conditions following cognitive and muscular fatigue protocols.",2026-11-15,claude,current,
@@ -50278,6 +50291,7 @@ zenodo_22660210/year_published/01,zenodo_22660210,year_published,2026,zenodo_226
 zenodo_22662604/access_routes:zenodo.access_method/01,zenodo_22662604,access_routes:zenodo.access_method,direct_download,zenodo_24068154,access_right: open,2026-11-14,script,current,
 zenodo_22662604/access_routes:zenodo.automation_tool/01,zenodo_22662604,access_routes:zenodo.automation_tool,zenodo-api,zenodo_24068154,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22662604/access_routes:zenodo.human_steps/01,zenodo_22662604,access_routes:zenodo.human_steps,none,zenodo_24068154,access_right: open,2026-11-14,script,current,
+zenodo_22662604/content_class/01,zenodo_22662604,content_class,no_eeg_signals,zenodo_22662604_docf05c7c,Raw continuous EEG recordings and personally identifying information are not included.,2026-11-17,claude,current,
 zenodo_22662604/license_spdx/01,zenodo_22662604,license_spdx,CC-BY-4.0,zenodo_24068154,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_22662604/modalities/01,zenodo_22662604,modalities,scalp_eeg,zenodo_24068154,Raw continuous EEG recordings and personally identifying information are not included,2026-11-14,claude,current,
 zenodo_22662604/name/01,zenodo_22662604,name,"Reproducibility package for ""Missing and superfluous prosodic accents in L2 English focus processing: Behavioral and ERP evidence""",zenodo_24068154,Record title,2026-11-14,script,current,
@@ -50336,6 +50350,7 @@ zenodo_22741446/year_published/01,zenodo_22741446,year_published,2026,zenodo_227
 zenodo_22770098/access_routes:zenodo.access_method/01,zenodo_22770098,access_routes:zenodo.access_method,direct_download,zenodo_22770099,access_right: open,2026-11-14,script,current,
 zenodo_22770098/access_routes:zenodo.automation_tool/01,zenodo_22770098,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22770099,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22770098/access_routes:zenodo.human_steps/01,zenodo_22770098,access_routes:zenodo.human_steps,none,zenodo_22770099,access_right: open,2026-11-14,script,current,
+zenodo_22770098/content_class/01,zenodo_22770098,content_class,no_eeg_signals,zenodo_22770098_doc8c084b,Subj_Table_Comb.csv,2026-11-17,claude,current,
 zenodo_22770098/license_spdx/01,zenodo_22770098,license_spdx,CC-BY-4.0,zenodo_22770099,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_22770098/modalities/01,zenodo_22770098,modalities,scalp_eeg,zenodo_22770099,"Material for paper ""Oscillatory and aperiodic EEG dynamics reflects behaviour during supra second timing""",2026-11-14,claude,current,
 zenodo_22770098/name/01,zenodo_22770098,name,"Material for paper ""Oscillatory and aperiodic EEG dynamics reflects behaviour during supra second timing""",zenodo_22770099,Record title,2026-11-14,script,current,
@@ -50367,13 +50382,18 @@ zenodo_22848293/year_published/01,zenodo_22848293,year_published,2026,zenodo_228
 zenodo_22875251/access_routes:zenodo.access_method/01,zenodo_22875251,access_routes:zenodo.access_method,direct_download,zenodo_22875252,access_right: open,2026-11-14,script,current,
 zenodo_22875251/access_routes:zenodo.automation_tool/01,zenodo_22875251,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22875252,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22875251/access_routes:zenodo.human_steps/01,zenodo_22875251,access_routes:zenodo.human_steps,none,zenodo_22875252,access_right: open,2026-11-14,script,current,
+zenodo_22875251/content_class/01,zenodo_22875251,content_class,eeg_signals,zenodo_22875251_doc20f593,The dataset contains multimodal information derived from: EEG recordings Eye-gaze recordings EEG-derived spectral/power features Eye-gaze features,2026-11-17,claude,current,
 zenodo_22875251/license_spdx/01,zenodo_22875251,license_spdx,CC-BY-4.0,zenodo_22875252,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_22875251/modalities/01,zenodo_22875251,modalities,scalp_eeg,zenodo_22875252,Multimodal EEG and Eye-Gaze Attention Dataset,2026-11-14,claude,superseded,superseded by zenodo_22875251/modalities/02
 zenodo_22875251/modalities/02,zenodo_22875251,modalities,scalp_eeg;eye_tracking,zenodo_22875251_doc7b289f,synchronized electroencephalography (EEG) and eye-gaze signals,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
+zenodo_22875251/modalities/03,zenodo_22875251,modalities,scalp_eeg;eye_tracking,zenodo_22875251_doc20f593,using synchronized electroencephalography (EEG) and eye-gaze signals,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22875251/n_subjects_reported/01,zenodo_22875251,n_subjects_reported,15,zenodo_22875251_doc7b289f,"The present release, MEEAD v1.0, contains data from 15 participants.",2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_22875251/n_subjects_reported/02,zenodo_22875251,n_subjects_reported,15,zenodo_22875251_doc20f593,"The present release, MEEAD v1.0, contains data from 15 participants.",2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22875251/name/01,zenodo_22875251,name,Multimodal EEG and Eye-Gaze Attention Dataset,zenodo_22875252,Record title,2026-11-14,script,current,
 zenodo_22875251/tasks:four_attention_tests_t1_sustained_t2_sel.paradigms/01,zenodo_22875251,tasks:four_attention_tests_t1_sustained_t2_sel.paradigms,cognitive_task,zenodo_22875251_doc7b289f,T1 – Sustained Attention T2 – Selective Attention T3 – Alternating Attention T4 – Divided Attention,2026-11-15,claude,current,
 zenodo_22875251/tasks:four_attention_tests_t1_sustained_t2_sel.task_name/01,zenodo_22875251,tasks:four_attention_tests_t1_sustained_t2_sel.task_name,"four attention tests (T1 Sustained, T2 Selective, T3 Alternating, T4 Divided Attention)",zenodo_22875251_doc7b289f,T1 – Sustained Attention T2 – Selective Attention T3 – Alternating Attention T4 – Divided Attention,2026-11-15,claude,current,
+zenodo_22875251/tasks:t1_sustained_attention_t2_selective_atte.paradigms/01,zenodo_22875251,tasks:t1_sustained_attention_t2_selective_atte.paradigms,cognitive_task,zenodo_22875251_doc20f593,"sustained attention, selective attention, alternating attention, and divided attention",2026-11-17,claude,current,
+zenodo_22875251/tasks:t1_sustained_attention_t2_selective_atte.task_name/01,zenodo_22875251,tasks:t1_sustained_attention_t2_selective_atte.task_name,T1 Sustained Attention; T2 Selective Attention; T3 Alternating Attention; T4 Divided Attention,zenodo_22875251_doc20f593,"sustained attention, selective attention, alternating attention, and divided attention",2026-11-17,claude,current,
 zenodo_22875251/year_published/01,zenodo_22875251,year_published,2026,zenodo_22875252,Published 2026-09-21,2026-11-14,script,current,
 zenodo_22892407/access_routes:zenodo.access_method/01,zenodo_22892407,access_routes:zenodo.access_method,direct_download,zenodo_22892408,access_right: open,2026-11-14,script,current,
 zenodo_22892407/access_routes:zenodo.automation_tool/01,zenodo_22892407,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22892408,Files listed in the record API with download links,2026-11-14,script,current,
@@ -50670,6 +50690,7 @@ zenodo_23397565/year_published/01,zenodo_23397565,year_published,2026,zenodo_233
 zenodo_23417020/access_routes:zenodo.access_method/01,zenodo_23417020,access_routes:zenodo.access_method,direct_download,zenodo_23417021,access_right: open,2026-11-14,script,current,
 zenodo_23417020/access_routes:zenodo.automation_tool/01,zenodo_23417020,access_routes:zenodo.automation_tool,zenodo-api,zenodo_23417021,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_23417020/access_routes:zenodo.human_steps/01,zenodo_23417020,access_routes:zenodo.human_steps,none,zenodo_23417021,access_right: open,2026-11-14,script,current,
+zenodo_23417020/content_class/01,zenodo_23417020,content_class,no_eeg_signals,zenodo_23417020_doc45c324,data_MS_EEG.RData,2026-11-17,claude,current,
 zenodo_23417020/license_spdx/01,zenodo_23417020,license_spdx,CC-BY-4.0,zenodo_23417021,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_23417020/modalities/01,zenodo_23417020,modalities,scalp_eeg,zenodo_23417021,EEG-Based Network and Microstate Alterations Associated with Depressive Symptoms in,2026-11-14,claude,current,
 zenodo_23417020/name/01,zenodo_23417020,name,EEG-Based Network and Microstate Alterations Associated with Depressive Symptoms in Multiple Sclerosis: An Exploratory Study,zenodo_23417021,Record title,2026-11-14,script,current,
@@ -50786,6 +50807,7 @@ zenodo_2348891/year_published/01,zenodo_2348891,year_published,2018,zenodo_26051
 zenodo_23489641/access_routes:zenodo.access_method/01,zenodo_23489641,access_routes:zenodo.access_method,direct_download,zenodo_23506274,access_right: open,2026-11-14,script,current,
 zenodo_23489641/access_routes:zenodo.automation_tool/01,zenodo_23489641,access_routes:zenodo.automation_tool,zenodo-api,zenodo_23506274,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_23489641/access_routes:zenodo.human_steps/01,zenodo_23489641,access_routes:zenodo.human_steps,none,zenodo_23506274,access_right: open,2026-11-14,script,current,
+zenodo_23489641/content_class/01,zenodo_23489641,content_class,non_human,zenodo_23489641_docf5109a,A local desktop application for reviewing and correcting rodent sleep annotations,2026-11-17,claude,current,
 zenodo_23489641/license_spdx/01,zenodo_23489641,license_spdx,CC-BY-4.0,zenodo_23506274,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_23489641/modalities/01,zenodo_23489641,modalities,scalp_eeg,zenodo_23506274,Sleep Scoring App: example EEG/EMG/NE recording and behavior video,2026-11-14,claude,current,
 zenodo_23489641/name/01,zenodo_23489641,name,Sleep Scoring App: example EEG/EMG/NE recording and behavior video,zenodo_23506274,Record title,2026-11-14,script,current,

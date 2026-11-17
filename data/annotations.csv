@@ -1032,6 +1032,7 @@ zenodo_23396661,event_markers,EEG timing files,,,,,,zenodo_23396662,"An accompan
 zenodo_23458776,behavioral_responses,cognitive performance trials,,,,,,zenodo_23458777,"Cognitive performance: 8,172 trials with stimulus, response, accuracy and reaction time",2026-11-15,claude,
 zenodo_23458776,questionnaires,questionnaires,,,,,,zenodo_23458777,"Questionnaires: alertness, energy, sleep and comfort before the session",2026-11-15,claude,
 zenodo_23464851,behavioral_responses,Working Memory performance,,,,,,zenodo_23464852,Working Memory performance is provided separately for the LW and HW conditions.,2026-11-15,claude,
+zenodo_23489641,sleep_stages,reference labels,Wake;NREM;REM,,,,,zenodo_23489641_doc34a664,"10,300 one-second reference labels (Wake, NREM, and REM)",2026-11-17,claude,
 zenodo_23531370,class_labels,COVID-survivor vs close-contact,covid;close_contact,,,,,zenodo_23537813,The classification target is COVID-survivor ( covid ) versus close-contact ( close_contact ) cohort membership.,2026-11-15,claude,
 zenodo_23573703,sleep_stages,automatic sleep staging,ez6;ez6moe;DreamentoScorer,,,,,zenodo_23573704,"automatic sleep staging in 30-second epochs from three scorers: ezscore ez6 (primary reference), ezscore ez6moe and DreamentoScorer",2026-11-15,claude,
 zenodo_23589424,behavioral_responses,attention rating and comprehension answer,attentionRating 1-7;selectedAnswer;correctAnswer;hit,,,,,zenodo_23589425,Behavioral responses per trial: (1) attention rating,2026-11-15,claude,
