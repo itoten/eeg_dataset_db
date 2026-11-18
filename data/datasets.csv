@@ -3082,7 +3082,7 @@ zenodo_24081948,EEG Character Imagery Dataset for X-LSTM Enhanced Transformer,,e
 zenodo_24104006,Residual visual responsivity and network reactivity in Retinitis Pigmentosa - SSVEP,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,eeglab_set,,,,,,,,,,,direct_download,open,,,,,ssvep,,2026-11-17
 zenodo_24109366,Residual visual responsivity and network reactivity in Retinitis Pigmentosa - TMS-EEG,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,other,,2026-11-17
 zenodo_24113577,Benchmark results: The limits of imagined-speech decoding from EEG,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,unavailable,unavailable,,,,,,,2026-11-17
-zenodo_24117685,The limits of imagined-speech decoding from EEG – Benchmark results,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,,,,,,,2026-11-17
+zenodo_24117685,The limits of imagined-speech decoding from EEG – Benchmark results,,no_eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,unavailable,unavailable,,,,,,,2026-11-18
 zenodo_24131369,"EEG Dataset for Classification of Tourette Syndrome, ADHD, and Their Comorbidity in Children",,eeg_signals,scalp_eeg,neurology;psychiatry;development,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,32,,,,,,2026-11-17
 zenodo_24132366,EEG-100: Eyes-Open EEG Recordings from 100 Participants,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,100,,,,,,,,,,direct_download,open,21,500,,NEURON-SPECTRUM-4/P,resting_eyes_open,,2026-11-17
 zenodo_24141043,Trust modulates speech entrainment,,eeg_signals,scalp_eeg,,,2026,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,language,,2026-11-17

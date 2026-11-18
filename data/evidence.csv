@@ -51322,6 +51322,7 @@ zenodo_24113577/license_spdx/01,zenodo_24113577,license_spdx,CC-BY-4.0,zenodo_24
 zenodo_24113577/modalities/01,zenodo_24113577,modalities,scalp_eeg,zenodo_24113577,Benchmark results: The limits of imagined-speech decoding from EEG,2026-11-17,claude,current,
 zenodo_24113577/name/01,zenodo_24113577,name,Benchmark results: The limits of imagined-speech decoding from EEG,zenodo_24113577,Record title,2026-11-17,script,current,
 zenodo_24113577/year_published/01,zenodo_24113577,year_published,2026,zenodo_24113577,Published 2026-11-10,2026-11-17,script,current,
+zenodo_24117685/access_routes:zenodo.access_method/01,zenodo_24117685,access_routes:zenodo.access_method,unavailable,zenodo_24117685_tombstone,"""message"": ""Record deleted"", removal_reason: test-record, removal_date: 2026-11-12",2026-11-18,script,current,
 zenodo_24117685/content_class/01,zenodo_24117685,content_class,no_eeg_signals,zenodo_24117685,The record contains the outputs of the benchmark and no EEG data.,2026-11-17,claude,current,
 zenodo_24117685/license_spdx/01,zenodo_24117685,license_spdx,CC-BY-4.0,zenodo_24117685,License: cc-by-4.0,2026-11-17,script,current,
 zenodo_24117685/modalities/01,zenodo_24117685,modalities,scalp_eeg,zenodo_24117685,The limits of imagined-speech decoding from EEG – Benchmark results,2026-11-17,claude,current,

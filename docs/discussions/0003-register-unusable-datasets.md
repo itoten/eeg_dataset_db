@@ -67,5 +67,4 @@ maintainer の指示「配布元で削除されたものは、記録を残して
   (Zenodo では `https://zenodo.org/api/records/<id>` が返す 410 の本文。理由と日付を `locator` に書く)。
   その配布元の入手経路の `access_method` は `unavailable` にする。
 - 公開ページは、この印のあるものを既定で隠し、「隠しているものも表示」で見せる。名前の横に「配布元で削除済み」の印を付ける。
-- 最初の 4 件は Zenodo の 17834565・18076145・20078054・24113577(`tools/harvest/zenodo_tombstones.py`)。
-  24117685 は Zenodo が 500 を返して確かめられず、まだ印を付けていない。
+- 最初の 5 件は Zenodo の 17834565・18076145・20078054・24113577・24117685(`tools/harvest/zenodo_tombstones.py`)。
