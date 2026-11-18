@@ -302,10 +302,10 @@ ds004851,HID,,eeg_signals,scalp_eeg,,army_research_laboratory,,CC0-1.0,,,,,,true
 ds004852,InsurgentCivilian,,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-18
 ds004853,TX17,,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-18
 ds004854,TX18,,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-18
-ds004855,FT,,,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-16
+ds004855,FT,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,1,,,,0.08,,,,,,direct_download,open,64,128,,,,,2026-11-18
 ds004859,iEEG on children during Stroop task,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,7,,,,2.27,,,,,,direct_download,open,,1000,,,cognitive_task,,2026-11-16
 ds004860,Investigating the cognitive conflict triggered by moral judgment of accidental harm : an event-related potentials study,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,31,,,,3.79,,,,,,direct_download,open,32,512,,,,,2026-11-16
-ds004865,"pyFR: Delayed Free Recall of Word Lists, Preliminary Cognitive Electrophysiology Study",,,ieeg,,,,CC0-1.0,,,,,,true,,49,,,,97.79,,,,,,direct_download,open,,400,,,cognitive_task,,2026-11-16
+ds004865,"pyFR: Delayed Free Recall of Word Lists, Preliminary Cognitive Electrophysiology Study",,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,49,,,,97.79,,,,,,direct_download,open,,400,,,cognitive_task,,2026-11-18
 ds004883,Registered Report of ERN During Three Versions of a Flanker Task,,eeg_signals,scalp_eeg,,university_of_south_florida_usf_or_brigham_young_u,,CC0-1.0,,,,,,true,,172,,,,126.67,,,,,,direct_download,open,129,500,,"Electrical Geodesics, Inc.",cognitive_task,,2026-11-16
 ds004902,A Resting-state EEG Dataset for Sleep Deprivation,,eeg_signals,scalp_eeg,sleep;resting_state,southwest_university,,CC0-1.0,,,,,,true,,71,,,,8.29,,,,,,direct_download,open,61,500,10_20,Brain Products GmbH,resting_eyes_closed;resting_eyes_open,,2026-11-16
 ds004917,Probability Decision-making Task with ambiguity,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,53,,,,37.45,,,,,,direct_download,open,64,5000,,BrainProducts BrainAmp 64 DC,,,2026-11-16
@@ -317,14 +317,14 @@ ds004977,CARLA: Adjusted common average referencing for cortico-cortical evoked 
 ds004980,EEG data set for a architectural affordances task,,eeg_signals,scalp_eeg,,technische_universitaet_zu_berlin,,CC0-1.0,,,,,,true,,17,,,,15.82,,,,,,direct_download,open,64,,,,other,,2026-11-16
 ds004993,"WIRED ICM Sample Dataset - Workshop on Intracranial Recordings in Humans, Epilepsy, DBS",,eeg_signals,ieeg,epilepsy,,,CC0-1.0,,,,,,true,,3,,,,0.3,,,,,,direct_download,open,,512,,,language;other,,2026-11-17
 ds004995,The Time-Course of Food Representation in the Human Brain,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,27.6,,,,,,direct_download,open,,,,,,,2026-11-16
-ds005007,Auditory naming task with questions that begin or end with a wh-interrogative,,,ieeg,,,,CC0-1.0,,,,,,true,,40,,,,8.29,,,,,,direct_download,open,,1000,,a/a,language,,2026-11-16
+ds005007,Auditory naming task with questions that begin or end with a wh-interrogative,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,40,,,,8.29,,,,,,direct_download,open,,1000,,a/a,language,,2026-11-18
 ds005021,Tilt Illusion by Phase,,eeg_signals,scalp_eeg;eog,,queensland_brain_institute_the_university_of_queen,,CC0-1.0,,,,,,true,,36,,,,47.5,,,,,,direct_download,open,64,1024,10_10,Biosemi ActiveTwo,other,,2026-11-16
-ds005028,Comparing P300 Flashing paradigms in online typing with language models,,,scalp_eeg,bci,,,CC0-1.0,,,,,,true,,11,,,,0.41,,,,,,direct_download,open,,,,,p300_erp,,2026-11-16
+ds005028,Comparing P300 Flashing paradigms in online typing with language models,,eeg_signals,scalp_eeg,bci,,,CC0-1.0,,,,,,true,,11,,,,0.41,,,,,,direct_download,open,,,,,p300_erp,,2026-11-18
 ds005034,The effect of theta tACS on working memory,,eeg_signals,scalp_eeg,,ural_federal_university,,CC0-1.0,,,,,,true,,25,,,,61.36,,,,,,direct_download,open,129,1000,,EGI EGI,cognitive_task;resting_eyes_closed;resting_eyes_open,,2026-11-16
 ds005048,40Hz Auditory Entrainment,,eeg_signals,scalp_eeg,clinical;neurology,ziaeian_hospital,,CC0-1.0,,,,,,true,,35,,,,0.35,,,,,,direct_download,open,19,250,10_20,,other,,2026-11-16
-ds005059,Paired Associates Learning: Memory for Word Pairs in Cued Recall,,,ieeg,cognitive,,,CC0-1.0,,,,,,true,,72,,,,167.3,,,,,,direct_download,open,,500,,,cognitive_task,,2026-11-16
+ds005059,Paired Associates Learning: Memory for Word Pairs in Cued Recall,,eeg_signals,ieeg,cognitive,,,CC0-1.0,,,,,,true,,72,,,,167.3,,,,,,direct_download,open,,500,,,cognitive_task,,2026-11-18
 ds005079,The Effects of Directed Therapeutic Intent on Live and Damaged Cells,,eeg_signals,scalp_eeg;ecg,,md_anderson_cancer_research_center,,CC0-1.0,,,,,,true,,1,,,,1.68,,,,,,direct_download,open,64,500,,ActiChamp Plus 64 System,other,,2026-11-16
-ds005083,Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy,,,ieeg,,,,CC0-1.0,,,,,,true,,60,,,,0,,,,,,direct_download,open,,,,,,,2026-11-16
+ds005083,Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy,,,ieeg,,,,CC0-1.0,,,,,,true,,60,,,,0,,,,,,direct_download,open,,,,,,,2026-11-18
 ds005087,rapid-hemifield-object-eeg,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,20,,,,12.24,,,,,,direct_download,open,,1000,,BrainProducts ActiChamp,visual_erp,,2026-11-16
 ds005089,Proactive selective attention across competition contexts,,eeg_signals,scalp_eeg,,university_of_granada_cimcyc,,CC0-1.0,,,,,,true,,36,,,,68.01,,,,,,direct_download,open,63,1000,,,cognitive_task,,2026-11-16
 ds005095,STERNBERG DIFFICULT,,eeg_signals,scalp_eeg,cognitive,,,CC0-1.0,,,,,,true,,48,,,,14.28,,,,,,direct_download,open,63,1000,10_20,Brain Products,cognitive_task,,2026-11-16
@@ -335,7 +335,7 @@ ds005121,Siefert2024,,eeg_signals,scalp_eeg,sleep;cognitive,university_of_pennsy
 ds005127,AMRI 16-N-0031 sleep1,,eeg_signals,scalp_eeg;fmri,sleep,,,CC0-1.0,,,,,,true,,16,,,,457.81,,,,,,direct_download,open,,,,,sleep,,2026-11-16
 ds005131,Evoked responses to elevated sounds,,eeg_signals,scalp_eeg,perception,,,CC0-1.0,,,,,,true,,58,,,,22.35,,,,,,direct_download,open,64,500,,Brain Products,auditory_erp,,2026-11-16
 ds005169,Dataset of intracranial EEG during cortical stimulation evoking visual effects,,eeg_signals,ieeg_seeg,epilepsy,university_emergency_hopital_bucharest,,CC0-1.0,,,,,,true,,conflicting,,,,4.03,,,,,,direct_download,open,29,4096,,Nicolet Wireless64,other,,2026-11-16
-ds005170,Chisco,,,scalp_eeg,bci;cognitive,,,CC0-1.0,,,,,,true,,5,,,,90.73,,,,,,direct_download,open,,,,,imagined_speech,,2026-11-16
+ds005170,Chisco,,eeg_signals,scalp_eeg,bci;cognitive,,,CC0-1.0,,,,,,true,,5,,,,90.73,,,,,,direct_download,open,,,,,imagined_speech,,2026-11-18
 ds005178,Ear-EEG Sleep Monitoring 2023 (EESM23),,eeg_signals,ear_eeg;psg,sleep,aarhus_university,,CC0-1.0,,,,,,true,,10,,,,25.74,,,,,,direct_download,open,,250,10_20,,other;sleep,,2026-11-16
 ds005185,Ear-EEG Sleep Monitoring 2019 (EESM19),,eeg_signals,ear_eeg;scalp_eeg;eog;emg,sleep,,,CC0-1.0,,,,,,true,,20,,,,267.6,,,,,,direct_download,open,8,500,,,auditory_erp;sleep,,2026-11-16
 ds005189,Search Superiority Recollection Familiarity,,eeg_signals,scalp_eeg;eye_tracking,cognitive,scene_grammar_lab_goethe_university_frankfurt,,CC0-1.0,,,,,,true,,30,,,,16.72,,,,,,direct_download,open,61,1000,,Brain Products actiCHamp,cognitive_task,,2026-11-16
@@ -367,7 +367,7 @@ ds005403,Delayed Auditory Feedback EEG/EGG,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,
 ds005406,EEG frequency tagging reveals the integration of dissimilar observed actions,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,29,,,,13.26,,,,,,direct_download,open,63,1000,10_20,Brain Products,,,2026-11-16
 ds005408,The effect of speech masking on the human subcortical response to continuous speech,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,25,,,,37.85,,,,,,direct_download,open,2,10000,10_20,Brain Products,auditory_erp,,2026-11-16
 ds005410,Semantic_conditioning,,eeg_signals,scalp_eeg,,university_of_tuebingen_germany,,CC0-1.0,,,,,,true,,81,,,,19.76,,,,,,direct_download,open,63,1000,,Brain Products actiCHamp,other,,2026-11-16
-ds005411,Free Recall of Word Lists with Repeated Items,,,ieeg,,,,CC0-1.0,,,,,,true,,48,,,,157.36,,,,,,direct_download,open,108,1000,,Blackrock,cognitive_task,,2026-11-16
+ds005411,Free Recall of Word Lists with Repeated Items,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,48,,,,157.36,,,,,,direct_download,open,108,1000,,Blackrock,cognitive_task,,2026-11-18
 ds005415,Numbers,,eeg_signals,ieeg_seeg,,,,CC0-1.0,,,,,,true,,13,,,,7.46,,,,,,direct_download,open,188,1000,,,other,,2026-11-16
 ds005416,Fatigue Characterization of EEG under Mixed Reality Stereo Vision,,eeg_signals,scalp_eeg,,university_of_changchun_science_and_technology,,CC0-1.0,,,,,,true,,23,,,,21.3,,,,,,direct_download,open,,1000,10_20,Neuracle NSW364,passive_viewing,,2026-11-16
 ds005420,Resting state EEG with closed eyes and open eyes in females from 60 to 80 years old,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,37,,,,0.36,,,,,,direct_download,open,20,500,,,resting_eyes_closed;resting_eyes_open,,2026-11-16
@@ -375,9 +375,9 @@ ds005429,"Auditory oddball comparison (Optimum-1, Learning-oddball, and the loca
 ds005448,STReEF,,eeg_signals,ieeg_ecog;ieeg_seeg,epilepsy,university_medical_center_utrecht_division_brain_c,,CC0-1.0,,,,,,true,,13,,,,44.73,,,,,,direct_download,open,112,2048,,Micromed LTM128 Express,other,,2026-11-16
 ds005473,29 By BP,,eeg_signals,scalp_eeg,,institute_of_psychology,,CC0-1.0,,,,,,true,,29,,,,6.18,,,,,,direct_download,open,63,1000,,"Brain Products GmbH Brain Products GmbH,64 Ag-AgCl scalp electrodes",other,,2026-11-16
 ds005486,PREDICT,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,159,,,,371.04,,,,,,direct_download,open,,25000,,,resting_unspecified,,2026-11-16
-ds005489,Free Recall with Open-Loop Stimulation at Encoding,,,ieeg,,,,CC0-1.0,,,,,,true,,38,,,,64.94,,,,,,direct_download,open,,500,,,,,2026-11-16
-ds005491,Categorized Free Recall with Open-Loop Stimulation at Encoding,,,ieeg,,,,CC0-1.0,,,,,,true,,19,,,,22.54,,,,,,direct_download,open,177,500,,,other,,2026-11-16
-ds005494,Cued Recall of Paired Associates with Open-Loop Stimulation at Encoding or Retrieval,,,ieeg,,,,CC0-1.0,,,,,,true,,20,,,,26.34,,,,,,direct_download,open,,500,,,other,,2026-11-16
+ds005489,Free Recall with Open-Loop Stimulation at Encoding,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,38,,,,64.94,,,,,,direct_download,open,,500,,,,,2026-11-18
+ds005491,Categorized Free Recall with Open-Loop Stimulation at Encoding,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,19,,,,22.54,,,,,,direct_download,open,177,500,,,other,,2026-11-18
+ds005494,Cued Recall of Paired Associates with Open-Loop Stimulation at Encoding or Retrieval,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,20,,,,26.34,,,,,,direct_download,open,,500,,,other,,2026-11-18
 ds005505,Healthy Brain Network (HBN) EEG - Release 1,,eeg_signals,scalp_eeg,,child_mind_institute,,CC-BY-SA-4.0,,,,,,true,,136,,,,103.11,,,,,,direct_download,open,,500,,Magtism EGI 128-channel GSN 200 v.2.1,cognitive_task;passive_viewing;resting_unspecified,,2026-11-16
 ds005506,Healthy Brain Network (HBN) EEG - Release 2,,eeg_signals,scalp_eeg,,child_mind_institute,,CC-BY-SA-4.0,,,,,,true,,150,,,,111.88,,,,,,direct_download,open,,500,,Magtism EGI 128-channel GSN 200 v.2.1,cognitive_task;passive_viewing;resting_unspecified,,2026-11-16
 ds005507,Healthy Brain Network (HBN) EEG - Release 3,,eeg_signals,scalp_eeg,,child_mind_institute,,CC-BY-SA-4.0,,,,,,true,,184,,,,139.37,,,,,,direct_download,open,,500,,Magtism EGI 128-channel GSN 200 v.2.1,cognitive_task;passive_viewing;resting_unspecified,,2026-11-16
@@ -390,14 +390,14 @@ ds005514,Healthy Brain Network (HBN) EEG - Release 9,,eeg_signals,scalp_eeg,,chi
 ds005515,Healthy Brain Network (HBN) EEG - Release 10,,eeg_signals,scalp_eeg,,child_mind_institute,,CC-BY-SA-4.0,,,,,,true,,533,,,,160.55,,,,,,direct_download,open,,500,,Magtism EGI 128-channel GSN 200 v.2.1,cognitive_task;passive_viewing;resting_unspecified,,2026-11-16
 ds005516,Healthy Brain Network (HBN) EEG - Release 11,,eeg_signals,scalp_eeg,,child_mind_institute,,CC-BY-SA-4.0,,,,,,true,,430,,,,219.15,,,,,,direct_download,open,,500,,Magtism EGI 128-channel GSN 200 v.2.1,,,2026-11-16
 ds005520,Research data supporting 'EEG recording during playing MOBA game',,eeg_signals,scalp_eeg,,university_town_hospital_of_chongqing_medical_univ,,CC0-1.0,,,,,,true,,23,,,,43.91,,,,,,direct_download,open,,1000,10_20,Neuroscan,other;resting_eyes_closed;resting_eyes_open,,2026-11-16
-ds005522,Spatial Navigation Memory of Object Locations,,,ieeg,,,,CC0-1.0,,,,,,true,,58,,,,107.47,,,,,,direct_download,open,,500,,,cognitive_task,,2026-11-16
-ds005523,Spatial Memory of Object Locations with Open-Loop Stimulation at Encoding,,,ieeg,,,,CC0-1.0,,,,,,true,,22,,,,69.7,,,,,,direct_download,open,,500,,,cognitive_task,,2026-11-16
+ds005522,Spatial Navigation Memory of Object Locations,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,58,,,,107.47,,,,,,direct_download,open,,500,,,cognitive_task,,2026-11-18
+ds005523,Spatial Memory of Object Locations with Open-Loop Stimulation at Encoding,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,22,,,,69.7,,,,,,direct_download,open,,500,,,cognitive_task,,2026-11-18
 ds005530,Depotentiation of emotional reactivity using TMR during REM sleep,,eeg_signals,scalp_eeg;psg;eog;emg;fmri;ecg,,,,CC0-1.0,,,,,,true,,18,,,,6.47,,,,,,direct_download,open,,500,,Brain Products,sleep,,2026-11-16
 ds005540,EmoEEG-MC: A Multi-Context Emotional EEG Dataset for Cross-Context Emotion Decoding,,eeg_signals,scalp_eeg;eda;other_physiological,emotion,,,CC0-1.0,,,,,,true,,60,,,,47.31,,,,,,direct_download,open,64,,10_20,g.tec Medical Engineering,emotion_induction;passive_viewing;resting_eyes_closed;resting_eyes_open,,2026-11-16
 ds005545,Auditory naming,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,106,,,,39.96,,,,,,direct_download,open,,1000,,,language,,2026-11-16
 ds005555,The Bitbrain Open Access Sleep (BOAS) dataset,,eeg_signals,scalp_eeg;psg;eog;emg;respiration;other_physiological,sleep,bitbrain_technologies,,CC0-1.0,,,,,,true,,conflicting,,,,33.45,,,,,,direct_download,open,2,256,,Bitbrain Technologies IKON Sleep,sleep,,2026-11-16
-ds005557,Free Recall with Closed-Loop Stimulation at Encoding (Encoding Classifier),,,ieeg,,,,CC0-1.0,,,,,,true,,18,,,,34.69,,,,,,direct_download,open,109,1000,,Blackrock,cognitive_task,,2026-11-16
-ds005558,Categorized Free Recall with Closed-Loop Stimulation at Encoding (Encoding Classifier),,,ieeg,,,,CC0-1.0,,,,,,true,,9,,,,12.19,,,,,,direct_download,open,,1000,,Blackrock,cognitive_task,,2026-11-16
+ds005557,Free Recall with Closed-Loop Stimulation at Encoding (Encoding Classifier),,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,18,,,,34.69,,,,,,direct_download,open,109,1000,,Blackrock,cognitive_task,,2026-11-18
+ds005558,Categorized Free Recall with Closed-Loop Stimulation at Encoding (Encoding Classifier),,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,9,,,,12.19,,,,,,direct_download,open,,1000,,Blackrock,cognitive_task,,2026-11-18
 ds005565,"Neural associations between fingerspelling, print, and signs: An ERP priming study with deaf readers",,eeg_signals,scalp_eeg;eog,,san_diego_state_university,,CC0-1.0,,,,,,true,,24,,,,2.62,,,,,,direct_download,open,29,500,,Neuroscan-Compumedics SynAmpsRT,language;visual_erp,,2026-11-16
 ds005571,Expectation of Conflict Stimuli,,eeg_signals,scalp_eeg;fmri,,,,CC0-1.0,,,,,,true,,conflicting,,,,63.29,,,,,,direct_download,open,64,5000,,Brain Products BrainAmp 64 DC,cognitive_task,,2026-11-16
 ds005574,"The ""Podcast"" ECoG dataset",,eeg_signals,ieeg_ecog,,new_york_university_grossman_school_of_medicine,,CC0-1.0,,,,,,true,,9,,,,5.64,,,,,,direct_download,open,,,,Natus Neurologics NicoletOne C64,language,,2026-11-16
@@ -413,8 +413,8 @@ ds005662,A comprehensive EEG dataset for investigating visual touch perception,,
 ds005670,SEEG Resting State Recording,,eeg_signals,ieeg_seeg,epilepsy,,,CC0-1.0,,,,,,true,,2,,,,0.69,,,,,,direct_download,open,238,2000,,,resting_unspecified,,2026-11-16
 ds005672,PerceiveImagine,,eeg_signals,scalp_eeg,,xyz_university,,CC0-1.0,,,,,,true,,3,,,,4.23,,,,,,direct_download,open,64,1000,10_20,Biosemi Biosemi ActiveTwo,other,,2026-11-16
 ds005688,visStim,,non_human,scalp_eeg,,university_of_washington,,CC0-1.0,,,,,,true,,20,,,,8.42,,,,,,direct_download,open,,10000,,,,,2026-11-16
-ds005691,SpinalExpect_Invasive,,,ieeg,,otto_von_guericke_university_magdeburg_and_leibniz,,CC0-1.0,,,,,,true,,8,,,,0.71,,,,,,direct_download,open,7,2500,,Brain Products GmbH BrainAmp DC,other,,2026-11-16
-ds005692,SpinalExpect_NonInvasive,,,ecg,,otto_von_guericke_university_magdeburg_and_leibniz,,CC0-1.0,,,,,,true,,30,,,,92.81,,,,,,direct_download,open,24,5000,,Brain Products GmbH BrainAmp DC,other,,2026-11-16
+ds005691,SpinalExpect_Invasive,,,ieeg,,otto_von_guericke_university_magdeburg_and_leibniz,,CC0-1.0,,,,,,true,,8,,,,0.71,,,,,,direct_download,open,7,2500,,Brain Products GmbH BrainAmp DC,other,,2026-11-18
+ds005692,SpinalExpect_NonInvasive,,,ecg,,otto_von_guericke_university_magdeburg_and_leibniz,,CC0-1.0,,,,,,true,,30,,,,92.81,,,,,,direct_download,open,24,5000,,Brain Products GmbH BrainAmp DC,other,,2026-11-18
 ds005697,PerceiveImagine,,eeg_signals,scalp_eeg,,beijing_institute_of_basic_medical_sciences,,CC0-1.0,,,,,,true,,conflicting,,,,66.55,,,,,,site_terms_agreement,one_time_human,64,1000,10_20,Neuroscan SynAmps 2,other,,2026-11-16
 ds005779,Real-time personalized brain state-dependent TMS in healthy adults,,eeg_signals,scalp_eeg;emg,,university_of_texas_at_austin,,CC0-1.0,,,,,,true,,19,,,,88.67,,,,,,direct_download,open,,5000,,Bittium Biosignals NeurOne Tesla,resting_unspecified,,2026-11-16
 ds005795,MULTI-CLARID (Multimodal Category Learning and Resting-state Imaging Data),,eeg_signals,scalp_eeg;ecg;eog;emg;eda;respiration;fmri,,,,CC0-1.0,,,,,,true,,34,,,,6.41,,,,,,direct_download,open,,,,Brain Products BrainAmp MRplus,cognitive_task;resting_eyes_closed;resting_unspecified,,2026-11-16
@@ -441,7 +441,7 @@ ds006040,Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI 
 ds006065,TSS_iEEG,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,7,,,,9.63,,,,,,direct_download,open,43,500,,,other,,2026-11-16
 ds006095,Mind in Motion Older Adults Walking Over Uneven Terrain,,eeg_signals,scalp_eeg;emg,,university_of_florida,,CC0-1.0,,,,,,true,,71,,,,129.84,,,,,,direct_download,open,,500,,,motor_execution;resting_unspecified,,2026-11-16
 ds006104,EEG dataset for speech decoding,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,42.96,,,,,,direct_download,open,64,2000,10_20,eego mylab system,auditory_erp;language,,2026-11-16
-ds006107,iEEG_Neural_spatial_volatility,,,ieeg,,,,CC0-1.0,,,,,,true,,166,,,,11.9,,,,,,direct_download,open,,1000,,,,,2026-11-16
+ds006107,iEEG_Neural_spatial_volatility,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,166,,,,11.9,,,,,,direct_download,open,,1000,,,,,2026-11-18
 ds006110,PsiConnect,,eeg_signals,scalp_eeg;fmri,,monash_biomedical_imaging,,CC0-1.0,,,,,,true,,conflicting,,,,232.93,,,,,,direct_download,open,64,500,10_10,Brain Products BrainAmp MR Plus,passive_viewing;resting_eyes_closed;resting_unspecified,,2026-11-16
 ds006126,TDCS Modulation of Visual Cortex in Motor Imagery,,eeg_signals,scalp_eeg,,national_research_university_higher_school_of_econ,,CC0-1.0,,,,,,true,,5,,,,1.08,,,,,,direct_download,open,3,5000,,Brain Products BrainVision ExG AUX Amp,,,2026-11-16
 ds006136,OWM-Dataset,,eeg_signals,ieeg,epilepsy;cognitive,,,CC0-1.0,,,,,,true,,13,,,,0.28,,,,,,direct_download,open,6,1000,,,cognitive_task,,2026-11-16
@@ -451,7 +451,7 @@ ds006171,"EEG data during three near-threshold visual detection tasks: a no-cue 
 ds006222,MultisensoryFlickerHealthyYoungAdults_AllSubjectsRawData,,eeg_signals,scalp_eeg,,georgia_institute_of_technology,,CC0-1.0,,,,,,true,,69,,,,14.74,,,,,,direct_download,open,32,512,10_20,BioSemi ActiveTwo,cognitive_task,,2026-11-16
 ds006233,Picture naming,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,108,,,,17.3,,,,,,direct_download,open,,1000,,,language,,2026-11-16
 ds006234,Auditory naming,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,119,,,,43.93,,,,,,site_terms_agreement,one_time_human,,1000,,,language,,2026-11-16
-ds006253,MetaRDK,,,ieeg,,,,CC0-1.0,,,,,,true,,21,,,,0,,,,,,direct_download,open,,512,,,cognitive_task,,2026-11-16
+ds006253,MetaRDK,,eeg_signals,ieeg,,,,CC0-1.0,,,,,,true,,21,,,,0,,,,,,direct_download,open,,512,,,cognitive_task,,2026-11-18
 ds006254,IEEG CCEP Recording,,eeg_signals,ieeg_seeg,,university_of_alabama_at_birmingham_hospital,,CC0-1.0,,,,,,true,,30,,,,156.74,,,,,,site_terms_agreement,one_time_human,208,2048,,NATUS Inc,other,,2026-11-16
 ds006260,Dataset of psychophysiological data from children with learning difficulties who strengthen reading and math skills through assistive technology,,eeg_signals,scalp_eeg,,tecnol_gico_de_monterrey,,CC0-1.0,,,,,,true,,76,,,,2.71,,,,,,direct_download,open,32,256,10_20,USBAMP RESEARCH,cognitive_task;resting_unspecified,,2026-11-16
 ds006269,Tethered EEG Recordings in Syngap1 rats,,non_human,scalp_eeg,,,,CC0-1.0,,,,,,true,,24,,,,106.67,,,,,,direct_download,open,32,1000,,OpenEphys,resting_unspecified,,2026-11-16
@@ -617,7 +617,7 @@ ds008878,Chinese compound word priming EEG local review snapshot,,eeg_signals,sc
 ds008892,CuBiAAD: A cue-masked bimodal auditory attention dataset based on EEG and fNIRS,,eeg_signals,scalp_eeg;fnirs,,,,CC0-1.0,,,,,,true,,40,,,,1.76,,,,,,site_terms_agreement,one_time_human,32,500,10_20,,,,2026-11-16
 ds008896,Preprocessed EEG data in CLN3 disease and NIH healthy volunteers,,eeg_signals,scalp_eeg,neurology;clinical,,,CC0-1.0,,,,,,true,,95,,,,0.36,,,,,,site_terms_agreement,one_time_human,19,200,10_20,Nihon Kohden EEG-1200A,resting_unspecified,,2026-11-16
 ds008940,Dietary identity and the neural categorization of food images: an open EEG dataset with Food-pics stimuli,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,77,,,,0.22,,,,,,site_terms_agreement,one_time_human,14,128,10_20,EMOTIV EPOC+,other;resting_eyes_closed;resting_eyes_open,,2026-11-16
-ds008959,MetaMosquito,,,ieeg,epilepsy;perception,,,CC0-1.0,,,,,,true,,8,,,,0,,,,,,site_terms_agreement,one_time_human,,512,,,other,,2026-11-16
+ds008959,MetaMosquito,,eeg_signals,ieeg,epilepsy;perception,,,CC0-1.0,,,,,,true,,8,,,,0,,,,,,site_terms_agreement,one_time_human,,512,,,other,,2026-11-18
 ds008968,Spell-IT-Out,,eeg_signals,scalp_eeg;eog;audio,,university_of_padova,,CC0-1.0,,,,,,true,,25,,,,49.78,,,,,,direct_download,open,61,2048,10_20,ANT Neuro eego sports,imagined_speech;overt_speech,,2026-11-16
 ds009033,EEG and hedonic responses to sonic-seasoning soundscapes,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,30,,,,0.05,,,,,,site_terms_agreement,one_time_human,14,128,,EMOTIV EPOC X,other;resting_eyes_closed;resting_eyes_open,,2026-11-16
 ds009081,EEG during Balinese dance movements and balance tasks in expert dancers and non-dancers,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,true,,38,,,,0.06,,,,,,direct_download,open,16,100,10_20,Contec Medical Systems KT88-1016,motor_execution;resting_eyes_open;resting_unspecified,,2026-11-16

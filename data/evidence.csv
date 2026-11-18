@@ -7447,6 +7447,7 @@ ds004855/acquisition_setups:main.line_freq_hz/01,ds004855,acquisition_setups:mai
 ds004855/acquisition_setups:main.n_channels_eeg/01,ds004855,acquisition_setups:main.n_channels_eeg,64,ds004849_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds004855/acquisition_setups:main.reference/01,ds004855,acquisition_setups:main.reference,EXG5 EXG6,ds004849_sidecar,EEGReference,2026-11-14,script,current,
 ds004855/acquisition_setups:main.sampling_rate_hz/01,ds004855,acquisition_setups:main.sampling_rate_hz,128,ds004849_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004855/content_class/01,ds004855,content_class,eeg_signals,ds004855_doc5246af,sub-001_task-nback_eeg.set,2026-11-18,claude,current,
 ds004855/is_bids/01,ds004855,is_bids,true,ds004855_record,dataset_description.json BIDSVersion 1.8.0,2026-11-14,script,current,
 ds004855/license_spdx/01,ds004855,license_spdx,CC0-1.0,ds004855_record,License: CC0,2026-11-14,script,current,
 ds004855/modalities/01,ds004855,modalities,scalp_eeg,ds004855_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -7507,6 +7508,7 @@ ds004865/acquisition_setups:main.n_channels_eeg/01,ds004865,acquisition_setups:m
 ds004865/acquisition_setups:main.reference/01,ds004865,acquisition_setups:main.reference,bipolar,ds004865_sidecar,iEEGReference,2026-11-14,script,current,
 ds004865/acquisition_setups:main.sampling_rate_hz/01,ds004865,acquisition_setups:main.sampling_rate_hz,400,ds004865_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds004865/acquisition_setups:main.sampling_rate_hz/02,ds004865,acquisition_setups:main.sampling_rate_hz,400,ds004865_docac7591,"""SamplingFrequency"": 400.0",2026-11-15,claude,current,Audit reviewer; scope: sub-tj005 ses-5 bipolar recording
+ds004865/content_class/01,ds004865,content_class,eeg_signals,ds004865_doc741262,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds004865/is_bids/01,ds004865,is_bids,true,ds004865_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds004865/license_spdx/01,ds004865,license_spdx,CC0-1.0,ds004865_record,License: CC0,2026-11-14,script,current,
 ds004865/modalities/01,ds004865,modalities,ieeg,ds004865_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -7829,6 +7831,7 @@ ds005007/acquisition_setups:main.device_model/01,ds005007,acquisition_setups:mai
 ds005007/acquisition_setups:main.line_freq_hz/01,ds005007,acquisition_setups:main.line_freq_hz,60,ds005007_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds005007/acquisition_setups:main.sampling_rate_hz/01,ds005007,acquisition_setups:main.sampling_rate_hz,1000,ds005007_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005007/acquisition_setups:main.sampling_rate_hz/02,ds005007,acquisition_setups:main.sampling_rate_hz,1000,ds005007_doc4ab264,"""SamplingFrequency"": 1000",2026-11-15,claude,current,Audit reviewer; scope: whole dataset
+ds005007/content_class/01,ds005007,content_class,eeg_signals,ds005007_doc5ed73f,sub-01_ses-01_task-namingtask_run-01_ieeg.edf,2026-11-18,claude,current,
 ds005007/is_bids/01,ds005007,is_bids,true,ds005007_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005007/license_spdx/01,ds005007,license_spdx,CC0-1.0,ds005007_record,License: CC0,2026-11-14,script,current,
 ds005007/modalities/01,ds005007,modalities,ieeg,ds005007_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -7877,6 +7880,7 @@ ds005028/access_routes:nemar.human_steps/01,ds005028,access_routes:nemar.human_s
 ds005028/access_routes:openneuro.access_method/01,ds005028,access_routes:openneuro.access_method,site_terms_agreement,ds005028_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005028/access_routes:openneuro.automation_tool/01,ds005028,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005028_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005028/access_routes:openneuro.human_steps/01,ds005028,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005028_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds005028/content_class/01,ds005028,content_class,eeg_signals,ds005028_doc22aaa4,sub-01_ses-test_run-1_eeg.edf,2026-11-18,claude,current,
 ds005028/domains/01,ds005028,domains,bci,ds005028_doc719726,This dataset was created using BCI2000.,2026-11-15,claude,current,Audit reviewer; scope: whole dataset
 ds005028/is_bids/01,ds005028,is_bids,true,ds005028_record,dataset_description.json BIDSVersion 1.8.0,2026-11-14,script,current,
 ds005028/license_spdx/01,ds005028,license_spdx,CC0-1.0,ds005028_record,License: CC0,2026-11-14,script,current,
@@ -7956,6 +7960,7 @@ ds005059/acquisition_setups:main.line_freq_hz/01,ds005059,acquisition_setups:mai
 ds005059/acquisition_setups:main.n_channels_eeg/01,ds005059,acquisition_setups:main.n_channels_eeg,0,ds005059_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005059/acquisition_setups:main.reference/01,ds005059,acquisition_setups:main.reference,bipolar,ds005059_sidecar,iEEGReference,2026-11-14,script,current,
 ds005059/acquisition_setups:main.sampling_rate_hz/01,ds005059,acquisition_setups:main.sampling_rate_hz,500,ds005059_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005059/content_class/01,ds005059,content_class,eeg_signals,ds005059_doc71d8a4,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005059/domains/01,ds005059,domains,cognitive,ds005059_doc71d8a4,paired associates memory task,2026-11-15,claude,current,Audit reviewer; scope: whole dataset
 ds005059/is_bids/01,ds005059,is_bids,true,ds005059_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005059/license_spdx/01,ds005059,license_spdx,CC0-1.0,ds005059_record,License: CC0,2026-11-14,script,current,
@@ -8646,6 +8651,7 @@ ds005170/access_routes:nemar.human_steps/01,ds005170,access_routes:nemar.human_s
 ds005170/access_routes:openneuro.access_method/01,ds005170,access_routes:openneuro.access_method,site_terms_agreement,ds005170_record,"Floating agreement: By clicking I Agree, I affirm ... institutional permissions",2026-11-14,script,current,"The agreement is shown once per browser (OpenNeuro app, components/agreement.tsx)"
 ds005170/access_routes:openneuro.automation_tool/01,ds005170,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds005170_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds005170/access_routes:openneuro.human_steps/01,ds005170,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds005170_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
+ds005170/content_class/01,ds005170,content_class,eeg_signals,ds005170_doc19c23c,sub-01_ses-01_task-imagine_eeg.edf,2026-11-18,claude,current,
 ds005170/domains/01,ds005170,domains,bci;cognitive,ds005170_doc19c23c,Chinese imagined speech dataset,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds005170/is_bids/01,ds005170,is_bids,true,ds005170_record,dataset_description.json BIDSVersion 1.6.0,2026-11-14,script,current,
 ds005170/license_spdx/01,ds005170,license_spdx,CC0-1.0,ds005170_record,License: CC0,2026-11-14,script,current,
@@ -9533,6 +9539,7 @@ ds005411/acquisition_setups:main.n_channels_eeg/02,ds005411,acquisition_setups:m
 ds005411/acquisition_setups:main.reference/01,ds005411,acquisition_setups:main.reference,bipolar,ds005411_sidecar,iEEGReference,2026-11-14,script,conflicting,
 ds005411/acquisition_setups:main.reference/02,ds005411,acquisition_setups:main.reference,typically a mastoid reference,ds005411_doc9b9675,"The monopolar recordings are referenced (typically a mastoid reference), but should always be re-referenced before analysis.",2026-11-15,claude,conflicting,Audit reviewer; scope: monopolar recordings only
 ds005411/acquisition_setups:main.sampling_rate_hz/01,ds005411,acquisition_setups:main.sampling_rate_hz,1000,ds005411_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005411/content_class/01,ds005411,content_class,eeg_signals,ds005411_doc9b9675,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005411/is_bids/01,ds005411,is_bids,true,ds005411_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005411/license_spdx/01,ds005411,license_spdx,CC0-1.0,ds005411_record,License: CC0,2026-11-14,script,current,
 ds005411/modalities/01,ds005411,modalities,ieeg,ds005411_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -9733,6 +9740,7 @@ ds005489/acquisition_setups:main.n_channels_eeg/01,ds005489,acquisition_setups:m
 ds005489/acquisition_setups:main.reference/01,ds005489,acquisition_setups:main.reference,bipolar,ds005489_sidecar,iEEGReference,2026-11-14,script,current,
 ds005489/acquisition_setups:main.sampling_rate_hz/01,ds005489,acquisition_setups:main.sampling_rate_hz,500,ds005489_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005489/acquisition_setups:main.sampling_rate_hz/02,ds005489,acquisition_setups:main.sampling_rate_hz,500,ds005489_docf07d0a,"""SamplingFrequency"": 500.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1001p
+ds005489/content_class/01,ds005489,content_class,eeg_signals,ds005489_doc64eb4d,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005489/is_bids/01,ds005489,is_bids,true,ds005489_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005489/license_spdx/01,ds005489,license_spdx,CC0-1.0,ds005489_record,License: CC0,2026-11-14,script,current,
 ds005489/modalities/01,ds005489,modalities,ieeg,ds005489_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -9754,6 +9762,7 @@ ds005491/acquisition_setups:main.n_channels_eeg/02,ds005491,acquisition_setups:m
 ds005491/acquisition_setups:main.reference/01,ds005491,acquisition_setups:main.reference,bipolar,ds005491_sidecar,iEEGReference,2026-11-14,script,current,
 ds005491/acquisition_setups:main.sampling_rate_hz/01,ds005491,acquisition_setups:main.sampling_rate_hz,500,ds005491_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005491/acquisition_setups:main.sampling_rate_hz/02,ds005491,acquisition_setups:main.sampling_rate_hz,500,ds005491_doc5929d4,"""SamplingFrequency"": 500.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1016m
+ds005491/content_class/01,ds005491,content_class,eeg_signals,ds005491_docf1dee7,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005491/is_bids/01,ds005491,is_bids,true,ds005491_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005491/license_spdx/01,ds005491,license_spdx,CC0-1.0,ds005491_record,License: CC0,2026-11-14,script,current,
 ds005491/modalities/01,ds005491,modalities,ieeg,ds005491_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -9775,6 +9784,7 @@ ds005494/acquisition_setups:main.n_channels_eeg/01,ds005494,acquisition_setups:m
 ds005494/acquisition_setups:main.reference/01,ds005494,acquisition_setups:main.reference,bipolar,ds005494_sidecar,iEEGReference,2026-11-14,script,current,
 ds005494/acquisition_setups:main.sampling_rate_hz/01,ds005494,acquisition_setups:main.sampling_rate_hz,500,ds005494_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds005494/acquisition_setups:main.sampling_rate_hz/02,ds005494,acquisition_setups:main.sampling_rate_hz,500,ds005494_docce6fc8,"""SamplingFrequency"": 500.0",2026-11-15,claude,current,Audit reviewer; scope: one example file sub-r1003p
+ds005494/content_class/01,ds005494,content_class,eeg_signals,ds005494_docedeef1,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005494/is_bids/01,ds005494,is_bids,true,ds005494_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005494/license_spdx/01,ds005494,license_spdx,CC0-1.0,ds005494_record,License: CC0,2026-11-14,script,current,
 ds005494/modalities/01,ds005494,modalities,ieeg,ds005494_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -10321,6 +10331,7 @@ ds005522/acquisition_setups:main.line_freq_hz/01,ds005522,acquisition_setups:mai
 ds005522/acquisition_setups:main.n_channels_eeg/01,ds005522,acquisition_setups:main.n_channels_eeg,0,ds005522_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005522/acquisition_setups:main.reference/01,ds005522,acquisition_setups:main.reference,bipolar,ds005522_sidecar,iEEGReference,2026-11-14,script,current,
 ds005522/acquisition_setups:main.sampling_rate_hz/01,ds005522,acquisition_setups:main.sampling_rate_hz,500,ds005522_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005522/content_class/01,ds005522,content_class,eeg_signals,ds005522_doca68170,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005522/is_bids/01,ds005522,is_bids,true,ds005522_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005522/license_spdx/01,ds005522,license_spdx,CC0-1.0,ds005522_record,License: CC0,2026-11-14,script,current,
 ds005522/modalities/01,ds005522,modalities,ieeg,ds005522_record,"Available Modalities: beh, ieeg",2026-11-14,script,current,
@@ -10341,6 +10352,7 @@ ds005523/acquisition_setups:main.line_freq_hz/01,ds005523,acquisition_setups:mai
 ds005523/acquisition_setups:main.n_channels_eeg/01,ds005523,acquisition_setups:main.n_channels_eeg,0,ds005523_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005523/acquisition_setups:main.reference/01,ds005523,acquisition_setups:main.reference,bipolar,ds005523_sidecar,iEEGReference,2026-11-14,script,current,
 ds005523/acquisition_setups:main.sampling_rate_hz/01,ds005523,acquisition_setups:main.sampling_rate_hz,500,ds005523_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005523/content_class/01,ds005523,content_class,eeg_signals,ds005523_doc1ae92d,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005523/is_bids/01,ds005523,is_bids,true,ds005523_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005523/license_spdx/01,ds005523,license_spdx,CC0-1.0,ds005523_record,License: CC0,2026-11-14,script,current,
 ds005523/modalities/01,ds005523,modalities,ieeg,ds005523_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -10468,6 +10480,7 @@ ds005557/acquisition_setups:main.n_channels_eeg/01,ds005557,acquisition_setups:m
 ds005557/acquisition_setups:main.n_channels_eeg/02,ds005557,acquisition_setups:main.n_channels_eeg,109,ds005557_sidecar,SEEGChannelCount,2026-11-16,script,current,
 ds005557/acquisition_setups:main.reference/01,ds005557,acquisition_setups:main.reference,bipolar,ds005557_sidecar,iEEGReference,2026-11-14,script,current,
 ds005557/acquisition_setups:main.sampling_rate_hz/01,ds005557,acquisition_setups:main.sampling_rate_hz,1000,ds005557_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005557/content_class/01,ds005557,content_class,eeg_signals,ds005557_docf48160,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005557/is_bids/01,ds005557,is_bids,true,ds005557_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005557/license_spdx/01,ds005557,license_spdx,CC0-1.0,ds005557_record,License: CC0,2026-11-14,script,current,
 ds005557/modalities/01,ds005557,modalities,ieeg,ds005557_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -10489,6 +10502,7 @@ ds005558/acquisition_setups:main.line_freq_hz/01,ds005558,acquisition_setups:mai
 ds005558/acquisition_setups:main.n_channels_eeg/01,ds005558,acquisition_setups:main.n_channels_eeg,0,ds005558_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds005558/acquisition_setups:main.reference/01,ds005558,acquisition_setups:main.reference,bipolar,ds005558_sidecar,iEEGReference,2026-11-14,script,current,
 ds005558/acquisition_setups:main.sampling_rate_hz/01,ds005558,acquisition_setups:main.sampling_rate_hz,1000,ds005558_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds005558/content_class/01,ds005558,content_class,eeg_signals,ds005558_doc326342,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds005558/is_bids/01,ds005558,is_bids,true,ds005558_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds005558/license_spdx/01,ds005558,license_spdx,CC0-1.0,ds005558_record,License: CC0,2026-11-14,script,current,
 ds005558/modalities/01,ds005558,modalities,ieeg,ds005558_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -11874,6 +11888,7 @@ ds006107/acquisition_setups:main.line_freq_hz/01,ds006107,acquisition_setups:mai
 ds006107/acquisition_setups:main.line_freq_hz/02,ds006107,acquisition_setups:main.line_freq_hz,60,ds006107_doc79b43f,"""PowerLineFrequency"": 60",2026-11-16,claude,current,Audit reviewer; scope: sub-01 file
 ds006107/acquisition_setups:main.sampling_rate_hz/01,ds006107,acquisition_setups:main.sampling_rate_hz,1000,ds006107_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds006107/acquisition_setups:main.sampling_rate_hz/02,ds006107,acquisition_setups:main.sampling_rate_hz,1000,ds006107_doc79b43f,"""SamplingFrequency"": 1000",2026-11-16,claude,current,Audit reviewer; scope: sub-01 sws run-01 file
+ds006107/content_class/01,ds006107,content_class,eeg_signals,ds006107_doc3ccfbb,sub-01_ses-01_task-sws_run-01_ieeg.edf,2026-11-18,claude,current,
 ds006107/is_bids/01,ds006107,is_bids,true,ds006107_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds006107/license_spdx/01,ds006107,license_spdx,CC0-1.0,ds006107_record,License: CC0,2026-11-14,script,current,
 ds006107/modalities/01,ds006107,modalities,ieeg,ds006107_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -12131,6 +12146,7 @@ ds006253/access_routes:openneuro.access_method/01,ds006253,access_routes:openneu
 ds006253/access_routes:openneuro.automation_tool/01,ds006253,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds006253_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds006253/access_routes:openneuro.human_steps/01,ds006253,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds006253_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds006253/acquisition_setups:main.sampling_rate_hz/01,ds006253,acquisition_setups:main.sampling_rate_hz,512,ds006253_doc55af80,"each segment contain high-gamma activity from trial onset (clicking on the start button) to trial offset (following the confidence judgement response), sampled at 512Hz.",2026-11-16,claude,current,"Audit reviewer; scope: high-gamma power segments, not raw ieeg"
+ds006253/content_class/01,ds006253,content_class,eeg_signals,ds006253_doc55af80,The data provided were screened in order to remove trials and iEEG channels with high epilepsy-related artifact.,2026-11-18,claude,current,
 ds006253/is_bids/01,ds006253,is_bids,true,ds006253_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds006253/license_spdx/01,ds006253,license_spdx,CC0-1.0,ds006253_record,License: CC0,2026-11-14,script,current,
 ds006253/modalities/01,ds006253,modalities,ieeg,ds006253_record,Available Modalities: ieeg,2026-11-14,script,current,
@@ -16909,6 +16925,7 @@ ds008959/access_routes:openneuro.access_method/01,ds008959,access_routes:openneu
 ds008959/access_routes:openneuro.automation_tool/01,ds008959,access_routes:openneuro.automation_tool,aws-s3;openneuro-cli;datalad,ds008959_record,Download page: aws s3 sync --no-sign-request; openneuro download; datalad install,2026-11-14,script,current,
 ds008959/access_routes:openneuro.human_steps/01,ds008959,access_routes:openneuro.human_steps,Click I Agree on the site's data use agreement (institutional permission to receive de-identified data; no re-identification),ds008959_record,Floating agreement text (common/content/download-agreement.ts),2026-11-14,script,current,
 ds008959/acquisition_setups:main.sampling_rate_hz/01,ds008959,acquisition_setups:main.sampling_rate_hz,512,ds008959_doccb4553,Data are sampled at 512Hz and segmented into epochs:,2026-11-16,claude,current,Audit reviewer; scope: distributed processed high-gamma epochs
+ds008959/content_class/01,ds008959,content_class,eeg_signals,ds008959_doc4767e1,sub-01_ses-01_task-MetaMosquito_acq-seeg_run-02_epochs_response_final.fif,2026-11-18,claude,current,
 ds008959/domains/01,ds008959,domains,epilepsy;perception,ds008959_doccb4553,patients with drug-resistant focal epilepsy performed an **audiovisual detection task at unimodal near-threshold intensity**,2026-11-16,claude,current,Audit reviewer; scope: not given
 ds008959/is_bids/01,ds008959,is_bids,true,ds008959_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds008959/license_spdx/01,ds008959,license_spdx,CC0-1.0,ds008959_record,License: CC0,2026-11-14,script,current,
