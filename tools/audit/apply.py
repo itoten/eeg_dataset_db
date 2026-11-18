@@ -75,6 +75,15 @@ def fetch(url):
             f.write_text(text)
             (PAGES / f"{key}.url").write_text(url)
         return text
+    k = re.match(r"https://www\.kaggle\.com/datasets/([^/?#]+)/([^/?#]+)", url)
+    if k:
+        # the page needs JavaScript; read Kaggle's view API copy (tools/harvest/kaggle_view.py) instead
+        kc = ROOT / "cache" / "kaggle" / "view" / f"{k.group(1)}__{k.group(2)}.json"
+        text = " ".join(strip_html(flatten(json.loads(kc.read_text()))).split()) if kc.exists() else ""
+        if text:
+            f.write_text(text)
+            (PAGES / f"{key}.url").write_text(url)
+        return text
     if re.match(r"https?://(www\.)?zenodo\.org/", url):
         return ""  # other zenodo.org pages (search, communities) are not scraped
     raw = PAGES / f"{key}.raw"
