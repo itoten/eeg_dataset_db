@@ -36749,6 +36749,7 @@ nm000367/acquisition_setups:main.device_model/01,nm000367,acquisition_setups:mai
 nm000367/acquisition_setups:main.hardware_filter/01,nm000367,acquisition_setups:main.hardware_filter,"0.1-8,000 Hz",nm000367_doc81746d,"Broadband neural signals (0.1–8,000 Hz filtered)",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000367/acquisition_setups:main.sampling_rate_hz/01,nm000367,acquisition_setups:main.sampling_rate_hz,32000,nm000367_doc81746d,at 32 kHz using the ATLAS system (Neuralynx Inc.),2026-11-16,claude,conflicting,Audit reviewer; scope: recorded
 nm000367/acquisition_setups:main.sampling_rate_hz/02,nm000367,acquisition_setups:main.sampling_rate_hz,200,nm000367_doc427ac0,"388 microwire LFP channels (11-41 per recording), 200 Hz",2026-11-16,claude,conflicting,Audit reviewer; scope: distributed lfp
+nm000367/content_class/01,nm000367,content_class,eeg_signals,nm000367_doc427ac0,This is an iEEG-BIDS representation of the authors' NWB release on DANDI (000940).,2026-11-18,claude,current,
 nm000367/domains/01,nm000367,domains,epilepsy;cognitive,nm000367_doc427ac0,in 16 patients with drug-resistant epilepsy during a cognitive-boundary memory paradigm,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000367/hours_reported/01,nm000367,hours_reported,12.99,nm000367_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000367/is_bids/01,nm000367,is_bids,true,nm000367_nemar,bids_version 1.10.0,2026-11-14,script,current,
@@ -36769,6 +36770,7 @@ nm000367/year_published/01,nm000367,year_published,2026,nm000367_nemar,first_pub
 nm000368/access_routes:nemar.access_method/01,nm000368,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000368/access_routes:nemar.automation_tool/01,nm000368,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000368/access_routes:nemar.human_steps/01,nm000368,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000368/content_class/01,nm000368,content_class,eeg_signals,nm000368_doc061342,This iEEG-BIDS representation converts the DANDI 000673 NWB release (400 Hz LFP) without altering signal values,2026-11-18,claude,current,
 nm000368/domains/01,nm000368,domains,epilepsy;cognitive,nm000368_doc061342,in 35 patients with drug-resistant epilepsy during a picture-based Sternberg working-memory task,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000368/hours_reported/01,nm000368,hours_reported,17.23,nm000368_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000368/is_bids/01,nm000368,is_bids,true,nm000368_nemar,bids_version 1.10.0,2026-11-14,script,current,
@@ -37227,6 +37229,7 @@ nm000394/acquisition_setups:main.electrode_type/01,nm000394,acquisition_setups:m
 nm000394/acquisition_setups:main.n_channels_eeg/01,nm000394,acquisition_setups:main.n_channels_eeg,4,nm000394_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
 nm000394/acquisition_setups:main.reference/01,nm000394,acquisition_setups:main.reference,skull or mastoid,nm000394_doc51c190,reference to the skull or mastoid at 1024 Hz sampling rate,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000394/acquisition_setups:main.sampling_rate_hz/01,nm000394,acquisition_setups:main.sampling_rate_hz,1024,nm000394_doc51c190,reference to the skull or mastoid at 1024 Hz sampling rate,2026-11-16,claude,current,Audit reviewer; scope: not given
+nm000394/content_class/01,nm000394,content_class,eeg_signals,nm000394_doc635c64,Video-EEG was recorded from subdural ADTECH grid and strip electrodes (10 mm inter-contact spacing) with a Micromed Brain-Quick System Evolution at 1024 Hz.,2026-11-18,claude,current,
 nm000394/domains/01,nm000394,domains,epilepsy,nm000394_doc635c64,a single patient with drug-resistant epilepsy,2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000394/hours_reported/01,nm000394,hours_reported,0.19,nm000394_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000394/is_bids/01,nm000394,is_bids,true,nm000394_nemar,bids_version 1.10.0,2026-11-14,script,current,
@@ -37626,6 +37629,7 @@ nm000406/acquisition_setups:main.device_manufacturer/01,nm000406,acquisition_set
 nm000406/acquisition_setups:main.device_model/01,nm000406,acquisition_setups:main.device_model,MicroGuide,nm000406_doc3712de,"The recordings were obtained with the “MicroGuide” system (AlphaOmega Engineering, Nazareth, Israel).",2026-11-16,claude,current,Audit reviewer; scope: 9 patients of the related article
 nm000406/acquisition_setups:main.n_channels_eeg/01,nm000406,acquisition_setups:main.n_channels_eeg,3,nm000406_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
 nm000406/acquisition_setups:main.sampling_rate_hz/01,nm000406,acquisition_setups:main.sampling_rate_hz,12000,nm000406_doc3712de,"The sampling frequency was 12 kHz, and a 12-bit analog/digital converter was used.",2026-11-16,claude,current,Audit reviewer; scope: 9 patients of the related article
+nm000406/content_class/01,nm000406,content_class,eeg_signals,nm000406_doc537d66,The data are unfiltered and were repackaged in iEEG-BIDS from a Zenodo release.,2026-11-18,claude,current,
 nm000406/hours_reported/01,nm000406,hours_reported,10.97,nm000406_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000406/is_bids/01,nm000406,is_bids,true,nm000406_nemar,bids_version 1.10.0,2026-11-14,script,current,
 nm000406/license_spdx/01,nm000406,license_spdx,CC-BY-4.0,nm000406_nemar,License: CC-BY-4.0,2026-11-14,script,current,
@@ -39748,6 +39752,7 @@ nm000475/year_published/01,nm000475,year_published,2026,nm000475_nemar,first_pub
 nm000476/access_routes:nemar.access_method/01,nm000476,access_routes:nemar.access_method,direct_download,nemar_download_guide,"datalad get resolves annexed files from NEMAR's public S3 special remote, so no NEMAR account is needed for published datasets",2026-11-14,script,current,
 nm000476/access_routes:nemar.automation_tool/01,nm000476,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000476/access_routes:nemar.human_steps/01,nm000476,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
+nm000476/content_class/01,nm000476,content_class,eeg_signals,nm000476_doc4fdefc,"`*_acq-preproc_ieeg.vhdr` (PFC01, PFC03, PFC04, PFC05): the authors' preprocessed, epoched bipolar signals",2026-11-18,claude,current,
 nm000476/hours_reported/01,nm000476,hours_reported,3.9,nm000476_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000476/hours_reported/02,nm000476,hours_reported,3.9,nm000476_doc4fdefc,"5 subjects, 14 recordings, 3.90 h.",2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000476/is_bids/01,nm000476,is_bids,true,nm000476_nemar,bids_version 1.10.0,2026-11-14,script,current,
@@ -39809,6 +39814,7 @@ nm000481/access_routes:nemar.access_method/01,nm000481,access_routes:nemar.acces
 nm000481/access_routes:nemar.automation_tool/01,nm000481,access_routes:nemar.automation_tool,nemar-cli;datalad;git-annex;wget,nemar_download_guide,NEMAR CLI; datalad clone; git-annex; direct files (wget / curl / rclone),2026-11-14,script,current,
 nm000481/access_routes:nemar.human_steps/01,nm000481,access_routes:nemar.human_steps,none,nemar_download_guide,no NEMAR account is needed for published datasets,2026-11-14,script,current,
 nm000481/acquisition_setups:main.n_channels_eeg/01,nm000481,acquisition_setups:main.n_channels_eeg,2,nm000481_nemar,"channel_count_min = channel_count_max (all channels, not only EEG)",2026-11-14,script,current,
+nm000481/content_class/01,nm000481,content_class,eeg_signals,nm000481_doccae073,Continuous sleep EEG was recorded from a hippocampal depth contact in the non-pathological hemisphere,2026-11-18,claude,current,
 nm000481/hours_reported/01,nm000481,hours_reported,135.6,nm000481_nemar,"total_recording_duration in seconds, shown as hours (NEMAR's own measurement)",2026-11-14,script,current,
 nm000481/hours_reported/02,nm000481,hours_reported,135.6,nm000481_doccae073,Whole-night sleep recordings from 14 pre-surgical epilepsy patients (135.6 h in total),2026-11-16,claude,current,Audit reviewer; scope: not given
 nm000481/is_bids/01,nm000481,is_bids,true,nm000481_nemar,bids_version 1.10.0,2026-11-14,script,current,
