@@ -44602,6 +44602,7 @@ zenodo_1170528/tasks:observation_of_film_clips_still_zoom_ste.task_name/01,zenod
 zenodo_1170528/year_published/01,zenodo_1170528,year_published,2018,zenodo_1170529,Published 2018-02-09,2026-11-14,script,current,
 zenodo_1182919/access_routes:zenodo.access_method/01,zenodo_1182919,access_routes:zenodo.access_method,request_form_or_email,zenodo_1182920,access_right: restricted,2026-11-14,script,current,
 zenodo_1182919/access_routes:zenodo.human_steps/01,zenodo_1182919,access_routes:zenodo.human_steps,Request access through the record's form; the record owners decide,zenodo_1182920,access_right: restricted,2026-11-14,script,current,
+zenodo_1182919/content_class/01,zenodo_1182919,content_class,eeg_signals,zenodo_1182920,EEG Resting state data for Natsue,2026-11-18,claude,current,
 zenodo_1182919/modalities/01,zenodo_1182919,modalities,scalp_eeg,zenodo_1182920,EEG Resting data from CLIS patients,2026-11-14,claude,current,
 zenodo_1182919/name/01,zenodo_1182919,name,EEG Resting data from CLIS patients,zenodo_1182920,Record title,2026-11-14,script,current,
 zenodo_1182919/year_published/01,zenodo_1182919,year_published,2018,zenodo_1182920,Published 2018-02-22,2026-11-14,script,current,
@@ -44860,6 +44861,7 @@ zenodo_1295935/acquisition_setups:main.device_model/01,zenodo_1295935,acquisitio
 zenodo_1295935/acquisition_setups:main.n_channels_eeg/01,zenodo_1295935,acquisition_setups:main.n_channels_eeg,256,zenodo_1295935_docb59fa0,EEG signals with 256 channels captured,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_1295935/acquisition_setups:main.sampling_rate_hz/01,zenodo_1295935,acquisition_setups:main.sampling_rate_hz,250,zenodo_1295936,Description: using a 256-channel HydroCel Geodesic Sensor Net (HCGSN) and a sampling rate of 250 Hz has been used for capturing the signals.,2026-11-14,script,current,
 zenodo_1295935/acquisition_setups:main.sampling_rate_hz/02,zenodo_1295935,acquisition_setups:main.sampling_rate_hz,250,zenodo_1295935_docb59fa0,a sampling rate of 250 Hz,2026-11-17,claude,current,Audit reviewer; scope: recorded
+zenodo_1295935/content_class/01,zenodo_1295935,content_class,no_eeg_signals,zenodo_1295936,DataAcquisitionDetails.pdf,2026-11-18,claude,current,
 zenodo_1295935/license_spdx/01,zenodo_1295935,license_spdx,CC-BY-4.0,zenodo_1295936,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_1295935/modalities/01,zenodo_1295935,modalities,scalp_eeg,zenodo_1295936,"MAMEM EEG SSVEP Dataset I (256 channels, 11 subjects, 5 frequencies presented in isolatio",2026-11-14,claude,current,
 zenodo_1295935/n_subjects_reported/01,zenodo_1295935,n_subjects_reported,11,zenodo_1295935_docb59fa0,captured from 11 subjects executing a SSVEP-based experimental protocol,2026-11-17,claude,current,Audit reviewer; scope: not given
@@ -44874,6 +44876,7 @@ zenodo_1295947/acquisition_setups:main.device_model/01,zenodo_1295947,acquisitio
 zenodo_1295947/acquisition_setups:main.n_channels_eeg/01,zenodo_1295947,acquisition_setups:main.n_channels_eeg,256,zenodo_1295947_docaece2f,EEG signals with 256 channels captured,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_1295947/acquisition_setups:main.sampling_rate_hz/01,zenodo_1295947,acquisition_setups:main.sampling_rate_hz,250,zenodo_1295948,Description: using a 256-channel HydroCel Geodesic Sensor Net (HCGSN) and a sampling rate of 250 Hz has been used for capturing the signals.,2026-11-14,script,current,
 zenodo_1295947/acquisition_setups:main.sampling_rate_hz/02,zenodo_1295947,acquisition_setups:main.sampling_rate_hz,250,zenodo_1295947_docaece2f,a sampling rate of 250 Hz,2026-11-17,claude,current,Audit reviewer; scope: recorded
+zenodo_1295947/content_class/01,zenodo_1295947,content_class,no_eeg_signals,zenodo_1295948,DataAcquisitionDetailsExperiment2.pdf,2026-11-18,claude,current,
 zenodo_1295947/license_spdx/01,zenodo_1295947,license_spdx,CC-BY-4.0,zenodo_1295948,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_1295947/modalities/01,zenodo_1295947,modalities,scalp_eeg,zenodo_1295948,"MAMEM EEG SSVEP Dataset II (256 channels, 11 subjects, 5 frequencies presented simultaneo",2026-11-14,claude,current,
 zenodo_1295947/n_subjects_reported/01,zenodo_1295947,n_subjects_reported,11,zenodo_1295947_docaece2f,captured from 11 subjects executing a SSVEP-based experimental protocol,2026-11-17,claude,current,Audit reviewer; scope: not given
@@ -44886,6 +44889,7 @@ zenodo_1295969/access_routes:zenodo.automation_tool/01,zenodo_1295969,access_rou
 zenodo_1295969/access_routes:zenodo.human_steps/01,zenodo_1295969,access_routes:zenodo.human_steps,none,zenodo_1295970,access_right: open,2026-11-14,script,current,
 zenodo_1295969/acquisition_setups:main.device_model/01,zenodo_1295969,acquisition_setups:main.device_model,Emotiv EPOC,zenodo_1295969_doc49f76f,"the Emotiv EPOC, using 14 wireless channels",2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_1295969/acquisition_setups:main.n_channels_eeg/01,zenodo_1295969,acquisition_setups:main.n_channels_eeg,14,zenodo_1295969_doc49f76f,EEG signals with 14 channels captured,2026-11-17,claude,current,Audit reviewer; scope: not given
+zenodo_1295969/content_class/01,zenodo_1295969,content_class,no_eeg_signals,zenodo_1295970,DataAcquisitionDetailsExperiment3.pdf,2026-11-18,claude,current,
 zenodo_1295969/license_spdx/01,zenodo_1295969,license_spdx,CC-BY-4.0,zenodo_1295970,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_1295969/modalities/01,zenodo_1295969,modalities,scalp_eeg,zenodo_1295970,"MAMEM EEG SSVEP Dataset III (14 channels, 11 subjects, 5 frequencies presented simultaneo",2026-11-14,claude,current,
 zenodo_1295969/n_subjects_reported/01,zenodo_1295969,n_subjects_reported,11,zenodo_1295969_doc49f76f,captured from 11 subjects executing a SSVEP-based experimental protocol,2026-11-17,claude,current,Audit reviewer; scope: not given
@@ -45510,6 +45514,7 @@ zenodo_14223513/year_published/01,zenodo_14223513,year_published,2024,zenodo_142
 zenodo_14294127/access_routes:zenodo.access_method/01,zenodo_14294127,access_routes:zenodo.access_method,direct_download,zenodo_14294128,access_right: open,2026-11-14,script,current,
 zenodo_14294127/access_routes:zenodo.automation_tool/01,zenodo_14294127,access_routes:zenodo.automation_tool,zenodo-api,zenodo_14294128,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_14294127/access_routes:zenodo.human_steps/01,zenodo_14294127,access_routes:zenodo.human_steps,none,zenodo_14294128,access_right: open,2026-11-14,script,current,
+zenodo_14294127/content_class/01,zenodo_14294127,content_class,no_eeg_signals,zenodo_14294128,Artigo_Explorando+a+Eletroencefalografia+(EEG)+Atividades+Práticas+em+Laboratório.pt-PT.en.pdf,2026-11-18,claude,current,
 zenodo_14294127/license_spdx/01,zenodo_14294127,license_spdx,CC-BY-4.0,zenodo_14294128,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_14294127/modalities/01,zenodo_14294127,modalities,scalp_eeg,zenodo_14294128,Explorando a Eletroencefalografia (EEG): Atividades Práticas em Laboratório,2026-11-14,claude,current,
 zenodo_14294127/name/01,zenodo_14294127,name,Explorando a Eletroencefalografia (EEG): Atividades Práticas em Laboratório,zenodo_14294128,Record title,2026-11-14,script,current,
@@ -46526,6 +46531,7 @@ zenodo_15760253/year_published/01,zenodo_15760253,year_published,2025,zenodo_157
 zenodo_15762522/access_routes:zenodo.access_method/01,zenodo_15762522,access_routes:zenodo.access_method,direct_download,zenodo_15762523,access_right: open,2026-11-14,script,current,
 zenodo_15762522/access_routes:zenodo.automation_tool/01,zenodo_15762522,access_routes:zenodo.automation_tool,zenodo-api,zenodo_15762523,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_15762522/access_routes:zenodo.human_steps/01,zenodo_15762522,access_routes:zenodo.human_steps,none,zenodo_15762523,access_right: open,2026-11-14,script,current,
+zenodo_15762522/content_class/01,zenodo_15762522,content_class,eeg_signals,zenodo_15762523,Impact of Regulation-Focused Psychotherapy on EEG Microstate Dynamics in Adolescents with Externalizing Behavior Disorders,2026-11-18,claude,current,
 zenodo_15762522/file_formats/01,zenodo_15762522,file_formats,edf,zenodo_15762523,files: sub015_s0.edf,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_15762522/license_spdx/01,zenodo_15762522,license_spdx,CC-BY-4.0,zenodo_15762523,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_15762522/modalities/01,zenodo_15762522,modalities,scalp_eeg,zenodo_15762523,Impact of Regulation-Focused Psychotherapy on EEG Microstate Dynamics in Adolescents with Externalizing Behavior Disorders,2026-11-14,claude,current,
