@@ -2,6 +2,8 @@
 
 Usage: python3 tools/harvest/kaggle_view.py [GAP_SECONDS]   (default 8; at 2 s Kaggle answered 403 after ~500)
 
+Some answers carry hasDescription: true with an empty description; those are not saved (fetched again next run).
+
 Writes cache/kaggle/view/<owner>__<slug>.json through polite.py, skipping ones already saved.
 apply.py and the reviewers read these copies instead of the dataset page, which needs JavaScript.
 """
@@ -41,6 +43,9 @@ def main():
         except urllib.error.HTTPError as e:
             d = {"error": e.code}
             print(ref, e.code, flush=True)
+        if (d.get("hasDescription") and not d.get("description")) or (d.get("hasSubtitle") and not d.get("subtitle")):
+            print(ref, "text missing from the answer", flush=True)
+            continue
         path_for(ref).write_text(json.dumps(d))
     print("done", len(refs), flush=True)
 
