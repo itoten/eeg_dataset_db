@@ -2250,6 +2250,7 @@ kaggle_hanifai_eeg_dataset,inner_speech,inner speech,imagined_speech,,,,,,,,
 kaggle_houssamboukhecham_eeg_open_closed_eyes,open_eyes_closed_eyes,"Open eyes, Closed eyes",resting_eyes_closed;resting_eyes_open,,,,,,,,
 kaggle_huytungst_eegemotions_27,watching_emotionally_evocative_video_cli,watching emotionally evocative video clips,emotion_induction,,,,,,,,
 kaggle_ignazio_kumars_eeg_imagined_speech,imagined_characters_digits_objects,"imagined characters, digits, objects",imagined_speech,,,,,,,,
+kaggle_latimerb_eeg_leftright,eyes_open_shut,eyes open/shut,resting_eyes_closed;resting_eyes_open,,,,,,,,
 kaya2018,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 kaya2018,motor_imagery_bci_interaction_cla_halt_5,"motor imagery BCI interaction (CLA, HaLT, 5F, FreeForm, NoMT)",motor_imagery,,,,,,,,
 liu2024_acute_stroke_mi,left_right_hand_grip_motor_imagery,left/right hand-grip motor imagery,motor_imagery,,,,,,,,
