@@ -1,6 +1,6 @@
 """Save Kaggle's dataset view API answer for every registered Kaggle dataset (no login needed).
 
-Usage: python3 tools/harvest/kaggle_view.py
+Usage: python3 tools/harvest/kaggle_view.py [GAP_SECONDS]   (default 8; at 2 s Kaggle answered 403 after ~500)
 
 Writes cache/kaggle/view/<owner>__<slug>.json through polite.py, skipping ones already saved.
 apply.py and the reviewers read these copies instead of the dataset page, which needs JavaScript.
@@ -8,6 +8,7 @@ apply.py and the reviewers read these copies instead of the dataset page, which 
 import csv
 import json
 import re
+import sys
 import urllib.error
 from pathlib import Path
 
@@ -22,6 +23,7 @@ def path_for(ref):
 
 
 def main():
+    polite.GAP = float(sys.argv[1]) if len(sys.argv) > 1 else 8.0
     OUT.mkdir(parents=True, exist_ok=True)
     refs = set()
     for s in csv.DictReader(open(ROOT / "data/sources.csv")):
