@@ -15,7 +15,6 @@ import html
 import json
 import re
 import sys
-import time
 import urllib.request
 from pathlib import Path
 
@@ -25,7 +24,6 @@ from reglib import Batch  # noqa: E402
 import zenodo_client  # noqa: E402
 
 CACHE = ROOT / "cache" / "zenodo"
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}
 LICENSES = {"cc-by-4.0": "CC-BY-4.0", "cc-by-3.0": "CC-BY-3.0", "cc-zero": "CC0-1.0", "cc0-1.0": "CC0-1.0",
             "cc-by-sa-4.0": "CC-BY-SA-4.0", "cc-by-nc-4.0": "CC-BY-NC-4.0", "cc-by-nc-sa-4.0": "CC-BY-NC-SA-4.0",
             "cc-by-nc-nd-4.0": "CC-BY-NC-ND-4.0", "cc-by-nd-4.0": "CC-BY-ND-4.0", "odc-by-1.0": "ODC-By-1.0",

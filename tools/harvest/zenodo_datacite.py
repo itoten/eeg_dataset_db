@@ -11,10 +11,10 @@ Records already cached are kept.
 """
 import json
 import re
-import subprocess
-import time
 import urllib.parse
 from pathlib import Path
+
+import polite
 
 CACHE = Path(__file__).resolve().parents[2] / "cache" / "zenodo"
 QUERIES = ["EEG", "electroencephalography", "electroencephalogram", "polysomnography", "ECoG", "intracranial EEG",
@@ -24,13 +24,7 @@ CC = [(r"publicdomain/zero", "cc0-1.0"), (r"licenses/by/4", "cc-by-4.0"), (r"lic
 
 
 def get(url):
-    for i in range(5):
-        out = subprocess.run(["curl", "-s", "-m", "90", url], capture_output=True, text=True).stdout
-        try:
-            return json.loads(out)
-        except ValueError:
-            time.sleep(10 * (i + 1))
-    raise RuntimeError(url)
+    return polite.get_json(url)
 
 
 def convert(a):
@@ -66,7 +60,6 @@ def main():
                     (CACHE / f"{r['id']}.json").write_text(json.dumps(r))
                     n += 1
             url = d.get("links", {}).get("next") if d["data"] else None
-            time.sleep(1)
         print(q, seen, "records,", n, "new", flush=True)
 
 

@@ -7,6 +7,8 @@ first subject's first recording). Re-running skips datasets already cached.
 import json, sys, time, urllib.request, re
 from pathlib import Path
 
+import polite
+
 API = "https://openneuro.org/crn/graphql"
 CACHE = Path(__file__).resolve().parents[2] / "cache" / "openneuro"
 
@@ -14,8 +16,7 @@ CACHE = Path(__file__).resolve().parents[2] / "cache" / "openneuro"
 def gql(q, tries=4):
     for i in range(tries):
         try:
-            req = urllib.request.Request(API, json.dumps({"query": q}).encode(), {"content-type": "application/json"})
-            d = json.load(urllib.request.urlopen(req, timeout=120))
+            d = polite.get_json(API, json.dumps({"query": q}).encode(), {"content-type": "application/json"})
             if "errors" in d:
                 raise RuntimeError(d["errors"][0]["message"])
             return d["data"]
@@ -28,7 +29,7 @@ def gql(q, tries=4):
 def get(url, limit=200000):
     for i in range(4):
         try:
-            return urllib.request.urlopen(url, timeout=120).read(limit).decode("utf-8", "replace")
+            return polite.request(url, limit=limit).decode("utf-8", "replace")
         except Exception:
             if i == 3:
                 return None
@@ -132,7 +133,6 @@ def main():
             print("FAIL", ds, e, flush=True)
         if i % 25 == 0:
             print(i, ds, flush=True)
-        time.sleep(0.3)
     print("done", flush=True)
 
 

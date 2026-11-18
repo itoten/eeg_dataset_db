@@ -9,7 +9,7 @@ lists the reference, so the paper is a secondary source with a note that it may 
 paper; Zenodo's isSupplementTo/isDescribedBy says the record belongs to the paper (primary source).
 A participant count is read from the abstract with the strict phrase of text_facts.py when the cell is empty.
 """
-import datetime, glob, html, json, re, sys, time, urllib.parse, urllib.request
+import datetime, glob, html, json, re, sys, urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -17,6 +17,7 @@ sys.path.insert(0, str(ROOT / ".claude/skills/maintaining-eeg-dataset-db/scripts
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from reglib import Batch  # noqa: E402
 import text_facts  # noqa: E402
+import polite  # noqa: E402
 
 CACHE = ROOT / "cache" / "crossref"
 SKIP_PREFIX = ("10.18112/", "10.5281/", "10.6084/", "10.13026/", "10.7303/", "10.17605/", "10.5524/", "10.82901/")
@@ -54,11 +55,9 @@ def fetch():
         if f.exists():
             continue
         try:
-            r = urllib.request.urlopen(urllib.request.Request("https://api.crossref.org/works/" + urllib.parse.quote(doi), headers={"User-Agent": "eeg-dataset-db (mailto:none@example.org)"}), timeout=60)
-            f.write_text(r.read().decode())
+            f.write_text(polite.request("https://api.crossref.org/works/" + urllib.parse.quote(doi)).decode())
         except Exception as e:
             f.write_text(json.dumps({"error": str(e)[:80]}))
-        time.sleep(0.6)
         if i % 50 == 0:
             print(i, len(dois), flush=True)
 

@@ -5,12 +5,11 @@ Usage: python3 tools/harvest/zenodo_search.py
 The search API returns each record in full (title, description, license, access right, files), so one
 request covers 25 records. Records already cached are kept.
 """
-import json, time, urllib.parse, urllib.request
+import json, urllib.parse
 import zenodo_client
 from pathlib import Path
 
 CACHE = Path(__file__).resolve().parents[2] / "cache" / "zenodo"
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}
 QUERIES = ["EEG", "electroencephalography", "electroencephalogram", "polysomnography", "ECoG", "intracranial EEG",
            "brain-computer interface", "motor imagery", "SSVEP", "P300", "event-related potential", "sleep EEG", "epilepsy EEG"]
 

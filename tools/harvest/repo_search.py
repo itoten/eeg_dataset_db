@@ -9,11 +9,11 @@ dataset id. Kaggle's list API needs no login. Selection happens later (select_ca
 
 import json
 import re
-import subprocess
 import sys
-import time
 import urllib.parse
 from pathlib import Path
+
+import polite
 
 ROOT = Path(__file__).resolve().parents[2]
 TERMS = ["EEG", "electroencephalography", "electroencephalogram", "polysomnography", "ECoG", "intracranial EEG", "iEEG"]
@@ -21,13 +21,7 @@ TITLE = re.compile(r"\b(EEG|iEEG|sEEG|ECoG|electroencephalo\w*|electrocorticogra
 
 
 def get(url):
-    for i in range(5):
-        out = subprocess.run(["curl", "-sL", "-m", "90", "-A", "Mozilla/5.0", url], capture_output=True, text=True).stdout
-        try:
-            return json.loads(out)
-        except ValueError:
-            time.sleep(10 * (i + 1))
-    raise RuntimeError(url)
+    return polite.get_json(url)  # spacing, User-Agent and stopping on 403/429 live there
 
 
 def dryad():
@@ -44,7 +38,6 @@ def dryad():
             if len(items) < 100:
                 break
             page += 1
-            time.sleep(1)
     return hits
 
 
@@ -68,7 +61,6 @@ def mendeley():
                                         date=str(a.get("publicationYear", "")), version=ver,
                                         license=";".join(r.get("rightsIdentifier") or r.get("rights", "") for r in a.get("rightsList") or []))
             url = d.get("links", {}).get("next")
-            time.sleep(1)
     return hits
 
 
@@ -83,7 +75,6 @@ def osf():
                 hits[it["id"]] = dict(title=a.get("title", ""), desc=a.get("description") or "", url=f"https://osf.io/{it['id']}/",
                                       date=(a.get("date_created") or "")[:10], category=a.get("category", ""))
             url = d["links"].get("next")
-            time.sleep(1)
     return hits
 
 
@@ -97,7 +88,6 @@ def kaggle():
                                        date=str(it.get("lastUpdated") or "")[:10], license=it.get("licenseName", ""), bytes=it.get("totalBytes"))
             if len(items) < 20:
                 break
-            time.sleep(1)
     return hits
 
 

@@ -14,7 +14,6 @@ import datetime
 import html
 import json
 import re
-import subprocess
 import sys
 import urllib.parse
 from pathlib import Path
@@ -22,6 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / ".claude/skills/maintaining-eeg-dataset-db/scripts"))
 from reglib import Batch  # noqa: E402
+import polite  # noqa: E402
 
 CACHE = ROOT / "cache" / "repos"
 LIC = [(r"^cc[- ]?by[- ]?4\.0|creativecommons\.org/licenses/by/4\.0|^cc-by-4\.0", "CC-BY-4.0"),
@@ -35,11 +35,7 @@ SYNAPSE_DOC = "https://help.synapse.org/docs/Downloading-Data-Programmatically.2
 
 
 def curl(url, data=None):
-    cmd = ["curl", "-sL", "-m", "60", "-A", "Mozilla/5.0", url]
-    if data:
-        cmd += ["-H", "content-type: application/json", "-d", data]
-    out = subprocess.run(cmd, capture_output=True, text=True).stdout
-    return json.loads(out)
+    return polite.get_json(url, data.encode() if data else None, {"content-type": "application/json"} if data else None)
 
 
 def text(s):

@@ -11,9 +11,7 @@ file_formats is set from file names whose extension belongs to one EEG format (.
 import datetime
 import json
 import os
-import subprocess
 import sys
-import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
