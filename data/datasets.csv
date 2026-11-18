@@ -1091,31 +1091,31 @@ kaggle_erdemerkan_eeg_dataset_with_ocular_artifact,EEG Dataset with Ocular Artif
 kaggle_eshagoel_eeg_channel_dataset,EEG Channel Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_eslam101ahmed_arabic_eeg_sessions,ArEEG: Arabic Inner Speech EEG Dataset,,eeg_signals,scalp_eeg,,,,,,,,,,,,12,,,,,,,,,,free_account_required,one_time_human,,250,,g.tec,imagined_speech,,2026-11-18
 kaggle_eyppler_disorders_and_diagnosis_eeg_dataset_v3,Disorders and Diagnosis EEG Dataset - v3,,non_human,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
-kaggle_eyppler_disorders_and_diagnosis_eeg_dataset_v4,Disorders and Diagnosis EEG Dataset - v4,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_eyppler_disorders_and_diagnosis_eeg_dataset_v5,Disorders and Diagnosis EEG Dataset - v5,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_eyppler_general_disorders_eeg_dataset_v2,General Disorders EEG Dataset - v2,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_eyppler_synthetic_eeg_data,General Disorders EEG Dataset - v1,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fabriciotorquato_brain_wave_data_from_hands_movement_of_eeg,Brain wave data from hands movement of EEG,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fabriciotorquato_eeg_data_from_hands_movement,EEG data from hands movement,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fahadmughal3737_eeg_brain_signals_dataset_with_respect_to_time,EEG Brain Signals Dataset With Respect to Time,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_faheem113141_edubraineeg,EduBrain EEG,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_faireeh_synthetic_eeg_impressions_dataset,Synthetic EEG Impressions Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_faizan786ansari_study_vs_phone_eeg_wave_study,Study vs Phone EEG Wave Study,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fariq21ad012_eeg_data,EEG Data,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fatenbouallagui_eeg_dataset,EEG Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fatmaelnoby19_eeg_motor_imagery_hci,EEG motor imagery HCI,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fattahr_bonn_eeg_set_e_s,bonn-eeg-set E (s),,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fattahr_bonn_eeg_sinyal_s_e,bonn-eeg-sinyal-s (E),,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fattahr_bonn_eeg_sinyal_s_z,bonn-eeg-sinyal-s (z),,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fattahr_eeg_sinyal_s,eeg-sinyal-s,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fattahr_eeg_sinyal_z,EEG Sinyal-Z,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fdskjlajlkfdsa_emotion_recognition_eeg_datasets,Emotion Recognition EEG Datasets,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_felipebihaiek_processed_tuh_eeg,processed tuh eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_fragoa_isruc_3channel_128hz,ISRUC Original EEG EOG EMG 128 Hz,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_francescopignatelli_4_30hz_eeg,4-30Hz EEG,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_francescopignatelli_eeg_py,EEG-py,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_frankling2021_hms_eeg_frequency_data,HMS - EEG Frequency Data,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_freederiaresearch_hybrid_eeg_based_motor_imagery_controlled_real_t,**Hybrid EEG‑Based Motor‑Imagery Controlled Real‑T,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
+kaggle_eyppler_disorders_and_diagnosis_eeg_dataset_v4,Disorders and Diagnosis EEG Dataset - v4,,non_human,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_eyppler_disorders_and_diagnosis_eeg_dataset_v5,Disorders and Diagnosis EEG Dataset - v5,,non_human,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_eyppler_general_disorders_eeg_dataset_v2,General Disorders EEG Dataset - v2,,non_human,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_eyppler_synthetic_eeg_data,General Disorders EEG Dataset - v1,,non_human,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fabriciotorquato_brain_wave_data_from_hands_movement_of_eeg,Brain wave data from hands movement of EEG,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fabriciotorquato_eeg_data_from_hands_movement,EEG data from hands movement,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fahadmughal3737_eeg_brain_signals_dataset_with_respect_to_time,EEG Brain Signals Dataset With Respect to Time,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_faheem113141_edubraineeg,EduBrain EEG,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_faireeh_synthetic_eeg_impressions_dataset,Synthetic EEG Impressions Dataset,,non_human,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_faizan786ansari_study_vs_phone_eeg_wave_study,Study vs Phone EEG Wave Study,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fariq21ad012_eeg_data,EEG Data,,eeg_signals,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fatenbouallagui_eeg_dataset,EEG Dataset,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fatmaelnoby19_eeg_motor_imagery_hci,EEG motor imagery HCI,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fattahr_bonn_eeg_set_e_s,bonn-eeg-set E (s),,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fattahr_bonn_eeg_sinyal_s_e,bonn-eeg-sinyal-s (E),,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fattahr_bonn_eeg_sinyal_s_z,bonn-eeg-sinyal-s (z),,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fattahr_eeg_sinyal_s,eeg-sinyal-s,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fattahr_eeg_sinyal_z,EEG Sinyal-Z,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fdskjlajlkfdsa_emotion_recognition_eeg_datasets,Emotion Recognition EEG Datasets,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_felipebihaiek_processed_tuh_eeg,processed tuh eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_fragoa_isruc_3channel_128hz,ISRUC Original EEG EOG EMG 128 Hz,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_francescopignatelli_4_30hz_eeg,4-30Hz EEG,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_francescopignatelli_eeg_py,EEG-py,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_frankling2021_hms_eeg_frequency_data,HMS - EEG Frequency Data,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_freederiaresearch_hybrid_eeg_based_motor_imagery_controlled_real_t,**Hybrid EEG‑Based Motor‑Imagery Controlled Real‑T,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_freedino_my_new_eeg,my new eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_freshersstaff_eeg_emotion_and_stress_recognition_dataset,EEG Emotion & Stress Recognition Dataset,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_freshersstaff_multimodal_eeg_emotion_interaction_dataset,Multimodal EEG Emotion Interaction Dataset,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
