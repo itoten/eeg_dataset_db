@@ -2229,15 +2229,15 @@ osf_2qgrd,EEG eye artifact dataset,,eeg_signals,scalp_eeg;eog,,,2020,,,,,,,,,,,,
 osf_2rxjv,EEG Dataset: Implicit Processing of Unexpected Emotional Face-Body Compounds,,eeg_signals,scalp_eeg,,,2026,,,,,,,,,32,,,,,,,,,,direct_download,open,64,100,,,visual_erp,,2026-11-17
 osf_2v5md,Data from: Computational methods of EEG signals analysis for Alzheimer's disease classification,,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,19,128,10_20,Biologic Systems Brain Atlas III Plus,resting_eyes_closed;resting_eyes_open,,2026-11-17
 osf_2yqme,Detecting the presence and severity of narrative language production deficits in aphasia using EEG recording during spontaneous speech,,no_eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
-osf_34ujn,Fork of Simultaneous stereo-EEG and high-density scalp EEG recordings to study the effects of intracerebral stimulation parameters,,,ieeg_seeg;scalp_eeg,,,2026,,,,,,,,,36,,,,,,,,,,direct_download,open,256,1000,,,,,2026-11-17
+osf_34ujn,Fork of Simultaneous stereo-EEG and high-density scalp EEG recordings to study the effects of intracerebral stimulation parameters,,eeg_signals,ieeg_seeg;scalp_eeg,,,2026,,,,,,,,,36,,,,,,,,,,direct_download,open,256,1000,,,,,2026-11-18
 osf_39w5h,Data and code repository - Normative intercorrelations between EEG microstate characteristics,,no_eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
-osf_3dp2e,Studying naturalistic human communication using dual-EEG and audio-visual recordings,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,language,,2026-11-17
-osf_3f9e7,No effect of focused attention and open monitoring meditation on EEG auditory mismatch negativity in expert and novice practitioners,,,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
+osf_3dp2e,Studying naturalistic human communication using dual-EEG and audio-visual recordings,,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,language,,2026-11-18
+osf_3f9e7,No effect of focused attention and open monitoring meditation on EEG auditory mismatch negativity in expert and novice practitioners,,,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
 osf_3mz8y,"Experimental Data for the article ""Early EEG-accessible hue representations are consistent with low-level color representations""",,eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
 osf_3rzg5,An EEG dataset for multi-state memory processing in an associative word-pair task,,eeg_signals,scalp_eeg;eog,,,2026,,,,,,,,,41,,,,,,,,,,direct_download,open,28,1000,10_20,Brain Products BrainAmp,cognitive_task;resting_eyes_closed,,2026-11-17
 osf_3txmd,Interindividual aperiodic resting-state EEG activity predicts cognitive-control styles (Pi et al.),,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-17
 osf_3u2gt,EEG dataset for emotion regulation through music,,eeg_signals,scalp_eeg,emotion,,2022,,,,,,,,,15,,,,,,,,,,direct_download,open,32,256,,Guger Technologies g.HIamp,emotion_induction;resting_unspecified,,2026-11-17
-osf_3uszv,EEG data and MATLAB code - meditation - rest - experience sampling,,,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,other;resting_unspecified,,2026-11-16
+osf_3uszv,EEG data and MATLAB code - meditation - rest - experience sampling,,eeg_signals,scalp_eeg,,,2021,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,other;resting_unspecified,,2026-11-18
 osf_3zgxn,Preregistration / Pre-analysis plan for a TMS-EEG study with data already collected and analysis not yet finalized,,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_42us9,Daytime Affect and Sleep EEG Activity: A Data-Driven Exploration,,no_eeg_signals,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_4dwjt,Individual Finger Movement Decoding using a novel Ultra-High Density EEG-based BCI system,,eeg_signals,scalp_eeg,,,2022,,,,,,,,,5,,,,,,,,,,direct_download,open,,,,g.tec medical engineering GmbH g.Pangolin,motor_execution,,2026-11-16
@@ -2246,34 +2246,34 @@ osf_4jwqk,EEG Raw Data (1),,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,di
 osf_4kcmp,Mode Processing EEG Dataset,,eeg_signals,scalp_eeg,,,2019,,,,,,,,,63,,,,,,,,,,direct_download,open,32,2048,10_20,BioSemi ActiveTwo,auditory_erp,,2026-11-16
 osf_4nzcm,Spatial Positions - EEG Dataset,,eeg_signals,scalp_eeg,,,2022,,,,,,,,,146,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-16
 osf_52rea,LIMO EEG dataset,,eeg_signals,scalp_eeg,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_53sa7,EEG data frequencies FPVS,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,256,,BioSemi,other,,2026-11-16
-osf_583vx,EEG Motor Intention Dataset for Rehabilitation Oriented Brain Computer Interfaces,,,scalp_eeg,,,2025,,,,,,,,,30,,,,,,,,,,direct_download,open,32,,,,other,,2026-11-16
+osf_53sa7,EEG data frequencies FPVS,,eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,256,,BioSemi,other,,2026-11-18
+osf_583vx,EEG Motor Intention Dataset for Rehabilitation Oriented Brain Computer Interfaces,,,scalp_eeg,,,2025,,,,,,,,,30,,,,,,,,,,direct_download,open,32,,,,other,,2026-11-18
 osf_5ekxs,Effects of capsaicin pain on resting state EEG spectral features (secondary analysis of Danish dataset),,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_5j2qb,Multivariate EEG course [v.2020],,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_5j2qb,Multivariate EEG course [v.2020],,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
 osf_5phnj,TMS-EEG saccade datasets,,eeg_signals,scalp_eeg,,,2016,,,,,,,,,,,,,,,,,,,direct_download,open,,500,,,other,,2026-11-16
 osf_63g4h,Analytical Robustness of the Face-Sensitive N170: A Bayesian Multiverse Analysis with External Validation in Two Open EEG Datasets,,no_eeg_signals,scalp_eeg,,,2026,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_64sm8,The brain dynamics of visuospatial perspective-taking captured by intracranial EEG,,no_eeg_signals,,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_67rjz,Before-data-collection EEG study protocol and reporting tool,,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_6adf2,Reference masks for: Toward a Slow Wave-Based EEG-fMRI Reference Map for Health-Associated Network Function,,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_6fwye,Sleep–wake cycle analysis and EEG and EMG recordings of late neonatal and adult male C57BL/6 mice,,non_human,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,500,,,,,2026-11-16
-osf_6jd7y,NeuroEPO improves motor and cognitive function in PD patients and the EEG can explain the neural bases underlying the changes,,,scalp_eeg,,,2023,,,,,,,,,26,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_6yrwq,The role of conflict processing in multisensory perception: Behavioural and EEG evidence,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_75x4r,NMA-CN 2021 data sets: ECoG/EEG,,,,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_6jd7y,NeuroEPO improves motor and cognitive function in PD patients and the EEG can explain the neural bases underlying the changes,,,scalp_eeg,,,2023,,,,,,,,,26,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
+osf_6yrwq,The role of conflict processing in multisensory perception: Behavioural and EEG evidence,,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,1000,,actiCHamp,,,2026-11-18
+osf_75x4r,NMA-CN 2021 data sets: ECoG/EEG,,eeg_signals,,,,2022,CC-BY-4.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
 osf_7ne6y,Example Data - EEG Frequency Tagging / SSVEP,,eeg_signals,scalp_eeg,,,2020,,,,,,,,,2,,,,,,,,,,direct_download,open,32,,,,ssvep,,2026-11-16
 osf_7qzhs,Design and Validation of a Modular Smart Headband with Embroidered Electrodes for Comfortable EEG Monitoring (EEG Dataset),,eeg_signals,scalp_eeg,,,2026,,,,,,,,,10,,,,,,,,,,direct_download,open,,500,,Neuroelectrics Enobio 20,auditory_erp;p300_erp;resting_eyes_closed;resting_eyes_open;visual_erp,,2026-11-16
-osf_7wjac,Cueing iEEG code/ data,,,,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_7wjac,Cueing iEEG code/ data,,,,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
 osf_853kw,Variability of EEG electrode positions and their underlying brain regions: visualising gel artifacts from a simultaneous EEG-fMRI dataset,,no_eeg_signals,scalp_eeg,,,2018,,,,,,,,,20,,,,,,,,,,direct_download,open,,,,Brain Products,,,2026-11-16
 osf_85n9u,Movie Watching - Nine Emotions EEG Dataset,,eeg_signals,scalp_eeg,,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_86ymw,Original EEG data and TRF data for supplemental control experiment,,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_87av2,3D Scanning Sample Data for EEG Electrode Localization,,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,125,,,,,,2026-11-16
-osf_89ndr,Localizing hidden Interictal Epileptic Discharges with simultaneous intracerebral and scalp high-density EEG recordings,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_89ndr,Localizing hidden Interictal Epileptic Discharges with simultaneous intracerebral and scalp high-density EEG recordings,,,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
 osf_8epxr,Design-aware reanalysis of two open visual-imagery EEG datasets,,no_eeg_signals,scalp_eeg,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_8gknq,Data for “Association between Anomalous Subjective Recall and Long-Range Temporal Correlations in Resting-State EEG”,,no_eeg_signals,scalp_eeg,resting_state,,2026,,,,,,,,,81,,,,,,,,,,direct_download,open,,,,,resting_eyes_closed,,2026-11-16
 osf_8h4fg,"Advantages and artifacts of high-speed OLED monitors for vision, eye-tracking, and EEG research (data & analysis code)",,eeg_signals,scalp_eeg;eye_tracking,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_8hktu,Fork of Zurich Cognitive Language Processing Corpus: A simultaneous EEG and eye-tracking resource for analyzing the human reading process,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_8hktu,Fork of Zurich Cognitive Language Processing Corpus: A simultaneous EEG and eye-tracking resource for analyzing the human reading process,,eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
 osf_8p9d5,Second part of original EEG data for formal experiment,,eeg_signals,scalp_eeg,,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_8pu6t,脑电数据分析中偏侧化成分分析实用指南[Practical guide for analyzing lateralized components in EEG data],,,scalp_eeg,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_8yxde,"iEEG Session Quality Control: Automated Reports for Brain Recordings, Stimulation, and Cognitive Experiments",,,,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_8pu6t,脑电数据分析中偏侧化成分分析实用指南[Practical guide for analyzing lateralized components in EEG data],,eeg_signals,scalp_eeg,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
+osf_8yxde,"iEEG Session Quality Control: Automated Reports for Brain Recordings, Stimulation, and Cognitive Experiments",,,,,,2026,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
 osf_8z4rb,Pulse waveform and current direction alter network-level TMS-induced functional connectivity: Evidence from TMS-EEG,,no_eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_8zdwb,Effects of posterior-superior insula rTMS on resting-state EEG alpha features (secondary analysis of data),,no_eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_92mqb,Speaking with the Brain: Decoding of Imagined Speech Spanish Vowels from EEG data using Deep Learning Models.,,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
@@ -2303,9 +2303,9 @@ osf_bqs9h,Preprocessed EEG Hyperscanning Data Pt. 1,,eeg_signals,scalp_eeg,,,202
 osf_btvc5,BIDS-EEG: an extension to the Brain Imaging Data Structure (BIDS) Specification for electroencephalography,,no_eeg_signals,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_c689u,Optimising the classification of feature-based attention in frequency-tagged electroencephalography data,,eeg_signals,scalp_eeg,bci;cognitive;perception,,2021,,,,,,,,,30,,,,,,,,,,direct_download,open,5,1200,10_20,g.tec g.USBamp,ssvep,,2026-11-16
 osf_c7m6z,A Multimodal Approach Exploiting EEG to Investigate the Effects of VR Environment on Mental Workload - DATASET,,eeg_signals,scalp_eeg,cognitive,,2023,,,,,,,,,27,,,,,,,,,,direct_download,open,,,,,cognitive_task,,2026-11-16
-osf_ct2xw,Recording EEG data during public engagement events,,,scalp_eeg,development,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,1,500,,,,,2026-11-16
+osf_ct2xw,Recording EEG data during public engagement events,,eeg_signals,scalp_eeg,development,,2022,,,,,,,,,,,,,,,,,,,direct_download,open,1,500,,,,,2026-11-18
 osf_cte94,Open Data: Decoding chromaticity and luminance from patterns of EEG activity,,no_eeg_signals,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_cze3p,Detecting Mental Workload in Virtual Reality Using EEG Spectral Data: A Deep Learning Approach,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
+osf_cze3p,Detecting Mental Workload in Virtual Reality Using EEG Spectral Data: A Deep Learning Approach,,no_eeg_signals,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
 osf_d5yrf,"""NERD"" = ""Neuroimaging EEG and fNIRS Dataset""",,eeg_signals,scalp_eeg;fnirs,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,Unicorn Hybrid Black,passive_viewing,,2026-11-16
 osf_d7frw,ZuCo Reading Task Classification Benchmark using EEG and Eye-Tracking Data,,eeg_signals,scalp_eeg;eye_tracking,cognitive,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,105,,egi_hydrocel,,language,,2026-11-16
 osf_de9p6,EEG recording during Naturalistic Speech Perception in Noisy Environment,,eeg_signals,scalp_eeg,perception;cognitive,,2023,,,,,,,,,,,,,,,,,,,direct_download,open,60,,,NeuroScan SynAmp II,language,,2026-11-16
@@ -2319,15 +2319,15 @@ osf_e2azx,Data for: A High-Definition tDCS and EEG study on attention and vigila
 osf_e2pkt,Hypnosis TMS-EEG dataset,,eeg_signals,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,64,,,MegaElectronics NeurOne Tesla,auditory_erp;resting_eyes_closed,,2026-11-16
 osf_e57pc,"Sleep Loss, Attention and EEG",,no_eeg_signals,scalp_eeg,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,1000,,Compumedics Neuroscan NuAmps,resting_eyes_closed,,2026-11-16
 osf_e6u8f,Power spectral densities of resting EEG data in neuropathic pain patients during four intensities of therapeutic spinal cord stimulation.,,no_eeg_signals,scalp_eeg,,,2023,,,,,,,,,21,,,,,,,,,,direct_download,open,63,,,BrainProducts,resting_unspecified,,2026-11-16
-osf_ednqx,EEG Data From Passive Viewing,,,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,32,1000,,actiCHamp,passive_viewing,,2026-11-16
+osf_ednqx,EEG Data From Passive Viewing,,eeg_signals,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,32,1000,,actiCHamp,passive_viewing,,2026-11-18
 osf_ef6gw,Sensitivity to face animacy and inversion in childhood: Evidence from event-related potentials and time-resolved classification of EEG data,,no_eeg_signals,scalp_eeg,,,2018,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,passive_viewing,,2026-11-16
 osf_ej5gc,DEEP: A dual EEG pipeline for developmental hyperscanning studies,,eeg_signals,scalp_eeg,,,2024,,,,,,,,,70,,,,,,,,,,direct_download,open,,,,Brain Products,other;resting_unspecified,,2026-11-16
 osf_epk4g,Families and patient involvement in designing a project to analyse routine clinical paediatric EEG recordings for research purposes,,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_etszg,Temporal dynamics of letter processing revealed by multivariate pattern analysis of EEG data,,eeg_signals,scalp_eeg,,,2025,,,,,,,,,,,,,,,,,,,direct_download,open,64,,,,visual_erp,,2026-11-16
 osf_evm7d,EEG data processing,,no_eeg_signals,scalp_eeg,,,2019,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_ewkgv,"Virtual Reality-Assisted Prediction of Adult ADHD based on Eye Tracking, EEG, Actigraphy and Behavioral Data: A Machine Learning Analysis of Independent Training and Test Samples",,no_eeg_signals,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,500,,,,,2026-11-16
-osf_eympw,Task-related modulations of facial expression processing: a FPVS-EEG study,,,scalp_eeg,,,2020,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
-osf_f26vy,EEG PLOS One 2016 paper data,,,scalp_eeg,,,2016,,,,,,,,,,,,,,,,,,,direct_download,open,,512,,ActiveTwo,,,2026-11-16
+osf_eympw,Task-related modulations of facial expression processing: a FPVS-EEG study,,eeg_signals,scalp_eeg,,,2020,,,,,,,,,22,,,,,,,,,,direct_download,open,,,,,,,2026-11-18
+osf_f26vy,EEG PLOS One 2016 paper data,,,scalp_eeg,,,2016,,,,,,,,,,,,,,,,,,,direct_download,open,,512,,ActiveTwo,,,2026-11-18
 osf_f4tkh,The Role of Borderline Pattern in the Relationship Between Hostile Attributions and Depression: Studies Including Electroencephalography Method,,,scalp_eeg,,,2025,CC0-1.0,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16
 osf_fdz3u,Ear-EEG compares well to cap-EEG in recording auditory ERPs: a quantification of signal loss,,no_eeg_signals,scalp_eeg,,,2021,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,auditory_erp,,2026-11-16
 osf_fheug,Neurophysiological Signature of Working Memory Updating During Encoding 1/2 - EEG data,,,scalp_eeg,,,2024,,,,,,,,,,,,,,,,,,,direct_download,open,,,,,,,2026-11-16

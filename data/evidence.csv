@@ -40260,6 +40260,7 @@ osf_34ujn/access_routes:osf.automation_tool/01,osf_34ujn,access_routes:osf.autom
 osf_34ujn/access_routes:osf.human_steps/01,osf_34ujn,access_routes:osf.human_steps,none,osf_34ujn_osf,Public record with files (API),2026-11-16,script,current,
 osf_34ujn/acquisition_setups:main.n_channels_eeg/01,osf_34ujn,acquisition_setups:main.n_channels_eeg,256,osf_34ujn_doc2b189b,"high-density Electroencephalogram (hd-EEG - 256 channels, Geodesic Sensor Net, HydroCel CleanLeads)",2026-11-17,claude,current,Audit reviewer; scope: scalp hd-eeg
 osf_34ujn/acquisition_setups:main.sampling_rate_hz/01,osf_34ujn,acquisition_setups:main.sampling_rate_hz,1000,osf_34ujn_doc2b189b,Hd-EEG was then recorded at 1000 Hz sampling rate using an EGI NA-400 amplifier,2026-11-17,claude,current,Audit reviewer; scope: hd-eeg; seeg also 1000hz
+osf_34ujn/content_class/01,osf_34ujn,content_class,eeg_signals,osf_34ujn_doc07a81e,To overcome these limitations we obtained simultaneous whole brain recordings of high-density EEG during SEEG stimulation and recording.,2026-11-18,claude,current,
 osf_34ujn/modalities/01,osf_34ujn,modalities,ieeg_seeg;scalp_eeg,osf_34ujn_doc2b189b,SEEG and hd-EEG activities were simultaneously recorded during SPES in drug-resistant epileptic patients,2026-11-17,claude,current,Audit reviewer; scope: not given
 osf_34ujn/n_subjects_reported/01,osf_34ujn,n_subjects_reported,36,osf_34ujn_doc2b189b,"A total of 36 patients (median age=33±8 years, 21 female, Table S1)",2026-11-17,claude,current,Audit reviewer; scope: not given
 osf_34ujn/name/01,osf_34ujn,name,Fork of Simultaneous stereo-EEG and high-density scalp EEG recordings to study the effects of intracerebral stimulation parameters,osf_34ujn_osf,Record title,2026-11-16,script,current,
@@ -40277,6 +40278,7 @@ osf_39w5h/year_published/01,osf_39w5h,year_published,2023,osf_39w5h_osf,Publishe
 osf_3dp2e/access_routes:osf.access_method/01,osf_3dp2e,access_routes:osf.access_method,direct_download,osf_3dp2e_osf,Public record with files (API),2026-11-16,script,current,
 osf_3dp2e/access_routes:osf.automation_tool/01,osf_3dp2e,access_routes:osf.automation_tool,osf-api,osf_3dp2e_osf,Files listed in the record API,2026-11-16,script,current,
 osf_3dp2e/access_routes:osf.human_steps/01,osf_3dp2e,access_routes:osf.human_steps,none,osf_3dp2e_osf,Public record with files (API),2026-11-16,script,current,
+osf_3dp2e/content_class/01,osf_3dp2e,content_class,eeg_signals,osf_3dp2e_doc56b672,Studying naturalistic human communication using dual-EEG and audio-visual recordings,2026-11-18,claude,current,
 osf_3dp2e/modalities/01,osf_3dp2e,modalities,scalp_eeg,osf_3dp2e_osf,Studying naturalistic human communication using dual-EEG and audio-visual recordings,2026-11-16,claude,current,
 osf_3dp2e/name/01,osf_3dp2e,name,Studying naturalistic human communication using dual-EEG and audio-visual recordings,osf_3dp2e_osf,Record title,2026-11-16,script,current,
 osf_3dp2e/tasks:face_to_face_conversation_dual_eeg.paradigms/01,osf_3dp2e,tasks:face_to_face_conversation_dual_eeg.paradigms,language,osf_3dp2e_doc56b672,face-to-face communication,2026-11-17,claude,current,
@@ -40347,13 +40349,18 @@ osf_3u2gt/year_published/01,osf_3u2gt,year_published,2022,osf_3u2gt_osf,Publishe
 osf_3uszv/access_routes:osf.access_method/01,osf_3uszv,access_routes:osf.access_method,direct_download,osf_3uszv_osf,Public record with files (API),2026-11-16,script,current,
 osf_3uszv/access_routes:osf.automation_tool/01,osf_3uszv,access_routes:osf.automation_tool,osf-api,osf_3uszv_osf,Files listed in the record API,2026-11-16,script,current,
 osf_3uszv/access_routes:osf.human_steps/01,osf_3uszv,access_routes:osf.human_steps,none,osf_3uszv_osf,Public record with files (API),2026-11-16,script,current,
+osf_3uszv/content_class/01,osf_3uszv,content_class,eeg_signals,osf_3uszv_docdc5d22,Raw EEG data and code for the article 'The EEG spectral properties of meditation and mind wandering differ between experienced meditators and novices',2026-11-18,claude,current,
 osf_3uszv/license_spdx/01,osf_3uszv,license_spdx,CC0-1.0,osf_3uszv_osf,License: CC0 1.0 Universal,2026-11-16,script,current,
 osf_3uszv/modalities/01,osf_3uszv,modalities,scalp_eeg,osf_3uszv_osf,EEG data and MATLAB code - meditation - rest - experience sampling,2026-11-16,claude,current,
 osf_3uszv/name/01,osf_3uszv,name,EEG data and MATLAB code - meditation - rest - experience sampling,osf_3uszv_osf,Record title,2026-11-16,script,current,
 osf_3uszv/participant_groups:controls.n_subjects/01,osf_3uszv,participant_groups:controls.n_subjects,29,osf_3uszv_doceef1ed,a control group of 29 participants without any meditation experience,2026-11-16,claude,current,
 osf_3uszv/participant_groups:meditators.n_subjects/01,osf_3uszv,participant_groups:meditators.n_subjects,29,osf_3uszv_doceef1ed,a group of 29 adult participants with more than 3 years of meditation experience,2026-11-16,claude,current,
+osf_3uszv/tasks:med_task.paradigms/01,osf_3uszv,tasks:med_task.paradigms,other,osf_3uszv_doc48572c,med = uninterrupted meditation condition (10 minutes),2026-11-18,claude,current,
+osf_3uszv/tasks:med_task.task_name/01,osf_3uszv,tasks:med_task.task_name,med; task,osf_3uszv_doc48572c,med = uninterrupted meditation condition (10 minutes),2026-11-18,claude,current,
 osf_3uszv/tasks:med_uninterrupted_meditation_condition_1.paradigms/01,osf_3uszv,tasks:med_uninterrupted_meditation_condition_1.paradigms,other,osf_3uszv_doc48572c,med = uninterrupted meditation condition (10 minutes),2026-11-16,claude,current,
 osf_3uszv/tasks:med_uninterrupted_meditation_condition_1.task_name/01,osf_3uszv,tasks:med_uninterrupted_meditation_condition_1.task_name,med = uninterrupted meditation condition (10 minutes),osf_3uszv_doc48572c,med = uninterrupted meditation condition (10 minutes),2026-11-16,claude,current,
+osf_3uszv/tasks:rest.paradigms/01,osf_3uszv,tasks:rest.paradigms,resting_unspecified,osf_3uszv_doc48572c,rest = resting state (5 minutes),2026-11-18,claude,current,
+osf_3uszv/tasks:rest.task_name/01,osf_3uszv,tasks:rest.task_name,rest,osf_3uszv_doc48572c,rest = resting state (5 minutes),2026-11-18,claude,current,
 osf_3uszv/tasks:rest_resting_state_5_minutes.paradigms/01,osf_3uszv,tasks:rest_resting_state_5_minutes.paradigms,resting_unspecified,osf_3uszv_doc48572c,rest = resting state (5 minutes),2026-11-16,claude,current,
 osf_3uszv/tasks:rest_resting_state_5_minutes.task_name/01,osf_3uszv,tasks:rest_resting_state_5_minutes.task_name,rest = resting state (5 minutes),osf_3uszv_doc48572c,rest = resting state (5 minutes),2026-11-16,claude,current,
 osf_3uszv/tasks:task_interrupted_meditation_condition_ex.paradigms/01,osf_3uszv,tasks:task_interrupted_meditation_condition_ex.paradigms,other,osf_3uszv_doc48572c,task = interrupted meditation condition (experience sampling) (around 60 minutes),2026-11-16,claude,current,
@@ -40448,6 +40455,7 @@ osf_53sa7/access_routes:osf.automation_tool/01,osf_53sa7,access_routes:osf.autom
 osf_53sa7/access_routes:osf.human_steps/01,osf_53sa7,access_routes:osf.human_steps,none,osf_53sa7_osf,Public record with files (API),2026-11-16,script,current,
 osf_53sa7/acquisition_setups:main.device_manufacturer/01,osf_53sa7,acquisition_setups:main.device_manufacturer,BioSemi,osf_53sa7_docef38af,"Scalp EEG data (Biosemi 64+4 channels, BDF files)",2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_53sa7/acquisition_setups:main.sampling_rate_hz/01,osf_53sa7,acquisition_setups:main.sampling_rate_hz,256,osf_53sa7_docef38af,Downsampled to 256 Hz,2026-11-16,claude,current,Audit reviewer; scope: distributed (downsampled) files
+osf_53sa7/content_class/01,osf_53sa7,content_class,eeg_signals,osf_53sa7_docef38af,This scalp EEG dataset is associated with the following manuscript,2026-11-18,claude,current,
 osf_53sa7/modalities/01,osf_53sa7,modalities,scalp_eeg,osf_53sa7_osf,EEG data frequencies FPVS,2026-11-16,claude,current,
 osf_53sa7/name/01,osf_53sa7,name,EEG data frequencies FPVS,osf_53sa7_osf,Record title,2026-11-16,script,current,
 osf_53sa7/tasks:frequency_tagging_word_pseudo_word_non_w.paradigms/01,osf_53sa7,tasks:frequency_tagging_word_pseudo_word_non_w.paradigms,other,osf_53sa7_docef38af,41 = 4Hz NW (Non-word discrimination),2026-11-16,claude,current,
@@ -40528,6 +40536,9 @@ osf_6jd7y/access_routes:osf.human_steps/01,osf_6jd7y,access_routes:osf.human_ste
 osf_6jd7y/modalities/01,osf_6jd7y,modalities,scalp_eeg,osf_6jd7y_osf,NeuroEPO improves motor and cognitive function in PD patients and the EEG can explain the neural bases underlying the changes,2026-11-16,claude,current,
 osf_6jd7y/n_subjects_reported/01,osf_6jd7y,n_subjects_reported,26,osf_6jd7y_docbe44c0,This data includes 26 Parkinson's disease (PD) patients (HY stages I-II).,2026-11-16,claude,current,Audit reviewer; scope: whole dataset
 osf_6jd7y/name/01,osf_6jd7y,name,NeuroEPO improves motor and cognitive function in PD patients and the EEG can explain the neural bases underlying the changes,osf_6jd7y_osf,Record title,2026-11-16,script,current,
+osf_6jd7y/participant_groups:parkinson_s_disease_patients.condition/01,osf_6jd7y,participant_groups:parkinson_s_disease_patients.condition,patient,osf_6jd7y_docbe44c0,This data includes 26 Parkinson's disease (PD) patients (HY stages I-II).,2026-11-18,claude,current,
+osf_6jd7y/participant_groups:parkinson_s_disease_patients.diagnosis/01,osf_6jd7y,participant_groups:parkinson_s_disease_patients.diagnosis,Parkinson's disease,osf_6jd7y_docbe44c0,This data includes 26 Parkinson's disease (PD) patients (HY stages I-II).,2026-11-18,claude,current,
+osf_6jd7y/participant_groups:parkinson_s_disease_patients.n_subjects/01,osf_6jd7y,participant_groups:parkinson_s_disease_patients.n_subjects,26,osf_6jd7y_docbe44c0,This data includes 26 Parkinson's disease (PD) patients (HY stages I-II).,2026-11-18,claude,current,
 osf_6jd7y/participant_groups:parkinson_s_disease_patients_h.condition/01,osf_6jd7y,participant_groups:parkinson_s_disease_patients_h.condition,patient,osf_6jd7y_docbe44c0,This data includes 26 Parkinson's disease (PD) patients (HY stages I-II).,2026-11-16,claude,current,
 osf_6jd7y/participant_groups:parkinson_s_disease_patients_h.diagnosis/01,osf_6jd7y,participant_groups:parkinson_s_disease_patients_h.diagnosis,Parkinson's disease,osf_6jd7y_docbe44c0,This data includes 26 Parkinson's disease (PD) patients (HY stages I-II).,2026-11-16,claude,current,
 osf_6jd7y/participant_groups:parkinson_s_disease_patients_h.n_subjects/01,osf_6jd7y,participant_groups:parkinson_s_disease_patients_h.n_subjects,26,osf_6jd7y_docbe44c0,This data includes 26 Parkinson's disease (PD) patients (HY stages I-II).,2026-11-16,claude,current,
@@ -40535,12 +40546,19 @@ osf_6jd7y/year_published/01,osf_6jd7y,year_published,2023,osf_6jd7y_osf,Publishe
 osf_6yrwq/access_routes:osf.access_method/01,osf_6yrwq,access_routes:osf.access_method,direct_download,osf_6yrwq_osf,Public record with files (API),2026-11-16,script,current,
 osf_6yrwq/access_routes:osf.automation_tool/01,osf_6yrwq,access_routes:osf.automation_tool,osf-api,osf_6yrwq_osf,Files listed in the record API,2026-11-16,script,current,
 osf_6yrwq/access_routes:osf.human_steps/01,osf_6yrwq,access_routes:osf.human_steps,none,osf_6yrwq_osf,Public record with files (API),2026-11-16,script,current,
+osf_6yrwq/acquisition_setups:main.device_model/01,osf_6yrwq,acquisition_setups:main.device_model,actiCHamp,osf_6yrwq_doc8f8073,A total of 64 active electrodes connected to a BrainVision actiCHamp amplifier were placed according to the 10-10 montage,2026-11-18,claude,current,Audit reviewer; scope: not given
+osf_6yrwq/acquisition_setups:main.ground/01,osf_6yrwq,acquisition_setups:main.ground,FPz,osf_6yrwq_doc8f8073,"During the recording, M1 was the online reference and FPz was used as the ground.",2026-11-18,claude,current,Audit reviewer; scope: not given
+osf_6yrwq/acquisition_setups:main.reference/01,osf_6yrwq,acquisition_setups:main.reference,M1,osf_6yrwq_doc8f8073,"During the recording, M1 was the online reference and FPz was used as the ground.",2026-11-18,claude,current,Audit reviewer; scope: not given
+osf_6yrwq/acquisition_setups:main.sampling_rate_hz/01,osf_6yrwq,acquisition_setups:main.sampling_rate_hz,1000,osf_6yrwq_doc8f8073,The EEG signal was sampled at 1000 Hz and electrode impedances were kept below 10 KΩ.,2026-11-18,claude,current,Audit reviewer; scope: recorded eeg
+osf_6yrwq/content_class/01,osf_6yrwq,content_class,eeg_signals,osf_6yrwq_doc8f8073,Electroencephalography set-up A total of 64 active electrodes connected to a BrainVision actiCHamp amplifier were placed according to the 10-10 montage in an actiCAP electrode,2026-11-18,claude,current,
 osf_6yrwq/modalities/01,osf_6yrwq,modalities,scalp_eeg,osf_6yrwq_osf,The role of conflict processing in multisensory perception: Behavioural and EEG evidence,2026-11-16,claude,current,
 osf_6yrwq/name/01,osf_6yrwq,name,The role of conflict processing in multisensory perception: Behavioural and EEG evidence,osf_6yrwq_osf,Record title,2026-11-16,script,current,
 osf_6yrwq/year_published/01,osf_6yrwq,year_published,2023,osf_6yrwq_osf,Published 2023-03-29,2026-11-16,script,current,
 osf_75x4r/access_routes:osf.access_method/01,osf_75x4r,access_routes:osf.access_method,direct_download,osf_75x4r_osf,Public record with files (API),2026-11-16,script,current,
 osf_75x4r/access_routes:osf.automation_tool/01,osf_75x4r,access_routes:osf.automation_tool,osf-api,osf_75x4r_osf,Files listed in the record API,2026-11-16,script,current,
 osf_75x4r/access_routes:osf.human_steps/01,osf_75x4r,access_routes:osf.human_steps,none,osf_75x4r_osf,Public record with files (API),2026-11-16,script,current,
+osf_75x4r/content_class/01,osf_75x4r,content_class,eeg_signals,osf_75x4r_doc358dff,"ECoG/EEG data sets - Miller data sets: Miller, Kai J., Hermes, D., Honey, C. J.",2026-11-18,claude,current,
+osf_75x4r/license_spdx/01,osf_75x4r,license_spdx,CC-BY-4.0,osf_75x4r_doc358dff,The data sets in the repository are released under a [CC-BY-4.0][1] license.,2026-11-18,claude,current,Audit reviewer; scope: not given
 osf_75x4r/name/01,osf_75x4r,name,NMA-CN 2021 data sets: ECoG/EEG,osf_75x4r_osf,Record title,2026-11-16,script,current,
 osf_75x4r/year_published/01,osf_75x4r,year_published,2022,osf_75x4r_osf,Published 2022-03-07,2026-11-16,script,current,
 osf_7ne6y/access_routes:osf.access_method/01,osf_7ne6y,access_routes:osf.access_method,direct_download,osf_7ne6y_osf,Public record with files (API),2026-11-16,script,current,
@@ -40650,6 +40668,7 @@ osf_8h4fg/year_published/01,osf_8h4fg,year_published,2024,osf_8h4fg_osf,Publishe
 osf_8hktu/access_routes:osf.access_method/01,osf_8hktu,access_routes:osf.access_method,direct_download,osf_8hktu_osf,Public record with files (API),2026-11-16,script,current,
 osf_8hktu/access_routes:osf.automation_tool/01,osf_8hktu,access_routes:osf.automation_tool,osf-api,osf_8hktu_osf,Files listed in the record API,2026-11-16,script,current,
 osf_8hktu/access_routes:osf.human_steps/01,osf_8hktu,access_routes:osf.human_steps,none,osf_8hktu_osf,Public record with files (API),2026-11-16,script,current,
+osf_8hktu/content_class/01,osf_8hktu,content_class,eeg_signals,osf_8hktu_doc2b703a,This dataset includes simultaneous EEG and eye-tracking signals collected from 12 subjects while reading natural English text.,2026-11-18,claude,current,
 osf_8hktu/modalities/01,osf_8hktu,modalities,scalp_eeg,osf_8hktu_osf,Fork of Zurich Cognitive Language Processing Corpus: A simultaneous EEG and eye-tracking resource for analyzing the human reading process,2026-11-16,claude,current,
 osf_8hktu/name/01,osf_8hktu,name,Fork of Zurich Cognitive Language Processing Corpus: A simultaneous EEG and eye-tracking resource for analyzing the human reading process,osf_8hktu_osf,Record title,2026-11-16,script,current,
 osf_8hktu/year_published/01,osf_8hktu,year_published,2024,osf_8hktu_osf,Published 2024-12-08,2026-11-16,script,current,
@@ -40663,6 +40682,7 @@ osf_8p9d5/year_published/01,osf_8p9d5,year_published,2023,osf_8p9d5_osf,Publishe
 osf_8pu6t/access_routes:osf.access_method/01,osf_8pu6t,access_routes:osf.access_method,direct_download,osf_8pu6t_osf,Public record with files (API),2026-11-16,script,current,
 osf_8pu6t/access_routes:osf.automation_tool/01,osf_8pu6t,access_routes:osf.automation_tool,osf-api,osf_8pu6t_osf,Files listed in the record API,2026-11-16,script,current,
 osf_8pu6t/access_routes:osf.human_steps/01,osf_8pu6t,access_routes:osf.human_steps,none,osf_8pu6t_osf,Public record with files (API),2026-11-16,script,current,
+osf_8pu6t/content_class/01,osf_8pu6t,content_class,eeg_signals,osf_8pu6t_doc6a1e76,在 EEGLAB 中单击 “File”，在选项卡中依次选择 Import data > Using EEGLAB function and plugins > From Neuroscan.CNT file,2026-11-18,claude,current,
 osf_8pu6t/modalities/01,osf_8pu6t,modalities,scalp_eeg,osf_8pu6t_osf,脑电数据分析中偏侧化成分分析实用指南[Practical guide for analyzing lateralized components in EEG data],2026-11-16,claude,current,
 osf_8pu6t/name/01,osf_8pu6t,name,脑电数据分析中偏侧化成分分析实用指南[Practical guide for analyzing lateralized components in EEG data],osf_8pu6t_osf,Record title,2026-11-16,script,current,
 osf_8pu6t/year_published/01,osf_8pu6t,year_published,2019,osf_8pu6t_osf,Published 2019-12-24,2026-11-16,script,current,
@@ -41024,6 +41044,7 @@ osf_ct2xw/access_routes:osf.automation_tool/01,osf_ct2xw,access_routes:osf.autom
 osf_ct2xw/access_routes:osf.human_steps/01,osf_ct2xw,access_routes:osf.human_steps,none,osf_ct2xw_osf,Public record with files (API),2026-11-16,script,current,
 osf_ct2xw/acquisition_setups:main.n_channels_eeg/01,osf_ct2xw,acquisition_setups:main.n_channels_eeg,1,osf_ct2xw_doc6af506,Number of channels: 1,2026-11-16,claude,current,Audit reviewer; scope: 1.vhdr only
 osf_ct2xw/acquisition_setups:main.sampling_rate_hz/01,osf_ct2xw,acquisition_setups:main.sampling_rate_hz,500,osf_ct2xw_doc6af506,Sampling Rate [Hz]: 500,2026-11-16,claude,current,Audit reviewer; scope: 1.vhdr only
+osf_ct2xw/content_class/01,osf_ct2xw,content_class,eeg_signals,osf_ct2xw_doc992eec,"Data and analysis code for the project ""Developmental changes in individual alpha frequency: Recording EEG data during public engagement events"".",2026-11-18,claude,current,
 osf_ct2xw/domains/01,osf_ct2xw,domains,development,osf_ct2xw_doc992eec,Developmental changes in individual alpha frequency,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_ct2xw/modalities/01,osf_ct2xw,modalities,scalp_eeg,osf_ct2xw_osf,Recording EEG data during public engagement events,2026-11-16,claude,current,
 osf_ct2xw/modalities/02,osf_ct2xw,modalities,scalp_eeg,osf_ct2xw_doc6af506,Number of channels: 1,2026-11-16,claude,current,Audit reviewer; scope: not given
@@ -41039,6 +41060,7 @@ osf_cte94/year_published/01,osf_cte94,year_published,2018,osf_cte94_osf,Publishe
 osf_cze3p/access_routes:osf.access_method/01,osf_cze3p,access_routes:osf.access_method,direct_download,osf_cze3p_osf,Public record with files (API),2026-11-16,script,current,
 osf_cze3p/access_routes:osf.automation_tool/01,osf_cze3p,access_routes:osf.automation_tool,osf-api,osf_cze3p_osf,Files listed in the record API,2026-11-16,script,current,
 osf_cze3p/access_routes:osf.human_steps/01,osf_cze3p,access_routes:osf.human_steps,none,osf_cze3p_osf,Public record with files (API),2026-11-16,script,current,
+osf_cze3p/content_class/01,osf_cze3p,content_class,no_eeg_signals,osf_cze3p_doc4c3892,"""name"":""3_Spectrogram+CNN.ipynb""",2026-11-18,claude,current,
 osf_cze3p/modalities/01,osf_cze3p,modalities,scalp_eeg,osf_cze3p_osf,Detecting Mental Workload in Virtual Reality Using EEG Spectral Data: A Deep Learning Approach,2026-11-16,claude,current,
 osf_cze3p/name/01,osf_cze3p,name,Detecting Mental Workload in Virtual Reality Using EEG Spectral Data: A Deep Learning Approach,osf_cze3p_osf,Record title,2026-11-16,script,current,
 osf_cze3p/year_published/01,osf_cze3p,year_published,2021,osf_cze3p_osf,Published 2021-07-17,2026-11-16,script,current,
@@ -41199,8 +41221,11 @@ osf_ednqx/access_routes:osf.human_steps/01,osf_ednqx,access_routes:osf.human_ste
 osf_ednqx/acquisition_setups:main.device_model/01,osf_ednqx,acquisition_setups:main.device_model,actiCHamp,osf_ednqx_doc5876b0,"The data was collected using a 32-electrode actiCHamp cap at 1,000 Hz",2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_ednqx/acquisition_setups:main.n_channels_eeg/01,osf_ednqx,acquisition_setups:main.n_channels_eeg,32,osf_ednqx_doc5876b0,"The data was collected using a 32-electrode actiCHamp cap at 1,000 Hz",2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_ednqx/acquisition_setups:main.sampling_rate_hz/01,osf_ednqx,acquisition_setups:main.sampling_rate_hz,1000,osf_ednqx_doc5876b0,"The data was collected using a 32-electrode actiCHamp cap at 1,000 Hz",2026-11-16,claude,current,Audit reviewer; scope: recorded; the sampling rate of the distributed npy files is not stated
+osf_ednqx/content_class/01,osf_ednqx,content_class,eeg_signals,osf_ednqx_doc71e420,The 32 EEG channels are in the standard easycap locations,2026-11-18,claude,current,
 osf_ednqx/modalities/01,osf_ednqx,modalities,scalp_eeg,osf_ednqx_osf,EEG Data From Passive Viewing,2026-11-16,claude,current,
 osf_ednqx/name/01,osf_ednqx,name,EEG Data From Passive Viewing,osf_ednqx_osf,Record title,2026-11-16,script,current,
+osf_ednqx/tasks:orientation_and_color_tasks.paradigms/01,osf_ednqx,tasks:orientation_and_color_tasks.paradigms,passive_viewing,osf_ednqx_doc5876b0,Both experiments were passive viewing tasks.,2026-11-18,claude,current,
+osf_ednqx/tasks:orientation_and_color_tasks.task_name/01,osf_ednqx,tasks:orientation_and_color_tasks.task_name,orientation and color tasks,osf_ednqx_doc5876b0,Both experiments were passive viewing tasks.,2026-11-18,claude,current,
 osf_ednqx/tasks:orientation_task_and_color_task.paradigms/01,osf_ednqx,tasks:orientation_task_and_color_task.paradigms,passive_viewing,osf_ednqx_doc5876b0,Both experiments were passive viewing tasks.,2026-11-16,claude,current,
 osf_ednqx/tasks:orientation_task_and_color_task.task_name/01,osf_ednqx,tasks:orientation_task_and_color_task.task_name,orientation task and color task,osf_ednqx_doc5876b0,Both experiments were passive viewing tasks.,2026-11-16,claude,current,
 osf_ednqx/year_published/01,osf_ednqx,year_published,2021,osf_ednqx_osf,Published 2021-02-08,2026-11-16,script,current,
@@ -41268,7 +41293,9 @@ osf_ewkgv/year_published/01,osf_ewkgv,year_published,2024,osf_ewkgv_osf,Publishe
 osf_eympw/access_routes:osf.access_method/01,osf_eympw,access_routes:osf.access_method,direct_download,osf_eympw_osf,Public record with files (API),2026-11-16,script,current,
 osf_eympw/access_routes:osf.automation_tool/01,osf_eympw,access_routes:osf.automation_tool,osf-api,osf_eympw_osf,Files listed in the record API,2026-11-16,script,current,
 osf_eympw/access_routes:osf.human_steps/01,osf_eympw,access_routes:osf.human_steps,none,osf_eympw_osf,Public record with files (API),2026-11-16,script,current,
+osf_eympw/content_class/01,osf_eympw,content_class,eeg_signals,osf_eympw_doc9888d0,"Twenty-two participants were asked either to recognize the emotion at the expression-specific frequency (1.5 Hz) or to perform an orthogonal task in separate blocks, while",2026-11-18,claude,current,
 osf_eympw/modalities/01,osf_eympw,modalities,scalp_eeg,osf_eympw_osf,Task-related modulations of facial expression processing: a FPVS-EEG study,2026-11-16,claude,current,
+osf_eympw/n_subjects_reported/01,osf_eympw,n_subjects_reported,22,osf_eympw_doc9888d0,Twenty-two participants were asked either to recognize the emotion,2026-11-18,claude,current,Audit reviewer; scope: not given
 osf_eympw/name/01,osf_eympw,name,Task-related modulations of facial expression processing: a FPVS-EEG study,osf_eympw_osf,Record title,2026-11-16,script,current,
 osf_eympw/year_published/01,osf_eympw,year_published,2020,osf_eympw_osf,Published 2020-12-06,2026-11-16,script,current,
 osf_f26vy/access_routes:osf.access_method/01,osf_f26vy,access_routes:osf.access_method,direct_download,osf_f26vy_osf,Public record with files (API),2026-11-16,script,current,
