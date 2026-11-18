@@ -1041,31 +1041,31 @@ kaggle_bughht_eeg_fc_features_train,EEG FC Features Train,,,scalp_eeg,,,,,,,,,,,
 kaggle_buraktaci_mtouh,EEG abnormality detection: MTOUH Dataset,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,500,,,,,2026-11-18
 kaggle_buraktaci_turkish_epilepsy,Turkish Epilepsy EEG Dataset,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,500,,,,,2026-11-18
 kaggle_cboulay_kjm_ecog_faces_basic,KJM ECoG - faces_basic,,eeg_signals,ieeg_ecog,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
-kaggle_cboulay_kjm_ecog_fingerflex,KJM ECoG FingerFlex,,,,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_cdeotte_brain_eeg_spectrograms,Brain-EEG-Spectrograms,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_cdeotte_eeg_spectrograms,EEG-Spectrograms,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_cdeotte_eeg_spectrograms_v1,eeg-spectrograms-v1,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_cecilhayibor_eeg_for_psd,EEG for PSD,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_chemrovkirill_hms_tuh_eeg,hms-tuh-eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_chintalasakethkumar_eeg_emotions,eeg-emotions,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_chiranjeevionesky_sfari_eeg_asd_temporal_model_ready_v3,SFARI EEG ASD Temporal Dataset v3,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_chitranshuyadav26_eeg_data_set_for_fomo_detection,EEG data set for fomo detection,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_chrisfilo_natview_eeg_fmri,natview eeg fmri,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_cieled_visual_2_ecog,Visual-2-ECoG,,,,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_circulartextapps_eeg_adverage_movement_occurences,EEG ADVERAGE MOVEMENT OCCURENCES,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_cloudangles1_new_version_eeg,new_version eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_codingyodha_largest_alzheimer_eeg_dataset,Largest Alzheimer EEG dataset,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_connect2robiul_10userdatasets,EEG Visual Stimuli Dataset: 10 Participants,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_cooolz_hms_eeg_raw,hms-eeg-raw,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_cooolz_hms_raw_eeg_butter_filter,hms-raw-eeg-butter_filter,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_dalcomi20_hms_eeg_spec_512x32,HMS-eeg-spec-512x32,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_dangnguyenyuu_muse_2_eeg_facial_movements_dataset,Muse 2 EEG Facial Movements Dataset,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_danielesayuriono_eeg_signals_for_anxiety_levels_detection,EEG signals for anxiety levels detection,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_danishkhanwazir_ibib_pan_eeg_dataset,IBIB-PAN-EEG-Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_danishrme_eeg_dataset,EEG Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_danizo_eeg_dataset_for_adhd,EEG Dataset for ADHD,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_deepanitashah_eeg_lables,eeg-labels,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_delunez_chbmit_6patients_preprocessed,CHB-MIT Selected 6 Patients Preprocessed EEG,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
+kaggle_cboulay_kjm_ecog_fingerflex,KJM ECoG FingerFlex,,,,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_cdeotte_brain_eeg_spectrograms,Brain-EEG-Spectrograms,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_cdeotte_eeg_spectrograms,EEG-Spectrograms,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_cdeotte_eeg_spectrograms_v1,eeg-spectrograms-v1,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_cecilhayibor_eeg_for_psd,EEG for PSD,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_chemrovkirill_hms_tuh_eeg,hms-tuh-eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_chintalasakethkumar_eeg_emotions,eeg-emotions,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_chiranjeevionesky_sfari_eeg_asd_temporal_model_ready_v3,SFARI EEG ASD Temporal Dataset v3,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_chitranshuyadav26_eeg_data_set_for_fomo_detection,EEG data set for fomo detection,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_chrisfilo_natview_eeg_fmri,natview eeg fmri,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_cieled_visual_2_ecog,Visual-2-ECoG,,,,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_circulartextapps_eeg_adverage_movement_occurences,EEG ADVERAGE MOVEMENT OCCURENCES,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_cloudangles1_new_version_eeg,new_version eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_codingyodha_largest_alzheimer_eeg_dataset,Largest Alzheimer EEG dataset,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_connect2robiul_10userdatasets,EEG Visual Stimuli Dataset: 10 Participants,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_cooolz_hms_eeg_raw,hms-eeg-raw,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_cooolz_hms_raw_eeg_butter_filter,hms-raw-eeg-butter_filter,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_dalcomi20_hms_eeg_spec_512x32,HMS-eeg-spec-512x32,,eeg_signals,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_dangnguyenyuu_muse_2_eeg_facial_movements_dataset,Muse 2 EEG Facial Movements Dataset,,eeg_signals,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_danielesayuriono_eeg_signals_for_anxiety_levels_detection,EEG signals for anxiety levels detection,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_danishkhanwazir_ibib_pan_eeg_dataset,IBIB-PAN-EEG-Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_danishrme_eeg_dataset,EEG Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_danizo_eeg_dataset_for_adhd,EEG Dataset for ADHD,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_deepanitashah_eeg_lables,eeg-labels,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_delunez_chbmit_6patients_preprocessed,CHB-MIT Selected 6 Patients Preprocessed EEG,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_deshitha210173t_labeled_eeg_dataset,labeled-eeg-dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_devilenralph_tuev_eeg,TUH EEG EVENTS,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_devsharmalakhan_mental_load_recognition_using_eeg_signal,Mental Load Recognition using EEG signal.,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
