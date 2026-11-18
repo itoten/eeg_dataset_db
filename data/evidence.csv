@@ -41332,6 +41332,7 @@ osf_fdz3u/year_published/01,osf_fdz3u,year_published,2021,osf_fdz3u_osf,Publishe
 osf_fheug/access_routes:osf.access_method/01,osf_fheug,access_routes:osf.access_method,direct_download,osf_fheug_osf,Public record with files (API),2026-11-16,script,current,
 osf_fheug/access_routes:osf.automation_tool/01,osf_fheug,access_routes:osf.automation_tool,osf-api,osf_fheug_osf,Files listed in the record API,2026-11-16,script,current,
 osf_fheug/access_routes:osf.human_steps/01,osf_fheug,access_routes:osf.human_steps,none,osf_fheug_osf,Public record with files (API),2026-11-16,script,current,
+osf_fheug/content_class/01,osf_fheug,content_class,eeg_signals,osf_fheug_doc2fad5a,Neurophysiological Signature of Working Memory Updating During Encoding 1/2 - EEG data,2026-11-18,claude,current,
 osf_fheug/modalities/01,osf_fheug,modalities,scalp_eeg,osf_fheug_osf,Neurophysiological Signature of Working Memory Updating During Encoding 1/2 - EEG data,2026-11-16,claude,current,
 osf_fheug/name/01,osf_fheug,name,Neurophysiological Signature of Working Memory Updating During Encoding 1/2 - EEG data,osf_fheug_osf,Record title,2026-11-16,script,current,
 osf_fheug/year_published/01,osf_fheug,year_published,2024,osf_fheug_osf,Published 2024-09-09,2026-11-16,script,current,
@@ -41899,6 +41900,7 @@ osf_mcsh4/access_routes:osf.automation_tool/01,osf_mcsh4,access_routes:osf.autom
 osf_mcsh4/access_routes:osf.human_steps/01,osf_mcsh4,access_routes:osf.human_steps,none,osf_mcsh4_osf,Public record with files (API),2026-11-16,script,current,
 osf_mcsh4/acquisition_setups:main.device_model/01,osf_mcsh4,acquisition_setups:main.device_model,Neurosky Mindwave Mobile,osf_mcsh4_doc538805,single dry electrode mobile device (Neurosky Mindwave Mobile),2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_mcsh4/acquisition_setups:main.electrode_type/01,osf_mcsh4,acquisition_setups:main.electrode_type,dry,osf_mcsh4_doc538805,single dry electrode mobile device (Neurosky Mindwave Mobile),2026-11-16,claude,current,Audit reviewer; scope: not given
+osf_mcsh4/acquisition_setups:main.sampling_rate_hz/01,osf_mcsh4,acquisition_setups:main.sampling_rate_hz,512,osf_mcsh4_doc538805,sampling rate of 512 Hz and was processed internally by,2026-11-18,claude,current,Audit reviewer; scope: device signal; the released values are per-second powers
 osf_mcsh4/modalities/01,osf_mcsh4,modalities,scalp_eeg,osf_mcsh4_osf,EEG time series data and emotion ratings,2026-11-16,claude,current,
 osf_mcsh4/name/01,osf_mcsh4,name,EEG time series data and emotion ratings,osf_mcsh4_osf,Record title,2026-11-16,script,current,
 osf_mcsh4/tasks:implicit_category_learning_concept_learn.paradigms/01,osf_mcsh4,tasks:implicit_category_learning_concept_learn.paradigms,cognitive_task,osf_mcsh4_doc538805,participants (N=200) carried out an implicit category learning task,2026-11-16,claude,current,
@@ -42304,6 +42306,7 @@ osf_s7jdk/year_published/01,osf_s7jdk,year_published,2025,osf_s7jdk_osf,Publishe
 osf_s7zb8/access_routes:osf.access_method/01,osf_s7zb8,access_routes:osf.access_method,direct_download,osf_s7zb8_osf,Public record with files (API),2026-11-16,script,current,
 osf_s7zb8/access_routes:osf.automation_tool/01,osf_s7zb8,access_routes:osf.automation_tool,osf-api,osf_s7zb8_osf,Files listed in the record API,2026-11-16,script,current,
 osf_s7zb8/access_routes:osf.human_steps/01,osf_s7zb8,access_routes:osf.human_steps,none,osf_s7zb8_osf,Public record with files (API),2026-11-16,script,current,
+osf_s7zb8/content_class/01,osf_s7zb8,content_class,no_eeg_signals,osf_s7zb8_doc61bfa2,Dundas_ADA_Poster_436: Multivariate decoding of EEG data reveals similar mechanisms mediate perceptual adaptation and spontaneous perceptual reversals,2026-11-18,claude,current,
 osf_s7zb8/modalities/01,osf_s7zb8,modalities,scalp_eeg,osf_s7zb8_osf,Dundas_ADA_Poster_436: Multivariate decoding of EEG data reveals similar mechanisms mediate perceptual adaptation and spontaneous p,2026-11-16,claude,current,
 osf_s7zb8/name/01,osf_s7zb8,name,Dundas_ADA_Poster_436: Multivariate decoding of EEG data reveals similar mechanisms mediate perceptual adaptation and spontaneous perceptual reversals,osf_s7zb8_osf,Record title,2026-11-16,script,current,
 osf_s7zb8/year_published/01,osf_s7zb8,year_published,2021,osf_s7zb8_osf,Published 2021-08-12,2026-11-16,script,current,
@@ -42371,6 +42374,7 @@ osf_t6rnv/year_published/01,osf_t6rnv,year_published,2025,osf_t6rnv_osf,Publishe
 osf_taed5/access_routes:osf.access_method/01,osf_taed5,access_routes:osf.access_method,direct_download,osf_taed5_osf,Public record with files (API),2026-11-16,script,current,
 osf_taed5/access_routes:osf.automation_tool/01,osf_taed5,access_routes:osf.automation_tool,osf-api,osf_taed5_osf,Files listed in the record API,2026-11-16,script,current,
 osf_taed5/access_routes:osf.human_steps/01,osf_taed5,access_routes:osf.human_steps,none,osf_taed5_osf,Public record with files (API),2026-11-16,script,current,
+osf_taed5/content_class/01,osf_taed5,content_class,eeg_signals,osf_taed5_doc84d8e8,All data were preprocessed using the Maryland analysis of developmental EEG (MADE) pipeline,2026-11-18,claude,current,
 osf_taed5/domains/01,osf_taed5,domains,development,osf_taed5_doc84d8e8,Pediatric and clinical populations pose a unique challenge because participants are not always able to sit still,2026-11-16,claude,current,Audit reviewer; scope: not given
 osf_taed5/modalities/01,osf_taed5,modalities,scalp_eeg,osf_taed5_osf,Time-frequency analysis methods and their application in developmental EEG data,2026-11-16,claude,current,
 osf_taed5/name/01,osf_taed5,name,Time-frequency analysis methods and their application in developmental EEG data,osf_taed5_osf,Record title,2026-11-16,script,current,
@@ -42378,6 +42382,7 @@ osf_taed5/year_published/01,osf_taed5,year_published,2021,osf_taed5_osf,Publishe
 osf_tc5g3/access_routes:osf.access_method/01,osf_tc5g3,access_routes:osf.access_method,direct_download,osf_tc5g3_osf,Public record with files (API),2026-11-16,script,current,
 osf_tc5g3/access_routes:osf.automation_tool/01,osf_tc5g3,access_routes:osf.automation_tool,osf-api,osf_tc5g3_osf,Files listed in the record API,2026-11-16,script,current,
 osf_tc5g3/access_routes:osf.human_steps/01,osf_tc5g3,access_routes:osf.human_steps,none,osf_tc5g3_osf,Public record with files (API),2026-11-16,script,current,
+osf_tc5g3/content_class/01,osf_tc5g3,content_class,no_eeg_signals,osf_tc5g3_doc1d58f5,Poster presentation at the XIII Congreso de la Sociedad Española de Psicofisiología y Neurociencia Cognitiva y Afectiva,2026-11-18,claude,current,
 osf_tc5g3/modalities/01,osf_tc5g3,modalities,scalp_eeg,osf_tc5g3_osf,Decoding visible and invisible perceptual stimuli from EEG data using Machine Learning,2026-11-16,claude,current,
 osf_tc5g3/name/01,osf_tc5g3,name,Decoding visible and invisible perceptual stimuli from EEG data using Machine Learning,osf_tc5g3_osf,Record title,2026-11-16,script,current,
 osf_tc5g3/year_published/01,osf_tc5g3,year_published,2023,osf_tc5g3_osf,Published 2023-11-08,2026-11-16,script,current,
@@ -42399,6 +42404,7 @@ osf_th2g6/access_routes:osf.human_steps/01,osf_th2g6,access_routes:osf.human_ste
 osf_th2g6/acquisition_setups:main.device_manufacturer/01,osf_th2g6,acquisition_setups:main.device_manufacturer,BioSemi,osf_th2g6_docd64a24,All signals were collected from a 128-channel ActiveTwo system (BioSemi) at 512 Hz,2026-11-16,claude,current,Audit reviewer; scope: source corpus of broderick et al. (19 participants) that the semi-synthetic data derive from
 osf_th2g6/acquisition_setups:main.n_channels_eeg/01,osf_th2g6,acquisition_setups:main.n_channels_eeg,128,osf_th2g6_docd64a24,All signals were collected from a 128-channel ActiveTwo system (BioSemi) at 512 Hz,2026-11-16,claude,current,Audit reviewer; scope: source corpus
 osf_th2g6/acquisition_setups:main.sampling_rate_hz/01,osf_th2g6,acquisition_setups:main.sampling_rate_hz,512,osf_th2g6_docd64a24,All signals were collected from a 128-channel ActiveTwo system (BioSemi) at 512 Hz,2026-11-16,claude,current,Audit reviewer; scope: recorded rate of the source corpus; the paper then down-sampled to 128 hz; the osf distributed rate is not stated
+osf_th2g6/content_class/01,osf_th2g6,content_class,eeg_signals,osf_th2g6_docd64a24,semi-synthetically generated blink-contaminated EEG signals from 10 participants,2026-11-18,claude,current,
 osf_th2g6/modalities/01,osf_th2g6,modalities,scalp_eeg,osf_th2g6_osf,Artifact-reference multivariate backward regression (ARMBR): a novel method for EEG blink artifact removal with minimal data requirements,2026-11-16,claude,current,
 osf_th2g6/name/01,osf_th2g6,name,Artifact-reference multivariate backward regression (ARMBR): a novel method for EEG blink artifact removal with minimal data requirements,osf_th2g6_osf,Record title,2026-11-16,script,current,
 osf_th2g6/year_published/01,osf_th2g6,year_published,2025,osf_th2g6_osf,Published 2025-07-23,2026-11-16,script,current,
@@ -42517,6 +42523,7 @@ osf_umd4a/year_published/01,osf_umd4a,year_published,2022,osf_umd4a_osf,Publishe
 osf_un6pq/access_routes:osf.access_method/01,osf_un6pq,access_routes:osf.access_method,direct_download,osf_un6pq_osf,Public record with files (API),2026-11-16,script,current,
 osf_un6pq/access_routes:osf.automation_tool/01,osf_un6pq,access_routes:osf.automation_tool,osf-api,osf_un6pq_osf,Files listed in the record API,2026-11-16,script,current,
 osf_un6pq/access_routes:osf.human_steps/01,osf_un6pq,access_routes:osf.human_steps,none,osf_un6pq_osf,Public record with files (API),2026-11-16,script,current,
+osf_un6pq/content_class/01,osf_un6pq,content_class,no_eeg_signals,osf_un6pq_docca0103,The processing scripts are available at https://osf.io/un6pq,2026-11-18,claude,current,
 osf_un6pq/modalities/01,osf_un6pq,modalities,scalp_eeg,osf_un6pq_osf,ion and cross-validation parameters on the performance of SVM-based decoding of EEG data,2026-11-16,claude,current,
 osf_un6pq/name/01,osf_un6pq,name,Evaluating the effects of regularization and cross-validation parameters on the performance of SVM-based decoding of EEG data,osf_un6pq_osf,Record title,2026-11-16,script,current,
 osf_un6pq/year_published/01,osf_un6pq,year_published,2025,osf_un6pq_osf,Published 2025-10-28,2026-11-16,script,current,
