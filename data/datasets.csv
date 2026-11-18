@@ -1166,31 +1166,31 @@ kaggle_iftesamamindhrubo_pgcn_eeg_code,pgcn-eeg-code,,,scalp_eeg,,,,CC0-1.0,,,,,
 kaggle_ignaciolinari_sleep_edf_trimmed_f32,Sleep-EDF Trimmed (100 Hz) PSG & Hypnograms,,eeg_signals,psg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,100,,,,,2026-11-18
 kaggle_ignazio_kumars_eeg_imagined_speech,Kumar's EEG Imagined speech,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,14,128,,Emotiv EPOC+,imagined_speech,,2026-11-18
 kaggle_imenej_chb_mit_scalp_eeg_database_1_0_0_filtred_labled,chb-mit-scalp-eeg-database-1.0.0-filtred-labled,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_1,Harvard HMS Processed EEG 1,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_10,Harvard HMS Processed EEG 10,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_11,Harvard HMS Processed EEG 11,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_12,Harvard HMS Processed EEG 12,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_13,Harvard HMS Processed EEG 13,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_14,Harvard HMS Processed EEG 14,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_15,Harvard HMS Processed EEG 15,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_16,Harvard HMS Processed EEG 16,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_18,Harvard HMS Processed EEG 18,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_2,Harvard HMS Processed EEG 2,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_3,Harvard HMS Processed EEG 3,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_4,Harvard HMS Processed EEG 4,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_5,Harvard HMS Processed EEG 5,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_6,Harvard HMS Processed EEG 6,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_7,Harvard HMS Processed EEG 7,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_8,Harvard HMS Processed EEG 8,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imranhossen07012_harvard_hms_processed_eeg_part_9,Harvard HMS Processed EEG 9,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imsathish_eeg_adhd_nasrabadi_mat,EEG ADHD Nasrabadi MAT,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_imteajchowdhuryrakib_eeg_data_set,EEG Data Set,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_inancigdem_eeg_data_for_mental_attention_state_detection,EEG data for Mental Attention State Detection,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_invalizare_eeg_epilepsy_classifiaction_dataset,EEG Epilepsy Classifiaction Dataset,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_ioannisbaraklilis_overlapping_seizure_eeg_patient_1_dataset_7680_ds,Patient 1 EEG Seizure Prediction,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_ioannisbaraklilis_patient_01_eeg_spectrograms,Patient 01 EEG Spectrograms,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_ioannisbaraklilis_patient_05_eeg_seizure_prediction,Patient 05 EEG Seizure Prediction,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_ioannisbaraklilis_patient_15_eeg_test,Patient 15 EEG Test,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_1,Harvard HMS Processed EEG 1,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_10,Harvard HMS Processed EEG 10,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_11,Harvard HMS Processed EEG 11,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_12,Harvard HMS Processed EEG 12,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_13,Harvard HMS Processed EEG 13,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_14,Harvard HMS Processed EEG 14,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_15,Harvard HMS Processed EEG 15,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_16,Harvard HMS Processed EEG 16,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_18,Harvard HMS Processed EEG 18,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_2,Harvard HMS Processed EEG 2,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_3,Harvard HMS Processed EEG 3,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_4,Harvard HMS Processed EEG 4,,eeg_signals,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_5,Harvard HMS Processed EEG 5,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_6,Harvard HMS Processed EEG 6,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_7,Harvard HMS Processed EEG 7,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_8,Harvard HMS Processed EEG 8,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imranhossen07012_harvard_hms_processed_eeg_part_9,Harvard HMS Processed EEG 9,,,scalp_eeg,,,,CC0-1.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imsathish_eeg_adhd_nasrabadi_mat,EEG ADHD Nasrabadi MAT,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_imteajchowdhuryrakib_eeg_data_set,EEG Data Set,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_inancigdem_eeg_data_for_mental_attention_state_detection,EEG data for Mental Attention State Detection,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,128,,EMOTIV,,,2026-11-18
+kaggle_invalizare_eeg_epilepsy_classifiaction_dataset,EEG Epilepsy Classifiaction Dataset,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_ioannisbaraklilis_overlapping_seizure_eeg_patient_1_dataset_7680_ds,Patient 1 EEG Seizure Prediction,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_ioannisbaraklilis_patient_01_eeg_spectrograms,Patient 01 EEG Spectrograms,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_ioannisbaraklilis_patient_05_eeg_seizure_prediction,Patient 05 EEG Seizure Prediction,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_ioannisbaraklilis_patient_15_eeg_test,Patient 15 EEG Test,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_ioannisbaraklilis_patient_15_spec,Patient 15 EEG Spectrograms,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_ioannisbaraklilis_patient_15_wave,Patient 15 EEG Seizure Prediction,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_irfanullahml_eeghumanemotiondataset2021,EEG-Human-Emotion-Dataset-2021,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
