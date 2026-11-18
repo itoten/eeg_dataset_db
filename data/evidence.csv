@@ -50203,6 +50203,7 @@ zenodo_22288290/year_published/01,zenodo_22288290,year_published,2026,zenodo_236
 zenodo_22307402/access_routes:zenodo.access_method/01,zenodo_22307402,access_routes:zenodo.access_method,direct_download,zenodo_22307403,access_right: open,2026-11-14,script,current,
 zenodo_22307402/access_routes:zenodo.automation_tool/01,zenodo_22307402,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22307403,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22307402/access_routes:zenodo.human_steps/01,zenodo_22307402,access_routes:zenodo.human_steps,none,zenodo_22307403,access_right: open,2026-11-14,script,current,
+zenodo_22307402/content_class/01,zenodo_22307402,content_class,eeg_signals,zenodo_22307403,Rest and treadmill-walking EEG in Parkinson's disease (OpenNeuro ds007526),2026-11-18,claude,current,
 zenodo_22307402/license_spdx/01,zenodo_22307402,license_spdx,CC0-1.0,zenodo_22307403,License: cc-zero,2026-11-14,script,current,
 zenodo_22307402/license_spdx/02,zenodo_22307402,license_spdx,CC0-1.0,zenodo_22307402_doc1dac43,Source licence: CC0.,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22307402/modalities/01,zenodo_22307402,modalities,scalp_eeg,zenodo_22307403,MoveAtlas harmonized release: Rest and treadmill-walking EEG in Parkinson's disease (OpenNeuro ds007526),2026-11-14,claude,current,
@@ -50227,6 +50228,7 @@ zenodo_22313521/year_published/01,zenodo_22313521,year_published,2026,zenodo_223
 zenodo_22313544/access_routes:zenodo.access_method/01,zenodo_22313544,access_routes:zenodo.access_method,direct_download,zenodo_22313545,access_right: open,2026-11-14,script,current,
 zenodo_22313544/access_routes:zenodo.automation_tool/01,zenodo_22313544,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22313545,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22313544/access_routes:zenodo.human_steps/01,zenodo_22313544,access_routes:zenodo.human_steps,none,zenodo_22313545,access_right: open,2026-11-14,script,current,
+zenodo_22313544/content_class/01,zenodo_22313544,content_class,eeg_signals,zenodo_22313545,UC San Diego resting-state EEG in Parkinson's disease (OpenNeuro ds002778),2026-11-18,claude,current,
 zenodo_22313544/license_spdx/01,zenodo_22313544,license_spdx,CC0-1.0,zenodo_22313545,License: cc-zero,2026-11-14,script,current,
 zenodo_22313544/license_spdx/02,zenodo_22313544,license_spdx,CC0-1.0,zenodo_22313544_doc36f9a1,Source licence: CC0.,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_22313544/modalities/01,zenodo_22313544,modalities,scalp_eeg,zenodo_22313545,MoveAtlas harmonized release: UC San Diego resting-state EEG in Parkinson's disease (OpenNeuro ds002778),2026-11-14,claude,current,
@@ -50345,6 +50347,7 @@ zenodo_22727239/year_published/01,zenodo_22727239,year_published,2026,zenodo_227
 zenodo_22740128/access_routes:zenodo.access_method/01,zenodo_22740128,access_routes:zenodo.access_method,direct_download,zenodo_22740129,access_right: open,2026-11-14,script,current,
 zenodo_22740128/access_routes:zenodo.automation_tool/01,zenodo_22740128,access_routes:zenodo.automation_tool,zenodo-api,zenodo_22740129,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_22740128/access_routes:zenodo.human_steps/01,zenodo_22740128,access_routes:zenodo.human_steps,none,zenodo_22740129,access_right: open,2026-11-14,script,current,
+zenodo_22740128/content_class/01,zenodo_22740128,content_class,eeg_signals,zenodo_22740129,"This record contains derived EEG datasets, analysis notebooks, saved model checkpoints, and numerical result records",2026-11-18,claude,current,
 zenodo_22740128/license_spdx/01,zenodo_22740128,license_spdx,MIT,zenodo_22740129,License field: mit-license,2026-11-14,script,current,
 zenodo_22740128/modalities/01,zenodo_22740128,modalities,scalp_eeg,zenodo_22740129,Interpretability of One-Dimensional EEG Classification Using TLA-Grad-CAM,2026-11-14,claude,current,
 zenodo_22740128/name/01,zenodo_22740128,name,Interpretability of One-Dimensional EEG Classification Using TLA-Grad-CAM,zenodo_22740129,Record title,2026-11-14,script,current,
