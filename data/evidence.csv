@@ -17101,6 +17101,7 @@ ds009097/acquisition_setups:main.reference/01,ds009097,acquisition_setups:main.r
 ds009097/acquisition_setups:main.reference/02,ds009097,acquisition_setups:main.reference,CMS/DRL,ds009097_doc4621fd,"10-20 positions, CMS/DRL reference,",2026-11-16,claude,conflicting,Audit reviewer; scope: not given
 ds009097/acquisition_setups:main.sampling_rate_hz/01,ds009097,acquisition_setups:main.sampling_rate_hz,128,ds009097_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds009097/acquisition_setups:main.sampling_rate_hz/02,ds009097,acquisition_setups:main.sampling_rate_hz,128,ds009097_doc4621fd,"internal sampling 2048 Hz, down-sampled on device to 128 Hz.",2026-11-16,claude,current,Audit reviewer; scope: not given
+ds009097/content_class/01,ds009097,content_class,eeg_signals,ds009097_doc4621fd,Raw EDF: original digital values unchanged; only the 14 EEG channels are kept,2026-11-18,claude,current,
 ds009097/domains/01,ds009097,domains,clinical;neurology;development,ds009097_doc4621fd,"- 15 children with developmental dyslexia (DSM-5 criteria, diagnosis confirmed by psychologists/psychiatrists and",2026-11-16,claude,current,Audit reviewer; scope: not given
 ds009097/is_bids/01,ds009097,is_bids,true,ds009097_record,dataset_description.json BIDSVersion 1.9.0,2026-11-14,script,current,
 ds009097/license_spdx/01,ds009097,license_spdx,CC0-1.0,ds009097_record,License: CC0,2026-11-14,script,current,
