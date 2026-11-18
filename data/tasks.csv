@@ -2237,6 +2237,8 @@ kaggle_alexispomares_dissertation_preprocessed,resting_awake_with_transcranial_e
 kaggle_alexispomares_dissertation_raw,resting_awake_with_transcranial_electric,resting awake with transcranial electrical stimulation,resting_eyes_open,,,,,,,,
 kaggle_aymanmostafa11_eeg_motor_imagery_bciciv_2a,left_right_foot_tongue,"left, right, foot, tongue",motor_imagery,,,,,,,,
 kaggle_ayushtibrewal_raw_eeg_stress_dataset_sam40,stroop_color_word_test_arithmetic_mirror,"Stroop color-word test, arithmetic, mirror image recognition, relaxation",cognitive_task,,,,,,,,
+kaggle_birdy654_eeg_brainwave_dataset_feeling_emotions,positive_neutral_negative_states_evoked,"positive, neutral, negative states evoked by film clips",emotion_induction,,,,,,,,
+kaggle_broach_button_tone_sz,button_press_passive_tone,button press / passive tone,auditory_erp;motor_execution,,,,,,,,
 kaya2018,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 kaya2018,motor_imagery_bci_interaction_cla_halt_5,"motor imagery BCI interaction (CLA, HaLT, 5F, FreeForm, NoMT)",motor_imagery,,,,,,,,
 liu2024_acute_stroke_mi,left_right_hand_grip_motor_imagery,left/right hand-grip motor imagery,motor_imagery,,,,,,,,
