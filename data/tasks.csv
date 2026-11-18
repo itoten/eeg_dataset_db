@@ -2247,6 +2247,9 @@ kaggle_erdemerkan_eeg_dataset_with_ocular_artifact,imagined_writing_of_turkish_s
 kaggle_eslam101ahmed_arabic_eeg_sessions,inner_speech,inner speech,imagined_speech,,,,,,,,
 kaggle_freshersstaff_multimodal_eeg_emotion_interaction_dataset,solving_cubes_mental_rotation_pattern_re,"Solving_Cubes, Mental_Rotation, Pattern_Recognition, Memory_Puzzle, Problem_Solving_Task",cognitive_task,,,,,,,,
 kaggle_hanifai_eeg_dataset,inner_speech,inner speech,imagined_speech,,,,,,,,
+kaggle_houssamboukhecham_eeg_open_closed_eyes,open_eyes_closed_eyes,"Open eyes, Closed eyes",resting_eyes_closed;resting_eyes_open,,,,,,,,
+kaggle_huytungst_eegemotions_27,watching_emotionally_evocative_video_cli,watching emotionally evocative video clips,emotion_induction,,,,,,,,
+kaggle_ignazio_kumars_eeg_imagined_speech,imagined_characters_digits_objects,"imagined characters, digits, objects",imagined_speech,,,,,,,,
 kaya2018,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 kaya2018,motor_imagery_bci_interaction_cla_halt_5,"motor imagery BCI interaction (CLA, HaLT, 5F, FreeForm, NoMT)",motor_imagery,,,,,,,,
 liu2024_acute_stroke_mi,left_right_hand_grip_motor_imagery,left/right hand-grip motor imagery,motor_imagery,,,,,,,,
