@@ -2245,6 +2245,8 @@ kaggle_edw4rdyao_ulmee_upper_limb_motor_eeg_emg_dataset,lifting,Lifting,motor_ex
 kaggle_edw4rdyao_ulmee_upper_limb_motor_eeg_emg_dataset,reaching,Reaching,motor_execution,,,,,,,,
 kaggle_erdemerkan_eeg_dataset_with_ocular_artifact,imagined_writing_of_turkish_syllables,imagined writing of Turkish syllables,imagined_speech,,,,,,,,
 kaggle_eslam101ahmed_arabic_eeg_sessions,inner_speech,inner speech,imagined_speech,,,,,,,,
+kaggle_freshersstaff_multimodal_eeg_emotion_interaction_dataset,solving_cubes_mental_rotation_pattern_re,"Solving_Cubes, Mental_Rotation, Pattern_Recognition, Memory_Puzzle, Problem_Solving_Task",cognitive_task,,,,,,,,
+kaggle_hanifai_eeg_dataset,inner_speech,inner speech,imagined_speech,,,,,,,,
 kaya2018,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 kaya2018,motor_imagery_bci_interaction_cla_halt_5,"motor imagery BCI interaction (CLA, HaLT, 5F, FreeForm, NoMT)",motor_imagery,,,,,,,,
 liu2024_acute_stroke_mi,left_right_hand_grip_motor_imagery,left/right hand-grip motor imagery,motor_imagery,,,,,,,,
