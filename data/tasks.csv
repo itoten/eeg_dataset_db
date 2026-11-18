@@ -4759,6 +4759,8 @@ osf_vtm2f,self_related_thoughts_srt_vs_distraction,self-related thoughts (SRT) v
 osf_w25k4,pavlovian_revaluation_paradigm_with_toni,Pavlovian revaluation paradigm with tonic pain (VR),other,,,,,,,,
 osf_wbz7x,face_discrimination_emotion_categorisati,face discrimination (emotion categorisation),visual_erp,,,,,,,,
 osf_weq9g,intended_behavior_prosociality_task,Intended Behavior / Prosociality Task,cognitive_task,,,,,,,,
+osf_wg46a,face,FACE,visual_erp,,,,,,,,
+osf_wg46a,mmn,MMN,auditory_erp,,,,,,,,
 osf_x5tp8,object_location_context_association_task,object-location-context association task,cognitive_task,,,,,,,,
 osf_xh3g5,reading_semantically_relevant_or_irrelev,reading semantically relevant or irrelevant text,language,,,,,,,,
 osf_xw386,executed_and_imagined_grasping,executed and imagined grasping,motor_execution;motor_imagery,,,,,,,,

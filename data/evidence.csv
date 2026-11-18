@@ -42862,8 +42862,18 @@ osf_weq9g/year_published/01,osf_weq9g,year_published,2022,osf_weq9g_osf,Publishe
 osf_wg46a/access_routes:osf.access_method/01,osf_wg46a,access_routes:osf.access_method,direct_download,osf_wg46a_osf,Public record with files (API),2026-11-16,script,current,
 osf_wg46a/access_routes:osf.automation_tool/01,osf_wg46a,access_routes:osf.automation_tool,osf-api,osf_wg46a_osf,Files listed in the record API,2026-11-16,script,current,
 osf_wg46a/access_routes:osf.human_steps/01,osf_wg46a,access_routes:osf.human_steps,none,osf_wg46a_osf,Public record with files (API),2026-11-16,script,current,
+osf_wg46a/acquisition_setups:main.device_manufacturer/01,osf_wg46a,acquisition_setups:main.device_manufacturer,"Electrical Geodesics, Inc.",osf_wg46a_doce1353d,"""Manufacturer"": ""Electrical Geodesics, Inc.""",2026-11-18,claude,current,Audit reviewer; scope: task face eeg.json
+osf_wg46a/acquisition_setups:main.line_freq_hz/01,osf_wg46a,acquisition_setups:main.line_freq_hz,60,osf_wg46a_doce1353d,"""PowerLineFrequency"": 60.0",2026-11-18,claude,current,Audit reviewer; scope: task face eeg.json
+osf_wg46a/acquisition_setups:main.n_channels_eeg/01,osf_wg46a,acquisition_setups:main.n_channels_eeg,128,osf_wg46a_doce1353d,"""EEGChannelCount"": 128",2026-11-18,claude,current,Audit reviewer; scope: task face eeg.json
+osf_wg46a/acquisition_setups:main.reference/01,osf_wg46a,acquisition_setups:main.reference,Cz,osf_wg46a_doce1353d,"""EEGReference"": ""Cz""",2026-11-18,claude,current,Audit reviewer; scope: task face eeg.json
+osf_wg46a/acquisition_setups:main.sampling_rate_hz/01,osf_wg46a,acquisition_setups:main.sampling_rate_hz,1000,osf_wg46a_doce1353d,"""SamplingFrequency"": 1000.0",2026-11-18,claude,current,Audit reviewer; scope: task face eeg.json (bids recording)
+osf_wg46a/content_class/01,osf_wg46a,content_class,eeg_signals,osf_wg46a_doc3e2317,sub-144696_ses-V03_task-FACE_acq-eeg_eeg.set,2026-11-18,claude,current,
 osf_wg46a/modalities/01,osf_wg46a,modalities,scalp_eeg,osf_wg46a_osf,HBCD EEG Test Data,2026-11-16,claude,current,
 osf_wg46a/name/01,osf_wg46a,name,HBCD EEG Test Data,osf_wg46a_osf,Record title,2026-11-16,script,current,
+osf_wg46a/tasks:face.paradigms/01,osf_wg46a,tasks:face.paradigms,visual_erp,osf_wg46a_doce1353d,"This task consists of two blocks, one in which the participant views 50 upright faces and 50 inverted faces",2026-11-18,claude,current,
+osf_wg46a/tasks:face.task_name/01,osf_wg46a,tasks:face.task_name,FACE,osf_wg46a_doce1353d,"This task consists of two blocks, one in which the participant views 50 upright faces and 50 inverted faces",2026-11-18,claude,current,
+osf_wg46a/tasks:mmn.paradigms/01,osf_wg46a,tasks:mmn.paradigms,auditory_erp,osf_wg46a_doce1353d,This task consists of 667 trials wherein the participant hears either a 'ba' or 'da' sound.,2026-11-18,claude,current,
+osf_wg46a/tasks:mmn.task_name/01,osf_wg46a,tasks:mmn.task_name,MMN,osf_wg46a_doce1353d,This task consists of 667 trials wherein the participant hears either a 'ba' or 'da' sound.,2026-11-18,claude,current,
 osf_wg46a/year_published/01,osf_wg46a,year_published,2024,osf_wg46a_osf,Published 2024-08-01,2026-11-16,script,current,
 osf_wsgzp/access_routes:osf.access_method/01,osf_wsgzp,access_routes:osf.access_method,direct_download,osf_wsgzp_osf,Public record with files (API),2026-11-16,script,current,
 osf_wsgzp/access_routes:osf.automation_tool/01,osf_wsgzp,access_routes:osf.automation_tool,osf-api,osf_wsgzp_osf,Files listed in the record API,2026-11-16,script,current,
@@ -42935,6 +42945,7 @@ osf_xw386/year_published/01,osf_xw386,year_published,2022,osf_xw386_osf,Publishe
 osf_xwt6j/access_routes:osf.access_method/01,osf_xwt6j,access_routes:osf.access_method,direct_download,osf_xwt6j_osf,Public record with files (API),2026-11-16,script,current,
 osf_xwt6j/access_routes:osf.automation_tool/01,osf_xwt6j,access_routes:osf.automation_tool,osf-api,osf_xwt6j_osf,Files listed in the record API,2026-11-16,script,current,
 osf_xwt6j/access_routes:osf.human_steps/01,osf_xwt6j,access_routes:osf.human_steps,none,osf_xwt6j_osf,Public record with files (API),2026-11-16,script,current,
+osf_xwt6j/content_class/01,osf_xwt6j,content_class,no_eeg_signals,osf_xwt6j_docb87a99,"""meta"":{""total"":0,""per_page"":10}",2026-11-18,claude,current,
 osf_xwt6j/modalities/01,osf_xwt6j,modalities,scalp_eeg,osf_xwt6j_osf,or prediction of individual responses in a social decision-making task based on EEG and Eye-Tracking data,2026-11-16,claude,current,
 osf_xwt6j/name/01,osf_xwt6j,name,A machine learning model for prediction of individual responses in a social decision-making task based on EEG and Eye-Tracking data,osf_xwt6j_osf,Record title,2026-11-16,script,current,
 osf_xwt6j/year_published/01,osf_xwt6j,year_published,2024,osf_xwt6j_osf,Published 2024-02-01,2026-11-16,script,current,
@@ -43061,6 +43072,7 @@ osf_yxjga/year_published/01,osf_yxjga,year_published,2026,osf_yxjga_osf,Publishe
 osf_z3tx9/access_routes:osf.access_method/01,osf_z3tx9,access_routes:osf.access_method,direct_download,osf_z3tx9_osf,Public record with files (API),2026-11-16,script,current,
 osf_z3tx9/access_routes:osf.automation_tool/01,osf_z3tx9,access_routes:osf.automation_tool,osf-api,osf_z3tx9_osf,Files listed in the record API,2026-11-16,script,current,
 osf_z3tx9/access_routes:osf.human_steps/01,osf_z3tx9,access_routes:osf.human_steps,none,osf_z3tx9_osf,Public record with files (API),2026-11-16,script,current,
+osf_z3tx9/content_class/01,osf_z3tx9,content_class,no_eeg_signals,osf_z3tx9_docf39b32,repository wrt different approaches for multimodal data fusion for simultaneous eeg-fMRI based on open source software,2026-11-18,claude,current,
 osf_z3tx9/modalities/01,osf_z3tx9,modalities,scalp_eeg,osf_z3tx9_osf,"The lame, the blind and the ugly - multimodal data fusion for simultaneous eeg-fMRI",2026-11-16,claude,current,
 osf_z3tx9/name/01,osf_z3tx9,name,"The lame, the blind and the ugly - multimodal data fusion for simultaneous eeg-fMRI",osf_z3tx9_osf,Record title,2026-11-16,script,current,
 osf_z3tx9/year_published/01,osf_z3tx9,year_published,2018,osf_z3tx9_osf,Published 2018-01-28,2026-11-16,script,current,
