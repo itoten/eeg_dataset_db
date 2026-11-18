@@ -1667,10 +1667,12 @@ ds002680/acquisition_setups:main.line_freq_hz/01,ds002680,acquisition_setups:mai
 ds002680/acquisition_setups:main.n_channels_eeg/01,ds002680,acquisition_setups:main.n_channels_eeg,0,ds002680_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds002680/acquisition_setups:main.reference/01,ds002680,acquisition_setups:main.reference,common,ds002680_sidecar,EEGReference,2026-11-14,script,current,
 ds002680/acquisition_setups:main.sampling_rate_hz/01,ds002680,acquisition_setups:main.sampling_rate_hz,1000,ds002680_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds002680/content_class/01,ds002680,content_class,eeg_signals,ds002680_doc391d79,We used EEG data recorded during a rapid go=nogo visual categorization task using natural photographs,2026-11-18,claude,current,
 ds002680/is_bids/01,ds002680,is_bids,true,ds002680_record,dataset_description.json BIDSVersion v1.2.1,2026-11-14,script,current,
 ds002680/license_spdx/01,ds002680,license_spdx,CC0-1.0,ds002680_record,License: CC0,2026-11-14,script,current,
 ds002680/modalities/01,ds002680,modalities,scalp_eeg,ds002680_record,Available Modalities: eeg,2026-11-14,script,current,
 ds002680/n_subjects_reported/01,ds002680,n_subjects_reported,14,ds002680_record,Participants 14,2026-11-14,script,current,
+ds002680/n_subjects_reported/02,ds002680,n_subjects_reported,14,ds002680_doc2f1897,in 14 human subjects performing in alternation,2026-11-18,claude,current,Audit reviewer; scope: not given
 ds002680/name/01,ds002680,name,Go-nogo categorization and detection task,ds002680_record,dataset_description.json Name (page title),2026-11-14,script,current,
 ds002680/provider_ids/01,ds002680,provider_ids,paul_sabatier_universite,ds002680_sidecar,InstitutionName,2026-11-14,script,current,
 ds002680/size_gb_reported/01,ds002680,size_gb_reported,9.22,ds002680_record,Size: 9.22GB,2026-11-14,script,current,
@@ -2454,6 +2456,7 @@ ds003474/acquisition_setups:main.n_channels_eeg/02,ds003474,acquisition_setups:m
 ds003474/acquisition_setups:main.reference/01,ds003474,acquisition_setups:main.reference,Between Cz & CPz,ds003474_sidecar,EEGReference,2026-11-14,script,current,
 ds003474/acquisition_setups:main.sampling_rate_hz/01,ds003474,acquisition_setups:main.sampling_rate_hz,500,ds003474_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003474/acquisition_setups:main.sampling_rate_hz/02,ds003474,acquisition_setups:main.sampling_rate_hz,500,ds003474_docfdadb6,500 Hz sampling rate,2026-11-15,claude,current,Audit reviewer; scope: not given
+ds003474/content_class/01,ds003474,content_class,eeg_signals,ds003474_doc6cef94,EEG: Probabilistic Selection and Depression,2026-11-18,claude,current,
 ds003474/is_bids/01,ds003474,is_bids,true,ds003474_record,dataset_description.json BIDSVersion 1.1.1,2026-11-14,script,current,
 ds003474/license_spdx/01,ds003474,license_spdx,CC0-1.0,ds003474_record,License: CC0,2026-11-14,script,current,
 ds003474/modalities/01,ds003474,modalities,scalp_eeg,ds003474_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -2536,6 +2539,7 @@ ds003498/acquisition_setups:main.n_channels_eeg/01,ds003498,acquisition_setups:m
 ds003498/acquisition_setups:main.n_channels_eeg/02,ds003498,acquisition_setups:main.n_channels_eeg,50,ds003498_sidecar,ECOGChannelCount,2026-11-16,script,current,
 ds003498/acquisition_setups:main.sampling_rate_hz/01,ds003498,acquisition_setups:main.sampling_rate_hz,2000,ds003498_sidecar,SamplingFrequency,2026-11-14,script,current,
 ds003498/acquisition_setups:main.sampling_rate_hz/02,ds003498,acquisition_setups:main.sampling_rate_hz,2000,ds003498_doc98a929,"acquired at 4000 Hz sampling frequency with an ATLAS recording system (0.5–1000 Hz pass-band, Neuralynx, www.neuralynx.com ) and down-sampled to 2000 Hz for HFO analysis",2026-11-15,claude,current,"Audit reviewer; scope: paper: acquired at 4000 hz, down-sampled to 2000 hz for hfo analysis; the rate of the distributed files is not stated in readme"
+ds003498/content_class/01,ds003498,content_class,eeg_signals,ds003498_doc2f804c,Zurich iEEG HFO Dataset,2026-11-18,claude,current,
 ds003498/domains/01,ds003498,domains,epilepsy,ds003498_doc98a929,We analysed long-term invasive recordings of 20 consecutive patients who subsequently underwent epilepsy surgery.,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds003498/is_bids/01,ds003498,is_bids,true,ds003498_record,dataset_description.json BIDSVersion 1.4.0,2026-11-14,script,current,
 ds003498/license_spdx/01,ds003498,license_spdx,CC0-1.0,ds003498_record,License: CC0,2026-11-14,script,current,
@@ -2764,6 +2768,7 @@ ds003522/acquisition_setups:main.line_freq_hz/01,ds003522,acquisition_setups:mai
 ds003522/acquisition_setups:main.n_channels_eeg/01,ds003522,acquisition_setups:main.n_channels_eeg,64,ds003522_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds003522/acquisition_setups:main.reference/01,ds003522,acquisition_setups:main.reference,CPz,ds003522_sidecar,EEGReference,2026-11-14,script,current,
 ds003522/acquisition_setups:main.sampling_rate_hz/01,ds003522,acquisition_setups:main.sampling_rate_hz,500,ds003522_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds003522/content_class/01,ds003522,content_class,eeg_signals,ds003522_doc1deaa5,EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI,2026-11-18,claude,current,
 ds003522/domains/01,ds003522,domains,neurology;clinical,ds003522_doc663039,"3 stimulus auditory oddball data in control, sub-acute mild TBI, and chronic TBI.",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds003522/is_bids/01,ds003522,is_bids,true,ds003522_record,dataset_description.json BIDSVersion 1.1.1,2026-11-14,script,current,
 ds003522/license_spdx/01,ds003522,license_spdx,CC0-1.0,ds003522_record,License: CC0,2026-11-14,script,current,
@@ -3923,6 +3928,7 @@ ds003969/acquisition_setups:main.n_channels_eeg/01,ds003969,acquisition_setups:m
 ds003969/acquisition_setups:main.n_channels_eeg/02,ds003969,acquisition_setups:main.n_channels_eeg,64,ds003969_docda8b9e,a 10–20 Headcap standard 64-channel cap from the same company,2026-11-15,claude,current,Audit reviewer; scope: not given
 ds003969/acquisition_setups:main.reference/01,ds003969,acquisition_setups:main.reference,CMS/DRL,ds003969_sidecar,EEGReference,2026-11-14,script,current,
 ds003969/acquisition_setups:main.sampling_rate_hz/01,ds003969,acquisition_setups:main.sampling_rate_hz,1024,ds003969_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds003969/content_class/01,ds003969,content_class,eeg_signals,ds003969_doc613e42,sub-001_task-med1breath_eeg.bdf,2026-11-18,claude,current,
 ds003969/is_bids/01,ds003969,is_bids,true,ds003969_record,dataset_description.json BIDSVersion v1.2.1,2026-11-14,script,current,
 ds003969/license_spdx/01,ds003969,license_spdx,CC0-1.0,ds003969_record,License: CC0,2026-11-14,script,current,
 ds003969/modalities/01,ds003969,modalities,scalp_eeg,ds003969_record,Available Modalities: eeg,2026-11-14,script,superseded,superseded by ds003969/modalities/02
@@ -4326,6 +4332,7 @@ ds004075/access_routes:openneuro.human_steps/01,ds004075,access_routes:openneuro
 ds004075/acquisition_setups:main.line_freq_hz/01,ds004075,acquisition_setups:main.line_freq_hz,50,ds004075_sidecar,PowerLineFrequency,2026-11-14,script,current,
 ds004075/acquisition_setups:main.reference/01,ds004075,acquisition_setups:main.reference,Cz,ds004075_sidecar,EEGReference,2026-11-14,script,current,
 ds004075/acquisition_setups:main.sampling_rate_hz/01,ds004075,acquisition_setups:main.sampling_rate_hz,1000,ds004075_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004075/content_class/01,ds004075,content_class,eeg_signals,ds004075_docfeb1ed,sub-01_task-context03_run-03_eeg.vhdr,2026-11-18,claude,current,
 ds004075/is_bids/01,ds004075,is_bids,true,ds004075_record,dataset_description.json BIDSVersion v1.7.0,2026-11-14,script,current,
 ds004075/license_spdx/01,ds004075,license_spdx,CC0-1.0,ds004075_record,License: CC0,2026-11-14,script,current,
 ds004075/modalities/01,ds004075,modalities,scalp_eeg,ds004075_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -5970,6 +5977,7 @@ ds004519/acquisition_setups:main.montage_system/01,ds004519,acquisition_setups:m
 ds004519/acquisition_setups:main.n_channels_eeg/01,ds004519,acquisition_setups:main.n_channels_eeg,62,ds004519_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds004519/acquisition_setups:main.reference/01,ds004519,acquisition_setups:main.reference,TP10,ds004519_sidecar,EEGReference,2026-11-14,script,current,
 ds004519/acquisition_setups:main.sampling_rate_hz/01,ds004519,acquisition_setups:main.sampling_rate_hz,250,ds004519_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004519/content_class/01,ds004519,content_class,eeg_signals,ds004519_doc98a534,sub-1_task-ProAntiCue_eeg.set,2026-11-18,claude,current,
 ds004519/is_bids/01,ds004519,is_bids,true,ds004519_record,dataset_description.json BIDSVersion 1.8.0,2026-11-14,script,current,
 ds004519/license_spdx/01,ds004519,license_spdx,CC0-1.0,ds004519_record,License: CC0,2026-11-14,script,current,
 ds004519/modalities/01,ds004519,modalities,scalp_eeg,ds004519_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -5991,6 +5999,7 @@ ds004520/acquisition_setups:main.montage_system/01,ds004520,acquisition_setups:m
 ds004520/acquisition_setups:main.n_channels_eeg/01,ds004520,acquisition_setups:main.n_channels_eeg,62,ds004520_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds004520/acquisition_setups:main.reference/01,ds004520,acquisition_setups:main.reference,TP10,ds004520_sidecar,EEGReference,2026-11-14,script,current,
 ds004520/acquisition_setups:main.sampling_rate_hz/01,ds004520,acquisition_setups:main.sampling_rate_hz,250,ds004520_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004520/content_class/01,ds004520,content_class,eeg_signals,ds004520_docf797d6,sub-001_task-Retrocue_eeg.fdt,2026-11-18,claude,current,
 ds004520/is_bids/01,ds004520,is_bids,true,ds004520_record,dataset_description.json BIDSVersion 1.8.0,2026-11-14,script,current,
 ds004520/license_spdx/01,ds004520,license_spdx,CC0-1.0,ds004520_record,License: CC0,2026-11-14,script,current,
 ds004520/modalities/01,ds004520,modalities,scalp_eeg,ds004520_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -6012,6 +6021,7 @@ ds004521/acquisition_setups:main.montage_system/01,ds004521,acquisition_setups:m
 ds004521/acquisition_setups:main.n_channels_eeg/01,ds004521,acquisition_setups:main.n_channels_eeg,62,ds004521_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds004521/acquisition_setups:main.reference/01,ds004521,acquisition_setups:main.reference,TP10,ds004521_sidecar,EEGReference,2026-11-14,script,current,
 ds004521/acquisition_setups:main.sampling_rate_hz/01,ds004521,acquisition_setups:main.sampling_rate_hz,250,ds004521_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004521/content_class/01,ds004521,content_class,eeg_signals,ds004521_doc5f7088,sub-001_task-Postcues_eeg.fdt,2026-11-18,claude,current,
 ds004521/is_bids/01,ds004521,is_bids,true,ds004521_record,dataset_description.json BIDSVersion 1.8.0,2026-11-14,script,current,
 ds004521/license_spdx/01,ds004521,license_spdx,CC0-1.0,ds004521_record,License: CC0,2026-11-14,script,current,
 ds004521/modalities/01,ds004521,modalities,scalp_eeg,ds004521_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -6172,6 +6182,7 @@ ds004572/acquisition_setups:main.line_freq_hz/01,ds004572,acquisition_setups:mai
 ds004572/acquisition_setups:main.montage_system/01,ds004572,acquisition_setups:main.montage_system,10_20,ds004572_sidecar,EEGPlacementScheme: based on the extended 10/20 system,2026-11-14,script,current,
 ds004572/acquisition_setups:main.n_channels_eeg/01,ds004572,acquisition_setups:main.n_channels_eeg,58,ds004572_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds004572/acquisition_setups:main.sampling_rate_hz/01,ds004572,acquisition_setups:main.sampling_rate_hz,1000,ds004572_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004572/content_class/01,ds004572,content_class,eeg_signals,ds004572_doc1e98f7,sub-01_ses-01_task-baseline1_eeg.eeg,2026-11-18,claude,current,
 ds004572/is_bids/01,ds004572,is_bids,true,ds004572_record,dataset_description.json BIDSVersion 1.6.0,2026-11-14,script,current,
 ds004572/license_spdx/01,ds004572,license_spdx,CC0-1.0,ds004572_record,License: CC0,2026-11-14,script,current,
 ds004572/modalities/01,ds004572,modalities,scalp_eeg,ds004572_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -6489,6 +6500,7 @@ ds004603/acquisition_setups:main.montage_system/01,ds004603,acquisition_setups:m
 ds004603/acquisition_setups:main.n_channels_eeg/01,ds004603,acquisition_setups:main.n_channels_eeg,64,ds004603_sidecar,EEGChannelCount,2026-11-14,script,current,
 ds004603/acquisition_setups:main.reference/01,ds004603,acquisition_setups:main.reference,CMS/DRL,ds004603_sidecar,EEGReference,2026-11-14,script,current,
 ds004603/acquisition_setups:main.sampling_rate_hz/01,ds004603,acquisition_setups:main.sampling_rate_hz,1024,ds004603_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004603/content_class/01,ds004603,content_class,eeg_signals,ds004603_docfed81f,sub-01_task-CTP_eeg.vhdr,2026-11-18,claude,current,
 ds004603/is_bids/01,ds004603,is_bids,true,ds004603_record,dataset_description.json BIDSVersion 1.11.0,2026-11-14,script,current,
 ds004603/license_spdx/01,ds004603,license_spdx,CC0-1.0,ds004603_record,License: CC0,2026-11-14,script,current,
 ds004603/modalities/01,ds004603,modalities,scalp_eeg,ds004603_record,Available Modalities: eeg,2026-11-14,script,current,
@@ -7047,6 +7059,7 @@ ds004789/acquisition_setups:main.line_freq_hz/01,ds004789,acquisition_setups:mai
 ds004789/acquisition_setups:main.n_channels_eeg/01,ds004789,acquisition_setups:main.n_channels_eeg,0,ds004789_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds004789/acquisition_setups:main.reference/01,ds004789,acquisition_setups:main.reference,bipolar,ds004789_sidecar,iEEGReference,2026-11-14,script,current,
 ds004789/acquisition_setups:main.sampling_rate_hz/01,ds004789,acquisition_setups:main.sampling_rate_hz,500,ds004789_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004789/content_class/01,ds004789,content_class,eeg_signals,ds004789_doc03a649,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds004789/domains/01,ds004789,domains,cognitive,ds004789_doc03a649,"participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds004789/is_bids/01,ds004789,is_bids,true,ds004789_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds004789/license_spdx/01,ds004789,license_spdx,CC0-1.0,ds004789_record,License: CC0,2026-11-14,script,current,
@@ -7129,6 +7142,7 @@ ds004809/acquisition_setups:main.line_freq_hz/01,ds004809,acquisition_setups:mai
 ds004809/acquisition_setups:main.n_channels_eeg/01,ds004809,acquisition_setups:main.n_channels_eeg,0,ds004809_sidecar,EEGChannelCount,2026-11-14,script,superseded,EEGChannelCount counts scalp EEG channels only; 0 does not give the iEEG count
 ds004809/acquisition_setups:main.reference/01,ds004809,acquisition_setups:main.reference,bipolar,ds004809_sidecar,iEEGReference,2026-11-14,script,current,
 ds004809/acquisition_setups:main.sampling_rate_hz/01,ds004809,acquisition_setups:main.sampling_rate_hz,1600,ds004809_sidecar,SamplingFrequency,2026-11-14,script,current,
+ds004809/content_class/01,ds004809,content_class,eeg_signals,ds004809_doc5391c7,"The iEEG recordings are labeled either ""monopolar"" or ""bipolar.""",2026-11-18,claude,current,
 ds004809/domains/01,ds004809,domains,cognitive,ds004809_doc5391c7,"participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling",2026-11-15,claude,current,Audit reviewer; scope: not given
 ds004809/is_bids/01,ds004809,is_bids,true,ds004809_record,dataset_description.json BIDSVersion 1.7.0,2026-11-14,script,current,
 ds004809/license_spdx/01,ds004809,license_spdx,CC0-1.0,ds004809_record,License: CC0,2026-11-14,script,current,
