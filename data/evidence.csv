@@ -51560,6 +51560,7 @@ zenodo_2836314/year_published/01,zenodo_2836314,year_published,2019,zenodo_28363
 zenodo_3237322/access_routes:zenodo.access_method/01,zenodo_3237322,access_routes:zenodo.access_method,direct_download,zenodo_4421252,access_right: open,2026-11-14,script,current,
 zenodo_3237322/access_routes:zenodo.automation_tool/01,zenodo_3237322,access_routes:zenodo.automation_tool,zenodo-api,zenodo_4421252,Files listed in the record API with download links,2026-11-14,script,current,
 zenodo_3237322/access_routes:zenodo.human_steps/01,zenodo_3237322,access_routes:zenodo.human_steps,none,zenodo_4421252,access_right: open,2026-11-14,script,current,
+zenodo_3237322/content_class/01,zenodo_3237322,content_class,eeg_signals,zenodo_4421252,"EEG data --> ""gng_data""",2026-11-18,claude,current,
 zenodo_3237322/domains/01,zenodo_3237322,domains,cognitive,zenodo_4421252,Dataset related to the paper on Response inhibition to physical inactivity stimuli using go/no-go tasks.,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_3237322/license_spdx/01,zenodo_3237322,license_spdx,CC-BY-4.0,zenodo_4421252,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_3237322/modalities/01,zenodo_3237322,modalities,scalp_eeg,zenodo_4421252,"csv"" 3) EEG data --> ""gng_data"" 5) R script for the data management (i",2026-11-14,claude,current,
@@ -53648,6 +53649,7 @@ zenodo_606506/access_routes:zenodo.human_steps/01,zenodo_606506,access_routes:ze
 zenodo_606506/acquisition_setups:main.hardware_filter/01,zenodo_606506,acquisition_setups:main.hardware_filter,bandpass filter of. 02 to 250 Hz with a 10 second time constant,zenodo_606506_doc413126,amplified with a bandpass filter of. 02 to 250 Hz with a 10 second time constant,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_606506/acquisition_setups:main.reference/01,zenodo_606506,acquisition_setups:main.reference,left mastoid,zenodo_606506_doc413126,referenced to the left mastoid,2026-11-15,claude,current,Audit reviewer; scope: not given
 zenodo_606506/acquisition_setups:main.sampling_rate_hz/01,zenodo_606506,acquisition_setups:main.sampling_rate_hz,500,zenodo_606506_doc413126,digitized at a sampling frequency of 500 Hz,2026-11-15,claude,current,Audit reviewer; scope: not given
+zenodo_606506/content_class/01,zenodo_606506,content_class,eeg_signals,zenodo_13003,"EEG data for ""Conversation electrified: ERP correlates of speech act recognition in underspecified utterances""",2026-11-18,claude,current,
 zenodo_606506/license_spdx/01,zenodo_606506,license_spdx,CC-BY-4.0,zenodo_13003,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_606506/modalities/01,zenodo_606506,modalities,scalp_eeg,zenodo_13003,"EEG data for ""Conversation electrified: ERP correlates of speech act recognition in",2026-11-14,claude,superseded,superseded by zenodo_606506/modalities/02
 zenodo_606506/modalities/02,zenodo_606506,modalities,scalp_eeg;eog,zenodo_606506_doc413126,Vertical eye movements were monitored with an electrode placed below the left eye,2026-11-15,claude,current,Audit reviewer; replaces a value read from a name or a generic modality field
@@ -53781,6 +53783,7 @@ zenodo_6385767/acquisition_setups:main.n_channels_eeg/01,zenodo_6385767,acquisit
 zenodo_6385767/acquisition_setups:main.n_channels_eeg/02,zenodo_6385767,acquisition_setups:main.n_channels_eeg,128,zenodo_6385767_docce92ae,128-channel HydroCel electrode net,2026-11-17,claude,current,Audit reviewer; scope: not given
 zenodo_6385767/acquisition_setups:main.sampling_rate_hz/01,zenodo_6385767,acquisition_setups:main.sampling_rate_hz,1000,zenodo_6385767_doc93ab3d,Recordings were collected at a 1000 Hz sampling rate,2026-11-15,claude,current,Audit reviewer; scope: recorded; the record distributes cleaned data
 zenodo_6385767/acquisition_setups:main.sampling_rate_hz/02,zenodo_6385767,acquisition_setups:main.sampling_rate_hz,1000,zenodo_6385767_docce92ae,Recordings were collected at a 1000 Hz sampling rate with an EGI NetAmp 400,2026-11-17,claude,current,Audit reviewer; scope: not given
+zenodo_6385767/content_class/01,zenodo_6385767,content_class,eeg_signals,zenodo_7149276,Fragile X Syndrome: EEG Data,2026-11-18,claude,current,
 zenodo_6385767/file_formats/01,zenodo_6385767,file_formats,eeglab_set,zenodo_7149276,files: D01_112_rest_postcomp.set,2026-11-17,script,current,From file names in the record's file list; archives were not opened
 zenodo_6385767/license_spdx/01,zenodo_6385767,license_spdx,CC-BY-4.0,zenodo_7149276,License: cc-by-4.0,2026-11-14,script,current,
 zenodo_6385767/modalities/01,zenodo_6385767,modalities,scalp_eeg,zenodo_7149276,ical Modulation of Neuronal Hyperexcitability contribute to Fragile X Syndrome: EEG Data,2026-11-14,claude,current,
