@@ -1316,31 +1316,31 @@ kaggle_mushfikaarpa_eeg_stft_spectrograms,eeg-stft-spectrograms,,,scalp_eeg,,,,,
 kaggle_mushfiqurahmed309_eeg_database,EEG Database,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_musicworld123_eeg_data,eeg-data,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_naddamuhhamed_sleepy_driver_eeg_brainwave_data,Sleepy Driver EEG Brainwave Data,,eeg_signals,scalp_eeg,,,,,,,,,,,,4,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
-kaggle_nafisakibria_eeg_converted_original_dataset,eeg converted original dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nafisrifat10020_dataset_eeg_scalogram_images_for_sz_classification,EEG data for Schizophrenia Classification,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nafisrifat10020_eeg_dataset_32_healthy_control,EEG Dataset 32 Healthy Control,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nafisrifat10020_eeg_dataset_49_schizophrenia_patients,EEG Dataset 49 Schizophrenia Patients,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nafisrifat10020_schizophrenia_classification_by_eeg_tiny_data_csv,Schizophrenia classification by EEG tiny Data CSV,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nafisrifat10020_schizophrenia_classification_eeg_data_for_3d_cnn,Schizophrenia Classification EEG Data for 3D CNN,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nafisrifat10020_schizophrenia_classification_eeg_data_in_csv,Schizophrenia Classification EEG data in csv,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nafisrifat10020_schizophrenia_eeg_channel14_image_data_splitted,Schizophrenia EEG Channel14 image Data Splitted,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nafisrifat10020_schizophrenia_eeg_image_data_splitted,Schizophrenia EEG image Data Splitted,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_namtienng_ecog_bcic_iv,ECoG BCIC IV,,,,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nandinishekhar_eeg_dataset,EEG Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nandithsreekumar_eeg_cwt_tensors,EEG CWT Tensors,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nartaa_eeg_spectrograms,eeg spectrograms,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nartaa_hms_eeg,HMS EEG,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_narurakeshreddy_chbmit_full,CHB-MIT Scalp EEG — Full Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_narurakeshreddy_chbmit_part_2,CHB-MIT Scalp EEG — Part 2,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_narurakeshreddy_chbmit_part_3,CHB-MIT Scalp EEG — Part 3,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_narurakeshreddy_chbmit_part_4,CHB-MIT Scalp EEG — Part 4,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_narurakeshreddy_chbmit_part_5,CHB-MIT Scalp EEG — Part 5,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_narurakeshreddy_chbmit_part_6,CHB-MIT Scalp EEG — Part 6,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nebojsatodorovic_aaa_eeg_v1,aaa-eeg-v1,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nebojsatodorovic_eeg_biomarkeri_10,eeg-biomarkeri-10,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v1,eeg-epilepsy-dynamic-v1,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v2,eeg-epilepsy-dynamic-v2,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v3,eeg-epilepsy-dynamic-v3,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
+kaggle_nafisakibria_eeg_converted_original_dataset,eeg converted original dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nafisrifat10020_dataset_eeg_scalogram_images_for_sz_classification,EEG data for Schizophrenia Classification,,eeg_signals,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,64,1024,,,,,2026-11-18
+kaggle_nafisrifat10020_eeg_dataset_32_healthy_control,EEG Dataset 32 Healthy Control,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nafisrifat10020_eeg_dataset_49_schizophrenia_patients,EEG Dataset 49 Schizophrenia Patients,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nafisrifat10020_schizophrenia_classification_by_eeg_tiny_data_csv,Schizophrenia classification by EEG tiny Data CSV,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nafisrifat10020_schizophrenia_classification_eeg_data_for_3d_cnn,Schizophrenia Classification EEG Data for 3D CNN,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nafisrifat10020_schizophrenia_classification_eeg_data_in_csv,Schizophrenia Classification EEG data in csv,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nafisrifat10020_schizophrenia_eeg_channel14_image_data_splitted,Schizophrenia EEG Channel14 image Data Splitted,,,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nafisrifat10020_schizophrenia_eeg_image_data_splitted,Schizophrenia EEG image Data Splitted,,eeg_signals,scalp_eeg,,,,CC-BY-NC-SA-4.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,1024,,,,,2026-11-18
+kaggle_namtienng_ecog_bcic_iv,ECoG BCIC IV,,,,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nandinishekhar_eeg_dataset,EEG Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nandithsreekumar_eeg_cwt_tensors,EEG CWT Tensors,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nartaa_eeg_spectrograms,eeg spectrograms,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nartaa_hms_eeg,HMS EEG,,eeg_signals,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_narurakeshreddy_chbmit_full,CHB-MIT Scalp EEG — Full Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_narurakeshreddy_chbmit_part_2,CHB-MIT Scalp EEG — Part 2,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_narurakeshreddy_chbmit_part_3,CHB-MIT Scalp EEG — Part 3,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_narurakeshreddy_chbmit_part_4,CHB-MIT Scalp EEG — Part 4,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_narurakeshreddy_chbmit_part_5,CHB-MIT Scalp EEG — Part 5,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_narurakeshreddy_chbmit_part_6,CHB-MIT Scalp EEG — Part 6,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nebojsatodorovic_aaa_eeg_v1,aaa-eeg-v1,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nebojsatodorovic_eeg_biomarkeri_10,eeg-biomarkeri-10,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v1,eeg-epilepsy-dynamic-v1,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v2,eeg-epilepsy-dynamic-v2,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v3,eeg-epilepsy-dynamic-v3,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v4,eeg-epilepsy-dynamic-v4,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v5,eeg-epilepsy-dynamic-v5,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_nebojsatodorovic_eeg_epilepsy_dynamic_v6,eeg-epilepsy-dynamic-v6,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
