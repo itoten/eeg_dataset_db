@@ -1,6 +1,6 @@
 access_tier,access_method,n_datasets,n_subjects_reported,hours_reported,n_datasets_without_subjects,n_datasets_without_hours
 open,direct_download,1953,56864,33537.7,628,1641
-one_time_human,free_account_required,753,1679,0,750,753
+one_time_human,free_account_required,753,1711,0,747,753
 one_time_human,site_terms_agreement,52,2571,0,4,52
 per_dataset_human,gated_click_through,5,62,0,3,5
 approval,request_form_or_email,146,6998,6364.25,85,142

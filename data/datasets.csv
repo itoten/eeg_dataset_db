@@ -916,31 +916,31 @@ kaggle_ahmedfaroukksiu_eeg_data,EEG-Data,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_a
 kaggle_ahmedfaroukksiu_eeg_with_augmentation,EEG-With-Augmentation,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_ahmedrum_eegpreprocessingdata,EEG-Preprocessing-data,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_ahmedrum_eegpreprocessingdata2,EEG-Preprocessing-data2,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
-kaggle_ahmeduzaki_eeg_eye_state_detection_dataset,EEG Eye State Detection Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aibaoqj_grasp_and_lift_eeg_detection,grasp-and-lift-eeg-detection,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aidenmerker_eeg_sleep_and_awake_datasets,eeg sleep and awake datasets,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aimenjaved1_neurosky_mindwaveeeg_device_dataset,Neurosky Mindwave(EEG) Device Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aishaniko_rp_grayscale_eeg_pd,RP Grayscale EEG PD,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aishiktokdar_trm_eeg_preprocessed,trm-eeg-preprocessed,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_ajaykarthik01_eeg_dataset,Psychological Disorder EEG Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_ajithdari_multimodal_emotion_dataset_video_eeg_ecg_and_emg,"Multimodal Emotion Dataset: Video, EEG, ECG & EMG",,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_ajitikumarishaw_thesis_eeg,thesis-eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aksharkher30_eeg_meditation_dnn,eeg-meditation-dnn,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alain2501_eeg_signal,EEG signal,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alejandragomezr_eeg_physionet,EEG Physionet,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alejandramontana_eeg_neuroaction_kaggle_codigo,eeg-neuroEEG NeuroAction pipelaction-kaggle-codigo,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alejopaullier_brain_eeg_spectrograms_zip,brain-eeg-spectrograms,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alekhya7gangopadhyay_eeg_hci_raw,EEG--HCI--raw,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alexispomares_dissertation_preprocessed,DISSERTATION — Preprocessed EEG Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alexispomares_dissertation_raw,DISSERTATION - raw EEG dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alexreigns14_finaldata,Epileptic Seizure EEG Dataset with CWT Images,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_alexzxie_hms_eeg_sptrograms_fd,hms-eeg-sptrograms-fd,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aliaaalaaeldin_eeg_daata,eeg-data,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aliaaalaaeldin_right_left_and_passive_eeg_signals,"right, left and passive eeg signals",,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aliiii3_eeg_spectrograms_all_differences,EEG Spectrograms - all differences,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aliiii3_efficientnetb0_eeg_spec_spec_data_augmentation,EfficientNetB0 EEG spec + spec + data augmentation,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_aliiii3_effnetb0_eeg_specs_kaggle_specs_6_epochs,EffNetB0 EEG Specs + Kaggle Specs 6 Epochs,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
-kaggle_allyliew_participant_data,Ally Liew & Kashika Khurana EEG Dataset 2026,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
+kaggle_ahmeduzaki_eeg_eye_state_detection_dataset,EEG Eye State Detection Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,14,,,,,,2026-11-18
+kaggle_aibaoqj_grasp_and_lift_eeg_detection,grasp-and-lift-eeg-detection,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aidenmerker_eeg_sleep_and_awake_datasets,eeg sleep and awake datasets,,eeg_signals,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,sleep,,2026-11-18
+kaggle_aimenjaved1_neurosky_mindwaveeeg_device_dataset,Neurosky Mindwave(EEG) Device Dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aishaniko_rp_grayscale_eeg_pd,RP Grayscale EEG PD,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aishiktokdar_trm_eeg_preprocessed,trm-eeg-preprocessed,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_ajaykarthik01_eeg_dataset,Psychological Disorder EEG Dataset,,eeg_signals,scalp_eeg,,,,,,,,,,,,10,,,,,,,,,,free_account_required,one_time_human,,,,,emotion_induction,,2026-11-18
+kaggle_ajithdari_multimodal_emotion_dataset_video_eeg_ecg_and_emg,"Multimodal Emotion Dataset: Video, EEG, ECG & EMG",,,scalp_eeg;ecg;emg;video,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_ajitikumarishaw_thesis_eeg,thesis-eeg,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aksharkher30_eeg_meditation_dnn,eeg-meditation-dnn,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_alain2501_eeg_signal,EEG signal,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_alejandragomezr_eeg_physionet,EEG Physionet,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_alejandramontana_eeg_neuroaction_kaggle_codigo,eeg-neuroEEG NeuroAction pipelaction-kaggle-codigo,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_alejopaullier_brain_eeg_spectrograms_zip,brain-eeg-spectrograms,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_alekhya7gangopadhyay_eeg_hci_raw,EEG--HCI--raw,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_alexispomares_dissertation_preprocessed,DISSERTATION — Preprocessed EEG Dataset,,eeg_signals,scalp_eeg,,,,,,,,,,,,11,,,,,,,,,,free_account_required,one_time_human,,1000,,"Electrical Geodesics, Inc. GTEN 200",resting_eyes_open,,2026-11-18
+kaggle_alexispomares_dissertation_raw,DISSERTATION - raw EEG dataset,,eeg_signals,scalp_eeg,,,,,,,,,,,,11,,,,,,,,,,free_account_required,one_time_human,,1000,,"Electrical Geodesics, Inc. GTEN 200",resting_eyes_open,,2026-11-18
+kaggle_alexreigns14_finaldata,Epileptic Seizure EEG Dataset with CWT Images,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_alexzxie_hms_eeg_sptrograms_fd,hms-eeg-sptrograms-fd,,,scalp_eeg,,,,Apache-2.0,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aliaaalaaeldin_eeg_daata,eeg-data,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aliaaalaaeldin_right_left_and_passive_eeg_signals,"right, left and passive eeg signals",,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aliiii3_eeg_spectrograms_all_differences,EEG Spectrograms - all differences,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aliiii3_efficientnetb0_eeg_spec_spec_data_augmentation,EfficientNetB0 EEG spec + spec + data augmentation,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_aliiii3_effnetb0_eeg_specs_kaggle_specs_6_epochs,EffNetB0 EEG Specs + Kaggle Specs 6 Epochs,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
+kaggle_allyliew_participant_data,Ally Liew & Kashika Khurana EEG Dataset 2026,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-18
 kaggle_alna123_autism_detection_using_synthetic_eeg_signal_data,Autism detection using Synthetic EEG signal data,,,scalp_eeg,,,,MIT,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_alnemari_eegdataset,EEG MY DATA1,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17
 kaggle_alphajr7_mdd_patients_eeg_dataset,MDD patients eeg dataset,,,scalp_eeg,,,,,,,,,,,,,,,,,,,,,,free_account_required,one_time_human,,,,,,,2026-11-17

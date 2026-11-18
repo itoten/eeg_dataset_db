@@ -2231,6 +2231,10 @@ isruc_sleep,full_night_polysomnography,full-night polysomnography,sleep,,,,,,,,
 isruc_sleep,main,,,,,,,,,,Paradigm withdrawn (see superseded evidence)
 ji2024_stroop_high_altitude,facial_expression_stroop,facial expression Stroop,cognitive_task,,,,,,,,
 jsmf_access,intraoperative_anaesthesia_and_emergence,intraoperative anaesthesia and emergence,anesthesia,,,,,,,,
+kaggle_aidenmerker_eeg_sleep_and_awake_datasets,sleep_and_awake_states,sleep and awake states,sleep,,,,,,,,
+kaggle_ajaykarthik01_eeg_dataset,videos_chosen_to_trigger_responses_linke,videos chosen to trigger responses linked to psychological disorders,emotion_induction,,,,,,,,
+kaggle_alexispomares_dissertation_preprocessed,resting_awake_with_transcranial_electric,resting awake with transcranial electrical stimulation,resting_eyes_open,,,,,,,,
+kaggle_alexispomares_dissertation_raw,resting_awake_with_transcranial_electric,resting awake with transcranial electrical stimulation,resting_eyes_open,,,,,,,,
 kaya2018,main,,motor_imagery,,,,,,,,Paradigm stated by the dataset name
 kaya2018,motor_imagery_bci_interaction_cla_halt_5,"motor imagery BCI interaction (CLA, HaLT, 5F, FreeForm, NoMT)",motor_imagery,,,,,,,,
 liu2024_acute_stroke_mi,left_right_hand_grip_motor_imagery,left/right hand-grip motor imagery,motor_imagery,,,,,,,,
