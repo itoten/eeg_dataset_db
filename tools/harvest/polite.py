@@ -8,6 +8,8 @@ Rules (CLAUDE.md "do not burden data sites"; limits as published, 2026-11-18):
   publish nothing we could read, so the same cautious gap applies).
 - A 403 or 429 is not retried: that host is left alone for an hour (cache/polite/<host>.blocked_until).
   Other failures are retried at most twice, slowly.
+- Kaggle publishes no limit and blocked us after about 400 requests in a row, so it has a daily cap
+  (DAILY) and a 24 h pause (PAUSES); the cap counts requests per host per day in cache/polite/<host>.count.
 """
 import fcntl
 import json
@@ -23,6 +25,8 @@ STATE = ROOT / "cache" / "polite"
 CONTACT = os.environ.get("POLITE_CONTACT", "")
 UA = "eeg_dataset_db-harvester/1.0 (+https://github.com/itoten/eeg_dataset_db" + (f"; mailto:{CONTACT}" if CONTACT else "") + ")"
 GAP, PAUSE = 2.0, 3600
+DAILY = {"www.kaggle.com": 150}
+PAUSES = {"www.kaggle.com": 86400}
 
 
 class Blocked(Exception):
@@ -36,6 +40,13 @@ def request(url, data=None, headers=None, limit=None):
     bf = STATE / f"{host}.blocked_until"
     if bf.exists() and time.time() < float(bf.read_text()):
         raise Blocked(f"{host} paused until {time.ctime(float(bf.read_text()))}")
+    if host in DAILY:
+        cf, today = STATE / f"{host}.count", time.strftime("%Y-%m-%d")
+        day, n = (cf.read_text().split() + ["", "0"])[:2] if cf.exists() else ("", "0")
+        n = int(n) if day == today else 0
+        if n >= DAILY[host]:
+            raise Blocked(f"{host}: daily cap of {DAILY[host]} requests reached")
+        cf.write_text(f"{today} {n + 1}")
     h = {"User-Agent": UA, **(headers or {})}
     for i in range(3):
         with open(STATE / f"{host}.lock", "a+") as lk:
@@ -49,8 +60,9 @@ def request(url, data=None, headers=None, limit=None):
                     return r.read(limit) if limit else r.read()
             except urllib.error.HTTPError as e:
                 if e.code in (403, 429):
-                    bf.write_text(str(time.time() + PAUSE))
-                    raise Blocked(f"{e.code} from {host}; paused for {PAUSE // 60} min") from e
+                    pause = PAUSES.get(host, PAUSE)
+                    bf.write_text(str(time.time() + pause))
+                    raise Blocked(f"{e.code} from {host}; paused for {pause // 60} min") from e
                 if e.code < 500 or i == 2:
                     raise
             except (urllib.error.URLError, TimeoutError):
