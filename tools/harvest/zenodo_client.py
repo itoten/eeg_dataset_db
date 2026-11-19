@@ -76,3 +76,28 @@ def record(rid, refresh=False):
         return json.loads(f.read_text()) if f.exists() else None
     f.write_text(json.dumps(d))
     return d
+
+
+def download(url, dest):
+    """Stream one /api/exporter file to dest (continuing a dest.part if there is one); same pacing and stop rules as get()."""
+    assert url.startswith("https://zenodo.org/api/exporter/"), url
+    STATE.mkdir(parents=True, exist_ok=True)
+    if time.time() < blocked_until():
+        raise Blocked(f"zenodo.org paused until {time.ctime(blocked_until())}")
+    dest = Path(dest)
+    part = dest.with_name(dest.name + ".part")
+    have = part.stat().st_size if part.exists() else 0
+    headers = {"User-Agent": UA, **({"Range": f"bytes={have}-"} if have else {})}
+    if os.environ.get("ZENODO_TOKEN"):
+        headers["Authorization"] = "Bearer " + os.environ["ZENODO_TOKEN"]
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=120) as r:
+            with open(part, "ab" if have and r.status == 206 else "wb") as f:
+                while chunk := r.read(1 << 20):
+                    f.write(chunk)
+    except urllib.error.HTTPError as e:
+        if e.code in (403, 429):
+            (STATE / ".blocked_until").write_text(str(time.time() + PAUSE))
+            raise Blocked(f"{e.code} from zenodo.org; paused for {PAUSE // 60} min") from e
+        raise
+    part.rename(dest)
