@@ -242,3 +242,15 @@ issues,n,int,empty,no,"Number of files or rows affected, if the source gives it"
 issues,source_id,slug,-,no,The source that reports the problem
 issues,locator,text,empty,no,Location within the source
 issues,checked_on,date,-,no,Date checked
+paper_journals,source_id,slug,-,no,A paper source in sources.csv
+paper_journals,doi,text,-,no,DOI of the paper (lower case)
+paper_journals,journal,text,empty,no,Name of the journal or other venue; empty when OpenAlex has no record of the DOI
+paper_journals,issn_l,text,empty,no,Linking ISSN of the venue; empty when it has none
+paper_journals,venue_type,text,empty,no,OpenAlex's kind of venue (journal; repository; conference; book series)
+paper_journals,pmid,text,empty,no,PubMed id OpenAlex gives for the paper; empty means OpenAlex gives none (not a proof the paper is absent from PubMed)
+paper_journals,fields,list,empty,no,Main subject fields of the venue (;-separated; OpenAlex's classification of the venue's papers)
+paper_journals,subfields,list,empty,no,Main subject subfields of the venue (;-separated)
+paper_journals,record_url,url,-,no,The OpenAlex record the values come from
+paper_journals,checked_on,date,-,no,Date the record was read
+paper_journals,checked_by,enum:checked_by,-,no,Who checked
+paper_journals,note,text,empty,no,Notes

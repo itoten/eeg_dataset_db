@@ -20,3 +20,4 @@ quality_info,data/quality_info.csv,dataset_id;quality_no,"One row = one kind of 
 distributed_versions,data/distributed_versions.csv,dataset_id;version_id,"One row = one form in which the data is distributed (raw, preprocessed, epoched, features), with the processing the provider applied"
 benchmarks,data/benchmarks.csv,dataset_id;benchmark_id,"One row = one machine-learning task that a paper defined on the dataset, with its metric and reported result"
 issues,data/issues.csv,dataset_id;issue_no,One row = one problem of the release as distributed
+paper_journals,data/paper_journals.csv,source_id,"One row = the journal of one paper source (name, ISSN, PubMed id, subject fields), as OpenAlex records it. Not evidence for a dataset's values"

@@ -65,6 +65,7 @@ def main():
     groups, pfields, anns = by_ds("participant_groups"), by_ds("participant_fields"), by_ds("annotations")
     issues, rels, aliases, chans = by_ds("issues"), by_ds("relations"), by_ds("aliases"), by_ds("channels")
     quality = by_ds("quality_info")
+    jr = {r["source_id"]: r for r in rows("paper_journals")}
     D = []
     for i, d in wide.items():
         v = view[i]
@@ -96,6 +97,7 @@ def main():
             "qual": [[r["kind"], r["description"], r["form"], sidx.get(r["source_id"], -1)] for r in quality[i]],
             "rel": [[r["relation"], r["other_dataset_id"], r["note"]] for r in rels[i]],
             "alias": [[r["alias"], r["alias_type"]] for r in aliases[i]],
+            "jr": [[j["journal"], j["pmid"], j["fields"], j["subfields"]] for j in (jr.get(srcs[l[1]]["source_id"]) for l in [(x["role"], sidx[x["source_id"]]) for x in links[i] if x["role"] == "paper" and x["source_id"] in sidx]) if j],
             "ch": ch, "papers": used.get(i, []),
         })
     commit = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--short=12", "HEAD"], capture_output=True, text=True).stdout.strip()

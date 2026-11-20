@@ -262,11 +262,11 @@ const L = {
       agesex: "被験者の年齢(範囲か平均)、または男女の人数が、資料に書かれている", quality: "インピーダンス、不良チャネルの印、アーチファクトの印など、記録の品質についての情報を配布元が出している" },
     ids_show: "含まれるライセンスを見る", ids_hide: "ライセンス名を隠す",
     any_min: "下限なし", any_max: "上限なし", range_hint: "値が書かれていないデータセットは除きます", data_h: "データの中身",
-    fac: { paper: "論文で使われたデータ", tier: "入手のしやすさ", mod: "信号の種類(モダリティ)", par: "課題(パラダイム)", dom: "研究分野", subj: "被験者数", hours: "合計時間 (h)", nch: "EEG チャネル数",
+    fac: { paper: "論文で使われたデータ", pub: "論文の掲載先(PubMed)", jfield: "ジャーナルの分野", tier: "入手のしやすさ", mod: "信号の種類(モダリティ)", par: "課題(パラダイム)", dom: "研究分野", subj: "被験者数", hours: "合計時間 (h)", nch: "EEG チャネル数",
       fs: "サンプリング周波数 (Hz)", gb: "サイズ (GB)", mont: "電極配置", maker: "計測機器のメーカー", elec: "電極の種類", ann: "ラベル・アノテーション", cond: "被験者",
       repo: "リポジトリ", licfam: "ライセンスの種類", licx: "ライセンスの条件で除く", lic: "ライセンス(個別)", com: "商用利用", feat: "こだわり条件" },
     sorts: { subj: "被験者数が多い順", hours: "合計時間が長い順", nch: "チャネル数が多い順", fs: "サンプリングが高い順", gb: "サイズが大きい順", year: "公開年が新しい順", name: "名前順" },
-    val: { mod: { scalp_eeg: "頭皮 EEG", ear_eeg: "耳 EEG", ieeg: "頭蓋内 EEG(ECoG・SEEG を含む)", ieeg_ecog: "頭蓋内 EEG: 皮質脳波 (ECoG)", ieeg_seeg: "頭蓋内 EEG: 定位脳波 (SEEG)", psg: "睡眠ポリグラフ", meg: "MEG", eog: "眼電図", ecg: "心電図", emg: "筋電図", eye_tracking: "視線計測", fnirs: "fNIRS", fmri: "fMRI", eda: "皮膚電気", respiration: "呼吸", video: "映像", audio: "音声", other_physiological: "その他の生体信号" },
+    val: { pub: { pubmed: "PubMed の番号あり", nopmid: "PubMed の番号なし(OpenAlex に無い)", nodoi: "論文の DOI が未登録", nopaper: "論文の登録なし" }, mod: { scalp_eeg: "頭皮 EEG", ear_eeg: "耳 EEG", ieeg: "頭蓋内 EEG(ECoG・SEEG を含む)", ieeg_ecog: "頭蓋内 EEG: 皮質脳波 (ECoG)", ieeg_seeg: "頭蓋内 EEG: 定位脳波 (SEEG)", psg: "睡眠ポリグラフ", meg: "MEG", eog: "眼電図", ecg: "心電図", emg: "筋電図", eye_tracking: "視線計測", fnirs: "fNIRS", fmri: "fMRI", eda: "皮膚電気", respiration: "呼吸", video: "映像", audio: "音声", other_physiological: "その他の生体信号" },
       par: { resting_eyes_open: "安静(開眼)", resting_eyes_closed: "安静(閉眼)", resting_unspecified: "安静", motor_imagery: "運動想起", motor_execution: "運動実行", p300_erp: "P300", ssvep: "SSVEP", auditory_erp: "聴覚 ERP", visual_erp: "視覚 ERP", emotion_induction: "感情喚起", imagined_speech: "発話想起", overt_speech: "発話", language: "言語", cognitive_task: "認知課題", passive_viewing: "受動視聴", sleep: "睡眠", clinical_routine: "臨床検査", long_term_monitoring: "長時間モニタリング", anesthesia: "麻酔", neurofeedback: "ニューロフィードバック", other: "その他" },
       dom: { clinical: "臨床", epilepsy: "てんかん", sleep: "睡眠", bci: "BCI", emotion: "感情", cognitive: "認知", perception: "知覚", motor: "運動", resting_state: "安静時", development: "発達", psychiatry: "精神医学", neurology: "神経学", other: "その他" },
       ann: { event_markers: "イベントマーカー", class_labels: "クラスラベル", self_report_ratings: "主観評価", clinical_diagnosis: "診断", clinical_report: "臨床レポート", normal_abnormal: "正常 / 異常", seizure_annotations: "発作の注釈", event_annotations: "臨床イベント", sleep_stages: "睡眠段階", artifact_annotations: "アーチファクトの印", behavioral_responses: "行動反応", questionnaires: "質問紙", other: "その他" },
@@ -323,11 +323,11 @@ const L = {
       agesex: "The documents state the participants' age (range or mean) or the numbers of women and men", quality: "The provider gives information on recording quality: impedances, bad-channel marks, artifact marks and the like" },
     ids_show: "Show the licenses in each group", ids_hide: "Hide license names",
     any_min: "No minimum", any_max: "No maximum", range_hint: "Datasets that do not state the value are left out", data_h: "What the release holds",
-    fac: { paper: "Used in a paper", tier: "Ease of access", mod: "Signals (modality)", par: "Task (paradigm)", dom: "Research domain", subj: "Subjects", hours: "Total hours", nch: "EEG channels",
+    fac: { paper: "Used in a paper", pub: "Paper venue (PubMed)", jfield: "Journal field", tier: "Ease of access", mod: "Signals (modality)", par: "Task (paradigm)", dom: "Research domain", subj: "Subjects", hours: "Total hours", nch: "EEG channels",
       fs: "Sampling rate (Hz)", gb: "Size (GB)", mont: "Montage", maker: "Device maker", elec: "Electrode type", ann: "Labels and annotations", cond: "Participants",
       repo: "Repository", licfam: "License family", licx: "Leave out by license terms", lic: "License (exact)", com: "Commercial use", feat: "Must have" },
     sorts: { subj: "Most subjects", hours: "Longest recordings", nch: "Most channels", fs: "Highest sampling rate", gb: "Largest", year: "Newest", name: "Name" },
-    val: { mod: { scalp_eeg: "Scalp EEG", ear_eeg: "Ear EEG", ieeg: "Intracranial EEG (incl. ECoG, SEEG)", ieeg_ecog: "Intracranial EEG: ECoG", ieeg_seeg: "Intracranial EEG: SEEG", psg: "Polysomnography", meg: "MEG", eog: "EOG", ecg: "ECG", emg: "EMG", eye_tracking: "Eye tracking", fnirs: "fNIRS", fmri: "fMRI", eda: "Electrodermal activity", respiration: "Respiration", video: "Video", audio: "Audio", other_physiological: "Other physiological signals" },
+    val: { pub: { pubmed: "Has a PubMed id", nopmid: "No PubMed id (per OpenAlex)", nodoi: "Paper DOI not registered", nopaper: "No paper registered" }, mod: { scalp_eeg: "Scalp EEG", ear_eeg: "Ear EEG", ieeg: "Intracranial EEG (incl. ECoG, SEEG)", ieeg_ecog: "Intracranial EEG: ECoG", ieeg_seeg: "Intracranial EEG: SEEG", psg: "Polysomnography", meg: "MEG", eog: "EOG", ecg: "ECG", emg: "EMG", eye_tracking: "Eye tracking", fnirs: "fNIRS", fmri: "fMRI", eda: "Electrodermal activity", respiration: "Respiration", video: "Video", audio: "Audio", other_physiological: "Other physiological signals" },
       par: { resting_eyes_open: "Resting (eyes open)", resting_eyes_closed: "Resting (eyes closed)", resting_unspecified: "Resting", motor_imagery: "Motor imagery", motor_execution: "Motor execution", p300_erp: "P300", ssvep: "SSVEP", auditory_erp: "Auditory ERP", visual_erp: "Visual ERP", emotion_induction: "Emotion induction", imagined_speech: "Imagined speech", overt_speech: "Overt speech", language: "Language", cognitive_task: "Cognitive task", passive_viewing: "Passive viewing", sleep: "Sleep", clinical_routine: "Routine clinical EEG", long_term_monitoring: "Long-term monitoring", anesthesia: "Anesthesia", neurofeedback: "Neurofeedback", other: "Other" },
       dom: { clinical: "Clinical", epilepsy: "Epilepsy", sleep: "Sleep", bci: "BCI", emotion: "Emotion", cognitive: "Cognition", perception: "Perception", motor: "Motor", resting_state: "Resting state", development: "Development", psychiatry: "Psychiatry", neurology: "Neurology", other: "Other" },
       ann: { event_markers: "Event markers", class_labels: "Class labels", self_report_ratings: "Self-report ratings", clinical_diagnosis: "Diagnosis", clinical_report: "Clinical report", normal_abnormal: "Normal / abnormal", seizure_annotations: "Seizure annotations", event_annotations: "Clinical events", sleep_stages: "Sleep stages", artifact_annotations: "Artifact marks", behavioral_responses: "Behavioral responses", questionnaires: "Questionnaires", other: "Other" }, cond: { healthy: "Includes healthy", patient: "Includes patients", mixed: "Patients and controls" }, elec: { wet_gel: "Gel (wet)", saline: "Saline", dry: "Dry", intracranial: "Intracranial", mixed: "Mixed" },
@@ -462,10 +462,13 @@ D.forEach(d => {
   d._feat = [d.bids === "true" && "bids", Object.keys(d.ch).length && "chnames", d.groups.some(g => g.age_min || g.age_mean || g.n_female || g.n_male) && "agesex",
     d.qual.length && "quality", d.tasks.length && "tasks", d.links.some(l => l[0] === "paper") && "paper", d.doc && "doc"].filter(Boolean);
   d._lt = licTags(d.lic);
+  d._jf = [...new Set(d.jr.flatMap(j => [...semi(j[2]), ...semi(j[3])]))];
+  d._pub = [d.jr.some(j => j[1]) ? "pubmed" : d.jr.length ? "nopmid" : d.links.some(l => l[0] === "paper") ? "nodoi" : "nopaper"];
   d._r = { subj: num(d.subj), hours: num(d.hours), nch: maxOf(semi(d.nch)), fs: maxOf(semi(d.fs)), gb: num(d.gb) };
 });
 const CHECK = {
   paper: { get: d => d.papers, label: v => { const [p, r] = v.split(":"); return `${p}(${T().roles[r] || r})`; }, order: v => ["REVE:pretraining", "REVE:downstream", "SingLEM:pretraining", "CBraMod:pretraining", "CBraMod:downstream"].indexOf(v), open: true },
+  pub: { get: d => d._pub, order: v => ["pubmed", "nopmid", "nodoi", "nopaper"].indexOf(v), open: true }, jfield: { get: d => d._jf, top: 10 },
   tier: { get: d => [d.tier || ""], label: v => (T().tiers[v] || T().tiers[""])[0], order: v => TIERS.findIndex(t => t[0] === v), open: true },
   mod: { get: d => [...new Set(semi(d.mod).map(v => v.startsWith("ieeg") ? "ieeg" : v))], open: true }, par: { get: d => semi(d.par), open: true, top: 10 }, dom: { get: d => semi(d.dom) },
   ann: { get: d => d._ann }, cond: { get: d => d._cond }, mont: { get: d => semi(d.mont) }, maker: { get: d => d._maker, top: 8 }, elec: { get: d => d._elec },
@@ -474,7 +477,7 @@ const CHECK = {
 };
 const RANGE = { subj: [5, 10, 20, 30, 50, 100, 200, 500, 1000, 5000], hours: [1, 5, 10, 50, 100, 500, 1000, 10000], nch: [1, 2, 4, 8, 16, 19, 32, 64, 128, 256],
   fs: [100, 128, 200, 250, 256, 500, 512, 1000, 2000, 5000], gb: [0.1, 1, 5, 10, 50, 100, 500, 1000] };
-const ORDER = ["paper", "tier", "mod", "par", "subj", "nch", "fs", "hours", "gb", "dom", "ann", "cond", "mont", "elec", "maker", "licfam", "licx", "lic", "com", "repo", "feat"];
+const ORDER = ["paper", "pub", "jfield", "tier", "mod", "par", "subj", "nch", "fs", "hours", "gb", "dom", "ann", "cond", "mont", "elec", "maker", "licfam", "licx", "lic", "com", "repo", "feat"];
 const vlabel = (k, v) => CHECK[k] && CHECK[k].label ? CHECK[k].label(v) : ((T().val[k] || {})[v] || v || T().not_checked);
 const passCheck = (d, k) => { const sel = state.f[k]; if (!sel || !sel.size) return true; const g = CHECK[k].get(d); return CHECK[k].all ? [...sel].every(v => g.includes(v)) : g.some(v => sel.has(v)); };
 const passRange = (d, k) => { const r = state.r[k]; if (!r || (r[0] === "" && r[1] === "")) return true; const x = d._r[k]; if (x === null || x === undefined || isNaN(x)) return false;
