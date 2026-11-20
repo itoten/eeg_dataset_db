@@ -254,3 +254,12 @@ paper_journals,record_url,url,-,no,The OpenAlex record the values come from
 paper_journals,checked_on,date,-,no,Date the record was read
 paper_journals,checked_by,enum:checked_by,-,no,Who checked
 paper_journals,note,text,empty,no,Notes
+journal_rankings,issn_l,text,-,no,Linking ISSN of the journal (as in paper_journals)
+journal_rankings,sjr_title,text,-,no,Title as SCImago prints it
+journal_rankings,sjr_year,int,-,no,Year of the ranking file
+journal_rankings,sjr,float,empty,no,SCImago Journal Rank indicator of that year
+journal_rankings,best_quartile,text,empty,no,Best of the journal's quartiles over its subject categories (Q1-Q4); empty when SCImago gives none
+journal_rankings,categories,text,empty,no,SCImago subject categories with the quartile in each (;-separated)
+journal_rankings,record_url,url,-,no,Page of the ranking in SCImago
+journal_rankings,checked_on,date,-,no,Date the file was imported
+journal_rankings,checked_by,enum:checked_by,-,no,Who checked

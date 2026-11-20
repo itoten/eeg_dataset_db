@@ -21,3 +21,4 @@ distributed_versions,data/distributed_versions.csv,dataset_id;version_id,"One ro
 benchmarks,data/benchmarks.csv,dataset_id;benchmark_id,"One row = one machine-learning task that a paper defined on the dataset, with its metric and reported result"
 issues,data/issues.csv,dataset_id;issue_no,One row = one problem of the release as distributed
 paper_journals,data/paper_journals.csv,source_id,"One row = the journal of one paper source (name, ISSN, PubMed id, subject fields), as OpenAlex records it. Not evidence for a dataset's values"
+journal_rankings,data/journal_rankings.csv,issn_l,"One row = the SCImago Journal Rank of a journal that a paper source in paper_journals names, from a file a person downloaded from scimagojr.com. Not evidence for a dataset's values"
