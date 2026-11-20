@@ -19,6 +19,8 @@ datasets,n_subjects_reported,int,empty;unknown;conflicting,yes,Number of subject
 datasets,n_sessions_reported,int,empty;unknown;conflicting,yes,Number of sessions the documentation states
 datasets,n_recordings_reported,int,empty;unknown;conflicting,yes,Number of recordings (files of continuous data) the documentation states
 datasets,hours_reported,float,empty;unknown;conflicting,yes,Total recording time in hours the documentation states
+datasets,hours_per_subject_reported,float,empty;unknown;conflicting,yes,Recording time per participant in hours that the documentation states for a typical participant (an average or 'each participant'); not the total divided by the number of subjects
+datasets,days_per_subject_reported,float,empty;unknown;conflicting,yes,"Number of days over which each participant was recorded, as the documentation states"
 datasets,size_gb_reported,float,empty;unknown;conflicting,yes,Size of the release in GB the documentation states
 datasets,n_subjects_release,int,empty;unknown;conflicting,yes,"Number of subjects in the whole release as distributed, before any filtering (recipe readme only)"
 datasets,n_sessions_release,int,empty;unknown;conflicting,yes,Number of sessions in the whole release as distributed (recipe readme only)

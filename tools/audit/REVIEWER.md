@@ -87,6 +87,8 @@ part of the data only (one group, one session), give `scope`.
 |---|---|
 | n_subjects_reported | integer, participants in the whole dataset |
 | hours_reported | number of hours as stated (only if hours are stated) |
+| hours_per_subject_reported | recording time per participant, for a typical or every participant; give `value` as the number written in the quote and `unit` (second, minute, hour, day); not a total divided by the subjects |
+| days_per_subject_reported | days over which each participant was recorded; `value` as written, `unit` day or week |
 | modalities | ;-list from: scalp_eeg, ear_eeg, ieeg, ieeg_ecog, ieeg_seeg, psg, meg, eog, ecg, emg, eye_tracking, fnirs, fmri, eda, respiration, video, audio, other_physiological |
 | domains | ;-list from: clinical, epilepsy, sleep, bci, emotion, cognitive, perception, motor, resting_state, development, psychiatry, neurology, other |
 | device_manufacturer | as written (e.g. "BioSemi") |

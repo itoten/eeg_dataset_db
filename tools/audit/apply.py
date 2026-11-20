@@ -23,7 +23,9 @@ sys.path.insert(0, str(ROOT / "tools" / "harvest"))
 import zenodo_client  # noqa: E402
 
 PAGES = ROOT / "cache/audit/pages"
-DATASET_FIELDS = {"n_subjects_reported": "int", "hours_reported": "num", "modalities": "enum", "domains": "enum", "year_published": "int", "license_spdx": "enum"}
+DATASET_FIELDS = {"n_subjects_reported": "int", "hours_reported": "num", "hours_per_subject_reported": "num", "days_per_subject_reported": "num", "modalities": "enum", "domains": "enum", "year_published": "int", "license_spdx": "enum"}
+# per-participant durations: the quote holds the number in the unit the document uses; the DB keeps hours (days for days)
+DURATION_UNITS = {"hours_per_subject_reported": {"second": 1 / 3600, "minute": 1 / 60, "hour": 1, "day": 24, "night": 8}, "days_per_subject_reported": {"day": 1, "week": 7, "night": 1}}
 SETUP_FIELDS = {"device_manufacturer": "text", "device_model": "text", "electrode_type": "enum", "n_channels_eeg": "int", "montage_system": "enum",
                 "reference": "text", "ground": "text", "sampling_rate_hz": "num", "line_freq_hz": "int", "hardware_filter": "text"}
 GROUP_FIELDS = {"n_subjects": "int", "condition": "enum", "diagnosis": "text", "age_min": "num", "age_max": "num", "age_mean": "num", "age_sd": "num",
@@ -325,12 +327,16 @@ def main():
                 continue
             if not check(did, fld, url, q):
                 continue
+            conv = DURATION_UNITS.get(fld, {}).get(str(fct.get("unit", "")).lower().rstrip("s"))
+            if fld in DURATION_UNITS and conv is None:
+                rep["rejected"].append({"dataset_id": did, "what": fld, "why": f"unit '{fct.get('unit')}' not accepted"})
+                continue
             if not value_ok(kind, val, q) or not enum_ok(fld, str(val).strip(), q):
                 rep["rejected"].append({"dataset_id": did, "what": fld, "why": "value not in quote", "value": val, "quote": q})
                 rep["accepted"].pop()
                 continue
             try:
-                v = fmt(kind, val)
+                v = fmt(kind, val if conv is None else float(val) * conv)
             except ValueError:
                 continue
             if fld in SETUP_FIELDS and "main" not in setup_rows:
