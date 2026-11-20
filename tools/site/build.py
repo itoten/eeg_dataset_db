@@ -80,7 +80,7 @@ def main():
             "lic": d["license_spdx"], "licn": d["license_note"], "terms": [d["ml_training_terms"], d["commercial_use_terms"], d["derivative_terms"]],
             "termsn": d["terms_note"], "bids": d["is_bids"], "year": d["year_published"],
             "subj": d["n_subjects_reported"], "sess": d["n_sessions_reported"], "rec": d["n_recordings_reported"],
-            "hours": d["hours_reported"], "gb": d["size_gb_reported"],
+            "hours": d["hours_reported"], "hps": d["hours_per_subject_reported"], "dps": d["days_per_subject_reported"], "gb": d["size_gb_reported"],
             "rel_counts": [d["n_subjects_release"], d["n_recordings_release"], d["hours_release"]],
             "best": d["best_access_method"], "tier": d["access_tier"], "nch": d["n_channels_eeg"], "fs": d["sampling_rates_hz"],
             "mont": d["montage_systems"], "dev": d["devices"], "par": d["paradigms"], "notes": d["notes"], "upd": d["last_updated_on"],

@@ -262,7 +262,7 @@ const L = {
       agesex: "被験者の年齢(範囲か平均)、または男女の人数が、資料に書かれている", quality: "インピーダンス、不良チャネルの印、アーチファクトの印など、記録の品質についての情報を配布元が出している" },
     ids_show: "含まれるライセンスを見る", ids_hide: "ライセンス名を隠す",
     any_min: "下限なし", any_max: "上限なし", range_hint: "値が書かれていないデータセットは除きます", data_h: "データの中身",
-    fac: { paper: "論文で使われたデータ", pub: "論文の掲載先(PubMed)", jfield: "ジャーナルの分野", jq: "ジャーナルの四分位(SCImago)", tier: "入手のしやすさ", mod: "信号の種類(モダリティ)", par: "課題(パラダイム)", dom: "研究分野", subj: "被験者数", hours: "合計時間 (h)", nch: "EEG チャネル数",
+    fac: { paper: "論文で使われたデータ", pub: "論文の掲載先(PubMed)", jfield: "ジャーナルの分野", jq: "ジャーナルの四分位(SCImago)", tier: "入手のしやすさ", mod: "信号の種類(モダリティ)", par: "課題(パラダイム)", dom: "研究分野", subj: "被験者数", hours: "合計時間 (h)", hps: "1人あたりの計測時間 (h・資料に書かれた値)", hpc: "1人あたりの計測時間 (h・合計時間÷被験者数の計算値)", dps: "1人あたりの計測日数", nch: "EEG チャネル数",
       fs: "サンプリング周波数 (Hz)", gb: "サイズ (GB)", mont: "電極配置", maker: "計測機器のメーカー", elec: "電極の種類", ann: "ラベル・アノテーション", cond: "被験者",
       repo: "リポジトリ", licfam: "ライセンスの種類", licx: "ライセンスの条件で除く", lic: "ライセンス(個別)", com: "商用利用", feat: "こだわり条件" },
     sorts: { subj: "被験者数が多い順", hours: "合計時間が長い順", nch: "チャネル数が多い順", fs: "サンプリングが高い順", gb: "サイズが大きい順", year: "公開年が新しい順", name: "名前順" },
@@ -323,7 +323,7 @@ const L = {
       agesex: "The documents state the participants' age (range or mean) or the numbers of women and men", quality: "The provider gives information on recording quality: impedances, bad-channel marks, artifact marks and the like" },
     ids_show: "Show the licenses in each group", ids_hide: "Hide license names",
     any_min: "No minimum", any_max: "No maximum", range_hint: "Datasets that do not state the value are left out", data_h: "What the release holds",
-    fac: { paper: "Used in a paper", pub: "Paper venue (PubMed)", jfield: "Journal field", jq: "Journal quartile (SCImago)", tier: "Ease of access", mod: "Signals (modality)", par: "Task (paradigm)", dom: "Research domain", subj: "Subjects", hours: "Total hours", nch: "EEG channels",
+    fac: { paper: "Used in a paper", pub: "Paper venue (PubMed)", jfield: "Journal field", jq: "Journal quartile (SCImago)", tier: "Ease of access", mod: "Signals (modality)", par: "Task (paradigm)", dom: "Research domain", subj: "Subjects", hours: "Total hours", hps: "Hours per participant (stated in the documents)", hpc: "Hours per participant (computed: total hours / subjects)", dps: "Days recorded per participant", nch: "EEG channels",
       fs: "Sampling rate (Hz)", gb: "Size (GB)", mont: "Montage", maker: "Device maker", elec: "Electrode type", ann: "Labels and annotations", cond: "Participants",
       repo: "Repository", licfam: "License family", licx: "Leave out by license terms", lic: "License (exact)", com: "Commercial use", feat: "Must have" },
     sorts: { subj: "Most subjects", hours: "Longest recordings", nch: "Most channels", fs: "Highest sampling rate", gb: "Largest", year: "Newest", name: "Name" },
@@ -465,7 +465,7 @@ D.forEach(d => {
   d._jf = [...new Set(d.jr.flatMap(j => [...semi(j[2]), ...semi(j[3])]))];
   d._jq = [...new Set(d.jr.map(j => j[4]).filter(Boolean))];
   d._pub = [d.jr.some(j => j[1]) ? "pubmed" : d.jr.length ? "nopmid" : d.links.some(l => l[0] === "paper") ? "nodoi" : "nopaper"];
-  d._r = { subj: num(d.subj), hours: num(d.hours), nch: maxOf(semi(d.nch)), fs: maxOf(semi(d.fs)), gb: num(d.gb) };
+  d._r = { subj: num(d.subj), hours: num(d.hours), hps: num(d.hps), hpc: (num(d.hours) !== null && num(d.subj) ? num(d.hours) / num(d.subj) : null), dps: num(d.dps), nch: maxOf(semi(d.nch)), fs: maxOf(semi(d.fs)), gb: num(d.gb) };
 });
 const CHECK = {
   paper: { get: d => d.papers, label: v => { const [p, r] = v.split(":"); return `${p}(${T().roles[r] || r})`; }, order: v => ["REVE:pretraining", "REVE:downstream", "SingLEM:pretraining", "CBraMod:pretraining", "CBraMod:downstream"].indexOf(v), open: true },
@@ -477,8 +477,9 @@ const CHECK = {
   repo: { get: d => [d.repo], top: 8 }, lic: { get: d => [d.lic || ""], top: 8 }, com: { get: d => [d.terms[1] || ""] }, feat: { get: d => d._feat, open: true, all: true, order: v => ["doc", "paper", "bids", "chnames", "tasks", "agesex", "quality"].indexOf(v) },
 };
 const RANGE = { subj: [5, 10, 20, 30, 50, 100, 200, 500, 1000, 5000], hours: [1, 5, 10, 50, 100, 500, 1000, 10000], nch: [1, 2, 4, 8, 16, 19, 32, 64, 128, 256],
+  hps: [0.1, 0.25, 0.5, 1, 2, 5, 10, 24], hpc: [0.1, 0.25, 0.5, 1, 2, 5, 10, 24], dps: [1, 2, 3, 5, 7, 14, 30],
   fs: [100, 128, 200, 250, 256, 500, 512, 1000, 2000, 5000], gb: [0.1, 1, 5, 10, 50, 100, 500, 1000] };
-const ORDER = ["paper", "pub", "jfield", "jq", "tier", "mod", "par", "subj", "nch", "fs", "hours", "gb", "dom", "ann", "cond", "mont", "elec", "maker", "licfam", "licx", "lic", "com", "repo", "feat"].filter(k => k !== "jq" || D.some(d => d._jq.length));
+const ORDER = ["paper", "pub", "jfield", "jq", "tier", "mod", "par", "subj", "hps", "hpc", "dps", "nch", "fs", "hours", "gb", "dom", "ann", "cond", "mont", "elec", "maker", "licfam", "licx", "lic", "com", "repo", "feat"].filter(k => k !== "jq" || D.some(d => d._jq.length));
 const vlabel = (k, v) => CHECK[k] && CHECK[k].label ? CHECK[k].label(v) : ((T().val[k] || {})[v] || v || T().not_checked);
 const passCheck = (d, k) => { const sel = state.f[k]; if (!sel || !sel.size) return true; const g = CHECK[k].get(d); return CHECK[k].all ? [...sel].every(v => g.includes(v)) : g.some(v => sel.has(v)); };
 const passRange = (d, k) => { const r = state.r[k]; if (!r || (r[0] === "" && r[1] === "")) return true; const x = d._r[k]; if (x === null || x === undefined || isNaN(x)) return false;
